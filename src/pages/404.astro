@@ -8,7 +8,7 @@ import { loadSite } from '../lib/load-site';
 const { site, content } = await loadSite();
 const SITE_NAME_T = site.brand;
 // Only suggest services this site actually renders a page for, so vertical
-// (homepage-only) sites don't 404-link to HVAC service pages they lack.
+// (homepage-only) sites don't 404-link to plumbing service pages they lack.
 const popularServices = SERVICES.filter((s) => s.slug in content.SVC).slice(0, 3);
 
 const title = `Page Not Found | ${SITE_NAME_T}`;

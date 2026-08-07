@@ -70,8 +70,8 @@ if (!overrides.home_faqs) {
   }
 }
 
-const title = overrides.home_title || `${SITE_NAME_T} | HVAC Company in ${site.city}, ON`;
-const desc = overrides.home_desc || `${site.brand} provides honest, efficient, dependable HVAC service in ${site.city}, Ontario, furnace & AC repair, heat pumps & more. Call ${site.phone.display} for a free quote.`;
+const title = overrides.home_title || `${SITE_NAME_T} | Plumber in ${site.city}, ON`;
+const desc = overrides.home_desc || `${site.brand} provides honest, efficient, dependable plumbing service in ${site.city}, Ontario, water heaters, drain cleaning, repiping & more. Call ${site.phone.display} for a free quote.`;
 
 // Service cards: prefer override data (icon mapped by index from HOME_SERVICES),
 // else use the per-site HOME_SERVICES content.
@@ -165,15 +165,15 @@ const vc = verticalCopy(site);
       <div class="reveal">
         <span class="eyebrow" set:html={overrides.who_we_are_eyebrow || 'Who We Are'}></span>
         <h2 set:html={overrides.who_we_are_h2 || `An Established Name in ${site.city} Home Comfort`}></h2>
-        <p class="lead" set:html={overrides.who_we_are_lead || `${site.brandHtml} is a licensed, insured HVAC company in ${site.city}, Ontario that handles both heating and cooling for homeowners, from a single repair to a maintenance plan that runs all year.`}></p>
-        <p set:html={(overrides.who_we_are_paragraphs && overrides.who_we_are_paragraphs[0]) || `We built this business on long-term relationships, not one-off calls. Homeowners stay with us because the same team services the furnace they trust us with in January and the air conditioner we tune up in June. You get steady, honest advice, work done right, and someone who already knows your equipment when you pick up the phone.`}></p>
+        <p class="lead" set:html={overrides.who_we_are_lead || `${site.brandHtml} is a licensed, insured plumbing company in ${site.city}, Ontario that handles both plumbing work for homeowners, from a single repair to a maintenance plan that runs all year.`}></p>
+        <p set:html={(overrides.who_we_are_paragraphs && overrides.who_we_are_paragraphs[0]) || `We built this business on long-term relationships, not one-off calls. Homeowners stay with us because the same team services the water heater they trust us with in winter and the sump pump we check in spring. You get steady, honest advice, work done right, and someone who already knows your equipment when you pick up the phone.`}></p>
         <div style="display:flex;align-items:center;gap:14px;margin-top:24px">
           <img class="badge-img" src={`${WP}/quality-guarantee.png`} alt="Satisfaction guarantee" width="320" height="320" loading="lazy" decoding="async">
           <p style="margin:0;color:var(--muted);font-size:.95rem">Backed by our 100% satisfaction guarantee on every job.</p>
         </div>
       </div>
       <div class="split__media reveal d1">
-        <img class="media-photo" src={`${WP}/${techPhoto}`} alt={overrides.media_photo_alt || `${site.brand} HVAC technician on a service call in ${site.city}, Ontario`} width="1350" height="1350" loading="lazy" decoding="async">
+        <img class="media-photo" src={`${WP}/${techPhoto}`} alt={overrides.media_photo_alt || `${site.brand} licensed plumber on a service call in ${site.city}, Ontario`} width="1350" height="1350" loading="lazy" decoding="async">
       </div>
     </div>
   </div>
@@ -185,7 +185,7 @@ const vc = verticalCopy(site);
     <div class="section-head reveal">
       <span class="eyebrow" set:html={overrides.full_service_eyebrow || 'Full Service, One Team'}></span>
       <h2 set:html={overrides.full_service_h2 || 'Everything Your Home Comfort System Needs, Under One Roof'}></h2>
-      <p set:html={overrides.full_service_intro || `Heating, cooling, air quality, and controls, all looked after by the same crew. Whether it is a repair today or a maintenance plan that keeps things running for years, you only need one number.`}></p>
+      <p set:html={overrides.full_service_intro || `Water heaters, drains, fixtures, repiping, and water treatment, all looked after by the same crew. Whether it is a repair today or a maintenance plan that keeps things running for years, you only need one number.`}></p>
     </div>
     <div class="svc-grid" set:html={cards}></div>
     <div class="center" style="margin-top:34px">
@@ -203,7 +203,7 @@ const vc = verticalCopy(site);
       <p set:html={overrides.process_intro || `We believe in transparency, respect, and quality workmanship. Here's what every customer can expect.`}></p>
     </div>
     <div class="steps">
-      <div class="step reveal"><div class="step__ic"><Fragment set:html={icon('search', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[0]?.h3) || 'We Get to Know Your System'}></h3><p set:html={(overrides.process_steps && overrides.process_steps[0]?.p) || 'We look at the whole picture, heating and cooling together, and explain what we find in plain language. Whether it is a furnace repair, a new AC, or a heat pump, you get a clear recommendation, not a hard sell.'}></p></div>
+      <div class="step reveal"><div class="step__ic"><Fragment set:html={icon('search', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[0]?.h3) || 'We Get to Know Your System'}></h3><p set:html={(overrides.process_steps && overrides.process_steps[0]?.p) || 'We look at the whole picture, your plumbing system as a whole, and explain what we find in plain language. Whether it is a water heater replacement, a drain cleaning, or a repipe, you get a clear recommendation, not a hard sell.'}></p></div>
       <div class="step reveal d1"><div class="step__ic"><Fragment set:html={icon('wrench', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[1]?.h3) || 'Work Done Right the First Time'}></h3><p set:html={(overrides.process_steps && overrides.process_steps[1]?.p) || 'Our technicians show up on time, do the job properly, and leave your home as tidy as they found it, on every furnace, AC, thermostat, or duct job.'}></p></div>
       <div class="step reveal d2"><div class="step__ic"><Fragment set:html={icon('headset', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[2]?.h3) || 'A Team You Keep'}></h3><p set:html={(overrides.process_steps && overrides.process_steps[2]?.p) || 'The job is the start of the relationship, not the end. With seasonal maintenance and a team that knows your equipment, your system keeps running well for years.'}></p></div>
     </div>
@@ -216,7 +216,7 @@ const vc = verticalCopy(site);
     <div class="section-head reveal">
       <span class="eyebrow">Testimonials</span>
       <h2 set:html={overrides.reviews_h2 || `What ${site.city} Homeowners Are Saying`}></h2>
-      <p set:html={overrides.reviews_intro || `We're proud to be the heating and cooling partner our neighbours trust and recommend.`}></p>
+      <p set:html={overrides.reviews_intro || `We're proud to be the plumbing partner our neighbours trust and recommend.`}></p>
     </div>
     <div class="reviews" set:html={revs}></div>
   </div>
@@ -248,7 +248,7 @@ const vc = verticalCopy(site);
     <div class="section-head reveal">
       <span class="eyebrow">From the Blog</span>
       <h2>Latest News &amp; Home Comfort Tips</h2>
-      <p>Practical advice to help you get the most from your heating and cooling system in {site.city}'s climate.</p>
+      <p>Practical advice to help you get the most from your home's plumbing system in {site.city}'s climate.</p>
     </div>
     <div class="post-grid" set:html={blogCardsHtml}></div>
   </div>

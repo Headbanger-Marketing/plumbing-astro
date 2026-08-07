@@ -83,7 +83,7 @@ const svcOverride = svcOverrides[slug!] || {};
 // Fallback: build the img from per-site SVC_PHOTO data (tuple order varies).
 // The no-SVC_PHOTO fallback uses the per-site technician photo (config-driven).
 const techPhotoFallback = site.media?.technicianPhoto || 'London-Ontario-HVAC-technician.png';
-const photoTuple = SVC_PHOTO[slug!] || [`/assets/img/wp/${techPhotoFallback}`, 'HVAC technician on a service call', 1350, 1350];
+const photoTuple = SVC_PHOTO[slug!] || [`/assets/img/wp/${techPhotoFallback}`, 'licensed plumber on a service call', 1350, 1350];
 const photo = (() => {
   const a = photoTuple;
   if (a.length >= 4 && typeof a[1] === 'number') {
@@ -97,7 +97,7 @@ if (!photo.src.startsWith('/') && !photo.src.startsWith('http')) {
 const photoImgHtml = svcOverride.svc_photo_img ||
   `<img class="svc-photo" src="${photo.src}" alt="${photo.alt}" width="${photo.w}" height="${photo.h}" loading="lazy" decoding="async">`;
 const ctaText = svcOverride.cta_text ||
-  `Don't let a comfort problem disrupt your home. Get fast, reliable service from a licensed, insured ${site.city} HVAC team.`;
+  `Don't let a comfort problem disrupt your home. Get fast, reliable service from a licensed, insured ${site.city} plumbing team.`;
 const h1Html = heroLine;
 
 const breadcrumbItems: [string, string][] = [
@@ -174,7 +174,7 @@ intro = linkBrandHome(intro);
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">More Services</span>
-      <h2>Explore Our Other HVAC Services</h2>
+      <h2>Explore Our Other Plumbing Services</h2>
     </div>
     <div class="svc-grid" set:html={otherCards}></div>
   </div>

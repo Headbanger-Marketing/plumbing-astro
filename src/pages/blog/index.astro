@@ -15,8 +15,8 @@ if (site.vertical && site.vertical !== 'hvac') {
 const SITE_NAME_T = site.brand;
 
 const cards = blogCards(content.BLOG, content.BLOG.length);
-const title = `HVAC Tips & Home Comfort Blog | ${SITE_NAME_T}`;
-const desc = `Practical heating and cooling advice for ${site.city}, Ontario homeowners, maintenance schedules, furnace warning signs, humidity tips and more.`;
+const title = `Plumbing Tips & Home Water Blog | ${SITE_NAME_T}`;
+const desc = `Practical plumbing advice for ${site.city}, Ontario homeowners, maintenance schedules, water heater warning signs, drain tips and more.`;
 ---
 
 <SiteLayout
@@ -36,7 +36,7 @@ const desc = `Practical heating and cooling advice for ${site.city}, Ontario hom
     <Fragment set:html={crumbs([['Home', '/'], ['Blog', '']])} />
     <span class="eyebrow on-dark">Our Blog</span>
     <h1>News &amp; Home Comfort Tips</h1>
-    <p>Straightforward advice to help you get the most out of your heating and cooling system in {site.city}'s climate.</p>
+    <p>Straightforward advice to help you get the most out of your home's plumbing system in {site.city}'s climate.</p>
   </div>
 </section>
 <section class="section">
