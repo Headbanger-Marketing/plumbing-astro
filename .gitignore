@@ -1,0 +1,22 @@
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# logs / temp
+*.log
+.DS_Store
+/tmp/
+
+# local env
+.env
+.env.local
+
+# nvm use marker
+.nvm-use
+
+# Claude Code local state (git worktrees, session data) — not work product
+.claude/
+Icon

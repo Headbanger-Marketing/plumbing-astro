@@ -1,0 +1,184 @@
+---
+// build_pages.py::build_service()
+import SiteLayout from '../../../layouts/SiteLayout.astro';
+import QuoteForm from '../../../components/QuoteForm.astro';
+import { icon } from '../../../lib/icons';
+import { SERVICES } from '../../../data/content';
+import { schemaLocalbusiness, schemaBreadcrumb, schemaService } from '../../../lib/schema';
+import { crumbs, ctaBand, reviewCard, featureItem, svcPhotoTag } from '../../../lib/utils';
+import { loadSite } from '../../../lib/load-site';
+
+export async function getStaticPaths() {
+  const { site, content } = await loadSite();
+  // Vertical sites (generator/geothermal) are homepage-only — no service pages.
+  if (site.vertical && site.vertical !== 'hvac') return [];
+  return Object.keys(content.SVC).map((slug) => ({ params: { slug } }));
+}
+
+const { site, content } = await loadSite();
+const SVC = content.SVC;
+const REVIEW_POOL = content.REVIEW_POOL;
+const SVC_PHOTO = content.SVC_PHOTO || {};
+
+const SITE_NAME_T = site.brand;
+const { slug } = Astro.params;
+const data = SVC[slug!];
+const url = `/services/${slug}/`;
+const navLabel = SERVICES.find((s) => s.slug === slug!)!.nav;
+const navLabelRaw = navLabel.replace(/&amp;/g, '&'); // raw form for attribute contexts (Astro will re-escape)
+// Only cross-link services this site actually renders a page for, so the shared
+// catalog can hold a service (e.g. boiler-service) without 404ing on sites that
+// don't offer it.
+const others = SERVICES.filter((s) => s.slug !== slug && s.slug in SVC);
+
+// Direct, no-filler copy generated per service so every site gets tight,
+// brand-free hero copy. Title and H1 are identical: "<Service> <City>, ON".
+const heroLine = `${navLabelRaw} ${site.city}, ON`;
+const title = heroLine;
+
+// Per-service intro: two direct sentences naming the trade, city, county,
+// and the concrete problems solved. No filler, no brand-name prefix.
+// When the brand is a county itself (city === county, e.g. "Huron County"),
+// collapse to just the county so it doesn't read "Huron County and Huron County".
+const cc = site.city === site.county ? site.county : `${site.city} and ${site.county}`;
+const INTROS: Record<string, string> = {
+  'furnace-repair': `Furnace repair and replacement for ${cc} homes. We fix no-heat calls, pilot and ignition failures, noisy burners, and short cycling, and install high-efficiency furnaces sized to your home.`,
+  'ac-repair': `Air conditioner repair and replacement across ${cc}. We diagnose units that won't cool, freeze up, or leak refrigerant, and install efficient central air and ductless systems built for Ontario summers.`,
+  'ductless-ac-installation': `Ductless mini-split installation and service in ${cc}. We size and mount indoor and outdoor units for additions, garages, and homes without ductwork, with quiet, efficient cooling and heating in one system.`,
+  'heat-pump-repair-installation': `Heat pump repair and installation for ${cc} homes. We service and install cold-climate heat pumps that heat and cool from one efficient unit, replacing propane, oil, and older systems.`,
+  'fireplace-installation': `Gas fireplace installation and service in ${cc}. We install direct-vent and inserts, run the gas line, and service units that won't light, pilot issues, and leaky valves.`,
+  'thermostat-repair-replacement': `Smart and programmable thermostat repair and replacement for ${cc} homes. We fix temperature swings, dead screens, and wiring issues, and install Wi-Fi thermostats wired to work with your system.`,
+  'duct-cleaning': `Duct cleaning for ${cc} homes. We remove dust, allergens, and debris from your supply and return lines to improve airflow and indoor air quality, with a full-system vacuum and register cleaning.`,
+  'boiler-service': `Boiler repair, installation, and maintenance for ${cc} homes. We service condensing and natural-draft boilers, fix no-heat calls, leaks, and pressure faults, and install high-efficiency replacements sized to your home.`,
+};
+const generatedIntro = INTROS[slug!] || `${navLabelRaw} for ${cc} homes.`;
+// Lead with the brand (one in-body home link, per homepage-seo pattern).
+const introWithBrand = `${site.brandHtml}: ${generatedIntro}`;
+
+const otherCards = others
+  .map(
+    (o) =>
+      `<a class="svc-card reveal" href="/services/${o.slug}/" style="padding:22px">
+        <span class="svc-card__ic" style="width:48px;height:48px;margin-bottom:12px">${icon(o.icon, '', 24)}</span>
+        <h3 style="font-size:1.05rem">${o.nav}</h3>
+        <span class="svc-card__link" style="margin-top:10px">Learn more ${icon('arrow-right', '', 16)}</span>
+      </a>`
+  )
+  .join('');
+const feats = data.features.map((f) => featureItem(...f)).join('');
+const revs = data.rev.map((i) => reviewCard(...REVIEW_POOL[i])).join('');
+
+// Per-site service-page overrides (bespoke img markup + CTA text).
+interface ServiceOverrideEntry {
+  svc_photo_img?: string;
+  cta_text?: string;
+  h1?: string;
+}
+let svcOverrides: Record<string, ServiceOverrideEntry> = {};
+try {
+  svcOverrides = (await import(`../../../sites/${site.domain}/service-overrides.json`, { assert: { type: 'json' } })).default;
+} catch {}
+const svcOverride = svcOverrides[slug!] || {};
+
+// Fallback: build the img from per-site SVC_PHOTO data (tuple order varies).
+// The no-SVC_PHOTO fallback uses the per-site technician photo (config-driven).
+const techPhotoFallback = site.media?.technicianPhoto || 'London-Ontario-HVAC-technician.png';
+const photoTuple = SVC_PHOTO[slug!] || [`/assets/img/wp/${techPhotoFallback}`, 'HVAC technician on a service call', 1350, 1350];
+const photo = (() => {
+  const a = photoTuple;
+  if (a.length >= 4 && typeof a[1] === 'number') {
+    return { src: a[0], w: a[1], h: a[2], alt: a[3] };
+  }
+  return { src: a[0], alt: a[1], w: a[2], h: a[3] };
+})();
+if (!photo.src.startsWith('/') && !photo.src.startsWith('http')) {
+  photo.src = '/assets/img/wp/' + photo.src;
+}
+const photoImgHtml = svcOverride.svc_photo_img ||
+  `<img class="svc-photo" src="${photo.src}" alt="${photo.alt}" width="${photo.w}" height="${photo.h}" loading="lazy" decoding="async">`;
+const ctaText = svcOverride.cta_text ||
+  `Don't let a comfort problem disrupt your home. Get fast, reliable service from a licensed, insured ${site.city} HVAC team.`;
+const h1Html = heroLine;
+
+const breadcrumbItems: [string, string][] = [
+  ['Home', '/'],
+  [navLabel, url],
+];
+
+// brand-link-home: turn first prose occurrence of brand into a homepage link.
+let intro = introWithBrand;
+const linkBrandHome = (html: string): string => {
+  for (const brand of [site.brandHtml, site.brand]) {
+    const i = html.indexOf(brand);
+    if (i !== -1) return `${html.slice(0, i)}<a href="/">${brand}</a>${html.slice(i + brand.length)}`;
+  }
+  return html;
+};
+intro = linkBrandHome(intro);
+---
+
+<SiteLayout
+  title={title}
+  desc={`${site.brand}, ${data.meta}`}
+  path={url}
+  ogType="article"
+  active="services"
+  schemaBlocks={[
+    schemaLocalbusiness(site),
+    schemaBreadcrumb(breadcrumbItems, site),
+    schemaService(navLabel.replace(/&amp;/g, 'and'), data.intro, url, site),
+  ]}
+>
+<section class="page-hero page-hero--with-bg" style={`--hero-bg-url: url('${photo.src}');`}>
+  <div class="container">
+    <Fragment set:html={crumbs([['Home', '/'], [navLabel, '']])} />
+    <span class="eyebrow on-dark">Services</span>
+    <h1 set:html={h1Html}></h1>
+    <p set:html={intro}></p>
+    <div class="page-hero__cta">
+      <a class="btn btn-primary btn-lg" href="#quote">Get a Free Quote</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="split">
+      <div>
+        <span class="eyebrow">Why Homeowners Call Us</span>
+        <div class="callout reveal" style="margin-bottom:24px">
+          <h3 set:html={data.problem_h}></h3>
+          <p set:html={data.problem_p}></p>
+        </div>
+        <ul class="feature-list" set:html={feats}></ul>
+      </div>
+      <div class="split__media">
+        <div style="position:sticky;top:96px"><QuoteForm site={site} heading="Request Service" sub="Tell us what's going on, we'll get back to you fast." idSuffix={slug!} /></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-soft">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Reviews</span>
+      <h2>What {site.city} Homeowners Say</h2>
+      <p>Real feedback from neighbours we've helped stay comfortable year-round.</p>
+    </div>
+    <div class="reviews" set:html={revs}></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">More Services</span>
+      <h2>Explore Our Other HVAC Services</h2>
+    </div>
+    <div class="svc-grid" set:html={otherCards}></div>
+  </div>
+</section>
+
+<Fragment set:html={ctaBand(site, `We Can Help Solve Your ${navLabelRaw} Needs`, ctaText)} />
+</SiteLayout>

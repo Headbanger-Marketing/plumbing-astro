@@ -1,0 +1,86 @@
+---
+// build.py::head() + page_end()
+// Emits <!DOCTYPE html> through <main id="main">, then later closes with Footer + </main></body></html>.
+// The active-site config is resolved via loadSite() from the HVAC_SITE env var.
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { loadSite } from '../lib/load-site';
+
+export interface Props {
+  title: string;
+  desc: string;
+  path: string; // canonical path, e.g. "/" or "/services/furnace-repair/"
+  schemaBlocks?: string[]; // pre-rendered <script type="application/ld+json"> blocks
+  ogType?: string; // "website" | "article"
+  robots?: string; // default "index, follow"
+  ogImage?: string; // override OG image (blog posts use their own photo)
+  active?: string; // nav active state: 'home' | 'about' | 'services' | 'blog' | 'contact' | ''
+}
+
+const {
+  title,
+  desc,
+  path,
+  schemaBlocks = [],
+  ogType = 'website',
+  robots = 'index, follow',
+  ogImage,
+  active = '',
+} = Astro.props;
+
+const { site, content } = await loadSite();
+
+const canonical = site.url + path;
+const sb = schemaBlocks.join('\n');
+const img = ogImage || site.ogImage;
+// Per-site favicon: if the site has its own logo badge (the 29 new + 2 migrated
+// sites with media.logo set), serve that as the PNG favicon + apple-touch-icon
+// so the browser tab matches the in-page brand. Sites without media.logo (the
+// original 74) fall back to the shared favicon.ico / favicon.svg / apple-touch.
+const logoHref = site.media?.logo ? `/assets/img/logos/${site.media.logo}` : null;
+const FAVICON = logoHref
+  ? `<link rel="icon" type="image/png" href="${logoHref}"><link rel="apple-touch-icon" href="${logoHref}">`
+  : `<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">`;
+const GOOGLE_FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap">`;
+---
+
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script is:inline>document.documentElement.classList.add('js');</script>
+<title>{title}</title>
+<meta name="description" content={desc}>
+<link rel="canonical" href={canonical}>
+<meta name="robots" content={robots}>
+<meta name="theme-color" content={site.palette.themeColor}>
+{/* DEV ONLY: point the chat widget at the REAL n8n "HVAC Chat" brain (auto.sdagents.ai).
+    Stripped from production builds by import.meta.env.DEV, so prod also hits the real
+    n8n /webhook/hvac-chat (this meta is just explicit during dev). To A/B against the
+    local mock, swap the URL to http://127.0.0.1:8787/webhook/hvac-chat. */}
+{import.meta.env.DEV && <meta name="hc-chat-url" content="https://auto.sdagents.ai/webhook/hvac-chat" />}
+<meta property="og:type" content={ogType}>
+<meta property="og:site_name" content={site.brand}>
+<meta property="og:title" content={title}>
+<meta property="og:description" content={desc}>
+<meta property="og:url" content={canonical}>
+<meta property="og:image" content={img}>
+<meta property="og:locale" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content={title}>
+<meta name="twitter:description" content={desc}>
+<meta name="twitter:image" content={img}>
+<Fragment set:html={FAVICON} />
+<Fragment set:html={GOOGLE_FONTS} />
+<link rel="stylesheet" href="/assets/css/styles.css">
+<Fragment set:html={sb} />
+</head>
+<body>
+<Header site={site} svcKeys={Object.keys(content.SVC)} active={active} />
+<main id="main">
+<slot />
+</main>
+<Footer site={site} svcKeys={Object.keys(content.SVC)} />
+</body>
+</html>

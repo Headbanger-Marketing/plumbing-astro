@@ -1,0 +1,13 @@
+---
+// Inline SVG icon. Wraps lib/icons.ts::icon() so the SVG markup is emitted raw
+// (Astro would escape a {icon(...)} expression in template text).
+import { icon } from '../lib/icons';
+interface Props {
+  name: string;
+  cls?: string;
+  size?: number;
+  fill?: boolean;
+}
+const { name, cls = '', size = 24, fill = false } = Astro.props;
+---
+<Fragment set:html={icon(name, cls, size, fill)} />

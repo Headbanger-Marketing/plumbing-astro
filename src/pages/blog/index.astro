@@ -1,0 +1,46 @@
+---
+// build_pages.py::build_blog_index()
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { schemaLocalbusiness, schemaBreadcrumb } from '../../lib/schema';
+import { crumbs, ctaBand, blogCards } from '../../lib/utils';
+import { loadSite } from '../../lib/load-site';
+
+const { site, content } = await loadSite();
+
+// Vertical sites (generator/geothermal) are homepage-only — no blog index.
+if (site.vertical && site.vertical !== 'hvac') {
+  return Astro.redirect('/');
+}
+
+const SITE_NAME_T = site.brand;
+
+const cards = blogCards(content.BLOG, content.BLOG.length);
+const title = `HVAC Tips & Home Comfort Blog | ${SITE_NAME_T}`;
+const desc = `Practical heating and cooling advice for ${site.city}, Ontario homeowners, maintenance schedules, furnace warning signs, humidity tips and more.`;
+---
+
+<SiteLayout
+  title={title}
+  desc={desc}
+  path="/blog/"
+  schemaBlocks={[
+    schemaLocalbusiness(site),
+    schemaBreadcrumb([
+      ['Home', '/'],
+      ['Blog', '/blog/'],
+    ], site),
+  ]}
+>
+<section class="page-hero">
+  <div class="container">
+    <Fragment set:html={crumbs([['Home', '/'], ['Blog', '']])} />
+    <span class="eyebrow on-dark">Our Blog</span>
+    <h1>News &amp; Home Comfort Tips</h1>
+    <p>Straightforward advice to help you get the most out of your heating and cooling system in {site.city}'s climate.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container"><div class="post-grid" set:html={cards}></div></div>
+</section>
+<Fragment set:html={ctaBand(site)} />
+</SiteLayout>

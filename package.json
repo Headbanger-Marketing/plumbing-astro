@@ -1,0 +1,24 @@
+{
+  "name": "plumbing-astro",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shared-source Astro project for the liamseopro plumbing city lead-gen sites. Forked from hvac-astro; single-trade. One codebase, per-site config, emits compiled HTML into each sites/<domain>/ deploy repo.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "build:site": "bash scripts/build-site.sh",
+    "build:all": "bash scripts/build-all.sh",
+    "preview": "astro preview",
+    "extract-configs": "node scripts/extract-config.mjs",
+    "verify-parity": "node scripts/verify-parity.mjs",
+    "gen:chat-context": "node scripts/gen-chat-context.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^7.1.1"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

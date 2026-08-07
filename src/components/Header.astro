@@ -1,0 +1,82 @@
+---
+// build.py::header() + brand() + nav_links()
+// The shared topbar + site header. Active nav item gets aria-current="page".
+import { icon } from '../lib/icons';
+import { SERVICES } from '../data/content';
+import { verticalCopy } from '../lib/utils';
+import type { SiteConfig } from '../lib/types';
+
+interface Props {
+  site: SiteConfig;
+  svcKeys?: string[]; // SVC slugs that exist for this site; nav filters to these so the
+  // shared SERVICES catalog can list a service no individual site renders without 404s.
+  active?: string; // 'home' | 'about' | 'services' | 'blog' | 'contact' | ''
+}
+const { site, svcKeys, active = '' } = Astro.props;
+const vc = verticalCopy(site);
+
+// Split the brand into a two-line lockup beside the logo: the place/region
+// on line 1 and the trade descriptor on line 2 (e.g. "Owen Sound" /
+// "Heating & Cooling", or "Chatham-Kent" / "Generator Pros"). Match the
+// descriptor by its known leading words so hyphenated regions stay intact.
+const DESCRIPTORS = ['Heating & Cooling', 'HVAC Pros', 'HVAC Pro', 'AC Repair',
+  'Furnace Repair', 'Generator Pros', 'Solar Pros', 'Geothermal'];
+let brandLine1 = site.brand;
+let brandLine2 = '';
+for (const d of DESCRIPTORS) {
+  if (site.brand.endsWith(d)) {
+    brandLine2 = d;
+    brandLine1 = site.brand.slice(0, site.brand.length - d.length).trim();
+    break;
+  }
+}
+
+// build.py::nav_links — render the whole nav as one HTML string so attribute order
+// matches the Python output exactly (e.g. aria-current goes AFTER href).
+const cur = (key: string) => (active === key ? ' aria-current="page"' : '');
+const servicesNav = vc.hasServicesNav
+  ? `<div class="has-dropdown">
+        <a class="nav__link" href="#" aria-haspopup="true" aria-expanded="false">Services ${icon('chev-down', '', 15)}</a>
+        <div class="dropdown">${(svcKeys ? SERVICES.filter((s) => svcKeys.includes(s.slug)) : SERVICES).map((s) => `<a href="/services/${s.slug}/">${icon(s.icon, '', 18)}<span>${s.nav}</span></a>`).join('')}</div>
+      </div>`
+  : '';
+const navHtml = `
+      <a class="nav__link" href="/"${cur('home')}>Home</a>
+      <a class="nav__link" href="/about/"${cur('about')}>About</a>
+      ${servicesNav}
+      <a class="nav__link" href="/contact/"${cur('contact')}>Contact</a>
+      <div class="nav__cta">
+        <a class="btn btn-primary" href="/contact/#quote">Get a Free Quote</a>
+      </div>`;
+---
+
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="topbar">
+  <div class="container">
+    <div class="topbar__left">
+      <span class="topbar__item"><Fragment set:html={icon('clock', '', 15)} /> {vc.emergency}</span>
+      <span class="topbar__item topbar__item--areas"><Fragment set:html={icon('pin', '', 15)} /> Serving {site.city} &amp; {site.county}</span>
+    </div>
+    <a class="topbar__right" href="/contact/"><Fragment set:html={icon('check-sm', '', 15)} /> Free, No-Obligation Quotes</a>
+  </div>
+</div>
+<header class="site-header">
+  <div class="container navbar">
+    <a class="brand" href="/">
+      <img class="brand__logo" width="48" height="48" src={site.media?.logo ? `/assets/img/logos/${site.media.logo}` : '/assets/img/logo.png'} alt={site.brand} loading="eager" decoding="async">
+      <span class="brand__text">
+        <span class="brand__name">{brandLine1}</span>
+        {brandLine2 && <span class="brand__tag">{brandLine2}</span>}
+      </span>
+    </a>
+    {/* Scrim lives INSIDE the header's stacking context (z 100): at root level
+        it would rank above the whole header and cover the drawer (z 120 only
+        competes inside the header). Here it dims header chrome + page alike,
+        while the drawer stacks above it. */}
+    <div class="nav-backdrop" aria-hidden="true"></div>
+    <nav class="nav" id="primary-nav" aria-label="Primary" set:html={navHtml}></nav>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>

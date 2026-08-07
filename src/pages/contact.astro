@@ -1,0 +1,96 @@
+---
+// build_pages.py::build_contact()
+import SiteLayout from '../layouts/SiteLayout.astro';
+import QuoteForm from '../components/QuoteForm.astro';
+import { icon } from '../lib/icons';
+import { featureItem, crumbs, areasSection } from '../lib/utils';
+import { schemaLocalbusiness, schemaBreadcrumb } from '../lib/schema';
+import { loadSite } from '../lib/load-site';
+
+const { site } = await loadSite();
+const siteName = site.domain;
+const SITE_NAME_T = site.brand;
+
+// Per-site contact-page overrides.
+interface ContactOverride {
+  hero_lead?: string;
+  form_intro?: string;
+}
+let overrides: ContactOverride = {};
+try {
+  overrides = (await import(`../sites/${siteName}/contact-overrides.json`, { assert: { type: 'json' } })).default;
+} catch {}
+
+const title = `Contact Us | ${SITE_NAME_T}`;
+const desc = `Contact ${site.brand} for fast, friendly HVAC service in ${site.city}, Ontario. Call ${site.phone.display} or request a free quote online. Open 24/7.`;
+
+const quoteFeatures = [
+  ['clock', 'Fast Response', 'We prioritise emergency calls and aim to respond the same day.'],
+  ['dollar', 'Free, No-Obligation Quotes', 'Know your options and pricing before committing to anything.'],
+  ['shield', 'Licensed &amp; Insured', 'Professional, certified service in your home.'],
+] as [string, string, string][];
+
+const heroLead = overrides.hero_lead || `Is your air conditioner making a strange noise? Ready to upgrade your furnace before winter? Whatever your home comfort need, the <a href="/">${site.brandHtml}</a> team is ready to help, without the stress.`;
+const formIntro = overrides.form_intro || `Fill out the form and one of our technicians will get back to you quickly to discuss your heating or cooling needs. For urgent issues, calling is always fastest.`;
+---
+
+<SiteLayout
+  title={title}
+  desc={desc}
+  path="/contact/"
+  active="contact"
+  schemaBlocks={[
+    schemaLocalbusiness(site),
+    schemaBreadcrumb([
+      ['Home', '/'],
+      ['Contact', '/contact/'],
+    ], site),
+  ]}
+>
+<section class="page-hero">
+  <div class="container">
+    <Fragment set:html={crumbs([['Home', '/'], ['Contact', '']])} />
+    <span class="eyebrow on-dark">Contact Us</span>
+    <h1>Let's Get Your Comfort Back on Track</h1>
+    <p set:html={heroLead}></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="info-grid" style="margin-bottom:40px">
+      <div class="info-card reveal"><span class="ic"><Fragment set:html={icon('clock', '', 26)} /></span><h3>Fast Response</h3><p>We reply within one business day</p><p style="color:var(--muted);font-size:.9rem;margin-top:4px">Same-day service for emergencies</p></div>
+      <div class="info-card reveal d1"><span class="ic"><Fragment set:html={icon('mail', '', 26)} /></span><h3>Email Us</h3><p><a href={`mailto:${site.email}`}>{site.email}</a></p><p style="color:var(--muted);font-size:.9rem;margin-top:4px">We reply within one business day</p></div>
+      <div class="info-card reveal d2"><span class="ic"><Fragment set:html={icon('pin', '', 26)} /></span><h3>Service Area</h3><p>{site.city}, {site.regionAbbr}</p><p style="color:var(--muted);font-size:.9rem;margin-top:4px">Serving {site.city} &amp; {site.county}</p></div>
+    </div>
+    <div class="split">
+      <div class="reveal">
+        <span class="eyebrow">Send a Message</span>
+        <h2>Request Your Free Quote</h2>
+        <p set:html={formIntro}></p>
+        <ul class="feature-list" style="margin-top:24px">
+          {quoteFeatures.map((f) => <Fragment set:html={featureItem(...f)} />)}
+        </ul>
+      </div>
+      <div class="split__media reveal d1"><QuoteForm site={site} heading="Get a Free Quote" sub="Tell us about your heating or cooling issue." idSuffix="contact" /></div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-soft">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Service Hours</span>
+      <h2>We're Here Whenever You Need Us</h2>
+      <p>Heating and cooling emergencies don't keep a schedule, and neither do we.</p>
+    </div>
+    <div class="info-grid">
+      <div class="info-card center reveal"><span class="ic" style="margin-inline:auto"><Fragment set:html={icon('clock', '', 26)} /></span><h3>24 Hours a Day</h3><p style="color:var(--muted)">Round-the-clock emergency service</p></div>
+      <div class="info-card center reveal d1"><span class="ic" style="margin-inline:auto"><Fragment set:html={icon('calendar', '', 26)} /></span><h3>7 Days a Week</h3><p style="color:var(--muted)">Including weekends &amp; holidays</p></div>
+      <div class="info-card center reveal d2"><span class="ic" style="margin-inline:auto"><Fragment set:html={icon('headset', '', 26)} /></span><h3>Real Local People</h3><p style="color:var(--muted)">Speak with a {site.city} technician</p></div>
+    </div>
+  </div>
+</section>
+
+<Fragment set:html={areasSection(site)} />
+</SiteLayout>

@@ -1,0 +1,39 @@
+---
+// build_pages.py::build_404() — outputs /404.html at root
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { icon } from '../lib/icons';
+import { SERVICES } from '../data/content';
+import { loadSite } from '../lib/load-site';
+
+const { site, content } = await loadSite();
+const SITE_NAME_T = site.brand;
+// Only suggest services this site actually renders a page for, so vertical
+// (homepage-only) sites don't 404-link to HVAC service pages they lack.
+const popularServices = SERVICES.filter((s) => s.slug in content.SVC).slice(0, 3);
+
+const title = `Page Not Found | ${SITE_NAME_T}`;
+const desc = "The page you're looking for could not be found.";
+---
+
+<SiteLayout title={title} desc={desc} path="/404.html" robots="noindex, follow">
+<section class="page-hero">
+  <div class="container center">
+    <span class="eyebrow on-dark" style="justify-content:center">Error 404</span>
+    <h1 style="margin-inline:auto">This Page Took a Wrong Turn</h1>
+    <p style="margin-inline:auto">The page you're looking for doesn't exist or may have moved. Let's get you back to comfort.</p>
+    <div class="page-hero__cta" style="justify-content:center">
+      <a class="btn btn-primary btn-lg" href="/">Back to Home</a>
+    </div>
+  </div>
+</section>
+{popularServices.length > 0 && (
+<section class="section"><div class="container">
+  <div class="section-head"><span class="eyebrow">Popular Pages</span><h2>Where Would You Like to Go?</h2></div>
+  <div class="svc-grid">
+    {popularServices.map((s) => (
+      <a class="svc-card" href={`/services/${s.slug}/`}><span class="svc-card__ic"><Fragment set:html={icon(s.icon, '', 30)} /></span><h3>{s.nav}</h3><span class="svc-card__link">Learn more <Fragment set:html={icon('arrow-right', '', 17)} /></span></a>
+    ))}
+  </div>
+</div></section>
+)}
+</SiteLayout>

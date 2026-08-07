@@ -1,0 +1,270 @@
+---
+// build_pages.py::build_home()
+import SiteLayout from '../layouts/SiteLayout.astro';
+import QuoteForm from '../components/QuoteForm.astro';
+import { icon } from '../lib/icons';
+import { SERVICES } from '../data/content';
+import { schemaLocalbusiness, schemaFaq } from '../lib/schema';
+import { reviewCard, ctaBand, areasSection, blogCards, verticalCopy } from '../lib/utils';
+import { loadSite } from '../lib/load-site';
+
+const { site, content } = await loadSite();
+const siteName = site.domain;
+const SITE_NAME_T = site.brand;
+
+// Load per-site home overrides (real-WP copy extracted from deployed HTML).
+// Falls back to shared template content from content.ts when no override exists.
+interface HomeOverride {
+  hero_class?: string;
+  hero_eyebrow?: string;
+  hero_h1?: string;
+  hero_sub?: string;
+  who_we_are_eyebrow?: string;
+  who_we_are_h2?: string;
+  who_we_are_lead?: string;
+  who_we_are_paragraphs?: string[];
+  full_service_eyebrow?: string;
+  full_service_h2?: string;
+  full_service_intro?: string;
+  home_service_cards?: { title: string; text: string; url: string }[];
+  process_eyebrow?: string;
+  process_h2?: string;
+  process_intro?: string;
+  process_steps?: { h3: string; p: string }[];
+  reviews_h2?: string;
+  reviews_intro?: string;
+  home_reviews?: { text: string; name: string; place: string }[];
+  home_cta_text?: string;
+  wp_preserve_section_html?: string;
+  faqs_h2?: string;
+  faqs_intro?: string;
+  home_faqs?: { q: string; a: string }[];
+  media_photo_alt?: string;
+  home_title?: string;
+  home_desc?: string;
+}
+let overrides: HomeOverride = {};
+try {
+  overrides = (await import(`../sites/${siteName}/home-overrides.json`, { assert: { type: 'json' } })).default;
+} catch {
+  // No override file for this site — fall back to shared template content.
+}
+
+// Resolve home FAQ list: prefer overrides, else per-site HOME_FAQ,
+// else the interpolated "service areas" Q added at render time.
+const HOME_FAQ: [string, string][] = overrides.home_faqs
+  ? overrides.home_faqs.map((f) => [f.q, f.a])
+  : (content.HOME_FAQ || []).map(([q, a]) => [q, a]);
+// Append the derived service-area Q only if the authored HOME_FAQ doesn't
+// already cover it (many sites author their own "serve areas outside" or
+// "service area" question — appending unconditionally would duplicate it).
+if (!overrides.home_faqs) {
+  const hasServiceAreaQ = HOME_FAQ.some(([q]) =>
+    /serve areas outside|service area|areas do you serve|do you serve/i.test(q));
+  if (!hasServiceAreaQ) {
+    const nearby = site.serviceAreas.filter((a) => a !== site.city).slice(0, 4).join(', ');
+    HOME_FAQ.push([
+      `Do you serve areas outside of ${site.city}, Ontario?`,
+      `Yes. We serve ${site.city} and nearby communities including ${nearby}, and the surrounding area.`,
+    ]);
+  }
+}
+
+const title = overrides.home_title || `${SITE_NAME_T} | HVAC Company in ${site.city}, ON`;
+const desc = overrides.home_desc || `${site.brand} provides honest, efficient, dependable HVAC service in ${site.city}, Ontario, furnace & AC repair, heat pumps & more. Call ${site.phone.display} for a free quote.`;
+
+// Service cards: prefer override data (icon mapped by index from HOME_SERVICES),
+// else use the per-site HOME_SERVICES content.
+const cardsSource = overrides.home_service_cards || null;
+const cards = (
+  cardsSource ||
+  content.HOME_SERVICES.map(([ic, t, text, url]) => ({ ic, title: t, text, url }))
+)
+  .map((c, idx) => {
+    const fallback = content.HOME_SERVICES[idx];
+    const ic = (c as { ic?: string }).ic || (fallback && fallback[0]) || 'check';
+    return `<article class="svc-card reveal">
+  <span class="svc-card__ic">${icon(ic, '', 30)}</span>
+  <h3>${c.title}</h3>
+  <p>${c.text}</p>
+  <a class="svc-card__link" href="${c.url}">Learn more about ${c.title} ${icon('arrow-right', '', 17)}</a>
+</article>`;
+  })
+  .join('');
+
+const faqs = HOME_FAQ.map(
+  ([q, a]) =>
+    `<details class="faq__item">
+  <summary class="faq__q">${q}${overrides.home_faqs ? '' : `<span class="pm">${icon('chev-down', '', 18)}</span>`}</summary>
+  <div class="faq__a"><p>${a}</p></div>
+</details>`
+).join('');
+
+// Reviews: prefer overrides, else per-site REVIEW_POOL first 3.
+// (Home page only shows 3 reviews; service pages rotate through the full pool.)
+const reviewsSource =
+  overrides.home_reviews ||
+  content.REVIEW_POOL.slice(0, 3).map(([text, name, place]) => ({ text, name, place }));
+const revs = reviewsSource.map((r) => reviewCard(r.text, r.name, r.place)).join('');
+const blogCardsHtml = blogCards(content.BLOG);
+const WP = '/assets/img/wp';
+
+const heroClass = overrides.hero_class || 'hero has-bg';
+
+// Per-site technician photo (filename under /assets/img/wp/). Defaults to the
+// legacy name so the 74 migrated sites keep their existing asset; brand-new
+// sites set media.technicianPhoto in their config.
+const techPhoto = site.media?.technicianPhoto || 'London-Ontario-HVAC-technician.png';
+
+// Vertical sites (generator/geothermal) are homepage-only — no service cards,
+// no blog, no HVAC reviews. They use home-overrides for trade-specific content.
+const isVertical = site.vertical && site.vertical !== 'hvac';
+const vc = verticalCopy(site);
+---
+<SiteLayout
+  title={title}
+  desc={desc}
+  path="/"
+  active="home"
+  schemaBlocks={[schemaLocalbusiness(site), schemaFaq(HOME_FAQ)]}
+>
+<section class={heroClass}>
+  <div class="hero__glow"></div>
+  <div class="container">
+    <div class="hero__copy reveal">
+      <span class="eyebrow on-dark" set:html={overrides.hero_eyebrow || `${site.city}'s Full-Service Heating &amp; Cooling Team`}></span>
+      <h1 set:html={overrides.hero_h1 || `<span class="accent">${site.city} Heating &amp; Cooling</span>: One Team, Every Season`}></h1>
+      <p class="hero__sub" set:html={overrides.hero_sub || `${site.brand} keeps homes across ${site.city === site.county ? `${site.county}, Ontario` : `${site.city}, Ontario and ${site.county}`} comfortable all year. Furnaces in winter, air conditioning in summer, and steady maintenance in between, handled by one dependable team that knows your system and answers when you call.`}></p>
+      <div class="hero__cta">
+        <a class="btn btn-primary btn-lg" href="#quote">Get a Free Quote</a>
+      </div>
+      <ul class="hero__trust">
+        <li><Fragment set:html={icon('check', '', 22)} /> 24/7 {vc.serviceName}</li>
+        <li><Fragment set:html={icon('check', '', 22)} /> FinanceIt Financing</li>
+        <li><Fragment set:html={icon('check', '', 22)} /> 100% Satisfaction Guaranteed</li>
+        <li><Fragment set:html={icon('check', '', 22)} /> Licensed &amp; Insured</li>
+      </ul>
+    </div>
+    <div class="hero__form reveal d1"><QuoteForm site={site} /></div>
+  </div>
+</section>
+
+<section class="trust-strip">
+  <div class="container">
+    <div class="trust-strip__item"><span class="ic"><Fragment set:html={icon('clock', '', 26)} /></span><div><b>24/7</b><span>Emergency service</span></div></div>
+    <div class="trust-strip__item"><span class="ic"><Fragment set:html={icon('shield', '', 26)} /></span><div><b>Licensed</b><span>&amp; fully insured</span></div></div>
+    <div class="trust-strip__item"><span class="ic"><Fragment set:html={icon('dollar', '', 26)} /></span><div><b>Free</b><span>No-obligation quotes</span></div></div>
+    <div class="trust-strip__item"><span class="ic"><Fragment set:html={icon('award', '', 26)} /></span><div><b>Guaranteed</b><span>100% satisfaction</span></div></div>
+    {!isVertical && <div class="trust-strip__item"><span class="ic"><Fragment set:html={icon('award', '', 26)} /></span><div><b>Lennox</b><span>Premier Dealer</span></div></div>}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="split">
+      <div class="reveal">
+        <span class="eyebrow" set:html={overrides.who_we_are_eyebrow || 'Who We Are'}></span>
+        <h2 set:html={overrides.who_we_are_h2 || `An Established Name in ${site.city} Home Comfort`}></h2>
+        <p class="lead" set:html={overrides.who_we_are_lead || `${site.brandHtml} is a licensed, insured HVAC company in ${site.city}, Ontario that handles both heating and cooling for homeowners, from a single repair to a maintenance plan that runs all year.`}></p>
+        <p set:html={(overrides.who_we_are_paragraphs && overrides.who_we_are_paragraphs[0]) || `We built this business on long-term relationships, not one-off calls. Homeowners stay with us because the same team services the furnace they trust us with in January and the air conditioner we tune up in June. You get steady, honest advice, work done right, and someone who already knows your equipment when you pick up the phone.`}></p>
+        <div style="display:flex;align-items:center;gap:14px;margin-top:24px">
+          <img class="badge-img" src={`${WP}/quality-guarantee.png`} alt="Satisfaction guarantee" width="320" height="320" loading="lazy" decoding="async">
+          <p style="margin:0;color:var(--muted);font-size:.95rem">Backed by our 100% satisfaction guarantee on every job.</p>
+        </div>
+      </div>
+      <div class="split__media reveal d1">
+        <img class="media-photo" src={`${WP}/${techPhoto}`} alt={overrides.media_photo_alt || `${site.brand} HVAC technician on a service call in ${site.city}, Ontario`} width="1350" height="1350" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </div>
+</section>
+
+{!isVertical && (
+<section class="section bg-soft">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow" set:html={overrides.full_service_eyebrow || 'Full Service, One Team'}></span>
+      <h2 set:html={overrides.full_service_h2 || 'Everything Your Home Comfort System Needs, Under One Roof'}></h2>
+      <p set:html={overrides.full_service_intro || `Heating, cooling, air quality, and controls, all looked after by the same crew. Whether it is a repair today or a maintenance plan that keeps things running for years, you only need one number.`}></p>
+    </div>
+    <div class="svc-grid" set:html={cards}></div>
+    <div class="center" style="margin-top:34px">
+      <a class="btn btn-primary btn-lg reveal" href="/contact/#quote">Get a Free Quote <Fragment set:html={icon('arrow-right', '', 18)} /></a>
+    </div>
+  </div>
+</section>
+)}
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow" set:html={overrides.process_eyebrow || 'Our Process'}></span>
+      <h2 set:html={overrides.process_h2 || `Why Choose ${site.brandHtml}?`}></h2>
+      <p set:html={overrides.process_intro || `We believe in transparency, respect, and quality workmanship. Here's what every customer can expect.`}></p>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><div class="step__ic"><Fragment set:html={icon('search', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[0]?.h3) || 'We Get to Know Your System'}></h3><p set:html={(overrides.process_steps && overrides.process_steps[0]?.p) || 'We look at the whole picture, heating and cooling together, and explain what we find in plain language. Whether it is a furnace repair, a new AC, or a heat pump, you get a clear recommendation, not a hard sell.'}></p></div>
+      <div class="step reveal d1"><div class="step__ic"><Fragment set:html={icon('wrench', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[1]?.h3) || 'Work Done Right the First Time'}></h3><p set:html={(overrides.process_steps && overrides.process_steps[1]?.p) || 'Our technicians show up on time, do the job properly, and leave your home as tidy as they found it, on every furnace, AC, thermostat, or duct job.'}></p></div>
+      <div class="step reveal d2"><div class="step__ic"><Fragment set:html={icon('headset', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[2]?.h3) || 'A Team You Keep'}></h3><p set:html={(overrides.process_steps && overrides.process_steps[2]?.p) || 'The job is the start of the relationship, not the end. With seasonal maintenance and a team that knows your equipment, your system keeps running well for years.'}></p></div>
+    </div>
+  </div>
+</section>
+
+{!isVertical && (
+<section class="section bg-soft">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Testimonials</span>
+      <h2 set:html={overrides.reviews_h2 || `What ${site.city} Homeowners Are Saying`}></h2>
+      <p set:html={overrides.reviews_intro || `We're proud to be the heating and cooling partner our neighbours trust and recommend.`}></p>
+    </div>
+    <div class="reviews" set:html={revs}></div>
+  </div>
+</section>
+)}
+
+{overrides.wp_preserve_section_html && <Fragment set:html={overrides.wp_preserve_section_html} />}
+
+{!isVertical && (
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Comfort Care</span>
+      <h2 set:html={overrides.comfortcare_h2 || `Comfort Care: Our Annual Maintenance Plan`}></h2>
+      <p set:html={overrides.comfortcare_text || `Keep your furnace, air conditioner, heat pump, or boiler running its best with a Comfort Care membership. Members get priority booking, 15% off repairs all year, and detailed service records that back your warranty, all from the same local team that already knows your equipment.`}></p>
+    </div>
+    <div class="center" style="margin-top:24px">
+      <a class="btn btn-primary btn-lg reveal" href="/contact/#quote">Ask About Comfort Care <Fragment set:html={icon('arrow-right', '', 18)} /></a>
+    </div>
+  </div>
+</section>
+)}
+
+<Fragment set:html={ctaBand(site, 'Ready to Improve Your Home Comfort?', overrides.home_cta_text || "No matter the make or model, our experts have the tools and experience to handle any furnace, air conditioner, heat pump, or ventilation issue, fast.")} />
+
+{!isVertical && content.BLOG.length > 0 && (
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">From the Blog</span>
+      <h2>Latest News &amp; Home Comfort Tips</h2>
+      <p>Practical advice to help you get the most from your heating and cooling system in {site.city}'s climate.</p>
+    </div>
+    <div class="post-grid" set:html={blogCardsHtml}></div>
+  </div>
+</section>
+)}
+
+<section class="section bg-soft">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">FAQs</span>
+      <h2 set:html={overrides.faqs_h2 || 'Frequently Asked Questions'}></h2>
+      <p set:html={overrides.faqs_intro || `Answers to the questions ${site.city} homeowners ask us most.`}></p>
+    </div>
+    <div class="faq" set:html={faqs}></div>
+  </div>
+</section>
+
+<Fragment set:html={areasSection(site, content.LOCATIONS ? Object.fromEntries(Object.entries(content.LOCATIONS).map(([k, v]) => [k, v.name])) : undefined)} />
+</SiteLayout>

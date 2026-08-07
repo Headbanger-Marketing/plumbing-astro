@@ -1,0 +1,148 @@
+---
+// Location / service-area page for hub sites.
+// Mirrors the dynamic-route pattern from services/[slug]/index.astro.
+// getStaticPaths reads content.LOCATIONS; emits one page per location slug.
+import SiteLayout from '../../../layouts/SiteLayout.astro';
+import QuoteForm from '../../../components/QuoteForm.astro';
+import { icon } from '../../../lib/icons';
+import { schemaLocalbusiness, schemaBreadcrumb, schemaFaq } from '../../../lib/schema';
+import { crumbs, ctaBand, verticalCopy } from '../../../lib/utils';
+import { loadSite } from '../../../lib/load-site';
+
+export async function getStaticPaths() {
+  const { site, content } = await loadSite();
+  if (!content.LOCATIONS) return [];
+  return Object.keys(content.LOCATIONS).map((slug) => ({ params: { slug } }));
+}
+
+const { site, content } = await loadSite();
+const LOCATIONS = content.LOCATIONS || {};
+const { slug } = Astro.params;
+const loc = LOCATIONS[slug!];
+
+if (!loc) {
+  return Astro.redirect('/');
+}
+
+const url = `/locations/${slug}/`;
+const locName = loc.name;
+const vc = verticalCopy(site);
+
+// Title + meta
+let title = `${vc.titleSlug(locName)} | ${site.brand}`;
+if (title.length > 60) title = `${locName} | ${site.brand}`;
+const desc = loc.meta;
+
+// Brand auto-link on intro (first occurrence -> homepage link)
+let intro = loc.intro;
+const brandIdx = intro.indexOf(site.brandHtml);
+if (brandIdx !== -1) {
+  intro = `${intro.slice(0, brandIdx)}<a href="/">${site.brandHtml}</a>${intro.slice(brandIdx + site.brandHtml.length)}`;
+}
+
+// FAQ rendering
+const faqs = loc.faq.map(
+  ([q, a]) =>
+    `<details class="faq__item">
+  <summary class="faq__q">${q}<span class="pm">${icon('chev-down', '', 18)}</span></summary>
+  <div class="faq__a"><p>${a}</p></div>
+</details>`
+).join('');
+
+// Nearby towns as chips
+const nearbyChips = loc.nearby.map(
+  (n) => `<li><span class="area-pill">${icon('pin', '', 15)} ${n}</span></li>`
+).join('');
+
+// Breadcrumb
+const breadcrumbItems: [string, string][] = [
+  ['Home', '/'],
+  [`${locName} Service Area`, url],
+];
+
+// Other locations for cross-linking
+const otherLocs = Object.entries(LOCATIONS)
+  .filter(([s]) => s !== slug)
+  .slice(0, 6)
+  .map(
+    ([s, l]) =>
+      `<a class="svc-card reveal" href="/locations/${s}/" style="padding:22px">
+        <span class="svc-card__ic">${icon('pin', '', 24)}</span>
+        <h3>${l.name}</h3>
+        <span class="svc-card__link">View service area ${icon('arrow-right', '', 16)}</span>
+      </a>`
+  )
+  .join('');
+---
+
+<SiteLayout
+  title={title}
+  desc={desc}
+  path={url}
+  ogType="article"
+  active="home"
+  schemaBlocks={[
+    schemaLocalbusiness(site),
+    schemaBreadcrumb(breadcrumbItems, site),
+    schemaFaq(loc.faq),
+  ]}
+>
+<section class="page-hero has-bg">
+  <div class="container">
+    <Fragment set:html={crumbs([['Home', '/'], [`${locName} Service Area`, '']])} />
+    <span class="eyebrow on-dark">Service Area</span>
+    <h1 set:html={vc.heroH1(locName)}></h1>
+    <p set:html={intro}></p>
+    <div class="page-hero__cta">
+      <a class="btn btn-primary btn-lg" href="#quote">Get a Free Quote</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="split">
+      <div class="reveal">
+        <span class="eyebrow">{vc.bodyEyebrow}</span>
+        <h2>Serving {locName} Homeowners</h2>
+        <p set:html={vc.bodyLead(locName, site.county, site.city, site.brandHtml)}></p>
+        {loc.nearby.length > 0 && (
+          <div style="margin-top:24px">
+            <h3 style="font-size:1.1rem;margin-bottom:10px">Also serving nearby:</h3>
+            <ul class="areas" style="margin-bottom:0"><Fragment set:html={nearbyChips} /></ul>
+          </div>
+        )}
+      </div>
+      <div class="split__media">
+        <div style="position:sticky;top:96px"><QuoteForm site={site} heading={vc.quoteHeading} sub={`Tell us what's going on with your ${locName} home, we'll get back to you fast.`} idSuffix={`loc-${slug}`} /></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{faqs && (
+  <section class="section bg-soft">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">FAQs</span>
+        <h2 set:html={vc.faqHeading(locName)}></h2>
+      </div>
+      <div class="faq" set:html={faqs}></div>
+    </div>
+  </section>
+)}
+
+{otherLocs && (
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">More Service Areas</span>
+        <h2>Towns We Also Serve</h2>
+      </div>
+      <div class="svc-grid" set:html={otherLocs}></div>
+    </div>
+  </section>
+)}
+
+<Fragment set:html={ctaBand(site, `Ready to Help Your ${locName} Home?`, vc.ctaText(locName))} />
+</SiteLayout>

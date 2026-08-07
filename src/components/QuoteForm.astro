@@ -1,0 +1,68 @@
+---
+// build.py::quote_form
+// Lead-gen form. Posts to n8n webhook (handled by assets/js/main.js — never edit).
+import { icon } from '../lib/icons';
+import type { SiteConfig } from '../lib/types';
+
+interface Props {
+  site: SiteConfig;
+  heading?: string;
+  sub?: string;
+  idSuffix?: string;
+}
+
+const {
+  site,
+  heading = 'Get a Free Quote',
+  sub = 'No obligation. Fast response. Honest pricing.',
+  idSuffix = 'hero',
+} = Astro.props;
+---
+
+<form class="quote-card" data-quote-form {...(site.thankYouRedirect ? { 'data-redirect-on-success': site.thankYouRedirect } : {})} novalidate aria-label="Request a free quote">
+  <div class="quote-card__head">
+    <span class="badge"><Fragment set:html={icon('headset', '', 24)} /></span>
+    <div><p id="quote" class="quote-card__title" style="font-size:1.15rem;font-weight:700;margin:0;line-height:1.2;color:var(--ink)">{heading}</p></div>
+  </div>
+  <p class="sub">{sub}</p>
+  <div class="form-status" role="status" aria-live="polite"></div>
+  <div class="form-grid">
+    <div class="field">
+      <label for={`name-${idSuffix}`}>Full Name <span class="req">*</span></label>
+      <input class="input" id={`name-${idSuffix}`} name="name" type="text" autocomplete="name" placeholder="Jane Doe" required>
+      <span class="error-text">Please enter your name.</span>
+    </div>
+    <div class="field row">
+      <div>
+        <label for={`phone-${idSuffix}`}>Phone <span class="req">*</span></label>
+        <input class="input" id={`phone-${idSuffix}`} name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(905) 000-0000" required>
+        <span class="error-text">Enter a phone number.</span>
+      </div>
+      <div>
+        <label for={`email-${idSuffix}`}>Email <span class="req">*</span></label>
+        <input class="input" id={`email-${idSuffix}`} name="email" type="email" autocomplete="email" placeholder="you@email.com" required>
+        <span class="error-text">Enter a valid email.</span>
+      </div>
+    </div>
+    <div class="field">
+      <label for={`addr-${idSuffix}`}>Street Address</label>
+      <input class="input" id={`addr-${idSuffix}`} name="address" type="text" autocomplete="address-line1" placeholder="123 Main St">
+    </div>
+    <div class="field row">
+      <div>
+        <label for={`city-${idSuffix}`}>City</label>
+        <input class="input" id={`city-${idSuffix}`} name="city" type="text" autocomplete="address-level2" placeholder={site.city}>
+      </div>
+      <div>
+        <label for={`postal-${idSuffix}`}>Postal Code</label>
+        <input class="input" id={`postal-${idSuffix}`} name="postal" type="text" autocomplete="postal-code" placeholder="N1A 1A1">
+      </div>
+    </div>
+    <div class="field">
+      <label for={`msg-${idSuffix}`}>Briefly describe your issue <span class="req">*</span></label>
+      <textarea class="input" id={`msg-${idSuffix}`} name="message" placeholder="e.g. Furnace won't turn on…" required></textarea>
+      <span class="error-text">Tell us briefly what's going on.</span>
+    </div>
+    <button class="btn btn-primary btn-lg btn-block" type="submit"><Fragment set:html={icon('send', '', 18)} /> Request My Free Quote</button>
+  </div>
+</form>

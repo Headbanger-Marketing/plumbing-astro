@@ -1,0 +1,113 @@
+{
+  "comment": "BEST-EFFORT importable template for the 'HVAC Chat' workflow on auto.sdagents.ai. Import creates the node graph + connections; you MUST then (1) paste the Resolve Site + capture_lead code from HVAC-CHAT-N8N-SPEC.md, (2) set the Anthropic credential on the model node, (3) confirm node typeVersions match your n8n version. Field IDs/types follow n8n v1.x LangChain conventions; tweak as needed.",
+  "name": "HVAC Chat",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "hvac-chat",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "10000000-0000-4000-8000-000000000001",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [200, 300],
+      "webhookId": "hvac-chat"
+    },
+    {
+      "parameters": {
+        "jsCode": "// PASTE Node 2 'Resolve Site' code from HVAC-CHAT-N8N-SPEC.md here.\n// Set WORKER to your deployed hvac-chat-context Worker URL.\nreturn [{ json: { sessionId: $json.sessionId, message: $json.message, site: {}, systemPrompt: '' } }];"
+      },
+      "id": "10000000-0000-4000-8000-000000000002",
+      "name": "Resolve Site",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [440, 300]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.message }}",
+        "options": {
+          "systemMessage": "={{ $json.systemPrompt }}"
+        }
+      },
+      "id": "10000000-0000-4000-8000-000000000003",
+      "name": "AI Agent",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.7,
+      "position": [700, 300]
+    },
+    {
+      "parameters": {
+        "model": "claude-haiku-4-5-20251001",
+        "options": {}
+      },
+      "id": "10000000-0000-4000-8000-000000000004",
+      "name": "Anthropic Chat Model",
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1,
+      "position": [620, 540],
+      "credentials": {
+        "anthropicApi": { "id": "REPLACE_WITH_CREDENTIAL_ID", "name": "Anthropic account" }
+      }
+    },
+    {
+      "parameters": {
+        "sessionId": "={{ $json.sessionId }}",
+        "contextWindowLength": 10,
+        "sessionKey": "hvac-chat"
+      },
+      "id": "10000000-0000-4000-8000-000000000005",
+      "name": "Window Buffer Memory",
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.1,
+      "position": [780, 540]
+    },
+    {
+      "parameters": {
+        "name": "capture_lead",
+        "description": "Submit a qualified lead for the current site. Call ONLY after you have the visitor's name and at least one of phone/email, plus the service they need. Do not call for general questions.",
+        "jsCode": "// PASTE Node 4 'capture_lead' code from HVAC-CHAT-N8N-SPEC.md here.\nreturn [{ json: { captured: false, note: 'placeholder' } }];"
+      },
+      "id": "10000000-0000-4000-8000-000000000006",
+      "name": "capture_lead",
+      "type": "@n8n/n8n-nodes-langchain.toolCode",
+      "typeVersion": 1.1,
+      "position": [940, 540]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={\n  \"reply\": {{ ($json.output || $json.text || '').toJsonObject() ? JSON.stringify({reply: $json.output || $json.text || ''}) : '{}' }}\n}",
+        "options": {
+          "responseHeaders": {
+            "entries": [
+              { "name": "Access-Control-Allow-Origin", "value": "*" },
+              { "name": "Access-Control-Allow-Headers", "value": "content-type" },
+              { "name": "Access-Control-Allow-Methods", "value": "POST, OPTIONS" }
+            ]
+          }
+        }
+      },
+      "id": "10000000-0000-4000-8000-000000000007",
+      "name": "Respond to Webhook",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [980, 300]
+    }
+  ],
+  "connections": {
+    "Webhook": { "main": [[{ "node": "Resolve Site", "type": "main", "index": 0 }]] },
+    "Resolve Site": { "main": [[{ "node": "AI Agent", "type": "main", "index": 0 }]] },
+    "AI Agent": { "main": [[{ "node": "Respond to Webhook", "type": "main", "index": 0 }]] },
+    "Anthropic Chat Model": { "ai_languageModel": [[{ "node": "AI Agent", "type": "ai_languageModel", "index": 0 }]] },
+    "Window Buffer Memory": { "ai_memory": [[{ "node": "AI Agent", "type": "ai_memory", "index": 0 }]] },
+    "capture_lead": { "ai_tool": [[{ "node": "AI Agent", "type": "ai_tool", "index": 0 }]] }
+  },
+  "active": false,
+  "settings": { "executionOrder": "v1" },
+  "tags": []
+}

@@ -1,0 +1,200 @@
+---
+// Post-submit thank-you / confirmation page.
+//
+// This is a TRANSACTIONAL page (the user just submitted a lead), not a
+// marketing page. Design rules:
+//   - One compact card, centered. No page-hero, no crumbs, no card grid,
+//     no closing CTA band. Those are marketing-page treatments that bury
+//     the only two things that matter: (1) we got your request, (2) answer
+//     the call from an unfamiliar number.
+//   - Critical info first, in reading order: confirmation -> the
+//     "unfamiliar number" warning (the #1 reason leads don't convert into
+//     actual calls) -> phone button -> who's calling -> partner footer.
+//   - Minimal copy. No filler ("Whatever your home comfort need…").
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { icon } from '../lib/icons';
+import { loadSite } from '../lib/load-site';
+
+const { site } = await loadSite();
+
+const title = `Thank You | ${site.brand}`;
+const desc = `Your request has been submitted. A local ${site.city} technician will contact you shortly.`;
+
+const partner = site.partner;
+const partnerUrl = partner?.url;
+// Partner logo: png under /assets/img/partners/<slug>.png. Committed to
+// public/assets/img/partners/ AND each deploy repo's assets/img/partners/
+// (sync KEEP-list doesn't carry new image subdirs). Reads on white card.
+// Jayden's logo has black "Mechanical" text.
+const partnerSlug = partner?.name
+  ? partner.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+  : '';
+const partnerLogo = partnerSlug ? `/assets/img/partners/${partnerSlug}.png` : '';
+---
+
+<SiteLayout
+  title={title}
+  desc={desc}
+  path="/thank-you/"
+  active="contact"
+  robots="noindex, follow"
+>
+  <section class="ty">
+    <div class="container ty__card">
+      <span class="ty__check"><Fragment set:html={icon('check', '', 36)} /></span>
+      <h1>Request received</h1>
+
+      {partnerLogo && (
+        <span class="ty__partner-badge">
+          <img class="ty__partner-logo" src={partnerLogo} alt={`${partner?.name ?? ''} logo`} width="452" height="76" loading="eager" decoding="async" />
+        </span>
+      )}
+      {partner?.tagline && <p class="ty__partner-line">{partner.tagline}</p>}
+
+      <p class="ty__lede">A local technician will call you back shortly about your {site.city} home.</p>
+
+      <div class="ty__warn">
+        <span class="ty__warn-ic"><Fragment set:html={icon('phone', '', 20)} /></span>
+        <p><strong>Answer the call.</strong> It may come from an unfamiliar number or area code. Please pick up so we don&rsquo;t miss you.</p>
+      </div>
+
+      <a class="btn btn-primary btn-lg ty__call" href={`tel:${site.phone.tel}`}>
+        <Fragment set:html={icon('headset', '', 20)} /> {site.phone.display}
+      </a>
+      <span class="ty__call-sub">Prefer to talk now? Call us directly.</span>
+
+      <p class="ty__who">
+        {partner?.name ? (
+          <>Serviced by <strong>{partner.name}</strong>{partnerUrl && <> &middot; <a href={partnerUrl} rel="nofollow noopener" target="_blank">learn more</a></>}</>
+        ) : (
+          <>Serviced by <strong set:html={site.brandHtml} /></>
+        )}
+      </p>
+    </div>
+  </section>
+</SiteLayout>
+
+<style>
+  /* Scoped to this page only. Overrides the marketing-page section/card
+     spacing so the confirmation reads compact and lead-first. */
+  .ty {
+    min-height: calc(100vh - 220px);
+    display: flex;
+    align-items: center;
+    padding: 40px 0 60px;
+  }
+  .ty__card {
+    max-width: 560px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+  .ty__check {
+    width: 64px; height: 64px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #16a34a, #15803d);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 18px rgba(22, 163, 74, .28);
+    margin-bottom: 4px;
+  }
+  .ty__card h1 {
+    margin: 0;
+    font-size: clamp(1.7rem, 1.3rem + 1.4vw, 2.2rem);
+  }
+  .ty__lede {
+    margin: 0 0 6px;
+    color: var(--muted);
+    font-size: 1.05rem;
+    max-width: 440px;
+  }
+  .ty__warn {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    text-align: left;
+    background: #fff7ed;
+    border: 1px solid #fed7aa;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin: 8px 0 6px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .ty__warn-ic {
+    flex-shrink: 0;
+    width: 34px; height: 34px;
+    border-radius: 8px;
+    background: #ea580c;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ty__warn p {
+    margin: 0;
+    color: #7c2d12;
+    font-size: .98rem;
+    line-height: 1.45;
+    padding-top: 4px;
+  }
+  .ty__call {
+    margin-top: 8px;
+    min-width: 240px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .ty__call-sub {
+    margin: 2px 0 14px;
+    color: var(--muted-light);
+    font-size: .88rem;
+  }
+  .ty__who {
+    margin: 14px 0 0;
+    padding-top: 16px;
+    border-top: 1px solid var(--line, #e2e8f0);
+    color: var(--muted);
+    font-size: .92rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  /* Partner badge: white card so black-text logos (Jayden's) read; sits
+     right under the H1 so the brand is high-visibility. */
+  .ty__partner-badge {
+    background: var(--surface);
+    border: 1px solid var(--line, #e2e8f0);
+    border-radius: 14px;
+    padding: 14px 22px;
+    box-shadow: 0 4px 14px rgba(15, 37, 68, .06);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 0 0;
+  }
+  .ty__partner-logo {
+    height: 44px;
+    width: auto;
+    display: block;
+  }
+  .ty__partner-line {
+    margin: 0;
+    color: var(--muted);
+    font-size: .95rem;
+    font-style: italic;
+  }
+  @media (max-width: 560px) {
+    .ty__card { gap: 12px; }
+    .ty__partner-logo { height: 38px; }
+    .ty__partner-badge { padding: 12px 18px; }
+  }
+</style>

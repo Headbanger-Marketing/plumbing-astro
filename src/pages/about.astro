@@ -1,0 +1,132 @@
+---
+// build_pages.py::build_about()
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { icon } from '../lib/icons';
+import { featureItem, crumbs, ctaBand, areasSection } from '../lib/utils';
+import { schemaLocalbusiness, schemaBreadcrumb } from '../lib/schema';
+import { loadSite } from '../lib/load-site';
+
+const { site } = await loadSite();
+const siteName = site.domain;
+const SITE_NAME_T = site.brand;
+
+// Per-site about-page overrides (bespoke copy extracted from deployed HTML).
+interface AboutOverride {
+  hero_h1?: string;
+  hero_lead?: string;
+  story_lead?: string;
+  story_paragraphs?: string[];
+  story_h2?: string;
+  commitment_h2?: string;
+  commitment_paragraphs?: string[];
+  callout_h3?: string;
+  callout_p?: string;
+  cta_h2?: string;
+  cta_p?: string;
+}
+let overrides: AboutOverride = {};
+try {
+  overrides = (await import(`../sites/${siteName}/about-overrides.json`, { assert: { type: 'json' } })).default;
+} catch {
+  // No override file — fall back to template defaults below.
+}
+
+const title = `About Us | ${SITE_NAME_T}`;
+const desc = `${site.brand} is a licensed, insured HVAC company serving ${site.city}, Ontario with honest, reliable heating and cooling care. Meet the team.`;
+
+const commitmentFeatures = [
+  ['check-sm', 'Honest, Transparent Pricing', 'Free quotes and clear estimates before any work starts.'],
+  ['check-sm', 'Trained, Courteous Technicians', 'On-time, tidy, and respectful of your home.'],
+  ['check-sm', 'Standing Behind Our Work', '100% satisfaction guarantee on every job.'],
+] as [string, string, string][];
+
+// Helpers: pick override or fallback
+const heroH1 = overrides.hero_h1 || `A Tradition of Home Comfort in ${site.city}`;
+const heroLead = overrides.hero_lead || `We aren't just technicians, we're your neighbours, committed to keeping ${site.city} families comfortable through every season.`;
+const storyLead = overrides.story_lead || `At <a href="/">${site.brandHtml}</a>, we believe every family deserves a comfortable, healthy home. As an HVAC company based in ${site.city}, Ontario, our mission is simple: keep your home comfortable through every season with the same high standard of care we'd expect for our own households.`;
+const storyH2 = overrides.story_h2 || `People Over Profits in ${site.city}, Season After Season`;
+// Render the FULL authored story_paragraphs array. The old code read [1] only,
+// leaving story_paragraphs[0] (and any further entries) as dead code and forcing
+// the identical template fallback to render even on sites with authored copy — a
+// major about-page duplicate vector. Fall back to the template paragraph only when
+// no override is present at all.
+const storyParas: string[] =
+  overrides.story_paragraphs && overrides.story_paragraphs.length
+    ? overrides.story_paragraphs
+    : [`Our journey began with one goal, to provide honest, transparent home services that put people first. We know that when your furnace or air conditioner fails, it's more than an inconvenience; it's a disruption to your family's peace of mind. That's why we've built our reputation on being a reliable HVAC company that delivers tailored solutions with a personal touch.`];
+const commitmentH2 = overrides.commitment_h2 || `Comfort, Integrity &amp; Indoor Air Quality`;
+const commitmentP1 = (overrides.commitment_paragraphs && overrides.commitment_paragraphs[0]) || `We take pride in our expertise in energy-efficient air conditioning and modern heating, helping our community reduce its carbon footprint while saving on monthly utility bills.`;
+const commitmentP2 = (overrides.commitment_paragraphs && overrides.commitment_paragraphs[1]) || `When you choose us, you aren't just getting a repair service, you're joining a community of satisfied homeowners who value quality, integrity, and a heating and cooling partner who genuinely cares.`;
+const calloutH3 = overrides.callout_h3 || `What Our Work Covers`;
+const calloutP = overrides.callout_p || `We specialize in everything from high-efficiency furnace installation to complex central-air diagnostics. Our team handles both residential and light-commercial systems, so whether you're at home or at work, your environment stays perfectly regulated.`;
+const ctaH2 = overrides.cta_h2 || `Experience the ${site.brandHtml} Difference`;
+const ctaP = overrides.cta_p || `Join your neighbours who count on us for honest, dependable home comfort. Reach out for your free quote today.`;
+---
+
+<SiteLayout
+  title={title}
+  desc={desc}
+  path="/about/"
+  active="about"
+  schemaBlocks={[
+    schemaLocalbusiness(site),
+    schemaBreadcrumb([
+      ['Home', '/'],
+      ['About', '/about/'],
+    ], site),
+  ]}
+>
+<section class="page-hero">
+  <div class="container">
+    <Fragment set:html={crumbs([['Home', '/'], ['About', '']])} />
+    <span class="eyebrow on-dark">About Us</span>
+    <h1 set:html={heroH1}></h1>
+    <p set:html={heroLead}></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="split">
+      <div class="reveal">
+        <span class="eyebrow">Our Story</span>
+        <h2 set:html={storyH2}></h2>
+        <p set:html={storyLead}></p>
+        {storyParas.map((p) => <p set:html={p}></p>)}
+      </div>
+      <div class="split__media reveal d1">
+        <div class="media-panel">
+          <div class="media-panel__row">
+            <div class="media-chip warm"><span class="ic"><Fragment set:html={icon('shield', '', 24)} /></span><b>Licensed &amp; Insured</b><span>Qualified, certified technicians</span></div>
+            <div class="media-chip cool"><span class="ic"><Fragment set:html={icon('shield', '', 24)} /></span><b>Licensed</b><span>Insured &amp; certified techs</span></div>
+            <div class="media-chip cool"><span class="ic"><Fragment set:html={icon('leaf', '', 24)} /></span><b>Efficient</b><span>Energy-saving systems</span></div>
+            <div class="media-chip warm"><span class="ic"><Fragment set:html={icon('clock', '', 24)} /></span><b>Available</b><span>24/7 emergency service</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-soft">
+  <div class="container">
+    <div class="split reverse">
+      <div class="split__media reveal">
+        <div class="callout"><h3 set:html={calloutH3}></h3><p set:html={calloutP}></p></div>
+      </div>
+      <div class="reveal d1">
+        <span class="eyebrow">Our Commitment</span>
+        <h2 set:html={commitmentH2}></h2>
+        <p set:html={commitmentP1}></p>
+        <p set:html={commitmentP2}></p>
+        <ul class="feature-list">
+          {commitmentFeatures.map((f) => <Fragment set:html={featureItem(...f)} />)}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<Fragment set:html={ctaBand(site, ctaH2, ctaP)} />
+<Fragment set:html={areasSection(site)} />
+</SiteLayout>

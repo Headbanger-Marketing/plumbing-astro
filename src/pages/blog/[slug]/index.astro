@@ -1,0 +1,71 @@
+---
+// build_pages.py::article_shell()
+import SiteLayout from '../../../layouts/SiteLayout.astro';
+import { icon } from '../../../lib/icons';
+import { relatedService } from '../../../data/content';
+import { schemaLocalbusiness, schemaBreadcrumb, schemaBlogpost } from '../../../lib/schema';
+import { crumbs, ctaBand, blogCards, linkBrandHome } from '../../../lib/utils';
+import { loadSite } from '../../../lib/load-site';
+
+export async function getStaticPaths() {
+  const { site, content } = await loadSite();
+  // Vertical sites (generator/geothermal) are homepage-only — no blog posts.
+  if (site.vertical && site.vertical !== 'hvac') return [];
+  return content.BLOG.map((p) => ({ params: { slug: p.slug } }));
+}
+
+const { site, content } = await loadSite();
+const BLOG = content.BLOG;
+const { slug } = Astro.params;
+const p = BLOG.find((b) => b.slug === slug!)!;
+const url = `/blog/${slug}/`;
+const seoTitle = p.seo_title || p.title;
+const bodyHtml = linkBrandHome(p.body, site);
+const rsvc = relatedService(p);
+const related = BLOG.filter((x) => x.slug !== slug);
+const relCards = blogCards(related, 2);
+---
+
+<SiteLayout
+  title={seoTitle}
+  desc={p.meta}
+  path={url}
+  ogType="article"
+  ogImage={`${site.url}${p.photo}`}
+  schemaBlocks={[
+    schemaLocalbusiness(site),
+    schemaBreadcrumb([
+      ['Home', '/'],
+      ['Blog', '/blog/'],
+      [p.title, url],
+    ], site),
+    schemaBlogpost(p.title, p.meta, url, p.date, site),
+  ]}
+>
+<section class="page-hero">
+  <div class="container">
+    <Fragment set:html={crumbs([['Home', '/'], ['Blog', '/blog/'], [p.title.slice(0, 42) + '…', '']])} />
+    <div class="article__meta" style="color:#9fb9d4"><span class="tag">Home Comfort Tips</span><Fragment set:html={icon('calendar', '', 16)} /> {p.date_h}</div>
+    <h1>{p.title}</h1>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <article class="article reveal">
+      <img class="svc-photo" src={p.photo} alt={p.photo_alt} width="1600" height={p.photo_h} loading="eager" decoding="async" style="margin-bottom:30px">
+      <Fragment set:html={bodyHtml} />
+      <div class="note-banner" style="margin-top:30px;background:var(--bg-alt);border:1px solid var(--line);color:var(--body)">
+        <strong style="color:var(--navy-900)">Need help now?</strong>
+        For professional <a href={rsvc[0]}>{rsvc[1]} in {site.city}</a>, our team is ready to help. <a href="/contact/#quote">Request a free quote</a> and a {site.city} technician will get back to you fast. We're here 24/7.
+      </div>
+    </article>
+  </div>
+</section>
+<section class="section bg-soft">
+  <div class="container">
+    <div class="section-head reveal"><span class="eyebrow">Keep Reading</span><h2>More Home Comfort Tips</h2></div>
+    <div class="post-grid" set:html={relCards}></div>
+  </div>
+</section>
+<Fragment set:html={ctaBand(site)} />
+</SiteLayout>
