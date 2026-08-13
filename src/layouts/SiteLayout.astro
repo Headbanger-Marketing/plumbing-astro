@@ -23,12 +23,15 @@ const {
   path,
   schemaBlocks = [],
   ogType = 'website',
-  robots = 'index, follow',
+  robots,
   ogImage,
   active = '',
 } = Astro.props;
 
 const { site, content } = await loadSite();
+
+// robots: explicit page prop wins; otherwise default off the per-site noindex flag.
+const robotsVal = robots ?? (site.noindex ? 'noindex, nofollow' : 'index, follow');
 
 const canonical = site.url + path;
 const sb = schemaBlocks.join('\n');
@@ -53,7 +56,7 @@ const GOOGLE_FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"
 <title>{title}</title>
 <meta name="description" content={desc}>
 <link rel="canonical" href={canonical}>
-<meta name="robots" content={robots}>
+<meta name="robots" content={robotsVal}>
 <meta name="theme-color" content={site.palette.themeColor}>
 {/* DEV ONLY: point the chat widget at the REAL n8n "HVAC Chat" brain (auto.sdagents.ai).
     Stripped from production builds by import.meta.env.DEV, so prod also hits the real

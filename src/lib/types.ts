@@ -47,4 +47,7 @@ export interface SiteConfig {
   // service + blog pages. 'generator' or 'geothermal' = homepage-only site
   // (no service/blog pages generated; homepage is the money page).
   vertical?: 'hvac' | 'generator' | 'geothermal' | 'solar';
+  // When true, every page emits <meta name="robots" content="noindex, nofollow">.
+  // Set on sites built but not yet live on their real registered domain.
+  noindex?: boolean;
 }
