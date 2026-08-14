@@ -30,8 +30,8 @@ const quoteFeatures = [
   ['shield', 'Licensed &amp; Insured', 'Professional, certified service in your home.'],
 ] as [string, string, string][];
 
-const heroLead = overrides.hero_lead || `Is your air conditioner making a strange noise? Ready to upgrade your furnace before winter? Whatever your home comfort need, the <a href="/">${site.brandHtml}</a> team is ready to help, without the stress.`;
-const formIntro = overrides.form_intro || `Fill out the form and one of our technicians will get back to you quickly to discuss your heating or cooling needs. For urgent issues, calling is always fastest.`;
+const heroLead = overrides.hero_lead || `Is your water heater leaking? Ready to upgrade before it fails? Whatever your plumbing need, the <a href="/">${site.brandHtml}</a> team is ready to help, without the stress.`;
+const formIntro = overrides.form_intro || `Fill out the form and one of our plumbers will get back to you quickly to discuss your plumbing needs. For urgent issues, calling is always fastest.`;
 ---
 
 <SiteLayout
@@ -51,7 +51,7 @@ const formIntro = overrides.form_intro || `Fill out the form and one of our tech
   <div class="container">
     <Fragment set:html={crumbs([['Home', '/'], ['Contact', '']])} />
     <span class="eyebrow on-dark">Contact Us</span>
-    <h1>Let's Get Your Comfort Back on Track</h1>
+    <h1>Let's Get Your Plumbing Back on Track</h1>
     <p set:html={heroLead}></p>
   </div>
 </section>
@@ -72,7 +72,7 @@ const formIntro = overrides.form_intro || `Fill out the form and one of our tech
           {quoteFeatures.map((f) => <Fragment set:html={featureItem(...f)} />)}
         </ul>
       </div>
-      <div class="split__media reveal d1"><QuoteForm site={site} heading="Get a Free Quote" sub="Tell us about your heating or cooling issue." idSuffix="contact" /></div>
+      <div class="split__media reveal d1"><QuoteForm site={site} heading="Get a Free Quote" sub="Tell us about your plumbing issue." idSuffix="contact" /></div>
     </div>
   </div>
 </section>
@@ -82,7 +82,7 @@ const formIntro = overrides.form_intro || `Fill out the form and one of our tech
     <div class="section-head reveal">
       <span class="eyebrow">Service Hours</span>
       <h2>We're Here Whenever You Need Us</h2>
-      <p>Heating and cooling emergencies don't keep a schedule, and neither do we.</p>
+      <p>Plumbing emergencies don't keep a schedule, and neither do we.</p>
     </div>
     <div class="info-grid">
       <div class="info-card center reveal"><span class="ic" style="margin-inline:auto"><Fragment set:html={icon('clock', '', 26)} /></span><h3>24 Hours a Day</h3><p style="color:var(--muted)">Round-the-clock emergency service</p></div>

@@ -132,9 +132,9 @@ const vc = verticalCopy(site);
   <div class="hero__glow"></div>
   <div class="container">
     <div class="hero__copy reveal">
-      <span class="eyebrow on-dark" set:html={overrides.hero_eyebrow || `${site.city}'s Full-Service Heating &amp; Cooling Team`}></span>
-      <h1 set:html={overrides.hero_h1 || `<span class="accent">${site.city} Heating &amp; Cooling</span>: One Team, Every Season`}></h1>
-      <p class="hero__sub" set:html={overrides.hero_sub || `${site.brand} keeps homes across ${site.city === site.county ? `${site.county}, Ontario` : `${site.city}, Ontario and ${site.county}`} comfortable all year. Furnaces in winter, air conditioning in summer, and steady maintenance in between, handled by one dependable team that knows your system and answers when you call.`}></p>
+      <span class="eyebrow on-dark" set:html={overrides.hero_eyebrow || `${site.city}'s Fully Licensed Plumbers`}></span>
+      <h1 set:html={overrides.hero_h1 || `<span class="accent">${site.city} Plumbers</span>: Licensed, On Time, Every Job`}></h1>
+      <p class="hero__sub" set:html={overrides.hero_sub || `${site.brand} keeps homes across ${site.city === site.county ? `${site.county}, Ontario` : `${site.city}, Ontario and ${site.county}`} flowing and dry all year. Water heaters and drains in every season, sump pumps and repiping when you need them, and steady maintenance in between, handled by one dependable team that knows your home and answers when you call.`}></p>
       <div class="hero__cta">
         <a class="btn btn-primary btn-lg" href="#quote">Get a Free Quote</a>
       </div>
@@ -204,7 +204,7 @@ const vc = verticalCopy(site);
     </div>
     <div class="steps">
       <div class="step reveal"><div class="step__ic"><Fragment set:html={icon('search', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[0]?.h3) || 'We Get to Know Your System'}></h3><p set:html={(overrides.process_steps && overrides.process_steps[0]?.p) || 'We look at the whole picture, your plumbing system as a whole, and explain what we find in plain language. Whether it is a water heater replacement, a drain cleaning, or a repipe, you get a clear recommendation, not a hard sell.'}></p></div>
-      <div class="step reveal d1"><div class="step__ic"><Fragment set:html={icon('wrench', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[1]?.h3) || 'Work Done Right the First Time'}></h3><p set:html={(overrides.process_steps && overrides.process_steps[1]?.p) || 'Our technicians show up on time, do the job properly, and leave your home as tidy as they found it, on every furnace, AC, thermostat, or duct job.'}></p></div>
+      <div class="step reveal d1"><div class="step__ic"><Fragment set:html={icon('wrench', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[1]?.h3) || 'Work Done Right the First Time'}></h3><p set:html={(overrides.process_steps && overrides.process_steps[1]?.p) || 'Our plumbers show up on time, do the job properly, and leave your home as tidy as they found it, on every water heater, drain, fixture, or repiping job.'}></p></div>
       <div class="step reveal d2"><div class="step__ic"><Fragment set:html={icon('headset', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[2]?.h3) || 'A Team You Keep'}></h3><p set:html={(overrides.process_steps && overrides.process_steps[2]?.p) || 'The job is the start of the relationship, not the end. With seasonal maintenance and a team that knows your equipment, your system keeps running well for years.'}></p></div>
     </div>
   </div>
@@ -231,7 +231,7 @@ const vc = verticalCopy(site);
     <div class="section-head reveal">
       <span class="eyebrow">Comfort Care</span>
       <h2 set:html={overrides.comfortcare_h2 || `Comfort Care: Our Annual Maintenance Plan`}></h2>
-      <p set:html={overrides.comfortcare_text || `Keep your furnace, air conditioner, heat pump, or boiler running its best with a Comfort Care membership. Members get priority booking, 15% off repairs all year, and detailed service records that back your warranty, all from the same local team that already knows your equipment.`}></p>
+      <p set:html={overrides.comfortcare_text || `Keep your water heater, drains, fixtures, and sump pump running their best with a Comfort Care membership. Members get priority booking, 15% off repairs all year, and detailed service records that back your warranty, all from the same local team that already knows your home.`}></p>
     </div>
     <div class="center" style="margin-top:24px">
       <a class="btn btn-primary btn-lg reveal" href="/contact/#quote">Ask About Comfort Care <Fragment set:html={icon('arrow-right', '', 18)} /></a>
@@ -240,7 +240,7 @@ const vc = verticalCopy(site);
 </section>
 )}
 
-<Fragment set:html={ctaBand(site, 'Ready to Improve Your Home Comfort?', overrides.home_cta_text || "No matter the make or model, our experts have the tools and experience to handle any furnace, air conditioner, heat pump, or ventilation issue, fast.")} />
+<Fragment set:html={ctaBand(site, 'Ready to Get Your Water Running Right?', overrides.home_cta_text || "No matter the fixture or problem, our plumbers have the tools and experience to handle any water heater, drain, repiping, or sump-pump issue, fast.")} />
 
 {!isVertical && content.BLOG.length > 0 && (
 <section class="section">
