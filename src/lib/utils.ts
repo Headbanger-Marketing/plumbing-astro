@@ -156,8 +156,8 @@ export function crumbs(items: [name: string, url: string][]): string {
 // build.py::cta_band
 export function ctaBand(
   s: SiteConfig,
-  title = 'Ready to Restore Your Home Comfort?',
-  text = "Whatever your heating or cooling need, our licensed technicians are ready to help, fast. Get your free, no-obligation quote today."
+  title = 'Ready to Solve Your Plumbing Problem?',
+  text = "Whatever your plumbing need, our licensed plumbers are ready to help, fast. Get your free, no-obligation quote today."
 ): string {
   return `<section class="section">
   <div class="container">

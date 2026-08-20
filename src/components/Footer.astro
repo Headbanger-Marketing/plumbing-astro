@@ -46,7 +46,7 @@ const areas = site.serviceAreas.map((a) => `<li>${a}</li>`).join('');
         <ul class="footer-contact">
           <li><Fragment set:html={icon('phone', '', 19)} /><a href={`tel:${site.phone.tel}`}>{site.phone.display}</a></li>
           <li><Fragment set:html={icon('mail', '', 19)} /><a href={`mailto:${site.email}`}>{site.email}</a></li>
-          <li><Fragment set:html={icon('pin', '', 19)} /><span>{site.city}, {site.regionAbbr}</span></li>
+          <li><Fragment set:html={icon('pin', '', 19)} /><span>{site.address.street}, {site.address.locality}, {site.address.region} {site.address.postal}</span></li>
           <li><Fragment set:html={icon('clock', '', 19)} /><span>Open 24 hours · 7 days a week</span></li>
         </ul>
       </div>

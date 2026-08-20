@@ -1,0 +1,33 @@
+// Per-site config for seaforthplumbing.ca
+// Plumbing lead-gen (plumbing-astro). Seaforth, Huron County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+import type { SiteConfig } from '../lib/types';
+
+export const site: SiteConfig = {
+  domain: "seaforthplumbing.ca",
+  url: "https://seaforthplumbing.ca",
+  brand: "Seaforth Plumbing",
+  brandHtml: "Seaforth Plumbing",
+  city: "Seaforth",
+  region: 'Ontario',
+  regionAbbr: 'ON',
+  county: "Huron",
+  phone: { display: "(519) 555-0121", tel: "+15195550121" }, // PLACEHOLDER
+  email: "contact@seaforthplumbing.ca",
+  address: {
+    street: "PLACEHOLDER Main Street", // PLACEHOLDER
+    locality: "Seaforth",
+    region: 'ON',
+    postal: "N0K 1G0", // PLACEHOLDER
+  },
+  serviceAreas: ['Seaforth', 'Zurich', 'Clinton', 'Exeter', 'Bayfield', 'Goderich', 'Grand Bend'],
+  palette: {
+    navy: "#1f2937",
+    accent: "#0ea5e9",
+    accent2: "#1f2937",
+    themeColor: "#1f2937",
+  },
+  ogImage: "https://seaforthplumbing.ca/assets/img/og-default.png",
+  tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
+  media: { logo: "10-water-drop.png", technicianPhoto: "default-technician.jpg" },
+  noindex: true,
+};

@@ -1,0 +1,33 @@
+// Per-site config for ingersollplumbing.ca
+// Plumbing lead-gen (plumbing-astro). Ingersoll, Oxford County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+import type { SiteConfig } from '../lib/types';
+
+export const site: SiteConfig = {
+  domain: "ingersollplumbing.ca",
+  url: "https://ingersollplumbing.ca",
+  brand: "Ingersoll Plumbing",
+  brandHtml: "Ingersoll Plumbing",
+  city: "Ingersoll",
+  region: 'Ontario',
+  regionAbbr: 'ON',
+  county: "Oxford",
+  phone: { display: "(519) 555-0127", tel: "+15195550127" }, // PLACEHOLDER
+  email: "contact@ingersollplumbing.ca",
+  address: {
+    street: "PLACEHOLDER Street North", // PLACEHOLDER
+    locality: "Ingersoll",
+    region: 'ON',
+    postal: "N5C 1A1", // PLACEHOLDER
+  },
+  serviceAreas: ['Ingersoll', 'Woodstock', 'Tillsonburg', 'Beachville', 'Thamesford', 'Norwich', 'Burgessville'],
+  palette: {
+    navy: "#1f2937",
+    accent: "#0ea5e9",
+    accent2: "#1f2937",
+    themeColor: "#1f2937",
+  },
+  ogImage: "https://ingersollplumbing.ca/assets/img/og-default.png",
+  tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
+  media: { logo: "10-water-drop.png", technicianPhoto: "default-technician.jpg" },
+  noindex: true,
+};

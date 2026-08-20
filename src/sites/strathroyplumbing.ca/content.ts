@@ -1,11 +1,11 @@
 // Per-site content for strathroyplumbing.ca
 // Plumbing lead-gen (plumbing-astro). Strathroy-Caradoc, Middlesex County,
 // west of London along the 402.
-// Local angle: rural Middlesex homes on wells and septic (water treatment,
-// softeners, sump pumps), older Strathroy homes with galvanized or poly-B pipes
-// needing repipe, a hard-water region that wears out fixtures and tanks, wet
-// basements needing sump and backwater protection, and fixture upgrades in
-// renovated homes along the 402 corridor.
+// Local angle: the Sydenham headwaters and the Caradoc clay plain that keep
+// basements wet, a 19th-century brick downtown with century houses still on
+// galvanized, 402-commuter growth pushing new subdivision plumbing, farm
+// properties on wells and septic around the town line, and hard town water
+// that writes on glassware.
 // NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
 
 export const SVC = {
@@ -13,14 +13,14 @@ export const SVC = {
     icon: "flame",
     kicker: "Water Heaters in Strathroy, Ontario",
     h1: "Water Heater Installation From a Local Middlesex Plumbing Team",
-    intro: "Hot water is the thing you miss the second it stops, and Strathroy Plumbing installs, replaces, and repairs tank and tankless water heaters across Strathroy-Caradoc and the surrounding Middlesex region. Whether your old tank just let go on the basement floor, you want to move to a tankless unit for endless hot water, or your rural property on a well needs a unit sized to low flow and low pressure, our licensed plumbers size, supply, and install the right heater cleanly.",
-    meta: "Water heater installation and replacement in Strathroy, Ontario. Tank and tankless water heaters, emergency swap-outs, and proper sizing by licensed Middlesex plumbers.",
-    problem_h: "No hot water, or a tank that is leaking?",
-    problem_p: "From a leaking tank to a tankless upgrade, we install and replace water heaters across Strathroy with honest, upfront pricing.",
+    intro: "Strathroy carries a name borrowed from the Isle of Skye, and its oldest streets behave accordingly, century brick houses with low cellar mechanical rooms and stairs a tank negotiates sideways. Out by the 402 interchanges, the new subdivisions build bright utility closets with none of those worries. Strathroy Plumbing installs water heaters in both worlds, measuring headroom before promising a unit, sizing recovery for households that all shower before the London commute, and setting farm properties up around what the well and pressure tank can actually deliver.",
+    meta: "Water heater installation and replacement in Strathroy, Ontario. Tank and tankless units, tight-cellar swaps, and well-property sizing by licensed Middlesex plumbers.",
+    problem_h: "Tank dead, or dying on the cellar floor?",
+    problem_p: "Strathroy Plumbing measures the stair, matches the unit to the household and the water source, and stocks common sizes for fast swaps.",
     features: [
-      ["flame", "Tank and Tankless Options", "A properly sized tank means you never run out, and a tankless unit gives you endless hot water and saves floor space. We size the unit to your fixtures, your family, and your water source, town or well."],
-      ["clock", "Fast Emergency Swap-Outs", "When a tank fails you want hot water back the same day. We keep common sizes on the truck and can often swap a failed tank the same visit across Strathroy and Middlesex."],
-      ["shield", "Permitted and to Code", "Every water heater we install is plumbed with proper temperature and pressure relief, a drain pan where required, and a permit filed with the local municipality. The work meets the Ontario Building Code and passes inspection."]
+      ["flame", "Measured Before Quoted", "A tank that cannot make it down the cellar stair is not a bargain. We check access first, then size tank or tankless to the fixtures, the family, and the supply behind them, town main or well."],
+      ["clock", "Same-Visit Swaps on Stocked Sizes", "When a tank lets go, hot water is the whole emergency. Common capacities ride on the truck, and most Strathroy-Caradoc swaps finish in one visit with the dead unit drained and gone."],
+      ["shield", "Permits and Paper in Order", "Relief valves, pans, venting, and the municipal permit are handled on our side of the job, so the install passes inspection and reads clean at resale."]
     ],
     rev: [0, 1, 5],
   },
@@ -28,14 +28,14 @@ export const SVC = {
     icon: "refresh",
     kicker: "Drain Cleaning in Strathroy, Ontario",
     h1: "Drain Cleaning From a Local Middlesex Plumbing Team",
-    intro: "Slow drains and recurring clogs are a fact of life in a hard-water region like Strathroy, and Strathroy Plumbing clears them properly instead of just pouring chemicals down the line. We snake and hydro-jet kitchen sinks, floor drains, main lines, and septic connections for homes across Strathroy-Caradoc and rural Middlesex, and we use a camera to find out why it keeps coming back.",
-    meta: "Drain cleaning in Strathroy, Ontario. Kitchen and bath clogs, main line snaking, hydro-jetting, and camera inspection by licensed Middlesex plumbers.",
-    problem_h: "Slow drains, gurgling, or a recurring clog?",
-    problem_p: "From a kitchen sink that will not drain to a main line backup, we clear Strathroy-area drains and find the cause so it stays clear.",
+    intro: "The Caradoc clay plain holds moisture close and gives it back slowly, the willows along the Sydenham's headwater branches send roots toward every pipe seam within reach, and between them they keep drain work honest around here. Strathroy Plumbing clears lines the full way. The cable opens the blockage, the jetter scrubs the wall clean, and a camera goes through anything that has plugged twice, from a downtown kitchen to a farm run heading out to a septic bed past the town line.",
+    meta: "Drain cleaning in Strathroy, Ontario. Cabling, hydro-jetting, and camera inspection for root intrusion, village lines, and rural septic runs across Middlesex County.",
+    problem_h: "Second backup in one season?",
+    problem_p: "We clear Strathroy-Caradoc lines back to full bore and camera the repeats, so the cycle ends with a diagnosis instead of another rodding.",
     features: [
-      ["refresh", "Snaking and Hydro-Jetting", "A snake clears the blockage and a hydro-jet flushes the line back to full diameter. We carry both on the truck, so the job is done right in one visit rather than a second booking."],
-      ["droplets", "Camera Inspection of the Line", "If a drain keeps clogging, the only way to know why is to look. We run a camera through the line and show you the broken pipe, the roots, or the buildup causing it."],
-      ["shield", "Tree Roots and Rural Lines", "Older clay and cast-iron lines around Strathroy are a magnet for tree roots, and long rural runs to septic tanks need regular attention. We cut the roots and advise on a maintenance plan that fits."]
+      ["refresh", "Jetted Back to Full Bore", "Grease cast and soap film come off the pipe wall with water pressure, not chemistry. A jetted line in this clay country runs months where a punched hole ran weeks."],
+      ["droplets", "Camera on the Second Call", "One clog is a clog. Two is information. Footage of the root plate or the dropped joint sets the repair budget before the next backup sets it for you."],
+      ["pin", "Rural Runs Handled Gently", "Long lines out to septic tanks and fields get cleaned with the bed in mind, nothing forced downstream that the system cannot digest, and honest advice on a maintenance rhythm."]
     ],
     rev: [1, 0, 4],
   },
@@ -43,14 +43,14 @@ export const SVC = {
     icon: "wrench",
     kicker: "Repiping in Strathroy, Ontario",
     h1: "Repiping From a Local Middlesex Plumbing Team",
-    intro: "Many older Strathroy homes still run on galvanized steel or poly-B lines that restrict flow, leak at the fittings, and stain fixtures with rust, and Strathroy Plumbing replaces them with clean, code-approved piping. Whether you are repiping one bathroom, an addition, or the whole house, our licensed plumbers repipe the home with minimal wall cuts and land every fixture at full pressure.",
-    meta: "Repiping in Strathroy, Ontario. Galvanized and poly-B replacement, whole-home repipes, and PEX repiping by licensed Middlesex plumbers.",
-    problem_h: "Low water pressure or rusty, leaking pipes?",
-    problem_p: "We replace aging galvanized and poly-B piping in Strathroy homes with clean, modern piping that restores pressure and stops the leaks.",
+    intro: "Behind the brick storefronts downtown and the century houses on the streets around them, plenty of Strathroy still runs on galvanized laid when the town had fewer stoplights, and the seventies bungalows toward the highway carry poly-B as their own inheritance. Strathroy Plumbing replaces both eras in PEX and copper. Openings get planned against plaster and original millwork, water stays live overnight for the household, and the new system proves itself on a gauge before anything closes up.",
+    meta: "Repiping in Strathroy, Ontario. Galvanized and poly-B replacement in PEX and copper, planned around plaster and brick in older Middlesex homes.",
+    problem_h: "Rust at the tap and a shower that trickles?",
+    problem_p: "We strip the dead supply piping out of Strathroy homes and land clean lines that deliver pressure the house has not felt in decades.",
     features: [
-      ["wrench", "Galvanized and Poly-B Replacement", "Galvanized steel rusts from the inside out and poly-B fittings let go over time. We replace both with PEX or copper sized to your home, restoring flow and pressure to every fixture."],
-      ["home", "Whole-Home or Single-Bath Repipes", "Whether you are renovating one bathroom or repiping the whole Strathroy home, we scope the job to fit, opening walls cleanly and patching the access points."],
-      ["shield", "Permitted and Pressure-Tested", "Every repipe we do is pulled under a plumbing permit, pressure-tested before the walls close, and inspected. You get piping that is clean, to code, and ready for inspection."]
+      ["wrench", "Two Eras of Pipe, One Fix", "Galvanized that rusts shut and poly-B that lets go at the fittings get the same honest answer, full replacement in material sized to the home, with access planned before a tool comes out."],
+      ["home", "Water On Every Night", "Repipes here run floor by floor so the kitchen and a shower keep working through the job. Strathroy families stay in the house, which is how it should be."],
+      ["shield", "Gauge-Proven Before Cover-Up", "Pressure testing happens with the walls still open, under a municipal permit, and the inspection record stays with the house for resale."]
     ],
     rev: [2, 1, 4],
   },
@@ -58,14 +58,14 @@ export const SVC = {
     icon: "home",
     kicker: "Fixtures &amp; Toilets in Strathroy, Ontario",
     h1: "Fixtures &amp; Toilets From a Local Middlesex Plumbing Team",
-    intro: "A renovated bathroom or a kitchen refresh only looks as good as the plumbing behind it, and Strathroy Plumbing installs faucets, toilets, sinks, and fixtures across Strathroy-Caradoc homes. From swapping a running toilet to roughing in a new kitchen sink during a renovation, our licensed plumbers do the work cleanly and stand behind it.",
-    meta: "Fixture and toilet installation in Strathroy, Ontario. Faucets, sinks, toilets, shower trim, and renovation rough-ins by licensed Middlesex plumbers.",
-    problem_h: "New fixtures, or a toilet that will not stop running?",
-    problem_p: "From a toilet swap to a full kitchen or bath renovation rough-in, we install Strathroy-area fixtures cleanly and to code.",
+    intro: "Strathroy grows the way 402 towns do, young families into the new subdivisions and buyers redoing the century houses within walking distance of the brick downtown, and both currents arrive at the same bench eventually, a kitchen or bathroom that needs sound plumbing behind its new face. Strathroy Plumbing does that work. Fixtures go in level and sealed, hardware gets chosen to survive this county's water, and renos get roughed in ahead of the tile instead of argued about after it.",
+    meta: "Fixture and toilet installation in Strathroy, Ontario. Faucets, toilets, shower trim, and renovation rough-ins for older homes and new subdivisions alike.",
+    problem_h: "Reno booked, plumbing not yet?",
+    problem_p: "We rough in to the finished plan and trim out after the tile, every fixture set level, sealed, and fed by lines that can actually supply it.",
     features: [
-      ["home", "Toilets, Faucets, and Sinks", "We install and replace toilets, faucets, sinks, and shower trim from the brands you know, sealing every connection properly so the cabinet and floor stay dry under it."],
-      ["check", "Renovation Rough-Ins", "Renovating a Strathroy kitchen or bathroom means new drains, supply lines, and fixture locations. We rough in to your layout before the tile goes down so the trim-out is clean."],
-      ["shield", "Quality Fixtures That Last", "Cheap fixtures fail and leak, especially in a hard-water region. We help you choose fixtures that hold up to Middlesex water and install them so they hold up."]
+      ["home", "Set Level, Sealed for Good", "A rocking toilet or a weeping faucet base is an install problem, not a fixture problem. Ours go in flat, bolted, and watertight on the first visit."],
+      ["check", "Hardware Built for This Water", "Middlesex hardness eats cheap cartridges. We point renovators toward fixtures with replaceable parts and metal bodies, then install them so the parts stay reachable."],
+      ["shield", "Rough-Ins That Match the Plan", "Moved sinks, added showers, basement bathrooms, the drains and vents land where the layout needs them, under permit, before the finishes arrive."]
     ],
     rev: [3, 0, 5],
   },
@@ -73,14 +73,14 @@ export const SVC = {
     icon: "droplets",
     kicker: "Leak Detection &amp; Repair in Strathroy, Ontario",
     h1: "Leak Detection &amp; Repair From a Local Middlesex Plumbing Team",
-    intro: "A hidden leak rots framing, feeds mould, and runs up your water bill long before you see a stain, and Strathroy Plumbing finds it and fixes it fast. We use acoustic and pressure testing to locate leaks behind walls, under slabs, and underground across Strathroy-Caradoc and rural Middlesex properties, then repair them with the least damage possible.",
-    meta: "Leak detection and repair in Strathroy, Ontario. Hidden leaks, slab leaks, pressure testing, and acoustic leak location by licensed Middlesex plumbers.",
-    problem_h: "High water bill or a damp spot you can not explain?",
-    problem_p: "We locate hidden leaks under slabs, behind walls, and underground across Strathroy-area homes, then repair them cleanly.",
+    intro: "Damp in a Strathroy basement is ambiguous by nature, the Caradoc clay holds meltwater against foundations every spring, and a pinholed supply line can feed a wall quietly for a season. Paying for the wrong diagnosis is the expensive part. Strathroy Plumbing isolates the plumbing under pressure before anyone opens anything, listens with acoustic gear where the gauge points, and repairs through one planned opening. Rural properties get the same discipline along yard runs and well lines.",
+    meta: "Leak detection and repair in Strathroy, Ontario. Pressure isolation and acoustic location that separate clay-plain groundwater from plumbing leaks.",
+    problem_h: "Stain on the cellar wall, cause unknown?",
+    problem_p: "We prove whether it is the ground or the pipe before the first hole gets cut, then repair the fault through one small opening.",
     features: [
-      ["droplets", "Acoustic and Pressure Testing", "We do not guess where a leak is. We use acoustic gear and pressure testing to pin it down, so we open the wall or floor once instead of hunting around it."],
-      ["shield", "Slab and Underground Leaks", "A leak under a basement floor or out to the street is the hardest kind to find. We locate it, trench or tunnel only what we have to, and repair the line."],
-      ["check", "Repair, Not Just Diagnose", "Finding the leak is half the job. We repair it too, from a copper patch to a PEX rerun, so one call closes the loop and protects your Strathroy home."]
+      ["droplets", "Isolation Before Demolition", "Section-by-section pressure testing clears or condemns the plumbing in an afternoon. If the system holds, the fix is drainage, and a torn-open wall just got cancelled."],
+      ["shield", "Clay-Plain Judgment", "Decades of local seepage patterns get read for what they are. We know which Strathroy conditions point at the foundation wall and which point at the pipe."],
+      ["check", "Yard and Well Lines Traced", "Buried runs to barns and cisterns rarely leak in sight. We trace the failing length and dig once, exactly where the gear says."]
     ],
     rev: [0, 3, 5],
   },
@@ -88,14 +88,14 @@ export const SVC = {
     icon: "shield",
     kicker: "Sump Pumps &amp; Backwater in Strathroy, Ontario",
     h1: "Sump Pumps &amp; Backwater From a Local Middlesex Plumbing Team",
-    intro: "Strathroy basements and rural Middlesex homes with high water tables need real protection against groundwater and sewer backup, and Strathroy Plumbing installs and services sump pumps and backwater valves that keep the basement dry. We size the pump, install the basin and discharge, and add the backwater valve that stops the municipal sewer from backing into your basement.",
-    meta: "Sump pump and backwater valve installation in Strathroy, Ontario. Sump pumps, basins, battery backup, and backwater valves by licensed Middlesex plumbers.",
-    problem_h: "Wet basement, or worried about sewer backup?",
-    problem_p: "We install sump pumps and backwater valves that keep Strathroy-area basements dry through storms and high water table.",
+    intro: "The Sydenham gathers its headwater threads through Strathroy-Caradoc, and the flat clay that made these fields good farming makes basements here slow to drain at both ends of the year, thaw in April, storm in July. Strathroy Plumbing builds sump systems equal to that calendar, basin depth matched to how the yard actually behaves, a duty-rated pump that paces itself, battery power for outage nights, and discharge routed far enough from the stone to truly leave. Melbourne and Mount Brydges homes get the same engineering as town.",
+    meta: "Sump pump and backwater valve installation in Strathroy, Ontario. Sydenham-headwater groundwater protection, battery backup, and permitted backwater valves.",
+    problem_h: "Pump running all through the thaw?",
+    problem_p: "We build Strathroy-Caradoc sump systems sized to clay-plain water, with backup power and discharge that leaves the property instead of looping back.",
     features: [
-      ["shield", "Sump Pumps Sized to the Basement", "An undersized pump fails when the storm hits. We size the pump and basin to your basement and your water table so it cycles correctly and keeps up when it matters most."],
-      ["refresh", "Backwater Valve Protection", "A backwater valve on the sewer line is the one thing that stops the municipal system from backing into your basement during a heavy Strathroy storm. We install them to code and to the municipal subsidy where one is offered."],
-      ["zap", "Battery Backup Options", "Storms knock the power out at the exact moment the pump needs to run. We install battery backup units that keep the pump turning when the grid is down."]
+      ["shield", "Pit and Pump Sized as a Pair", "A shallow pit in wet clay makes a good pump short-cycle to death. Depth and capacity get set together so the system paces itself through weeks of melt."],
+      ["zap", "Power for the Dark Hours", "Storms and outages arrive together in this county, and the pit does not wait for the grid. Battery backup holds the floor through exactly those nights."],
+      ["refresh", "Discharge That Leaves", "A short outflow loop pours the same water back against the footing. We route Strathroy discharges out and clear, past drives, wells, and septic beds."]
     ],
     rev: [5, 0, 3],
   },
@@ -103,14 +103,14 @@ export const SVC = {
     icon: "gauge",
     kicker: "Water Softeners &amp; Filtration in Strathroy, Ontario",
     h1: "Water Softeners &amp; Filtration From a Local Middlesex Plumbing Team",
-    intro: "Middlesex County is a hard-water region and Strathroy homes on town supply and on wells both feel it, in scaled-up fixtures, short-lived water heaters, and dry skin and hair. Strathroy Plumbing sizes and installs water softeners and filtration systems that fit your water source, whether it is municipal supply in town or a private well out in rural Middlesex.",
-    meta: "Water softeners and filtration in Strathroy, Ontario. Softener installation, iron filters, UV treatment, and well water systems by licensed Middlesex plumbers.",
-    problem_h: "Hard water staining fixtures and shortening your water heater?",
-    problem_p: "We size and install water softeners and filtration systems for town and well water across Strathroy and rural Middlesex.",
+    intro: "Town supply in Strathroy runs hard enough to write on glassware, and past the municipal line the Caradoc wells take over entirely, bringing iron that stains toilet bowls and the occasional sulphur signature that announces itself on warm mornings. Strathroy Plumbing designs treatment from a test of your actual water, never a regional average. Iron removal stages ahead of the softener where the sample calls for it, ultraviolet follows where wet seasons have stirred bacteria, and everything gets plumbed with a bypass so service stays a five-minute job.",
+    meta: "Water softeners and filtration in Strathroy, Ontario. Test-driven softener sizing, iron and sulphur staging, and UV systems for town supply and Caradoc wells.",
+    problem_h: "Bowls staining and kettles furring?",
+    problem_p: "Treatment here follows the lab sheet, softening for the town main, staged iron and sulphur work for the wells, sized to the household that uses it.",
     features: [
-      ["gauge", "Right-Sized Softener for Your Water", "A softener only works if it is matched to the hardness and the household size. We test the water, size the unit, and plumb it in with a proper bypass so service is easy."],
-      ["droplets", "Well Water Treatment", "Rural Middlesex homes on wells face iron, sulphur, and bacteria that town supply does not. We install iron filters, sulphur systems, and UV treatment sized to your well test."],
-      ["shield", "Protects Fixtures and Heaters", "A softener stops the scale that wears out faucets, fills shower heads, and shortens water heater life. It pays for itself in fixtures and tanks that last."]
+      ["gauge", "Sequenced Treatment", "Order of operations decides whether equipment works or fouls. Iron ahead of softening, sulphur handled at its source, UV last in line, exactly as the test dictates."],
+      ["droplets", "Sample First, Always", "Caradoc wells vary concession to concession. Your design follows the sample from your tap, not a county average or a showroom default."],
+      ["shield", "Serviceable by Design", "Bypasses, valves, and salt access get placed for real people in real utility corners, so upkeep stays trivial and the system keeps its settings."]
     ],
     rev: [4, 2, 4],
   }
@@ -119,33 +119,33 @@ export const SVC = {
 export const BLOG = [];
 
 export const REVIEW_POOL = [
-  ["Our old water tank let go on the basement floor overnight. They had a new one in the same day and the hot water was back by dinner.", "Homeowner", "Strathroy"],
-  ["Drains kept backing up in the basement. They camera-ed the line, found the roots, and hydro-jetted it back to full flow. No issues since.", "Homeowner", "Mount Brydges"],
-  ["Repiped our whole century home off the galvanized that was in it. Pressure is better than it has ever been and the walls were patched clean.", "Resident", "Strathroy"],
-  ["Backwater valve and sump pump install before winter. Spring storms came and the basement stayed bone dry. Clean crew, on time.", "Homeowner", "Komoka"],
-  ["Installed a softener sized to our well water. No more orange stains on the fixtures and the shower actually feels clean.", "Farmer", "Melbourne"],
-  ["Renovated the kitchen and they roughed in the sink and dishwasher before the cabinets. Trim-out was clean and everything passed inspection.", "Resident", "Strathroy"]
+  ["Measured the cellar stair with a tape before quoting. The new tank went down the old staircase without a wall coming out, hot water the same afternoon.", "Homeowner", "Strathroy"],
+  ["Sulphur and iron from the well. Sample-driven staging, iron filter ahead of the softener, and the smell was gone inside a week.", "Farmer", "Melbourne"],
+  ["Every spring the main line plugged. They jetted it full length, cut the root crown at the joint, and showed me the after footage. First clear spring in five years.", "Homeowner", "Parkhill"],
+  ["Water bill spiked and a patch of yard stayed green by the barn. They traced the buried line, dug once, and spliced the leak out. Pressure tank checked too.", "Farmer", "Glencoe"],
+  ["Added a three-piece bath below grade in our Komoka house. Drain route and ejector planned honestly, roughed in before drywall, passed inspection first visit.", "Resident", "Komoka"],
+  ["They repiped just the bad branch and kept our original clawfoot, and told us the rest of the house could wait. Rare honesty, and the work is beautiful.", "Homeowner", "Mount Brydges"]
 ];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless water heater installation, emergency swap-outs, and proper sizing for Strathroy homes on town supply or well.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Snaking, hydro-jetting, and camera inspection for clogs and recurring backups across Strathroy and Middlesex.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized and poly-B replacement with PEX and copper, restoring flow and pressure in older Strathroy homes.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Faucet, sink, and toilet installation plus kitchen and bath renovation rough-ins for Strathroy homes.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic leak location, slab leak repair, and pressure testing for hidden leaks across Strathroy.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Sump pumps, basins, battery backup, and backwater valves that protect Strathroy-area basements from water and sewer backup.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Softeners, iron filters, and UV treatment sized to Strathroy town water and rural Middlesex wells.", "/services/water-softeners/"]
+  ["flame", "Water Heaters", "Tight-cellar swaps, well-property sizing, and common tank sizes stocked for same-visit replacement.", "/services/water-heaters/"],
+  ["refresh", "Drain Cleaning", "Cabling, jetting, and camera verdicts for root plates and clay-country grease across Strathroy-Caradoc.", "/services/drain-cleaning/"],
+  ["wrench", "Repiping", "Galvanized and poly-B replacement in PEX and copper, planned around plaster and brick in century houses.", "/services/repiping/"],
+  ["home", "Fixtures &amp; Toilets", "Level, sealed installs and renovation rough-ins for downtown renos and new subdivision bathrooms alike.", "/services/fixtures-toilets/"],
+  ["droplets", "Leak Detection &amp; Repair", "Pressure isolation that separates clay-plain groundwater from plumbing leaks before walls open.", "/services/leak-detection/"],
+  ["shield", "Sump Pumps &amp; Backwater", "Thaw-ready sump systems with battery backup and discharge routed off the property for clay-plain yards.", "/services/sump-pumps/"],
+  ["gauge", "Water Softeners &amp; Filtration", "Sample-driven softening with iron, sulphur, and UV staging for town mains and Caradoc wells.", "/services/water-softeners/"]
 ];
 
 export const HOME_FAQ = [
-  ["Are you licensed plumbers?", "Yes. We are licensed plumbers serving Strathroy and Middlesex County, and every job that requires one is pulled under a plumbing permit and inspected under the Ontario Building Code."],
-  ["Do you offer emergency plumbing in Strathroy?", "Yes. We take emergency calls across Strathroy and the surrounding Middlesex area for no-water, flooding, and sewer backup, with a local crew that reaches you fast."],
-  ["My water heater just started leaking. How fast can you come?", "Often the same day. We keep common tank sizes on the truck and can usually swap a failed unit the same visit across Strathroy, Mount Brydges, and Komoka."],
-  ["Should I repipe my older Strathroy home off galvanized?", "If you have galvanized steel lines, yes. Galvanized rusts from the inside, restricts flow, and eventually leaks at the fittings. We replace it with PEX or copper and restore pressure to every fixture."],
-  ["Do you service homes on wells and septic around Strathroy?", "Yes. We handle well water treatment, softeners, iron and sulphur systems, septic line repairs, and sump pumps across rural Middlesex where the water and the waste systems are entirely yours."],
-  ["Will a water softener help in Middlesex County?", "Yes. Middlesex is a hard-water region, and a properly sized softener stops the scale that ruins fixtures, shortens water heaters, and dries out skin and hair. We size the unit to your actual hardness and household."],
-  ["How much does a plumbing job cost?", "We offer free, no-obligation quotes, and we explain all pricing clearly before any work starts. Whether it is a toilet swap or a full repipe, there are no surprises."],
-  ["Do you serve areas outside of Strathroy?", "Yes. We serve Strathroy and the surrounding Middlesex communities including Mount Brydges, Komoka, Melbourne, Glencoe, and Parkhill."]
+  ["Are you licensed for work around Strathroy-Caradoc?", "Yes, and the paperwork travels with the job. We work under a full plumbing licence, file municipal permits for anything that needs one, and hand you the inspection record at the end."],
+  ["Do you take after-hours emergency calls?", "We do. Burst lines, sewer backups, flooding, and no-water calls across Strathroy-Caradoc and the Caradoc farm roads get priority, and the trucks carry the parts that settle most of them on the spot."],
+  ["Our tank is leaking today. How fast can it change?", "Call before noon and it usually changes today. Common capacities ride on the truck, and most swaps across Strathroy finish in a single visit with the old tank drained and hauled."],
+  ["Half our century house still runs galvanized. Repipe or patch?", "When rust shows at the tap and pressure drops each time another fixture opens, patching is losing ground. We replace the failing runs in PEX or copper, keep water on overnight, and prove the system on a gauge before closing."],
+  ["We are on a well and septic outside town. Different work?", "Different, and it is our normal week. Pressure tanks, treatment staged from a sample, septic-side drain cleaning done gently, and fixtures chosen for water that arrives carrying mineral."],
+  ["Is the water here hard enough to justify a softener?", "Between the town main and the Caradoc wells, most households see the evidence within a year. We test at the tap and size the unit to the number and the household, not a brochure."],
+  ["What does a job like this cost?", "You will know before we start. Quotes are free, written, and itemized, the approved figure is the invoiced figure, and where a repair honestly beats a replacement we price both and say which we would choose."],
+  ["How far past Strathroy do you travel?", "East to Mount Brydges and Komoka, southwest through Melbourne and Glencoe, north to Parkhill, and the concession roads between are already on the route sheet."]
 ];
 
 export const SVC_PHOTO = {
@@ -161,28 +161,28 @@ export const SVC_PHOTO = {
 export const LOCATIONS = {
   "mount-brydges": {
     name: "Mount Brydges",
-    intro: "Mount Brydges is a growing Middlesex village just east of Strathroy, where new homes and established properties mix along quiet country roads. Strathroy Plumbing serves Mount Brydges homeowners with water heaters, drain cleaning, repipes, sump pumps, and water softeners. Our licensed plumbers reach Mount Brydges fast for both planned work and emergency calls.",
+    intro: "Mount Brydges grew up on the old Longwoods road east of Strathroy, a village where the reach of London's west end keeps pushing new builds out among houses that remember gravel streets. Strathroy Plumbing serves Mount Brydges with water heaters, drain cleaning, branch and whole-home repipes, sump protection, and water treatment for the wells and hard supply around the village. Booked work and urgent calls alike slot into village routes that run all week.",
     meta: "Plumber in Mount Brydges, Ontario. Water heaters, drain cleaning, repipes, sump pumps, and water softeners from a licensed Middlesex plumbing team. Free quotes.",
-    nearby: ["Strathroy", "Komoka", "Melbourne", "Delaware"],
+    nearby: ["Strathroy", "Komoka", "Ilderton", "Delaware"],
     faq: [
-      ["Do you install water heaters in Mount Brydges?", "Yes. We install and replace tank and tankless water heaters across Mount Brydges, with same-day swap-outs when a tank fails and proper sizing for the home."],
-      ["Can you repipe an older Mount Brydges home?", "Yes. Many Mount Brydges homes have aging galvanized or poly-B lines. We repipe the whole home with PEX or copper under a plumbing permit and restore pressure to every fixture."],
-      ["Do you offer emergency plumbing in Mount Brydges?", "Yes. We take emergency calls across Mount Brydges and Middlesex for no-water, flooding, and sewer backup, with a local crew that reaches you quickly."],
-      ["Do you install sump pumps for Mount Brydges basements?", "Yes. We size and install sump pumps, basins, and backwater valves for Mount Brydges basements that are prone to water during storms."],
-      ["Can you install a water softener for a Mount Brydges home on a well?", "Yes. We test the water and size a softener or iron filter to your actual hardness, whether your Mount Brydges home is on town supply or a private well."]
+      ["Our basement sits low toward the Longwoods country. Can it survive a wet spring?", "Yes, with the right setup. We size the pit and pump to how the yard behaves in thaw, add battery power for outage nights, and send discharge far enough out to actually leave."],
+      ["Do you update plumbing in the older village houses?", "Regularly. Mount Brydges homes from the village's earlier days often carry galvanized branches and rough-ins laid out for another era, and we modernize them without gutting the character."],
+      ["Building an infill or new home in Mount Brydges. Do you rough in?", "Yes. New-construction and infill rough-ins file through Middlesex Centre with us, drains, vents, and supply landed to code before the drywall stage."],
+      ["Is Mount Brydges water as hard as Strathroy's?", "The same regional hardness runs through the village, and the surrounding wells run harder. A tap test sets the number and the softener follows it."],
+      ["Can a failed water heater here be swapped same day?", "Usually. Common tank sizes ride on the truck, and the village sits right on the route between Strathroy and London, so same-day visits are routine."]
     ],
   },
   "komoka": {
     name: "Komoka",
-    intro: "Komoka and the Middlesex Centre corridor are among the fastest-growing areas west of London, full of new construction with modern plumbing needs and some older homes that need attention. Strathroy Plumbing serves Komoka with water heaters, repipes, fixture installs, drain cleaning, and water softeners. Our licensed plumbers handle both brand-new builds and retrofit work across Komoka.",
-    meta: "Plumber in Komoka, Ontario. Water heaters, repipes, fixture installs, drain cleaning, and water softeners for new builds and older homes across Middlesex Centre. Free quotes.",
+    intro: "Komoka sits where the Middlesex Centre growth corridor meets farm country west of London, new subdivisions rising around a village core that still holds its older brick and frame houses. Strathroy Plumbing serves Komoka with new-build rough-ins, water heaters, repipes, drain cleaning, and water treatment. The trucks run the village and the Kilworth side all week.",
+    meta: "Plumber in Komoka, Ontario. New-build rough-ins, water heaters, repipes, drain cleaning, and water softeners for one of Middlesex Centre's fastest-growing villages. Free quotes.",
     nearby: ["Mount Brydges", "Strathroy", "Ilderton", "London"],
     faq: [
-      ["Can you plumb a new build in Komoka?", "Yes. We rough in and trim out new-construction homes across Komoka and Middlesex Centre, from the main service to the last fixture, all under permit."],
-      ["Do you install water heaters for Komoka homeowners?", "Yes. We install tank and tankless water heaters across Komoka, sizing the unit to the household and offering same-day swap-outs when a tank fails."],
-      ["My Komoka home has low water pressure. Can you help?", "Yes. Low pressure often traces back to aging galvanized or undersized piping. We diagnose the cause and can repipe the affected lines or the whole home."],
-      ["Do you install fixtures for Komoka renovations?", "Yes. From a kitchen sink swap to a full bathroom rough-in, we install faucets, toilets, sinks, and shower trim cleanly and to code."],
-      ["Do you install water softeners in Komoka?", "Yes. We size and install water softeners and filtration systems sized to Komoka's hard water, whether on town supply or a well."]
+      ["We are building in the Komoka-Kilworth growth area. Do you do the rough-in?", "Yes. New-home rough-ins across Middlesex Centre file with us from the main service to the last fixture, drains, vents, and supply under permit before drywall."],
+      ["Is the water in Komoka hard on fixtures?", "It runs hard like most of the region, and the wells around the village harder still. We test at the tap and size softening or iron staging to the result."],
+      ["Our 1990s Komoka house has one weak shower. Cause?", "Often an old restrictor, a failing pressure-balance cartridge, or an undersized branch line. We diagnose in order and quote the fix, from a cartridge to a branch repipe."],
+      ["Can you add a basement bathroom in Komoka?", "Yes. Below-grade bathrooms stand or fall on the drain strategy, and we plan the route and any pumping choice before anyone budgets tile."],
+      ["Do Komoka emergencies get priority?", "They do. Flood, backup, and no-water calls in the village join the Strathroy-Caradoc priority list, and the route between town and London passes your door daily."]
     ],
   },
 };
