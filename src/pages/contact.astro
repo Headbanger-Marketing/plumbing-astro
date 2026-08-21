@@ -6,6 +6,7 @@ import { icon } from '../lib/icons';
 import { featureItem, crumbs, areasSection } from '../lib/utils';
 import { schemaLocalbusiness, schemaBreadcrumb } from '../lib/schema';
 import { loadSite } from '../lib/load-site';
+import { pick } from '../lib/variants';
 
 const { site } = await loadSite();
 const siteName = site.domain;
@@ -22,16 +23,56 @@ try {
 } catch {}
 
 const title = `Contact Us | ${SITE_NAME_T}`;
-const desc = `Contact ${site.brand} for fast, friendly plumbing service in ${site.city}, Ontario. Call ${site.phone.display} or request a free quote online. Open 24/7.`;
+const desc = pick(site.domain, 'contact/desc', [
+  `Contact ${site.brand} for fast, friendly plumbing service in ${site.city}, Ontario. Call ${site.phone.display} or request a free quote online. Open 24/7.`,
+  `Reach the ${site.city} plumbing team at ${site.brand}: ${site.phone.display}, online quotes, and real people on the line 24/7.`,
+  `One call or one form and ${site.brand} is on it. Plumbing service across ${site.city}, Ontario, day or night.`,
+]);
+const heroH1 = pick(site.domain, 'contact/hero_h1', [
+  `Let's Get Your Plumbing Back on Track`,
+  `Talk to a ${site.city} Plumber Today`,
+  `Tell Us What Went Wrong`,
+  `Start With a Conversation, Not a Contract`,
+  `Your Water Problems Have a Local Number`,
+]);
+const hoursH2 = pick(site.domain, 'contact/hours_h2', [
+  `We're Here Whenever You Need Us`,
+  `Water Does Not Keep Office Hours`,
+  `Late Night Leak? We Answer.`,
+  `Weekends, Holidays, Three in the Morning`,
+]);
+const hoursP = pick(site.domain, 'contact/hours_p', [
+  `Plumbing emergencies don't keep a schedule, and neither do we.`,
+  `The phone gets answered around the clock because pipes do not check the calendar first.`,
+  `Emergencies get priority whenever they land, and in ${site.city} they land at all hours.`,
+  `Whenever it breaks, that is when we are open.`,
+]);
 
 const quoteFeatures = [
-  ['clock', 'Fast Response', 'We prioritise emergency calls and aim to respond the same day.'],
-  ['dollar', 'Free, No-Obligation Quotes', 'Know your options and pricing before committing to anything.'],
-  ['shield', 'Licensed &amp; Insured', 'Professional, certified service in your home.'],
+  ['clock', pick(site.domain, 'contact/qf1-t', ['Fast Response', 'Quick Turnaround', 'Same-Day When Possible']), pick(site.domain, 'contact/qf1-p', ['We prioritise emergency calls and aim to respond the same day.', 'Emergencies jump the queue, and most quote requests hear back the same day.', 'Urgent calls go to the front of the route sheet.'])],
+  ['dollar', pick(site.domain, 'contact/qf2-t', ['Free, No-Obligation Quotes', 'Quotes Cost Nothing', 'Pricing Before Any Work']), pick(site.domain, 'contact/qf2-p', ['Know your options and pricing before committing to anything.', 'You will know the number before we start, and it costs nothing to ask.', 'Every estimate is itemized and free, with no obligation attached.'])],
+  ['shield', pick(site.domain, 'contact/qf3-t', ['Licensed &amp; Insured', 'Fully Certified', 'Licensed, Insured, Local']), pick(site.domain, 'contact/qf3-p', ['Professional, certified service in your home.', 'Licensed plumbers, fully insured, working to code.', 'Real licensed tradespeople, insured for work in your home.'])],
 ] as [string, string, string][];
 
-const heroLead = overrides.hero_lead || `Is your water heater leaking? Ready to upgrade before it fails? Whatever your plumbing need, the <a href="/">${site.brandHtml}</a> team is ready to help, without the stress.`;
-const formIntro = overrides.form_intro || `Fill out the form and one of our plumbers will get back to you quickly to discuss your plumbing needs. For urgent issues, calling is always fastest.`;
+const heroLead = overrides.hero_lead || pick(site.domain, 'contact/hero_lead', [
+  `Is your water heater leaking? Ready to upgrade before it fails? Whatever your plumbing need, the <a href="/">${site.brandHtml}</a> team is ready to help, without the stress.`,
+  `A dripping tap or a flooded basement, either way the fix starts the same way: a quick call or note to <a href="/">${site.brandHtml}</a>. Tell us what is happening and we will take it from there.`,
+  `Whatever is going on with your plumbing, <a href="/">${site.brandHtml}</a> has heard worse and fixed it. Reach out and consider it handled.`,
+  `No job is too small to call about and no problem is too big to look at. The <a href="/">${site.brandHtml}</a> team answers.`,
+  `One form, one call, and a licensed ${site.city} plumber is on the other end. <a href="/">Get to know us</a> while you decide.`,
+]);
+const replyLine = pick(site.domain, 'contact/reply', ['We reply within one business day', 'Messages answered same business day', 'Quick replies, usually within hours']);
+const sameDayLine = pick(site.domain, 'contact/sameday', ['Same-day service for emergencies', 'Emergencies handled the same day', 'Urgent calls jump the queue']);
+const serveLine = pick(site.domain, 'contact/serve', [`Serving ${site.city} &amp; ${site.county}`, `Based in ${site.city}, working all of ${site.county}`, `${site.city} and the whole ${site.county} area`]);
+const h24Line = pick(site.domain, 'contact/h24', ['Round-the-clock emergency service', 'Emergency line always open', 'Any hour, any day']);
+const h7Line = pick(site.domain, 'contact/h7', ['Including weekends &amp; holidays', 'Weekends and holidays included', 'Saturday and Sunday too']);
+const hLocalLine = pick(site.domain, 'contact/hlocal', [`Speak with a ${site.city} technician`, `A local ${site.city} voice, not a queue`, `Real people from ${site.city} answer`]);
+const formIntro = overrides.form_intro || pick(site.domain, 'contact/form_intro', [
+  `Fill out the form and one of our plumbers will get back to you quickly to discuss your plumbing needs. For urgent issues, calling is always fastest.`,
+  `Send the details and a real plumber, not a call centre, replies. If water is actively going where it should not, phone us instead.`,
+  `Two minutes of typing saves an hour of wondering. We reply quickly, and for anything urgent the phone line is faster.`,
+  `Describe the problem in your own words and we will come back with next steps and a straight price. Emergencies: call.`,
+]);
 ---
 
 <SiteLayout
@@ -51,7 +92,7 @@ const formIntro = overrides.form_intro || `Fill out the form and one of our plum
   <div class="container">
     <Fragment set:html={crumbs([['Home', '/'], ['Contact', '']])} />
     <span class="eyebrow on-dark">Contact Us</span>
-    <h1>Let's Get Your Plumbing Back on Track</h1>
+    <h1>{heroH1}</h1>
     <p set:html={heroLead}></p>
   </div>
 </section>
@@ -59,9 +100,9 @@ const formIntro = overrides.form_intro || `Fill out the form and one of our plum
 <section class="section">
   <div class="container">
     <div class="info-grid" style="margin-bottom:40px">
-      <div class="info-card reveal"><span class="ic"><Fragment set:html={icon('clock', '', 26)} /></span><h3>Fast Response</h3><p>We reply within one business day</p><p style="color:var(--muted);font-size:.9rem;margin-top:4px">Same-day service for emergencies</p></div>
-      <div class="info-card reveal d1"><span class="ic"><Fragment set:html={icon('mail', '', 26)} /></span><h3>Email Us</h3><p><a href={`mailto:${site.email}`}>{site.email}</a></p><p style="color:var(--muted);font-size:.9rem;margin-top:4px">We reply within one business day</p></div>
-      <div class="info-card reveal d2"><span class="ic"><Fragment set:html={icon('pin', '', 26)} /></span><h3>Service Area</h3><p>{site.city}, {site.regionAbbr}</p><p style="color:var(--muted);font-size:.9rem;margin-top:4px">Serving {site.city} &amp; {site.county}</p></div>
+      <div class="info-card reveal"><span class="ic"><Fragment set:html={icon('clock', '', 26)} /></span><h3>Fast Response</h3><p>{replyLine}</p><p style="color:var(--muted);font-size:.9rem;margin-top:4px">{sameDayLine}</p></div>
+      <div class="info-card reveal d1"><span class="ic"><Fragment set:html={icon('mail', '', 26)} /></span><h3>Email Us</h3><p><a href={`mailto:${site.email}`}>{site.email}</a></p><p style="color:var(--muted);font-size:.9rem;margin-top:4px">{replyLine}</p></div>
+      <div class="info-card reveal d2"><span class="ic"><Fragment set:html={icon('pin', '', 26)} /></span><h3>Service Area</h3><p>{site.city}, {site.regionAbbr}</p><p style="color:var(--muted);font-size:.9rem;margin-top:4px">{serveLine}</p></div>
     </div>
     <div class="split">
       <div class="reveal">
@@ -81,13 +122,13 @@ const formIntro = overrides.form_intro || `Fill out the form and one of our plum
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Service Hours</span>
-      <h2>We're Here Whenever You Need Us</h2>
-      <p>Plumbing emergencies don't keep a schedule, and neither do we.</p>
+      <h2>{hoursH2}</h2>
+      <p>{hoursP}</p>
     </div>
     <div class="info-grid">
-      <div class="info-card center reveal"><span class="ic" style="margin-inline:auto"><Fragment set:html={icon('clock', '', 26)} /></span><h3>24 Hours a Day</h3><p style="color:var(--muted)">Round-the-clock emergency service</p></div>
-      <div class="info-card center reveal d1"><span class="ic" style="margin-inline:auto"><Fragment set:html={icon('calendar', '', 26)} /></span><h3>7 Days a Week</h3><p style="color:var(--muted)">Including weekends &amp; holidays</p></div>
-      <div class="info-card center reveal d2"><span class="ic" style="margin-inline:auto"><Fragment set:html={icon('headset', '', 26)} /></span><h3>Real Local People</h3><p style="color:var(--muted)">Speak with a {site.city} technician</p></div>
+      <div class="info-card center reveal"><span class="ic" style="margin-inline:auto"><Fragment set:html={icon('clock', '', 26)} /></span><h3>24 Hours a Day</h3><p style="color:var(--muted)">{h24Line}</p></div>
+      <div class="info-card center reveal d1"><span class="ic" style="margin-inline:auto"><Fragment set:html={icon('calendar', '', 26)} /></span><h3>7 Days a Week</h3><p style="color:var(--muted)">{h7Line}</p></div>
+      <div class="info-card center reveal d2"><span class="ic" style="margin-inline:auto"><Fragment set:html={icon('headset', '', 26)} /></span><h3>Real Local People</h3><p style="color:var(--muted)">{hLocalLine}</p></div>
     </div>
   </div>
 </section>

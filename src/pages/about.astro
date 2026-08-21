@@ -5,6 +5,7 @@ import { icon } from '../lib/icons';
 import { featureItem, crumbs, ctaBand, areasSection } from '../lib/utils';
 import { schemaLocalbusiness, schemaBreadcrumb } from '../lib/schema';
 import { loadSite } from '../lib/load-site';
+import { pick } from '../lib/variants';
 
 const { site } = await loadSite();
 const siteName = site.domain;
@@ -32,35 +33,110 @@ try {
 }
 
 const title = `About Us | ${SITE_NAME_T}`;
-const desc = `${site.brand} is a licensed, insured plumbing company serving ${site.city}, Ontario with honest, reliable plumbing work. Meet the team.`;
+const desc = pick(site.domain, 'about/desc', [
+  `${site.brand} is a licensed, insured plumbing company serving ${site.city}, Ontario with honest, reliable plumbing work. Meet the team.`,
+  `Meet the ${site.city} plumbing team behind ${site.brand}: licensed, insured, and big on straight answers.`,
+  `${site.brand}: a ${site.city}, Ontario plumbing company built on referrals and tidy, guaranteed work.`,
+  `Learn who answers the phone and holds the wrenches at ${site.brand}, ${site.city}'s local plumbing crew.`,
+]);
 
 const commitmentFeatures = [
-  ['check-sm', 'Honest, Transparent Pricing', 'Free quotes and clear estimates before any work starts.'],
-  ['check-sm', 'Trained, Courteous Technicians', 'On-time, tidy, and respectful of your home.'],
-  ['check-sm', 'Standing Behind Our Work', '100% satisfaction guarantee on every job.'],
+  ['check-sm', pick(site.domain, 'about/feat1-t', ['Honest, Transparent Pricing', 'Straight Pricing, Written Down', 'Quotes You Can Read Twice']), pick(site.domain, 'about/feat1-p', ['Free quotes and clear estimates before any work starts.', 'The number we quote is the number on the invoice, every time.', 'You see the price and the plan before we pick up a tool.'])],
+  ['check-sm', pick(site.domain, 'about/feat2-t', ['Trained, Courteous Technicians', "People You'd Let In Twice", 'Crews Who Respect the House']), pick(site.domain, 'about/feat2-p', ['On-time, tidy, and respectful of your home.', 'Boot covers, drop sheets, and a cleanup that leaves no trace.', 'Polite, patient, and happy to explain what they are doing.'])],
+  ['check-sm', pick(site.domain, 'about/feat3-t', ['Standing Behind Our Work', 'Work That Comes With a Promise', 'Guaranteed, In Writing']), pick(site.domain, 'about/feat3-p', ['100% satisfaction guarantee on every job.', 'If something we fixed fails, we come back and make it right.', 'Every repair backed by a written guarantee.'])],
 ] as [string, string, string][];
 
-// Helpers: pick override or fallback
-const heroH1 = overrides.hero_h1 || `A Tradition of Home Comfort in ${site.city}`;
-const heroLead = overrides.hero_lead || `We aren't just technicians, we're your neighbours, committed to keeping ${site.city} families comfortable through every season.`;
-const storyLead = overrides.story_lead || `At <a href="/">${site.brandHtml}</a>, we believe every family deserves a comfortable, healthy home. As an plumbing company based in ${site.city}, Ontario, our mission is simple: keep your home comfortable through every season with the same high standard of care we'd expect for our own households.`;
-const storyH2 = overrides.story_h2 || `People Over Profits in ${site.city}, Season After Season`;
+// Helpers: override wins, else deterministic per-domain variant pick
+const heroH1 = overrides.hero_h1 || pick(site.domain, 'about/hero_h1', [
+  `Plumbing Done Right in ${site.city}, Year After Year`,
+  `The ${site.city} Plumbing Team Neighbours Call First`,
+  `A Trusted Name in ${site.city} Plumbing`,
+  `Local Hands, Honest Work, ${site.city} Homes`,
+  `Keeping ${site.city} Homes Flowing Since Day One`,
+  `A Tradition of Home Comfort in ${site.city}`,
+]);
+const heroLead = overrides.hero_lead || pick(site.domain, 'about/hero_lead', [
+  `We aren't just technicians, we're your neighbours, committed to keeping ${site.city} families comfortable through every season.`,
+  `When you call us you get people who know ${site.city} homes, their water pressure, their pipe eras, and how to fix what ails them without a runaround.`,
+  `From a dripping tap at midnight to a full repipe planned around your week, we treat every ${site.city} home like it belongs to someone we will see at the store tomorrow.`,
+  `Good plumbing is quiet, and that is what we deliver for ${site.city} households, work that does its job for years without another thought.`,
+  `${site.city} families let us through the door because we show up when we say, explain what we find, and stand behind what we fix.`,
+]);
+const storyLead = overrides.story_lead || `<a href="/">${site.brandHtml}</a> ` + pick(site.domain, 'about/story_lead', [
+  `started with a simple belief: ${site.city} homeowners deserve straight answers and plumbing that lasts. Every job since has been measured against the standard we would want in our own homes.`,
+  `is a ${site.city} plumbing company built on referrals, which means every job has to be good enough to earn the next one.`,
+  `measures success in ${site.city} homes that stay dry and families who never have to think about their plumbing twice.`,
+  `answers to ${site.city} first. The reviews that matter to us come from the same streets we drive all week.`,
+  `keeps one promise in every ${site.city} household we work in: treat the home, the budget, and the person right, in that order.`,
+]);
+const storyH2 = overrides.story_h2 || pick(site.domain, 'about/story_h2', [
+  `People Over Profits in ${site.city}, Season After Season`,
+  `Built One ${site.city} Call at a Time`,
+  `Old-School Service for Modern ${site.city} Homes`,
+  `The Team Behind the Trucks in ${site.city}`,
+  `Why ${site.city} Homeowners Keep Our Number Handy`,
+]);
 // Render the FULL authored story_paragraphs array. The old code read [1] only,
 // leaving story_paragraphs[0] (and any further entries) as dead code and forcing
 // the identical template fallback to render even on sites with authored copy — a
-// major about-page duplicate vector. Fall back to the template paragraph only when
-// no override is present at all.
+// major about-page duplicate vector. Fall back to a per-domain variant paragraph
+// only when no override is present at all.
 const storyParas: string[] =
   overrides.story_paragraphs && overrides.story_paragraphs.length
     ? overrides.story_paragraphs
-    : [`Our journey began with one goal, to provide honest, transparent home services that put people first. We know that when your water heater or drain fails, it's more than an inconvenience; it's a disruption to your family's peace of mind. That's why we've built our reputation on being a reliable plumbing company that delivers tailored solutions with a personal touch.`];
-const commitmentH2 = overrides.commitment_h2 || `Comfort, Integrity &amp; Water You Can Trust`;
-const commitmentP1 = (overrides.commitment_paragraphs && overrides.commitment_paragraphs[0]) || `We take pride in our expertise in water heater installation, drain cleaning, and modern plumbing, helping our community keep its homes safe, dry, and efficient.`;
-const commitmentP2 = (overrides.commitment_paragraphs && overrides.commitment_paragraphs[1]) || `When you choose us, you aren't just getting a repair service, you're joining a community of satisfied homeowners who value quality, integrity, and a plumbing partner who genuinely cares.`;
-const calloutH3 = overrides.callout_h3 || `What Our Work Covers`;
-const calloutP = overrides.callout_p || `We specialize in everything from water heater installation to complex drain and repiping diagnostics. Our team handles both residential and light-commercial systems, so whether you're at home or at work, your water stays safe and reliable.`;
-const ctaH2 = overrides.cta_h2 || `Experience the ${site.brandHtml} Difference`;
-const ctaP = overrides.cta_p || `Join your neighbours who count on us for honest, dependable home comfort. Reach out for your free quote today.`;
+    : [pick(site.domain, 'about/story_p', [
+      `Our journey began with one goal, to provide honest, transparent home services that put people first. We know that when your water heater or drain fails, it's more than an inconvenience; it's a disruption to your family's peace of mind. That's why we've built our reputation on being a reliable plumbing company that delivers tailored solutions with a personal touch.`,
+      `The business grew the slow way, one satisfied kitchen and one dry basement at a time. We never wanted a call-centre answer for a hometown problem, just the right fix, quoted honestly and finished properly.`,
+      `Most of our week is spent in the same neighbourhoods, postwar bungalows and new subdivisions alike, learning what each era of ${site.city} housing needs before it fails. That familiarity is the difference between a guess and a diagnosis.`,
+      `We have answered middle-of-the-night calls and planned six-week renovations, and both get the same patience. A plumbing problem is never just a plumbing problem; it is your week, your budget, and your home, and it gets treated that way.`,
+      `Ask around and you will find our name comes from people who called once and kept the number. That is the only advertising we have ever counted on.`,
+    ])];
+const commitmentH2 = overrides.commitment_h2 || pick(site.domain, 'about/commit_h2', [
+  `Comfort, Integrity &amp; Water You Can Trust`,
+  `Honest Quotes, Clean Work, Lasting Repairs`,
+  `What Every ${site.city} Homeowner Gets From Us`,
+  `Standards We Refuse to Lower`,
+  `The Way Plumbing Business Should Be Done`,
+]);
+const commitmentP1 = (overrides.commitment_paragraphs && overrides.commitment_paragraphs[0]) || pick(site.domain, 'about/commit_p1', [
+  `We take pride in our expertise in water heater installation, drain cleaning, and modern plumbing, helping our community keep its homes safe, dry, and efficient.`,
+  `Our crew handles the everyday calls, dripping taps and slow drains, and the big ones, whole-home repipes and treatment systems, with the same care and the same tidy habits.`,
+  `From the water meter to the main stack, we know ${site.city} homes inside their walls, and we bring that familiarity to every repair, replacement, and inspection we take on.`,
+  `Every job gets diagnosed before it gets priced. That discipline has kept ${site.city} households from paying for equipment they did not need and repairs that would not have lasted.`,
+  `Water heaters, sump systems, fixtures, drains, the list is long, but the standard is short: done right, priced straight, guaranteed in writing.`,
+]);
+const commitmentP2 = (overrides.commitment_paragraphs && overrides.commitment_paragraphs[1]) || pick(site.domain, 'about/commit_p2', [
+  `When you choose us, you aren't just getting a repair service, you're joining a community of satisfied homeowners who value quality, integrity, and a plumbing partner who genuinely cares.`,
+  `The best compliment we get is a second call, usually about something different, which tells us the first visit earned its keep. That is the relationship we are after with every ${site.city} household.`,
+  `We live here too. The people we work for are the people we wave at on Saturday, and that keeps the work honest in a way nothing else can.`,
+  `No memberships, no pressure, no invented problems. Just a ${site.city} plumbing team that would rather keep a customer for a decade than upsell an afternoon.`,
+  `Plenty of our customers started with an emergency at a bad hour. Turning that first stressful call into a steady, trusted relationship is what we do best.`,
+]);
+const calloutH3 = overrides.callout_h3 || pick(site.domain, 'about/callout_h3', [
+  `What Our Work Covers`,
+  `From Drips to Disasters`,
+  `If Water Runs Through It`,
+  `The Range We Handle Every Week`,
+]);
+const calloutP = overrides.callout_p || pick(site.domain, 'about/callout_p', [
+  `We specialize in everything from water heater installation to complex drain and repiping diagnostics. Our team handles both residential and light-commercial systems, so whether you're at home or at work, your water stays safe and reliable.`,
+  `One team for the whole system, heaters, drains, fixtures, sump protection, and treatment, which means one accountable number when something goes wrong at either end of the house.`,
+  `Homes are our bread and butter, but we also look after shops, offices, and rental properties across ${site.county}, with the same urgency a homeowner would expect.`,
+  `Bring us the symptom and we will find the cause, then lay out the options in plain language before any tool comes out of the truck.`,
+  `Residential repairs, planned replacements, renovation rough-ins, if it is plumbing, it is already on our route sheet this week.`,
+]);
+const ctaH2 = overrides.cta_h2 || pick(site.domain, 'about/cta_h2', [
+  `Experience the ${site.brandHtml} Difference`,
+  `Let's Fix It Properly, ${site.city}`,
+  `Your Home Deserves a Straight Answer`,
+  `Ready When You Are`,
+]);
+const ctaP = overrides.cta_p || pick(site.domain, 'about/cta_p', [
+  `Join your neighbours who count on us for honest, dependable home comfort. Reach out for your free quote today.`,
+  `Call ${site.phone.display} or send a quick note, and we will have a real conversation about what your home needs and what it will cost.`,
+  `Quotes are free, written, and pressure-free. The next step is a phone call, not a commitment.`,
+  `One call starts it: an honest look at the problem, a clear price, and work you will forget about because it just works.`,
+]);
 ---
 
 <SiteLayout

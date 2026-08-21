@@ -7,6 +7,7 @@ import { SERVICES } from '../data/content';
 import { schemaLocalbusiness, schemaFaq } from '../lib/schema';
 import { reviewCard, ctaBand, areasSection, blogCards, verticalCopy } from '../lib/utils';
 import { loadSite } from '../lib/load-site';
+import { pick } from '../lib/variants';
 
 const { site, content } = await loadSite();
 const siteName = site.domain;
@@ -70,8 +71,17 @@ if (!overrides.home_faqs) {
   }
 }
 
-const title = overrides.home_title || `${SITE_NAME_T} | Plumber in ${site.city}, ON`;
-const desc = overrides.home_desc || `${site.brand} provides honest, efficient, dependable plumbing service in ${site.city}, Ontario, water heaters, drain cleaning, repiping & more. Call ${site.phone.display} for a free quote.`;
+const title = overrides.home_title || pick(site.domain, 'home/title', [
+  `${SITE_NAME_T} | Plumber in ${site.city}, ON`,
+  `${SITE_NAME_T} | ${site.city} Plumbing Services, Done Right`,
+  `Plumber in ${site.city}, ON You Can Trust | ${SITE_NAME_T}`,
+]);
+const desc = overrides.home_desc || pick(site.domain, 'home/desc', [
+  `${site.brand} provides honest, efficient, dependable plumbing service in ${site.city}, Ontario, water heaters, drain cleaning, repiping & more. Call ${site.phone.display} for a free quote.`,
+  `Licensed ${site.city}, Ontario plumbers for water heaters, drains, repipes, and sump systems. Free, written quotes from ${site.brand}. Call ${site.phone.display}.`,
+  `From burst tanks to slow drains, ${site.brand} keeps ${site.city} homes flowing. Honest pricing, licensed plumbers, ${site.phone.display}.`,
+  `Water heaters, drain cleaning, repiping, and more across ${site.city}, Ontario. Free quotes and tidy work from ${site.brand}.`,
+]);
 
 // Service cards: prefer override data (icon mapped by index from HOME_SERVICES),
 // else use the per-site HOME_SERVICES content.
@@ -132,9 +142,24 @@ const vc = verticalCopy(site);
   <div class="hero__glow"></div>
   <div class="container">
     <div class="hero__copy reveal">
-      <span class="eyebrow on-dark" set:html={overrides.hero_eyebrow || `${site.city}'s Fully Licensed Plumbers`}></span>
-      <h1 set:html={overrides.hero_h1 || `<span class="accent">${site.city} Plumbers</span>: Licensed, On Time, Every Job`}></h1>
-      <p class="hero__sub" set:html={overrides.hero_sub || `${site.brand} keeps homes across ${site.city === site.county ? `${site.county}, Ontario` : `${site.city}, Ontario and ${site.county}`} flowing and dry all year. Water heaters and drains in every season, sump pumps and repiping when you need them, and steady maintenance in between, handled by one dependable team that knows your home and answers when you call.`}></p>
+      <span class="eyebrow on-dark" set:html={overrides.hero_eyebrow || pick(site.domain, 'home/hero_eyebrow', [
+        `${site.city}'s Fully Licensed Plumbers`,
+        `Licensed ${site.city} Plumbers, On Call`,
+        `The ${site.city} Plumbing Team`,
+        `${site.city} Plumbers You Can Vouch For`,
+      ])}></span>
+      <h1 set:html={overrides.hero_h1 || pick(site.domain, 'home/hero_h1', [
+        `<span class="accent">${site.city} Plumbers</span>: Licensed, On Time, Every Job`,
+        `<span class="accent">${site.city} Plumbers</span> for Honest Quotes and Solid Work`,
+        `<span class="accent">${site.city} Plumbing</span> Done Right the First Time`,
+        `Your Local <span class="accent">${site.city} Plumbers</span>, Year Round`,
+      ])}></h1>
+      <p class="hero__sub" set:html={overrides.hero_sub || pick(site.domain, 'home/hero_sub', [
+        `${site.brand} keeps homes across ${site.city === site.county ? `${site.county}, Ontario` : `${site.city}, Ontario and ${site.county}`} flowing and dry all year. Water heaters and drains in every season, sump pumps and repiping when you need them, and steady maintenance in between, handled by one dependable team that knows your home and answers when you call.`,
+        `Hot water in the morning, clear drains at night, and a dry basement through every thaw and storm. That is what ${site.brand} delivers for ${site.city} households, with licensed plumbers who show up, quote straight, and finish clean.`,
+        `One team for the whole system in ${site.city}: tanks and tankless water heaters, drains and sewers, repipes, sump protection, and water treatment. ${site.brand} quotes it honestly and stands behind it in writing.`,
+        `Plumbing problems do not schedule themselves politely, so neither do we. ${site.brand} brings licensed, insured plumbers to ${site.city} homes fast, fixes the cause rather than the symptom, and leaves the place tidy.`,
+      ])}></p>
       <div class="hero__cta">
         <a class="btn btn-primary btn-lg" href="#quote">Get a Free Quote</a>
       </div>
@@ -155,7 +180,6 @@ const vc = verticalCopy(site);
     <div class="trust-strip__item"><span class="ic"><Fragment set:html={icon('shield', '', 26)} /></span><div><b>Licensed</b><span>&amp; fully insured</span></div></div>
     <div class="trust-strip__item"><span class="ic"><Fragment set:html={icon('dollar', '', 26)} /></span><div><b>Free</b><span>No-obligation quotes</span></div></div>
     <div class="trust-strip__item"><span class="ic"><Fragment set:html={icon('award', '', 26)} /></span><div><b>Guaranteed</b><span>100% satisfaction</span></div></div>
-    {!isVertical && <div class="trust-strip__item"><span class="ic"><Fragment set:html={icon('award', '', 26)} /></span><div><b>Lennox</b><span>Premier Dealer</span></div></div>}
   </div>
 </section>
 
@@ -163,10 +187,25 @@ const vc = verticalCopy(site);
   <div class="container">
     <div class="split">
       <div class="reveal">
-        <span class="eyebrow" set:html={overrides.who_we_are_eyebrow || 'Who We Are'}></span>
-        <h2 set:html={overrides.who_we_are_h2 || `An Established Name in ${site.city} Home Comfort`}></h2>
-        <p class="lead" set:html={overrides.who_we_are_lead || `${site.brandHtml} is a licensed, insured plumbing company in ${site.city}, Ontario that handles both plumbing work for homeowners, from a single repair to a maintenance plan that runs all year.`}></p>
-        <p set:html={(overrides.who_we_are_paragraphs && overrides.who_we_are_paragraphs[0]) || `We built this business on long-term relationships, not one-off calls. Homeowners stay with us because the same team services the water heater they trust us with in winter and the sump pump we check in spring. You get steady, honest advice, work done right, and someone who already knows your equipment when you pick up the phone.`}></p>
+        <span class="eyebrow" set:html={overrides.who_we_are_eyebrow || pick(site.domain, 'home/wwa_eyebrow', ['Who We Are', 'The Local Crew', 'Meet the Team', 'About Us'])}></span>
+        <h2 set:html={overrides.who_we_are_h2 || pick(site.domain, 'home/wwa_h2', [
+          `An Established Name in ${site.city} Home Comfort`,
+          `${site.city} Plumbers With a Reputation to Protect`,
+          `The Team ${site.city} Keeps on Speed Dial`,
+          `Plumbing Care for ${site.city}, Start to Finish`,
+        ])}></h2>
+        <p class="lead" set:html={overrides.who_we_are_lead || pick(site.domain, 'home/wwa_lead', [
+          `${site.brandHtml} is a licensed, insured plumbing company in ${site.city}, Ontario that handles both plumbing work for homeowners, from a single repair to a maintenance plan that runs all year.`,
+          `Licensed, insured, and local: ${site.brandHtml} looks after every kind of ${site.city} plumbing, the midnight emergency and the decade-long maintenance plan alike.`,
+          `${site.brandHtml} has answered ${site.city} plumbing calls long enough to know the housing stock by era and the fixes that actually hold.`,
+          `From one dripping faucet to a whole-home repipe, ${site.brandHtml} brings the same licensed crew and the same standard to every ${site.city} address.`,
+        ])}></p>
+        <p set:html={(overrides.who_we_are_paragraphs && overrides.who_we_are_paragraphs[0]) || pick(site.domain, 'home/wwa_p1', [
+          `We built this business on long-term relationships, not one-off calls. Homeowners stay with us because the same team services the water heater they trust us with in winter and the sump pump we check in spring. You get steady, honest advice, work done right, and someone who already knows your equipment when you pick up the phone.`,
+          `Most of our customers started with one job and stayed for years. That is not luck; it is what happens when the diagnosis is honest, the invoice matches the quote, and the same familiar faces come back for the next thing.`,
+          `We would rather be the plumber ${site.city} recommends over coffee than the one with the flashiest ad. Referrals are how this company grows, and every job is done with the next one in mind.`,
+          `The difference shows up in the details: boots on at the door, options laid out with real prices, systems explained in plain words, and a cleanup that leaves the house better than we found it.`,
+        ])}></p>
         <div style="display:flex;align-items:center;gap:14px;margin-top:24px">
           <img class="badge-img" src={`${WP}/quality-guarantee.png`} alt="Satisfaction guarantee" width="320" height="320" loading="lazy" decoding="async">
           <p style="margin:0;color:var(--muted);font-size:.95rem">Backed by our 100% satisfaction guarantee on every job.</p>
@@ -183,9 +222,19 @@ const vc = verticalCopy(site);
 <section class="section bg-soft">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow" set:html={overrides.full_service_eyebrow || 'Full Service, One Team'}></span>
-      <h2 set:html={overrides.full_service_h2 || 'Everything Your Home Comfort System Needs, Under One Roof'}></h2>
-      <p set:html={overrides.full_service_intro || `Water heaters, drains, fixtures, repiping, and water treatment, all looked after by the same crew. Whether it is a repair today or a maintenance plan that keeps things running for years, you only need one number.`}></p>
+      <span class="eyebrow" set:html={overrides.full_service_eyebrow || pick(site.domain, 'home/fs_eyebrow', ['Full Service, One Team', 'Every Plumbing Need Covered', 'One Number, Whole System', 'What We Take Care Of'])}></span>
+      <h2 set:html={overrides.full_service_h2 || pick(site.domain, 'home/fs_h2', [
+        'Everything Your Home Comfort System Needs, Under One Roof',
+        'All of It Handled, From the Street to the Stack',
+        `Every Plumbing Job a ${site.city} Home Can Throw at Us`,
+        'One Crew for the Water Heater, the Drains, and Everything Between',
+      ])}></h2>
+      <p set:html={overrides.full_service_intro || pick(site.domain, 'home/fs_intro', [
+        `Water heaters, drains, fixtures, repiping, and water treatment, all looked after by the same crew. Whether it is a repair today or a maintenance plan that keeps things running for years, you only need one number.`,
+        `Tanks, tankless units, clogged sewers, failing galvanized, hard water, the whole list is ours. Call once and the right equipment and the right plumber show up together.`,
+        `Repairs, replacements, rough-ins, and the maintenance that prevents all three. ${site.brand} covers the plumbing side of your home end to end, with the same crew every time.`,
+        `If water runs through it, we have fixed, replaced, or installed one this month: heaters, drains, fixtures, sump systems, and treatment, one accountable team for all of it.`,
+      ])}></p>
     </div>
     <div class="svc-grid" set:html={cards}></div>
     <div class="center" style="margin-top:34px">
@@ -198,14 +247,39 @@ const vc = verticalCopy(site);
 <section class="section">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow" set:html={overrides.process_eyebrow || 'Our Process'}></span>
-      <h2 set:html={overrides.process_h2 || `Why Choose ${site.brandHtml}?`}></h2>
-      <p set:html={overrides.process_intro || `We believe in transparency, respect, and quality workmanship. Here's what every customer can expect.`}></p>
+      <span class="eyebrow" set:html={overrides.process_eyebrow || pick(site.domain, 'home/proc_eyebrow', ['Our Process', 'How It Goes', 'What Working With Us Looks Like', 'The Way We Work'])}></span>
+      <h2 set:html={overrides.process_h2 || pick(site.domain, 'home/proc_h2', [
+        `Why Choose ${site.brandHtml}?`,
+        `What to Expect When You Call`,
+        `${site.city} Homes, Handled Properly`,
+        `The Difference Is in the Details`,
+      ])}></h2>
+      <p set:html={overrides.process_intro || pick(site.domain, 'home/proc_intro', [
+        `We believe in transparency, respect, and quality workmanship. Here's what every customer can expect.`,
+        `No mystery, no pressure, no mess left behind. Three habits have built this business.`,
+        `Every call follows the same simple pattern, and it is deliberate.`,
+        `Good plumbing is a process, not a product. Ours has three parts.`,
+      ])}></p>
     </div>
     <div class="steps">
-      <div class="step reveal"><div class="step__ic"><Fragment set:html={icon('search', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[0]?.h3) || 'We Get to Know Your System'}></h3><p set:html={(overrides.process_steps && overrides.process_steps[0]?.p) || 'We look at the whole picture, your plumbing system as a whole, and explain what we find in plain language. Whether it is a water heater replacement, a drain cleaning, or a repipe, you get a clear recommendation, not a hard sell.'}></p></div>
-      <div class="step reveal d1"><div class="step__ic"><Fragment set:html={icon('wrench', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[1]?.h3) || 'Work Done Right the First Time'}></h3><p set:html={(overrides.process_steps && overrides.process_steps[1]?.p) || 'Our plumbers show up on time, do the job properly, and leave your home as tidy as they found it, on every water heater, drain, fixture, or repiping job.'}></p></div>
-      <div class="step reveal d2"><div class="step__ic"><Fragment set:html={icon('headset', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[2]?.h3) || 'A Team You Keep'}></h3><p set:html={(overrides.process_steps && overrides.process_steps[2]?.p) || 'The job is the start of the relationship, not the end. With seasonal maintenance and a team that knows your equipment, your system keeps running well for years.'}></p></div>
+      <div class="step reveal"><div class="step__ic"><Fragment set:html={icon('search', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[0]?.h3) || pick(site.domain, 'home/step1_h3', ['We Get to Know Your System', 'Look Before We Quote', 'Diagnosis Comes First', 'We Find the Actual Problem'])}></h3><p set:html={(overrides.process_steps && overrides.process_steps[0]?.p) || pick(site.domain, 'home/step1_p', [
+        'We look at the whole picture, your plumbing system as a whole, and explain what we find in plain language. Whether it is a water heater replacement, a drain cleaning, or a repipe, you get a clear recommendation, not a hard sell.',
+        'Nothing gets priced before it gets diagnosed. We inspect first, show you what we found, and quote the fix in words that make sense, so the decision is yours with real information in hand.',
+        'The symptom you called about is not always the cause. We trace it properly, tell you what is actually going on, and lay out the honest range of fixes from cheapest sensible to longest-lasting.',
+        'A careful look, a clear explanation, and a written quote. That is how every job starts, whether it is a washer or a whole repipe.',
+      ])}></p></div>
+      <div class="step reveal d1"><div class="step__ic"><Fragment set:html={icon('wrench', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[1]?.h3) || pick(site.domain, 'home/step2_h3', ['Work Done Right the First Time', 'Fix It Properly, Tidy Up After', 'The Repair Holds', 'Done Once, Done Right'])}></h3><p set:html={(overrides.process_steps && overrides.process_steps[1]?.p) || pick(site.domain, 'home/step2_p', [
+        'Our plumbers show up on time, do the job properly, and leave your home as tidy as they found it, on every water heater, drain, fixture, or repiping job.',
+        'On time, in and out, no shortcuts on the work and no trace left on the floors. The repair gets done to code and tested before we call it finished.',
+        'Quality parts, proper technique, and a cleanup that respects your home. The work is guaranteed in writing, and it is done to never need the guarantee.',
+        'We do it once and we do it right, with the parts and methods that hold. When the truck leaves, the job is actually finished.',
+      ])}></p></div>
+      <div class="step reveal d2"><div class="step__ic"><Fragment set:html={icon('headset', '', 26)} /></div><div class="step__num"></div><h3 set:html={(overrides.process_steps && overrides.process_steps[2]?.h3) || pick(site.domain, 'home/step3_h3', ['A Team You Keep', 'Still Here Next Season', 'Neighbours, Not Strangers', 'Here for the Long Haul'])}></h3><p set:html={(overrides.process_steps && overrides.process_steps[2]?.p) || pick(site.domain, 'home/step3_p', [
+        'The job is the start of the relationship, not the end. With seasonal maintenance and a team that knows your equipment, your system keeps running well for years.',
+        'Next spring when the sump needs checking or the tank needs a look, you will get the same crew that already knows your home. That continuity is worth more than any discount.',
+        'We answer a year from now the same way we answer today. Maintenance reminders, honest checkups, and a team that remembers your house.',
+        'Homes change hands, families grow, systems age. We stay on the route and stay reachable, season after season.',
+      ])}></p></div>
     </div>
   </div>
 </section>
@@ -215,8 +289,18 @@ const vc = verticalCopy(site);
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Testimonials</span>
-      <h2 set:html={overrides.reviews_h2 || `What ${site.city} Homeowners Are Saying`}></h2>
-      <p set:html={overrides.reviews_intro || `We're proud to be the plumbing partner our neighbours trust and recommend.`}></p>
+      <h2 set:html={overrides.reviews_h2 || pick(site.domain, 'home/rev_h2', [
+        `What ${site.city} Homeowners Are Saying`,
+        `${site.city} Neighbours, in Their Own Words`,
+        `Real Jobs, Real ${site.city} Feedback`,
+        `Why ${site.city} Keeps Calling Us`,
+      ])}></h2>
+      <p set:html={overrides.reviews_intro || pick(site.domain, 'home/rev_intro', [
+        `We're proud to be the plumbing partner our neighbours trust and recommend.`,
+        `No script, no selection committee, just homeowners describing how the job went.`,
+        `Every one of these came from a household within a short drive of your door.`,
+        `Reputation in a town this size is everything. Here is a slice of ours.`,
+      ])}></p>
     </div>
     <div class="reviews" set:html={revs}></div>
   </div>
@@ -230,8 +314,18 @@ const vc = verticalCopy(site);
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Comfort Care</span>
-      <h2 set:html={overrides.comfortcare_h2 || `Comfort Care: Our Annual Maintenance Plan`}></h2>
-      <p set:html={overrides.comfortcare_text || `Keep your water heater, drains, fixtures, and sump pump running their best with a Comfort Care membership. Members get priority booking, 15% off repairs all year, and detailed service records that back your warranty, all from the same local team that already knows your home.`}></p>
+      <h2 set:html={overrides.comfortcare_h2 || pick(site.domain, 'home/cc_h2', [
+        `Comfort Care: Our Annual Maintenance Plan`,
+        `Comfort Care: Maintenance That Pays for Itself`,
+        `Join Comfort Care and Stop Thinking About Plumbing`,
+        `Comfort Care: The Yearly Once-Over Your System Deserves`,
+      ])}></h2>
+      <p set:html={overrides.comfortcare_text || pick(site.domain, 'home/cc_p', [
+        `Keep your water heater, drains, fixtures, and sump pump running their best with a Comfort Care membership. Members get priority booking, 15% off repairs all year, and detailed service records that back your warranty, all from the same local team that already knows your home.`,
+        `A Comfort Care membership puts your plumbing on a schedule instead of a wish list: annual checks, priority booking, 15% off repairs, and service records that keep every warranty honest.`,
+        `Comfort Care members never wait in line. Yearly inspections, a standing 15% discount on repairs, and paperwork that remembers every visit so you never have to.`,
+        `One membership covers the seasonal checks a home needs, heater, drains, sump, and fixtures, with priority booking and 15% off anything that needs fixing along the way.`,
+      ])}></p>
     </div>
     <div class="center" style="margin-top:24px">
       <a class="btn btn-primary btn-lg reveal" href="/contact/#quote">Ask About Comfort Care <Fragment set:html={icon('arrow-right', '', 18)} /></a>
@@ -240,7 +334,17 @@ const vc = verticalCopy(site);
 </section>
 )}
 
-<Fragment set:html={ctaBand(site, 'Ready to Get Your Water Running Right?', overrides.home_cta_text || "No matter the fixture or problem, our plumbers have the tools and experience to handle any water heater, drain, repiping, or sump-pump issue, fast.")} />
+<Fragment set:html={ctaBand(site, pick(site.domain, 'home/cta_t', [
+  'Ready to Get Your Water Running Right?',
+  'Fix It Before It Floods the Basement',
+  'Hot Water, Clear Drains, One Phone Call',
+  "Let's Get It Sorted, Starting Today",
+]), overrides.home_cta_text || pick(site.domain, 'home/cta_p', [
+  "No matter the fixture or problem, our plumbers have the tools and experience to handle any water heater, drain, repiping, or sump-pump issue, fast.",
+  'Describe what is going on and get a straight answer today. Water heaters, drains, repipes, sump systems, it is all in a normal week for our crew.',
+  'One call puts a licensed plumber on your doorstep with a fully stocked truck. Quotes are free and the work is guaranteed.',
+  'Whatever the plumbing problem is, it has a solution and we have done it before. Reach out and get yours handled this week.',
+]))} />
 
 {!isVertical && content.BLOG.length > 0 && (
 <section class="section">
@@ -259,8 +363,13 @@ const vc = verticalCopy(site);
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">FAQs</span>
-      <h2 set:html={overrides.faqs_h2 || 'Frequently Asked Questions'}></h2>
-      <p set:html={overrides.faqs_intro || `Answers to the questions ${site.city} homeowners ask us most.`}></p>
+      <h2 set:html={overrides.faqs_h2 || pick(site.domain, 'home/faq_h2', ['Frequently Asked Questions', `Questions ${site.city} Homeowners Ask`, 'Straight Answers, No Guesswork', 'Before You Call, Check Here'])}></h2>
+      <p set:html={overrides.faqs_intro || pick(site.domain, 'home/faq_intro', [
+        `Answers to the questions ${site.city} homeowners ask us most.`,
+        `The calls we get every week, answered the way we answer them on the phone.`,
+        `Pricing, licensing, emergencies, and the water itself, covered below.`,
+        `If your question is not here, it is still worth a quick call.`,
+      ])}></p>
     </div>
     <div class="faq" set:html={faqs}></div>
   </div>

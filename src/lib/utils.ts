@@ -1,6 +1,7 @@
 // Shared helpers ported from build.py / build_pages.py.
 import type { SiteConfig } from '../lib/types';
 import { icon } from './icons';
+import { pick } from './variants';
 
 // build_pages.py::link_brand_home
 // Give a page one in-body branded link to the homepage (the money page):
@@ -153,19 +154,36 @@ export function crumbs(items: [name: string, url: string][]): string {
   return `<nav class="crumbs" aria-label="Breadcrumb">${parts.join('')}</nav>`;
 }
 
-// build.py::cta_band
+// build.py::cta_band — default title/text vary per domain so the same band
+// copy isn't rendered identically across the estate (dist-dupe).
+const CTA_TITLES = [
+  'Ready to Solve Your Plumbing Problem?',
+  'One Call Away From Hot Water and Clear Drains',
+  "Let's Take a Look Before It Gets Worse",
+  'Get It Fixed Right, Starting Today',
+  'Your Free Quote Is One Call Away',
+];
+const CTA_TEXTS = [
+  'Whatever your plumbing need, our licensed plumbers are ready to help, fast. Get your free, no-obligation quote today.',
+  'Licensed plumbers, upfront pricing, and work that holds up. Tell us what is going on and we will tell you what it costs, free.',
+  'Whether it is a tank, a drain, or a whole repipe, the answer starts with a quick conversation. Reach out and get a straight quote.',
+  'No pressure and no surprises. Describe the problem, get an honest price, and decide from there.',
+  'Fast response, tidy work, and a guarantee in writing. The first step is free, so make the call.',
+];
 export function ctaBand(
   s: SiteConfig,
-  title = 'Ready to Solve Your Plumbing Problem?',
-  text = "Whatever your plumbing need, our licensed plumbers are ready to help, fast. Get your free, no-obligation quote today."
+  title?: string,
+  text?: string
 ): string {
+  const t = title ?? pick(s.domain, 'cta-band/title', CTA_TITLES);
+  const x = text ?? pick(s.domain, 'cta-band/text', CTA_TEXTS);
   return `<section class="section">
   <div class="container">
     <div class="cta-band reveal">
       <div class="cta-band__inner">
         <div>
-          <h2>${title}</h2>
-          <p>${text}</p>
+          <h2>${t}</h2>
+          <p>${x}</p>
         </div>
         <div style="display:flex;gap:14px;flex-wrap:wrap">
           <a class="btn btn-primary btn-lg" href="/contact/#quote">Get a Free Quote</a>
@@ -178,6 +196,22 @@ export function ctaBand(
 
 // build.py::areas_section
 // Now accepts optional location slugs so chips link to location pages when they exist.
+// Heading/intro vary per domain (dist-dupe): one pick per site, consistent
+// across that site's pages.
+const AREA_H2S = [
+  'Serving {city} &amp; Surrounding Communities',
+  'Proudly Covering {city} and the {county} Back Roads',
+  'Local to {city}, Wherever You Are in {county}',
+  'Our Trucks Run All Through {county}',
+  'Where We Work Around {city}',
+];
+const AREA_PS = [
+  'We provide fast, reliable {svc} throughout {scope}. If you don\'t see your town listed, give us a call, chances are we cover it.',
+  '{svc} calls take us across {scope} every week. Your town not on the list? Call anyway, the route likely passes your door.',
+  'The list below is the short version. If you are within a reasonable drive of {city}, consider yourself covered.',
+  'From {city} itself to the concessions beyond, if a pipe needs attention we will find a way to get there.',
+  'Chances are we were in one of these towns this morning. Call and ask how soon we can be at your place.',
+];
 export function areasSection(s: SiteConfig, locationSlugs?: Record<string, string>): string {
   const slugify = (name: string) =>
     name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -189,12 +223,20 @@ export function areasSection(s: SiteConfig, locationSlugs?: Record<string, strin
       return `<li><a href="${href}">${icon('pin', '', 15)} ${a}</a></li>`;
     })
     .join('');
+  const scope = s.city === s.county ? s.county : `${s.city} and ${s.county}`;
+  const fill = (t: string) => t
+    .replaceAll('{city}', s.city)
+    .replaceAll('{county}', s.county)
+    .replaceAll('{scope}', scope)
+    .replaceAll('{svc}', verticalCopy(s).serviceName.toLowerCase());
+  const h2 = fill(pick(s.domain, 'areas/h2', AREA_H2S));
+  const p = fill(pick(s.domain, 'areas/p', AREA_PS));
   return `<section class="section bg-soft">
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Service Area</span>
-      <h2>Serving ${s.city} &amp; Surrounding Communities</h2>
-      <p>We provide fast, reliable ${verticalCopy(s).serviceName.toLowerCase()} throughout ${s.city === s.county ? s.county : `${s.city} and ${s.county}`}. If you don't see your town listed, give us a call, chances are we cover it.</p>
+      <h2>${h2}</h2>
+      <p>${p}</p>
     </div>
     <ul class="areas reveal">${chips}</ul>
   </div>

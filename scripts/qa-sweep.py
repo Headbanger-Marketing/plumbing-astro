@@ -44,7 +44,12 @@ BANNED = [
 ]
 EMDASH = re.compile("[–—]|&mdash;|&ndash;|&#8211;|&#8212;")
 
-DIST_PAGES = ["", "about", "contact", "privacy-policy", "thank-you", "blog"]
+# Rendered pages checked by dist-dupe. Pages that render noindex at LAUNCH
+# (page-level robots) are excluded: they never enter an index, so their
+# shared copy is not a duplicate-content issue. That covers thank-you.astro
+# (always) and the blog index while BLOG is empty — blog/index.astro flips
+# robots to indexable when posts exist; re-add "blog" here at that point.
+DIST_PAGES = ["", "about", "contact", "privacy-policy"]
 
 fails = []
 warns = []

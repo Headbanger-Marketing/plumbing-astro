@@ -4,12 +4,68 @@ import SiteLayout from '../layouts/SiteLayout.astro';
 import { crumbs } from '../lib/utils';
 import { schemaBreadcrumb } from '../lib/schema';
 import { loadSite } from '../lib/load-site';
+import { pick } from '../lib/variants';
 
 const { site } = await loadSite();
 const SITE_NAME_T = site.brand;
 
 const title = `Privacy Policy | ${SITE_NAME_T}`;
-const desc = `Privacy policy for ${site.brand}, how we collect, use, and protect your personal information.`;
+const desc = pick(site.domain, 'privacy/desc', [
+  `Privacy policy for ${site.brand}, how we collect, use, and protect your personal information.`,
+  `How ${site.brand} handles your personal information: what we collect, why, and your choices.`,
+  `Your privacy matters to ${site.brand}. Read what information we collect and how it is protected.`,
+]);
+const lead = pick(site.domain, 'privacy/lead', [
+  `${site.brand} ("we," "us," or "our") respects your privacy. This policy explains what information we collect when you use our website or request our services, and how we use and protect it.`,
+  `At ${site.brand}, your personal information is used for one thing: looking after you as a customer. This page explains exactly what we collect and what we do with it.`,
+  `This policy describes how ${site.brand} collects, uses, and safeguards your information when you visit our site or request plumbing service.`,
+  `Plain version: we collect what you send us, use it to do the work you asked for, and keep it to ourselves. The details are below.`,
+  `${site.brand} takes your privacy seriously. Here is exactly what that means in practice.`,
+  `Short page, plain language: what we collect, why, and the control you have over it.`,
+]);
+const pCollect = pick(site.domain, 'privacy/collect', [
+  `When you submit a quote request or contact form, we collect the information you provide, such as your name, phone number, email address, service address, and a description of your plumbing needs. We may also collect basic, non-identifying analytics data about how visitors use our site.`,
+  `The forms on this site ask for what we need to reach you and understand the job: name, phone, email, address, and a note about the plumbing problem. We also gather anonymous usage statistics that cannot identify you.`,
+  `If you contact us or request a quote, we keep the details you send, your name, number, email, service address, and a description of the issue. Site visits also generate basic, non-identifying analytics.`,
+  `Quote requests give us your name, phone or email, the property address, and whatever you tell us about the problem. Usage of the site itself is tracked only anonymously.`,
+  `What you type into our forms is what we store: contact details, the service address, and the job description. Nothing more is collected about you personally.`,
+]);
+const pUse = pick(site.domain, 'privacy/use', [
+  `We use the information you provide to respond to your enquiry, schedule and deliver services, provide quotes, and follow up about your service needs. We do not sell or rent your personal information to third parties.`,
+  `Your information goes toward answering you, booking the work, quoting it, and following up afterwards. It is never sold or rented to anyone.`,
+  `What you send us is used to reply, schedule, quote, and keep you informed about your service. Selling or renting personal information is not something we do, full stop.`,
+  `Your details serve exactly one purpose: delivering the service you asked about. There is no list, no brokerage, and no third-party marketing.`,
+  `We use your information to answer you and do the work, nothing else. It is never sold, rented, or traded.`,
+]);
+const pProtect = pick(site.domain, 'privacy/protect', [
+  `We take reasonable measures to protect the personal information you share with us against loss, theft, and unauthorized access. Information is shared only with team members and service partners who need it to serve you.`,
+  `Reasonable safeguards protect what you share with us, and access is limited to the staff and service partners who need it to do their part of the job.`,
+  `Your details are stored with care, shared only with the people on our side who need them to deliver service, and protected against unauthorized access to the best of our ability.`,
+  `Access to customer information is limited to the team members who need it, and reasonable safeguards guard the rest.`,
+  `We keep personal information on need-to-know terms inside the company and use sensible measures to keep it secure.`,
+  `Customer information stays inside the company, on a need-to-know basis, under sensible safeguards.`,
+]);
+const pCookies = pick(site.domain, 'privacy/cookies', [
+  `Our website may use cookies and similar technologies to improve your browsing experience and understand site usage. You can disable cookies through your browser settings, though some features may not function as intended.`,
+  `Like most websites, we may use cookies to keep the site working smoothly and to understand how it is used. Your browser can block them, though parts of the site may behave differently.`,
+  `Cookies help this site run and help us see what is working. They can be turned off in your browser settings; some features may not work as expected without them.`,
+  `This site uses a small number of cookies for basic function and anonymous usage stats. Blocking them is your call and your browser's setting.`,
+  `A few standard cookies keep the site working; they identify a browser, not a person, and can be cleared any time.`,
+]);
+const pChoices = pick(site.domain, 'privacy/choices', [
+  `You may request access to, correction of, or deletion of the personal information we hold about you at any time by contacting us using the details below.`,
+  `Want to see, fix, or delete the information we hold about you? Contact us using the details below and we will take care of it.`,
+  `You control your information. Ask us for a copy, a correction, or a deletion at any time through the contact details below.`,
+  `Anything we hold about you can be reviewed, corrected, or removed on request. One message is all it takes.`,
+  `Your record with us is yours: request to see it, fix it, or have it deleted whenever you like.`,
+]);
+const pContactUs = pick(site.domain, 'privacy/contact', [
+  `If you have questions about this privacy policy or how your information is handled, please reach out:`,
+  `Questions about this policy or your information? Get in touch:`,
+  `For anything related to this policy or your personal information, contact us directly:`,
+  `Concerns or questions about privacy? The same number and email as everything else:`,
+  `Privacy questions go to the same place as everything else, straight to us:`,
+]);
 ---
 
 <SiteLayout
@@ -34,19 +90,19 @@ const desc = `Privacy policy for ${site.brand}, how we collect, use, and protect
 <section class="section">
   <div class="container">
     <article class="article">
-      <p class="lead">{site.brand} ("we," "us," or "our") respects your privacy. This policy explains what information we collect when you use our website or request our services, and how we use and protect it.</p>
-      <h2>Information We Collect</h2>
-      <p>When you submit a quote request or contact form, we collect the information you provide, such as your name, phone number, email address, service address, and a description of your plumbing needs. We may also collect basic, non-identifying analytics data about how visitors use our site.</p>
-      <h2>How We Use Your Information</h2>
-      <p>We use the information you provide to respond to your enquiry, schedule and deliver services, provide quotes, and follow up about your service needs. We do not sell or rent your personal information to third parties.</p>
-      <h2>How We Protect Your Information</h2>
-      <p>We take reasonable measures to protect the personal information you share with us against loss, theft, and unauthorized access. Information is shared only with team members and service partners who need it to serve you.</p>
-      <h2>Cookies &amp; Analytics</h2>
-      <p>Our website may use cookies and similar technologies to improve your browsing experience and understand site usage. You can disable cookies through your browser settings, though some features may not function as intended.</p>
-      <h2>Your Choices</h2>
-      <p>You may request access to, correction of, or deletion of the personal information we hold about you at any time by contacting us using the details below.</p>
-      <h2>Contact Us</h2>
-      <p>If you have questions about this privacy policy or how your information is handled, please reach out:</p>
+      <p class="lead">{lead}</p>
+      <h2>{pick(site.domain, 'privacy/h_collect', ['Information We Collect', 'What We Collect', 'The Details We Ask For'])}</h2>
+      <p>{pCollect}</p>
+      <h2>{pick(site.domain, 'privacy/h_use', ['How We Use Your Information', 'What Your Information Is For', 'Where Your Details Go'])}</h2>
+      <p>{pUse}</p>
+      <h2>{pick(site.domain, 'privacy/h_protect', ['How We Protect Your Information', 'Keeping It Safe', 'Our Safeguards'])}</h2>
+      <p>{pProtect}</p>
+      <h2>{pick(site.domain, 'privacy/h_cookies', ['Cookies &amp; Analytics', 'Cookies and Analytics', 'About Cookies'])}</h2>
+      <p>{pCookies}</p>
+      <h2>{pick(site.domain, 'privacy/h_choices', ['Your Choices', 'Your Control', 'Your Options'])}</h2>
+      <p>{pChoices}</p>
+      <h2>{pick(site.domain, 'privacy/h_contact', ['Contact Us', 'Reaching Us', 'Privacy Questions? Contact Us'])}</h2>
+      <p>{pContactUs}</p>
       <p>{site.brand}<br>Email: <a href={`mailto:${site.email}`}>{site.email}</a><br>{site.city}, {site.regionAbbr}</p>
     </article>
   </div>
