@@ -1,12 +1,12 @@
 /*!
- * HVAC portfolio chat widget - zero-config drop-in.
+ * Site chat widget - zero-config drop-in.
  *
  * Reads everything it needs from tags SiteLayout.astro already emits:
  *   - brand  : <meta property="og:site_name">
  *   - color  : <meta name="theme-color">   (the site's navy / palette.themeColor)
  *   - origin : location.hostname            (passed to n8n for site-aware context)
  *
- * POSTs each turn to the n8n "HVAC Chat" workflow:
+ * POSTs each turn to the site-aware n8n chat workflow:
  *   { sessionId, message, origin }  ->  { reply }
  *
  * The browser holds NO LLM key and posts NO lead directly - lead capture happens

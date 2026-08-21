@@ -102,14 +102,14 @@ export const SVC = {
     icon: "gauge",
     kicker: "Water Softeners &amp; Filtration in Listowel, Ontario",
     h1: "Water Softeners &amp; Filtration From a Local Perth Plumbing Team",
-    intro: "North Perth wells are famous for it, and even treated municipal water in town carries enough hardness to bother kettles and skin. Listowel Plumbing tests first and installs second, matching softener capacity and filter stages to the water you actually have, for village homes and farmsteads alike, and setting each system to regenerate on consumption rather than the clock, so salt lasts and water is soft when the household needs it.",
-    meta: "Water softeners and filtration in Listowel, Ontario. Softeners, iron filters, and well treatment sized to water tests for North Perth homes and farms.",
-    problem_h: "Well water staining the laundry orange?",
-    problem_p: "Iron and hardness, the regional classics. Treatment sized to the test fixes both.",
+    intro: "North Perth grows the way good farm towns do, new streets filling past the old boundaries while the concessions around them keep drawing well water that turns a fresh sink rust-orange inside a month, and both currents arrive at the same bench eventually, a household outgrowing the treatment that came with the house. Listowel Plumbing sizes softening and filtration to the household you actually run, metered so regeneration follows use rather than the wall clock, with filter stages sequenced for the iron the northern Perth wells are known for and capacity held in reserve for the weekends every bathroom is busy.",
+    meta: "Water softeners and filtration in Listowel, Ontario. Demand-metered softeners and staged iron filtration for North Perth village homes and farm wells, sized to household demand.",
+    problem_h: "Salt disappearing faster than it should?",
+    problem_p: "A timer-driven unit regenerates whether anyone ran water or not. Metering to real demand trims the salt bill and holds softness steady.",
     features: [
-      ["gauge", "Consumption-Based Settings", "Regenerating on measured usage instead of a fixed timer saves salt and water while keeping softness steady through guests and growth."],
-      ["droplets", "Whole-Property Wells", "High-use wells feeding households and outbuildings need capacity and pre-filtration planned together. We design the treatment around the entire property's demands."],
-      ["shield", "Protected Appliances", "Softened water extends the life of the water heater, the dishwasher, and every fixture with a rubber seal. Fewer scale repairs, fewer replaced tanks, lower running cost."]
+      ["gauge", "Metered, Not Timed", "Regeneration keyed to measured gallons holds softness through holiday weekends and stops spending salt through empty weekdays."],
+      ["droplets", "Room to Grow", "A unit sized to the day you bought it chokes the year you finish the basement. Capacity is planned against the household's trajectory, bedrooms, bathrooms, and the barn tap included."],
+      ["shield", "Running Costs in Plain Numbers", "Grains of hardness, gallons a day, bags of salt a month. You get the arithmetic behind the recommendation, so the operating cost is known before the first refill."]
     ],
     rev: [4, 2, 4],
   }
@@ -133,7 +133,7 @@ export const HOME_SERVICES = [
   ["home", "Fixtures &amp; Toilets", "Toilets, faucets, tubs, and showers, plus basement bathroom and legal second-suite rough-ins.", "/services/fixtures-toilets/"],
   ["droplets", "Leak Detection &amp; Repair", "Acoustic and pressure location of hidden leaks, freeze damage, and yard service line breaks.", "/services/leak-detection/"],
   ["shield", "Sump Pumps &amp; Backwater", "Correctly sized replacement pumps, battery backup, and the annual check that keeps them alive.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Softeners and iron filters sized to water tests for village homes and farm wells across North Perth.", "/services/water-softeners/"]
+  ["gauge", "Water Softeners &amp; Filtration", "Demand-metered softening with capacity planned for growing North Perth households.", "/services/water-softeners/"]
 ];
 
 export const HOME_FAQ = [

@@ -103,14 +103,14 @@ export const SVC = {
     icon: "gauge",
     kicker: "Water Softeners &amp; Filtration in Clinton, Ontario",
     h1: "Water Softeners &amp; Filtration From a Local Huron Plumbing Team",
-    intro: "Central Huron water is hard on the map and harder at the tap, and the wells beyond the municipal lines add iron and the occasional sulphur note. Clinton Plumbing installs softeners and filtration sized to a real test of the supply, for village homes and farmsteads alike, setting each system up with sensible bypass and drain arrangements and programming it to the household's actual consumption.",
-    meta: "Water softeners and filtration in Clinton, Ontario. Softeners, iron filters, and well treatment sized to water tests across Central Huron.",
-    problem_h: "Fixtures scaling and whites greying in the wash?",
-    problem_p: "Huron hardness, doing what it does. Treatment sized to the test reverses both.",
+    intro: "The evidence collects quietly in a Clinton house, towels going stiff and grey no matter the soap, taps weeping at the base long before their time, a hot-water tank aging faster than its warranty. Village supply runs hard and the farm wells beyond the highway lines run harder, and each asks something different of the equipment. Clinton Plumbing reads the water before quoting a dollar of it, softening for the scale on the municipal side, iron and sediment stages where a well feeds the house, all plumbed to bypass in a minute and to be serviced without clearing a utility shelf.",
+    meta: "Water softeners and filtration in Clinton, Ontario. Scale control for village homes and staged iron treatment for Central Huron farm wells, designed from your water test.",
+    problem_h: "Hot-water tank limping years before its time?",
+    problem_p: "Scale from Huron water is the usual suspect. Tested water and matched treatment take the stone out of the supply.",
     features: [
-      ["gauge", "Test Before Equipment", "Hardness, iron, and pH get measured first. The equipment list follows the results instead of preceding them."],
-      ["droplets", "Wells Beyond the Lines", "Farm wells around Clinton carry more than hardness. Staged filtration handles the iron and sediment the test reveals."],
-      ["shield", "Sensible to Service", "Bypass valves, pre-filters, and clear access are designed in, so the annual check on your Clinton system stays a short visit."]
+      ["gauge", "Read Before You Buy", "Hardness, iron, and pH come off your tap, not a county brochure. The spec sheet is written from your sample, never before it."],
+      ["droplets", "Village Line or Farm Well", "Municipal hardness and well-borne iron want different machines. We design for the water your property actually draws, and farm systems get pre-filtration sized to what the concession wells carry."],
+      ["shield", "Built to Be Bypassed", "A softener you cannot bypass is a softener you cannot live with. Valves and access are planned so a filter change in Clinton stays a five-minute job."]
     ],
     rev: [4, 2, 4],
   }
@@ -134,7 +134,7 @@ export const HOME_SERVICES = [
   ["home", "Fixtures &amp; Toilets", "Toilets, faucets, tubs, and showers, plus laundry moves and basement bathroom rough-ins.", "/services/fixtures-toilets/"],
   ["droplets", "Leak Detection &amp; Repair", "Acoustic and pressure location of slab leaks and long rural service line breaks.", "/services/leak-detection/"],
   ["shield", "Sump Pumps &amp; Backwater", "Season-sized pumps, battery backup for rural outages, and annual maintenance visits.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Softeners and staged well treatment sized to real water tests across Central Huron.", "/services/water-softeners/"]
+  ["gauge", "Water Softeners &amp; Filtration", "Scale control for village supply and staged iron work for Central Huron farm wells.", "/services/water-softeners/"]
 ];
 
 export const HOME_FAQ = [

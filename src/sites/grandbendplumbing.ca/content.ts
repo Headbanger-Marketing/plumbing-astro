@@ -103,14 +103,14 @@ export const SVC = {
     icon: "gauge",
     kicker: "Water Softeners &amp; Filtration in Grand Bend, Ontario",
     h1: "Water Softeners &amp; Filtration From a Local Lambton Plumbing Team",
-    intro: "The lake pipeline serves much of the beach strip with treated water that still runs harder than anyone's fixtures prefer, while the properties inland draw wells with iron and hardness of their own. Grand Bend Plumbing tests the supply at the tap, then installs softeners and filtration to match, compact enough for cottage utility corners and programmed for usage that swings from empty to overflowing in a single weekend.",
-    meta: "Water softeners and filtration in Grand Bend, Ontario. Softeners and well treatment sized to water tests, compact and correctly programmed for seasonal homes.",
-    problem_h: "Fixtures filming white within weeks of cleaning?",
-    problem_p: "The water is telling you something. We test it and treat it to match.",
+    intro: "A Grand Bend property lives two lives, a quiet one from November to April and a packed one where every bed fills and the laundry never stops, and the water treatment has to survive both. The pipeline strip runs treated lake water that still works its mineral into heaters and tap bodies, while inland properties draw wells that stain fixtures orange for the first renters of the season to find. Grand Bend Plumbing programs softeners to the property's real rhythm, holding soft water through the surge and idling through the empty months, in footprints that fit the utility corners cottages actually have.",
+    meta: "Water softeners and filtration in Grand Bend, Ontario. Seasonally programmed softeners and staged iron treatment for beach-strip homes and inland cottage wells.",
+    problem_h: "First guests of the season reporting orange water?",
+    problem_p: "Inland wells carry the iron and August finds it. A system tuned to the calendar takes the complaint off the list.",
     features: [
-      ["gauge", "Swing-Season Programming", "Usage here runs from zero to houseful in a weekend. We program regeneration to demand so soft water meets the surge."],
-      ["droplets", "Inland Wells Treated", "Iron and hardness ride the well water north and east of the strip. Staged filtration, sized to the test, takes both out."],
-      ["shield", "Compact Footprints", "Cottage utility spaces are a corner, not a room. We fit right-sized equipment in cleanly, with service access intact."]
+      ["gauge", "Tuned to the Calendar", "Regeneration follows the property's rhythm, quiet through the shoulder months and ready when the weekend crowd arrives with its laundry."],
+      ["droplets", "Rental-Ready Water", "Orange stains end up in a rental review. Staged well treatment set before opening week keeps the water off that list all season."],
+      ["shield", "Fits the Cottage Corner", "Lakeside utility rooms are a closet with ambitions. Right-sized equipment goes in with drain and overflow thought through, so the system and the beach gear share the space."]
     ],
     rev: [4, 2, 4],
   }
@@ -134,7 +134,7 @@ export const HOME_SERVICES = [
   ["home", "Fixtures &amp; Toilets", "Rental-grade kitchens and baths, beach-path outdoor showers, and addition rough-ins that pass.", "/services/fixtures-toilets/"],
   ["droplets", "Leak Detection &amp; Repair", "Acoustic and pressure location of leaks in occupied and vacant properties, plus freeze repairs.", "/services/leak-detection/"],
   ["shield", "Sump Pumps &amp; Backwater", "Water-table-sized pumps, storm-outage battery backup, and opening-and-closing service.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Softeners and well treatment programmed for usage that swings from empty to overflowing.", "/services/water-softeners/"]
+  ["gauge", "Water Softeners &amp; Filtration", "Seasonally programmed softening for beach homes and inland cottage wells.", "/services/water-softeners/"]
 ];
 
 export const HOME_FAQ = [

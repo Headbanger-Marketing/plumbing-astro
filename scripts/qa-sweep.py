@@ -11,13 +11,22 @@ Checks every src/sites/<domain>.ts + src/sites/<domain>/content.ts pair for:
                    terms (hvac, furnace, air condition, duct, heating & cooling)
   4. cross-site  - pairwise 5-gram Jaccard similarity of SVC prose + HOME_FAQ
                    answers; flags near-duplicate copy between sites
+  5. dist-dupe   - same Jaccard on RENDERED dist/ pages (home, about, contact,
+                   privacy, thank-you, blog) with brand/city/county/service-area
+                   tokens neutralized, so templated copy reads as duplicate the
+                   way a crawler sees it. Content.ts checks never see template
+                   fallbacks; this one does.
+                   Defaults to WARN (templated pages are a known issue until
+                   per-site variant work). With --launch-gate, >= 0.85 on any
+                   rendered page is a hard failure (publish gate).
 
 Exit 0 = clean (warnings allowed); exit 1 = hard failures.
 
-Usage: python3 scripts/qa-sweep.py [--skip-dupes]
+Usage: python3 scripts/qa-sweep.py [--skip-dupes] [--skip-dist] [--launch-gate]
 """
 import re
 import sys
+from collections import defaultdict
 from itertools import combinations
 from pathlib import Path
 
@@ -31,8 +40,11 @@ SLUGS = {
 BANNED = [
     "hvac", "heating & cooling", "heating and cooling", "furnace",
     "air condition", "air-condition", "duct clean", "ductwork", "a/c",
+    "indoor air",
 ]
 EMDASH = re.compile("[–—]|&mdash;|&ndash;|&#8211;|&#8212;")
+
+DIST_PAGES = ["", "about", "contact", "privacy-policy", "thank-you", "blog"]
 
 fails = []
 warns = []
@@ -72,8 +84,72 @@ def ngrams(text, n=5):
     return {" ".join(toks[i:i + n]) for i in range(len(toks) - n + 1)}
 
 
+def page_text(html):
+    """Visible text of <main> (falls back to whole doc), tags stripped."""
+    m = re.search(r"<main\b.*?</main>", html, re.S)
+    body = m.group(0) if m else html
+    body = re.sub(r"<(script|style|noscript|svg|template)\b.*?</\1>", " ", body, flags=re.S)
+    txt = re.sub(r"<[^>]+>", " ", body)
+    txt = txt.replace("&amp;", "&").replace("&#39;", "'").replace("&quot;", '"')
+    return re.sub(r"\s+", " ", txt).strip()
+
+
+def neutralize(text, toks):
+    """Blank out brand/city/county/service-area/phone/domain tokens so
+    templated copy with swapped cities reads as the duplicate it is."""
+    brand, city, county, areas = toks
+    for s in sorted({brand, city, county, "Ontario", *areas} - {""}, key=len, reverse=True):
+        text = re.sub(re.escape(s), "«X»", text, flags=re.I)
+    text = re.sub(r"\d[\d\-()/.\s]{6,}\d", "«N»", text)
+    return re.sub(r"\b[\w.-]+\.ca\b", "«D»", text)
+
+
+def dist_dupe(tokens_by_site, launch_gate):
+    """Pairwise 5-gram Jaccard across RENDERED dist/ pages per page type.
+    Summarized per page type (pair lists would be thousands of lines)."""
+    by_ptype = defaultdict(dict)
+    missing = []
+    for dom, toks in tokens_by_site.items():
+        root = ROOT / "dist" / dom
+        if not root.is_dir():
+            missing.append(dom)
+            continue
+        for rel in DIST_PAGES:
+            f = root / rel / "index.html" if rel else root / "index.html"
+            if not f.exists():
+                continue
+            html = f.read_text(encoding="utf-8", errors="replace")
+            by_ptype[rel or "home"][dom] = ngrams(neutralize(page_text(html), toks))
+    if missing:
+        warns.append(f"dist-dupe: {len(missing)} site(s) have no dist/ output, skipped "
+                     f"({missing[0]} …) — build with ./scripts/build-all.sh --no-sync")
+    for ptype in sorted(by_ptype):
+        sites = by_ptype[ptype]
+        if len(sites) < 2:
+            continue
+        js = []
+        for a, b in combinations(sorted(sites), 2):
+            sa, sb = sites[a], sites[b]
+            if sa and sb:
+                js.append(len(sa & sb) / len(sa | sb))
+        if not js:
+            continue
+        js.sort()
+        hot = sum(1 for j in js if j > 0.30)
+        near = js[-1] >= 0.85
+        med = js[len(js) // 2]
+        if near and launch_gate:
+            fails.append(f"DIST-DUPE {ptype}: med {med:.2f}, max {js[-1]:.2f} — "
+                         f"near-identical rendered page across sites (launch gate)")
+        elif near or hot:
+            warns.append(f"dist-dupe {ptype}: {hot}/{len(js)} pairs > 0.30 "
+                         f"(med {med:.2f}, max {js[-1]:.2f}){' — HARD under --launch-gate' if near else ''}")
+
+
 def main():
     skip_dupes = "--skip-dupes" in sys.argv
+    skip_dist = "--skip-dist" in sys.argv
+    launch_gate = "--launch-gate" in sys.argv
     domains = sorted(
         p.stem for p in SITES_DIR.glob("*.ts")
         if p.stem.endswith(".ca")
@@ -83,6 +159,7 @@ def main():
         return report()
 
     fingerprints = {}
+    dist_tokens = {}
     for dom in domains:
         tag = dom
         cfg = (SITES_DIR / f"{dom}.ts").read_text(encoding="utf-8")
@@ -170,6 +247,14 @@ def main():
         if city_m and city_m.group(1).lower() not in cnt.lower():
             fails.append(f"{tag}: city `{city_m.group(1)}` never mentioned in content")
 
+        dist_tokens[dom] = (
+            (re.search(r"brand:\s*\"([^\"]+)\"", cfg) or [None, ""])[1],
+            city_m.group(1) if city_m else "",
+            (re.search(r"county:\s*\"([^\"]+)\"", cfg) or [None, ""])[1],
+            re.findall(r"'([A-Za-z][^']+)'",
+                       "".join(re.findall(r"serviceAreas:\s*\[([^\]]*)\]", cfg))),
+        )
+
         fingerprints[dom] = (
             ngrams(" ".join(flat_strings(svc))),
             ngrams(" ".join(flat_strings(hf or ""))),
@@ -188,6 +273,10 @@ def main():
                     fails.append(f"DUPE {a} vs {b}: {label} Jaccard {j:.2f} > 0.30")
                 elif j > 0.18:
                     warns.append(f"dupe-ish {a} vs {b}: {label} Jaccard {j:.2f}")
+
+    # ---- rendered-dist duplicate check ----
+    if not skip_dist:
+        dist_dupe(dist_tokens, launch_gate)
 
     return report()
 

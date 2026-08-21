@@ -102,14 +102,14 @@ export const SVC = {
     icon: "gauge",
     kicker: "Water Softeners &amp; Filtration in St. Marys, Ontario",
     h1: "Water Softeners &amp; Filtration From a Local Perth Plumbing Team",
-    intro: "St. Marys water runs hard enough that the kettle tells the story, and properties on wells south and west of town add iron to the chapter. St. Marys Plumbing installs softeners and filtration sized to a proper test of your supply, plumbing each system with a bypass and a drain it can rely on, and tuning regeneration to the household so soft water stops being something the neighbours have.",
-    meta: "Water softeners and filtration in St. Marys, Ontario. Softeners and iron treatment sized to water tests for Stonetown homes and rural wells.",
-    problem_h: "Kettle furred and skin dry by October?",
-    problem_p: "Hard water, reliably. A right-sized softener clears it up and protects everything it touches.",
+    intro: "There is a particular irony to running hard water through a limestone town, the stone that built St. Marys resurfacing as chalky shoulder on the tap bases and a shower head that clogs itself shut within a season, right over the finishes a renovation just paid for. Houses on the municipal supply and farm properties on wells southwest of town each carry their own version of it. St. Marys Plumbing designs treatment to the property, softening that keeps chrome and glass the way they were chosen to look, iron staging where the wells bring it up, all on a bypass and drain the system can rely on.",
+    meta: "Water softeners and filtration in St. Marys, Ontario. Scale and iron treatment that protects renovated bathrooms and century fixtures in the Stonetown.",
+    problem_h: "Renovation done, glass already filming?",
+    problem_p: "Hard water undoes good finishes quietly. Softening matched to the supply keeps them as installed.",
     features: [
-      ["gauge", "Matched to the Test", "Capacity follows hardness and household size together. The installed system regenerates when needed and rests when not."],
-      ["droplets", "Wells South and West", "Iron, sulphur, and sediment ride the rural water here. Filter stages ordered to the test results take all three out of the story."],
-      ["shield", "Protection for the Fixtures", "The renovation deserves finishes that last. Softened water is how a quality bathroom stays looking like one."]
+      ["gauge", "Finishes Worth Protecting", "The rain head and the finish around it were chosen on purpose. Treated water is what keeps the room looking like the day the tile cured."],
+      ["droplets", "Well Iron, Staged Out", "Properties southwest of town draw iron with their water. Sequenced filtration lifts it before it can stain a single new fixture, ordered as the sample reads."],
+      ["shield", "Heritage-Safe Hookups", "Older Stonetown mechanical rooms ask for tidy pipe runs. Connections are planned to respect the space, keep access honest, and touch nothing that cannot be undone."]
     ],
     rev: [4, 1, 4],
   }
@@ -133,7 +133,7 @@ export const HOME_SERVICES = [
   ["home", "Fixtures &amp; Toilets", "Freestanding tubs, rainfall showers, and renovation rough-ins set level and balanced properly.", "/services/fixtures-toilets/"],
   ["droplets", "Leak Detection &amp; Repair", "Acoustic and pressure location of leaks hidden in stone walls, slabs, and yard service runs.", "/services/leak-detection/"],
   ["shield", "Sump Pumps &amp; Backwater", "Site-sized pumps, battery backup, and seasonal service for valley-level basements near the Thames.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Softeners and iron treatment matched to water tests for town supply and rural wells.", "/services/water-softeners/"]
+  ["gauge", "Water Softeners &amp; Filtration", "Scale and iron treatment that keeps renovated Stonetown bathrooms looking new.", "/services/water-softeners/"]
 ];
 
 export const HOME_FAQ = [
