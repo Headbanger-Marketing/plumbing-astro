@@ -175,7 +175,11 @@ def main():
         cnt = cnt_p.read_text(encoding="utf-8")
 
         # ---- config checks ----
-        for needle in ("noindex: true", "webhookUrl:", "serviceAreas:", "county:"):
+        # noindex must be an EXPLICIT true|false: `true` pre-launch, `false`
+        # once a site is intentionally launched — absent/typo'd still fails.
+        if not re.search(r"noindex:\s*(true|false)\b", cfg):
+            fails.append(f"{tag}: config missing explicit `noindex: true|false`")
+        for needle in ("webhookUrl:", "serviceAreas:", "county:"):
             if needle not in cfg:
                 fails.append(f"{tag}: config missing `{needle}`")
         if f'url: "https://{dom}"' not in cfg and f"url: 'https://{dom}'" not in cfg:
