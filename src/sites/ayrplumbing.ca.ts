@@ -1,5 +1,5 @@
 // Per-site config for ayrplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Ayr, Waterloo County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Ayr, Waterloo County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Waterloo",
-  phone: { display: "(519) 555-0125", tel: "+15195550125" }, // PLACEHOLDER
+  phone: { display: "(519) 632-8174", tel: "+15196328174" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@ayrplumbing.ca",
   address: {
-    street: "PLACEHOLDER Mill Street", // PLACEHOLDER
+    street: "15 Stanley St",
     locality: "Ayr",
     region: 'ON',
-    postal: "N0B 1E0", // PLACEHOLDER
+    postal: "N0B 1E0",
   },
   serviceAreas: ['Ayr', 'New Hamburg', 'Baden', 'St. George', 'Paris', 'Cambridge', 'Kitchener'],
   palette: {

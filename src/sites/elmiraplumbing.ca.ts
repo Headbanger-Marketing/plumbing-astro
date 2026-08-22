@@ -1,5 +1,5 @@
 // Per-site config for elmiraplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Elmira, Waterloo County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Elmira, Waterloo County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Waterloo",
-  phone: { display: "(519) 555-0126", tel: "+15195550126" }, // PLACEHOLDER
+  phone: { display: "(519) 669-4738", tel: "+15196694738" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@elmiraplumbing.ca",
   address: {
-    street: "PLACEHOLDER Main Street", // PLACEHOLDER
+    street: "25 Arthur St S",
     locality: "Elmira",
     region: 'ON',
-    postal: "N3B 1A1", // PLACEHOLDER
+    postal: "N3B 2M5",
   },
   serviceAreas: ['Elmira', 'St. Jacobs', 'Conestogo', 'Bloomingdale', 'Winterbourne', 'Maryhill', 'Waterloo'],
   palette: {

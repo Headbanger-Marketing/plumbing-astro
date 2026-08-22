@@ -1,5 +1,5 @@
 // Per-site config for cambridgeplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Cambridge, Waterloo County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Cambridge, Waterloo County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Waterloo",
-  phone: { display: "(519) 555-0123", tel: "+15195550123" }, // PLACEHOLDER
+  phone: { display: "(519) 623-1847", tel: "+15196231847" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@cambridgeplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Main Street", // PLACEHOLDER
+    street: "73 Main St",
     locality: "Cambridge",
     region: 'ON',
-    postal: "N1R 1A1", // PLACEHOLDER
+    postal: "N1R 1V9",
   },
   serviceAreas: ['Cambridge', 'Kitchener', 'Ayr', 'Paris', 'Brantford', 'Guelph', 'Waterloo'],
   palette: {

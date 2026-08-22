@@ -1,5 +1,6 @@
 // Per-site config for goderichplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Goderich, Huron County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Fulfiller: Hoffmeyer (per NAP-WORKSHEET 2026-08-21).
+// Plumbing lead-gen (plumbing-astro). Goderich, Huron County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +12,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Huron",
-  phone: { display: "(519) 555-0143", tel: "+15195550143" }, // PLACEHOLDER
+  phone: { display: "(548) 290-9633", tel: "+15482909633" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@goderichplumbing.ca",
   address: {
-    street: "PLACEHOLDER Huron Road", // PLACEHOLDER
+    street: "85 Kingston St",
     locality: "Goderich",
     region: 'ON',
-    postal: "N7A 1A1", // PLACEHOLDER
+    postal: "N7A 3K3",
   },
   serviceAreas: ['Goderich', 'Clinton', 'Bayfield', 'Vanastra', 'Holmesville', 'Blyth', 'Auburn'],
   palette: {

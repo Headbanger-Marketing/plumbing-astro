@@ -1,5 +1,5 @@
 // Per-site config for oshawaplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Oshawa, Durham County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Oshawa, Durham County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Durham",
-  phone: { display: "(905) 555-0166", tel: "+19055550166" }, // PLACEHOLDER
+  phone: { display: "(905) 721-3485", tel: "+19057213485" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@oshawaplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Street", // PLACEHOLDER
+    street: "50 Richmond St W",
     locality: "Oshawa",
     region: 'ON',
-    postal: "L1G 1A1", // PLACEHOLDER
+    postal: "L1G 1C7",
   },
   serviceAreas: ['Oshawa', 'Whitby', 'Courtice', 'Brooklin', 'Bowmanville', 'Newcastle'],
   palette: {

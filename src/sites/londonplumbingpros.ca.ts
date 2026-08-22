@@ -1,5 +1,5 @@
 // Per-site config for londonplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). London, Middlesex County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). London, Middlesex County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Middlesex",
-  phone: { display: "(519) 555-0112", tel: "+15195550112" }, // PLACEHOLDER
+  phone: { display: "(548) 708-8216", tel: "+15487088216" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@londonplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Dundas Street", // PLACEHOLDER
+    street: "155 Clarke Rd",
     locality: "London",
     region: 'ON',
-    postal: "N6A 1A1", // PLACEHOLDER
+    postal: "N5W 5C9",
   },
   serviceAreas: ['London', 'Byron', 'Lambeth', 'Hyde Park', 'Masonville', 'Dorchester', 'St. Thomas'],
   palette: {

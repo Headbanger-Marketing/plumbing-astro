@@ -1,5 +1,5 @@
 // Per-site config for dorchesterplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Dorchester, Middlesex County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Dorchester, Middlesex County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Middlesex",
-  phone: { display: "(519) 555-0154", tel: "+15195550154" }, // PLACEHOLDER
+  phone: { display: "(519) 268-0122", tel: "+15192680122" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@dorchesterplumbing.ca",
   address: {
-    street: "PLACEHOLDER Main Street", // PLACEHOLDER
+    street: "198 Queen St",
     locality: "Dorchester",
     region: 'ON',
-    postal: "N0M 1L0", // PLACEHOLDER
+    postal: "N0L 1G0",
   },
   serviceAreas: ['Dorchester', 'Thorndale', 'Thamesford', 'Belmont', 'Putnam', 'London', 'Ingersoll'],
   palette: {

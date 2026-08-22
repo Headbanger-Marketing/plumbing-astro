@@ -1,5 +1,5 @@
 // Per-site config for komokaplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Komoka, Middlesex County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Komoka, Middlesex County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Middlesex",
-  phone: { display: "(519) 555-0176", tel: "+15195550176" }, // PLACEHOLDER
+  phone: { display: "(519) 657-0133", tel: "+15196570133" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@komokaplumbing.ca",
   address: {
-    street: "PLACEHOLDER Oxford Street West", // PLACEHOLDER
+    street: "81 Queen St",
     locality: "Komoka",
     region: 'ON',
-    postal: "N0M 2M0", // PLACEHOLDER
+    postal: "N0L 1R0",
   },
   serviceAreas: ['Komoka', 'Kilworth', 'Delaware', 'London', 'Strathroy', 'Ilderton', 'Mount Brydges'],
   palette: {

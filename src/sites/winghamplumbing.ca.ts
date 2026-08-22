@@ -1,5 +1,5 @@
 // Per-site config for winghamplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Wingham, Huron County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Wingham, Huron County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Huron",
-  phone: { display: "(519) 555-0122", tel: "+15195550122" }, // PLACEHOLDER
+  phone: { display: "(519) 357-0136", tel: "+15193570136" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@winghamplumbing.ca",
   address: {
-    street: "PLACEHOLDER Josephine Street", // PLACEHOLDER
+    street: "178 Josephine St",
     locality: "Wingham",
     region: 'ON',
-    postal: "N0G 2W0", // PLACEHOLDER
+    postal: "N0G 2W0",
   },
   serviceAreas: ['Wingham', 'Blyth', 'Lucknow', 'Teeswater', 'Clinton', 'Goderich', 'Listowel'],
   palette: {

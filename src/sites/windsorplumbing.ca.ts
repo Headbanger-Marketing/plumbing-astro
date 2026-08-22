@@ -1,5 +1,5 @@
 // Per-site config for windsorplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Windsor, Essex County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Windsor, Essex County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Essex",
-  phone: { display: "(519) 555-0126", tel: "+15195550126" }, // PLACEHOLDER
+  phone: { display: "(548) 708-7480", tel: "+15487087480" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@windsorplumbing.ca",
   address: {
-    street: "PLACEHOLDER Street", // PLACEHOLDER
+    street: "2660 Jefferson Blvd",
     locality: "Windsor",
     region: 'ON',
-    postal: "N9A 1A6", // PLACEHOLDER
+    postal: "N8T 3C7",
   },
   serviceAreas: ['Windsor', 'LaSalle', 'Tecumseh', 'Amherstburg', 'Lakeshore', 'Essex', 'Leamington'],
   palette: {

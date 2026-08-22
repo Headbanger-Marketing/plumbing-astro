@@ -1,5 +1,5 @@
 // Per-site config for georgetownplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Georgetown, Halton County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Georgetown, Halton County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Halton",
-  phone: { display: "(905) 555-0195", tel: "+19055550195" }, // PLACEHOLDER
+  phone: { display: "(905) 877-5208", tel: "+19058775208" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@georgetownplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Street", // PLACEHOLDER
+    street: "83 Main St S",
     locality: "Georgetown",
     region: 'ON',
-    postal: "L7G 1A1", // PLACEHOLDER
+    postal: "L7G 3E5",
   },
   serviceAreas: ['Georgetown', 'Acton', 'Norval', 'Glen Williams', 'Milton', 'Erin'],
   palette: {

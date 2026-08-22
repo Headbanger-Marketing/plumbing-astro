@@ -1,5 +1,5 @@
 // Per-site config for stratfordplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Stratford, Perth County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Stratford, Perth County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Perth",
-  phone: { display: "(519) 555-0121", tel: "+15195550121" }, // PLACEHOLDER
+  phone: { display: "(548) 490-0267", tel: "+15484900267" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@stratfordplumbing.ca",
   address: {
-    street: "PLACEHOLDER Ontario Street", // PLACEHOLDER
+    street: "80 Ontario St",
     locality: "Stratford",
     region: 'ON',
-    postal: "N5A 1A1", // PLACEHOLDER
+    postal: "N5A 3H1",
   },
   serviceAreas: ['Stratford', 'Sebringville', 'Shakespeare', 'Tavistock', 'Mitchell', 'St. Marys', 'Kirkton'],
   palette: {

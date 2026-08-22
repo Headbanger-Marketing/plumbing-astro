@@ -1,5 +1,5 @@
 // Per-site config for glencoeplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Glencoe, Middlesex County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Glencoe, Middlesex County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Middlesex",
-  phone: { display: "(519) 555-0126", tel: "+15195550126" }, // PLACEHOLDER
+  phone: { display: "(548) 761-2123", tel: "+15487612123" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@glencoeplumbing.ca",
   address: {
-    street: "PLACEHOLDER Station Street", // PLACEHOLDER
+    street: "37 Main St",
     locality: "Glencoe",
     region: 'ON',
-    postal: "N0L 1M0", // PLACEHOLDER
+    postal: "N0L 1M0",
   },
   serviceAreas: ['Glencoe', 'Bothwell', 'Wardsville', 'Newbury', 'Mount Brydges', 'Strathroy', 'West Lorne'],
   palette: {

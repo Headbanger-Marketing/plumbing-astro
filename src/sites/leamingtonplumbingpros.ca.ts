@@ -1,6 +1,6 @@
 // Per-site config for leamingtonplumbingpros.ca
 // Plumbing lead-gen (plumbing-astro). Leamington, Essex County, on Lake Erie.
-// ⚠️ PLACEHOLDER NAP (2026-08-19).
+// NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -12,13 +12,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Essex",
-  phone: { display: "(519) 555-0179", tel: "+15195550179" }, // PLACEHOLDER
+  phone: { display: "(548) 798-0609", tel: "+15487980609" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@leamingtonplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Main Street", // PLACEHOLDER
+    street: "215 Talbot St E",
     locality: "Leamington",
     region: 'ON',
-    postal: "N8H 3C4", // PLACEHOLDER
+    postal: "N8H 3X5",
   },
   serviceAreas: ['Leamington', 'Kingsville', 'Essex', 'Wheatley', 'Harrow', 'Amherstburg', 'Windsor'],
   palette: {

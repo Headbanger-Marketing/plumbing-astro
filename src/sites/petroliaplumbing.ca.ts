@@ -1,5 +1,6 @@
 // Per-site config for petroliaplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Petrolia, Lambton County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Fulfiller: Hayter (per NAP-WORKSHEET 2026-08-21).
+// Plumbing lead-gen (plumbing-astro). Petrolia, Lambton County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +12,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Lambton",
-  phone: { display: "(519) 555-0142", tel: "+15195550142" }, // PLACEHOLDER
+  phone: { display: "(519) 882-0159", tel: "+15198820159" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@petroliaplumbing.ca",
   address: {
-    street: "PLACEHOLDER Street", // PLACEHOLDER
+    street: "420 King St",
     locality: "Petrolia",
     region: 'ON',
-    postal: "N0N 1R0", // PLACEHOLDER
+    postal: "N0N 1R0",
   },
   serviceAreas: ['Petrolia', 'Oil Springs', 'Wyoming', 'Forest', 'Sarnia', 'Courtright'],
   palette: {

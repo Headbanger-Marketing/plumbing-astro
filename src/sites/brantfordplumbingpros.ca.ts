@@ -1,5 +1,5 @@
 // Per-site config for brantfordplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Brantford, Brant County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Brantford, Brant County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Brant",
-  phone: { display: "(519) 555-0123", tel: "+15195550123" }, // PLACEHOLDER
+  phone: { display: "(519) 756-3142", tel: "+15197563142" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@brantfordplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Street", // PLACEHOLDER
+    street: "100 Dalhousie St",
     locality: "Brantford",
     region: 'ON',
-    postal: "N3R 1A1", // PLACEHOLDER
+    postal: "N3T 2J1",
   },
   serviceAreas: ['Brantford', 'Paris', 'St. George', 'Burford', 'Scotland', 'Mount Pleasant', 'Cainsville'],
   palette: {

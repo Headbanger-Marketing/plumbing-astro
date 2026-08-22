@@ -1,5 +1,5 @@
 // Per-site config for pickeringplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Pickering, Durham County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Pickering, Durham County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Durham",
-  phone: { display: "(905) 555-0169", tel: "+19055550169" }, // PLACEHOLDER
+  phone: { display: "(905) 831-4059", tel: "+19058314059" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@pickeringplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Road", // PLACEHOLDER
+    street: "1355 Kingston Rd",
     locality: "Pickering",
     region: 'ON',
-    postal: "L1V 1A1", // PLACEHOLDER
+    postal: "L1V 1B8",
   },
   serviceAreas: ['Pickering', 'Ajax', 'Whitevale', 'Brougham', 'Claremont', 'Greenwood', 'Whitby'],
   palette: {

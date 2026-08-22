@@ -1,5 +1,5 @@
 // Per-site config for forestplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Forest, Lambton County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Forest, Lambton County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Lambton",
-  phone: { display: "(519) 555-0144", tel: "+15195550144" }, // PLACEHOLDER
+  phone: { display: "(519) 786-0148", tel: "+15197860148" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@forestplumbing.ca",
   address: {
-    street: "PLACEHOLDER Road", // PLACEHOLDER
+    street: "14 King St W",
     locality: "Forest",
     region: 'ON',
-    postal: "N0N 1J0", // PLACEHOLDER
+    postal: "N0N 1J0",
   },
   serviceAreas: ['Forest', 'Thedford', 'Arkona', 'Grand Bend', 'Petrolia', 'Sarnia'],
   palette: {

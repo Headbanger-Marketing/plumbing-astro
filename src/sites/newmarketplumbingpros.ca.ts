@@ -1,5 +1,5 @@
 // Per-site config for newmarketplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Newmarket, York County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Newmarket, York County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "York",
-  phone: { display: "(905) 555-0163", tel: "+19055550163" }, // PLACEHOLDER
+  phone: { display: "(905) 895-4172", tel: "+19058954172" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@newmarketplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Main Street", // PLACEHOLDER
+    street: "130 Davis Dr",
     locality: "Newmarket",
     region: 'ON',
-    postal: "L3Y 1A1", // PLACEHOLDER
+    postal: "L3Y 2N1",
   },
   serviceAreas: ['Newmarket', 'Aurora', 'Sharon', 'Queensville', 'Holland Landing', 'Bradford'],
   palette: {

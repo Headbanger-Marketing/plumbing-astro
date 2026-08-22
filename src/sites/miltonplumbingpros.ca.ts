@@ -1,5 +1,5 @@
 // Per-site config for miltonplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Milton, Halton County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Milton, Halton County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Halton",
-  phone: { display: "(905) 555-0184", tel: "+19055550184" }, // PLACEHOLDER
+  phone: { display: "(905) 878-2164", tel: "+19058782164" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@miltonplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Main Street", // PLACEHOLDER
+    street: "150 Mary St",
     locality: "Milton",
     region: 'ON',
-    postal: "L9T 1A1", // PLACEHOLDER
+    postal: "L9T 6Z5",
   },
   serviceAreas: ['Milton', 'Campbellville', 'Georgetown', 'Burlington', 'Oakville', 'Acton'],
   palette: {

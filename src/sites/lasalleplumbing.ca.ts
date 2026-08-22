@@ -1,5 +1,5 @@
 // Per-site config for lasalleplumbing.ca
-// Plumbing lead-gen (plumbing-astro). LaSalle, Essex County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). LaSalle, Essex County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Essex",
-  phone: { display: "(519) 555-0137", tel: "+15195550137" }, // PLACEHOLDER
+  phone: { display: "(548) 457-0509", tel: "+15484570509" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@lasalleplumbing.ca",
   address: {
-    street: "PLACEHOLDER Road", // PLACEHOLDER
+    street: "5840 Malden Rd",
     locality: "LaSalle",
     region: 'ON',
-    postal: "N9H 2G8", // PLACEHOLDER
+    postal: "N9H 1S4",
   },
   serviceAreas: ['LaSalle', 'Windsor', 'Amherstburg', 'Tecumseh', 'McGregor', 'Essex', 'Lakeshore'],
   palette: {

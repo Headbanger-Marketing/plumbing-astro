@@ -1,5 +1,5 @@
 // Per-site config for chathamkentplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Chatham-Kent municipality-wide hub site. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Chatham-Kent municipality-wide hub site. ⚠️ PLACEHOLDER NAP — still TO FILL (NAP-WORKSHEET; no HVAC-estate source).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {

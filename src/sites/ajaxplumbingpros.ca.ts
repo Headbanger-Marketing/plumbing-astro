@@ -1,5 +1,5 @@
 // Per-site config for ajaxplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Ajax, Durham County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Ajax, Durham County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Durham",
-  phone: { display: "(905) 555-0168", tel: "+19055550168" }, // PLACEHOLDER
+  phone: { display: "(905) 619-3742", tel: "+19056193742" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@ajaxplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Street", // PLACEHOLDER
+    street: "75 Bayly St W",
     locality: "Ajax",
     region: 'ON',
-    postal: "L1S 1A1", // PLACEHOLDER
+    postal: "L1S 7K7",
   },
   serviceAreas: ['Ajax', 'Pickering', 'Whitby', 'Greenwood', 'Brougham', 'Oshawa'],
   palette: {

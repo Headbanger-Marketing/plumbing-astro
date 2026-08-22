@@ -1,5 +1,5 @@
 // Per-site config for ingersollplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Ingersoll, Oxford County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Ingersoll, Oxford County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Oxford",
-  phone: { display: "(519) 555-0127", tel: "+15195550127" }, // PLACEHOLDER
+  phone: { display: "(519) 485-2371", tel: "+15194852371" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@ingersollplumbing.ca",
   address: {
-    street: "PLACEHOLDER Street North", // PLACEHOLDER
+    street: "104 Thames St S",
     locality: "Ingersoll",
     region: 'ON',
-    postal: "N5C 1A1", // PLACEHOLDER
+    postal: "N5C 2T3",
   },
   serviceAreas: ['Ingersoll', 'Woodstock', 'Tillsonburg', 'Beachville', 'Thamesford', 'Norwich', 'Burgessville'],
   palette: {

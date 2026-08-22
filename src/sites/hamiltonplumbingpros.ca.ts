@@ -1,5 +1,5 @@
 // Per-site config for hamiltonplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Hamilton, Hamilton. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Hamilton, Hamilton. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Hamilton",
-  phone: { display: "(905) 555-0121", tel: "+19055550121" }, // PLACEHOLDER
+  phone: { display: "(905) 522-4817", tel: "+19055224817" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@hamiltonplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Street West", // PLACEHOLDER
+    street: "20 Jackson St W",
     locality: "Hamilton",
     region: 'ON',
-    postal: "L8N 1A1", // PLACEHOLDER
+    postal: "L8P 1L2",
   },
   serviceAreas: ['Hamilton', 'Stoney Creek', 'Dundas', 'Ancaster', 'Waterdown', 'Binbrook', 'Winona'],
   palette: {

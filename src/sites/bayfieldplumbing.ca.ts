@@ -1,5 +1,5 @@
 // Per-site config for bayfieldplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Bayfield, Huron County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Bayfield, Huron County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Huron",
-  phone: { display: "(519) 555-0176", tel: "+15195550176" }, // PLACEHOLDER
+  phone: { display: "(519) 565-0204", tel: "+15195650204" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@bayfieldplumbing.ca",
   address: {
-    street: "PLACEHOLDER Mill Street", // PLACEHOLDER
+    street: "19 Main St N",
     locality: "Bayfield",
     region: 'ON',
-    postal: "N0M 1G0", // PLACEHOLDER
+    postal: "N0M 1G0",
   },
   serviceAreas: ['Bayfield', 'Goderich', 'Clinton', 'Zurich', 'Grand Bend', 'Egmondville', 'Kippen'],
   palette: {

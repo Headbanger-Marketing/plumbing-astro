@@ -1,5 +1,5 @@
 // Per-site config for ildertonplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Ilderton, Middlesex County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Ilderton, Middlesex County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Middlesex",
-  phone: { display: "(519) 555-0169", tel: "+15195550169" }, // PLACEHOLDER
+  phone: { display: "(519) 666-0188", tel: "+15196660188" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@ildertonplumbing.ca",
   address: {
-    street: "PLACEHOLDER Ilderton Road", // PLACEHOLDER
+    street: "21 Ilderton Rd",
     locality: "Ilderton",
     region: 'ON',
-    postal: "N0M 2A0", // PLACEHOLDER
+    postal: "N0M 2A0",
   },
   serviceAreas: ['Ilderton', 'Komoka', 'Denfield', 'Arva', 'Granton', 'London', 'Strathroy'],
   palette: {

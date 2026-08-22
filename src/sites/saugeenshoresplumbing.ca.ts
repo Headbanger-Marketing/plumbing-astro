@@ -1,5 +1,5 @@
 // Per-site config for saugeenshoresplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Saugeen Shores, Bruce County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Saugeen Shores, Bruce County. ⚠️ PLACEHOLDER NAP — still TO FILL (NAP-WORKSHEET; no HVAC-estate source).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {

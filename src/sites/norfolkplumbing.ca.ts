@@ -1,5 +1,5 @@
 // Per-site config for norfolkplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Norfolk, Norfolk County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Norfolk, Norfolk County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Norfolk",
-  phone: { display: "(519) 555-0125", tel: "+15195550125" }, // PLACEHOLDER
+  phone: { display: "(548) 708-8109", tel: "+15487088109" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@norfolkplumbing.ca",
   address: {
-    street: "PLACEHOLDER Road", // PLACEHOLDER
+    street: "12 Alice St",
     locality: "Norfolk",
     region: 'ON',
-    postal: "N0E 1A1", // PLACEHOLDER
+    postal: "N3Y 1W5",
   },
   serviceAreas: ['Norfolk', 'Simcoe', 'Delhi', 'Port Dover', 'Waterford', 'Langton', 'Port Rowan'],
   palette: {

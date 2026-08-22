@@ -1,5 +1,5 @@
 // Per-site config for exeterplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Exeter, Huron County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Exeter, Huron County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Huron",
-  phone: { display: "(519) 555-0132", tel: "+15195550132" }, // PLACEHOLDER
+  phone: { display: "(548) 901-0020", tel: "+15489010020" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@exeterplumbing.ca",
   address: {
-    street: "PLACEHOLDER Main Street", // PLACEHOLDER
+    street: "135 Main St",
     locality: "Exeter",
     region: 'ON',
-    postal: "N0M 1S0", // PLACEHOLDER
+    postal: "N0M 1S0",
   },
   serviceAreas: ['Exeter', 'Grand Bend', 'Seaforth', 'Dashwood', 'Crediton', 'Huron Park', 'Centralia'],
   palette: {

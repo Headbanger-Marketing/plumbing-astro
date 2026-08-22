@@ -1,5 +1,5 @@
 // Per-site config for keswickplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Keswick, York County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Keswick, York County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "York",
-  phone: { display: "(905) 555-0165", tel: "+19055550165" }, // PLACEHOLDER
+  phone: { display: "(905) 476-8231", tel: "+19054768231" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@keswickplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Road", // PLACEHOLDER
+    street: "24201 Woodbine Ave",
     locality: "Keswick",
     region: 'ON',
-    postal: "L4L 1A1", // PLACEHOLDER
+    postal: "L4P 3E9",
   },
   serviceAreas: ['Keswick', 'Sutton', "Jackson's Point", 'Pefferlaw', 'Virginia', 'Mount Albert'],
   palette: {

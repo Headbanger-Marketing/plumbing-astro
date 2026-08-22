@@ -1,5 +1,5 @@
 // Per-site config for ancasterplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Ancaster, Hamilton. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Ancaster, Hamilton. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Hamilton",
-  phone: { display: "(905) 555-0122", tel: "+19055550122" }, // PLACEHOLDER
+  phone: { display: "(289) 204-2884", tel: "+12892042884" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@ancasterplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Road", // PLACEHOLDER
+    street: "351 Wilson St E",
     locality: "Ancaster",
     region: 'ON',
-    postal: "L9G 1A1", // PLACEHOLDER
+    postal: "L9G 2B9",
   },
   serviceAreas: ['Ancaster', 'Dundas', 'Hamilton', 'Waterdown', 'Carlisle', 'Copetown'],
   palette: {

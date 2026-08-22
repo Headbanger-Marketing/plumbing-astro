@@ -1,5 +1,5 @@
 // Per-site config for grandbendplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Grand Bend, Lambton County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Grand Bend, Lambton County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Lambton",
-  phone: { display: "(519) 555-0198", tel: "+15195550198" }, // PLACEHOLDER
+  phone: { display: "(548) 554-3151", tel: "+15485543151" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@grandbendplumbing.ca",
   address: {
-    street: "PLACEHOLDER Main Street West", // PLACEHOLDER
+    street: "13 Main St W",
     locality: "Grand Bend",
     region: 'ON',
-    postal: "N0M 1T0", // PLACEHOLDER
+    postal: "N0M 1T0",
   },
   serviceAreas: ['Grand Bend', 'Bayfield', 'Forest', 'Thedford', 'Port Franks', 'Parkhill', 'Exeter'],
   palette: {

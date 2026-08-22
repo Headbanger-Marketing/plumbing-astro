@@ -1,5 +1,5 @@
 // Per-site config for oakvilleplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Oakville, Halton County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Oakville, Halton County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Halton",
-  phone: { display: "(905) 555-0162", tel: "+19055550162" }, // PLACEHOLDER
+  phone: { display: "(905) 845-3072", tel: "+19058453072" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@oakvilleplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Street", // PLACEHOLDER
+    street: "240 Lakeshore Rd E",
     locality: "Oakville",
     region: 'ON',
-    postal: "L6J 1A1", // PLACEHOLDER
+    postal: "L6J 1H8",
   },
   serviceAreas: ['Oakville', 'Burlington', 'Mississauga', 'Milton', 'Georgetown', 'Campbellville'],
   palette: {

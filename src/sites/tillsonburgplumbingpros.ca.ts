@@ -1,5 +1,5 @@
 // Per-site config for tillsonburgplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Tillsonburg, Oxford County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Tillsonburg, Oxford County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Oxford",
-  phone: { display: "(519) 555-0128", tel: "+15195550128" }, // PLACEHOLDER
+  phone: { display: "(548) 901-3425", tel: "+15489013425" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@tillsonburgplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Road", // PLACEHOLDER
+    street: "96 Broadway",
     locality: "Tillsonburg",
     region: 'ON',
-    postal: "N4G 1A1", // PLACEHOLDER
+    postal: "N4G 3P5",
   },
   serviceAreas: ['Tillsonburg', 'Norwich', 'Otterville', 'Courtland', 'Delhi', 'Simcoe', 'Langton'],
   palette: {

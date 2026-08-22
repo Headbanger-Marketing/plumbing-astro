@@ -1,5 +1,5 @@
 // Per-site config for chathamplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Chatham, Chatham-Kent. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Chatham, Chatham-Kent. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Chatham-Kent",
-  phone: { display: "(519) 555-0132", tel: "+15195550132" }, // PLACEHOLDER
+  phone: { display: "(548) 901-3519", tel: "+15489013519" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@chathamplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Street West", // PLACEHOLDER
+    street: "425 Grand Ave W",
     locality: "Chatham",
     region: 'ON',
-    postal: "N7L 1A1", // PLACEHOLDER
+    postal: "N7M 5J1",
   },
   serviceAreas: ['Chatham', 'Chatham-Kent', 'Wallaceburg', 'Ridgetown', 'Blenheim', 'Thamesville'],
   palette: {

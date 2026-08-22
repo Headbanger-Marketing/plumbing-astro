@@ -1,5 +1,5 @@
 // Per-site config for clintonplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Clinton, Huron County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Clinton, Huron County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Huron",
-  phone: { display: "(519) 555-0187", tel: "+15195550187" }, // PLACEHOLDER
+  phone: { display: "(519) 482-0143", tel: "+15194820143" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@clintonplumbing.ca",
   address: {
-    street: "PLACEHOLDER Victoria Street", // PLACEHOLDER
+    street: "52 Albert St",
     locality: "Clinton",
     region: 'ON',
-    postal: "N0M 1L0", // PLACEHOLDER
+    postal: "N0M 1L0",
   },
   serviceAreas: ['Clinton', 'Seaforth', 'Goderich', 'Bayfield', 'Vanastra', 'Holmesville', 'Londesborough'],
   palette: {

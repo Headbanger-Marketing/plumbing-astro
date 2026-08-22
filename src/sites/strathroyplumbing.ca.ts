@@ -1,6 +1,7 @@
+// Fulfiller: Premier (per NAP-WORKSHEET 2026-08-21).
 // Per-site config for strathroyplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Fulfiller: Hayter Group / Premier plumbing.
-// Strathroy-Caradoc, Middlesex County. ⚠️ PLACEHOLDER NAP (2026-08-07).
+// Plumbing lead-gen (plumbing-astro).
+// Strathroy-Caradoc, Middlesex County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -12,13 +13,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Middlesex",
-  phone: { display: "(519) 555-0148", tel: "+15195550148" }, // PLACEHOLDER
+  phone: { display: "(548) 708-7117", tel: "+15487087117" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@strathroyplumbing.ca",
   address: {
-    street: "PLACEHOLDER Street West", // PLACEHOLDER
+    street: "285 Metcalfe St E",
     locality: "Strathroy",
     region: 'ON',
-    postal: "N7V 1A1", // PLACEHOLDER
+    postal: "N7G 1P7",
   },
   serviceAreas: ['Strathroy', 'Mount Brydges', 'Komoka', 'Melbourne', 'Glencoe', 'Parkhill'],
   palette: {

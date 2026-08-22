@@ -1,5 +1,5 @@
 // Per-site config for aylmerplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Aylmer, Elgin County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Aylmer, Elgin County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Elgin",
-  phone: { display: "(519) 555-0137", tel: "+15195550137" }, // PLACEHOLDER
+  phone: { display: "(519) 765-3092", tel: "+15197653092" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@aylmerplumbing.ca",
   address: {
-    street: "PLACEHOLDER Talbot Street", // PLACEHOLDER
+    street: "38 Talbot St E",
     locality: "Aylmer",
     region: 'ON',
-    postal: "N5H 1A1", // PLACEHOLDER
+    postal: "N5H 1H3",
   },
   serviceAreas: ['Aylmer', 'Springfield', 'Port Burwell', 'Vienna', 'Malahide', 'Tillsonburg', 'St. Thomas'],
   palette: {

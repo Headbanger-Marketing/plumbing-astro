@@ -1,5 +1,5 @@
 // Per-site config for simcoeplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Simcoe, Norfolk County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Simcoe, Norfolk County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Norfolk",
-  phone: { display: "(519) 555-0124", tel: "+15195550124" }, // PLACEHOLDER
+  phone: { display: "(548) 290-7597", tel: "+15482907597" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@simcoeplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Street", // PLACEHOLDER
+    street: "50 Colborne St N",
     locality: "Simcoe",
     region: 'ON',
-    postal: "N3Y 1A1", // PLACEHOLDER
+    postal: "N3Y 3V5",
   },
   serviceAreas: ['Simcoe', 'Port Dover', 'Delhi', 'Waterford', 'Jarvis', 'Courtland', 'Vittoria'],
   palette: {

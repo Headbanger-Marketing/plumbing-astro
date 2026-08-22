@@ -1,5 +1,5 @@
 // Per-site config for markhamplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Markham, York County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Markham, York County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "York",
-  phone: { display: "(905) 555-0161", tel: "+19055550161" }, // PLACEHOLDER
+  phone: { display: "(905) 472-3610", tel: "+19054723610" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@markhamplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Road", // PLACEHOLDER
+    street: "160 Main St N",
     locality: "Markham",
     region: 'ON',
-    postal: "L3R 1A1", // PLACEHOLDER
+    postal: "L3P 1Y3",
   },
   serviceAreas: ['Markham', 'Unionville', 'Thornhill', 'Stouffville', 'Richmond Hill'],
   palette: {

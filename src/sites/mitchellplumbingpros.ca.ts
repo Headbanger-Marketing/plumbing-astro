@@ -1,5 +1,5 @@
 // Per-site config for mitchellplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Mitchell, Perth County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Mitchell, Perth County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Perth",
-  phone: { display: "(519) 555-0127", tel: "+15195550127" }, // PLACEHOLDER
+  phone: { display: "(519) 348-4027", tel: "+15193484027" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@mitchellplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Huron Road", // PLACEHOLDER
+    street: "114 St Andrew St",
     locality: "Mitchell",
     region: 'ON',
-    postal: "N0K 1N0", // PLACEHOLDER
+    postal: "N0K 1N0",
   },
   serviceAreas: ['Mitchell', 'Sebringville', 'Monkton', 'Listowel', 'St. Marys', 'Stratford', 'Shakespeare'],
   palette: {

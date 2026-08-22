@@ -1,6 +1,6 @@
 // Per-site config for tecumsehplumbingpros.ca
 // Plumbing lead-gen (plumbing-astro). Tecumseh, Essex County, on Lake St. Clair
-// east of Windsor. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// east of Windsor. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -12,13 +12,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Essex",
-  phone: { display: "(519) 555-0163", tel: "+15195550163" }, // PLACEHOLDER
+  phone: { display: "(548) 457-1225", tel: "+15484571225" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@tecumsehplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER County Road", // PLACEHOLDER
+    street: "13430 Tecumseh Rd E",
     locality: "Tecumseh",
     region: 'ON',
-    postal: "N8N 2B6", // PLACEHOLDER
+    postal: "N8N 3T6",
   },
   serviceAreas: ['Tecumseh', 'Windsor', 'Lakeshore', 'LaSalle', 'Stoney Point', 'Belle River', 'Essex'],
   palette: {

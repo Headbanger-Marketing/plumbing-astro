@@ -1,5 +1,5 @@
 // Per-site config for dunnvilleplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Dunnville, Haldimand County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Dunnville, Haldimand County. ⚠️ PLACEHOLDER NAP — still TO FILL (NAP-WORKSHEET; no HVAC-estate source).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {

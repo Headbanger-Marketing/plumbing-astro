@@ -1,5 +1,5 @@
 // Per-site config for caledoniaplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Caledonia, Haldimand County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Caledonia, Haldimand County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Haldimand",
-  phone: { display: "(905) 555-0127", tel: "+19055550127" }, // PLACEHOLDER
+  phone: { display: "(905) 765-3418", tel: "+19057653418" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@caledoniaplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Road", // PLACEHOLDER
+    street: "64 Argyle St N",
     locality: "Caledonia",
     region: 'ON',
-    postal: "N3A 1A1", // PLACEHOLDER
+    postal: "N3W 1B9",
   },
   serviceAreas: ['Caledonia', 'Hagersville', 'Dunnville', 'Cayuga', 'Fisherville', 'Jarvis', 'Townsend'],
   palette: {

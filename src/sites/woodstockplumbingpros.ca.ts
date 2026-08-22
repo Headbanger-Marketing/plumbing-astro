@@ -1,5 +1,5 @@
 // Per-site config for woodstockplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Woodstock, Oxford County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Woodstock, Oxford County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Oxford",
-  phone: { display: "(519) 555-0125", tel: "+15195550125" }, // PLACEHOLDER
+  phone: { display: "(548) 554-3147", tel: "+15485543147" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@woodstockplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Street East", // PLACEHOLDER
+    street: "930 Dundas St",
     locality: "Woodstock",
     region: 'ON',
-    postal: "N4S 1A1", // PLACEHOLDER
+    postal: "N4S 1H1",
   },
   serviceAreas: ['Woodstock', 'Ingersoll', 'Tillsonburg', 'Embro', 'Thamesford', 'Norwich', 'Innerkip'],
   palette: {

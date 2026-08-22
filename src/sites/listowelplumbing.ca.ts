@@ -1,5 +1,5 @@
 // Per-site config for listowelplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Listowel, Perth County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Listowel, Perth County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Perth",
-  phone: { display: "(519) 555-0154", tel: "+15195550154" }, // PLACEHOLDER
+  phone: { display: "(519) 291-3562", tel: "+15192913562" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@listowelplumbing.ca",
   address: {
-    street: "PLACEHOLDER Main Street West", // PLACEHOLDER
+    street: "150 Main St W",
     locality: "Listowel",
     region: 'ON',
-    postal: "N4W 1A1", // PLACEHOLDER
+    postal: "N4W 1A8",
   },
   serviceAreas: ['Listowel', 'Palmerston', 'Atwood', 'Monkton', 'Moorefield', 'Drayton', 'Harriston'],
   palette: {

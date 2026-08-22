@@ -1,5 +1,5 @@
 // Per-site config for whitbyplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Whitby, Durham County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Whitby, Durham County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Durham",
-  phone: { display: "(905) 555-0167", tel: "+19055550167" }, // PLACEHOLDER
+  phone: { display: "(905) 668-7214", tel: "+19056687214" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@whitbyplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Road", // PLACEHOLDER
+    street: "128 Brock St S",
     locality: "Whitby",
     region: 'ON',
-    postal: "L1N 1A1", // PLACEHOLDER
+    postal: "L1N 4J8",
   },
   serviceAreas: ['Whitby', 'Brooklin', 'Ashburn', 'Myrtle', 'Oshawa', 'Ajax'],
   palette: {

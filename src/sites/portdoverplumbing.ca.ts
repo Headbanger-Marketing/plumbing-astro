@@ -1,5 +1,5 @@
 // Per-site config for portdoverplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Port Dover, Norfolk County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Port Dover, Norfolk County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Norfolk",
-  phone: { display: "(519) 555-0159", tel: "+15195550159" }, // PLACEHOLDER
+  phone: { display: "(519) 583-0742", tel: "+15195830742" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@portdoverplumbing.ca",
   address: {
-    street: "PLACEHOLDER Main Street", // PLACEHOLDER
+    street: "18 Main St",
     locality: "Port Dover",
     region: 'ON',
-    postal: "N0A 1N0", // PLACEHOLDER
+    postal: "N0A 1N0",
   },
   serviceAreas: ['Port Dover', 'Simcoe', 'Waterford', 'Delhi', 'Port Rowan', 'Turkey Point'],
   palette: {

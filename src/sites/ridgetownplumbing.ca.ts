@@ -1,5 +1,5 @@
 // Per-site config for ridgetownplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Ridgetown, Chatham-Kent. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Ridgetown, Chatham-Kent. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Chatham-Kent",
-  phone: { display: "(519) 555-0136", tel: "+15195550136" }, // PLACEHOLDER
+  phone: { display: "(548) 708-7251", tel: "+15487087251" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@ridgetownplumbing.ca",
   address: {
-    street: "PLACEHOLDER Main Street", // PLACEHOLDER
+    street: "11 Main St E",
     locality: "Ridgetown",
     region: 'ON',
-    postal: "N0P 2P0", // PLACEHOLDER
+    postal: "N0P 2C0",
   },
   serviceAreas: ['Ridgetown', 'Chatham', 'Chatham-Kent', 'Blenheim', 'Highgate', 'Wheatley'],
   palette: {

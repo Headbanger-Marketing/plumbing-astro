@@ -1,5 +1,6 @@
 // Per-site config for sarniaplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Sarnia, Lambton County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Fulfiller: Hayter (per NAP-WORKSHEET 2026-08-21).
+// Plumbing lead-gen (plumbing-astro). Sarnia, Lambton County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +12,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Lambton",
-  phone: { display: "(519) 555-0140", tel: "+15195550140" }, // PLACEHOLDER
+  phone: { display: "(226) 778-1469", tel: "+12267781469" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@sarniaplumbing.ca",
   address: {
-    street: "PLACEHOLDER Street North", // PLACEHOLDER
+    street: "265 Front St N",
     locality: "Sarnia",
     region: 'ON',
-    postal: "N7T 1A1", // PLACEHOLDER
+    postal: "N7T 5S6",
   },
   serviceAreas: ['Sarnia', 'Point Edward', 'Corunna', "Bright's Grove", 'Petrolia', 'Forest', 'Wyoming'],
   palette: {

@@ -1,5 +1,5 @@
 // Per-site config for wallaceburgplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Wallaceburg, Chatham-Kent. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Wallaceburg, Chatham-Kent. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Chatham-Kent",
-  phone: { display: "(519) 555-0138", tel: "+15195550138" }, // PLACEHOLDER
+  phone: { display: "(519) 627-4183", tel: "+15196274183" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@wallaceburgplumbing.ca",
   address: {
-    street: "PLACEHOLDER Street South", // PLACEHOLDER
+    street: "120 James St",
     locality: "Wallaceburg",
     region: 'ON',
-    postal: "N8A 1A1", // PLACEHOLDER
+    postal: "N8A 2N1",
   },
   serviceAreas: ['Wallaceburg', 'Chatham', 'Chatham-Kent', 'Ridgetown', 'Dresden', 'Port Lambton'],
   palette: {

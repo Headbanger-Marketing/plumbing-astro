@@ -1,7 +1,7 @@
 // Per-site config for lakeshoreplumbing.ca
 // Plumbing lead-gen (plumbing-astro). Lakeshore, Essex County, the string of
 // Lake St. Clair communities from Belle River through Comber and Stoney Point.
-// ⚠️ PLACEHOLDER NAP (2026-08-19).
+// NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -13,13 +13,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Essex",
-  phone: { display: "(519) 555-0171", tel: "+15195550171" }, // PLACEHOLDER
+  phone: { display: "(548) 708-6805", tel: "+15487086805" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@lakeshoreplumbing.ca",
   address: {
-    street: "PLACEHOLDER Road", // PLACEHOLDER
+    street: "523 Advance Blvd",
     locality: "Lakeshore",
     region: 'ON',
-    postal: "N0R 1C6", // PLACEHOLDER
+    postal: "N8N 5G8",
   },
   serviceAreas: ['Lakeshore', 'Belle River', 'Stoney Point', 'Comber', 'Tecumseh', 'Windsor', 'Ruscomb'],
   palette: {

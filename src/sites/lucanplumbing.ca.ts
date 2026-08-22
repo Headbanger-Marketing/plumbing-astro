@@ -1,5 +1,5 @@
 // Per-site config for lucanplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Lucan, Middlesex County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Lucan, Middlesex County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Middlesex",
-  phone: { display: "(519) 555-0183", tel: "+15195550183" }, // PLACEHOLDER
+  phone: { display: "(519) 227-4479", tel: "+15192274479" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@lucanplumbing.ca",
   address: {
-    street: "PLACEHOLDER Main Street", // PLACEHOLDER
+    street: "8 Main St",
     locality: "Lucan",
     region: 'ON',
-    postal: "N0M 2J0", // PLACEHOLDER
+    postal: "N0M 2J0",
   },
   serviceAreas: ['Lucan', 'Parkhill', 'Ailsa Craig', 'Granton', 'Denfield', 'Exeter', 'London'],
   palette: {

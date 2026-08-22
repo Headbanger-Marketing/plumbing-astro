@@ -1,5 +1,5 @@
 // Per-site config for seaforthplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Seaforth, Huron County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Seaforth, Huron County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Huron",
-  phone: { display: "(519) 555-0121", tel: "+15195550121" }, // PLACEHOLDER
+  phone: { display: "(519) 527-1483", tel: "+15195271483" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@seaforthplumbing.ca",
   address: {
-    street: "PLACEHOLDER Main Street", // PLACEHOLDER
+    street: "52 Main St S",
     locality: "Seaforth",
     region: 'ON',
-    postal: "N0K 1G0", // PLACEHOLDER
+    postal: "N0K 1W0",
   },
   serviceAreas: ['Seaforth', 'Zurich', 'Clinton', 'Exeter', 'Bayfield', 'Goderich', 'Grand Bend'],
   palette: {

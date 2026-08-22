@@ -1,5 +1,5 @@
 // Per-site config for stmarysplumbing.ca
-// Plumbing lead-gen (plumbing-astro). St. Marys, Perth County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). St. Marys, Perth County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Perth",
-  phone: { display: "(519) 555-0165", tel: "+15195550165" }, // PLACEHOLDER
+  phone: { display: "(519) 284-0161", tel: "+15192840161" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@stmarysplumbing.ca",
   address: {
-    street: "PLACEHOLDER Queen Street", // PLACEHOLDER
+    street: "155 Queen St E",
     locality: "St. Marys",
     region: 'ON',
-    postal: "N4X 1A1", // PLACEHOLDER
+    postal: "N4X 1B3",
   },
   serviceAreas: ['St. Marys', 'Stratford', 'Kirkton', 'Thorndale', 'Embro', 'Thamesford', 'Sebringville'],
   palette: {

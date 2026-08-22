@@ -1,5 +1,5 @@
 // Per-site config for owensoundplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Owen Sound, Grey County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Owen Sound, Grey County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Grey",
-  phone: { display: "(519) 555-0123", tel: "+15195550123" }, // PLACEHOLDER
+  phone: { display: "(548) 409-5669", tel: "+15484095669" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@owensoundplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER 2nd Avenue East", // PLACEHOLDER
+    street: "875 2nd Ave E",
     locality: "Owen Sound",
     region: 'ON',
-    postal: "N4K 2M6", // PLACEHOLDER
+    postal: "N4K 2H5",
   },
   serviceAreas: ['Owen Sound', 'Meaford', 'Chatsworth', 'Wiarton', 'Hanover', 'Durham', 'Saugeen Shores'],
   palette: {

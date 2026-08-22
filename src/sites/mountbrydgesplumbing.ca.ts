@@ -1,5 +1,5 @@
 // Per-site config for mountbrydgesplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Mount Brydges, Middlesex County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Mount Brydges, Middlesex County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Middlesex",
-  phone: { display: "(519) 555-0198", tel: "+15195550198" }, // PLACEHOLDER
+  phone: { display: "(548) 761-2072", tel: "+15487612072" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@mountbrydgesplumbing.ca",
   address: {
-    street: "PLACEHOLDER Front Street", // PLACEHOLDER
+    street: "32 Main St",
     locality: "Mount Brydges",
     region: 'ON',
-    postal: "N0N 1H0", // PLACEHOLDER
+    postal: "N0L 1W0",
   },
   serviceAreas: ['Mount Brydges', 'Strathroy', 'Melbourne', 'Delaware', 'Komoka', 'Glencoe', 'London'],
   palette: {

@@ -1,6 +1,7 @@
+// Fulfiller: Premier (per NAP-WORKSHEET 2026-08-21).
 // Per-site config for stthomasplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Fulfiller: Hayter Group / Premier plumbing.
-// St. Thomas, Elgin County. ⚠️ PLACEHOLDER NAP (2026-08-07).
+// Plumbing lead-gen (plumbing-astro).
+// St. Thomas, Elgin County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -12,13 +13,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Elgin",
-  phone: { display: "(519) 555-0148", tel: "+15195550148" }, // PLACEHOLDER
+  phone: { display: "(548) 457-2400", tel: "+15484572400" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@stthomasplumbing.ca",
   address: {
-    street: "PLACEHOLDER Street", // PLACEHOLDER
+    street: "750 Talbot St",
     locality: "St. Thomas",
     region: 'ON',
-    postal: "N5R 1A1", // PLACEHOLDER
+    postal: "N5P 1E2",
   },
   serviceAreas: ['St. Thomas', 'London', 'Aylmer', 'Belmont', 'Port Stanley'],
   palette: {

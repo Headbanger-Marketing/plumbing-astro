@@ -1,5 +1,5 @@
 // Per-site config for parisplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Paris, Brant County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Paris, Brant County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Brant",
-  phone: { display: "(519) 555-0126", tel: "+15195550126" }, // PLACEHOLDER
+  phone: { display: "(548) 901-0930", tel: "+15489010930" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@parisplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Main Street", // PLACEHOLDER
+    street: "2 Grand River St N",
     locality: "Paris",
     region: 'ON',
-    postal: "N3L 1A1", // PLACEHOLDER
+    postal: "N3L 2M2",
   },
   serviceAreas: ['Paris', 'St. George', 'Glen Morris', 'Mount Pleasant', 'Ayr', 'Brantford'],
   palette: {

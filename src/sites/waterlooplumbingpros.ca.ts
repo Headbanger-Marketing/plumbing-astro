@@ -1,5 +1,5 @@
 // Per-site config for waterlooplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Waterloo, Waterloo County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Waterloo, Waterloo County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Waterloo Region",
-  phone: { display: "(519) 555-0122", tel: "+15195550122" }, // PLACEHOLDER
+  phone: { display: "(548) 490-6741", tel: "+15484906741" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@waterlooplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Road", // PLACEHOLDER
+    street: "180 King St S",
     locality: "Waterloo",
     region: 'ON',
-    postal: "N2J 1A1", // PLACEHOLDER
+    postal: "N2J 1P7",
   },
   serviceAreas: ['Waterloo', 'Kitchener', 'Elmira', 'St. Jacobs', 'Conestogo', 'Cambridge', 'Ayr'],
   palette: {

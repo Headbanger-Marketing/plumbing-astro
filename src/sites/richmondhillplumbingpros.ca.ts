@@ -1,5 +1,5 @@
 // Per-site config for richmondhillplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Richmond Hill, York County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Richmond Hill, York County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "York",
-  phone: { display: "(905) 555-0162", tel: "+19055550162" }, // PLACEHOLDER
+  phone: { display: "(905) 884-7163", tel: "+19058847163" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@richmondhillplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Street", // PLACEHOLDER
+    street: "9325 Yonge St",
     locality: "Richmond Hill",
     region: 'ON',
-    postal: "L4C 1A1", // PLACEHOLDER
+    postal: "L4C 0A8",
   },
   serviceAreas: ['Richmond Hill', 'Oak Ridges', 'Thornhill', 'King City', 'Aurora', 'Maple'],
   palette: {

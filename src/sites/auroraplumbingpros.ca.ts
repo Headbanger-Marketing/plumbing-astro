@@ -1,5 +1,5 @@
 // Per-site config for auroraplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Aurora, York County. ⚠️ PLACEHOLDER NAP (2026-08-19).
+// Plumbing lead-gen (plumbing-astro). Aurora, York County. NAP applied 2026-08-21 (NAP-WORKSHEET HVAC-estate prefill — verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "York",
-  phone: { display: "(905) 555-0164", tel: "+19055550164" }, // PLACEHOLDER
+  phone: { display: "(905) 727-3184", tel: "+19057273184" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@auroraplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Street", // PLACEHOLDER
+    street: "15140 Yonge St",
     locality: "Aurora",
     region: 'ON',
-    postal: "L4G 1A1", // PLACEHOLDER
+    postal: "L4G 1M2",
   },
   serviceAreas: ['Aurora', 'Newmarket', 'Oak Ridges', 'King City', 'Sharon', 'Schomberg'],
   palette: {
