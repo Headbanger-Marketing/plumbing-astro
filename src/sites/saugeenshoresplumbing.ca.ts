@@ -1,5 +1,5 @@
 // Per-site config for saugeenshoresplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Saugeen Shores, Bruce County. ⚠️ PLACEHOLDER NAP — still TO FILL (NAP-WORKSHEET; no HVAC-estate source).
+// Plumbing lead-gen (plumbing-astro). Saugeen Shores, Bruce County. NAP applied 2026-08-22 (NAP-WORKSHEET straggler sign-off — Chatham/Port Elgin anchor, verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Bruce",
-  phone: { display: "(519) 555-0124", tel: "+15195550124" }, // PLACEHOLDER
+  phone: { display: "(548) 290-8004", tel: "+15482908004" }, // real (NAP-WORKSHEET straggler sign-off 2026-08-22)
   email: "contact@saugeenshoresplumbing.ca",
   address: {
-    street: "PLACEHOLDER Goderich Street", // PLACEHOLDER
-    locality: "Saugeen Shores",
+    street: "610 Goderich St",
+    locality: "Port Elgin",
     region: 'ON',
-    postal: "N0H 2C0", // PLACEHOLDER
+    postal: "N0H 2L0",
   },
   serviceAreas: ['Saugeen Shores', 'Port Elgin', 'Southampton', 'Inverhuron', 'Northport', 'Tara', 'Paisley'],
   palette: {

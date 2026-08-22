@@ -1,5 +1,5 @@
 // Per-site config for chathamkentplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Chatham-Kent municipality-wide hub site. ⚠️ PLACEHOLDER NAP — still TO FILL (NAP-WORKSHEET; no HVAC-estate source).
+// Plumbing lead-gen (plumbing-astro). Chatham-Kent municipality-wide hub site. NAP applied 2026-08-22 (NAP-WORKSHEET straggler sign-off — Chatham/Port Elgin anchor, verify before publish).
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -11,13 +11,13 @@ export const site: SiteConfig = {
   region: 'Ontario',
   regionAbbr: 'ON',
   county: "Chatham-Kent",
-  phone: { display: "(519) 555-0134", tel: "+15195550134" }, // PLACEHOLDER
+  phone: { display: "(548) 901-3519", tel: "+15489013519" }, // real (NAP-WORKSHEET straggler sign-off 2026-08-22)
   email: "contact@chathamkentplumbing.ca",
   address: {
-    street: "PLACEHOLDER Road", // PLACEHOLDER
-    locality: "Chatham-Kent",
+    street: "425 Grand Ave W",
+    locality: "Chatham",
     region: 'ON',
-    postal: "N7M 1A1", // PLACEHOLDER
+    postal: "N7M 5J1",
   },
   serviceAreas: ['Chatham-Kent', 'Chatham', 'Wallaceburg', 'Ridgetown', 'Blenheim', 'Tilbury', 'Wheatley'],
   palette: {
