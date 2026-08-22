@@ -3,7 +3,7 @@
 **68 / 68 sites built + verified** in this repo (`plumbing-astro`, forked from `hvac-astro` as a single-trade plumbing lead-gen template). 2 pilots (`strathroyplumbing.ca`, `stthomasplumbing.ca`, committed 2026-08-07) + 66 new sites authored and built 2026-08-19.
 
 - **All sites verified:** `dist/` contains all 68 sites; every `index.html` carries the `noindex` robots tag (68/68, 0 missing); `scripts/qa-sweep.py` (structure + services + copy rules + pairwise duplicate detection across all 68 sources) reports **CLEAN, 0 warnings**.
-- **Not one domain is registered** — these are pre-launch builds. Every site is `noindex: true` until it goes live.
+- **All 68 domains registered 2026-08-22** (Porkbun Headbanger, manual) and **wired to Cloudflare** same day (zone + GH-Pages A/CNAME records + NS delegation — `plumbing-duct-cleaning/CF-ZONES-2026-08-22.csv`). Sites **deployed 2026-08-22 to GitHub Pages** (liamseopro org, per-site repo + CNAME; DNS via CF wiring above) — 136/136 serving HTTPS 200 at launch (strathroy Pages cert re-issued after DELETE+re-enable), all still `noindex: true` pre-index-flip. Deploy log: `plumbing-duct-cleaning/provision-all.log`.
 
 ## Missing-logo fix (2026-08-19)
 
