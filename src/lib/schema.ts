@@ -32,11 +32,21 @@ export function schemaLocalbusiness(s: SiteConfig): string {
   // strictly additive; a city not in the map gets none, so this never degrades a site.
   const geo = CITY_GEO[s.city];
   const geoLine = geo ? `,"geo":{"@type":"GeoCoordinates","latitude":${geo.lat},"longitude":${geo.lng}}` : '';
+  // Emit address fields only when non-empty: a site without a signed-off
+  // street/postal (Dunnville) ships locality/region only — an empty
+  // "streetAddress":""/"postalCode":"" string is invalid structured data.
+  const addr = [
+    s.address.street && `"streetAddress":${q(s.address.street)}`,
+    `"addressLocality":${q(s.address.locality)}`,
+    `"addressRegion":${q(s.address.region)}`,
+    s.address.postal && `"postalCode":${q(s.address.postal)}`,
+    `"addressCountry":"CA"`,
+  ].filter(Boolean).join(',');
   return `<script type="application/ld+json">
 {"@context":"https://schema.org","@type":${q(bizType)},"@id":${q(s.url + '/#business')},
 "name":${q(plain(s.brand))},"url":${q(s.url)},"telephone":${q(citationPhone.display)},"email":${q(s.email)},"image":${q(s.url + '/assets/img/og-default.png')},"logo":${q(s.url + '/assets/img/favicon.svg')},
 "priceRange":"$$","areaServed":[${areaServed}],
-"address":{"@type":"PostalAddress","streetAddress":${q(s.address.street)},"addressLocality":${q(s.address.locality)},"addressRegion":${q(s.address.region)},"postalCode":${q(s.address.postal)},"addressCountry":"CA"}${geoLine},
+"address":{"@type":"PostalAddress",${addr}}${geoLine},
 "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"}}
 </script>`;
 }
