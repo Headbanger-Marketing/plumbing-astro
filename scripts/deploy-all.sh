@@ -32,6 +32,10 @@ for site in $SITES; do
     echo "[$site] BUILD FAIL (see /tmp/da.$site.log)"; fail=$((fail+1)); continue
   fi
 
+  # 1b. regenerate the per-site OG card (the astro build wipes dist/, and the
+  # shared public/ og-default would otherwise go out identical on every site).
+  node scripts/gen-og-images.mjs "$site" >/dev/null 2>&1 || echo "[$site] OG GEN FAIL"
+
   # 2. sync HTML/CSS/JS
   rsync -a \
     --include='/index.html' --include='/404.html' \
