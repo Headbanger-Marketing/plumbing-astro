@@ -118,24 +118,26 @@ for f in favicon.svg apple-touch-icon.png og-default.png badge-quality.png; do
   [ -f "$ASTRO_PUBLIC/assets/img/$f" ] && cp "$ASTRO_PUBLIC/assets/img/$f" "$DEPLOY/assets/img/$f" 2>/dev/null || true
 done
 
-echo "=== [$DOMAIN] Step 4/5: enable GitHub Pages + set cname ==="
-# Enable Pages on main branch (legacy build type for static)
-gh api -X POST "repos/liamseopro/$DOMAIN/pages" \
-  -f build_type=legacy -f 'source[branch]=main' 2>/dev/null || \
-gh api -X POST "repos/liamseopro/$DOMAIN/pages" \
-  -f source='{"branch":"main"}' 2>/dev/null || \
-  echo "  (Pages may already be enabled — continuing)"
+echo "=== [$DOMAIN] Step 4/5: initial commit + push (must precede Pages enable — GH 422s on an empty repo) ==="
+(cd "$DEPLOY"
+  git add -A
+  git commit -q -m "Initial provision: CNAME, assets, config files" 2>/dev/null || echo "  (nothing to commit yet)"
+  git branch -M main 2>/dev/null || true
+  git push -q origin main 2>/dev/null || git push -q -u origin main 2>/dev/null || echo "  (push will happen after build sync)"
+)
+
+echo "=== [$DOMAIN] Step 5/5: enable GitHub Pages + set cname ==="
+# Enable Pages on main branch (legacy build type for static). Retry: the first
+# push may still be registering the branch server-side.
+for attempt in 1 2 3; do
+  gh api -X POST "repos/liamseopro/$DOMAIN/pages" \
+    -f build_type=legacy -f 'source[branch]=main' 2>/dev/null && break
+  sleep 5
+done
 
 # Set the cname
 gh api -X PUT "repos/liamseopro/$DOMAIN/pages" -f "cname=$DOMAIN" 2>/dev/null || true
 echo "  Pages enabled, cname=$DOMAIN"
-
-echo "=== [$DOMAIN] Step 5/5: initial commit + push ==="
-(cd "$DEPLOY"
-  git add -A
-  git commit -q -m "Initial provision: CNAME, assets, config files" 2>/dev/null || echo "  (nothing to commit yet)"
-  git push -q origin main 2>/dev/null || git push -q -u origin main 2>/dev/null || echo "  (push will happen after build sync)"
-)
 
 echo ""
 echo "=== [$DOMAIN] DONE ==="
