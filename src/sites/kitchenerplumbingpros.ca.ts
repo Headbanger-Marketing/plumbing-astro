@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://kitchenerplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "kitchenerplumbingpros.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "kitchenerplumbingpros.ca.png", technicianPhoto: "kitchenerplumbingpros.ca-home-tech.jpg",
+    heroImage: "heroes/kitchenerplumbingpros.ca.webp" },
   noindex: false,
 };

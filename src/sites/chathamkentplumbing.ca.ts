@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://chathamkentplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "chathamkentplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "chathamkentplumbing.ca.png", technicianPhoto: "chathamkentplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/chathamkentplumbing.ca.webp" },
   noindex: false,
 };

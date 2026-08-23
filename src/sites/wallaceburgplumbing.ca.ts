@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://wallaceburgplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "wallaceburgplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "wallaceburgplumbing.ca.png", technicianPhoto: "wallaceburgplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/wallaceburgplumbing.ca.webp" },
   noindex: false,
 };

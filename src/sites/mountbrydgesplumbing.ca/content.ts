@@ -150,11 +150,11 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in Mount Brydges, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning in Mount Brydges, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Repiping in Mount Brydges, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Fixture installation in Mount Brydges, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection in Mount Brydges, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump installation in Mount Brydges, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener installation in Mount Brydges, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/mountbrydgesplumbing.ca-water-heaters.jpg", "Water heater installation in Mount Brydges, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/mountbrydgesplumbing.ca-drain-cleaning.jpg", "Drain cleaning in Mount Brydges, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/mountbrydgesplumbing.ca-repiping.jpg", "Repiping in Mount Brydges, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/mountbrydgesplumbing.ca-fixtures-toilets.jpg", "Fixture installation in Mount Brydges, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/mountbrydgesplumbing.ca-leak-detection.jpg", "Leak detection in Mount Brydges, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/mountbrydgesplumbing.ca-sump-pumps.jpg", "Sump pump installation in Mount Brydges, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/mountbrydgesplumbing.ca-water-softeners.jpg", "Water softener installation in Mount Brydges, Ontario", 1800, 1200]
 };

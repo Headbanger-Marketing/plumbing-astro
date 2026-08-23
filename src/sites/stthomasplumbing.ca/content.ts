@@ -152,13 +152,13 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in St. Thomas, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning and hydro-jetting in St. Thomas, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Whole-home repipe in St. Thomas, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Toilet and fixture installation in St. Thomas, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection in St. Thomas, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump and backwater valve installation in St. Thomas, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener installation in St. Thomas, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/stthomasplumbing.ca-water-heaters.jpg", "Water heater installation in St. Thomas, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/stthomasplumbing.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in St. Thomas, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/stthomasplumbing.ca-repiping.jpg", "Whole-home repipe in St. Thomas, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/stthomasplumbing.ca-fixtures-toilets.jpg", "Toilet and fixture installation in St. Thomas, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/stthomasplumbing.ca-leak-detection.jpg", "Leak detection in St. Thomas, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/stthomasplumbing.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in St. Thomas, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/stthomasplumbing.ca-water-softeners.jpg", "Water softener installation in St. Thomas, Ontario", 1800, 1200]
 };
 
 export const LOCATIONS = {

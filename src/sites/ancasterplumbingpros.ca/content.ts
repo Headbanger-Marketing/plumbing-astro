@@ -149,11 +149,11 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Tankless water heater installation in Ancaster, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Sewer jetting and camera inspection in Ancaster, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Poly-B repipe in an Ancaster home", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Bathroom fixture installation in Ancaster, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Thermal leak detection in Ancaster, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump installation in Ancaster, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener installation in Ancaster, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/ancasterplumbingpros.ca-water-heaters.jpg", "Tankless water heater installation in Ancaster, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/ancasterplumbingpros.ca-drain-cleaning.jpg", "Sewer jetting and camera inspection in Ancaster, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/ancasterplumbingpros.ca-repiping.jpg", "Poly-B repipe in an Ancaster home", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/ancasterplumbingpros.ca-fixtures-toilets.jpg", "Bathroom fixture installation in Ancaster, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/ancasterplumbingpros.ca-leak-detection.jpg", "Thermal leak detection in Ancaster, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/ancasterplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Ancaster, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/ancasterplumbingpros.ca-water-softeners.jpg", "Water softener installation in Ancaster, Ontario", 1800, 1200]
 };

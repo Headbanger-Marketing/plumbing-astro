@@ -149,13 +149,13 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in Amherstburg, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning and camera inspection in Amherstburg, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Whole-home repiping in Amherstburg, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Fixture and toilet installation in Amherstburg, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection and repair in Amherstburg, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump installation in Amherstburg, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener installation in Amherstburg, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/amherstburgplumbingpros.ca-water-heaters.jpg", "Water heater installation in Amherstburg, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/amherstburgplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning and camera inspection in Amherstburg, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/amherstburgplumbingpros.ca-repiping.jpg", "Whole-home repiping in Amherstburg, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/amherstburgplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Amherstburg, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/amherstburgplumbingpros.ca-leak-detection.jpg", "Leak detection and repair in Amherstburg, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/amherstburgplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Amherstburg, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/amherstburgplumbingpros.ca-water-softeners.jpg", "Water softener installation in Amherstburg, Ontario", 1800, 1200]
 };
 
 export const LOCATIONS = {

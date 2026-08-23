@@ -149,11 +149,11 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in Whitby, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning and hydro-jetting in Whitby, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Whole-home repiping in Whitby, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Fixture and toilet installation in Whitby, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection and repair in Whitby, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump installation in Whitby, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener installation in Whitby, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/whitbyplumbingpros.ca-water-heaters.jpg", "Water heater installation in Whitby, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/whitbyplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Whitby, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/whitbyplumbingpros.ca-repiping.jpg", "Whole-home repiping in Whitby, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/whitbyplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Whitby, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/whitbyplumbingpros.ca-leak-detection.jpg", "Leak detection and repair in Whitby, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/whitbyplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Whitby, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/whitbyplumbingpros.ca-water-softeners.jpg", "Water softener installation in Whitby, Ontario", 1800, 1200]
 };

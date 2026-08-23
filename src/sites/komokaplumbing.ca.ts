@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://komokaplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "komokaplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "komokaplumbing.ca.png", technicianPhoto: "komokaplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/komokaplumbing.ca.webp" },
   noindex: true,
 };

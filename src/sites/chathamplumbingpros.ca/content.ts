@@ -148,13 +148,13 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in Chatham, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning and hydro-jetting in Chatham, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Whole-home repipe in Chatham, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Fixture and toilet installation in Chatham, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection in Chatham, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump and backwater valve installation in Chatham, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener installation in Chatham, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/chathamplumbingpros.ca-water-heaters.jpg", "Water heater installation in Chatham, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/chathamplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Chatham, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/chathamplumbingpros.ca-repiping.jpg", "Whole-home repipe in Chatham, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/chathamplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Chatham, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/chathamplumbingpros.ca-leak-detection.jpg", "Leak detection in Chatham, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/chathamplumbingpros.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Chatham, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/chathamplumbingpros.ca-water-softeners.jpg", "Water softener installation in Chatham, Ontario", 1800, 1200]
 };
 
 export const LOCATIONS = {

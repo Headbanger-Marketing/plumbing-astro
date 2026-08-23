@@ -148,13 +148,13 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in Sarnia, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning in Sarnia, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Repiping a wartime home in Sarnia, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Fixture installation in Sarnia, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection in Sarnia, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump and backwater valve installation in Sarnia, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener installation in Sarnia, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/sarniaplumbing.ca-water-heaters.jpg", "Water heater installation in Sarnia, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/sarniaplumbing.ca-drain-cleaning.jpg", "Drain cleaning in Sarnia, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/sarniaplumbing.ca-repiping.jpg", "Repiping a wartime home in Sarnia, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/sarniaplumbing.ca-fixtures-toilets.jpg", "Fixture installation in Sarnia, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/sarniaplumbing.ca-leak-detection.jpg", "Leak detection in Sarnia, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/sarniaplumbing.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Sarnia, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/sarniaplumbing.ca-water-softeners.jpg", "Water softener installation in Sarnia, Ontario", 1800, 1200]
 };
 
 export const LOCATIONS = {

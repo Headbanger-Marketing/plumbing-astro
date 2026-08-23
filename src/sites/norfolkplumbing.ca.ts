@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://norfolkplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "norfolkplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "norfolkplumbing.ca.png", technicianPhoto: "norfolkplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/norfolkplumbing.ca.webp" },
   noindex: false,
 };

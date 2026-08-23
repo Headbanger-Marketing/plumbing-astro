@@ -77,6 +77,11 @@ const GOOGLE_FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"
 <Fragment set:html={FAVICON} />
 <Fragment set:html={GOOGLE_FONTS} />
 <link rel="stylesheet" href="/assets/css/styles.css">
+{/* Opt-in per-site hero background (config media.heroImage): same-specificity
+    rule AFTER the stylesheet, so it wins the cascade over the shared hero.webp
+    on both the home hero and location page-heroes. String concat — no nested
+    backticks in .astro frontmatter/JSX. */}
+{site.media?.heroImage && <Fragment set:html={"<style>.hero.has-bg, .page-hero.has-bg { background-image: url('/assets/img/" + site.media.heroImage + "'); }</style>"} />}
 <Fragment set:html={sb} />
 </head>
 <body>

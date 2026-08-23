@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://dorchesterplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "dorchesterplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "dorchesterplumbing.ca.png", technicianPhoto: "dorchesterplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/dorchesterplumbing.ca.webp" },
   noindex: true,
 };

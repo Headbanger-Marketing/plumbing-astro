@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://whitbyplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "whitbyplumbingpros.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "whitbyplumbingpros.ca.png", technicianPhoto: "whitbyplumbingpros.ca-home-tech.jpg",
+    heroImage: "heroes/whitbyplumbingpros.ca.webp" },
   noindex: false,
 };

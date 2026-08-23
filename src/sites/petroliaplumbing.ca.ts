@@ -29,6 +29,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://petroliaplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "petroliaplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "petroliaplumbing.ca.png", technicianPhoto: "petroliaplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/petroliaplumbing.ca.webp" },
   noindex: false,
 };

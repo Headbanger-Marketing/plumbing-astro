@@ -149,13 +149,13 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in Seaforth, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning and hydro-jetting in Seaforth, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Whole-home repiping in Seaforth, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Fixture and toilet installation in Seaforth, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection and well line repair in Seaforth, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump installation in Seaforth, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener and iron filter installation in Seaforth, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/seaforthplumbing.ca-water-heaters.jpg", "Water heater installation in Seaforth, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/seaforthplumbing.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Seaforth, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/seaforthplumbing.ca-repiping.jpg", "Whole-home repiping in Seaforth, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/seaforthplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Seaforth, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/seaforthplumbing.ca-leak-detection.jpg", "Leak detection and well line repair in Seaforth, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/seaforthplumbing.ca-sump-pumps.jpg", "Sump pump installation in Seaforth, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/seaforthplumbing.ca-water-softeners.jpg", "Water softener and iron filter installation in Seaforth, Ontario", 1800, 1200]
 };
 
 export const LOCATIONS = {

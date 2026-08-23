@@ -28,6 +28,11 @@ export const site: SiteConfig = {
   },
   ogImage: "https://londonplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "londonplumbingpros.ca.png", technicianPhoto: "default-technician.jpg" },
+  // Imagery pilot 2026-08-23: per-site Unsplash stock (scripts/gen-imagery-unsplash.py)
+  media: {
+    logo: "londonplumbingpros.ca.png",
+    technicianPhoto: "londonplumbingpros.ca-home-tech.jpg",
+    heroImage: "heroes/londonplumbingpros.ca.webp",
+  },
   noindex: false,
 };

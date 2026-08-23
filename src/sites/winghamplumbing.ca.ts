@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://winghamplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "winghamplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "winghamplumbing.ca.png", technicianPhoto: "winghamplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/winghamplumbing.ca.webp" },
   noindex: true,
 };

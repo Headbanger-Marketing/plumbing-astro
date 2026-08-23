@@ -148,13 +148,13 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in Waterloo, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning in Waterloo, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Repiping an older home in Waterloo, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Toilet and fixture installation in Waterloo, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection in Waterloo, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump installation in Waterloo, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener installation in Waterloo, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/waterlooplumbingpros.ca-water-heaters.jpg", "Water heater installation in Waterloo, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/waterlooplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning in Waterloo, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/waterlooplumbingpros.ca-repiping.jpg", "Repiping an older home in Waterloo, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/waterlooplumbingpros.ca-fixtures-toilets.jpg", "Toilet and fixture installation in Waterloo, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/waterlooplumbingpros.ca-leak-detection.jpg", "Leak detection in Waterloo, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/waterlooplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Waterloo, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/waterlooplumbingpros.ca-water-softeners.jpg", "Water softener installation in Waterloo, Ontario", 1800, 1200]
 };
 
 export const LOCATIONS = {

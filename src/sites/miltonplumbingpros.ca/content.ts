@@ -150,11 +150,11 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in Milton, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning and camera inspection in Milton, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Whole-home repipe in Milton, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Fixture and toilet installation in Milton, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection and repair in Milton, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump and backwater valve installation in Milton, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener and filtration installation in Milton, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/miltonplumbingpros.ca-water-heaters.jpg", "Water heater installation in Milton, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/miltonplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning and camera inspection in Milton, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/miltonplumbingpros.ca-repiping.jpg", "Whole-home repipe in Milton, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/miltonplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Milton, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/miltonplumbingpros.ca-leak-detection.jpg", "Leak detection and repair in Milton, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/miltonplumbingpros.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Milton, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/miltonplumbingpros.ca-water-softeners.jpg", "Water softener and filtration installation in Milton, Ontario", 1800, 1200]
 };

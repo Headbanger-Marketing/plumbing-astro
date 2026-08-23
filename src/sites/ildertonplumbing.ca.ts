@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://ildertonplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "ildertonplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "ildertonplumbing.ca.png", technicianPhoto: "ildertonplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/ildertonplumbing.ca.webp" },
   noindex: true,
 };

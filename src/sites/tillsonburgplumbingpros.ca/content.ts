@@ -148,13 +148,13 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in Tillsonburg, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning in Tillsonburg, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Repiping a bungalow in Tillsonburg, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Fixture and toilet installation in Tillsonburg, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection in Tillsonburg, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump installation in Tillsonburg, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Well water treatment in Tillsonburg, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/tillsonburgplumbingpros.ca-water-heaters.jpg", "Water heater installation in Tillsonburg, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/tillsonburgplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning in Tillsonburg, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/tillsonburgplumbingpros.ca-repiping.jpg", "Repiping a bungalow in Tillsonburg, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/tillsonburgplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Tillsonburg, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/tillsonburgplumbingpros.ca-leak-detection.jpg", "Leak detection in Tillsonburg, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/tillsonburgplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Tillsonburg, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/tillsonburgplumbingpros.ca-water-softeners.jpg", "Well water treatment in Tillsonburg, Ontario", 1800, 1200]
 };
 
 export const LOCATIONS = {

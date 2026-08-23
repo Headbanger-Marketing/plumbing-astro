@@ -150,13 +150,13 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater replacement in Brantford, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Main line cleaning in Brantford, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Bungalow repipe in Brantford, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Accessible fixture installation in Brantford, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Slab leak detection in Brantford, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump installation in Brantford, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener setup in Brantford, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/brantfordplumbingpros.ca-water-heaters.jpg", "Water heater replacement in Brantford, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/brantfordplumbingpros.ca-drain-cleaning.jpg", "Main line cleaning in Brantford, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/brantfordplumbingpros.ca-repiping.jpg", "Bungalow repipe in Brantford, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/brantfordplumbingpros.ca-fixtures-toilets.jpg", "Accessible fixture installation in Brantford, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/brantfordplumbingpros.ca-leak-detection.jpg", "Slab leak detection in Brantford, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/brantfordplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Brantford, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/brantfordplumbingpros.ca-water-softeners.jpg", "Water softener setup in Brantford, Ontario", 1800, 1200]
 };
 
 export const LOCATIONS = {

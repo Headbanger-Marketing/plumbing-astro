@@ -29,6 +29,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://tecumsehplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "tecumsehplumbingpros.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "tecumsehplumbingpros.ca.png", technicianPhoto: "tecumsehplumbingpros.ca-home-tech.jpg",
+    heroImage: "heroes/tecumsehplumbingpros.ca.webp" },
   noindex: false,
 };

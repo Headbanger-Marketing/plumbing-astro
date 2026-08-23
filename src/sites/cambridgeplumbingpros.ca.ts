@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://cambridgeplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "cambridgeplumbingpros.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "cambridgeplumbingpros.ca.png", technicianPhoto: "cambridgeplumbingpros.ca-home-tech.jpg",
+    heroImage: "heroes/cambridgeplumbingpros.ca.webp" },
   noindex: false,
 };

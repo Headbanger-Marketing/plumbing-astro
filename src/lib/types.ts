@@ -42,6 +42,10 @@ export interface SiteConfig {
     // Logo filename under /assets/img/logos/. Falls back to /assets/img/logo.png
     // (the shared default) for sites without a per-site logo.
     logo?: string;
+    // Hero background under /assets/img/ (path incl. filename, e.g.
+    // "heroes/<domain>.webp"). Opt-in per-site override of the shared
+    // hero.webp on the home hero + location page-heroes; unset = shared.
+    heroImage?: string;
   };
   // Vertical flag: 'hvac' (or undefined = default HVAC behavior) gets full
   // service + blog pages. 'generator' or 'geothermal' = homepage-only site

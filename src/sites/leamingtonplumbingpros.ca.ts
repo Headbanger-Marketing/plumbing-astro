@@ -29,6 +29,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://leamingtonplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "leamingtonplumbingpros.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "leamingtonplumbingpros.ca.png", technicianPhoto: "leamingtonplumbingpros.ca-home-tech.jpg",
+    heroImage: "heroes/leamingtonplumbingpros.ca.webp" },
   noindex: false,
 };

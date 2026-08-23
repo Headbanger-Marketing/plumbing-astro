@@ -148,13 +148,13 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in Caledonia, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Sewer cleaning in Caledonia, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Home repipe in Caledonia, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Fixture installation in Caledonia, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection in Caledonia, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump installation in Caledonia, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener installation in Caledonia, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/caledoniaplumbingpros.ca-water-heaters.jpg", "Water heater installation in Caledonia, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/caledoniaplumbingpros.ca-drain-cleaning.jpg", "Sewer cleaning in Caledonia, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/caledoniaplumbingpros.ca-repiping.jpg", "Home repipe in Caledonia, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/caledoniaplumbingpros.ca-fixtures-toilets.jpg", "Fixture installation in Caledonia, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/caledoniaplumbingpros.ca-leak-detection.jpg", "Leak detection in Caledonia, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/caledoniaplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Caledonia, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/caledoniaplumbingpros.ca-water-softeners.jpg", "Water softener installation in Caledonia, Ontario", 1800, 1200]
 };
 
 export const LOCATIONS = {

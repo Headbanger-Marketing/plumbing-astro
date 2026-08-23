@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://oshawaplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "oshawaplumbingpros.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "oshawaplumbingpros.ca.png", technicianPhoto: "oshawaplumbingpros.ca-home-tech.jpg",
+    heroImage: "heroes/oshawaplumbingpros.ca.webp" },
   noindex: false,
 };

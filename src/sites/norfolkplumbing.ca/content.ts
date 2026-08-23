@@ -149,13 +149,13 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in Norfolk County, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning on a Norfolk County property", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Farmhouse repipe in Norfolk County, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Fixture installation in Norfolk County, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Well line leak detection in Norfolk County, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump installation in Norfolk County, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Well water treatment installation in Norfolk County, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/norfolkplumbing.ca-water-heaters.jpg", "Water heater installation in Norfolk County, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/norfolkplumbing.ca-drain-cleaning.jpg", "Drain cleaning on a Norfolk County property", 1800, 1200],
+  "repiping": ["/assets/img/wp/norfolkplumbing.ca-repiping.jpg", "Farmhouse repipe in Norfolk County, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/norfolkplumbing.ca-fixtures-toilets.jpg", "Fixture installation in Norfolk County, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/norfolkplumbing.ca-leak-detection.jpg", "Well line leak detection in Norfolk County, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/norfolkplumbing.ca-sump-pumps.jpg", "Sump pump installation in Norfolk County, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/norfolkplumbing.ca-water-softeners.jpg", "Well water treatment installation in Norfolk County, Ontario", 1800, 1200]
 };
 
 export const LOCATIONS = {

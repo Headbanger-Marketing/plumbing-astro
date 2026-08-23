@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://exeterplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "exeterplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "exeterplumbing.ca.png", technicianPhoto: "exeterplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/exeterplumbing.ca.webp" },
   noindex: true,
 };

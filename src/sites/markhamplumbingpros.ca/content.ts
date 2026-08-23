@@ -149,11 +149,11 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in Markham, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning and hydro-jetting in Markham, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Whole-home repiping in Markham, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Fixture and toilet installation in Markham, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection and repair in Markham, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump and backwater valve installation in Markham, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener installation in Markham, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/markhamplumbingpros.ca-water-heaters.jpg", "Water heater installation in Markham, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/markhamplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Markham, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/markhamplumbingpros.ca-repiping.jpg", "Whole-home repiping in Markham, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/markhamplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Markham, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/markhamplumbingpros.ca-leak-detection.jpg", "Leak detection and repair in Markham, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/markhamplumbingpros.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Markham, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/markhamplumbingpros.ca-water-softeners.jpg", "Water softener installation in Markham, Ontario", 1800, 1200]
 };

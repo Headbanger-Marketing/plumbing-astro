@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://windsorplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "windsorplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "windsorplumbing.ca.png", technicianPhoto: "windsorplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/windsorplumbing.ca.webp" },
   noindex: false,
 };

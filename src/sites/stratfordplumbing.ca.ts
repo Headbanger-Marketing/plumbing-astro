@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://stratfordplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "stratfordplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "stratfordplumbing.ca.png", technicianPhoto: "stratfordplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/stratfordplumbing.ca.webp" },
   noindex: false,
 };

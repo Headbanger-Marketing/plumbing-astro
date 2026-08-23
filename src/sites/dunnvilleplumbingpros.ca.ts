@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://dunnvilleplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "dunnvilleplumbingpros.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "dunnvilleplumbingpros.ca.png", technicianPhoto: "dunnvilleplumbingpros.ca-home-tech.jpg",
+    heroImage: "heroes/dunnvilleplumbingpros.ca.webp" },
   noindex: false,
 };

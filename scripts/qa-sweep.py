@@ -232,8 +232,13 @@ def main():
         sp_keys = set(re.findall(r'"([a-z-]+)":', sp or ""))
         if sp_keys != SLUGS:
             fails.append(f"{tag}: SVC_PHOTO keys differ: {sorted(sp_keys ^ SLUGS)}")
-        if "default-technician.jpg" not in (sp or ""):
-            fails.append(f"{tag}: SVC_PHOTO not using default-technician.jpg")
+        # Imagery regime 2026-08-23: the shared default-technician.jpg is still
+        # valid, and per-site stock (gen-imagery-unsplash.py) is now equally
+        # valid — what must hold either way is that every referenced file
+        # actually exists under public/assets/img/wp/.
+        for src in set(re.findall(r'"(/assets/img/wp/[^"]+)"', sp or "")):
+            if not (ROOT / "public" / src.lstrip("/")).exists():
+                fails.append(f"{tag}: SVC_PHOTO src missing on disk: {src}")
         if not re.search(r"BLOG\s*(?::|=)\s*\[\s*\]", cnt):
             fails.append(f"{tag}: BLOG is not []")
 

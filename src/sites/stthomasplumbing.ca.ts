@@ -30,6 +30,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://stthomasplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "stthomasplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "stthomasplumbing.ca.png", technicianPhoto: "stthomasplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/stthomasplumbing.ca.webp" },
   noindex: false,
 };

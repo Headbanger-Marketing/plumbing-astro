@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://lucanplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "lucanplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "lucanplumbing.ca.png", technicianPhoto: "lucanplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/lucanplumbing.ca.webp" },
   noindex: true,
 };

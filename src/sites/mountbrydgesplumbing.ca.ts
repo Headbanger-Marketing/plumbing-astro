@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://mountbrydgesplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "mountbrydgesplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "mountbrydgesplumbing.ca.png", technicianPhoto: "mountbrydgesplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/mountbrydgesplumbing.ca.webp" },
   noindex: true,
 };

@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://portdoverplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "portdoverplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "portdoverplumbing.ca.png", technicianPhoto: "portdoverplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/portdoverplumbing.ca.webp" },
   noindex: true,
 };

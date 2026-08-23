@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://ridgetownplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "ridgetownplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "ridgetownplumbing.ca.png", technicianPhoto: "ridgetownplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/ridgetownplumbing.ca.webp" },
   noindex: false,
 };

@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://richmondhillplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "richmondhillplumbingpros.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "richmondhillplumbingpros.ca.png", technicianPhoto: "richmondhillplumbingpros.ca-home-tech.jpg",
+    heroImage: "heroes/richmondhillplumbingpros.ca.webp" },
   noindex: false,
 };

@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://tillsonburgplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "tillsonburgplumbingpros.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "tillsonburgplumbingpros.ca.png", technicianPhoto: "tillsonburgplumbingpros.ca-home-tech.jpg",
+    heroImage: "heroes/tillsonburgplumbingpros.ca.webp" },
   noindex: true,
 };

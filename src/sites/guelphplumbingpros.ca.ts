@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://guelphplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "guelphplumbingpros.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "guelphplumbingpros.ca.png", technicianPhoto: "guelphplumbingpros.ca-home-tech.jpg",
+    heroImage: "heroes/guelphplumbingpros.ca.webp" },
   noindex: false,
 };

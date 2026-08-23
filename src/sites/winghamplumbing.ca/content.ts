@@ -148,13 +148,13 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater replacement in Wingham, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning and camera inspection in Wingham, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Whole-home repiping in Wingham, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Fixture and toilet installation in Wingham, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection and repair in Wingham, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump and battery backup installation in Wingham, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener and sulphur filter installation in Wingham, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/winghamplumbing.ca-water-heaters.jpg", "Water heater replacement in Wingham, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/winghamplumbing.ca-drain-cleaning.jpg", "Drain cleaning and camera inspection in Wingham, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/winghamplumbing.ca-repiping.jpg", "Whole-home repiping in Wingham, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/winghamplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Wingham, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/winghamplumbing.ca-leak-detection.jpg", "Leak detection and repair in Wingham, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/winghamplumbing.ca-sump-pumps.jpg", "Sump pump and battery backup installation in Wingham, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/winghamplumbing.ca-water-softeners.jpg", "Water softener and sulphur filter installation in Wingham, Ontario", 1800, 1200]
 };
 
 export const LOCATIONS = {

@@ -150,11 +150,11 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in Nanticoke, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning and septic run service in Nanticoke, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Whole-home repipe in Nanticoke, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Fixture and toilet installation in Nanticoke, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection and repair in Nanticoke, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump and backwater valve installation in Nanticoke, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener and well treatment installation in Nanticoke, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/nanticokeplumbing.ca-water-heaters.jpg", "Water heater installation in Nanticoke, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/nanticokeplumbing.ca-drain-cleaning.jpg", "Drain cleaning and septic run service in Nanticoke, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/nanticokeplumbing.ca-repiping.jpg", "Whole-home repipe in Nanticoke, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/nanticokeplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Nanticoke, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/nanticokeplumbing.ca-leak-detection.jpg", "Leak detection and repair in Nanticoke, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/nanticokeplumbing.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Nanticoke, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/nanticokeplumbing.ca-water-softeners.jpg", "Water softener and well treatment installation in Nanticoke, Ontario", 1800, 1200]
 };

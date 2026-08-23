@@ -148,11 +148,11 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in Richmond Hill, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Sewer root cutting and drain cleaning in Richmond Hill, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Polybutylene repiping in Richmond Hill, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Fixture and toilet installation in Richmond Hill, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection and repair in Richmond Hill, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump installation in Richmond Hill, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener and well water treatment in Richmond Hill, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/richmondhillplumbingpros.ca-water-heaters.jpg", "Water heater installation in Richmond Hill, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/richmondhillplumbingpros.ca-drain-cleaning.jpg", "Sewer root cutting and drain cleaning in Richmond Hill, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/richmondhillplumbingpros.ca-repiping.jpg", "Polybutylene repiping in Richmond Hill, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/richmondhillplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Richmond Hill, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/richmondhillplumbingpros.ca-leak-detection.jpg", "Leak detection and repair in Richmond Hill, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/richmondhillplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Richmond Hill, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/richmondhillplumbingpros.ca-water-softeners.jpg", "Water softener and well water treatment in Richmond Hill, Ontario", 1800, 1200]
 };

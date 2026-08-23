@@ -148,11 +148,11 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in Exeter, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning and hydro-jetting in Exeter, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Whole-home repiping in Exeter, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Fixture and toilet installation in Exeter, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection and repair in Exeter, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump and backwater valve installation in Exeter, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener and filtration installation in Exeter, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/exeterplumbing.ca-water-heaters.jpg", "Water heater installation in Exeter, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/exeterplumbing.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Exeter, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/exeterplumbing.ca-repiping.jpg", "Whole-home repiping in Exeter, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/exeterplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Exeter, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/exeterplumbing.ca-leak-detection.jpg", "Leak detection and repair in Exeter, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/exeterplumbing.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Exeter, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/exeterplumbing.ca-water-softeners.jpg", "Water softener and filtration installation in Exeter, Ontario", 1800, 1200]
 };

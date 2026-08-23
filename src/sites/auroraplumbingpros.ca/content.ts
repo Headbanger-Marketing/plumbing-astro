@@ -149,11 +149,11 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater installation in Aurora, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning and root cutting in Aurora, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Whole-home repiping in Aurora, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Fixture installation in Aurora, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection in Aurora, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump installation in Aurora, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener and well water treatment in Aurora, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/auroraplumbingpros.ca-water-heaters.jpg", "Water heater installation in Aurora, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/auroraplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning and root cutting in Aurora, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/auroraplumbingpros.ca-repiping.jpg", "Whole-home repiping in Aurora, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/auroraplumbingpros.ca-fixtures-toilets.jpg", "Fixture installation in Aurora, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/auroraplumbingpros.ca-leak-detection.jpg", "Leak detection in Aurora, Ontario", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/auroraplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Aurora, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/auroraplumbingpros.ca-water-softeners.jpg", "Water softener and well water treatment in Aurora, Ontario", 1800, 1200]
 };

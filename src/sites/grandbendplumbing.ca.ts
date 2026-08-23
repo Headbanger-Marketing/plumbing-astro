@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://grandbendplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "grandbendplumbing.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "grandbendplumbing.ca.png", technicianPhoto: "grandbendplumbing.ca-home-tech.jpg",
+    heroImage: "heroes/grandbendplumbing.ca.webp" },
   noindex: true,
 };

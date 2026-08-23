@@ -28,6 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://markhamplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "markhamplumbingpros.ca.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "markhamplumbingpros.ca.png", technicianPhoto: "markhamplumbingpros.ca-home-tech.jpg",
+    heroImage: "heroes/markhamplumbingpros.ca.webp" },
   noindex: false,
 };

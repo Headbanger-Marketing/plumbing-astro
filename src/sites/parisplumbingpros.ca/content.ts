@@ -149,13 +149,13 @@ export const HOME_FAQ = [
 ];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/default-technician.jpg", "Water heater replacement in Paris, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/default-technician.jpg", "Drain cleaning in Paris, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/default-technician.jpg", "Heritage home repipe in Paris, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/default-technician.jpg", "Bathroom fixture installation in Paris, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/default-technician.jpg", "Leak detection in a Paris heritage home", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/default-technician.jpg", "Sump pump installation in Paris, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/default-technician.jpg", "Water softener installation in Paris, Ontario", 1800, 1200]
+  "water-heaters": ["/assets/img/wp/parisplumbingpros.ca-water-heaters.jpg", "Water heater replacement in Paris, Ontario", 1800, 1200],
+  "drain-cleaning": ["/assets/img/wp/parisplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning in Paris, Ontario", 1800, 1200],
+  "repiping": ["/assets/img/wp/parisplumbingpros.ca-repiping.jpg", "Heritage home repipe in Paris, Ontario", 1800, 1200],
+  "fixtures-toilets": ["/assets/img/wp/parisplumbingpros.ca-fixtures-toilets.jpg", "Bathroom fixture installation in Paris, Ontario", 1800, 1200],
+  "leak-detection": ["/assets/img/wp/parisplumbingpros.ca-leak-detection.jpg", "Leak detection in a Paris heritage home", 1800, 1200],
+  "sump-pumps": ["/assets/img/wp/parisplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Paris, Ontario", 1800, 1200],
+  "water-softeners": ["/assets/img/wp/parisplumbingpros.ca-water-softeners.jpg", "Water softener installation in Paris, Ontario", 1800, 1200]
 };
 
 export const LOCATIONS = {

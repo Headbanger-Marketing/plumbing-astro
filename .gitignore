@@ -20,3 +20,7 @@ node_modules/
 # Claude Code local state (git worktrees, session data) — not work product
 .claude/
 Icon
+
+# imagery pipeline internal state (manifest/credits/search cache)
+scripts/.unsplash-cache/
+scripts/__pycache__/
