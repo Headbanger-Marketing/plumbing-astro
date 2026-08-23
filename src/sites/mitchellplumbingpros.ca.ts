@@ -28,6 +28,6 @@ export const site: SiteConfig = {
   },
   ogImage: "https://mitchellplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "10-water-drop.png", technicianPhoto: "default-technician.jpg" },
+  media: { logo: "mitchellplumbingpros.ca.png", technicianPhoto: "default-technician.jpg" },
   noindex: true,
 };
