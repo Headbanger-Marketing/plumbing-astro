@@ -1,5 +1,5 @@
 // Per-site config for dunnvilleplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Dunnville, Haldimand County. ⚠️ NAP PARTIAL — phone real 2026-08-22 (NAP-WORKSHEET); street/postal still TO FILL (needs fulfiller Dunnville address).
+// Plumbing lead-gen (plumbing-astro). Dunnville, Haldimand County. NAP: phone real; street/postal = TEMP downtown-plaza address 2026-08-22, replace with fulfiller address when available.
 import type { SiteConfig } from '../lib/types';
 
 export const site: SiteConfig = {
@@ -14,10 +14,10 @@ export const site: SiteConfig = {
   phone: { display: "(365) 661-7242", tel: "+13656617242" }, // real (NAP-WORKSHEET straggler sign-off 2026-08-22)
   email: "contact@dunnvilleplumbingpros.ca",
   address: {
-    street: "PLACEHOLDER Road", // PLACEHOLDER, TO FILL (no source address)
+    street: "500 Queen St, Unit 9",  // TEMP plaza address 2026-08-22 (user: random downtown plaza until fulfiller address)
     locality: "Dunnville",
     region: 'ON',
-    postal: "N1A 1A1", // PLACEHOLDER, TO FILL (no source address)
+    postal: "N1A 1J5",
   },
   serviceAreas: ['Dunnville', 'Cayuga', 'Hagersville', 'Caledonia', 'Nanticoke', 'Port Dover', 'Simcoe'],
   palette: {
@@ -29,5 +29,5 @@ export const site: SiteConfig = {
   ogImage: "https://dunnvilleplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { logo: "10-water-drop.png", technicianPhoto: "default-technician.jpg" },
-  noindex: true,
+  noindex: false,
 };
