@@ -134,6 +134,12 @@ def emit_config(brief: dict) -> str:
         "    webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites',",
         "  },",
         f"  media: {{ technicianPhoto: {to_ts_string(tech_photo)} }},",
+        "  partner: {",
+        "    name: \"Jayden's Mechanical\",",
+        "    url: \"https://jaydensmechanical.com\",",
+        "    tagline: \"now part of the Jayden's Mechanical family\",",
+        "  },",
+        "  thankYouRedirect: \"/thank-you/\",",
         "};",
         "",
     ]

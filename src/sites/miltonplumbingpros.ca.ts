@@ -31,4 +31,11 @@ export const site: SiteConfig = {
   media: { guaranteeBadge: "guarantee-miltonplumbingpros.ca.png", logo: "miltonplumbingpros.ca.png", technicianPhoto: "miltonplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/miltonplumbingpros.ca.webp" },
   noindex: false,
+  // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
+  partner: {
+    name: "Jayden's Mechanical",
+    url: "https://jaydensmechanical.com",
+    tagline: "now part of the Jayden's Mechanical family",
+  },
+  thankYouRedirect: "/thank-you/",
 };

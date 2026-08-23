@@ -58,4 +58,8 @@ export interface SiteConfig {
   // When true, every page emits <meta name="robots" content="noindex, nofollow">.
   // Set on sites built but not yet live on their real registered domain.
   noindex?: boolean;
+  // Jayden's Mechanical fulfilment. When set, the thank-you page shows the
+  // partner badge and the quote form redirects to /thank-you/ on success.
+  partner?: { name: string; url: string; tagline?: string };
+  thankYouRedirect?: string;
 }

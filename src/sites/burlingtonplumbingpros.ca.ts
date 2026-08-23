@@ -31,4 +31,11 @@ export const site: SiteConfig = {
   media: { guaranteeBadge: "guarantee-burlingtonplumbingpros.ca.png", logo: "burlingtonplumbingpros.ca.png", technicianPhoto: "burlingtonplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/burlingtonplumbingpros.ca.webp" },
   noindex: false,
+  // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
+  partner: {
+    name: "Jayden's Mechanical",
+    url: "https://jaydensmechanical.com",
+    tagline: "now part of the Jayden's Mechanical family",
+  },
+  thankYouRedirect: "/thank-you/",
 };

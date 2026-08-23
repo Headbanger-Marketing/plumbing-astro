@@ -31,4 +31,11 @@ export const site: SiteConfig = {
   media: { guaranteeBadge: "guarantee-lasalleplumbing.ca.png", logo: "lasalleplumbing.ca.png", technicianPhoto: "lasalleplumbing.ca-home-tech.jpg",
     heroImage: "heroes/lasalleplumbing.ca.webp" },
   noindex: false,
+  // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
+  partner: {
+    name: "Jayden's Mechanical",
+    url: "https://jaydensmechanical.com",
+    tagline: "now part of the Jayden's Mechanical family",
+  },
+  thankYouRedirect: "/thank-you/",
 };

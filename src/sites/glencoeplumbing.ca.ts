@@ -31,4 +31,11 @@ export const site: SiteConfig = {
   media: { guaranteeBadge: "guarantee-glencoeplumbing.ca.png", logo: "glencoeplumbing.ca.png", technicianPhoto: "glencoeplumbing.ca-home-tech.jpg",
     heroImage: "heroes/glencoeplumbing.ca.webp" },
   noindex: true,
+  // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
+  partner: {
+    name: "Jayden's Mechanical",
+    url: "https://jaydensmechanical.com",
+    tagline: "now part of the Jayden's Mechanical family",
+  },
+  thankYouRedirect: "/thank-you/",
 };

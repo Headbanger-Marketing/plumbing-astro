@@ -31,4 +31,11 @@ export const site: SiteConfig = {
   media: { guaranteeBadge: "guarantee-norfolkplumbing.ca.png", logo: "norfolkplumbing.ca.png", technicianPhoto: "norfolkplumbing.ca-home-tech.jpg",
     heroImage: "heroes/norfolkplumbing.ca.webp" },
   noindex: false,
+  // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
+  partner: {
+    name: "Jayden's Mechanical",
+    url: "https://jaydensmechanical.com",
+    tagline: "now part of the Jayden's Mechanical family",
+  },
+  thankYouRedirect: "/thank-you/",
 };
