@@ -28,6 +28,13 @@ export function schemaLocalbusiness(s: SiteConfig): string {
   const areaServed = s.serviceAreas.map((a) => q(`${a}, ON`)).join(',');
   const bizType = verticalCopy(s).businessType;
   const citationPhone = s.citationPhone ?? s.phone;
+  // Per-site logo for structured data — the same mark the header/favicon
+  // serve. A .svg primary (Recraft-wave sites) swaps to its rasterised .png
+  // twin (replace on a .png name is a no-op), which rich-results parsers
+  // handle more reliably; sites without media.logo keep the shared favicon.
+  const logoUrl = s.media?.logo
+    ? `${s.url}/assets/img/logos/${s.media.logo.replace(/\.svg$/, '.png')}`
+    : `${s.url}/assets/img/favicon.svg`;
   // City-center GeoCoordinates (verified map in src/data/geo.ts). Emit-on-match —
   // strictly additive; a city not in the map gets none, so this never degrades a site.
   const geo = CITY_GEO[s.city];
@@ -44,7 +51,7 @@ export function schemaLocalbusiness(s: SiteConfig): string {
   ].filter(Boolean).join(',');
   return `<script type="application/ld+json">
 {"@context":"https://schema.org","@type":${q(bizType)},"@id":${q(s.url + '/#business')},
-"name":${q(plain(s.brand))},"url":${q(s.url)},"telephone":${q(citationPhone.display)},"email":${q(s.email)},"image":${q(s.url + '/assets/img/og-default.png')},"logo":${q(s.url + '/assets/img/favicon.svg')},
+"name":${q(plain(s.brand))},"url":${q(s.url)},"telephone":${q(citationPhone.display)},"email":${q(s.email)},"image":${q(s.url + '/assets/img/og-default.png')},"logo":${q(logoUrl)},
 "priceRange":"$$","areaServed":[${areaServed}],
 "address":{"@type":"PostalAddress",${addr}}${geoLine},
 "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"}}
@@ -101,6 +108,6 @@ export function schemaBlogpost(
 "image":${q(s.url + '/assets/img/og-default.png')},"datePublished":${q(date)},"dateModified":${q(date)},"url":${q(s.url + url)},
 "mainEntityOfPage":{"@type":"WebPage","@id":${q(s.url + url)}},
 "author":{"@type":"Organization","name":${q(plain(s.brand))}},
-"publisher":{"@type":"Organization","name":${q(plain(s.brand))},"url":${q(s.url)},"logo":{"@type":"ImageObject","url":${q(s.url + '/assets/img/favicon.svg')}}}}
+"publisher":{"@type":"Organization","name":${q(plain(s.brand))},"url":${q(s.url)},"logo":{"@type":"ImageObject","url":${q(s.media?.logo ? `${s.url}/assets/img/logos/${s.media.logo.replace(/\.svg$/, '.png')}` : `${s.url}/assets/img/favicon.svg`)}}}}
 </script>`;
 }

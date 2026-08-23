@@ -72,16 +72,17 @@ DHASH_SUSPECT = 6
 
 SUFFIXES = ["plumbingpros", "plumbing"]
 
-# USER DIRECTION carried from the hvac run (2026-08-23): stick to ONE
-# legible trade family, no distinctness engineering — same-family marks vary
-# by generation draw; the bar is byte-uniqueness, verified by the gate.
-# Concepts echo the four hand-drawn candidates the parallel agent sketched
-# (drop+wrench / circle+drop+pipe / faucet / shield+drop+wrench) — those
-# read correctly as "plumbing", which validates this family.
+# USER DIRECTION 2026-08-23 (after seeing the first 68): TOO BUSY — "just
+# need a simple wrench (non adjustable, looks more iconic) and waterdrop and
+# shield". Vocab = open-end wrench + water drop + shield ONLY; the shield
+# lives inside the concepts, so enclosures are trimmed to freestanding or
+# circle (a shield enclosure on a shield concept would double up). Palettes
+# unchanged. Redo = --force once AI Studio credit returns; plan re-picks
+# deterministically from the new pools.
 TRADE_CONCEPTS = [
-    "a pipe wrench crossing a water drop",
-    "a shield containing a water drop and a pipe wrench",
-    "a circle enclosing a water drop above a horizontal pipe",
+    "a simple open-end wrench crossing a water drop",
+    "a shield containing a simple open-end wrench and a water drop",
+    "a shield enclosing a large water drop",
 ]
 BRAND = "a residential plumbing company"
 VERTICAL = {}
@@ -89,10 +90,6 @@ VERTICAL = {}
 ENCLOSURES = [
     "no enclosure — a freestanding mark",
     "enclosed in a circle",
-    "enclosed in a hexagon",
-    "enclosed in a rounded square",
-    "enclosed in a shield",
-    "enclosed in a badge crest",
 ]
 STYLES = [
     "flat geometric shapes, solid fills",
