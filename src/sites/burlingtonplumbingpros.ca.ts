@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://burlingtonplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "burlingtonplumbingpros.ca.png", technicianPhoto: "burlingtonplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-burlingtonplumbingpros.ca.png", logo: "burlingtonplumbingpros.ca.png", technicianPhoto: "burlingtonplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/burlingtonplumbingpros.ca.webp" },
   noindex: false,
 };

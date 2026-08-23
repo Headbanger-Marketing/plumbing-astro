@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://caledoniaplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "caledoniaplumbingpros.ca.png", technicianPhoto: "caledoniaplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-caledoniaplumbingpros.ca.png", logo: "caledoniaplumbingpros.ca.png", technicianPhoto: "caledoniaplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/caledoniaplumbingpros.ca.webp" },
   noindex: true,
 };

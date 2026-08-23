@@ -39,12 +39,12 @@ curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$ZONE/email/routing/
 echo "  contact@$DOMAIN -> hvac-email-router Worker"
 
 echo ""
-echo "=== 2/4 Wait for A record to resolve to GH Pages ==="
+echo "=== 2/4 Wait for DNS + HTTPS 200 (CF CDN → GH Pages) ==="
 for i in $(seq 1 30); do
   ip=$(dig +short A "$DOMAIN" @1.1.1.1 2>/dev/null | head -1)
   echo "  [$i/30] A=${ip:-none}"
-  if echo "$ip" | grep -q '185.199'; then
-    echo "  DNS resolving to GH Pages!"
+  if [ -n "$ip" ]; then
+    echo "  DNS resolving"
     break
   fi
   sleep 20
@@ -53,27 +53,21 @@ done
 echo ""
 echo "=== 3/4 Enforce HTTPS (re-kick cname + enforce) ==="
 sleep 30  # let cert provision
-gh api -X PUT "repos/liamseopro/$DOMAIN/pages" -f 'cname=""' >/dev/null 2>&1 || true
+gh api -X PUT "repos/Headbanger-Marketing/$DOMAIN/pages" -f 'cname=""' >/dev/null 2>&1 || true
 sleep 5
-gh api -X PUT "repos/liamseopro/$DOMAIN/pages" -f "cname=$DOMAIN" >/dev/null 2>&1 || true
+gh api -X PUT "repos/Headbanger-Marketing/$DOMAIN/pages" -f "cname=$DOMAIN" >/dev/null 2>&1 || true
 sleep 10
-gh api -X PUT "repos/liamseopro/$DOMAIN/pages" -F "https_enforced=true" >/dev/null 2>&1 || true
+gh api -X PUT "repos/Headbanger-Marketing/$DOMAIN/pages" -F "https_enforced=true" >/dev/null 2>&1 || true
 echo "  HTTPS enforcement requested"
 
 echo ""
 echo "=== 4/4 Verify ==="
 sleep 10
-ip=$(dig +short A "$DOMAIN" @1.1.1.1 2>/dev/null | head -1)
-if echo "$ip" | grep -q '185.199'; then
-  code=$(curl -s -o /dev/null -w '%{http_code}' --resolve "$DOMAIN:443:$ip" "https://$DOMAIN/" 2>/dev/null || echo "000")
-  title=$(curl -sk --resolve "$DOMAIN:443:$ip" "https://$DOMAIN/" 2>/dev/null | grep -o '<title>[^<]*</title>' | head -1)
-  echo "  HTTPS: $code"
-  echo "  Title: $title"
-else
-  echo "  A record not yet at GH Pages — cert may still be provisioning."
-  echo "  Check in 5-10 min: curl -sk https://$DOMAIN/ | grep '<title>'"
-fi
+code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "https://$DOMAIN/" 2>/dev/null || echo "000")
+title=$(curl -sk --max-time 20 "https://$DOMAIN/" 2>/dev/null | grep -o '<title>[^<]*</title>' | head -1)
+echo "  HTTPS: $code"
+echo "  Title: $title"
 
 echo ""
 echo "=== Pages config ==="
-gh api "repos/liamseopro/$DOMAIN/pages" --jq '{status, cname, https_enforced, cert: .https_certificate.state}' 2>/dev/null
+gh api "repos/Headbanger-Marketing/$DOMAIN/pages" --jq '{status, cname, https_enforced, cert: .https_certificate.state}' 2>/dev/null

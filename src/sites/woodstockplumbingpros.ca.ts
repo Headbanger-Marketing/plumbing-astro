@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://woodstockplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "woodstockplumbingpros.ca.png", technicianPhoto: "woodstockplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-woodstockplumbingpros.ca.png", logo: "woodstockplumbingpros.ca.png", technicianPhoto: "woodstockplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/woodstockplumbingpros.ca.webp" },
   noindex: false,
 };

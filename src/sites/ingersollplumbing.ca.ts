@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://ingersollplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "ingersollplumbing.ca.png", technicianPhoto: "ingersollplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-ingersollplumbing.ca.png", logo: "ingersollplumbing.ca.png", technicianPhoto: "ingersollplumbing.ca-home-tech.jpg",
     heroImage: "heroes/ingersollplumbing.ca.webp" },
   noindex: true,
 };

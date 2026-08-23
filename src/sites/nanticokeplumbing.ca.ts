@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://nanticokeplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "nanticokeplumbing.ca.png", technicianPhoto: "nanticokeplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-nanticokeplumbing.ca.png", logo: "nanticokeplumbing.ca.png", technicianPhoto: "nanticokeplumbing.ca-home-tech.jpg",
     heroImage: "heroes/nanticokeplumbing.ca.webp" },
   noindex: true,
 };

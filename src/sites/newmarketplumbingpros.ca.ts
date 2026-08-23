@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://newmarketplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "newmarketplumbingpros.ca.png", technicianPhoto: "newmarketplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-newmarketplumbingpros.ca.png", logo: "newmarketplumbingpros.ca.png", technicianPhoto: "newmarketplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/newmarketplumbingpros.ca.webp" },
   noindex: false,
 };

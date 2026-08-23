@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://lasalleplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "lasalleplumbing.ca.png", technicianPhoto: "lasalleplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-lasalleplumbing.ca.png", logo: "lasalleplumbing.ca.png", technicianPhoto: "lasalleplumbing.ca-home-tech.jpg",
     heroImage: "heroes/lasalleplumbing.ca.webp" },
   noindex: false,
 };

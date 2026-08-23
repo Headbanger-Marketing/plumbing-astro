@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://clintonplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "clintonplumbing.ca.png", technicianPhoto: "clintonplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-clintonplumbing.ca.png", logo: "clintonplumbing.ca.png", technicianPhoto: "clintonplumbing.ca-home-tech.jpg",
     heroImage: "heroes/clintonplumbing.ca.webp" },
   noindex: true,
 };

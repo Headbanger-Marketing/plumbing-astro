@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://forestplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "forestplumbing.ca.png", technicianPhoto: "forestplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-forestplumbing.ca.png", logo: "forestplumbing.ca.png", technicianPhoto: "forestplumbing.ca-home-tech.jpg",
     heroImage: "heroes/forestplumbing.ca.webp" },
   noindex: true,
 };

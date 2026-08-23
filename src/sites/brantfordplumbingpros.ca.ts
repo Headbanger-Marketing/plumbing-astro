@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://brantfordplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "brantfordplumbingpros.ca.png", technicianPhoto: "brantfordplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-brantfordplumbingpros.ca.png", logo: "brantfordplumbingpros.ca.png", technicianPhoto: "brantfordplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/brantfordplumbingpros.ca.webp" },
   noindex: false,
 };

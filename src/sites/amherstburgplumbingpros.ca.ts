@@ -29,7 +29,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://amherstburgplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "amherstburgplumbingpros.ca.png", technicianPhoto: "amherstburgplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-amherstburgplumbingpros.ca.png", logo: "amherstburgplumbingpros.ca.png", technicianPhoto: "amherstburgplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/amherstburgplumbingpros.ca.webp" },
   noindex: false,
 };

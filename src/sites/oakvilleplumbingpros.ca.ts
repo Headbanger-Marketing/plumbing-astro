@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://oakvilleplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "oakvilleplumbingpros.ca.png", technicianPhoto: "oakvilleplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-oakvilleplumbingpros.ca.png", logo: "oakvilleplumbingpros.ca.png", technicianPhoto: "oakvilleplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/oakvilleplumbingpros.ca.webp" },
   noindex: false,
 };

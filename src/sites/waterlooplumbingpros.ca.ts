@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://waterlooplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "waterlooplumbingpros.ca.png", technicianPhoto: "waterlooplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-waterlooplumbingpros.ca.png", logo: "waterlooplumbingpros.ca.png", technicianPhoto: "waterlooplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/waterlooplumbingpros.ca.webp" },
   noindex: false,
 };

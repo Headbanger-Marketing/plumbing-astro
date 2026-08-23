@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://owensoundplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "owensoundplumbingpros.ca.png", technicianPhoto: "owensoundplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-owensoundplumbingpros.ca.png", logo: "owensoundplumbingpros.ca.png", technicianPhoto: "owensoundplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/owensoundplumbingpros.ca.webp" },
   noindex: false,
 };

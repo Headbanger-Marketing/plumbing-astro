@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://auroraplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "auroraplumbingpros.ca.png", technicianPhoto: "auroraplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-auroraplumbingpros.ca.png", logo: "auroraplumbingpros.ca.png", technicianPhoto: "auroraplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/auroraplumbingpros.ca.webp" },
   noindex: false,
 };

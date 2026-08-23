@@ -29,7 +29,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://sarniaplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "sarniaplumbing.ca.png", technicianPhoto: "sarniaplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-sarniaplumbing.ca.png", logo: "sarniaplumbing.ca.png", technicianPhoto: "sarniaplumbing.ca-home-tech.jpg",
     heroImage: "heroes/sarniaplumbing.ca.webp" },
   noindex: false,
 };

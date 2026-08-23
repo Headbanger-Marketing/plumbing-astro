@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://listowelplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "listowelplumbing.ca.png", technicianPhoto: "listowelplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-listowelplumbing.ca.png", logo: "listowelplumbing.ca.png", technicianPhoto: "listowelplumbing.ca-home-tech.jpg",
     heroImage: "heroes/listowelplumbing.ca.webp" },
   noindex: true,
 };

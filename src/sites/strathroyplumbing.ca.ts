@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://strathroyplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "strathroyplumbing.ca.png", technicianPhoto: "strathroyplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-strathroyplumbing.ca.png", logo: "strathroyplumbing.ca.png", technicianPhoto: "strathroyplumbing.ca-home-tech.jpg",
     heroImage: "heroes/strathroyplumbing.ca.webp" },
   noindex: false,
 };

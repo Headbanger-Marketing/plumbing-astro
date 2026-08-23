@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://ancasterplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "ancasterplumbingpros.ca.png", technicianPhoto: "ancasterplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-ancasterplumbingpros.ca.png", logo: "ancasterplumbingpros.ca.png", technicianPhoto: "ancasterplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/ancasterplumbingpros.ca.webp" },
   noindex: false,
 };

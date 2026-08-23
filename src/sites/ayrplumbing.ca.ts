@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://ayrplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "ayrplumbing.ca.png", technicianPhoto: "ayrplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-ayrplumbing.ca.png", logo: "ayrplumbing.ca.png", technicianPhoto: "ayrplumbing.ca-home-tech.jpg",
     heroImage: "heroes/ayrplumbing.ca.webp" },
   noindex: true,
 };

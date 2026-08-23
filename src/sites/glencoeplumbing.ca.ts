@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://glencoeplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "glencoeplumbing.ca.png", technicianPhoto: "glencoeplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-glencoeplumbing.ca.png", logo: "glencoeplumbing.ca.png", technicianPhoto: "glencoeplumbing.ca-home-tech.jpg",
     heroImage: "heroes/glencoeplumbing.ca.webp" },
   noindex: true,
 };

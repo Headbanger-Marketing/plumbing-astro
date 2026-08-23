@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://georgetownplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "georgetownplumbingpros.ca.png", technicianPhoto: "georgetownplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-georgetownplumbingpros.ca.png", logo: "georgetownplumbingpros.ca.png", technicianPhoto: "georgetownplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/georgetownplumbingpros.ca.webp" },
   noindex: false,
 };

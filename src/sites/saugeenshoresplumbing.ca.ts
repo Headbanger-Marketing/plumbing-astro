@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://saugeenshoresplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "saugeenshoresplumbing.ca.png", technicianPhoto: "saugeenshoresplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-saugeenshoresplumbing.ca.png", logo: "saugeenshoresplumbing.ca.png", technicianPhoto: "saugeenshoresplumbing.ca-home-tech.jpg",
     heroImage: "heroes/saugeenshoresplumbing.ca.webp" },
   noindex: false,
 };

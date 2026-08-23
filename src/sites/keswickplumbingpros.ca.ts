@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://keswickplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "keswickplumbingpros.ca.png", technicianPhoto: "keswickplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-keswickplumbingpros.ca.png", logo: "keswickplumbingpros.ca.png", technicianPhoto: "keswickplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/keswickplumbingpros.ca.webp" },
   noindex: false,
 };

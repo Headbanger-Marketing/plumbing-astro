@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://miltonplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "miltonplumbingpros.ca.png", technicianPhoto: "miltonplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-miltonplumbingpros.ca.png", logo: "miltonplumbingpros.ca.png", technicianPhoto: "miltonplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/miltonplumbingpros.ca.webp" },
   noindex: false,
 };

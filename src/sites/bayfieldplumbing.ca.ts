@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://bayfieldplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "bayfieldplumbing.ca.png", technicianPhoto: "bayfieldplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-bayfieldplumbing.ca.png", logo: "bayfieldplumbing.ca.png", technicianPhoto: "bayfieldplumbing.ca-home-tech.jpg",
     heroImage: "heroes/bayfieldplumbing.ca.webp" },
   noindex: true,
 };

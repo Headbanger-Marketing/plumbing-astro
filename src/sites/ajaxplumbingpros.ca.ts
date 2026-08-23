@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://ajaxplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "ajaxplumbingpros.ca.png", technicianPhoto: "ajaxplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-ajaxplumbingpros.ca.png", logo: "ajaxplumbingpros.ca.png", technicianPhoto: "ajaxplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/ajaxplumbingpros.ca.webp" },
   noindex: false,
 };

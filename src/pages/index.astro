@@ -207,7 +207,7 @@ const vc = verticalCopy(site);
           `The difference shows up in the details: boots on at the door, options laid out with real prices, systems explained in plain words, and a cleanup that leaves the house better than we found it.`,
         ])}></p>
         <div style="display:flex;align-items:center;gap:14px;margin-top:24px">
-          <img class="badge-img" src={`${WP}/quality-guarantee.png`} alt="Satisfaction guarantee" width="320" height="320" loading="lazy" decoding="async">
+          <img class="badge-img" src={`${WP}/${site.media?.guaranteeBadge || 'quality-guarantee.png'}`} alt={`${site.brand} satisfaction guarantee`} width="320" height="320" loading="lazy" decoding="async">
           <p style="margin:0;color:var(--muted);font-size:.95rem">Backed by our 100% satisfaction guarantee on every job.</p>
         </div>
       </div>

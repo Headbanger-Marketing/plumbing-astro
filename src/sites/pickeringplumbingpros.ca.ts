@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://pickeringplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "pickeringplumbingpros.ca.png", technicianPhoto: "pickeringplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-pickeringplumbingpros.ca.png", logo: "pickeringplumbingpros.ca.png", technicianPhoto: "pickeringplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/pickeringplumbingpros.ca.webp" },
   noindex: false,
 };

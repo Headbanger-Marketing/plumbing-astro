@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://seaforthplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "seaforthplumbing.ca.png", technicianPhoto: "seaforthplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-seaforthplumbing.ca.png", logo: "seaforthplumbing.ca.png", technicianPhoto: "seaforthplumbing.ca-home-tech.jpg",
     heroImage: "heroes/seaforthplumbing.ca.webp" },
   noindex: true,
 };

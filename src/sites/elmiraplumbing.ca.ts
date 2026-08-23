@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://elmiraplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "elmiraplumbing.ca.png", technicianPhoto: "elmiraplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-elmiraplumbing.ca.png", logo: "elmiraplumbing.ca.png", technicianPhoto: "elmiraplumbing.ca-home-tech.jpg",
     heroImage: "heroes/elmiraplumbing.ca.webp" },
   noindex: true,
 };

@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://chathamplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "chathamplumbingpros.ca.png", technicianPhoto: "chathamplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-chathamplumbingpros.ca.png", logo: "chathamplumbingpros.ca.png", technicianPhoto: "chathamplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/chathamplumbingpros.ca.webp" },
   noindex: false,
 };

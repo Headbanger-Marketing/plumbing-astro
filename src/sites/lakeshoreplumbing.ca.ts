@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://lakeshoreplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "lakeshoreplumbing.ca.png", technicianPhoto: "lakeshoreplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-lakeshoreplumbing.ca.png", logo: "lakeshoreplumbing.ca.png", technicianPhoto: "lakeshoreplumbing.ca-home-tech.jpg",
     heroImage: "heroes/lakeshoreplumbing.ca.webp" },
   noindex: false,
 };

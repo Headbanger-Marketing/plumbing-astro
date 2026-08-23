@@ -109,6 +109,80 @@ def neutralize(text, toks):
     return re.sub(r"\b[\w.-]+\.ca\b", "«D»", text)
 
 
+def dist_media():
+    """Rendered media existence gate (media-audit 2026-08-23): every media URL
+    referenced by a site's built dist pages + css must exist in that site's
+    dist tree. Includes INLINE style url() -- the channel the 2026-08 prune
+    missed (service hero backgrounds 404ed silently estate-wide)."""
+    import posixpath
+    tag_re = re.compile(r"<(img|meta|link)\b([^>]*)>")
+    attr_re = re.compile(r'([a-zA-Z_:.-]+)\s*=\s*"([^"]*)"')
+    css_url_re = re.compile(r"url\(\s*['\"]?([^'\")]+)['\"]?\s*\)")
+    style_attr_re = re.compile(r'style="([^"]*)"')
+    jsonld_re = re.compile(r'"(?:image|logo|photo|thumbnail)"\s*:\s*"([^"]+)"')
+    exts = {".png", ".jpg", ".jpeg", ".webp", ".svg", ".gif", ".avif", ".ico"}
+    for dom in sorted(p.stem for p in SITES_DIR.glob("*.ts") if p.stem.endswith(".ca")):
+        root = ROOT / "dist" / dom
+        if not root.is_dir():
+            continue
+        missing = {}
+
+        def check(url, page_dir, where):
+            u = (url or "").strip()
+            if not u or u.startswith(("data:", "#")):
+                return
+            m = re.match(r"(?:https?://|//)([^/]+)(/.*)?", u)
+            if m:
+                if m.group(1).removeprefix("www.") != dom:
+                    return  # external host
+                u = m.group(2) or "/"
+            u = u.split("?")[0].split("#")[0]
+            if posixpath.splitext(u)[1].lower() not in exts:
+                return
+            rel = u.lstrip("/") if u.startswith("/") else posixpath.normpath(
+                posixpath.join(page_dir, u)).lstrip("/")
+            if not (root / rel).is_file():
+                missing.setdefault(rel, where)
+
+        seen_pages = set()
+        pages = [root / "index.html"]
+        pages += [root / rel / "index.html" for rel in DIST_PAGES if rel]
+        pages += [root / "thank-you" / "index.html"]
+        for page in pages + list(root.rglob("*.html")):
+            if not page.is_file() or page in seen_pages:
+                continue
+            seen_pages.add(page)
+            rel_page = page.relative_to(root).as_posix()
+            pd = posixpath.dirname(rel_page)
+            text = page.read_text(encoding="utf-8", errors="replace")
+            for tm in tag_re.finditer(text):
+                attrs = dict(attr_re.findall(tm.group(2)))
+                tg = tm.group(1)
+                if tg == "img":
+                    check(attrs.get("src"), pd, rel_page)
+                elif tg == "meta":
+                    key = (attrs.get("property") or attrs.get("name") or "").lower()
+                    if key in ("og:image", "og:image:secure_url", "twitter:image", "twitter:image:src"):
+                        check(attrs.get("content"), pd, rel_page)
+                else:
+                    relv = (attrs.get("rel") or "").lower()
+                    if "icon" in relv or "apple-touch" in relv:
+                        check(attrs.get("href"), pd, rel_page)
+            for sm in style_attr_re.finditer(text):
+                for cm in css_url_re.finditer(sm.group(1)):
+                    check(cm.group(1), pd, rel_page + " (inline style)")
+            for jm in jsonld_re.finditer(text):
+                check(jm.group(1), pd, rel_page + " (jsonld)")
+        for cssf in root.rglob("*.css"):
+            crel = cssf.relative_to(root).as_posix()
+            ct = cssf.read_text(encoding="utf-8", errors="replace")
+            for cm in css_url_re.finditer(ct):
+                check(cm.group(1), posixpath.dirname(crel), crel + " (css)")
+        if missing:
+            sample = ", ".join(f"{k} ({v})" for k, v in list(missing.items())[:3])
+            fails.append(f"MEDIA {dom}: {len(missing)} missing dist file(s): {sample}")
+
+
 def dist_dupe(tokens_by_site, launch_gate):
     """Pairwise 5-gram Jaccard across RENDERED dist/ pages per page type.
     Summarized per page type (pair lists would be thousands of lines)."""
@@ -291,6 +365,8 @@ def main():
     # ---- rendered-dist duplicate check ----
     if not skip_dist:
         dist_dupe(dist_tokens, launch_gate)
+        if not skip_dist:
+            dist_media()
 
     return report()
 

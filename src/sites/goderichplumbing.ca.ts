@@ -29,7 +29,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://goderichplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "goderichplumbing.ca.png", technicianPhoto: "goderichplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-goderichplumbing.ca.png", logo: "goderichplumbing.ca.png", technicianPhoto: "goderichplumbing.ca-home-tech.jpg",
     heroImage: "heroes/goderichplumbing.ca.webp" },
   noindex: false,
 };

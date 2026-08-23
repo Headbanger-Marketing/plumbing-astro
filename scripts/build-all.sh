@@ -25,6 +25,12 @@ echo
 FAILED=""
 for SITE in $SITES; do
   if HVAC_SITE="$SITE" ./scripts/build-site.sh "$@"; then
+    # Regenerate the per-site OG card right after the build: the astro build
+    # wipes dist/, and without this every dist ships the shared public/
+    # placeholder until a deploy wave happens to pass by (media-audit 2026-08-23).
+    if [ -f scripts/gen-og-images.mjs ]; then
+      node scripts/gen-og-images.mjs "$SITE" >/dev/null 2>&1 || echo "[build-all] OG GEN FAIL: $SITE" >&2
+    fi
     echo
   else
     echo "[build-all] FAILED: $SITE" >&2

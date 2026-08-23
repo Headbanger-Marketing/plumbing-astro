@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://aylmerplumbing.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "aylmerplumbing.ca.png", technicianPhoto: "aylmerplumbing.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-aylmerplumbing.ca.png", logo: "aylmerplumbing.ca.png", technicianPhoto: "aylmerplumbing.ca-home-tech.jpg",
     heroImage: "heroes/aylmerplumbing.ca.webp" },
   noindex: true,
 };

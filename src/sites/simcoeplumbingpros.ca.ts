@@ -28,7 +28,7 @@ export const site: SiteConfig = {
   },
   ogImage: "https://simcoeplumbingpros.ca/assets/img/og-default.png",
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
-  media: { logo: "simcoeplumbingpros.ca.png", technicianPhoto: "simcoeplumbingpros.ca-home-tech.jpg",
+  media: { guaranteeBadge: "guarantee-simcoeplumbingpros.ca.png", logo: "simcoeplumbingpros.ca.png", technicianPhoto: "simcoeplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/simcoeplumbingpros.ca.webp" },
   noindex: false,
 };

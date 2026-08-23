@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Provision a brand-new HVAC site's deploy repo end-to-end:
-#   1. Create the private GitHub repo (liamseopro/<domain>)
+#   1. Create the private GitHub repo (Headbanger-Marketing/<domain>)
 #   2. Clone it into hvac-network/sites/<domain>/
 #   3. Stage the files sync-deploy-repo.sh does NOT produce:
 #      CNAME, .nojekyll, .gitignore, robots.txt, llms.txt,
@@ -15,7 +15,7 @@
 #
 # Prerequisites:
 #   - The site must already be scaffolded + built (src/sites/<domain>.ts exists)
-#   - gh CLI authenticated to the liamseopro org
+#   - gh CLI authenticated to the Headbanger-Marketing org
 #   - The domain registered + NS delegated to Cloudflare (Headbanger acct)
 set -euo pipefail
 
@@ -42,12 +42,12 @@ if [ -d "$DEPLOY/.git" ]; then
 fi
 
 echo "=== [$DOMAIN] Step 1/5: create GitHub repo ==="
-if gh repo view "liamseopro/$DOMAIN" >/dev/null 2>&1; then
+if gh repo view "Headbanger-Marketing/$DOMAIN" >/dev/null 2>&1; then
   echo "  repo already exists on GitHub — cloning existing."
 else
-  gh repo create "liamseopro/$DOMAIN" --private --confirm 2>/dev/null || \
-  gh repo create "liamseopro/$DOMAIN" --private
-  echo "  created liamseopro/$DOMAIN (private)"
+  gh repo create "Headbanger-Marketing/$DOMAIN" --private --confirm 2>/dev/null || \
+  gh repo create "Headbanger-Marketing/$DOMAIN" --private
+  echo "  created Headbanger-Marketing/$DOMAIN (private)"
 fi
 
 echo "=== [$DOMAIN] Step 2/5: clone into deploy dir ==="
@@ -55,20 +55,20 @@ mkdir -p "$NETWORK"
 if [ -d "$DEPLOY" ]; then
   # Dir exists but no .git (maybe a stale artifact dir) — clone into a temp then move
   TMP=$(mktemp -d)
-  gh repo clone "liamseopro/$DOMAIN" "$TMP/$DOMAIN" 2>/dev/null || true
+  gh repo clone "Headbanger-Marketing/$DOMAIN" "$TMP/$DOMAIN" 2>/dev/null || true
   # Move .git into the existing dir
   if [ -d "$TMP/$DOMAIN/.git" ]; then
     mv "$TMP/$DOMAIN/.git" "$DEPLOY/.git"
   else
     # Empty repo, no clone — init fresh
-    (cd "$DEPLOY" && git init -q && git remote add origin "https://github.com/liamseopro/$DOMAIN.git")
+    (cd "$DEPLOY" && git init -q && git remote add origin "https://github.com/Headbanger-Marketing/$DOMAIN.git")
   fi
   rm -rf "$TMP"
 else
-  gh repo clone "liamseopro/$DOMAIN" "$DEPLOY" 2>/dev/null || {
+  gh repo clone "Headbanger-Marketing/$DOMAIN" "$DEPLOY" 2>/dev/null || {
     # New empty repo — clone fails, so init locally and add remote
     mkdir -p "$DEPLOY"
-    (cd "$DEPLOY" && git init -q && git remote add origin "https://github.com/liamseopro/$DOMAIN.git")
+    (cd "$DEPLOY" && git init -q && git remote add origin "https://github.com/Headbanger-Marketing/$DOMAIN.git")
   }
 fi
 echo "  deploy repo at $DEPLOY"
@@ -130,13 +130,13 @@ echo "=== [$DOMAIN] Step 5/5: enable GitHub Pages + set cname ==="
 # Enable Pages on main branch (legacy build type for static). Retry: the first
 # push may still be registering the branch server-side.
 for attempt in 1 2 3; do
-  gh api -X POST "repos/liamseopro/$DOMAIN/pages" \
+  gh api -X POST "repos/Headbanger-Marketing/$DOMAIN/pages" \
     -f build_type=legacy -f 'source[branch]=main' 2>/dev/null && break
   sleep 5
 done
 
 # Set the cname
-gh api -X PUT "repos/liamseopro/$DOMAIN/pages" -f "cname=$DOMAIN" 2>/dev/null || true
+gh api -X PUT "repos/Headbanger-Marketing/$DOMAIN/pages" -f "cname=$DOMAIN" 2>/dev/null || true
 echo "  Pages enabled, cname=$DOMAIN"
 
 echo ""
@@ -145,6 +145,6 @@ echo "Next steps:"
 echo "  1. Build + sync the HTML:  HVAC_SITE=$DOMAIN ./scripts/build-site.sh"
 echo "  2. Commit + push the synced build:  (cd $DEPLOY && git add -A && git commit -m 'Initial build' && git push)"
 echo "  3. Create DNS records on Headbanger CF (cloudflare-bulk skill):"
-echo "     apex A x4 -> 185.199.108/109/110/111.153 grey; www CNAME -> liamseopro.github.io grey"
+echo "     apex A x4 -> 185.199.108/109/110/111.153 orange; www CNAME -> headbanger-marketing.github.io orange (CF CDN)"
 echo "  4. Verify HTTPS 200 at https://$DOMAIN (cert provisions after DNS resolves)"
 echo "  5. Enable CF email routing for contact@$DOMAIN (-> hvac-email-router Worker)"
