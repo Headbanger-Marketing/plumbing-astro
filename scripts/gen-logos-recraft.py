@@ -65,7 +65,11 @@ MODEL = "recraftv4_1_vector"
 GEMINI_API = "https://generativelanguage.googleapis.com/v1beta/models"
 GEMINI_MODEL = "gemini-3.1-flash-image"  # Nano Banana 2
 GEMINI_KEY_FILE = "~/.local/share/opencode/auth.json"  # AI Studio key (opencode "google")
+GROK_API = "https://api.x.ai/v1/images/generations"
+GROK_MODEL = "grok-imagine-image-2.0"
+GROK_KEY_FILE = "~/.local/share/opencode/auth.json"  # xai OAuth access (opencode "xai")
 MANIFEST = os.path.join(LOGO_DIR, ".gemini-manifest")
+GROK_MANIFEST = os.path.join(LOGO_DIR, ".grok-manifest")
 # informational threshold — the bar is byte-uniqueness (every Recraft draw is
 # fresh); pairs this close would mean near-identical art worth eyeballing
 DHASH_SUSPECT = 6
@@ -74,29 +78,28 @@ SUFFIXES = ["plumbingpros", "plumbing"]
 
 # USER DIRECTION 2026-08-23 (after seeing the first 68): TOO BUSY — "just
 # need a simple wrench (non adjustable, looks more iconic) and waterdrop and
-# shield". Vocab = open-end wrench + water drop + shield ONLY; the shield
-# lives inside the concepts, so enclosures are trimmed to freestanding or
-# circle (a shield enclosure on a shield concept would double up). Palettes
-# unchanged. Redo = --force once AI Studio credit returns; plan re-picks
-# deterministically from the new pools.
+# shield". Vocab = open-end wrench + water drop + shield ONLY.
+# ROUND 2 (grok pilot matrix same day): freestanding line art read "too
+# simple, too much white space" — locked the D-shield direction: solid-fill
+# shields that fill the frame with a slim margin. Enclosures now carry that
+# treatment text (single entry, constant); styles are the solid family only.
+# Palettes unchanged. Engine = grok (imagine 2.0, opencode xai OAuth).
 TRADE_CONCEPTS = [
-    "a simple open-end wrench crossing a water drop",
     "a shield containing a simple open-end wrench and a water drop",
-    "a shield enclosing a large water drop",
+    "a shield with a large water drop as its centerpiece",
+    "a shield with a bold open-end wrench as its centerpiece",
 ]
 BRAND = "a residential plumbing company"
 VERTICAL = {}
 
 ENCLOSURES = [
-    "no enclosure — a freestanding mark",
-    "enclosed in a circle",
+    "solid vivid fills, chunky confident weight, the shield fills the frame "
+    "with only a slim margin",
 ]
 STYLES = [
-    "flat geometric shapes, solid fills",
-    "bold single-weight line art",
+    "flat geometric shapes",
     "layered flat design with a subtle two-tone depth",
-    "negative-space mark cut from a solid shape",
-    "thin double-line outline, airy and precise",
+    "solid fills with a thick contrasting outline",
 ]
 PALETTES = [
     ("navy/gold", "deep navy blue and gold"),
@@ -127,10 +130,10 @@ def vertical_of(suffix):
 
 def build_prompt(concept_i, encl_i, style_i, pal_i, concepts, brand_desc):
     return (
-        f"Flat vector logo mark for {brand_desc}: {concepts[concept_i]}, "
+        f"Bold flat vector logo mark for {brand_desc}: {concepts[concept_i]}, "
         f"{ENCLOSURES[encl_i]}. Palette: {PALETTES[pal_i][1]}. "
         f"{STYLES[style_i]}, professional trade-services branding, crisp edges, "
-        f"balanced composition, generous margin. "
+        f"balanced composition. "
         f"No text, no letters, no numbers, no words, no watermark. "
         f"Centered on a plain white background."
     )
@@ -249,6 +252,55 @@ def gemini_generate(prompt, key):
     raise RuntimeError(f"gemini failed after 4 attempts: {last}")
 
 
+def grok_generate(prompt, key):
+    """Grok Imagine 2.0 via /v1/images/generations; returns flattened PNG bytes.
+
+    Two quirks vs gemini (found in the 2026-08-23 pilot): the response is a
+    hosted URL (not b64), and the imgen.x.ai CDN 403s the default python
+    user-agent — fetch with a browser UA. OAuth access token lives in the
+    opencode auth.json "xai" entry and expires (refresh token unused here);
+    a 401 means re-auth opencode, not a retryable error.
+    """
+    body = json.dumps({"model": GROK_MODEL, "prompt": prompt, "n": 1}).encode()
+    last = ""
+    for attempt in range(4):
+        try:
+            req = urllib.request.Request(
+                GROK_API, data=body,
+                headers={"Authorization": f"Bearer {key}",
+                         "Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=180) as r:
+                j = json.loads(r.read())
+            d = j["data"][0]
+            if d.get("b64_json"):
+                raw = base64.b64decode(d["b64_json"])
+                return flatten_png(raw, "image/png")
+            url = d["url"]
+            r2 = urllib.request.Request(
+                url, headers={"User-Agent":
+                              "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"})
+            with urllib.request.urlopen(r2, timeout=60) as r2r:
+                raw = r2r.read()
+            return flatten_png(raw, "image/jpeg")
+        except urllib.error.HTTPError as e:
+            detail = ""
+            try:
+                detail = e.read().decode()[:300]
+            except Exception:  # noqa: BLE001
+                pass
+            if e.code == 401:
+                raise RuntimeError(
+                    f"GROK TOKEN EXPIRED — re-auth opencode xai. {detail[:150]}")
+            last = f"{e} {detail}"
+            if attempt < 3:
+                time.sleep(5 * (attempt + 1))
+        except Exception as e:  # noqa: BLE001 — retry transport failures
+            last = str(e)[:200]
+            if attempt < 3:
+                time.sleep(5 * (attempt + 1))
+    raise RuntimeError(f"grok failed after 4 attempts: {last}")
+
+
 def flatten_png(raw, mime):
     """Arbitrary raster (JPEG) -> white-flattened square PNG via sharp."""
     with tempfile.NamedTemporaryFile(suffix="." + mime.split("/")[-1], delete=False) as t:
@@ -272,18 +324,18 @@ def flatten_png(raw, mime):
             os.unlink(dst)
 
 
-def manifest_read():
-    if not os.path.exists(MANIFEST):
+def manifest_read(path=MANIFEST):
+    if not os.path.exists(path):
         return set()
-    return {l.strip() for l in open(MANIFEST) if l.strip()}
+    return {l.strip() for l in open(path) if l.strip()}
 
 
 _manifest_lock = threading.Lock()
 
 
-def manifest_add(domain):
+def manifest_add(domain, path=MANIFEST):
     with _manifest_lock:
-        with open(MANIFEST, "a") as f:
+        with open(path, "a") as f:
             f.write(domain + "\n")
 
 
@@ -367,8 +419,10 @@ def gate(strict):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--engine", choices=["recraft", "gemini"], default="recraft",
-                    help="recraft = SVG $0.08 (default) | gemini = Nano Banana 2 PNG ~$0.03")
+    ap.add_argument("--engine", choices=["recraft", "gemini", "grok"],
+                    default="recraft",
+                    help="recraft = SVG $0.08 (default) | gemini = Nano Banana 2 "
+                         "PNG ~$0.03 | grok = Imagine 2.0 PNG (opencode xai OAuth)")
     ap.add_argument("--dry-run", action="store_true", help="print the plan, no API calls")
     ap.add_argument("--concurrency", type=int, default=1,
                     help="parallel Gemini generations (network-bound; ~6 is sweet spot)")
@@ -386,6 +440,9 @@ def main():
     key = ""
     if args.engine == "gemini":
         key = load_gemini_key()
+    elif args.engine == "grok":
+        auth = json.load(open(os.path.expanduser(GROK_KEY_FILE)))
+        key = auth["xai"]["access"]
     else:
         cred = os.path.expanduser("~/.recraft/credentials")
         if os.path.exists(cred):
@@ -401,10 +458,11 @@ def main():
         domains = [d for d in domains if d in keep]
     picks = plan(domains)
 
-    done = manifest_read() if args.engine == "gemini" else set()
+    mpath = {"gemini": MANIFEST, "grok": GROK_MANIFEST}.get(args.engine)
+    done = manifest_read(mpath) if mpath else set()
     todo = []
     for d, p in picks.items():
-        if args.engine == "gemini":
+        if mpath:
             # done = already gemini-generated, OR recraft-approved (has .svg
             # and wasn't --force'd — the 29 approved stay SVG)
             has = d in done or os.path.exists(os.path.join(LOGO_DIR, f"{d}.svg"))
@@ -415,7 +473,7 @@ def main():
     if args.limit:
         todo = todo[: args.limit]
 
-    unit = 0.08 if args.engine == "recraft" else 0.03
+    unit = {"recraft": 0.08, "gemini": 0.03, "grok": 0.07}[args.engine]
     print(f"{len(picks)} sites planned | engine={args.engine} | {len(todo)} to "
           f"generate (~${len(todo) * unit:.2f}) | {len(picks) - len(todo)} already done")
     if args.dry_run:
@@ -428,7 +486,7 @@ def main():
     if not key:
         sys.exit("no API key found for engine " + args.engine)
 
-    if args.engine == "gemini":
+    if mpath:
         # adopt manifest sites missing only their config rewrite
         for d in done:
             if d not in picks:
@@ -439,6 +497,7 @@ def main():
                 print(f"adopted {d} (config rewrite only, no API)")
 
         stop = threading.Event()
+        generate = gemini_generate if args.engine == "gemini" else grok_generate
 
         def gen_one(i_d):
             i, d = i_d
@@ -450,25 +509,25 @@ def main():
             png_path = os.path.join(LOGO_DIR, f"{d}.png")
             svg_path = os.path.join(LOGO_DIR, f"{d}.svg")
             try:
-                png = gemini_generate(prompt, key)
+                png = generate(prompt, key)
                 with open(png_path, "wb") as f:
                     f.write(png)
                 rewrite_config(os.path.join(SITES_DIR, f"{d}.ts"), f"{d}.png")
-                manifest_add(d)
+                manifest_add(d, mpath)
                 if os.path.exists(svg_path):  # stale rejected-recraft mark
                     os.remove(svg_path)
                 print(f"[{i}/{len(todo)}] {d:36s} OK  {len(png)/1024:.0f}KB png  "
                       f"{PALETTES[p['pal']][0]}")
             except Exception as e:  # noqa: BLE001
                 print(f"[{i}/{len(todo)}] {d:36s} ERR {e}")
-                if "OUT OF GEMINI QUOTA" in str(e):
+                if "OUT OF GEMINI QUOTA" in str(e) or "GROK TOKEN EXPIRED" in str(e):
                     stop.set()
 
         with concurrent.futures.ThreadPoolExecutor(max_workers=args.concurrency) as ex:
             list(ex.map(gen_one, enumerate(todo, 1)))
         if stop.is_set():
-            print("\nstopped — spend cap/billing; completed sites are in "
-                  ".gemini-manifest and skipped on re-run")
+            print(f"\nstopped — quota/token; completed sites are in "
+                  f"{os.path.basename(mpath)} and skipped on re-run")
             sys.exit(2)
         gate(args.strict_dupe)
         return
