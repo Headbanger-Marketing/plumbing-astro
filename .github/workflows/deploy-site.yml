@@ -1,0 +1,120 @@
+name: Deploy site
+
+on:
+  workflow_dispatch:
+    inputs:
+      site:
+        description: Domain to build and push (e.g. aylmerplumbing.ca)
+        required: true
+        type: string
+  push:
+    branches: [main]
+    paths:
+      - "src/sites/**"
+
+concurrency:
+  group: deploy-site-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  pick:
+    runs-on: ubuntu-latest
+    outputs:
+      list: ${{ steps.pick.outputs.list }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - id: pick
+        env:
+          EVENT: ${{ github.event_name }}
+          SITE_IN: ${{ inputs.site }}
+        run: |
+          set -euo pipefail
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            SITE="${SITE_IN// /}"
+            if [ ! -f "src/sites/${SITE}.ts" ]; then
+              echo "No src/sites/${SITE}.ts" >&2
+              exit 1
+            fi
+            echo "list=$(jq -cn --arg s "$SITE" '[$s]')" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          mapfile -t files < <(git diff --name-only HEAD~1 HEAD -- 'src/sites/**' || true)
+          domains=()
+          for f in "${files[@]:-}"; do
+            d="${f#src/sites/}"
+            d="${d%%/*}"
+            d="${d%.ts}"
+            [ -f "src/sites/${d}.ts" ] || continue
+            domains+=("$d")
+          done
+          if [ "${#domains[@]}" -eq 0 ]; then
+            echo "list=[]" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "list=$(printf '%s\n' "${domains[@]}" | sort -u | jq -Rsc 'split("\n")|map(select(length>0))')" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: pick
+    if: needs.pick.outputs.list != '[]'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        site: ${{ fromJson(needs.pick.outputs.list) }}
+    concurrency:
+      group: pages-${{ matrix.site }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Attach HVAC photo pool
+        if: github.repository == 'Headbanger-Marketing/hvac-astro'
+        run: |
+          set -euo pipefail
+          rm -f public/assets/img
+          git clone --depth 1 --filter=blob:none --sparse \
+            https://github.com/Headbanger-Marketing/londonheatingcooling.ca.git /tmp/img-src
+          git -C /tmp/img-src sparse-checkout set assets/img
+          ln -s /tmp/img-src/assets/img public/assets/img
+          test -e public/assets/img/hero.webp || test -d public/assets/img/logos
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install --quiet beautifulsoup4
+      - run: npm ci
+
+      - name: Build ${{ matrix.site }}
+        env:
+          HVAC_SITE: ${{ matrix.site }}
+        run: |
+          set -euo pipefail
+          test -f "src/sites/${HVAC_SITE}.ts"
+          npm run build
+          python3 scripts/normalize.py
+          python3 scripts/gen-service-redirects.py
+          node scripts/gen-og-images.mjs "$HVAC_SITE" || echo "OG GEN FAIL (non-fatal)"
+
+      - name: Push to Pages repo
+        env:
+          PAGES_DEPLOY_TOKEN: ${{ secrets.PAGES_DEPLOY_TOKEN }}
+          HVAC_SITE: ${{ matrix.site }}
+        run: |
+          if [ -z "$PAGES_DEPLOY_TOKEN" ]; then
+            echo "Missing repo secret PAGES_DEPLOY_TOKEN (needs contents:write on Headbanger-Marketing Pages repos)." >&2
+            exit 1
+          fi
+          chmod +x scripts/ci-push-pages.sh
+          ./scripts/ci-push-pages.sh "$HVAC_SITE"
