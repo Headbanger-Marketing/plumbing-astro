@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 # Deploy the full network (all sites with src/sites/<domain>.ts). Builds each,
-# syncs HTML/CSS, refreshes per-site assets/img, commits, and pushes to the
-# correct deploy repo (sites/<domain>/).
+# clones the Pages repo on demand, syncs HTML/CSS, refreshes per-site
+# assets/img, commits, pushes, then drops the clone so it doesn't sit on disk.
 #
 # Usage:  bash scripts/deploy-all.sh [site1.ca ...]   (no args = all sites)
+#         bash scripts/deploy-all.sh --keep [site1.ca ...]  # leave clones
 set -uo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -12,31 +13,36 @@ ASTRO="$ROOT"
 cd "$ASTRO"
 [ -f "$HOME/.nvm/nvm.sh" ] && . "$HOME/.nvm/nvm.sh" && nvm use >/dev/null 2>&1 || true
 
-# Discover all site domains.
-ALL="$(ls src/sites/*.ts 2>/dev/null | sed 's|src/sites/||; s|\.ts$||' | sort)"
-SITES="${*:-$ALL}"
+KEEP=0
+ARGS=()
+for arg in "$@"; do
+  case "$arg" in
+    --keep) KEEP=1 ;;
+    *) ARGS+=("$arg") ;;
+  esac
+done
 
-# Find the deploy dir for a site (single location after deploy-preview consolidation).
-deploy_dir() {
-  [ -d "$NETWORK/sites/$1/.git" ] && echo "$NETWORK/sites/$1"
-}
+ALL="$(ls src/sites/*.ts 2>/dev/null | sed 's|src/sites/||; s|\.ts$||' | sort)"
+if [ "${#ARGS[@]}" -gt 0 ]; then
+  SITES="${ARGS[*]}"
+else
+  SITES="$ALL"
+fi
 
 ok=0; fail=0; clean=0; nopush=0
 for site in $SITES; do
-  dd="$(deploy_dir "$site")"
-  if [ -z "$dd" ]; then echo "[$site] SKIP (no git deploy repo)"; nopush=$((nopush+1)); continue; fi
+  if ! "$ASTRO/scripts/clone-deploy-repo.sh" "$site" >/tmp/da.$site.clone.log 2>&1; then
+    echo "[$site] SKIP (clone failed; see /tmp/da.$site.clone.log)"; nopush=$((nopush+1)); continue
+  fi
+  dd="$NETWORK/sites/$site"
   dist_dir="$ASTRO/dist/$site"
 
-  # 1. build
   if ! HVAC_SITE="$site" npm run build:site -- --no-sync >/tmp/da.$site.log 2>&1; then
     echo "[$site] BUILD FAIL (see /tmp/da.$site.log)"; fail=$((fail+1)); continue
   fi
 
-  # 1b. regenerate the per-site OG card (the astro build wipes dist/, and the
-  # shared public/ og-default would otherwise go out identical on every site).
   node scripts/gen-og-images.mjs "$site" >/dev/null 2>&1 || echo "[$site] OG GEN FAIL"
 
-  # 2. sync HTML/CSS/JS
   rsync -a \
     --include='/index.html' --include='/404.html' \
     --include='/about/***' --include='/services/***' --include='/blog/***' \
@@ -47,15 +53,13 @@ for site in $SITES; do
     --include='/assets/js/' --include='/assets/js/**' \
     --exclude='*' "$dist_dir/" "$dd/" 2>/dev/null || true
 
-  # 3. refresh assets/img
   mkdir -p "$dd/assets/img"
   cp -R "$dist_dir/assets/img/." "$dd/assets/img/" 2>/dev/null || true
   touch "$dd/.nojekyll"
 
-  # 4. commit + push (rebase if remote has cutover commits)
   pushout=$(cd "$dd" && git add -A && \
     if git diff --cached --quiet; then echo "CLEAN"; else \
-      git commit -q -m "deploy: direct service copy + header brand lockup" && \
+      git commit -q -m "deploy: $site" && \
       { git ls-remote --heads origin main 2>/dev/null | grep -q . && { git pull --rebase origin main 2>/dev/null || git rebase --abort; }; } && \
       git push origin main 2>&1 | tail -1; \
     fi)
@@ -65,6 +69,10 @@ for site in $SITES; do
     *) echo "[$site] PUSH ISSUE: $pushout"; fail=$((fail+1));;
   esac
   echo "[$site] $(echo $pushout | head -c 70)"
+  rm -rf "$dist_dir"
+  if [ $KEEP -eq 0 ]; then
+    rm -rf "$dd"
+  fi
 done
 
 echo ""

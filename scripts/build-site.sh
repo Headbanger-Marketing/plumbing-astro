@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 # Build one site end-to-end: astro build + normalize + sync into deploy repo.
+# Clones the Pages repo on demand (depth 1) if it isn't already on disk.
 #
 # Usage:
-#   HVAC_SITE=londonheatingcooling.ca ./scripts/build-site.sh
-#   HVAC_SITE=londonheatingcooling.ca ./scripts/build-site.sh --dry-run
-#   HVAC_SITE=londonheatingcooling.ca ./scripts/build-site.sh --no-sync   # build+normalize only
+#   HVAC_SITE=londonplumbingpros.ca ./scripts/build-site.sh
+#   HVAC_SITE=londonplumbingpros.ca ./scripts/build-site.sh --dry-run
+#   HVAC_SITE=londonplumbingpros.ca ./scripts/build-site.sh --no-sync   # build+normalize only
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -13,7 +14,7 @@ cd "$ROOT"
 SITE="${HVAC_SITE:-}"
 if [ -z "$SITE" ]; then
   echo "ERROR: HVAC_SITE env var required." >&2
-  echo "Usage: HVAC_SITE=londonheatingcooling.ca $0 [--dry-run] [--no-sync]" >&2
+  echo "Usage: HVAC_SITE=londonplumbingpros.ca $0 [--dry-run] [--no-sync]" >&2
   exit 1
 fi
 
@@ -52,6 +53,8 @@ if [ $NO_SYNC -eq 1 ]; then
   echo "[build-site] --no-sync: skipping deploy sync"
   echo "[build-site] Done. Output at dist/$SITE/"
 else
+  echo "[build-site] clone-if-missing..."
+  ./scripts/clone-deploy-repo.sh "$SITE"
   echo "[build-site] sync..."
   if [ $DRY_RUN -eq 1 ]; then
     ./scripts/sync-deploy-repo.sh "$SITE" --dry-run
