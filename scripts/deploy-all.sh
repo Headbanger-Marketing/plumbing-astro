@@ -8,7 +8,8 @@
 set -uo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-NETWORK="$(cd "$ROOT/../hvac-network" && pwd)"
+HVAC_WORKSPACE="${HVAC_WORKSPACE:-$HOME/Projects/hvac}"
+NETWORK="${HVAC_SITES_DIR:-$HVAC_WORKSPACE/scratch}"
 ASTRO="$ROOT"
 cd "$ASTRO"
 [ -f "$HOME/.nvm/nvm.sh" ] && . "$HOME/.nvm/nvm.sh" && nvm use >/dev/null 2>&1 || true

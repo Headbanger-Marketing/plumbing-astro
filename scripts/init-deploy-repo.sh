@@ -24,7 +24,8 @@ BRAND="${2:?Usage: $0 <domain> \"<brand>\" [contact-email]}"
 EMAIL="${3:-contact@${DOMAIN}}"
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-NETWORK="$ROOT/../hvac-network/sites"
+HVAC_WORKSPACE="${HVAC_WORKSPACE:-$HOME/Projects/hvac}"
+NETWORK="${HVAC_SITES_DIR:-$HVAC_WORKSPACE/scratch/sites}"
 ASTRO_PUBLIC="$ROOT/public"
 
 DEPLOY="$NETWORK/$DOMAIN"

@@ -16,7 +16,8 @@ fi
 
 DOMAIN="$1"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-DEPLOY="$ROOT/../hvac-network/sites/$DOMAIN"
+HVAC_WORKSPACE="${HVAC_WORKSPACE:-$HOME/Projects/hvac}"
+DEPLOY="${HVAC_SITES_DIR:-$HVAC_WORKSPACE/scratch/sites}/$DOMAIN"
 
 if [ -d "$DEPLOY/.git" ]; then
   echo "[clone] $DOMAIN already at $DEPLOY"
@@ -32,13 +33,17 @@ mkdir -p "$(dirname "$DEPLOY")"
 
 clone_from() {
   local owner="$1"
-  echo "[clone] gh repo clone $owner/$DOMAIN -> $DEPLOY (depth 1)"
-  gh repo clone "$owner/$DOMAIN" "$DEPLOY" -- --depth 1 --single-branch --branch main
+  echo "[clone] git clone $owner/$DOMAIN -> $DEPLOY (depth 1)"
+  # plain git clone: gh repo clone needs GraphQL, which rate-limits out mid
+  # bulk deploys. git+gh-credential-helper works without any API quota.
+  git clone --depth 1 --single-branch --branch main "https://github.com/$owner/$DOMAIN.git" "$DEPLOY"
 }
 
-if gh repo view "Headbanger-Marketing/$DOMAIN" >/dev/null 2>&1; then
+# git ls-remote checks existence without burning gh API quota (gh repo view is
+# GraphQL and rate-limits out mid bulk deploys, faking "no repo" errors).
+if git ls-remote --exit-code "https://github.com/Headbanger-Marketing/$DOMAIN.git" HEAD >/dev/null 2>&1; then
   clone_from Headbanger-Marketing
-elif gh repo view "liamseopro/$DOMAIN" >/dev/null 2>&1; then
+elif git ls-remote --exit-code "https://github.com/liamseopro/$DOMAIN.git" HEAD >/dev/null 2>&1; then
   clone_from liamseopro
 else
   echo "ERROR: no GitHub repo for $DOMAIN under Headbanger-Marketing or liamseopro." >&2

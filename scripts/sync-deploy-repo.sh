@@ -33,7 +33,8 @@ DRY_RUN=0
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 DIST="$ROOT/dist/$DOMAIN"
-DEPLOY="$ROOT/../hvac-network/sites/$DOMAIN"
+HVAC_WORKSPACE="${HVAC_WORKSPACE:-$HOME/Projects/hvac}"
+DEPLOY="${HVAC_SITES_DIR:-$HVAC_WORKSPACE/scratch/sites}/$DOMAIN"
 
 if [ ! -d "$DIST" ]; then
   echo "ERROR: $DIST does not exist. Run 'HVAC_SITE=$DOMAIN npm run build' first." >&2

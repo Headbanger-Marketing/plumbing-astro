@@ -63,8 +63,14 @@ async function buildOG(cfg, outPath, barWidth) {
   const base = `${outPath}.base.png`;
   await sharp(Buffer.from(svg)).png().toFile(base);
 
+  // Prefer the transparent footer twin (logos-trans/) — the white-background
+  // original composited on navy showed as a white box (same bug as the footer).
+  const { existsSync } = await import('node:fs');
+  const logoSrc = cfg.logo.endsWith('.svg')
+    ? `${LOGO_DIR}/${cfg.logo}`
+    : existsSync(`${LOGO_DIR}-trans/${cfg.logo}`) ? `${LOGO_DIR}-trans/${cfg.logo}` : `${LOGO_DIR}/${cfg.logo}`;
   const logoPre = `${outPath}.logo.png`;
-  await sharp(`${LOGO_DIR}/${cfg.logo}`)
+  await sharp(logoSrc)
     .resize(380, 380, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
     .png().toFile(logoPre);
 

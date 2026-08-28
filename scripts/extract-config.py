@@ -15,7 +15,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-NETWORK = ROOT.parent / "hvac-network" / "sites"
+NETWORK = Path.home() / "Projects" / "hvac" / "scratch" / "sites"
 
 PILOTS_DONE = {
     "londonheatingcooling.ca",

@@ -35,7 +35,7 @@ except ImportError:
     sys.exit(1)
 
 ROOT = Path(__file__).resolve().parent.parent
-NETWORK = ROOT.parent / "hvac-network" / "sites"
+NETWORK = Path.home() / "Projects" / "hvac" / "scratch" / "sites"
 
 PILOTS = [
     "londonheatingcooling.ca",

@@ -16,7 +16,8 @@ for arg in "$@"; do [ "$arg" = "--no-verify" ] && NO_VERIFY=1; done
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-DEPLOY="$ROOT/../hvac-network/sites/$DOMAIN"
+HVAC_WORKSPACE="${HVAC_WORKSPACE:-$HOME/Projects/hvac}"
+DEPLOY="${HVAC_SITES_DIR:-$HVAC_WORKSPACE/scratch/sites}/$DOMAIN"
 
 if [ ! -d "$DEPLOY" ]; then
   echo "FAIL: $DEPLOY not found" >&2

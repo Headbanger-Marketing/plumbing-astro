@@ -26,7 +26,8 @@ for arg in "$@"; do
 done
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-NETWORK="$ROOT/../hvac-network/sites"
+HVAC_WORKSPACE="${HVAC_WORKSPACE:-$HOME/Projects/hvac}"
+NETWORK="${HVAC_SITES_DIR:-$HVAC_WORKSPACE/scratch/sites}"
 DEPLOY="$NETWORK/$DOMAIN"
 cd "$ROOT"
 
