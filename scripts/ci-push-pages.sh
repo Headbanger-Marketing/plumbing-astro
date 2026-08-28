@@ -9,7 +9,8 @@ set -euo pipefail
 SITE="${1:?Usage: $0 <domain>}"
 TOKEN="${PAGES_DEPLOY_TOKEN:?PAGES_DEPLOY_TOKEN is not set}"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-DIST="$ROOT/dist/$SITE"
+DIST_ROOT="${DIST_ROOT:-dist}"
+DIST="$ROOT/$DIST_ROOT/$SITE"
 NAME="$(python3 -c "import json; print(json.load(open('$ROOT/package.json'))['name'])")"
 
 if [ ! -d "$DIST" ]; then

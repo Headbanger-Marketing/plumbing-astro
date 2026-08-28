@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       site:
-        description: Domain to build and push (e.g. aylmerplumbing.ca)
+        description: Domain to build and push (e.g. aylmerplumbing.ca), or "all"
         required: true
         type: string
   push:
@@ -36,6 +36,10 @@ jobs:
           set -euo pipefail
           if [ "$EVENT" = "workflow_dispatch" ]; then
             SITE="${SITE_IN// /}"
+            if [ "$SITE" = "all" ]; then
+              echo "list=$(printf '%s\n' src/sites/*.ts | xargs -n1 basename | sed 's/\.ts$//' | sort -u | jq -Rsc 'split("\n")|map(select(length>0))')" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
             if [ ! -f "src/sites/${SITE}.ts" ]; then
               echo "No src/sites/${SITE}.ts" >&2
               exit 1
