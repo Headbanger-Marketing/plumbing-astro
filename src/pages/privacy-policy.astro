@@ -24,11 +24,11 @@ const lead = pick(site.domain, 'privacy/lead', [
   `Short page, plain language: what we collect, why, and the control you have over it.`,
 ]);
 const pCollect = pick(site.domain, 'privacy/collect', [
-  `When you submit a quote request or contact form, we collect the information you provide, such as your name, phone number, email address, service address, and a description of your plumbing needs. We may also collect basic, non-identifying analytics data about how visitors use our site.`,
-  `The forms on this site ask for what we need to reach you and understand the job: name, phone, email, address, and a note about the plumbing problem. We also gather anonymous usage statistics that cannot identify you.`,
-  `If you contact us or request a quote, we keep the details you send, your name, number, email, service address, and a description of the issue. Site visits also generate basic, non-identifying analytics.`,
-  `Quote requests give us your name, phone or email, the property address, and whatever you tell us about the problem. Usage of the site itself is tracked only anonymously.`,
-  `What you type into our forms is what we store: contact details, the service address, and the job description. Nothing more is collected about you personally.`,
+  `When you request a quote, we receive the details you enter, including your name, phone, email, service address or location, and a description of the plumbing work. If you email or call us, we also receive what you choose to share in that message or call.`,
+  `The form asks for your contact details, job location, and a short description so we can respond. You may also contact us by email or phone. Website delivery and security services may process technical connection information when you visit.`,
+  `A quote request gives us your name, phone, email, service location, and information about the plumbing issue. We also receive the details you send by email or give us over the phone. Hosting services may process connection data needed to serve the site.`,
+  `We receive the information you submit through the quote form, such as contact details, the property location, and a description of the work. Messages and calls you initiate also give us the details you share. Website services may process basic connection information.`,
+  `You choose what to tell us when requesting plumbing service by form, email, or phone. The form asks for your name, contact details, job location, and service needs. Our hosting provider may process technical connection data to deliver and protect these pages.`,
 ]);
 const pUse = pick(site.domain, 'privacy/use', [
   `We use the information you provide to respond to your enquiry, schedule and deliver services, provide quotes, and follow up about your service needs. We do not sell or rent your personal information to third parties.`,
@@ -46,11 +46,11 @@ const pProtect = pick(site.domain, 'privacy/protect', [
   `Customer information stays inside the company, on a need-to-know basis, under sensible safeguards.`,
 ]);
 const pCookies = pick(site.domain, 'privacy/cookies', [
-  `Our website may use cookies and similar technologies to improve your browsing experience and understand site usage. You can disable cookies through your browser settings, though some features may not function as intended.`,
-  `Like most websites, we may use cookies to keep the site working smoothly and to understand how it is used. Your browser can block them, though parts of the site may behave differently.`,
-  `Cookies help this site run and help us see what is working. They can be turned off in your browser settings; some features may not work as expected without them.`,
-  `This site uses a small number of cookies for basic function and anonymous usage stats. Blocking them is your call and your browser's setting.`,
-  `A few standard cookies keep the site working; they identify a browser, not a person, and can be cleared any time.`,
+  `We use Google Search Console for aggregate search queries, impressions, clicks, and indexing status. These pages have no visitor analytics script or cookies for visit measurement. Website delivery or security services may use functional cookies in some circumstances.`,
+  `Google Search Console helps us understand search visibility and indexing, not your browsing path on this site. We do not run a visitor analytics script. Hosting and security services may use necessary cookies or browser storage; you can manage them in your browser.`,
+  `Our performance reports come from Google Search Console search results, including impressions and clicks. We do not use cookies to count site visits. The services that deliver or protect these pages may use functional cookies or storage when needed.`,
+  `There is no on-page visitor analytics script here. Google Search Console provides aggregate search and indexing reports. Website hosting or security services may use necessary cookies; your browser settings let you block or clear them, which may affect some functions.`,
+  `We review Google Search Console reports about how our pages appear in search. We do not track site visits with cookies. Hosting and security services may use functional browser storage in some cases; most browsers let you manage or clear it.`,
 ]);
 const pChoices = pick(site.domain, 'privacy/choices', [
   `You may request access to, correction of, or deletion of the personal information we hold about you at any time by contacting us using the details below.`,
@@ -97,7 +97,7 @@ const pContactUs = pick(site.domain, 'privacy/contact', [
       <p>{pUse}</p>
       <h2>{pick(site.domain, 'privacy/h_protect', ['How We Protect Your Information', 'Keeping It Safe', 'Our Safeguards'])}</h2>
       <p>{pProtect}</p>
-      <h2>{pick(site.domain, 'privacy/h_cookies', ['Cookies &amp; Analytics', 'Cookies and Analytics', 'About Cookies'])}</h2>
+      <h2>{pick(site.domain, 'privacy/h_cookies', ['Search Performance and Cookies', 'Google Search Console and Cookies', 'About Search Reports and Cookies'])}</h2>
       <p>{pCookies}</p>
       <h2>{pick(site.domain, 'privacy/h_choices', ['Your Choices', 'Your Control', 'Your Options'])}</h2>
       <p>{pChoices}</p>
