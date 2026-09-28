@@ -15,7 +15,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 798-0609", tel: "+15487980609" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@leamingtonplumbingpros.ca",
   address: {
-    street: "215 Talbot St E",
+    street: "215 Talbot St E, Unit 2",
     locality: "Leamington",
     region: 'ON',
     postal: "N8H 3X5",

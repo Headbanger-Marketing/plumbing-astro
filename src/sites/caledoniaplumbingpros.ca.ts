@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(905) 765-3418", tel: "+19057653418" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@caledoniaplumbingpros.ca",
   address: {
-    street: "64 Argyle St N",
+    street: "64 Argyle St N, Unit 2",
     locality: "Caledonia",
     region: 'ON',
     postal: "N3W 1B9",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-caledoniaplumbingpros.ca.png", logo: "caledoniaplumbingpros.ca.png", technicianPhoto: "caledoniaplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/caledoniaplumbingpros.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

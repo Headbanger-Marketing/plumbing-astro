@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(365) 661-7242", tel: "+13656617242" }, // real (NAP-WORKSHEET straggler sign-off 2026-08-22)
   email: "contact@dunnvilleplumbingpros.ca",
   address: {
-    street: "500 Queen St, Unit 9",  // TEMP plaza address 2026-08-22 (user: random downtown plaza until fulfiller address)
+    street: "500 Queen St, Unit 2",  // TEMP plaza address 2026-08-22 (user: random downtown plaza until fulfiller address)
     locality: "Dunnville",
     region: 'ON',
     postal: "N1A 1J5",

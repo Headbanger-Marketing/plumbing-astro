@@ -15,7 +15,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 918-5036", tel: "+15489185036" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@amherstburgplumbingpros.ca",
   address: {
-    street: "61 Richmond St",
+    street: "61 Richmond St, Unit 2",
     locality: "Amherstburg",
     region: 'ON',
     postal: "N9V 1G2",

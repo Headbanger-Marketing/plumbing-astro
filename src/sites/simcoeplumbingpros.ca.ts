@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 290-7597", tel: "+15482907597" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@simcoeplumbingpros.ca",
   address: {
-    street: "50 Colborne St N",
+    street: "50 Colborne St N, Unit 2",
     locality: "Simcoe",
     region: 'ON',
     postal: "N3Y 3V5",

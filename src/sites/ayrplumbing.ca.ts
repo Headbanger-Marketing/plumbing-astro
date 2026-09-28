@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 632-8174", tel: "+15196328174" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@ayrplumbing.ca",
   address: {
-    street: "15 Stanley St",
+    street: "15 Stanley St, Unit 2",
     locality: "Ayr",
     region: 'ON',
     postal: "N0B 1E0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-ayrplumbing.ca.png", logo: "ayrplumbing.ca.png", technicianPhoto: "ayrplumbing.ca-home-tech.jpg",
     heroImage: "heroes/ayrplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

@@ -15,7 +15,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 882-0159", tel: "+15198820159" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@petroliaplumbing.ca",
   address: {
-    street: "420 King St",
+    street: "420 King St, Unit 2",
     locality: "Petrolia",
     region: 'ON',
     postal: "N0N 1R0",

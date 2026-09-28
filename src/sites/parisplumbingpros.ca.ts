@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 901-0930", tel: "+15489010930" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@parisplumbingpros.ca",
   address: {
-    street: "2 Grand River St N",
+    street: "2 Grand River St N, Unit 2",
     locality: "Paris",
     region: 'ON',
     postal: "N3L 2M2",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-parisplumbingpros.ca.png", logo: "parisplumbingpros.ca.png", technicianPhoto: "parisplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/parisplumbingpros.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

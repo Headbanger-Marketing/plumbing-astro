@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 627-4183", tel: "+15196274183" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@wallaceburgplumbing.ca",
   address: {
-    street: "120 James St",
+    street: "120 James St, Unit 2",
     locality: "Wallaceburg",
     region: 'ON',
     postal: "N8A 2N1",

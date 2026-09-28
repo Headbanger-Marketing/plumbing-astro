@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 666-0188", tel: "+15196660188" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@ildertonplumbing.ca",
   address: {
-    street: "21 Ilderton Rd",
+    street: "21 Ilderton Rd, Unit 2",
     locality: "Ilderton",
     region: 'ON',
     postal: "N0M 2A0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-ildertonplumbing.ca.png", logo: "ildertonplumbing.ca.png", technicianPhoto: "ildertonplumbing.ca-home-tech.jpg",
     heroImage: "heroes/ildertonplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

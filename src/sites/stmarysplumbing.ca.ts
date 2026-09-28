@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 284-0161", tel: "+15192840161" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@stmarysplumbing.ca",
   address: {
-    street: "155 Queen St E",
+    street: "155 Queen St E, Unit 2",
     locality: "St. Marys",
     region: 'ON',
     postal: "N4X 1B3",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-stmarysplumbing.ca.png", logo: "stmarysplumbing.ca.png", technicianPhoto: "stmarysplumbing.ca-home-tech.jpg",
     heroImage: "heroes/stmarysplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

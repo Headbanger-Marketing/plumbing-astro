@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 457-0509", tel: "+15484570509" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@lasalleplumbing.ca",
   address: {
-    street: "5840 Malden Rd",
+    street: "5840 Malden Rd, Unit 2",
     locality: "LaSalle",
     region: 'ON',
     postal: "N9H 1S4",

@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 583-0742", tel: "+15195830742" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@portdoverplumbing.ca",
   address: {
-    street: "18 Main St",
+    street: "18 Main St, Unit 2",
     locality: "Port Dover",
     region: 'ON',
     postal: "N0A 1N0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-portdoverplumbing.ca.png", logo: "portdoverplumbing.ca.png", technicianPhoto: "portdoverplumbing.ca-home-tech.jpg",
     heroImage: "heroes/portdoverplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

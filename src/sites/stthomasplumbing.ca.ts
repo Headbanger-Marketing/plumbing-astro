@@ -16,7 +16,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 457-2400", tel: "+15484572400" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@stthomasplumbing.ca",
   address: {
-    street: "750 Talbot St",
+    street: "750 Talbot St, Unit 2",
     locality: "St. Thomas",
     region: 'ON',
     postal: "N5P 1E2",

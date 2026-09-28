@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 708-8216", tel: "+15487088216" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@londonplumbingpros.ca",
   address: {
-    street: "155 Clarke Rd",
+    street: "155 Clarke Rd, Unit 2",
     locality: "London",
     region: 'ON',
     postal: "N5W 5C9",

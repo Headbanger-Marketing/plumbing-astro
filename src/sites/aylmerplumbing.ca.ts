@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 765-3092", tel: "+15197653092" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@aylmerplumbing.ca",
   address: {
-    street: "38 Talbot St E",
+    street: "38 Talbot St E, Unit 2",
     locality: "Aylmer",
     region: 'ON',
     postal: "N5H 1H3",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-aylmerplumbing.ca.png", logo: "aylmerplumbing.ca.png", technicianPhoto: "aylmerplumbing.ca-home-tech.jpg",
     heroImage: "heroes/aylmerplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

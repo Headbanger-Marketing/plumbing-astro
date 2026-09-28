@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 708-7480", tel: "+15487087480" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@windsorplumbing.ca",
   address: {
-    street: "2660 Jefferson Blvd",
+    street: "2660 Jefferson Blvd, Unit 2",
     locality: "Windsor",
     region: 'ON',
     postal: "N8T 3C7",

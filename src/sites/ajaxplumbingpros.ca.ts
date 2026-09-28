@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(905) 619-3742", tel: "+19056193742" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@ajaxplumbingpros.ca",
   address: {
-    street: "75 Bayly St W",
+    street: "75 Bayly St W, Unit 2",
     locality: "Ajax",
     region: 'ON',
     postal: "L1S 7K7",

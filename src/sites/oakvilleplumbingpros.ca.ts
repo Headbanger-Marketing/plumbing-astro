@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(905) 845-3072", tel: "+19058453072" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@oakvilleplumbingpros.ca",
   address: {
-    street: "240 Lakeshore Rd E",
+    street: "240 Lakeshore Rd E, Unit 2",
     locality: "Oakville",
     region: 'ON',
     postal: "L6J 1H8",

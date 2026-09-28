@@ -15,7 +15,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 290-9633", tel: "+15482909633" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@goderichplumbing.ca",
   address: {
-    street: "85 Kingston St",
+    street: "85 Kingston St, Unit 2",
     locality: "Goderich",
     region: 'ON',
     postal: "N7A 3K3",

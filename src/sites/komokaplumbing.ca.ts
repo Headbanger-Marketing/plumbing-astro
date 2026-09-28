@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 657-0133", tel: "+15196570133" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@komokaplumbing.ca",
   address: {
-    street: "81 Queen St",
+    street: "81 Queen St, Unit 2",
     locality: "Komoka",
     region: 'ON',
     postal: "N0L 1R0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-komokaplumbing.ca.png", logo: "komokaplumbing.ca.png", technicianPhoto: "komokaplumbing.ca-home-tech.jpg",
     heroImage: "heroes/komokaplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

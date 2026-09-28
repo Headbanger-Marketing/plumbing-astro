@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 527-1483", tel: "+15195271483" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@seaforthplumbing.ca",
   address: {
-    street: "52 Main St S",
+    street: "52 Main St S, Unit 2",
     locality: "Seaforth",
     region: 'ON',
     postal: "N0K 1W0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-seaforthplumbing.ca.png", logo: "seaforthplumbing.ca.png", technicianPhoto: "seaforthplumbing.ca-home-tech.jpg",
     heroImage: "heroes/seaforthplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

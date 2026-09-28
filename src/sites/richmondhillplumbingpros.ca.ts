@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(905) 884-7163", tel: "+19058847163" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@richmondhillplumbingpros.ca",
   address: {
-    street: "9325 Yonge St",
+    street: "9325 Yonge St, Unit 2",
     locality: "Richmond Hill",
     region: 'ON',
     postal: "L4C 0A8",

@@ -15,7 +15,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 457-1225", tel: "+15484571225" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@tecumsehplumbingpros.ca",
   address: {
-    street: "13430 Tecumseh Rd E",
+    street: "13430 Tecumseh Rd E, Unit 2",
     locality: "Tecumseh",
     region: 'ON',
     postal: "N8N 3T6",

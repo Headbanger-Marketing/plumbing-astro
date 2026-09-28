@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 227-4479", tel: "+15192274479" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@lucanplumbing.ca",
   address: {
-    street: "8 Main St",
+    street: "8 Main St, Unit 2",
     locality: "Lucan",
     region: 'ON',
     postal: "N0M 2J0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-lucanplumbing.ca.png", logo: "lucanplumbing.ca.png", technicianPhoto: "lucanplumbing.ca-home-tech.jpg",
     heroImage: "heroes/lucanplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

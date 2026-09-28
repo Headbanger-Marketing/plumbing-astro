@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 623-1847", tel: "+15196231847" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@cambridgeplumbingpros.ca",
   address: {
-    street: "73 Main St",
+    street: "73 Main St, Unit 2",
     locality: "Cambridge",
     region: 'ON',
     postal: "N1R 1V9",

@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 554-3147", tel: "+15485543147" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@woodstockplumbingpros.ca",
   address: {
-    street: "930 Dundas St",
+    street: "930 Dundas St, Unit 2",
     locality: "Woodstock",
     region: 'ON',
     postal: "N4S 1H1",

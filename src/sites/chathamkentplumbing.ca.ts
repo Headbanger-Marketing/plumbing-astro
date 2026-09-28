@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 901-3519", tel: "+15489013519" }, // real (NAP-WORKSHEET straggler sign-off 2026-08-22)
   email: "contact@chathamkentplumbing.ca",
   address: {
-    street: "425 Grand Ave W",
+    street: "425 Grand Ave W, Unit 4",
     locality: "Chatham",
     region: 'ON',
     postal: "N7M 5J1",

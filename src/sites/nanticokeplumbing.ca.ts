@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 587-3164", tel: "+15195873164" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@nanticokeplumbing.ca",
   address: {
-    street: "3 Rainham Rd",
+    street: "3 Rainham Rd, Unit 2",
     locality: "Nanticoke",
     region: 'ON',
     postal: "N0A 1L0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-nanticokeplumbing.ca.png", logo: "nanticokeplumbing.ca.png", technicianPhoto: "nanticokeplumbing.ca-home-tech.jpg",
     heroImage: "heroes/nanticokeplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 708-7251", tel: "+15487087251" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@ridgetownplumbing.ca",
   address: {
-    street: "11 Main St E",
+    street: "11 Main St E, Unit 2",
     locality: "Ridgetown",
     region: 'ON',
     postal: "N0P 2C0",

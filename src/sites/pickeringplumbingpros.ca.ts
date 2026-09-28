@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(905) 831-4059", tel: "+19058314059" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@pickeringplumbingpros.ca",
   address: {
-    street: "1355 Kingston Rd",
+    street: "1355 Kingston Rd, Unit 2",
     locality: "Pickering",
     region: 'ON',
     postal: "L1V 1B8",

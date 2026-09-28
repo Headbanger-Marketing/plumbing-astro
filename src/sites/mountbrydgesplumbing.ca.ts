@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 761-2072", tel: "+15487612072" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@mountbrydgesplumbing.ca",
   address: {
-    street: "32 Main St",
+    street: "32 Main St, Unit 2",
     locality: "Mount Brydges",
     region: 'ON',
     postal: "N0L 1W0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-mountbrydgesplumbing.ca.png", logo: "mountbrydgesplumbing.ca.png", technicianPhoto: "mountbrydgesplumbing.ca-home-tech.jpg",
     heroImage: "heroes/mountbrydgesplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

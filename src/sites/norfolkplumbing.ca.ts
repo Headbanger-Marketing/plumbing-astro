@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 708-8109", tel: "+15487088109" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@norfolkplumbing.ca",
   address: {
-    street: "12 Alice St",
+    street: "12 Alice St, Unit 2",
     locality: "Norfolk",
     region: 'ON',
     postal: "N3Y 1W5",

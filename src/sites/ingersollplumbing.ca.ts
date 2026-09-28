@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 485-2371", tel: "+15194852371" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@ingersollplumbing.ca",
   address: {
-    street: "104 Thames St S",
+    street: "104 Thames St S, Unit 2",
     locality: "Ingersoll",
     region: 'ON',
     postal: "N5C 2T3",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-ingersollplumbing.ca.png", logo: "ingersollplumbing.ca.png", technicianPhoto: "ingersollplumbing.ca-home-tech.jpg",
     heroImage: "heroes/ingersollplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 901-0020", tel: "+15489010020" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@exeterplumbing.ca",
   address: {
-    street: "135 Main St",
+    street: "135 Main St, Unit 2",
     locality: "Exeter",
     region: 'ON',
     postal: "N0M 1S0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-exeterplumbing.ca.png", logo: "exeterplumbing.ca.png", technicianPhoto: "exeterplumbing.ca-home-tech.jpg",
     heroImage: "heroes/exeterplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

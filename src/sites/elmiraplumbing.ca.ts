@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 669-4738", tel: "+15196694738" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@elmiraplumbing.ca",
   address: {
-    street: "25 Arthur St S",
+    street: "25 Arthur St S, Unit 2",
     locality: "Elmira",
     region: 'ON',
     postal: "N3B 2M5",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-elmiraplumbing.ca.png", logo: "elmiraplumbing.ca.png", technicianPhoto: "elmiraplumbing.ca-home-tech.jpg",
     heroImage: "heroes/elmiraplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

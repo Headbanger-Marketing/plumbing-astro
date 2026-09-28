@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(905) 472-3610", tel: "+19054723610" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@markhamplumbingpros.ca",
   address: {
-    street: "160 Main St N",
+    street: "160 Main St N, Unit 2",
     locality: "Markham",
     region: 'ON',
     postal: "L3P 1Y3",

@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(905) 668-7214", tel: "+19056687214" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@whitbyplumbingpros.ca",
   address: {
-    street: "128 Brock St S",
+    street: "128 Brock St S, Unit 2",
     locality: "Whitby",
     region: 'ON',
     postal: "L1N 4J8",

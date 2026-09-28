@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 409-5669", tel: "+15484095669" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@owensoundplumbingpros.ca",
   address: {
-    street: "875 2nd Ave E",
+    street: "875 2nd Ave E, Unit 2",
     locality: "Owen Sound",
     region: 'ON',
     postal: "N4K 2H5",

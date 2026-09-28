@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 490-0267", tel: "+15484900267" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@stratfordplumbing.ca",
   address: {
-    street: "80 Ontario St",
+    street: "80 Ontario St, Unit 2",
     locality: "Stratford",
     region: 'ON',
     postal: "N5A 3H1",

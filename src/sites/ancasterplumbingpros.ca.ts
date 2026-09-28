@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(289) 204-2884", tel: "+12892042884" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@ancasterplumbingpros.ca",
   address: {
-    street: "351 Wilson St E",
+    street: "351 Wilson St E, Unit 2",
     locality: "Ancaster",
     region: 'ON',
     postal: "L9G 2B9",

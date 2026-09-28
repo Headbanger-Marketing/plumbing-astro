@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(905) 727-3184", tel: "+19057273184" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@auroraplumbingpros.ca",
   address: {
-    street: "15140 Yonge St",
+    street: "15140 Yonge St, Unit 2",
     locality: "Aurora",
     region: 'ON',
     postal: "L4G 1M2",

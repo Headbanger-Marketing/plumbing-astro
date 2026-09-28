@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 268-0122", tel: "+15192680122" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@dorchesterplumbing.ca",
   address: {
-    street: "198 Queen St",
+    street: "198 Queen St, Unit 2",
     locality: "Dorchester",
     region: 'ON',
     postal: "N0L 1G0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-dorchesterplumbing.ca.png", logo: "dorchesterplumbing.ca.png", technicianPhoto: "dorchesterplumbing.ca-home-tech.jpg",
     heroImage: "heroes/dorchesterplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

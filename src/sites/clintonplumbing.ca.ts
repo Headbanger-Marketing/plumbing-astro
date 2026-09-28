@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 482-0143", tel: "+15194820143" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@clintonplumbing.ca",
   address: {
-    street: "52 Albert St",
+    street: "52 Albert St, Unit 2",
     locality: "Clinton",
     region: 'ON',
     postal: "N0M 1L0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-clintonplumbing.ca.png", logo: "clintonplumbing.ca.png", technicianPhoto: "clintonplumbing.ca-home-tech.jpg",
     heroImage: "heroes/clintonplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

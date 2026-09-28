@@ -15,7 +15,7 @@ export const site: SiteConfig = {
   phone: { display: "(226) 778-1469", tel: "+12267781469" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@sarniaplumbing.ca",
   address: {
-    street: "265 Front St N",
+    street: "265 Front St N, Unit 2",
     locality: "Sarnia",
     region: 'ON',
     postal: "N7T 5S6",

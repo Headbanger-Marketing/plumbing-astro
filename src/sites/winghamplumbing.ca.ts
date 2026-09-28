@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 357-0136", tel: "+15193570136" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@winghamplumbing.ca",
   address: {
-    street: "178 Josephine St",
+    street: "178 Josephine St, Unit 2",
     locality: "Wingham",
     region: 'ON',
     postal: "N0G 2W0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-winghamplumbing.ca.png", logo: "winghamplumbing.ca.png", technicianPhoto: "winghamplumbing.ca-home-tech.jpg",
     heroImage: "heroes/winghamplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

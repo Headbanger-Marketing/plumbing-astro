@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 554-4288", tel: "+15485544288" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@guelphplumbingpros.ca",
   address: {
-    street: "21 Gordon St",
+    street: "21 Gordon St, Unit 2",
     locality: "Guelph",
     region: 'ON',
     postal: "N1H 3A6",

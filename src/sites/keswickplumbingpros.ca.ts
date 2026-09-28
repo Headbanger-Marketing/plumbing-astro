@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(905) 476-8231", tel: "+19054768231" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@keswickplumbingpros.ca",
   address: {
-    street: "24201 Woodbine Ave",
+    street: "24201 Woodbine Ave, Unit 2",
     locality: "Keswick",
     region: 'ON',
     postal: "L4P 3E9",

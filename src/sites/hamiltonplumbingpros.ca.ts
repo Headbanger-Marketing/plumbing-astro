@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(905) 522-4817", tel: "+19055224817" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@hamiltonplumbingpros.ca",
   address: {
-    street: "20 Jackson St W",
+    street: "20 Jackson St W, Unit 2",
     locality: "Hamilton",
     region: 'ON',
     postal: "L8P 1L2",

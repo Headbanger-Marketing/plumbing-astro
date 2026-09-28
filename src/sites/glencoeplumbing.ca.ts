@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 761-2123", tel: "+15487612123" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@glencoeplumbing.ca",
   address: {
-    street: "37 Main St",
+    street: "37 Main St, Unit 2",
     locality: "Glencoe",
     region: 'ON',
     postal: "N0L 1M0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-glencoeplumbing.ca.png", logo: "glencoeplumbing.ca.png", technicianPhoto: "glencoeplumbing.ca-home-tech.jpg",
     heroImage: "heroes/glencoeplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

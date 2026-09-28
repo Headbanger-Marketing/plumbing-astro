@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(905) 877-5208", tel: "+19058775208" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@georgetownplumbingpros.ca",
   address: {
-    street: "83 Main St S",
+    street: "83 Main St S, Unit 2",
     locality: "Georgetown",
     region: 'ON',
     postal: "L7G 3E5",

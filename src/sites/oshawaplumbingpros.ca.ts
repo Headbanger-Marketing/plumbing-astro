@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(905) 721-3485", tel: "+19057213485" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@oshawaplumbingpros.ca",
   address: {
-    street: "50 Richmond St W",
+    street: "50 Richmond St W, Unit 2",
     locality: "Oshawa",
     region: 'ON',
     postal: "L1G 1C7",

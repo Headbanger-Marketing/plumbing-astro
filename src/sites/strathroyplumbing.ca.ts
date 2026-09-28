@@ -16,7 +16,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 708-7117", tel: "+15487087117" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@strathroyplumbing.ca",
   address: {
-    street: "285 Metcalfe St E",
+    street: "285 Metcalfe St E, Unit 2",
     locality: "Strathroy",
     region: 'ON',
     postal: "N7G 1P7",

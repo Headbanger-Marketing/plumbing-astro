@@ -16,7 +16,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 708-6805", tel: "+15487086805" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@lakeshoreplumbing.ca",
   address: {
-    street: "523 Advance Blvd",
+    street: "523 Advance Blvd, Unit 2",
     locality: "Lakeshore",
     region: 'ON',
     postal: "N8N 5G8",

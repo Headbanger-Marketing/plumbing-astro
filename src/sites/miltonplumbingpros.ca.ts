@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(905) 878-2164", tel: "+19058782164" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@miltonplumbingpros.ca",
   address: {
-    street: "150 Mary St",
+    street: "150 Mary St, Unit 2",
     locality: "Milton",
     region: 'ON',
     postal: "L9T 6Z5",

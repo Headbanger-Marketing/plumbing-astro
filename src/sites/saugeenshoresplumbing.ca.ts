@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 290-8004", tel: "+15482908004" }, // real (NAP-WORKSHEET straggler sign-off 2026-08-22)
   email: "contact@saugeenshoresplumbing.ca",
   address: {
-    street: "610 Goderich St",
+    street: "610 Goderich St, Unit 2",
     locality: "Port Elgin",
     region: 'ON',
     postal: "N0H 2L0",

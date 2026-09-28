@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(905) 637-4218", tel: "+19056374218" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@burlingtonplumbingpros.ca",
   address: {
-    street: "414 Locust St",
+    street: "414 Locust St, Unit 2",
     locality: "Burlington",
     region: 'ON',
     postal: "L7S 1T7",

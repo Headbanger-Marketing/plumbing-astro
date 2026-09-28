@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 756-3142", tel: "+15197563142" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@brantfordplumbingpros.ca",
   address: {
-    street: "100 Dalhousie St",
+    street: "100 Dalhousie St, Unit 2",
     locality: "Brantford",
     region: 'ON',
     postal: "N3T 2J1",

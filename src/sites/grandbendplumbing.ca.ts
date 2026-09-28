@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 554-3151", tel: "+15485543151" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@grandbendplumbing.ca",
   address: {
-    street: "13 Main St W",
+    street: "13 Main St W, Unit 2",
     locality: "Grand Bend",
     region: 'ON',
     postal: "N0M 1T0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-grandbendplumbing.ca.png", logo: "grandbendplumbing.ca.png", technicianPhoto: "grandbendplumbing.ca-home-tech.jpg",
     heroImage: "heroes/grandbendplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

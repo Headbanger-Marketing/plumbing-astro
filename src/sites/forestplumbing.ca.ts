@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 786-0148", tel: "+15197860148" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@forestplumbing.ca",
   address: {
-    street: "14 King St W",
+    street: "14 King St W, Unit 2",
     locality: "Forest",
     region: 'ON',
     postal: "N0N 1J0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-forestplumbing.ca.png", logo: "forestplumbing.ca.png", technicianPhoto: "forestplumbing.ca-home-tech.jpg",
     heroImage: "heroes/forestplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

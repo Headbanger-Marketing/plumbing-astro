@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 348-4027", tel: "+15193484027" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@mitchellplumbingpros.ca",
   address: {
-    street: "114 St Andrew St",
+    street: "114 St Andrew St, Unit 2",
     locality: "Mitchell",
     region: 'ON',
     postal: "N0K 1N0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-mitchellplumbingpros.ca.png", logo: "mitchellplumbingpros.ca.png", technicianPhoto: "mitchellplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/mitchellplumbingpros.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

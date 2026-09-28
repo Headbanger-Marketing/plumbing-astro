@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(905) 895-4172", tel: "+19058954172" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@newmarketplumbingpros.ca",
   address: {
-    street: "130 Davis Dr",
+    street: "130 Davis Dr, Unit 2",
     locality: "Newmarket",
     region: 'ON',
     postal: "L3Y 2N1",

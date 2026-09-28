@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 490-6741", tel: "+15484906741" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@waterlooplumbingpros.ca",
   address: {
-    street: "180 King St S",
+    street: "180 King St S, Unit 2",
     locality: "Waterloo",
     region: 'ON',
     postal: "N2J 1P7",

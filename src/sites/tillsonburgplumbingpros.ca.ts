@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 901-3425", tel: "+15489013425" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@tillsonburgplumbingpros.ca",
   address: {
-    street: "96 Broadway",
+    street: "96 Broadway, Unit 2",
     locality: "Tillsonburg",
     region: 'ON',
     postal: "N4G 3P5",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-tillsonburgplumbingpros.ca.png", logo: "tillsonburgplumbingpros.ca.png", technicianPhoto: "tillsonburgplumbingpros.ca-home-tech.jpg",
     heroImage: "heroes/tillsonburgplumbingpros.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

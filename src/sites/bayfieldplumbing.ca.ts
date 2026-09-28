@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(519) 565-0204", tel: "+15195650204" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@bayfieldplumbing.ca",
   address: {
-    street: "19 Main St N",
+    street: "19 Main St N, Unit 2",
     locality: "Bayfield",
     region: 'ON',
     postal: "N0M 1G0",
@@ -30,7 +30,7 @@ export const site: SiteConfig = {
   tracking: { webhookUrl: 'https://auto.sdagents.ai/webhook/hvac-sites' },
   media: { guaranteeBadge: "guarantee-bayfieldplumbing.ca.png", logo: "bayfieldplumbing.ca.png", technicianPhoto: "bayfieldplumbing.ca-home-tech.jpg",
     heroImage: "heroes/bayfieldplumbing.ca.webp" },
-  noindex: true,
+  noindex: false,
   // Jayden's Mechanical fulfilment + /thank-you/ redirect (matches HVAC city sites).
   partner: {
     name: "Jayden's Mechanical",

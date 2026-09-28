@@ -14,7 +14,7 @@ export const site: SiteConfig = {
   phone: { display: "(548) 457-1029", tel: "+15484571029" }, // real (NAP-WORKSHEET 2026-08-21)
   email: "contact@kitchenerplumbingpros.ca",
   address: {
-    street: "55 Duke St W",
+    street: "55 Duke St W, Unit 2",
     locality: "Kitchener",
     region: 'ON',
     postal: "N2H 6P2",
