@@ -51,7 +51,7 @@ REDIRECT_HTML = """<!DOCTYPE html>
 <meta charset="utf-8">
 <title>Redirecting...</title>
 <link rel="canonical" href="{new_url}">
-<meta name="robots" content="noindex">
+<meta name="robots" content="noindex, follow">
 <meta http-equiv="refresh" content="0; url={new_url}">
 <script>window.location.replace("{new_url}");</script>
 </head>
@@ -79,7 +79,7 @@ def main():
             continue
         out_dir = os.path.join(dist, 'services', old)
         out_file = os.path.join(out_dir, 'index.html')
-        new_url = f'/services/{new}/'
+        new_url = f'https://{domain}/services/{new}/'
         # skip if the canonical target page doesn't exist on this site.
         # Vertical (homepage-only) sites generate no service pages, so emitting
         # HVAC redirect stubs here would point at /services/<new>/ that 404.

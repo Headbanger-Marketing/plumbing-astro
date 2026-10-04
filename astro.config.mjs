@@ -32,6 +32,8 @@ if (!site || !site.url) {
 // Vertical sites (generator/geothermal) are homepage-only — exclude service
 // and blog pages from the sitemap (they redirect to / but shouldn't be indexed).
 const isVertical = site.vertical && site.vertical !== 'hvac';
+const contentMod = await import(`./src/sites/${SITE}/content.ts`);
+const hasBlogPosts = (contentMod.BLOG ?? []).length > 0;
 
 export default defineConfig({
   site: site.url,
@@ -41,6 +43,7 @@ export default defineConfig({
         // The common inquiry privacy notice remains accessible, outside search results.
         if (page.includes('/privacy-policy/')) return false;
         if (page.includes('/contact/')) return false;
+        if (!hasBlogPosts && page.endsWith('/blog/')) return false;
         if (isVertical) {
           // Exclude /services/ and /blog/ for vertical sites
           if (page.includes('/services/') || page.includes('/blog/')) return false;

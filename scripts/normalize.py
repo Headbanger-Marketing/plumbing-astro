@@ -90,104 +90,71 @@ Sitemap: https://%s/sitemap-index.xml
 
 
 def generate_llms_txt(domain: str) -> None:
-    """Write llms.txt — a curated markdown map of the site for LLMs.
+    """Describe the published inquiry website, using its actual public homepage.
 
-    Reads the site config + content to build a brand-entity definition
-    that mirrors the homepage copy/meta/schema (entity consistency = AIO signal).
+    The rendered HTML already applies phone visibility and reviewed descriptions.
+    Never bypass those policies by publishing raw routing numbers or old claims.
     """
+    import json
     import re
     config_path = ROOT / "src" / "sites" / f"{domain}.ts"
     content_path = ROOT / "src" / "sites" / domain / "content.ts"
-
-    if not config_path.exists():
-        print(f"[normalize] llms.txt skipped (no config for {domain})")
-        return
-
+    homepage = DIST / "index.html"
+    if not config_path.exists() or not homepage.exists():
+        raise RuntimeError(f"Cannot generate public site summary for {domain}")
     config_ts = config_path.read_text(encoding="utf-8")
     brand = _extract_ts_string(config_ts, "brand") or domain
     city = _extract_ts_string(config_ts, "city") or "Ontario"
-    county = _extract_ts_string(config_ts, "county") or "Ontario"
-    phone = _extract_ts_string(config_ts, "display") or ""
     email = _extract_ts_string(config_ts, "email") or f"contact@{domain}"
-
-    # Brand for plain-text output (llms.txt is not HTML)
-    brand_plain = brand.replace("&amp;", "&").replace("&amp;amp;", "&")
-
-    # Extract service areas
+    brand_plain = brand.replace("&amp;", "&")
+    soup = BeautifulSoup(homepage.read_text(encoding="utf-8"), "html.parser")
+    description = soup.find("meta", attrs={"name": "description"})
+    definition = description.get("content", "").strip() if description else ""
+    if not definition:
+        raise RuntimeError(f"Missing reviewed homepage description for {domain}")
+    public_phone = next((a["href"][4:] for a in soup.find_all("a", href=True)
+                         if a["href"].startswith("tel:")), "")
+    contact = [f"Email: {email}", f"Website: https://{domain}"]
+    if public_phone:
+        contact.insert(0, f"Phone: {public_phone}")
+    lines = [f"# {brand_plain}", "", f"> {definition}", "", "  |  ".join(contact), ""]
     sa_match = re.search(r"serviceAreas:\s*\[([^\]]+)\]", config_ts)
-    service_areas = []
-    if sa_match:
-        service_areas = re.findall(r'"([^"]+)"', sa_match.group(1))
-
-    # Extract HOME_SERVICES from content.ts (the 6-card home grid).
-    # Each entry: [icon, "Title", "desc", "/services/<slug>/"]
-    # We extract the title + slug pair so llms.txt links are correct.
-    home_services = []
+    areas = [m.group(2) for m in re.finditer(r"(['\"])(.*?)\1", sa_match.group(1))] if sa_match else []
+    if areas:
+        lines.extend([f"Request locations: {', '.join(areas)}. Coverage and availability require provider confirmation.", ""])
+    lines.extend(["## Key pages", "",
+        f"- [Home](https://{domain}/): Service request overview and equipment guidance",
+        f"- [About](https://{domain}/about/): Website and inquiry process",
+        f"- [Contact](https://{domain}/contact/): Submit a service inquiry", ""])
+    services = []
     if content_path.exists():
         content_ts = content_path.read_text(encoding="utf-8")
-        # Match the HOME_SERVICES export block, then extract tuples from it.
         hs_match = re.search(r'HOME_SERVICES\s*=\s*\[(.*?)\];', content_ts, re.DOTALL)
         if hs_match:
-            hs_block = hs_match.group(1)
-            # Each tuple: [icon, "Title", "desc", "/url"]
-            for m in re.finditer(r'\[\s*"[a-z\-]+"\s*,\s*"([^"]+)"\s*,\s*"[^"]*"\s*,\s*"([^"]+)"\s*\]', hs_block):
-                title_raw = m.group(1)
-                url = m.group(2)
-                # Unescape HTML entities for plain-text llms.txt
-                title = title_raw.replace("&amp;", "&")
-                home_services.append((title, url))
-
-    # Entity definition (mirrors homepage copy + schema description)
-    definition = (
-        f"{brand_plain} is a local HVAC company serving {city}, {county}, Ontario, "
-        f"offering furnace repair, AC repair, ductless mini-split installation, "
-        f"heat pump repair and installation, fireplace installation, thermostat "
-        f"repair, and duct cleaning to homeowners across the region."
-    )
-
-    lines = [
-        f"# {brand_plain}",
-        "",
-        f"> {definition}",
-        "",
-        f"Phone: {phone}  |  Email: {email}  |  Website: https://{domain}",
-        "",
-    ]
-
-    if service_areas:
-        lines.append(f"Service areas: {', '.join(service_areas)}")
+            for m in re.finditer(r'\[\s*"[a-z\-]+"\s*,\s*"([^"]+)"\s*,\s*"[^"]*"\s*,\s*"([^"]+)"\s*\]', hs_match.group(1)):
+                title, url = m.group(1).replace("&amp;", "&"), m.group(2)
+                if not url.startswith("/") or not (DIST / url.strip("/") / "index.html").exists():
+                    raise RuntimeError(f"Missing service-summary target {domain}{url}")
+                services.append((title, url))
+    if services:
+        lines.extend(["## Services", ""])
+        lines.extend(f"- [{title}](https://{domain}{url}): {title} guidance and requests in {city}, Ontario" for title, url in services)
         lines.append("")
-
-    lines.append("## Key pages")
-    lines.append("")
-    lines.append(f"- [Home](https://{domain}/): {brand_plain} homepage with service overview and FAQ")
-    lines.append(f"- [About](https://{domain}/about/): About the company and service area")
-    lines.append(f"- [Contact](https://{domain}/contact/): Request a free quote or service call")
-    lines.append("")
-
-    if home_services:
-        lines.append("## Services")
-        lines.append("")
-        for title, url in home_services:
-            full_url = f"https://{domain}{url}" if url.startswith("/") else url
-            lines.append(f"- [{title}]({full_url}): {title} in {city}, Ontario")
-        lines.append("")
-
-    lines.append(f"## FAQ")
-    lines.append("")
-    lines.append(f"Common questions about HVAC service in {city} are answered on the homepage.")
-    lines.append("")
-
-    llms_path = DIST / "llms.txt"
-    llms_path.write_text("\n".join(lines), encoding="utf-8")
-    print(f"[normalize] llms.txt written ({brand})")
+    package = json.loads((ROOT / "package.json").read_text(encoding="utf-8"))["name"]
+    vertical_match = re.search(r"vertical:\s*['\"]([^'\"]+)['\"]", config_ts)
+    vertical = vertical_match.group(1) if vertical_match else "hvac"
+    topic = {"plumbing-astro": "plumbing requests", "duct-cleaning-astro": "duct-cleaning requests"}.get(package)
+    topic = topic or {"generator": "standby generator planning", "solar": "solar planning", "geothermal": "geothermal planning"}.get(vertical, "heating and cooling requests")
+    lines.extend(["## FAQ", "", f"Questions about {topic} in {city} are addressed on the homepage.", ""])
+    (DIST / "llms.txt").write_text("\n".join(lines), encoding="utf-8")
+    print(f"[normalize] llms.txt written ({brand_plain})")
 
 
 def _extract_ts_string(ts: str, field: str) -> str | None:
-    """Extract a string value from a TS config field like: field: "value"."""
+    """Extract a single- or double-quoted TS config string."""
     import re
-    m = re.search(rf'{field}:\s*"([^"]+)"', ts)
-    return m.group(1) if m else None
+    m = re.search(rf"\b{re.escape(field)}:\s*(['\"])(.*?)\1", ts)
+    return m.group(2) if m else None
 
 
 def main() -> None:
