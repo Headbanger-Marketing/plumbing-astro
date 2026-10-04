@@ -1,198 +1,408 @@
-// Per-site content for pickeringplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Pickering, Durham Region, stretching
-// from the Lake Ontario shore at Frenchman's Bay to rural hamlets in the
-// north.
-// Local angle: a town with two personalities, lakeshore and Bay Ridges homes
-// near a high water table and old sewers, the huge new Seaton community
-// rising mid-town, and a genuinely rural north (Whitevale, Brougham,
-// Claremont) on wells and septic with estate and hobby-farm plumbing.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Pickering, Ontario",
-    h1: "Water Heater Installation From a Local Durham Plumbing Team",
-    intro: "Pickering Plumbing Pros installs water heaters for a town that contains three plumbing worlds, Bay Ridges bungalows near the water, the fast-growing Seaton community, and country properties out past Whitevale where the well and the pressure tank decide everything. We size to the household and the water source, install with venting that suits shore humidity and north-end cold alike, and haul the old unit away as part of the day's work.",
-    meta: "Water heater installation and replacement in Pickering, Ontario. Shore bungalow swaps, Seaton new-home units, and well-side tank work by licensed Durham plumbers.",
-    problem_h: "Different ends of town, same cold shower?",
-    problem_p: "Bay Ridges, Seaton, and the countryside each need their own water heater answer, and Pickering gets the one that fits.",
-    features: [
-      ["flame", "Well-Side Coordination", "Out in north Pickering the pressure tank, switch settings, and well recovery rate shape what a tank can deliver. We factor the whole system in, not just the appliance."],
-      ["clock", "Same-Day Common Swaps", "Stocked configurations cover most Pickering homes, so a morning failure usually ends with hot water the same evening and the permit already filed."],
-      ["shield", "New-Home Upgrades", "Seaton-era builder tanks are sized to minimum, not to families. We replace undersized units early, before the first big utility bill argues for it."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Pickering, Ontario",
+    "h1": "Plan a Water Heater Installation in Pickering",
+    "intro": "Water heater replacement in Pickering can involve a straightforward tank swap, a new-home upgrade, or coordination with a private well system. Before comparing options, note the existing unit’s fuel, capacity, venting, dimensions, and connection locations. For a property on a well, record pressure-tank and pump details as well; recovery and pressure can affect how a replacement performs. These observations help define the equipment and installation scope. Ask any prospective contractor to explain the proposed sizing, venting, connections, and removal arrangements before work is scheduled.",
+    "meta": "Compare water heater replacement options in Pickering, including tank sizing, venting, and private well system considerations.",
+    "problem_h": "What should you check before replacing a water heater?",
+    "problem_p": "The right replacement depends on the existing installation and household demand. A private well adds pressure and recovery questions, so gather system details before comparing equipment.",
+    "features": [
+      [
+        "flame",
+        "Check the Well System",
+        "If the home uses a well, photograph the pressure tank label, pump controls, and existing heater connections. Ask how pressure settings and well recovery affect the proposed heater and household demand. Considering the whole system can reveal whether the installation is a simple appliance replacement or needs additional coordination."
+      ],
+      [
+        "clock",
+        "Compare Replacement Scope",
+        "Record the old heater’s fuel, capacity, vent route, dimensions, and visible clearances. Ask for the replacement model and a written description of connection, venting, and removal work. Comparing these details helps identify changes that could affect the installation, rather than assuming a new unit will fit the existing setup."
+      ],
+      [
+        "shield",
+        "Review a New-Home Upgrade",
+        "If a newer home’s heater seems undersized for its current household, compare the unit’s capacity with actual hot-water use. Ask how a larger or different model would affect venting, fuel supply, and available space. That information helps distinguish a capacity issue from a problem elsewhere in the hot-water system."
+      ]
     ],
-    rev: [0, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Pickering, Ontario",
-    h1: "Drain Cleaning From a Local Durham Plumbing Team",
-    intro: "Down by Frenchman's Bay the older Pickering streets run clay and cast iron beneath big maples, and the clogs that follow are structural as often as behavioral. Up in the rural north, drains behave differently, slow lines frequently point to a septic tank needing attention rather than a pipe problem. Pickering Plumbing Pros clears the lines, cameras when the pattern warrants, and tells country properties honestly which side of the septic boundary their symptom lives on.",
-    meta: "Drain cleaning in Pickering, Ontario. Clay and cast iron sewer clearing, root work, camera inspection, and septic-side diagnosis for rural properties.",
-    problem_h: "Every drain slowing at the same time?",
-    problem_p: "Pickering's old shore lines and country septic systems announce themselves differently, and we identify which one is speaking.",
-    features: [
-      ["refresh", "Shore Street Root Work", "Mature trees over old clay joints is the classic Pickering combination. We cut, jet, and film the line so the next decision is an informed one."],
-      ["droplets", "Cameras Before Conclusions", "A line that clogs twice has a story to tell. The camera tells it, and Pickering homeowners see the footage themselves before any repair money moves."],
-      ["shield", "Rural Septic Honesty", "North of the 407, whole-house slowness often means the tank. We draw the line plainly between drain clearing and septic service, and never sell the wrong one."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Pickering, Ontario",
+    "h1": "Plan Drain Cleaning and Inspection in Pickering",
+    "intro": "A recurring drain problem can come from a local blockage, a damaged or obstructed building drain, or a condition beyond the plumbing on a property with septic. Note which fixtures are slow, whether several fixtures are affected together, and when symptoms occur. If a drain has blocked more than once, ask whether a camera inspection is appropriate after clearing it. On a septic property, clarify where the plumbing ends and the septic system begins before authorizing work; that distinction can change which service is needed.",
+    "meta": "Drain cleaning and camera inspection planning in Pickering, including recurring blockages and septic system considerations.",
+    "problem_h": "Are several fixtures slowing down together?",
+    "problem_p": "A single slow fixture and a whole-house slowdown can indicate different scopes. Record the affected drains and clarify whether a septic system is involved.",
+    "features": [
+      [
+        "refresh",
+        "Assess Roots and Older Lines",
+        "If a camera or prior repair record identifies clay or cast-iron pipe with root intrusion, keep the footage and note the location and recurrence. Ask what clearing method is proposed and whether the line will be inspected afterward. This evidence helps compare temporary clearing with further investigation of the pipe condition."
+      ],
+      [
+        "droplets",
+        "Ask When Camera Inspection Helps",
+        "For a blockage that returns, note how soon it recurs and whether the same fixtures are affected. Ask what a camera inspection can establish after the line is cleared, and request the relevant footage or findings. Seeing the pipe condition can help distinguish another obstruction from a defect requiring a separate repair scope."
+      ],
+      [
+        "shield",
+        "Clarify the Septic Boundary",
+        "If the property uses septic, record whether sinks, toilets, or multiple drains are affected and ask which section of the system a proposed service covers. Plumbing-line symptoms and tank-side issues may need different providers. Confirming the boundary before work helps avoid treating a plumbing blockage as a septic diagnosis, or the reverse."
+      ]
     ],
-    rev: [1, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Pickering, Ontario",
-    h1: "Repiping From a Local Durham Plumbing Team",
-    intro: "The bungalows around Bay Ridges and Rosebank carry galvanized old enough to have grandchildren, while the 70s and 80s subdivisions north of them hold the era's plastic experiment, and the farmhouses past Claremont hold a bit of everything ever sold. Pickering Plumbing Pros repipes across all of it with PEX and copper, gives rural homes the shutoff and drainage layout a long private service deserves, and files the permits that protect resale value in the suburban half.",
-    meta: "Repiping in Pickering, Ontario. Galvanized and era-plastic replacement, rural farmhouse systems, and permitted whole-home repipes in PEX and copper.",
-    problem_h: "Pipes from every decade but this one?",
-    problem_p: "Pickering's spread of housing ages means repiping here is custom work, scoped to what is actually in the walls.",
-    features: [
-      ["wrench", "Custom Scoping First", "No two Pickering streets pipe alike at this point in their lives. We inventory what exists, then quote the honest replacement scope for that specific home."],
-      ["home", "Rural-Ready Layouts", "Country properties gain accessible shutoffs and drain points, so a farmhouse system can be managed, isolated, and winter-prepared without drama."],
-      ["shield", "Permits and Paperwork", "Suburban repipes are filed, inspected, and documented, which Pickering sellers have watched smooth over more than one buyer inspection."]
+    "icon": "wrench",
+    "kicker": "Repiping in Pickering, Ontario",
+    "h1": "Plan a Whole-Home or Partial Repipe in Pickering",
+    "intro": "Repiping scope depends on what materials are present, where they run, and which sections show wear or recurring problems. In an older home, look for visible galvanized pipe; in a home with plastic piping, identify markings or keep renovation records rather than relying on the building’s age alone. Mixed materials in a farmhouse or altered property may require a room-by-room inventory. Before comparing proposals, ask which sections will be replaced, where access is needed, and how shutoffs and drainage will be arranged.",
+    "meta": "Repiping planning in Pickering, with guidance on identifying existing pipe materials and comparing replacement scopes.",
+    "problem_h": "Do you know what pipe materials are inside the walls?",
+    "problem_p": "A home may contain several generations of plumbing. A visible-pipe inventory and a clearly defined replacement scope make proposals easier to compare.",
+    "features": [
+      [
+        "wrench",
+        "Inventory Before Scoping",
+        "Photograph accessible pipe, fittings, and shutoffs, and collect renovation records if available. Ask a contractor to identify the materials and map which areas are included in the proposed replacement. This matters because a partial repair, a section replacement, and a whole-home repipe require different access, materials, and disruption."
+      ],
+      [
+        "home",
+        "Plan Rural Shutoffs and Drainage",
+        "If a country property has long service runs or seasonal freeze concerns, ask where accessible isolation valves and drain points could be placed. Request an explanation of how sections can be shut off and drained for maintenance or winter preparation. These layout decisions affect usability after installation, not just the pipe route."
+      ],
+      [
+        "shield",
+        "Verify Documentation Requirements",
+        "Before work begins, ask who determines whether permits or inspections apply and what records will be provided when the project is complete. Keep the final material list, scope, and any inspection documents with the home’s records. Clear documentation helps future owners and contractors understand what was replaced and what remains."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Pickering, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Durham Plumbing Team",
-    intro: "Fixture work in Pickering spans from quick shore-bungalow swaps to full ensuite builds in the new Seaton homes, with estate-country bathrooms out past Whitevale somewhere in between. Pickering Plumbing Pros covers the range with the same standard, fixtures set level and sealed, stops renewed on principle, and rough-ins that land exactly where the drawings promised. We also fix what the builders rushed, quietly and properly.",
-    meta: "Fixture and toilet installation in Pickering, Ontario. Seaton ensuite builds, shore bungalow replacements, and estate bathroom installs by licensed Durham plumbers.",
-    problem_h: "New home with rushed plumbing, or old one with tired fixtures?",
-    problem_p: "Both ends of Pickering get fixture work to the same standard, level, sealed, and built to outlast the trend.",
-    features: [
-      ["home", "Builder Correction Work", "Seaton-era homes arrive with fixtures set at production speed. We re-set the wobbles, re-seal the shortcuts, and align what shipped crooked."],
-      ["check", "Country Bathroom Builds", "Estate and farmhouse bathrooms get full rough-ins and fixture installs, with pressure and drainage designed for private supply and septic."],
-      ["shield", "Practical Durability", "Shore humidity and hard usage eat delicate finishes. We recommend and install fixture lines that hold up in real Pickering houses."]
+    "icon": "home",
+    "kicker": "Fixtures and Toilets in Pickering, Ontario",
+    "h1": "Plan Fixture and Toilet Installation in Pickering",
+    "intro": "Fixture projects in Pickering range from replacing a toilet or faucet to fitting out a bathroom with new rough-ins. Before selecting products, photograph the existing connections, measure clearances, and check the toilet’s rough-in dimensions or the fixture’s mounting requirements. For a larger bathroom, compare the drawings with the planned fixture locations and confirm drainage, supply, and access before finishes are installed. On a property with a private water supply or septic system, include pressure and drainage considerations in the scope.",
+    "meta": "Plan toilet and fixture installation in Pickering, from replacements to bathroom rough-ins and private-system considerations.",
+    "problem_h": "Are the fixture dimensions and connections confirmed?",
+    "problem_p": "A product that looks suitable may not fit the existing rough-in or planned layout. Measurements and connection details help establish the installation scope.",
+    "features": [
+      [
+        "home",
+        "Check Existing Fixture Work",
+        "If a toilet rocks, a faucet leaks, or a fixture appears misaligned, photograph the base, connections, and surrounding finish. Ask whether the issue involves the fixture alone, its shutoff, or the underlying connection. Identifying the source first helps determine whether a replacement is enough or whether related plumbing work should be included."
+      ],
+      [
+        "check",
+        "Coordinate a Country Bathroom",
+        "For a bathroom on a private supply or septic system, share the planned fixture list and layout before rough-in work. Ask how supply pressure, drainage, and fixture demand will be considered. That information can affect pipe sizing and fixture selection, especially when several fixtures may operate at the same time."
+      ],
+      [
+        "shield",
+        "Compare Materials and Maintenance",
+        "Before choosing finishes, ask how the fixture’s materials and service parts suit the intended use and cleaning routine. Check replacement-part availability with the supplier and confirm the selected model matches the planned connections. Comparing these practical details helps avoid a product choice that complicates installation or later maintenance."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Pickering, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Durham Plumbing Team",
-    intro: "Pickering leaks hide in three different worlds, behind the finished walls of shore-area homes, under the fresh concrete of Seaton, and along the long private lines serving country properties. Pickering Plumbing Pros searches all three with thermal imaging, acoustic listening, and pressure isolation, so the opening happens at the fault and nowhere else. For rural homes, the well system gets tested alongside, because out north a phantom leak and a tired pressure tank look identical.",
-    meta: "Leak detection and repair in Pickering, Ontario. Thermal and acoustic location, new-home leak audits, and private line tracing for rural properties.",
-    problem_h: "Usage up, explanations down?",
-    problem_p: "Whether the leak hides behind shore drywall or out along a country yard line, detection finds it before demolition or excavation does.",
-    features: [
-      ["droplets", "Instrument-First Searches", "Imaging and listening gear narrows every search before finishes open. Pickering leak repairs begin with data, and the small openings prove it."],
-      ["shield", "New-Home Leak Audits", "Early Seaton builds carry the usual first-years connection faults. We audit the signs, find the source, and document it while warranty leverage still exists."],
-      ["check", "Well System Separation", "A cycling pump may be a leak, a bladder, or a valve. We test the well side methodically before recommending any Pickering repair."]
+    "icon": "droplets",
+    "kicker": "Leak Detection and Repair in Pickering, Ontario",
+    "h1": "Plan Leak Detection and Repair in Pickering",
+    "intro": "A leak may be concealed behind a finished wall, below a floor, or along a private water line, and the investigation should match the symptoms. Note when water use changes, where moisture appears, and whether the pressure pump cycles when no water is being used. Photograph stains and record any recent plumbing work. Ask what detection methods are proposed before finishes are opened or excavation begins. For a well system, checking the pressure tank, valves, and pump can help distinguish a leak from equipment cycling.",
+    "meta": "Leak detection planning in Pickering, including concealed plumbing, private service lines, and well system checks.",
+    "problem_h": "Is water use changing without an obvious explanation?",
+    "problem_p": "Record the timing, location, and visible signs. On a well, pump cycling can have more than one cause, so include system details in the investigation.",
+    "features": [
+      [
+        "droplets",
+        "Ask About Instrument-Based Searches",
+        "Photograph stains, damp areas, and nearby plumbing, and note whether the signs change over time. Ask whether acoustic listening, thermal imaging, or another method is suitable before opening finishes. The proposed method and its limits can help you understand how a likely leak location will be narrowed and what access may still be needed."
+      ],
+      [
+        "shield",
+        "Document a New-Home Concern",
+        "If a leak appears in a newer home, keep dated photographs, notes on when it began, and records of earlier work. Ask for the suspected source and findings in writing, and check applicable warranty terms with the responsible party. Timely records help clarify the issue and support any separate warranty or repair discussions."
+      ],
+      [
+        "check",
+        "Separate Well-System Causes",
+        "If a well pump cycles unexpectedly, record the cycle frequency and whether fixtures are running, then photograph the pressure tank label and controls. Ask how the pump, pressure tank, valves, and plumbing line will be tested. A cycling pump can have several explanations, so checking the well equipment helps define whether a leak repair is actually required."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Pickering, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Durham Plumbing Team",
-    intro: "The streets around Frenchman's Bay sit low with the water table close beneath them, and storm seasons keep testing which homes took that seriously. Pickering Plumbing Pros installs pumping systems with the capacity that low shore geography demands, battery backup for the outages storms bring inland, and permitted mainline backwater valves where sewer surcharge is a known street condition. Newer mid-town homes get their weeper systems checked against what the builder installed.",
-    meta: "Sump pump and backwater valve installation in Pickering, Ontario. Shore-area capacity pumping, battery backup, and permitted valves for low streets.",
-    problem_h: "Water table with opinions about your basement?",
-    problem_p: "Low Pickering streets near the bay need deliberate protection, and the prepared homes are the dry ones after every storm.",
-    features: [
-      ["shield", "Bay-Area Capacity", "Ground that stays wet year-round refills pits continuously in wet season. We install Pickering pumps with the duty rating and head capacity that reality requires."],
-      ["zap", "Backup for Both Threats", "Storm outages and storm inflow arrive together. Battery-backed pumping and a high-water alarm cover the exact hours that decide the outcome."],
-      ["refresh", "Builder System Checks", "Not every new Pickering home got the pump setup its grading needed. We audit, correct, and where streets surcharge, install permitted backwater valves."]
+    "icon": "shield",
+    "kicker": "Sump Pumps and Backwater Valves in Pickering, Ontario",
+    "h1": "Plan Sump Pump and Backwater Protection in Pickering",
+    "intro": "Basement water protection should be based on the property’s drainage setup and the equipment already in place, not on a neighbourhood assumption. Photograph the sump pit, pump label, discharge route, alarm, and any backup equipment. Note how the system behaved during heavy rain or a power interruption. If a backwater valve is being considered, ask whether the property’s sewer connection and local requirements make it suitable. For a newer home, compare the installed pump and weeping-tile arrangement with available plans and the observed drainage symptoms.",
+    "meta": "Sump pump and backwater valve planning in Pickering, including pump capacity, backup power, alarms, and installation checks.",
+    "problem_h": "Would the sump system keep working during a power outage?",
+    "problem_p": "Check the pump, discharge, alarm, and backup arrangements together. A backwater valve is a separate option whose suitability depends on the property’s sewer setup.",
+    "features": [
+      [
+        "shield",
+        "Check Pump Capacity and Discharge",
+        "Record the pump model, pit dimensions, discharge-pipe route, and any known high-water events. Ask how the proposed pump’s capacity and lift suit that installation, and whether the discharge route is clear and appropriate. These details affect performance; choosing by horsepower alone may not reflect the actual lift or system requirements."
+      ],
+      [
+        "zap",
+        "Compare Backup and Alarm Options",
+        "If the property has a sump pump, test or inspect the alarm and identify any backup power equipment. Ask what happens when the main pump or household power fails, and how backup runtime and maintenance should be checked. A separate backup pump, battery, and high-water alarm address different failure points, so compare their roles."
+      ],
+      [
+        "refresh",
+        "Review Existing Drainage and Valve Options",
+        "For a newer home or a proposed backwater valve, gather available drainage plans and identify the sewer connection and existing sump equipment. Ask a qualified contractor to assess whether a valve is suitable and what approvals or inspections may apply. The property’s layout and connection determine the scope; do not assume every house needs the same setup."
+      ]
     ],
-    rev: [5, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Pickering, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Durham Plumbing Team",
-    intro: "Town water in Pickering comes lake-treated and dependable, with the same steady hardness that etches glassware across Durham, while the rural north draws wells whose iron and mineral content varies property to property, sometimes dramatically. Pickering Plumbing Pros treats both realities, metered softeners and drinking filtration for the suburban streets, and complete test-driven well systems for the farms and estates out past Claremont. Every install begins with knowing what is actually in the water.",
-    meta: "Water softeners and filtration in Pickering, Ontario. Metered town softeners, complete well treatment systems, and drinking water filtration.",
-    problem_h: "Scale in town or iron in the country?",
-    problem_p: "Pickering's two water worlds each have a fix, and the right one starts with testing rather than guessing.",
-    features: [
-      ["gauge", "Town-Side Efficiency", "Metered softeners regenerate on measured use, protecting Pickering appliances and fixtures without waste, sized to the household's real volume."],
-      ["droplets", "Country Well Systems", "North-end wells get staged treatment, sediment, iron, hardness, and UV as the test demands, assembled into one coherent system."],
-      ["shield", "Warranty Protection", "Hardness limits written into appliance and tankless warranties get respected by our installs, keeping rural and suburban Pickering coverage intact."]
+    "icon": "gauge",
+    "kicker": "Water Softeners and Filtration in Pickering, Ontario",
+    "h1": "Plan Water Treatment in Pickering",
+    "intro": "Water treatment choices depend on the source and a measured water analysis. If the property is on municipal supply, confirm the household’s needs and the treatment equipment already installed before comparing softeners or drinking-water filters. If it uses a private well, arrange testing of the actual source and review results for hardness, iron, sediment, and other relevant parameters before selecting treatment stages. Ask how equipment will be sized, where it will connect, and what maintenance or regeneration it requires.",
+    "meta": "Water softener and filtration planning in Pickering, based on water source, testing, equipment sizing, and maintenance.",
+    "problem_h": "Is the treatment plan based on a water test?",
+    "problem_p": "Treatment depends on what is present and how much water the household uses. Identify the source and test results before choosing equipment.",
+    "features": [
+      [
+        "gauge",
+        "Size a Softener to Household Use",
+        "If a softener is being considered, compare the test result with the household’s water use and the unit’s capacity and regeneration settings. Ask how metered regeneration works and what salt and maintenance the selected model requires. Matching the equipment to actual use can help avoid choosing a system that is unsuitable or inefficient."
+      ],
+      [
+        "droplets",
+        "Stage Well Treatment from Results",
+        "For a private well, obtain a current laboratory water test and share the results before selecting equipment. Ask which treatment stage addresses each measured issue, such as sediment, iron, or hardness, and whether additional treatment is indicated. A test-driven design helps avoid adding stages without evidence or overlooking a relevant result."
+      ],
+      [
+        "shield",
+        "Check Appliance Requirements and Upkeep",
+        "Before installation, review the manuals and warranty terms for appliances that connect to the treated water, including any specified hardness limits. Ask whether the proposed treatment meets those requirements and what routine servicing involves. This comparison helps ensure the equipment fits both the water analysis and the connected appliances’ stated conditions."
+      ]
     ],
-    rev: [4, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Bay Ridges street, flooded twice over the years. Their pump and backwater work meant the last big storm was just weather on the window.", "Homeowner", "Pickering"],
-  ["Our new Seaton house had a toilet set crooked from day one. They re-set it properly and checked the rest while here. Should have called sooner.", "Resident", "Pickering"],
-  ["Country property with a mysterious cycling pump. They tested the well side first and found a yard leak, not the tank. Saved us real money.", "Farmer", "Whitevale"],
-  ["Repiped our 1958 bungalow over two weeks while we lived in it. Water nightly, clean patches, honest price held to the letter.", "Homeowner", "Rosebank"],
-  ["Drains went slow everywhere and I feared the septic. They cleared the line, filmed it, and told me straight the tank was fine. Rare honesty.", "Cottage Owner", "Claremont"],
-  ["Well water treatment built from our actual test. Iron gone, taste excellent, and they plumbed it so filter changes take minutes.", "Homeowner", "Brougham"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Shore bungalow swaps, Seaton upgrades, and well-side installs coordinated with your Pickering pressure system.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Root work and camera diagnosis for shore streets, plus honest septic-boundary calls for the rural north.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Custom-scoped replacement across galvanized, era plastic, and farmhouse patchwork, permitted and documented.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Builder correction work, country bathroom builds, and everyday installs to one consistent standard.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Thermal and acoustic detection plus new-home audits and private line tracing out north.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Water table capacity for bay-area streets, battery backup, and permitted surcharge protection.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Metered town softeners and test-driven well systems for Pickering's two water worlds.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank capacity, fuel, venting, and connection requirements. If the home uses a well, include pressure-tank and pump details when defining the replacement scope.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Describe which fixtures are slow and whether symptoms recur. Camera inspection may help assess a repeatedly blocked line; septic properties should clarify where plumbing service ends and tank-side work begins.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Identify visible pipe materials and collect renovation records. Compare proposals by the sections included, access requirements, shutoff locations, and any applicable documentation.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures and Toilets",
+    "Measure rough-ins and clearances before selecting fixtures. For bathroom builds, confirm supply and drainage locations and consider private-system pressure or septic requirements where relevant.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection and Repair",
+    "Record moisture locations, water-use changes, and pump behaviour. Ask about suitable detection methods and, on a well, include pressure-tank and pump checks in the investigation.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps and Backwater Valves",
+    "Document pump capacity, pit, discharge, alarm, and backup equipment. Assess backwater valve suitability against the property’s sewer connection and applicable requirements.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners and Filtration",
+    "Start with the water source and test results. Compare treatment stages, capacity, regeneration or maintenance needs, and any requirements for connected appliances.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed and insured for work in Pickering?", "Fully licensed and insured, filing permits through the Durham authority whenever the Ontario Building Code requires them, so suburban and rural Pickering jobs alike carry proper documentation."],
-  ["Can you respond to emergencies here?", "Yes, dispatching across Pickering around the clock for bursts, backups, and no-water calls, with rural north properties prioritized honestly by drive time."],
-  ["How soon can a failed tank be replaced?", "Commonly same-day in the suburban core, since the trucks carry standard configurations, and the permit filing is completed as part of the visit."],
-  ["Our area has a mix of pipe eras. Full repipe needed?", "Only an on-site inventory answers that. Some Pickering homes need one failing branch corrected, others the full system, and our scoping tells you which before money moves."],
-  ["Do you handle wells and septic properties?", "The rural north is core territory, pressure tanks and switches, well treatment, and the plumbing side of septic, with the tank work itself referred to the right specialists."],
-  ["Is Pickering tap water hard?", "Town supply is moderately hard, enough to etch and scale steadily, and northern wells run harder with iron. Testing determines the treatment each property needs."],
-  ["What does it cost to get a quote?", "Nothing. Quotes are free, written, and delivered before work begins, and the Pickering price approved is the price invoiced."],
-  ["Which areas do you cover from Pickering?", "Pickering itself plus Ajax, Whitevale, Brougham, Claremont, Greenwood, and Whitby, suburban and rural alike."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/pickeringplumbingpros.ca-water-heaters.jpg", "Water heater installation in Pickering, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/pickeringplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning in Pickering, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/pickeringplumbingpros.ca-repiping.jpg", "Whole-home repiping in Pickering, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/pickeringplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Pickering, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/pickeringplumbingpros.ca-leak-detection.jpg", "Leak detection in Pickering, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/pickeringplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Pickering, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/pickeringplumbingpros.ca-water-softeners.jpg", "Water softener and well treatment in Pickering, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/pickeringplumbingpros.ca-water-heaters.jpg",
+    "Water heater installation in Pickering, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/pickeringplumbingpros.ca-drain-cleaning.jpg",
+    "Drain cleaning in Pickering, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/pickeringplumbingpros.ca-repiping.jpg",
+    "Whole-home repiping in Pickering, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/pickeringplumbingpros.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Pickering, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/pickeringplumbingpros.ca-leak-detection.jpg",
+    "Leak detection in Pickering, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/pickeringplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump installation in Pickering, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/pickeringplumbingpros.ca-water-softeners.jpg",
+    "Water softener and well treatment in Pickering, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "claremont": {
-    name: "Claremont",
-    intro: "Claremont is a quiet hamlet in north Pickering where acreage properties, hobby farms, and longtime family homes all run on private wells and septic. Pickering Plumbing Pros serves Claremont with well treatment and pressure systems, septic-honest drain diagnosis, winterization, water heaters, and repiping suited to country plumbing. Rural emergencies here get genuine priority, not an apology.",
-    meta: "Plumber in Claremont, Ontario. Well systems, septic-side drain diagnosis, water heaters, repiping, and winterization for rural north Pickering.",
-    nearby: ["Pickering", "Brougham", "Whitevale", "Uxbridge"],
-    faq: [
-      ["Do you service Claremont wells?", "Yes, from pressure tanks to complete iron and hardness treatment, always specified from a water test of the actual Claremont well."],
-      ["Our drains are slow and we are on septic. Can you tell which it is?", "That diagnosis is routine for us, and Claremont homeowners get an honest answer about whether the plumbing or the tank side needs attention."],
-      ["Is Claremont too far for emergency calls?", "No, Claremont is regular territory, and active leaks or no-water situations get priority dispatch."],
-      ["Can you repipe an older Claremont farmhouse?", "Yes, with the custom scoping country homes need and layouts that make winterizing and isolating sections simple."]
+    "name": "Claremont",
+    "intro": "For a plumbing project in Claremont, first establish whether the property uses a private well and septic system, and gather any water tests, service records, or system plans. These details affect water treatment, pressure-system checks, drain diagnosis, and fixture choices. For slow drains, note which fixtures are affected and ask whether the issue appears to be in the plumbing line or beyond it on the septic side. Older homes and seasonal properties may also need a careful inventory of pipe materials and freeze-preparation needs.",
+    "meta": "Plumbing project planning in Claremont, including well systems, septic boundaries, water treatment, and older-home piping.",
+    "nearby": [
+      "Pickering",
+      "Brougham",
+      "Whitevale",
+      "Uxbridge"
     ],
+    "faq": [
+      [
+        "What should I gather before planning well-water treatment?",
+        "Collect a recent test of the property’s water, the well and pressure-tank details if available, and any records for existing treatment equipment. Ask a qualified provider to explain which test results each proposed treatment stage is intended to address."
+      ],
+      [
+        "How can I distinguish a plumbing drain issue from a septic concern?",
+        "Note which fixtures are slow, whether the problem affects the whole property, and whether it recurs after clearing. Ask where the proposed drain service ends and what evidence would indicate a tank-side assessment is needed."
+      ],
+      [
+        "What information helps scope a farmhouse repipe?",
+        "Photograph accessible pipes, shutoffs, and any mixed materials, and collect records from earlier renovations. Ask which sections are included, where access is required, and how shutoff and drain points could support seasonal maintenance."
+      ],
+      [
+        "What should seasonal properties check before winter?",
+        "Review exposed plumbing, vulnerable sections, shutoffs, and available drain points. Ask a qualified contractor which lines can be drained and what freeze protection is appropriate for the property’s layout."
+      ]
+    ]
   },
   "brougham": {
-    name: "Brougham",
-    intro: "Brougham sits at the heart of north Pickering, a small rural community surrounded by farms and country lots that manage their own water and waste. Pickering Plumbing Pros handles Brougham's well systems, water treatment, drain and septic-boundary diagnosis, and the water heater and fixture work country properties need, with the drive-out attitude rural customers deserve.",
-    meta: "Plumber in Brougham, Ontario. Well water treatment, drain cleaning, water heaters, and rural property plumbing for north Pickering farms and homes.",
-    nearby: ["Pickering", "Claremont", "Whitevale", "Greenwood"],
-    faq: [
-      ["Can you treat Brougham well water?", "Yes, beginning with testing, then iron, hardness, sulphur, and UV stages as the results call for, plumbed as one system."],
-      ["Do you replace water heaters out here?", "Regularly, coordinated with the pressure system so the new unit and the Brougham well work together instead of against each other."],
-      ["What about slow drains on a septic property?", "We clear and camera the plumbing lines first, then say plainly if the symptom points to the tank, so Brougham owners spend on the right fix."],
-      ["Are winterization services available?", "Yes, drain-downs, insulation, and freeze protection for seasonal or vulnerable Brougham plumbing before the cold settles in."]
+    "name": "Brougham",
+    "intro": "For work in Brougham, confirm whether the property relies on a private well and septic system before comparing plumbing options. A current water test can guide treatment choices, while pressure-tank and pump information helps explain water delivery and heater requirements. For a slow drain, document the affected fixtures and ask whether a plumbing-line inspection is appropriate before treating the symptom as a septic issue. Properties with seasonal or exposed plumbing should also identify shutoffs, drain points, and vulnerable sections when planning maintenance.",
+    "meta": "Plan plumbing work in Brougham with well testing, pressure-system details, drain diagnosis, and seasonal maintenance in mind.",
+    "nearby": [
+      "Pickering",
+      "Claremont",
+      "Whitevale",
+      "Greenwood"
     ],
+    "faq": [
+      [
+        "How should I compare well-water treatment options?",
+        "Start with a current test from the property’s well. Ask which results support each proposed treatment stage, how equipment will be arranged, and what routine maintenance it needs."
+      ],
+      [
+        "What should be checked when replacing a water heater on a well?",
+        "Gather the heater specifications and pressure-tank and pump details. Ask how household demand, water pressure, and the proposed heater’s requirements will be considered together."
+      ],
+      [
+        "What should I record when drains are slow on a septic property?",
+        "List the affected fixtures, note whether symptoms happen together, and record whether clearing has helped before. Ask whether the plumbing line should be cleared or inspected and how its scope differs from tank-side septic work."
+      ],
+      [
+        "How can seasonal plumbing be prepared for cold weather?",
+        "Identify exposed or vulnerable lines, shutoffs, and drain points, then ask which sections can be drained and what protection suits the property. Keep a record of the system layout for future maintenance."
+      ]
+    ]
   },
   "whitevale": {
-    name: "Whitevale",
-    intro: "Whitevale is a historic hamlet tucked into the valleys of north Pickering, with heritage homes, rural lots, and the well-and-septic life that comes with them. Pickering Plumbing Pros serves Whitevale with careful plumbing for older homes, complete well treatment, leak detection across long private lines, and the honest rural guidance that keeps country systems running.",
-    meta: "Plumber in Whitevale, Ontario. Heritage home plumbing, well water treatment, leak detection, and rural service for the Whitevale hamlet area.",
-    nearby: ["Pickering", "Brougham", "Claremont", "Markham"],
-    faq: [
-      ["Do you work on older Whitevale homes?", "Yes, with the patience heritage plumbing deserves, from careful repiping to fixture work that respects the home's character."],
-      ["Can you trace leaks along long country lots?", "Our detection gear covers full private service runs, so Whitevale yard line leaks get found without exploratory excavation."],
-      ["Is well water treatment available here?", "Yes, test-driven systems for iron, hardness, and bacteria, sized to what the Whitevale well actually produces."],
-      ["How remote is too remote for service?", "Whitevale is well within our regular north Pickering coverage, for scheduled work and emergencies alike."]
+    "name": "Whitevale",
+    "intro": "For a project in Whitevale, collect the home’s plumbing and water-system records before deciding on a scope. Older properties may contain several generations of pipe, so photograph accessible sections and note prior alterations. If the property uses a private well, base treatment decisions on a test of that water rather than a general assumption. For a suspected leak along a long private line, record where signs appear and ask what detection methods can narrow the search before excavation is considered.",
+    "meta": "Plumbing planning in Whitevale, including older-home pipe inventory, well-water testing, and private-line leak investigation.",
+    "nearby": [
+      "Pickering",
+      "Brougham",
+      "Claremont",
+      "Markham"
     ],
-  },
+    "faq": [
+      [
+        "What helps plan plumbing work in an older home?",
+        "Photograph accessible pipes and fixtures, note visible materials, and gather renovation records. Ask how the proposed work will account for existing connections and which areas require access."
+      ],
+      [
+        "What information is useful for tracing a private-line leak?",
+        "Record changes in water use or pressure, photograph visible wet areas, and map the suspected line if plans are available. Ask what detection methods are suitable and what findings would be needed before excavation."
+      ],
+      [
+        "How should well-water treatment be selected?",
+        "Arrange a test of the property’s water and share the results when comparing treatment proposals. Ask which measured results each stage addresses, how the system will be maintained, and whether the equipment matches household use."
+      ],
+      [
+        "What should be clarified before booking work at a rural property?",
+        "Describe the issue, identify the water source and septic arrangement, and provide access details and any relevant system records. Confirm the proposed work area and scope before arranging a visit."
+      ]
+    ]
+  }
 };

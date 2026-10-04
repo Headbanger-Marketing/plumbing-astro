@@ -1,187 +1,379 @@
-// Per-site content for seaforthplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Seaforth, Huron County, on Highway 8
-// between Stratford and Goderich.
-// Local angle: Victorian brick century homes along the Seaforth streetscape
-// with galvanized lines buried in plaster walls, Huron farm families drawing
-// multiple showers and laundry loads at once, private wells heavy with iron,
-// long clay drain runs to septic beds across flat farm country, and spring
-// melt soaking hundred-year-old foundations.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Seaforth, Ontario",
-    h1: "Water Heater Installation From a Local Huron Plumbing Team",
-    intro: "A farm household in Huron County can empty a hot water tank before breakfast is over, and Seaforth Plumbing sizes water heaters for that kind of demand. We install and replace tank and tankless units in Seaforth's century homes, its newer builds, and on farm properties across the township, and we pay attention to what your well and pressure tank can actually deliver before recommending a unit.",
-    meta: "Water heater installation and replacement in Seaforth, Ontario. Tank and tankless units sized for Huron County homes, farm wells, and busy households by licensed plumbers.",
-    problem_h: "Tank running cold, or dripping onto the floor?",
-    problem_p: "We replace and repair water heaters throughout Seaforth and the surrounding Huron farm country, sized properly and quoted upfront.",
-    features: [
-      ["flame", "Sized to the Whole System", "A heater is only as good as the supply behind it. On Seaforth area wells we check pressure, flow, and recovery before picking a unit, so the tank you get actually keeps up with the household it serves."],
-      ["clock", "Replacements Staged Ahead of Time", "Nobody in a full farmhouse wants days of cold showers. We confirm size, venting, and fuel source first, arrive with the replacement ready, and most Seaforth swaps finish in a single visit."],
-      ["shield", "Permitted and Built to Code", "Relief valves, drain pans, and venting are not optional extras. Every install we do in Seaforth meets the Ontario Building Code, and we arrange the permit and inspection so the paperwork is in order."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Seaforth, Ontario",
+    "h1": "Plan a Water Heater Installation or Replacement in Seaforth",
+    "intro": "For a Seaforth water heater project, first compare the household’s hot-water demand with the equipment already in place. Tank and tankless options have different space, venting, fuel, and flow requirements. If the property uses a well and pressure tank, record pressure and note whether flow changes when several fixtures run; that information can affect equipment selection. Before choosing a replacement, check the existing unit’s capacity, fuel type, vent route, and connections, then ask which installation requirements apply to your home.",
+    "meta": "Plan tank or tankless water heater installation and replacement in Seaforth, Ontario. Compare capacity, fuel, venting, and well-system requirements.",
+    "problem_h": "Does the hot water run out, or is the heater leaking?",
+    "problem_p": "A replacement plan starts with the unit’s capacity, condition, fuel, venting, and supply. Gather photos of the rating plate and connections to help define the work.",
+    "features": [
+      [
+        "flame",
+        "Compare the Heater With the Water Supply",
+        "If the property uses a well, note pressure and flow at fixtures, including when multiple taps are open. Compare those observations with the proposed heater’s flow or recovery requirements. This helps distinguish a heater-sizing issue from a supply limitation and gives the installer useful information before equipment is selected."
+      ],
+      [
+        "clock",
+        "Check the Existing Installation Before Comparing Quotes",
+        "Photograph the rating plate, vent route, fuel connection, surrounding clearance, and any visible corrosion or leakage. Ask each provider to identify what must change for the proposed unit, including connections and venting. Those details affect the equipment choice, materials, and work involved, so they are more useful than comparing capacity alone."
+      ],
+      [
+        "shield",
+        "Confirm Safety and Approval Requirements",
+        "Ask what local code and permit requirements apply to the specific replacement, and who is responsible for confirming them. Check that the proposed scope includes the appropriate temperature and pressure relief arrangement, discharge routing, drain pan where needed, and venting for the selected unit. Clear documentation helps you verify that safety items are included rather than assumed."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Seaforth, Ontario",
-    h1: "Drain Cleaning From a Local Huron Plumbing Team",
-    intro: "The big maples shading Seaforth's older streets are beautiful, and their roots know exactly where the clay drain lines run. Seaforth Plumbing clears kitchen sinks, floor drains, and main lines across town and out into the township, then cameras the pipe when a clog keeps returning so the fix targets the real cause. Farm kitchens and long runs to septic beds keep this work on our schedule year round.",
-    meta: "Drain cleaning in Seaforth, Ontario. Root cutting, snaking, hydro-jetting, and camera inspection for Huron County homes on town sewer or septic. Licensed local plumbers.",
-    problem_h: "Gurgling floor drain, or a sink that will not clear?",
-    problem_p: "We clear drains across Seaforth and the surrounding township and use the camera to find roots, sagging clay, or buildup causing repeat trouble.",
-    features: [
-      ["refresh", "Hydro-Jet and Root Cutting", "A snake pokes a hole in the blockage, while a jet flushes the whole pipe wall clean. We cut the maple and willow roots common on Seaforth streets and leave the line at full diameter."],
-      ["droplets", "Camera Answers Before Repeat Bills", "When the same drain backs up twice in a season, guessing is expensive. We send a camera down, show you the offset joint or root ball on screen, and quote the repair it actually needs."],
-      ["home", "Kitchen Lines and Septic Runs", "Country drains travel a long way before they reach anything. We clear kitchen builds of grease and soap out to the tank, and we tell you plainly when the bed itself needs a septic contractor."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Seaforth, Ontario",
+    "h1": "Drain Cleaning and Inspection Planning in Seaforth",
+    "intro": "A slow sink, gurgling floor drain, or recurring main-line backup can have different causes, so note which fixtures are affected and when the symptoms occur. For a Seaforth drain-cleaning project, identify whether the property connects to municipal sewer or a septic system, and gather any records of previous clearing or repairs. Snaking may open a blockage, while hydro-jetting cleans pipe walls and camera inspection can help locate a recurring obstruction. The pipe’s material and condition affect which method is appropriate.",
+    "meta": "Plan drain cleaning in Seaforth, Ontario, with scope for snaking, root cutting, hydro-jetting, or camera inspection based on symptoms and pipe condition.",
+    "problem_h": "Is a drain slow, gurgling, or backing up again?",
+    "problem_p": "Record which drains are affected and whether the problem has returned after clearing. Those details help determine whether the scope should include inspection as well as cleaning.",
+    "features": [
+      [
+        "refresh",
+        "Choose a Clearing Method That Fits the Pipe",
+        "Ask whether the proposed work uses a cable, root-cutting head, or hydro-jetting, and why that method suits the blockage and pipe condition. A cable may open a passage through an obstruction; jetting can wash material from the pipe wall. If roots are suspected, ask how the line’s condition will be checked before cutting or flushing."
+      ],
+      [
+        "droplets",
+        "Use a Camera When the Problem Returns",
+        "If the same line backs up repeatedly, ask whether a camera inspection is appropriate after clearing. Request the recording or a clear explanation of any visible root intrusion, offset joint, sag, or buildup. Locating the cause can change the scope from another temporary opening to a targeted repair, while avoiding assumptions about what lies underground."
+      ],
+      [
+        "home",
+        "Trace the Line to Sewer or Septic",
+        "Identify where the building drain runs and whether it connects to a sewer or septic tank. For a long septic run, provide any available layout or access information and ask how far the cleaning will extend. A building drain blockage differs from a problem at a septic bed, which may require assessment by a septic contractor."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Seaforth, Ontario",
-    h1: "Repiping From a Local Huron Plumbing Team",
-    intro: "Behind the plaster of a Seaforth century home there is often galvanized pipe that has been quietly closing up for decades. Seaforth Plumbing replaces it with clean PEX or copper, working room by room so the household keeps running, and we finish with patched access holes and pressure that makes the whole house feel newer. Farmhouses and village homes out across Huron get the same careful planning around your day.",
-    meta: "Repiping in Seaforth, Ontario. Galvanized replacement in century homes, whole-home PEX and copper repipes, and permitted work by licensed Huron County plumbers.",
-    problem_h: "Rusty water or taps that trickle?",
-    problem_p: "We replace worn galvanized and patched-together piping in Seaforth homes with properly sized modern pipe, permitted and pressure-tested.",
-    features: [
-      ["wrench", "Galvanized Out, Clean Pipe In", "Rust scale inside galvanized line chokes flow and discolours baths for years before it leaks. We pull it and run sized PEX or copper instead, restoring honest pressure at every fixture in the house."],
-      ["home", "Planned Room by Room", "A full repipe sounds disruptive, so we sequence it. Water stays on where you live, the work moves through the Seaforth house in stages, and each stage is tested before the next begins."],
-      ["check", "Tested Before the Walls Close", "New piping gets pressure-tested with the gauge watching, inspected under its permit, and only then do we patch. You should never have to wonder what is behind fresh drywall."]
+    "icon": "wrench",
+    "kicker": "Repiping in Seaforth, Ontario",
+    "h1": "Plan a Home Repiping Project in Seaforth",
+    "intro": "Low flow, discoloured water, or repeated repairs may prompt a closer look at a home’s supply piping. For a Seaforth repiping project, photograph accessible pipe, fittings, shutoffs, and any previous repairs, and note which fixtures are affected. If the house has older galvanized piping, ask how much of the system would be replaced and whether PEX or copper suits the layout. Room-by-room work, access through finished walls, testing, inspection, and restoration all affect the scope and should be discussed before work begins.",
+    "meta": "Plan repiping in Seaforth, Ontario. Compare galvanized pipe replacement, PEX or copper routing, access, testing, and applicable approval requirements.",
+    "problem_h": "Are rusty water or weak taps leading you to consider repiping?",
+    "problem_p": "Document affected fixtures and visible pipe before comparing proposals. The pipe material, route, access, and extent of replacement determine the project scope.",
+    "features": [
+      [
+        "wrench",
+        "Identify the Pipe and Replacement Extent",
+        "Photograph exposed piping and fittings, and ask how the existing material will be confirmed where it is concealed. If galvanized pipe is present, compare a targeted repair with replacing connected sections or the full supply system. PEX and copper have different routing and connection considerations, so the proposed material and fixture sizing should be stated clearly."
+      ],
+      [
+        "home",
+        "Plan the Sequence Around Occupied Rooms",
+        "Ask for a room-by-room outline showing where access is needed and when water may be unavailable. If the home must remain in use during the work, discuss temporary arrangements and how each section will be isolated. The layout of branches and finished surfaces can change both sequencing and the amount of access and repair work required."
+      ],
+      [
+        "check",
+        "Document Testing Before Closing Access",
+        "Before walls are closed, ask what pressure test will be performed and how the result will be recorded. Confirm which inspections or approvals apply and who arranges them. Compare proposals for explicit testing and access-restoration steps, since concealed joints should be checked before surfaces are patched and finished."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Seaforth, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Huron Plumbing Team",
-    intro: "Renovating a century home near Seaforth's downtown means choosing fixtures that respect the house while standing up to Huron water, and that balance is our daily work. Seaforth Plumbing sets toilets, hangs sinks, trims showers, and roughs in laundry rooms for village homes and farm properties alike. Cheap hardware simply does not survive this water, so we help you pick pieces that will.",
-    meta: "Fixture and toilet installation in Seaforth, Ontario. Faucets, sinks, toilets, laundry rough-ins, and period-appropriate fixtures for Huron County homes and farms.",
-    problem_h: "A wobbly toilet, or a renovation waiting on plumbing?",
-    problem_p: "From a single faucet swap to a full bathroom rough-in, we install fixtures across Seaforth homes and farms with clean, code-passing work.",
-    features: [
-      ["home", "Period-Friendly Fixture Installs", "A modern low-flow toilet can sit happily in a Seaforth century bathroom when it is set and sealed right. We marry old-house character with hardware that actually works, every trip, every flush."],
-      ["droplets", "Built to Survive Huron Water", "Untreated well water pits cheap chrome and packs aerators with sediment within a couple of seasons. We steer you toward finishes and brands that hold up, and install them to stay dry underneath."],
-      ["calendar", "Rough-Ins Booked Around You", "Farm schedules and renovation trades never line up neatly. We book rough-ins to your calendar, show when we say we will, and leave the site ready for the next trade on the job."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Seaforth, Ontario",
+    "h1": "Fixture and Toilet Installation Planning in Seaforth",
+    "intro": "A fixture replacement can be a straightforward swap, while a bathroom or laundry renovation may require new supply, drainage, or rough-in locations. For a Seaforth project, photograph the existing connections, measure the available space, and check the fixture specifications before ordering. If the property has a private well, consider whether water testing or filtration information is relevant to finish and maintenance choices; do not assume water conditions from the location. Confirm who will coordinate plumbing access with other renovation trades.",
+    "meta": "Plan toilet, faucet, sink, shower, and laundry plumbing work in Seaforth, Ontario. Check fixture dimensions, connections, and renovation rough-in scope.",
+    "problem_h": "Is a loose toilet or renovation holding up fixture installation?",
+    "problem_p": "Check dimensions, fixture requirements, and existing connections before selecting a replacement. A renovation rough-in may need a broader scope than a direct fixture swap.",
+    "features": [
+      [
+        "home",
+        "Match Fixtures to the Existing Room",
+        "Measure the toilet rough-in, clearances, and supply location, or photograph the existing faucet and sink connections before selecting replacements. In an older home, compare the fixture’s dimensions with the available space and existing drainage. These checks help distinguish a compatible swap from work that needs altered plumbing or additional access."
+      ],
+      [
+        "droplets",
+        "Review Finishes and Water Information",
+        "If the property uses untreated well water, check available water-test results and ask how they may affect fixture finish selection and maintenance. Also compare aerator and cartridge requirements and the manufacturer’s cleaning guidance. Water conditions vary between properties, so evidence from the specific supply is more useful than a general assumption about the area."
+      ],
+      [
+        "calendar",
+        "Coordinate Rough-Ins With the Renovation Plan",
+        "For a new bathroom or laundry area, provide the fixture schedule, room layout, and cabinet or appliance dimensions. Ask which supply and drain locations must be set before walls or flooring are finished, and how plumbing work will coordinate with other trades. The selected fixtures and construction sequence determine where rough-ins belong and what access is needed."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Seaforth, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Huron Plumbing Team",
-    intro: "On a private well, a silent leak does not just raise a bill, it runs your pump ragged day and night, and that is why Seaforth Plumbing treats finding one as urgent work. We trace leaks with acoustic gear and pressure testing through century walls, along buried well lines, and under stone foundations across Seaforth and the Huron township, then open only what we must to fix it.",
-    meta: "Leak detection and repair in Seaforth, Ontario. Acoustic location, pressure testing, well line repairs, and slab leaks found and fixed by licensed Huron plumbers.",
-    problem_h: "Pump cycling at night, or a stain spreading on the wall?",
-    problem_p: "We locate hidden leaks in Seaforth homes and along rural well lines, then repair them the same visit so the pump and the wiring get a rest.",
-    features: [
-      ["droplets", "Found Without Guesswork", "Listening gear and a pressure gauge find the leak before any wall comes open. That discipline is what keeps the repair in one Seaforth room instead of three."],
-      ["shield", "Well Lines and Old Foundations", "The line from your well to the house can weep for months underground before anything shows. We isolate sections, test each one, and repair the run with pipe rated to bury again."],
-      ["check", "Repaired the Same Visit", "Diagnosis without a fix just delays the damage. Our trucks carry what a typical Seaforth-area repair needs, so the leak is closed before we leave the driveway."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Seaforth, Ontario",
+    "h1": "Plan Leak Detection and Repair in Seaforth",
+    "intro": "A damp patch, unexplained water use, or a well pump that cycles unexpectedly can justify checking for a leak, but the symptom alone does not identify its source. For a Seaforth investigation, note when the issue occurs, photograph stains or wet areas, and record any meter or pump observations. If a buried well line or piping beneath a floor is suspected, ask how sections can be isolated and tested. Acoustic listening and pressure testing may help narrow the search before deciding what access a repair requires.",
+    "meta": "Plan leak detection and repair in Seaforth, Ontario. Compare acoustic location, pressure testing, and investigation of buried well lines or concealed piping.",
+    "problem_h": "Is a pump cycling, or is a damp mark spreading?",
+    "problem_p": "Record when symptoms occur and photograph visible evidence. Pump, meter, and pressure observations can help guide testing and limit unnecessary opening.",
+    "features": [
+      [
+        "droplets",
+        "Narrow the Search Before Opening Surfaces",
+        "Ask which tests suit the suspected leak, such as pressure testing isolated sections or acoustic listening along accessible routes. Share photographs and a timeline of the symptoms, and request an explanation of what the tests indicate. Better localization can affect where access is needed, although concealed conditions may still require careful confirmation."
+      ],
+      [
+        "shield",
+        "Test Buried Well Lines and Older Foundations",
+        "If the line from a well to the house may be leaking, ask how the run will be isolated into testable sections and how the suspected location will be confirmed. Provide any available route information and note changes in pump cycling. Pipe material, depth, and access affect the repair approach and whether replacement pipe is suitable for burial."
+      ],
+      [
+        "check",
+        "Separate Diagnosis From the Repair Scope",
+        "Ask for the findings and proposed repair in writing, including any areas that may need opening and what will be retested afterward. A diagnosis does not by itself establish that parts are available or that a repair can be completed during the same visit. Clear scope lets you compare investigation and repair decisions without assuming either outcome."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Seaforth, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Huron Plumbing Team",
-    intro: "Huron County sits flat, and every spring the melt has exactly one place to go, which is your basement unless the water is collected and pumped. Seaforth Plumbing installs and replaces sump pumps, corrects undersized basins, and adds battery backup so an April windstorm that cuts the power does not also cut your protection. Village homes and farmhouses both get equipment matched to the ground they stand on.",
-    meta: "Sump pump and backwater valve installation in Seaforth, Ontario. Properly sized pumps, basin corrections, and battery backup for Huron County basements.",
-    problem_h: "Water finding the basement every spring?",
-    problem_p: "We install sump systems sized to Huron's flat clay ground and high spring water, with battery backup for stormy power cuts.",
-    features: [
-      ["shield", "Pump and Basin Matched to the Ground", "A pump that runs constantly burns out, and one too small loses the race. We size both to the Seaforth foundation and its drainage load so the cycles are short and the floor stays dry."],
-      ["zap", "Battery Backup for Windstorm Outages", "The storms that fill the basin are the same ones that snap rural hydro lines. A charged backup pump carries the basement through those hours when the grid cannot."],
-      ["dollar", "Cheaper Than the Alternative", "One finished basement full of ruined flooring costs more than every pump we have ever installed. We would rather size the system right once than meet you during the cleanup."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Seaforth, Ontario",
+    "h1": "Sump Pump and Backwater Planning in Seaforth",
+    "intro": "If water enters a basement or a sump pump runs frequently, begin by noting when it happens, where water appears, and whether the pump discharges properly. For a Seaforth project, photograph the basin, pump label, discharge route, and any backup equipment. If the property has a sump system, compare pump capacity with the basin and drainage arrangement; if backwater protection is being considered, confirm the applicable sewer connection and valve location. Site conditions and the existing layout determine the appropriate scope.",
+    "meta": "Plan sump pump, basin, battery backup, and backwater work in Seaforth, Ontario. Compare equipment, discharge, and existing drainage layout.",
+    "problem_h": "Does water collect in the basement or overwhelm the pump?",
+    "problem_p": "Photograph the basin and discharge route, and record pump operation during wet periods. That evidence helps define whether the work concerns equipment, drainage, or backup power.",
+    "features": [
+      [
+        "shield",
+        "Compare the Pump, Basin, and Drainage Load",
+        "Record the pump model, basin dimensions, discharge route, and how often the pump cycles. Ask how the proposed pump capacity matches the basin and drainage entering it. If the pump runs continuously or cycles rapidly, the cause may involve more than pump size, so an assessment of the arrangement can change the equipment and installation scope."
+      ],
+      [
+        "zap",
+        "Check Backup Power and Discharge Details",
+        "If backup operation matters, compare battery capacity, pump compatibility, charging requirements, and expected operation during an outage. Photograph the outlet and discharge route, and ask where water will go if the main pump or power fails. The chosen backup system and discharge arrangement affect what equipment and electrical coordination are needed."
+      ],
+      [
+        "dollar",
+        "Consider Water Entry and Backwater Separately",
+        "Before selecting equipment, note whether water enters through the floor, a wall, a plumbing fixture, or the sump. Ask whether a backwater valve is relevant to the property’s sewer connection and where it could be installed. A valve and a sump pump address different pathways, so identifying the source helps avoid treating one as a substitute for the other."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Seaforth, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Huron Plumbing Team",
-    intro: "Orange stains in the bathtub and a sulphur smell at the tap are practically Huron County traditions, and neither one is something you have to live with. Seaforth Plumbing tests your water, then sizes softeners, iron filters, and UV treatment to exactly what the test shows, for village homes and farm wells alike. Guesswork sizing wastes salt and money, so we do not do it.",
-    meta: "Water softeners and filtration in Seaforth, Ontario. Iron filters, sulphur treatment, UV systems, and right-sized softeners for Huron County wells. Licensed plumbers.",
-    problem_h: "Stains, smell, or scale that will not quit?",
-    problem_p: "We test Huron well water first, then install softeners and filtration sized to the results, so the treatment matches the problem.",
-    features: [
-      ["gauge", "Tested Before It Is Sized", "Hardness, iron, and sulphur vary wildly between neighbours in this township. A five-minute sample and test tells us what your Seaforth property actually needs, and nothing more."],
-      ["droplets", "Iron and Sulphur Treatment", "Iron greases fixtures orange and sulphur announces itself at every tap. The right filter media, matched to your test, strips both out before the water reaches the house."],
-      ["shield", "Protects Tanks and Fixtures", "Treated water stops the scale that quietly shortens heater life and chokes fixtures. Households around Seaforth usually find the fixtures alone pay for the change."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Seaforth, Ontario",
+    "h1": "Water Treatment Planning in Seaforth",
+    "intro": "Staining, odour, scale, or sediment can have different causes, so choose treatment from test results rather than appearance alone. For a Seaforth water-treatment project, first identify whether the supply is municipal or a private well, then gather recent results for hardness, iron, and any other relevant measures. Ask how the proposed softener, iron or sulphur filter, or UV system addresses those results and what maintenance it requires. Equipment sizing depends on the test, household demand, plumbing layout, and the treatment objective.",
+    "meta": "Plan water softening and filtration in Seaforth, Ontario. Use property-specific test results to compare softeners, iron or sulphur treatment, and UV systems.",
+    "problem_h": "Are stains, odour, or scale prompting water testing?",
+    "problem_p": "Start with the water source and test results. Comparing treatment options against measured conditions helps define the right equipment and its maintenance needs.",
+    "features": [
+      [
+        "gauge",
+        "Test Before Selecting Equipment",
+        "Arrange appropriate testing for the property’s supply and keep the results available when comparing proposals. Ask which measures support the proposed treatment and how household use affects equipment sizing. Results can differ from one supply to another, so a test from the specific property is more useful than a neighbour’s experience or a generic equipment package."
+      ],
+      [
+        "droplets",
+        "Match Iron and Sulphur Treatment to Results",
+        "If testing identifies iron or sulphur-related concerns, ask which filter media or treatment process is proposed and what pretreatment, operating conditions, and maintenance it requires. Share details about staining or odour, but use those symptoms alongside test results. The measured water and treatment goals determine which system is relevant; no single filter suits every supply."
+      ],
+      [
+        "shield",
+        "Check Equipment Protection and Ongoing Care",
+        "Ask how a proposed softener or filter connects to the home’s plumbing and what routine checks, media replacement, salt, or servicing it requires. If scale is a concern, compare the test results with the treatment system’s stated limits and the manufacturer’s maintenance guidance. This helps assess operating needs without assuming treatment will resolve unrelated fixture or heater problems."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Tank let go overnight and there was water across the basement floor by morning. They had the new one in before supper and even checked the pressure tank while they were at it.", "Homeowner", "Seaforth"],
-  ["Third spring in a row the basement took water. New properly sized pump and basin, and this year it stayed bone dry through the melt.", "Homeowner", "Egmondville"],
-  ["Our well water turned every fixture orange. They tested it, installed an iron filter and softener, and the difference is remarkable. No more scrubbing.", "Farmer", "Zurich"],
-  ["Century house on the main street, galvanized from the 1920s. They repiped it in stages so we could keep living there, and the pressure is unreal now.", "Resident", "Seaforth"],
-  ["Kitchen drain at the restaurant backed up on a Friday. They jetted it clear that night and camera-ed it after so we knew it would hold through the weekend rush.", "Business Owner", "Dashwood"],
-  ["Bought an old farmhouse and the inspection flagged the well line. They pressure-tested it, found the weep, and replaced the run in one afternoon. Straight to deal with.", "Farmer", "Brussels"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless installation sized to Huron wells and busy farm households, with same-visit swaps across Seaforth.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Root cutting, hydro-jetting, and camera inspection for the clay lines, septic runs, and maple roots around Seaforth.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized replacement in century homes, done room by room in PEX or copper, permitted and pressure-tested.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Toilets, faucets, laundry rough-ins, and period-friendly fixture installs that stand up to Huron County water.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic leak location, well line repairs, and pressure testing that spares your pump and your walls.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Sized pumps, basin corrections, and battery backup for the flat Huron ground and spring melt around Seaforth.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Tested-then-sized softeners, iron filters, sulphur treatment, and UV for village and farm wells.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless options using household demand, fuel, venting, and available well-system flow before choosing a replacement for a Seaforth property.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Scope a cable clearing, root cutting, hydro-jetting, or camera inspection according to the symptoms, pipe condition, and whether the line serves sewer or septic.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Review visible pipe material, fixture flow, and access needs when comparing galvanized replacement with PEX or copper routing, testing, and applicable approvals.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Check fixture dimensions and connections for a swap, or coordinate supply, drainage, and rough-in locations for a bathroom or laundry renovation.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Use symptom records, pressure testing, and acoustic investigation to scope concealed piping or a potentially leaking buried well line.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare basin, pump, discharge, battery backup, and sewer connection details to determine whether sump or backwater work fits the situation.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use property-specific water results to compare softeners, iron or sulphur treatment, and UV equipment, including sizing and maintenance requirements.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are your plumbers licensed and insured?", "Yes, both. Work in Seaforth that calls for a plumbing permit gets one filed with the municipality, and we schedule the inspection so the job closes out properly under the Ontario Building Code."],
-  ["Can you come out for after-hours plumbing emergencies in Seaforth?", "Yes. Burst supply lines, flooding, and sewer backups get priority response across Seaforth and the Huron township, day or night, because on a farm a water emergency does not wait for business hours."],
-  ["My water heater is leaking. How quickly can it be replaced?", "Shut the feed valve and call right away. We stock the common tank sizes and most Seaforth area replacements happen the same day or the next, sized to your household and your well."],
-  ["Is it worth repiping our century home?", "If the house still runs on galvanized supply lines, it is usually the single best upgrade you can make. Rust chokes flow, discolours water, and eventually leaks. We repipe in PEX or copper, planned room by room so the house stays livable."],
-  ["Do you work on homes with wells and septic systems?", "Most of our Huron County work is exactly that. Pressure tanks, well lines, iron and sulphur treatment, and drains out to septic beds are everyday jobs for us, in the village and on farmsteads alike."],
-  ["Is Huron County water as hard as they say?", "On many rural wells, yes, and iron usually rides along with it. A softener matched to your test results stops the orange staining and scale, and we size it to real usage so salt and water are not wasted."],
-  ["How much does a plumbing job cost?", "Every quote is written and itemized before we pick up a tool. You will know the parts, the labour, and what could change once walls are open, whether the job is a faucet swap or a whole-house repipe."],
-  ["Which communities do you serve from Seaforth?", "Seaforth itself plus Zurich, Dashwood, Egmondville, and Brussels, with regular work through Clinton, Exeter, Bayfield, and Goderich. Rural properties throughout the township are all inside normal coverage."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/seaforthplumbing.ca-water-heaters.jpg", "Water heater installation in Seaforth, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/seaforthplumbing.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Seaforth, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/seaforthplumbing.ca-repiping.jpg", "Whole-home repiping in Seaforth, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/seaforthplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Seaforth, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/seaforthplumbing.ca-leak-detection.jpg", "Leak detection and well line repair in Seaforth, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/seaforthplumbing.ca-sump-pumps.jpg", "Sump pump installation in Seaforth, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/seaforthplumbing.ca-water-softeners.jpg", "Water softener and iron filter installation in Seaforth, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/seaforthplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Seaforth, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/seaforthplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning and hydro-jetting in Seaforth, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/seaforthplumbing.ca-repiping.jpg",
+    "Whole-home repiping in Seaforth, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/seaforthplumbing.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Seaforth, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/seaforthplumbing.ca-leak-detection.jpg",
+    "Leak detection and well line repair in Seaforth, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/seaforthplumbing.ca-sump-pumps.jpg",
+    "Sump pump installation in Seaforth, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/seaforthplumbing.ca-water-softeners.jpg",
+    "Water softener and iron filter installation in Seaforth, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "zurich": {
-    name: "Zurich",
-    intro: "Zurich sits a few minutes southwest of Seaforth, a quiet Huron County village surrounded by some of the flattest, wettest farm ground in the region, where wells run deep with iron and spring melt tests every basement. Seaforth Plumbing serves Zurich homeowners with water heaters, drain cleaning, sump pumps, and complete well water treatment, arriving with the parts the job likely needs.",
-    meta: "Plumber in Zurich, Ontario. Water heaters, drain cleaning, sump pumps, and well water treatment for Huron County homes. Free quotes.",
-    nearby: ["Seaforth", "Dashwood", "Grand Bend", "Hensall"],
-    faq: [
-      ["Do you install water softeners for Zurich wells?", "Yes. Zurich area wells are typically hard and iron-heavy, so we test first and size the softener or iron filter to the actual results rather than selling a generic box."],
-      ["Can you replace a water heater in Zurich the same week?", "Usually the same day we come out. We stock common tank sizes and confirm sizing against your household and well before the swap."],
-      ["Do you handle sump pumps for Zurich basements?", "Yes. Flat ground and spring melt make a good sump system essential here, and we size the pump, basin, and battery backup to the foundation."],
-      ["What about emergency plumbing in Zurich?", "We answer after-hours calls across Zurich and the surrounding township for flooding, burst lines, and no-water situations."],
-      ["Do you clear drains out to septic beds?", "Yes, we clear the building drain out to the tank and camera the line when trouble repeats, and we say plainly when the bed itself needs a septic specialist."]
+    "name": "Zurich",
+    "intro": "For a plumbing project in Zurich, start with the property’s own equipment and service connections rather than assumptions about the area. Photograph the water heater label and venting, note whether the supply is a private well, and gather recent water-test results if treatment is being considered. For basement water, record where it enters and how the sump operates; for recurring drain trouble, identify whether the line runs to sewer or septic. These details help define which inspection, equipment comparison, or specialist assessment belongs in the project scope.",
+    "meta": "Plan plumbing work in Zurich, Ontario, including water heaters, drain cleaning, sump pumps, and water treatment based on property conditions.",
+    "nearby": [
+      "Seaforth",
+      "Dashwood",
+      "Grand Bend",
+      "Hensall"
     ],
+    "faq": [
+      [
+        "What should I check before comparing water softeners for a Zurich property?",
+        "Identify the water source and gather current test results for the specific property. Compare proposed equipment with measured hardness, iron, or other relevant results, household demand, and maintenance requirements rather than assuming nearby supplies are alike."
+      ],
+      [
+        "What information helps scope a water heater replacement?",
+        "Photograph the existing rating plate, fuel connection, vent route, and surrounding installation. If the home uses a well, note pressure and flow changes when several fixtures run. Those details help clarify capacity and installation requirements, but do not establish equipment availability or timing."
+      ],
+      [
+        "How can I assess a sump pump or basement water issue?",
+        "Record where water appears, when it occurs, and how often the pump cycles. Photograph the basin, pump label, and discharge route. Ask whether the symptoms point to pump equipment, drainage, or another water-entry path before comparing proposed work."
+      ],
+      [
+        "When should a recurring drain problem be inspected?",
+        "If a line backs up again after clearing, ask whether camera inspection could identify a root intrusion, offset joint, sag, or buildup. Confirm whether the property connects to sewer or septic and what part of the line the proposed cleaning includes."
+      ]
+    ]
   },
   "dashwood": {
-    name: "Dashwood",
-    intro: "Dashwood is a small Huron County hamlet east of Seaforth, a handful of streets amid prime farmland where septic systems, private wells, and aging drain lines are simply the way of things. Seaforth Plumbing looks after Dashwood homes with repiping, fixture installs, leak detection, and water treatment, and we route through the hamlet regularly enough to arrive quickly.",
-    meta: "Plumber in Dashwood, Ontario. Repiping, fixture installs, leak detection, and well water systems for Huron County homes. Free quotes.",
-    nearby: ["Zurich", "Exeter", "Seaforth", "Grand Bend"],
-    faq: [
-      ["Can you repipe an older Dashwood farmhouse?", "Yes. We map the existing supply lines, quote the full job in writing, and stage the work so the household keeps running water throughout the repipe."],
-      ["Do you find hidden leaks in Dashwood homes?", "We do, using acoustic gear and pressure testing to pin the leak before opening anything, whether it sits in a wall or along a buried well line."],
-      ["Do you install fixtures and toilets in Dashwood?", "Yes, from single toilet and faucet swaps to full bathroom and laundry rough-ins, installed to pass inspection and survive Huron water."],
-      ["Is emergency service available in Dashwood?", "Yes. Flooding, burst pipes, and sewer backups get answered day or night across Dashwood and the neighbouring farm roads."]
+    "name": "Dashwood",
+    "intro": "For a plumbing project in Dashwood, document the property’s existing systems before choosing equipment or a repair approach. If the home has a private well or septic system, gather available records and identify accessible shutoffs, tanks, and drain routes. For suspected leaks, note pump or meter behaviour and photograph any damp areas; for repiping, record visible pipe materials and affected fixtures. Older piping, long drain runs, and renovation access can each change the work required, so use property-specific observations when comparing proposals.",
+    "meta": "Plan plumbing work in Dashwood, Ontario, including repiping, fixtures, leak investigation, and water treatment based on the property’s systems.",
+    "nearby": [
+      "Zurich",
+      "Exeter",
+      "Seaforth",
+      "Grand Bend"
     ],
-  },
+    "faq": [
+      [
+        "What should I gather before planning a farmhouse repipe?",
+        "Photograph accessible piping, fittings, shutoffs, and previous repairs, and note which fixtures have weak flow or discoloured water. Ask the provider to identify the replacement extent, proposed material, access, water interruptions, testing, and applicable approvals."
+      ],
+      [
+        "How can a hidden leak be investigated?",
+        "Record when the symptom occurs and photograph stains or wet areas. If the property uses a well, note pump cycling and any available pressure readings. Ask whether pressure testing or acoustic investigation suits the suspected location before deciding where access may be needed."
+      ],
+      [
+        "What details matter when replacing a toilet or adding fixtures?",
+        "Measure the available space and toilet rough-in, and photograph existing supply and drainage connections. For a bathroom or laundry renovation, provide the fixture schedule and room layout so rough-in locations can be coordinated before walls or floors are finished."
+      ],
+      [
+        "How do I distinguish a plumbing emergency from a planned repair?",
+        "If water is actively escaping, locate an accessible shutoff if it is safe to do so and document the affected area. For recurring drain backups or slow leaks, record the pattern and system involved. Scope and response arrangements need to be confirmed directly; availability should not be assumed."
+      ]
+    ]
+  }
 };

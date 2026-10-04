@@ -1,185 +1,379 @@
-// Per-site content for listowelplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Listowel, North Perth.
-// Local angle: a fast-growing agricultural service town where whole
-// subdivisions of builder-grade water heaters and mandated sump basins are
-// now aging into repairs, 1970s-80s polybutylene stock on the fringe plus
-// an older brick core, busy family drains, deep-freeze winters and thaw
-// leaks, and iron-heavy farm wells across the northern Perth concessions.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Listowel, Ontario",
-    h1: "Water Heater Installation From a Local Perth Plumbing Team",
-    intro: "North Perth grows the way Listowel does, quickly and outwards, which means thousands of builder-installed water heaters are now entering the years where tanks start to let go. Listowel Plumbing installs and replaces tank and tankless water heaters across town and the surrounding farms, sizing each unit to a household that might include three kids, a mudroom, and a dog washer, and swapping failures fast because family life does not pause.",
-    meta: "Water heater installation in Listowel, Ontario. Tank and tankless units sized for busy households, fast failure swaps, and permitted installs across North Perth.",
-    problem_h: "Builder tank finally giving up the ghost?",
-    problem_p: "Listowel Plumbing replaces tired tanks quickly and sizes the new unit for the household you actually have.",
-    features: [
-      ["flame", "Family-Sized Hot Water", "Back-to-back showers, laundry nights, and hockey gear washes set the real demand. We size recovery and capacity so the last person in is not the cold one."],
-      ["clock", "Failures Handled Fast", "Tanks that let go get priority. The common sizes travel on the truck, and most Listowel replacements finish in a single visit with the old tank removed."],
-      ["shield", "Done to Code, Start to Finish", "Permits, relief valves, drain pans, and inspection come standard on every install. The paperwork trail protects the warranty and the resale."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Listowel, Ontario",
+    "h1": "Water Heater Options for Homes in Listowel",
+    "intro": "For a water heater replacement in Listowel, compare the existing unit’s fuel, venting, capacity and connection details before choosing a tank or tankless model. Household demand matters too: note how many people use hot water, whether showers overlap with laundry, and whether a basement or other renovation may add fixtures. These details help define the equipment and installation scope. Ask for the proposed recovery rate, any required vent or gas changes, and a clear description of work to be completed.",
+    "meta": "Compare tank and tankless water heater replacement options for homes in Listowel, including household demand and installation requirements.",
+    "problem_h": "Is your water heater showing signs of failure?",
+    "problem_p": "Check the label for the unit’s age, fuel and capacity, and photograph its connections and venting. Those details help compare suitable replacements and identify installation changes before work is planned.",
+    "features": [
+      [
+        "flame",
+        "Size for household demand",
+        "List the number of regular occupants and note when showers, laundry and other hot-water uses overlap. Compare the proposed unit’s capacity and recovery rate against that pattern, rather than choosing by the old tank’s size alone. A planned bathroom addition or other new use may also change the equipment required."
+      ],
+      [
+        "clock",
+        "Compare replacement scope",
+        "Before selecting a replacement, photograph the rating label, surrounding clearances, vent and visible piping. Ask whether the proposed work uses the existing connections or requires changes, and whether removal of the old tank is included. This makes it easier to compare quotations and understand why the installation scope differs."
+      ],
+      [
+        "shield",
+        "Check safety and installation details",
+        "Ask which applicable installation requirements and inspections, if any, apply to the proposed work. Confirm how temperature and pressure relief discharge, drainage, venting and fuel connections will be handled for that specific unit. Requirements depend on the equipment and property, so a written scope helps clarify what is included and what needs separate review."
+      ]
     ],
-    rev: [0, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Listowel, Ontario",
-    h1: "Drain Cleaning From a Local Perth Plumbing Team",
-    intro: "Between the greasy pans of a farm kitchen and the sheer volume a busy household pushes through them, drains in the Listowel area work overtime. Listowel Plumbing clears them with professional-grade snakes and hydro-jetting, from the kitchen island to the main sewer and out along the long runs to septic beds north of town, and when a line keeps plugging we put a camera on the reason.",
-    meta: "Drain cleaning in Listowel, Ontario. Snaking and hydro-jetting for busy household drains, main sewers, and long rural septic runs across North Perth.",
-    problem_h: "Floor drain sulking every time it rains hard?",
-    problem_p: "The line needs clearing and probably a look. We do both in one visit and tell you what the camera found.",
-    features: [
-      ["refresh", "Jetting Beyond the Snake", "A snake opens a path and the jetter cleans the pipe. Together they return full diameter, which is the difference between a drain that works and one that buys time."],
-      ["droplets", "Camera on Repeat Offenders", "A line that blocks twice has a story. We scope it, mark the fault on screen, and lay out the repair options with real numbers."],
-      ["shield", "Rural Runs Respected", "Long lines to septic tanks need blockage work that minds the tank and field. We clear carefully and keep the biology intact."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Listowel, Ontario",
+    "h1": "Drain Cleaning Options for Homes in Listowel",
+    "intro": "A slow sink, recurring floor-drain backup or blockage in a long run to a septic system can require different clearing methods. For a drain-cleaning project in Listowel, note which fixtures are affected, when the problem occurs and whether previous clearing provided lasting relief. A mechanical snake may open a blockage; hydro-jetting may be considered where pipe condition and the obstruction make it appropriate. For repeat problems, ask whether a camera inspection can help identify the cause before repair options are compared.",
+    "meta": "Drain clearing in Listowel, with guidance on snaking, hydro-jetting and camera inspection for recurring or difficult blockages.",
+    "problem_h": "Does a drain keep blocking after it has been cleared?",
+    "problem_p": "Record which fixtures back up, when it happens and what clearing has already been tried. For recurring problems, ask whether camera inspection can show the cause and help distinguish clearing from repair work.",
+    "features": [
+      [
+        "refresh",
+        "Compare snaking and hydro-jetting",
+        "A snake can break through or retrieve an obstruction, while hydro-jetting uses water to clean pipe walls more thoroughly. Ask which method suits the pipe material, condition and type of blockage, and whether inspection is recommended first. The distinction matters because opening a path may not remove buildup, and jetting is not suitable for every line."
+      ],
+      [
+        "droplets",
+        "Investigate recurring blockages",
+        "If the same line blocks repeatedly, note where the backup appears and how often it returns. Ask whether a camera can inspect the line and show the suspected fault, such as an obstruction or damaged section. Request an explanation of the finding and separate clearing and repair options so the next step follows evidence rather than guesswork."
+      ],
+      [
+        "shield",
+        "Plan work on septic-connected lines",
+        "If a long drain run connects to a septic tank or field, identify the route and any known access points before work is scoped. Ask how the clearing method will account for the line and septic system, and whether a camera can help locate the issue. This information can affect equipment choice and the extent of work needed."
+      ]
     ],
-    rev: [1, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Listowel, Ontario",
-    h1: "Repiping From a Local Perth Plumbing Team",
-    intro: "Not every Listowel repipe is a century home on the old brick streets; plenty are 1970s and 1980s builds where polybutylene piping was the fashion and has since fallen out of it, and both kinds need the same modern answer. Listowel Plumbing replaces galvanized and polybutylene with PEX and copper, scopes the job honestly whether it is one branch or the entire house, and finishes under permit, test, and inspection.",
-    meta: "Repiping in Listowel, Ontario. Polybutylene and galvanized replacement with PEX or copper, whole-home or partial, permitted and inspected across North Perth.",
-    problem_h: "Poly-B in the basement ceiling giving you doubts?",
-    problem_p: "Fair doubts. We assess it, quote the options honestly, and replace what needs replacing with modern piping.",
-    features: [
-      ["wrench", "Polybutylene Retired", "Poly-B and its plastic fittings were trouble from the start. We remove them and install PEX or copper rated for decades, with every joint pressure-verified."],
-      ["home", "Old Core or New Fringe", "Listowel has both 1800s houses and 80s subdivisions, and each fails differently. We identify what your walls hold and plan the repipe to match."],
-      ["shield", "Full Documentation", "Permit, pressure test, and inspection close every job. Buyers and insurers see proper paperwork, and you see steady pressure."]
+    "icon": "wrench",
+    "kicker": "Repiping in Listowel, Ontario",
+    "h1": "Repiping Options for Homes in Listowel",
+    "intro": "A repiping project in Listowel may involve one leaking branch or replacement of much of a home’s water piping. Start by photographing any visible pipe labels and fittings, noting leaks or pressure changes, and identifying areas where plumbing is exposed. Polybutylene and galvanized piping call for different assessment than newer materials; the actual material and condition should be verified before setting scope. Ask whether PEX or copper is proposed, what walls or ceilings may need access, and how testing and applicable approvals will be documented.",
+    "meta": "Compare partial and whole-home repiping in Listowel, including assessment of polybutylene or galvanized pipes and PEX or copper options.",
+    "problem_h": "Unsure what type of piping is above the basement ceiling?",
+    "problem_p": "Photograph visible pipe and fitting markings, and note any leaks or pressure changes. Confirm the material before comparing a branch replacement with a larger repiping plan.",
+    "features": [
+      [
+        "wrench",
+        "Verify polybutylene and fitting condition",
+        "If visible pipe appears to be polybutylene, photograph its markings and fittings and ask for the material to be confirmed. Scope should consider connected plastic fittings as well as the pipe itself. Compare a targeted replacement with broader removal, and ask how proposed PEX or copper connections will be pressure-tested. The verified material and access conditions affect the work."
+      ],
+      [
+        "home",
+        "Match scope to the home",
+        "If a home has older galvanized piping, newer branches or additions, ask how each section will be assessed rather than assuming all pipes are alike. Share photographs and note inaccessible areas or past repairs. A partial replacement may suit an isolated problem, while the wider condition and layout can support considering a whole-home plan."
+      ],
+      [
+        "shield",
+        "Clarify testing and documentation",
+        "Ask what pressure testing is included and what approvals or inspections may apply to the particular repiping work. Confirm how new pipe routes, any required openings and restoration are described in the written scope. These details help compare proposals and leave a record of what was replaced and tested for future repairs or property questions."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Listowel, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Perth Plumbing Team",
-    intro: "Finishing a basement for a growing family, adding a main-floor shower for the in-laws, or updating a tired bathroom, all of it ends at a fixture, and Listowel Plumbing makes that part easy. We install toilets, faucets, sinks, tubs, and shower systems, rough in basement bathrooms and legal second suites, and set everything dead level with drains that pull properly the first winter and every one after.",
-    meta: "Fixture and toilet installation in Listowel, Ontario. Toilets, faucets, tubs, and showers, plus basement and second-suite rough-ins across North Perth.",
-    problem_h: "Basement bathroom on the wish list?",
-    problem_p: "We rough it in right, from the sewage pit to the last escutcheon, and pass inspection the first time.",
-    features: [
-      ["home", "Basement Bathrooms Done Right", "Below-grade plumbing means pumps, pits, and venting planned properly. We rough in basement bathrooms that work as hard as the rest of the house."],
-      ["check", "Second Suites to Code", "Legal income suites need permitted plumbing, full stop. We handle the rough-in, the fixtures, and the inspection paperwork in one package."],
-      ["shield", "Fixtures That Take a Household", "Busy families are hard on hardware. We install commercial-grade flush valves and serviceable cartridges where the calendar demands them."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Listowel, Ontario",
+    "h1": "Fixture and Toilet Installation Options in Listowel",
+    "intro": "A fixture project in Listowel may be a straightforward toilet or faucet replacement, a new tub or shower, or plumbing for a basement bathroom or second suite. Before comparing options, photograph existing connections and note fixture locations, drain positions and any signs of leaks. For below-grade bathrooms, check whether a sewage pit or pump and suitable venting are already present. These conditions affect the rough-in and equipment scope. Ask what fixtures, connections, finishing details and applicable inspections are included.",
+    "meta": "Plan toilet, faucet, tub and shower installation in Listowel, including basement bathroom and second-suite rough-ins.",
+    "problem_h": "Planning a basement bathroom or replacing a fixture?",
+    "problem_p": "Photograph the existing fixture and connections, or share a sketch of the proposed layout. For a below-grade bathroom, check for a sewage pit, pump and venting because these affect the rough-in plan.",
+    "features": [
+      [
+        "home",
+        "Plan below-grade bathroom plumbing",
+        "If a bathroom is below the building’s drainage level, ask how wastewater will reach the sewer or septic connection. A sewage pit or pump, discharge route and venting may be required depending on the layout. Share a floor plan and note existing access points; these details affect equipment, rough-in locations and the amount of work."
+      ],
+      [
+        "check",
+        "Confirm second-suite requirements",
+        "If plumbing is part of a second suite, ask which approvals and inspections apply to the proposed work before rough-in begins. Compare the fixture layout, drainage and venting scope with the applicable requirements for the property. A written description of rough-in, fixture installation and documentation helps show what is included without assuming that every suite has the same needs."
+      ],
+      [
+        "shield",
+        "Choose serviceable fixtures",
+        "When comparing toilets, faucets and shower hardware, check the product specifications, connection sizes and access to replaceable cartridges or other service parts. If a fixture will see frequent use, ask whether a more durable or commercial-style component is suitable for that installation. These choices affect compatibility, maintenance and the scope of any changes to existing plumbing."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Listowel, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Perth Plumbing Team",
-    intro: "A January deep freeze and a March thaw between them account for most of the hidden leaks we chase in North Perth, along with the slow seeps no one notices until the bill arrives. Listowel Plumbing locates leaks with acoustic listening and pressure isolation, in slab floors, finished basements, and the long service lines that feed farmhouses off the concession roads, then repairs the failure and explains what made it happen.",
-    meta: "Leak detection and repair in Listowel, Ontario. Acoustic and pressure location of hidden leaks, freeze damage, and service line breaks across North Perth.",
-    problem_h: "Meter spinning with every tap closed?",
-    problem_p: "That is a leak talking. We find it, fix it, and hand you the report.",
-    features: [
-      ["droplets", "Precision Before Demolition", "Isolation testing narrows the leak to a zone, then listening gear marks the spot. Openings stay the size of the repair, not the size of a search."],
-      ["shield", "Freeze and Thaw Damage", "North Perth winters split pipes that show themselves weeks later. We trace the failure, repair it, and flag the exposure that caused it."],
-      ["check", "Service Lines Included", "The leak from the street or well to the house is ours too. We locate yard breaks and replace the run with properly bedded modern pipe."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Listowel, Ontario",
+    "h1": "Leak Detection and Repair Planning in Listowel",
+    "intro": "A hidden leak in Listowel may be inside a finished wall, below a slab, or along a water service run from a street connection or well. Note when the issue appears, whether the meter moves with fixtures off, and which areas are damp; photographs can help track changes. Acoustic listening and pressure isolation may narrow the search, but the right approach depends on the plumbing layout and access. Ask how the suspected zone will be confirmed, what openings may be needed and whether repair is included.",
+    "meta": "Plan hidden-leak investigation and repair in Listowel, including acoustic listening and pressure isolation where appropriate.",
+    "problem_h": "Does the water meter move when all taps are off?",
+    "problem_p": "Photograph damp areas and note meter movement with water fixtures off. Share whether the suspected leak is in a slab, finished space or outdoor service line; access and pipe layout shape the investigation.",
+    "features": [
+      [
+        "droplets",
+        "Narrow the search before opening surfaces",
+        "Ask whether pressure isolation can identify which plumbing zone is losing water, followed by acoustic listening where suitable. Share any floor plans, visible pipe routes and previous repair details. Combining these clues may help locate the suspected failure more precisely, but the property layout affects what equipment can establish and where an opening may ultimately be needed."
+      ],
+      [
+        "shield",
+        "Check possible freeze damage",
+        "If a leak appeared after freezing conditions or a thaw, photograph the affected area and note when water first became visible. Ask how the failure point and exposed pipe will be assessed, not just patched. A pipe that has frozen may have damage beyond the visible wet spot, so exposure and insulation conditions can affect the repair plan."
+      ],
+      [
+        "check",
+        "Include the service line in the investigation",
+        "If the suspected leak is between the home and a street connection or well, note the approximate route, shutoff locations and any wet ground. Ask how the line will be tested and located, and whether repair or replacement is a separate scope. For replacement, confirm the proposed pipe material and bedding details because route and site access affect the work."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Listowel, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Perth Plumbing Team",
-    intro: "Nearly every house built in Listowel's growth years came with a sump basin by requirement, and the pumps inside them are consumables that nobody remembers until a wet May. Listowel Plumbing replaces and upgrades sump systems with pumps sized to the real drainage, check valves that hold, discharge routed sensibly, and battery backup for the storms that take the grid down, plus the annual once-over that keeps it all honest.",
-    meta: "Sump pump replacement and installation in Listowel, Ontario. Correctly sized pumps, battery backup, and seasonal maintenance for North Perth homes.",
-    problem_h: "Pump six years old and sounding grumpy?",
-    problem_p: "That noise is a warning. We test, replace, and upgrade sump systems before the wet season has its say.",
-    features: [
-      ["shield", "Matched to the Foundation", "Drainage area and lift decide the pump. We install what the basement actually needs, not the biggest box on the shelf."],
-      ["zap", "Battery Backup Standard", "New subdivisions lose power with everyone else. A charged backup pump bridges the outage and keeps the floor dry through the dark."],
-      ["refresh", "The Spring Check", "Float, valve, discharge, and power get a quick annual inspection. Ten minutes of attention buys a whole season of peace."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Listowel, Ontario",
+    "h1": "Sump Pump and Backwater Planning in Listowel",
+    "intro": "For a sump pump project in Listowel, inspect the basin, pump label, discharge route and check valve, then note how often the pump runs and whether alarms or power interruptions have occurred. Pump choice depends on drainage demand and the height the water must be lifted, not simply on selecting the largest unit. If backup protection is being considered, check the available power arrangement and discharge setup. Ask what testing, battery maintenance and any backwater protection work the proposed scope includes.",
+    "meta": "Plan sump pump replacement, battery backup and seasonal checks in Listowel based on drainage demand and system layout.",
+    "problem_h": "Is your sump pump noisy, cycling often or due for a check?",
+    "problem_p": "Photograph the pump label, basin, check valve and discharge route. Note run frequency and any power failures; these details help assess pump size, backup needs and possible discharge issues.",
+    "features": [
+      [
+        "shield",
+        "Match pump to drainage and lift",
+        "Ask how the drainage area, expected inflow and vertical lift affect the proposed pump capacity. Photograph the basin and note where the discharge exits. This information helps compare equipment that suits the actual installation with an oversized option that may not address the system’s needs. Check that the proposed pump and discharge arrangement are compatible."
+      ],
+      [
+        "zap",
+        "Assess battery backup requirements",
+        "If outages could affect the sump system, check the existing pump and power supply before comparing backup options. Ask what the backup is designed to operate, how its battery is maintained, and where discharge will go during an outage. Runtime and compatibility depend on the equipment and pumping demand, so clarify those limits rather than assuming any backup provides the same protection."
+      ],
+      [
+        "refresh",
+        "Inspect the whole system seasonally",
+        "During a periodic check, inspect the float, check valve, discharge route and power connections, and test operation according to the equipment instructions. If water returns to the basin or the pump cycles unusually, note the timing and look for a restricted discharge. These observations help distinguish a pump problem from an issue elsewhere in the system."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Listowel, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Perth Plumbing Team",
-    intro: "North Perth grows the way good farm towns do, new streets filling past the old boundaries while the concessions around them keep drawing well water that turns a fresh sink rust-orange inside a month, and both currents arrive at the same bench eventually, a household outgrowing the treatment that came with the house. Listowel Plumbing sizes softening and filtration to the household you actually run, metered so regeneration follows use rather than the wall clock, with filter stages sequenced for the iron the northern Perth wells are known for and capacity held in reserve for the weekends every bathroom is busy.",
-    meta: "Water softeners and filtration in Listowel, Ontario. Demand-metered softeners and staged iron filtration for North Perth village homes and farm wells, sized to household demand.",
-    problem_h: "Salt disappearing faster than it should?",
-    problem_p: "A timer-driven unit regenerates whether anyone ran water or not. Metering to real demand trims the salt bill and holds softness steady.",
-    features: [
-      ["gauge", "Metered, Not Timed", "Regeneration keyed to measured gallons holds softness through holiday weekends and stops spending salt through empty weekdays."],
-      ["droplets", "Room to Grow", "A unit sized to the day you bought it chokes the year you finish the basement. Capacity is planned against the household's trajectory, bedrooms, bathrooms, and the barn tap included."],
-      ["shield", "Running Costs in Plain Numbers", "Grains of hardness, gallons a day, bags of salt a month. You get the arithmetic behind the recommendation, so the operating cost is known before the first refill."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Listowel, Ontario",
+    "h1": "Water Softener and Filtration Planning in Listowel",
+    "intro": "Water treatment for a Listowel property should follow water-test results and actual household use, rather than assumptions based on its location. If the property uses a well, arrange appropriate testing and keep the results, including hardness and iron measurements, for comparing treatment options. Note daily water use, occupants, bathrooms and any barn or outdoor tap demand. Ask how a softener’s capacity and regeneration method are selected, and how filtration stages are sequenced for the measured conditions. This information affects both equipment choice and ongoing operating costs.",
+    "meta": "Compare water softeners and filtration for Listowel properties using water-test results, household demand and operating costs.",
+    "problem_h": "Does your softener use more salt than expected?",
+    "problem_p": "Check the unit’s settings, salt use and water-test results, and note household demand. Comparing metered regeneration with a timer-based cycle can clarify whether settings or equipment capacity suit the property.",
+    "features": [
+      [
+        "gauge",
+        "Compare metered and timed regeneration",
+        "Check whether the existing softener regenerates on a schedule or uses measured water volume, and note its settings and salt use. Ask how a demand-metered unit would be set for the test results and household use. This comparison matters because regeneration frequency affects salt consumption and available softening capacity between cycles."
+      ],
+      [
+        "droplets",
+        "Size for actual and planned demand",
+        "List regular occupants, bathrooms, water-using appliances and any separate barn or outdoor taps before comparing capacity. If a basement finish or additional bathroom is planned, include that future demand in the discussion. Ask how measured hardness and expected gallons per day affect the proposed softener size; insufficient capacity can change regeneration needs and system performance."
+      ],
+      [
+        "shield",
+        "Understand treatment and running costs",
+        "Keep a recent water-test report and ask how each measured concern relates to the recommended treatment stages. Request the assumptions behind estimated salt use and other routine operating costs, including the expected regeneration pattern. Comparing those figures alongside equipment capacity helps explain why one recommendation differs from another and what may need periodic replacement or attention."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Three kids, one tank, no hot water by Thursday. New bigger unit sized properly and nobody has complained since.", "Homeowner", "Listowel"],
-  ["Main line was plugging every spring. Camera found the sag, jetting bought us clean, and the repair quote was fair and explained.", "Resident", "Listowel"],
-  ["They pulled all the poly-B out of our 1984 bungalow. Insurance was happier and so are we.", "Homeowner", "Atwood"],
-  ["Basement bathroom rough-in with a sewage pump, done in three days and passed first inspection.", "Homeowner", "Palmerston"],
-  ["Spring check on the sump caught a dead check valve before the melt. Cheap fix, expensive problem avoided.", "Farmer", "Monkton"],
-  ["Well test showed iron off the chart. Their filter and softener combo fixed the staining and the taste.", "Farmer", "Gowanstown"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless units sized for busy households, with fast replacement of failed builder tanks across Listowel.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Snaking, hydro-jetting, and camera inspection for hardworking household drains and long rural septic runs.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Polybutylene and galvanized replacement in PEX or copper, scoped honestly for whole homes or single branches.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Toilets, faucets, tubs, and showers, plus basement bathroom and legal second-suite rough-ins.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and pressure location of hidden leaks, freeze damage, and yard service line breaks.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Correctly sized replacement pumps, battery backup, and the annual check that keeps them alive.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Demand-metered softening with capacity planned for growing North Perth households.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless options by fuel, household demand, recovery rate and existing vent or connection requirements for a Listowel replacement.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Compare snaking and hydro-jetting for the pipe and blockage, and consider camera inspection when clearing has not solved a recurring problem.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Assess visible polybutylene or galvanized pipe before comparing a single-branch replacement with a wider PEX or copper repiping plan.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan toilet, faucet, tub and shower installation, or check pump and venting needs for a basement bathroom or second-suite rough-in.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Use leak symptoms, meter movement and pipe layout to plan investigation with pressure isolation or acoustic listening where appropriate.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare sump pump capacity with drainage demand and lift, and review discharge, check valve and battery backup requirements.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use water-test results and household demand to compare softener capacity, regeneration method, filtration stages and operating costs.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed plumbers in good standing?", "Yes, licensed and insured, with permits pulled and inspections passed for every job that requires them under the Ontario Building Code, anywhere in North Perth."],
-  ["Do you handle after-hours emergencies in Listowel?", "We do. Burst pipes, backups, and no-water calls get emergency response across Listowel, Atwood, Monkton, and the surrounding township roads."],
-  ["Our tank just started leaking. Can you come today?", "Call now and shut the feed at the tank. We stock the common sizes, and most Listowel homes have hot water back the same day, old tank hauled off."],
-  ["How do I know if my poly-B needs replacing?", "Age and any leak history tell most of the story, and an inspection tells the rest. If the house still runs polybutylene, we assess the risk honestly and quote replacement where it is warranted."],
-  ["We are on a well with iron staining. Can you fix that?", "Yes, that is everyday work here. We test the well, then install the iron filter and softener combination the results call for, sized to household demand."],
-  ["Do new subdivision homes really need sump maintenance?", "They need it more than most, because the pump is the only thing standing between the weeping tile and your floor. The annual check is cheap insurance against the wet May."],
-  ["What does a quote from you look like?", "Itemized, written, and provided before work starts. The number holds unless you approve a change in scope, whatever the size of the job."],
-  ["Which communities do you cover?", "Listowel and the whole of North Perth, including Atwood, Monkton, Moorefield, Gowanstown, Palmerston, and Drayton, plus rural routes beyond."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/listowelplumbing.ca-water-heaters.jpg", "Water heater installation in Listowel, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/listowelplumbing.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Listowel, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/listowelplumbing.ca-repiping.jpg", "Whole-home repiping in Listowel, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/listowelplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Listowel, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/listowelplumbing.ca-leak-detection.jpg", "Leak detection and repair in Listowel, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/listowelplumbing.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Listowel, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/listowelplumbing.ca-water-softeners.jpg", "Water softener and filtration installation in Listowel, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/listowelplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Listowel, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/listowelplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning and hydro-jetting in Listowel, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/listowelplumbing.ca-repiping.jpg",
+    "Whole-home repiping in Listowel, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/listowelplumbing.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Listowel, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/listowelplumbing.ca-leak-detection.jpg",
+    "Leak detection and repair in Listowel, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/listowelplumbing.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Listowel, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/listowelplumbing.ca-water-softeners.jpg",
+    "Water softener and filtration installation in Listowel, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "atwood": {
-    name: "Atwood",
-    intro: "Atwood sits east of Listowel in Perth East, a small community of village homes and surrounding farmsteads where the well water works as hard as the people do. Listowel Plumbing serves Atwood with water heaters, drain cleaning, repiping, fixtures, and full well-water treatment, with the same trucks and the same standards we bring to town.",
-    meta: "Plumber in Atwood, Ontario. Water heaters, drain cleaning, repiping, and well-water treatment from a licensed North Perth plumbing team. Free quotes.",
-    nearby: ["Listowel", "Moorefield", "Monkton", "Palmerston"],
-    faq: [
-      ["Do you install water heaters in Atwood?", "Yes. We size and replace tank and tankless units for Atwood homes, with fast turnaround when a tank fails."],
-      ["Can you repipe an older Atwood farmhouse?", "Yes. Galvanized and polybutylene lines come out in favour of PEX or copper, permitted and inspected start to finish."],
-      ["Do you offer emergency plumbing in Atwood?", "Yes. Burst lines, backups, and no-water calls across Atwood and Perth East get urgent response."],
-      ["Can you treat our Atwood well water?", "Yes. We test the well and install softeners, iron filters, and UV treatment sized to the results and the household."]
+    "name": "Atwood",
+    "intro": "For a plumbing project in Atwood, first establish what the property needs rather than relying on assumptions about the area. Photograph water heater labels, visible pipe materials, drain access points or sump equipment, depending on the work. If the property uses a well, obtain a water test and compare treatment options against its results. A long septic-connected drain run, older piping or below-grade bathroom can change the equipment and scope, so note these conditions and ask what assessment is needed before comparing proposals.",
+    "meta": "Plan plumbing work in Atwood, including water heaters, drains, repiping, fixtures and treatment based on well-water results.",
+    "nearby": [
+      "Listowel",
+      "Moorefield",
+      "Monkton",
+      "Palmerston"
     ],
+    "faq": [
+      [
+        "What information helps compare water heater options in Atwood?",
+        "Photograph the unit label, fuel connection and venting, and note household hot-water demand. If a replacement is planned, ask how capacity and existing installation requirements affect the proposed scope."
+      ],
+      [
+        "What should I check before repiping an older home?",
+        "Photograph accessible pipe markings and fittings, and note leaks or past repairs. Confirm the pipe material and condition before comparing a partial replacement with a broader plan using PEX or copper."
+      ],
+      [
+        "How should I plan treatment for a well-water system?",
+        "Use a current water-test report to identify measured conditions, then compare treatment stages and capacity against household use. Avoid selecting a softener or filter based on location alone."
+      ],
+      [
+        "What helps investigate a recurring drain problem?",
+        "Record which fixtures are affected, where the line runs and what clearing has been tried. If the issue returns, ask whether a camera inspection can help identify the cause before repairs are considered."
+      ]
+    ]
   },
   "palmerston": {
-    name: "Palmerston",
-    intro: "Palmerston grew up around its railroad and keeps a proud small-town feel just north of Listowel, with housing that runs from Victorian village homes to postwar bungalows. Listowel Plumbing serves Palmerston with repipes, water heaters, drain cleaning, fixture installs, and sump systems, reaching the community quickly along the highway.",
-    meta: "Plumber in Palmerston, Ontario. Repiping, water heaters, drains, fixtures, and sump pumps from a licensed North Perth plumbing team. Free quotes.",
-    nearby: ["Listowel", "Harriston", "Clifford", "Atwood"],
-    faq: [
-      ["Can you repipe an older Palmerston home?", "Yes. Village homes with galvanized or poly-B get modern PEX or copper replacements, planned to keep openings minimal."],
-      ["Do you replace water heaters in Palmerston quickly?", "Yes. Common sizes are stocked, and most Palmerston swaps complete same-day or next morning."],
-      ["Do you clear recurring drains in Palmerston?", "Yes. We snake and jet the line, and camera it when the clog keeps coming back, so the fix matches the cause."],
-      ["Do you service sump pumps in Palmerston?", "Yes. We test, replace, and add battery backup to Palmerston systems before the spring melt arrives."]
+    "name": "Palmerston",
+    "intro": "For a plumbing project in Palmerston, record the condition and layout of the equipment involved before deciding on a replacement or repair. Older pipe materials, a newer branch, a water heater with different venting, or a sump pump with a particular discharge route can each change the scope. Photograph accessible labels and connections, and note recurring symptoms or prior repairs. If a drain keeps blocking, ask whether camera inspection is appropriate; if considering a sump backup, check the pump and power setup first.",
+    "meta": "Plan plumbing projects in Palmerston, including repiping, water heaters, drain clearing, fixtures and sump systems.",
+    "nearby": [
+      "Listowel",
+      "Harriston",
+      "Clifford",
+      "Atwood"
     ],
-  },
+    "faq": [
+      [
+        "What should I check before repiping an older home?",
+        "Photograph visible pipe markings and fittings, then ask for the material and condition to be confirmed. Compare a targeted replacement with a wider plan, including access and testing requirements."
+      ],
+      [
+        "What details affect a water heater replacement?",
+        "Check the existing unit’s label, fuel, capacity and venting, and note household demand. Ask whether connections can be reused or changes are needed for the proposed tank or tankless equipment."
+      ],
+      [
+        "What should I do about a drain that keeps returning to a blockage?",
+        "Note which fixtures are affected and how often the problem recurs. Ask whether snaking, hydro-jetting or camera inspection is suitable for the pipe and its condition before selecting a method."
+      ],
+      [
+        "What should a sump pump check include?",
+        "Inspect the pump label, float, check valve, discharge and power connection. If battery backup is being considered, ask about equipment compatibility, battery maintenance and the expected operating limits."
+      ]
+    ]
+  }
 };

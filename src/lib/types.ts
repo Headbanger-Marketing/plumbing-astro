@@ -11,6 +11,8 @@ export interface SiteConfig {
   regionAbbr: string;
   county: string;
   phone: { display: string; tel: string };
+  // Temporarily suppress phone links, text and schema where attribution is shared.
+  hidePhone?: boolean;
   // Optional override for the number that appears in JSON-LD schema (NAP
   // citation consistency). Falls back to `phone` when unset. Use this when
   // the visible/dialable number (footer, meta text) needs to differ from

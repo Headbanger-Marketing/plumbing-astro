@@ -18,7 +18,7 @@ import { loadSite } from '../lib/load-site';
 const { site } = await loadSite();
 
 const title = `Thank You | ${site.brand}`;
-const desc = `Your request has been submitted. A local ${site.city} technician will contact you shortly.`;
+const desc = `Your request has been submitted for ${site.city}. A callback will confirm scope and appointment availability.`;
 
 const partner = site.partner;
 const partnerUrl = partner?.url;
@@ -51,17 +51,17 @@ const partnerLogo = partnerSlug ? `/assets/img/partners/${partnerSlug}.png` : ''
       )}
       {partner?.tagline && <p class="ty__partner-line">{partner.tagline}</p>}
 
-      <p class="ty__lede">A local technician will call you back shortly about your {site.city} home.</p>
+      <p class="ty__lede">Your request about the {site.city} property has been accepted. A callback will confirm the details and appointment availability.</p>
 
       <div class="ty__warn">
         <span class="ty__warn-ic"><Fragment set:html={icon('phone', '', 20)} /></span>
         <p><strong>Answer the call.</strong> It may come from an unfamiliar number or area code. Please pick up so we don&rsquo;t miss you.</p>
       </div>
 
-      <a class="btn btn-primary btn-lg ty__call" href={`tel:${site.phone.tel}`}>
+      {!site.hidePhone && <a class="btn btn-primary btn-lg ty__call" href={`tel:${site.phone.tel}`}>
         <Fragment set:html={icon('headset', '', 20)} /> {site.phone.display}
-      </a>
-      <span class="ty__call-sub">Prefer to talk now? Call us directly.</span>
+      </a>}
+      {!site.hidePhone && <span class="ty__call-sub">Prefer to talk now? Call us directly.</span>}
 
       <p class="ty__who">
         {partner?.name ? (

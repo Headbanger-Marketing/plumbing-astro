@@ -1,159 +1,320 @@
-// Per-site content for whitbyplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Whitby, Durham Region, between Ajax and
-// Oshawa, with Brooklin to the north.
-// Local angle: family town with a heritage downtown, solid 1960s-70s
-// subdivisions now on their second major plumbing cycle, explosive growth in
-// Brooklin and north Whitby with new-build work and builder shortcut
-// corrections, and rural hamlets (Ashburn, Myrtle) on wells. Mature-tree
-// streets, busy household schedules, code-conscious owners.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Whitby, Ontario",
-    h1: "Water Heater Installation From a Local Durham Plumbing Team",
-    intro: "Whitby Plumbing Pros keeps the hot water coming for a town that runs on family schedules, morning rotations through three bathrooms, hockey gear washed twice a week, laundry that never truly ends. We replace the aging tanks in the 60s and 70s subdivisions, install right-sized units in growing Brooklin homes, and help new north Whitby owners correct undersized builder packages. Every install is measured against how your household actually operates.",
-    meta: "Water heater installation and replacement in Whitby, Ontario. Family-capacity tanks, Brooklin new-home upgrades, and prompt replacements by licensed Durham plumbers.",
-    problem_h: "Third shower of the morning gets the cold half?",
-    problem_p: "Whitby households outgrow their tanks, and a replacement sized to the real morning routine fixes it for good.",
-    features: [
-      ["flame", "Sized to the Morning Rush", "Counting bathrooms is not sizing. We look at fixture flow, household schedule, and recovery before recommending, so Whitby mornings stop being a lottery."],
-      ["clock", "Prompt When It Lets Go", "A failed tank in a finished Whitby basement is a same-day priority, and the truck inventory means the replacement usually happens on the first visit."],
-      ["shield", "New-Build Corrections", "Builder-installed minimum-spec tanks disappoint fast in family homes. We swap them for correctly sized units, often while the driveway is still new."]
+    "icon": "flame",
+    "kicker": "Water heater service in Whitby, Ontario",
+    "h1": "Plan a Water Heater Replacement for Your Home",
+    "intro": "For a water heater project in Whitby, start by noting the existing unit’s fuel, tank capacity, age, venting, and installation location. Record how many people use hot water and whether showers, laundry, or dishwashing overlap. Those details help compare a like-for-like replacement with a larger tank or a different system, while checking clearances and connections can reveal work that affects the scope. Photograph the rating label and surrounding area before requesting an assessment.",
+    "meta": "Compare water heater replacement options in Whitby, including household capacity, fuel, venting, and installation requirements.",
+    "problem_h": "Does hot water run short when several fixtures are in use?",
+    "problem_p": "A replacement depends on peak demand, recovery, and the existing installation. Record when hot water runs out and what is operating at the time to help define the required capacity.",
+    "features": [
+      [
+        "flame",
+        "Compare capacity with peak use",
+        "List the fixtures and appliances that may use hot water at the same time, then note household routines such as consecutive showers or laundry. Tank capacity alone does not explain recovery between uses. Comparing those details with the existing rating label helps frame whether a similar tank or a different capacity should be considered."
+      ],
+      [
+        "clock",
+        "Check the installation conditions",
+        "Photograph the heater, nearby piping, venting, shutoffs, and the route to the installation area. Confirm the fuel type and note any access restrictions, such as stairs or a narrow utility room. These details can affect removal, connections, and equipment options, so include them when asking for a replacement scope."
+      ],
+      [
+        "shield",
+        "Review new-build sizing needs",
+        "If a newer home’s installed unit does not meet the household’s routines, compare its capacity and recovery information with actual use before changing equipment. Check whether the proposed replacement fits the existing fuel, venting, and available space. A clear comparison of current and proposed specifications makes it easier to understand what changes are included."
+      ]
     ],
-    rev: [0, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Whitby, Ontario",
-    h1: "Drain Cleaning From a Local Durham Plumbing Team",
-    intro: "Between the mature canopy over Whitby's older streets and the sheer volume a busy family pushes through its drains, clogs here form on two schedules, roots quietly at the clay joints and grease quickly in the kitchen line. Whitby Plumbing Pros clears both with professional equipment, then confirms the result on camera so homeowners know the pipe's true condition rather than assuming the problem is gone because the water went down.",
-    meta: "Drain cleaning in Whitby, Ontario. Kitchen line degreasing, root cutting, hydro-jetting, and camera verification by licensed Durham plumbers.",
-    problem_h: "Weekend guests and one slow bathroom sink?",
-    problem_p: "Whitby drains clog on family schedules, and we clear them properly, with camera proof of what the line looks like after.",
-    features: [
-      ["refresh", "Family Kitchen Lines", "Daily cooking for a full household builds grease fast. Jetting strips the kitchen line clean in Whitby homes, and a sensible interval keeps it that way."],
-      ["droplets", "Roots and Camera Proof", "Where boulevard roots have found the old joints, we cut them back and film the result, so Whitby owners can see exactly what was done and what remains."],
-      ["shield", "New Neighbourhood Checks", "Even in newer Brooklin builds, construction debris and tight bends cause blockages. We clear them and confirm no shortcuts were buried in the line."]
+    "icon": "refresh",
+    "kicker": "Drain cleaning in Whitby, Ontario",
+    "h1": "Understand the Cause of a Slow or Blocked Drain",
+    "intro": "For drain cleaning in Whitby, note which fixtures drain slowly, whether several fixtures are affected, and when the problem began. A kitchen line with recurring buildup calls for a different assessment from a blockage that may involve roots, pipe joints, construction debris, or a tight bend. If accessible, photograph cleanouts and any prior repair points. Ask whether clearing alone is proposed or whether a camera inspection is appropriate to check the line and help distinguish a temporary blockage from a condition that may recur.",
+    "meta": "Drain cleaning in Whitby, with guidance on kitchen buildup, possible root intrusion, camera inspection, and new-construction blockages.",
+    "problem_h": "Are several fixtures draining slowly, or just one?",
+    "problem_p": "The number and location of affected fixtures can help narrow where a blockage may be. Note whether water backs up elsewhere when one fixture is used, and share that detail during assessment.",
+    "features": [
+      [
+        "refresh",
+        "Assess kitchen-line buildup",
+        "If a kitchen drain slows repeatedly, note how often it happens and whether the line serves a busy cooking area. Ask what cleaning method is proposed and whether the work is limited to removing buildup or includes a follow-up check. The line’s layout and access can change the appropriate scope, so photographs of cleanouts or past service points are useful."
+      ],
+      [
+        "droplets",
+        "Check for possible root intrusion",
+        "If a property has older drain piping or suspected root entry at joints, ask whether cutting roots and a camera inspection are being considered. A recording can show the pipe’s condition after clearing and whether a joint or other defect remains. Request a clear explanation of the limits of the inspection and any visible concern before deciding on further work."
+      ],
+      [
+        "shield",
+        "Investigate newer-line blockages",
+        "If a newer property has a recurring blockage, ask whether construction debris, a tight bend, or another obstruction could be involved. A camera inspection may help identify what is accessible to view after clearing, rather than treating every repeat clog as ordinary buildup. Share the blockage history and any available plans, since line routing can affect the assessment."
+      ]
     ],
-    rev: [1, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Whitby, Ontario",
-    h1: "Repiping From a Local Durham Plumbing Team",
-    intro: "Whitby's comfortable 60s and 70s family homes carry copper that is honourable but tired, plus the usual legacy plastic in certain developments, and the symptoms arrive politely, pressure that dips when the garden hose runs, a fixture here and there going rusty. Whitby Plumbing Pros repipes in PEX and copper with scheduling built around school runs and work-from-home calls, and leaves a permitted, tested system behind that appraisers smile at.",
-    meta: "Repiping in Whitby, Ontario. Tired copper renewal, legacy plastic replacement, and permitted whole-home repipes for busy family households.",
-    problem_h: "Good house, tired pipes inside it?",
-    problem_p: "Whitby's mid-century stock deserves repiping done carefully, and our crews treat occupied family homes like the busy places they are.",
-    features: [
-      ["wrench", "Respectful Scheduling", "Work windows are planned around nap times, meetings, and school pickups, with water restored each evening. A Whitby repipe does not put your household in a hotel."],
-      ["home", "Targeted or Complete", "Some homes need one problem branch, others the full system. We map the piping first and quote the honest scope, which in Whitby often saves owners thousands."],
-      ["shield", "Appraisal-Ready Paperwork", "Permits filed, tests witnessed, walls closed on sign-off. The documentation a Whitby repipe carries pays for itself the day you sell."]
+    "icon": "wrench",
+    "kicker": "Repiping in Whitby, Ontario",
+    "h1": "Assess Whether Your Home Needs Pipe Repairs or Repiping",
+    "intro": "For a repiping project in Whitby, document symptoms such as recurring leaks, rusty-looking water, or pressure changes when more than one fixture is used. Note which rooms are affected and whether the piping is copper, PEX, or another material, if visible. A targeted branch repair and a whole-home replacement are different scopes. Ask for the piping route, proposed material, access points, testing plan, and any permit requirements to be confirmed for the specific work before comparing estimates.",
+    "meta": "Plan a Whitby repiping assessment by documenting symptoms, pipe materials, proposed scope, access, testing, and permit requirements.",
+    "problem_h": "Are pipe symptoms affecting more than one part of the home?",
+    "problem_p": "A single faulty branch and a wider piping problem require different scopes. Map affected fixtures and record visible pipe material to help clarify what should be inspected.",
+    "features": [
+      [
+        "wrench",
+        "Plan work in an occupied home",
+        "Ask how water interruptions, access, and daily use will be handled during the proposed work. If household schedules or work calls limit access, identify those constraints before setting a plan. The expected sequence and duration depend on how much piping is replaced and where it runs, so request a written outline rather than assuming water will be restored on a particular schedule."
+      ],
+      [
+        "home",
+        "Compare targeted and full replacement",
+        "A problem at one branch may call for a different scope from widespread corrosion, leaks, or aging material. Ask for the accessible piping to be mapped and for the estimate to distinguish targeted work from whole-home replacement. Photographs of visible pipes and a list of affected fixtures can help explain the recommendation and make competing scopes easier to compare."
+      ],
+      [
+        "shield",
+        "Confirm documentation and approvals",
+        "Before work begins, ask which permits or inspections may apply to the specific repiping scope, and who is responsible for confirming requirements. Request details of pressure or other required testing and what records will be provided. Keeping the scope, material information, test results, and approvals together can help with future repairs or a later property sale."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Whitby, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Durham Plumbing Team",
-    intro: "Whitby renovates its bathrooms in earnest, main-floor powder room refreshes, kid-proof hall baths, and spa-grade ensuites behind the primary bedroom, and the plumbing has to keep pace with all of it. Whitby Plumbing Pros does the quick swaps and the full rough-ins, installing fixtures that survive daily family punishment while meeting the finish standards a renovated room deserves. New stops and clean seals come standard, not as extras.",
-    meta: "Fixture and toilet installation in Whitby, Ontario. Family-durable fixtures, ensuite rough-ins, and powder room upgrades by licensed Durham plumbers.",
-    problem_h: "Hall bath for the kids, ensuite for you?",
-    problem_p: "Whitby bathrooms serve hard daily use, and the fixtures we install are chosen and set to hold up to exactly that.",
-    features: [
-      ["home", "Kid-Proof and Practical", "Levers instead of cross handles, sturdy mounts, and washdowns that resist the experiments of childhood. Practical choices, professionally set."],
-      ["check", "Ensuite Rough-Ins", "Spa showers and soaker tubs need supply and drainage designed as a system. Whitby renovation rough-ins by our crews run right the first time, behind the tile."],
-      ["shield", "Done-With-Care Standards", "Floor protection, tidy cleanup, and walkthrough photos of everything behind the walls, because Whitby homeowners like knowing what the tile is hiding."]
+    "icon": "home",
+    "kicker": "Fixtures and toilets in Whitby, Ontario",
+    "h1": "Plan Fixture Replacements and Bathroom Rough-Ins",
+    "intro": "For a fixture or toilet project in Whitby, identify the fixtures being replaced and record their dimensions, connection locations, and finish preferences. A straightforward swap may differ considerably from a bathroom renovation that moves a toilet, adds a shower, or includes a soaker tub. Photograph the existing plumbing and the room before finishes are removed. Ask how shutoffs, seals, mounting, supply, and drainage will be handled, since the fixture choice and any layout changes determine the work behind the finished surfaces.",
+    "meta": "Plan fixture and toilet installation in Whitby, from straightforward replacements to bathroom supply and drainage rough-ins.",
+    "problem_h": "Is this a fixture swap or part of a bathroom redesign?",
+    "problem_p": "A replacement that fits existing connections differs from a new layout. Gather fixture specifications and renovation plans so the required supply, drainage, and access can be assessed.",
+    "features": [
+      [
+        "home",
+        "Choose practical fixtures for daily use",
+        "Compare handle styles, mounting requirements, and cleaning needs before selecting fixtures for a frequently used bathroom. If children will use the room, consider whether the controls and fittings suit the household, rather than relying on appearance alone. Provide the product specifications in advance, since dimensions and connection positions can affect compatibility with the existing plumbing."
+      ],
+      [
+        "check",
+        "Coordinate ensuite rough-ins",
+        "A spa shower or soaker tub may require supply and drainage planned together with the room layout. Share fixture specifications and drawings before rough-in work, and ask where connections will sit relative to walls and finished surfaces. Confirming these details before tile is installed can help identify access or layout conflicts while changes remain practical."
+      ],
+      [
+        "shield",
+        "Record work behind finished walls",
+        "Before closing walls, ask what plumbing details can be photographed and what checks are planned for connections that will become concealed. Confirm how the floor and nearby finishes will be protected during the work and what cleanup is included. Those details help set expectations for the project and provide a useful record of concealed piping and fittings."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Whitby, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Durham Plumbing Team",
-    intro: "A finished Whitby basement holding a rec room and a home office gives a small leak a large budget to spend, and insurance deductibles being what they are, finding water early is the whole game. Whitby Plumbing Pros detects with thermal imaging and acoustic listening, isolates supply versus drain leaks with simple tests, and repairs through openings measured in inches. Newer Brooklin homes get checked for the builder-era connection faults we have learned to expect.",
-    meta: "Leak detection and repair in Whitby, Ontario. Thermal and acoustic location, supply versus drain isolation, and precision repairs for finished homes.",
-    problem_h: "One cool spot on the rec room ceiling?",
-    problem_p: "Whitby's finished basements raise the cost of every hidden leak, and detection gear finds them before demolition does.",
-    features: [
-      ["droplets", "Instrument-Led Searches", "Thermal anomalies and acoustic signatures narrow the search before anything opens. Whitby leak repairs start with data, not a drywall saw."],
-      ["shield", "New-Home Connection Audits", "Brooklin-era builds have known weak points at manifold connections and fixture rough-ins. We audit suspicious signs and correct faults before finishes pay for them."],
-      ["check", "Repairs With Receipts", "Documentation of cause, location, and fix supports Whitby insurance claims where damage has already happened, written the way adjusters need."]
+    "icon": "droplets",
+    "kicker": "Leak detection and repair in Whitby, Ontario",
+    "h1": "Narrow Down a Hidden Leak Before Opening Finishes",
+    "intro": "For a suspected leak in Whitby, record when it appears, what fixtures or appliances were in use, and whether the affected area changes over time. Photograph ceiling marks, damp surfaces, or unusual temperature patterns without opening finished walls. Thermal imaging and acoustic listening can help narrow a search, while simple tests may help distinguish a supply leak from a drain leak. Ask what evidence supports the proposed repair location and how access will be limited before authorizing openings or repairs.",
+    "meta": "Plan leak detection and repair in Whitby, including thermal or acoustic searches and supply-versus-drain checks.",
+    "problem_h": "Is a ceiling mark or damp patch changing over time?",
+    "problem_p": "The timing and location of moisture can help guide an investigation. Photograph changes and note nearby plumbing use before deciding where finishes may need to be opened.",
+    "features": [
+      [
+        "droplets",
+        "Use instruments to guide the search",
+        "Ask whether thermal imaging or acoustic listening is suitable for the suspected leak and what each result can show. These tools may help narrow an investigation, but the location and source still need to be assessed. Share photographs and timing notes, then ask what evidence supports any proposed opening so the repair scope is not based on an unexplained guess."
+      ],
+      [
+        "shield",
+        "Check connections in newer construction",
+        "If a newer home has signs of a leak near a manifold or fixture rough-in, ask whether those connections should be inspected as part of the search. Photograph the affected area and note when moisture appears. A check of likely connection points can help distinguish a local fault from a leak elsewhere, which changes where access and repair may be needed."
+      ],
+      [
+        "check",
+        "Keep a record of the cause and repair",
+        "Ask for written notes identifying the suspected source, the location opened, and the work completed. If water damage has occurred, keep photographs and repair documents together and check with the insurer about its documentation requirements. A factual record can support follow-up decisions, but it does not determine whether a claim is covered or accepted."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Whitby, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Durham Plumbing Team",
-    intro: "Whitby's newer developments were built with weeper management in mind, and its older streets connect to storm systems that have been challenged more than once in recent storm seasons. Either way, the home's defence comes down to a pump that runs when it must. Whitby Plumbing Pros installs cast-iron pump systems with sealed lids, battery redundancy, and, where street conditions warrant, permitted mainline backwater valves that keep surcharge out of the basement entirely.",
-    meta: "Sump pump and backwater valve installation in Whitby, Ontario. Weeper-ready pump systems, battery backup, sealed lids, and permitted backwater valves.",
-    problem_h: "Weepers working hard every spring thaw?",
-    problem_p: "Whitby homes need a pump that cycles all season without complaint, plus backup for the outage that comes with the weather.",
-    features: [
-      ["shield", "Continuous Duty Rated", "Spring thaw means weeks of steady cycling, not one dramatic night. Whitby installs get pumps and switch logic rated for exactly that workload."],
-      ["zap", "Battery and Alarm Layers", "Power failure during the storm is the classic flood scenario. Backup pumping and a high-water alarm close the gap for Whitby basements."],
-      ["refresh", "Valves Where Streets Surge", "On older Whitby streets where the storm main has a history, we retrofit mainline backwater valves under permit, with clean access for years of service."]
+    "icon": "shield",
+    "kicker": "Sump pumps and backwater valves in Whitby, Ontario",
+    "h1": "Review Sump Pump and Backwater Protection Options",
+    "intro": "For a sump pump or backwater valve project in Whitby, first identify the current equipment, discharge route, alarm, backup power, and any history of water entering the basement. Photograph the pit, lid, nearby piping, and electrical connections if they are safely accessible. Pump capacity, switch operation, battery backup, and a possible mainline valve are separate considerations. If street surcharge or weeper drainage is a concern, ask what site information and permit requirements must be checked before selecting equipment or defining the work.",
+    "meta": "Compare sump pump, battery backup, alarm, and backwater valve considerations for a Whitby basement project.",
+    "problem_h": "Would the pump keep working during a power outage?",
+    "problem_p": "A pump and its backup depend on the equipment, power, discharge, and pit setup. Record what is installed and ask how each part would be checked or improved.",
+    "features": [
+      [
+        "shield",
+        "Consider continuous pumping demands",
+        "If a sump cycles frequently during a long wet period, record how often it runs and whether the pit empties properly. Ask whether the proposed pump and switch are suited to the observed duty and the installation conditions. Discharge routing and pit configuration also matter, so photographs and a description of the water history help define the scope."
+      ],
+      [
+        "zap",
+        "Compare backup and alarm options",
+        "A power interruption can stop a primary pump, so ask how a proposed battery backup operates, what it can support, and how its condition is checked. Consider whether a high-water alarm is included or would be separate. These components address different parts of the risk, and confirming their limits helps avoid assuming that a backup will run indefinitely."
+      ],
+      [
+        "refresh",
+        "Assess a mainline backwater valve",
+        "If there is concern about sewer surcharge, ask whether a mainline backwater valve is suitable for the property and what access and permit requirements apply. The valve’s location and service access affect installation and future checks. Request an explanation of how the proposed setup relates to the existing drain layout instead of assuming a valve is appropriate on every street."
+      ]
     ],
-    rev: [5, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Whitby, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Durham Plumbing Team",
-    intro: "Durham's lake-sourced supply does its job well enough, but Whitby fixtures, glassware, and appliances all pay the hardness tax steadily, and rural properties toward Ashburn and Myrtle draw wells with their own stronger personalities. Whitby Plumbing Pros installs metered softeners that adapt to real usage, drinking water systems for taste, and complete well treatment where the countryside requires it, always specified from results rather than assumptions.",
-    meta: "Water softeners and filtration in Whitby, Ontario. Metered softeners, reverse osmosis drinking systems, and rural well treatment for Ashburn and Myrtle.",
-    problem_h: "Dishwasher etching or well water acting up?",
-    problem_p: "Town hardness and country iron respond to treatment sized from testing, and Whitby homes on either supply get exactly that.",
-    features: [
-      ["gauge", "Adapts to the Household", "Metered units track actual water use and regenerate only as needed, so a quiet week or a house full of guests is handled without waste."],
-      ["droplets", "Well Treatment for the Country", "Ashburn and Myrtle properties get iron, hardness, and UV treatment designed as one system around the well's tested output."],
-      ["shield", "Appliance Protection", "Softened water measurably extends dishwasher and washer life and keeps tankless warranties valid, which Whitby families notice within the first year."]
+    "icon": "gauge",
+    "kicker": "Water softeners and filtration in Whitby, Ontario",
+    "h1": "Choose Water Treatment Based on Test Results",
+    "intro": "For water treatment in Whitby, first confirm whether the property uses municipal water or a private well, then identify the concern: scale, taste, staining, or another measured result. Do not assume that a treatment system is needed or that one device addresses every issue. If the home has a well, arrange appropriate testing and share the results before comparing equipment. Ask how a proposed softener, drinking-water filter, or well-treatment system is sized, maintained, and connected to the plumbing.",
+    "meta": "Compare Whitby water treatment options using supply type, test results, household use, and equipment maintenance needs.",
+    "problem_h": "Are you seeing scale, staining, or an unwanted taste?",
+    "problem_p": "Different water concerns call for different checks and equipment. Identify the water source and obtain relevant test results before selecting a softener or filtration system.",
+    "features": [
+      [
+        "gauge",
+        "Match regeneration to household use",
+        "If comparing metered softeners, ask how the unit measures use, what settings are based on, and what maintenance it requires. Household demand can vary from week to week, so a system should be assessed against actual use and water results rather than a generic household size. Compare operating requirements as well as equipment capacity before choosing."
+      ],
+      [
+        "droplets",
+        "Build well treatment from test results",
+        "If a property uses a private well, test results can help determine whether iron, hardness, or another measured issue needs treatment. Ask how each proposed treatment stage relates to the results, including whether UV is being considered and what it is intended to address. Sizing and equipment selection depend on the tested water and system output, not the property’s location alone."
+      ],
+      [
+        "shield",
+        "Check appliance and system compatibility",
+        "If scale is a concern, ask how a proposed softener works with the home’s plumbing and appliances, including any tankless water heater requirements. Verify the equipment’s maintenance instructions and whether the expected water quality meets the manufacturer’s conditions. This helps separate a treatment preference from a warranty or installation requirement that should be confirmed for the specific appliance."
+      ]
     ],
-    rev: [4, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Three kids, three bathrooms, one sad old tank. They sized the replacement to our actual morning and the cold-shower era is over.", "Homeowner", "Whitby"],
-  ["Kitchen line was jetted clean and they showed me the camera before and after. Two years of daily cooking and it still drains like new.", "Resident", "Brooklin"],
-  ["Repiped our 1972 raised bungalow while we lived in it. Water every night, clean patching, and the appraisal this spring thanked us.", "Homeowner", "Whitby"],
-  ["Found a slow leak at a manifold connection our builder fumbled. Thermal camera, one small opening, repaired and documented.", "Resident", "Brooklin"],
-  ["Pump ran all spring without a hiccup and the battery backup carried us through the August outage. Worth every penny for the finished basement.", "Homeowner", "Whitby"],
-  ["Our Ashburn well was staining everything orange. The system they built from the test results ended it completely.", "Farmer", "Ashburn"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tanks sized to real family schedules, new-build corrections, and prompt replacement across Whitby and Brooklin.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Kitchen line jetting, root cutting, and camera-verified clearing for Whitby's mature and new streets alike.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Tired copper and legacy plastic replacement, scheduled around real households and documented for resale.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Kid-durable fixtures, spa ensuite rough-ins, and powder room upgrades done with care and clean seals.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Thermal and acoustic detection for finished basements, plus new-home connection audits.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Continuous-duty pumps, battery redundancy, and permitted backwater valves for Whitby streets.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Metered softeners, drinking water systems, and full well treatment toward Ashburn and Myrtle.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank capacity, fuel, recovery, and installation conditions for a replacement suited to your household’s hot-water use.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Describe recurring kitchen or bathroom blockages and ask whether clearing, root cutting, or camera inspection fits the line and symptoms.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Document affected fixtures and visible pipe material to compare a targeted branch repair with a broader repiping scope.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan fixture swaps or bathroom rough-ins using product dimensions, connection locations, and renovation drawings.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Record moisture patterns and plumbing use to help assess instrument-led searches and supply-versus-drain checks.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Review pump duty, pit and discharge setup, backup power, alarms, and whether a backwater valve suits the drain layout.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Compare treatment options using the water source, test results, household use, and equipment maintenance requirements.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Is your plumbing work licensed and permitted?", "Yes to both, with permits through the Durham area authority whenever the Ontario Building Code requires them, so Whitby homeowners hold documentation that insurers, appraisers, and buyers all accept."],
-  ["Do you take weekend emergency calls?", "Emergency service covers Whitby around the clock, weekends included, for floods, sewer backups, and no-water calls, because family houses do not fail on a convenient Tuesday."],
-  ["Our tank is eighteen years old. Same-day replacement?", "Usually yes, since the trucks carry the common residential configurations, and the sizing conversation, permit, and haul-away all happen within the one visit."],
-  ["Builder told us the piping is fine. Why repipe talk?", "In Whitby it is rarely the whole house, often one failing branch or a legacy plastic run. We map first and quote the honest scope, which frequently costs far less than expected."],
-  ["Do you service wells around Whitby?", "Yes, the rural routes to Ashburn and Myrtle are regular territory, covering pressure systems, iron and hardness treatment, and UV, specified from proper testing."],
-  ["Will a softener actually help with Durham water?", "Lake supply here is moderately hard, and the evidence shows up on glassware and inside appliances. A metered softener sized to your household removes it steadily."],
-  ["What does a quote cost, and when do we see it?", "Quotes are free and written, delivered before any work begins. Whitby homeowners approve scope and price up front, and the final invoice reflects what was approved."],
-  ["Do you work outside Whitby?", "Brooklin, Ashburn, Myrtle, Oshawa, and Ajax are all within our regular Durham service territory."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/whitbyplumbingpros.ca-water-heaters.jpg", "Water heater installation in Whitby, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/whitbyplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Whitby, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/whitbyplumbingpros.ca-repiping.jpg", "Whole-home repiping in Whitby, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/whitbyplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Whitby, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/whitbyplumbingpros.ca-leak-detection.jpg", "Leak detection and repair in Whitby, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/whitbyplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Whitby, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/whitbyplumbingpros.ca-water-softeners.jpg", "Water softener installation in Whitby, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/whitbyplumbingpros.ca-water-heaters.jpg",
+    "Water heater installation in Whitby, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/whitbyplumbingpros.ca-drain-cleaning.jpg",
+    "Drain cleaning and hydro-jetting in Whitby, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/whitbyplumbingpros.ca-repiping.jpg",
+    "Whole-home repiping in Whitby, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/whitbyplumbingpros.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Whitby, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/whitbyplumbingpros.ca-leak-detection.jpg",
+    "Leak detection and repair in Whitby, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/whitbyplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump installation in Whitby, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/whitbyplumbingpros.ca-water-softeners.jpg",
+    "Water softener installation in Whitby, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

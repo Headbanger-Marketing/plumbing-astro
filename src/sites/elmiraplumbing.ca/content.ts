@@ -1,158 +1,320 @@
-// Per-site content for elmiraplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Elmira, Waterloo County, seat of
-// Woolwich township farm country north of Waterloo.
-// Local angle: Mennonite farm belt with wells and septic everywhere, maple
-// syrup and dairy loads on drains, farmhouses layered with generations of
-// piping, iron and sulphur well water, the Conestogo River and wet
-// countryside basements, and steady small-town growth.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Elmira, Ontario",
-    h1: "Water Heater Installation From a Local Waterloo Plumbing Team",
-    intro: "Out here where town gives way to farm country fast, a water heater is sized differently, wells push different pressure, farm households draw different volumes, and nobody has time for a second visit. Elmira Plumbing installs and replaces tank and tankless units across Elmira and Woolwich, matching the equipment to the water source and the family using it. Failed tanks get swapped fast, and the old one leaves with us.",
-    meta: "Water heater installation in Elmira, Ontario. Tank and tankless units sized for wells and farm households across Woolwich, with fast swaps by licensed Waterloo plumbers.",
-    problem_h: "Tank acting up at the worst time of year?",
-    problem_p: "We install and swap water heaters across Elmira and Woolwich, sized to wells, pressure tanks, and real household demand.",
-    features: [
-      ["flame", "Sized to the Source", "Well pressure and recovery change the math on tank size. Elmira homes get units chosen for their water source, not a city-dweller default."],
-      ["clock", "One Trip When Possible", "Rural calls are planned so the parts ride along. Most Elmira-area swaps finish in a single visit, old tank hauled off the same day."],
-      ["shield", "Permit and Paperwork Done", "Relief valves, pans, venting, and the municipal filing are included, keeping the install legal for Woolwich inspections and resale."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Elmira, Ontario",
+    "h1": "Water Heater Installation in Elmira",
+    "intro": "Planning a water heater replacement in Elmira? Tank and tankless options have different space, venting, recovery, and demand requirements. If the property uses a well, compare the pump and pressure-tank setup with the proposed heater; if several bathrooms or outbuildings draw hot water, include those demands in sizing. Before requesting a quote, photograph the existing unit label, connections, venting, and surrounding space. These details help define the equipment and installation scope without assuming every property needs the same solution.",
+    "meta": "Compare tank and tankless water heater options and installation requirements for a home in Elmira, Ontario.",
+    "problem_h": "Is your water heater struggling to meet household demand?",
+    "problem_p": "A replacement assessment can compare the existing unit, water source, venting, and hot-water use to help determine suitable tank or tankless options for your Elmira property.",
+    "features": [
+      [
+        "flame",
+        "Match Capacity to Water Use",
+        "Record the heater's model, fuel, capacity, and recovery rating, then note how many fixtures may draw hot water at once. If the property has a well and pressure tank, include their specifications for review. These details help compare tank size and tankless output against actual demand rather than relying on a general household estimate."
+      ],
+      [
+        "clock",
+        "Check the Installation Constraints",
+        "Photograph the heater's location, nearby clearances, water and fuel connections, vent route, and drain or pan. A change in heater type can require different venting, electrical provision, or space. Comparing these conditions with the proposed equipment helps identify work that may be needed beyond disconnecting and replacing the existing unit."
+      ],
+      [
+        "shield",
+        "Confirm the Scope and Closeout",
+        "Ask for an itemized scope identifying the heater model, removal and disposal arrangements, connection changes, and any required inspection or paperwork. Verify who is responsible for confirming applicable requirements before work begins. A clear written scope makes it easier to compare proposals and understand what is included in the finished installation."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Elmira, Ontario",
-    h1: "Drain Cleaning From a Local Waterloo Plumbing Team",
-    intro: "Between the maple syrup operations, the milk houses, and the ordinary chaos of family kitchens, drains in this township work harder than most. Elmira Plumbing clears them with the right tool each time, light snaking for soft blockages, jetting for grease and scale, and camera inspection when a line keeps misbehaving. Septic-connected homes get extra care, because what goes down the drain here is everybody's problem downstream.",
-    meta: "Drain cleaning in Elmira, Ontario. Snaking, hydro-jetting, and camera inspection for farm kitchens, septic-connected homes, and township main lines by licensed Waterloo plumbers with septic-safe practices.",
-    problem_h: "Slow drains, or a septic line that needs respectful handling?",
-    problem_p: "We clear Elmira and Woolwich drains with septic-safe methods and camera the lines that keep acting up.",
-    features: [
-      ["refresh", "The Right Tool Each Time", "A snake suits the soft clog, the jetter suits the grease coat, and the camera suits the mystery. Elmira drains get matched, not force-fitted."],
-      ["droplets", "Septic-Conscious Clearing", "Homes on tanks need blockages cleared without flooding the leaching bed. We work the line with the system downstream in mind, always."],
-      ["shield", "Farm Loads Respected", "Milk houses and syrup rigs put material in drains no suburb sees. We clear it and set a schedule that keeps the season running."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Elmira, Ontario",
+    "h1": "Drain Cleaning and Drain Inspection in Elmira",
+    "intro": "For a drain problem in Elmira, the right approach depends on where the blockage is and what the line carries. A hand or powered snake may suit a soft obstruction; jetting may be considered for grease or scale when the pipe can safely accommodate it; a camera can help investigate recurring trouble. If the property is connected to a septic system, identify that connection and ask how the method protects downstream components. Photos and notes about affected fixtures help narrow the scope.",
+    "meta": "Drain snaking, jetting, and camera inspection options for properties in Elmira, Ontario.",
+    "problem_h": "Does the same drain keep slowing or backing up?",
+    "problem_p": "Note which fixtures are affected, when the problem occurs, and whether a septic system is involved. This information helps compare suitable clearing and inspection options.",
+    "features": [
+      [
+        "refresh",
+        "Choose a Method for the Blockage",
+        "Describe whether the drain is slow, fully blocked, or repeatedly affected, and share any past clearing details. A snake may suit a soft blockage, while jetting may be considered for grease or scale if pipe condition permits. A camera inspection can help locate a recurring obstruction. Matching method to evidence helps avoid applying equipment that does not fit the line."
+      ],
+      [
+        "droplets",
+        "Consider the Downstream System",
+        "If the property uses a septic system, identify its layout and where the affected drain connects. Ask how the proposed clearing method and debris removal will account for the tank and downstream components. This information can change the appropriate equipment and access plan. Do not assume every blockage can be cleared safely in the same way on a septic-connected property."
+      ],
+      [
+        "shield",
+        "Describe Farm or Process Drain Loads",
+        "For a milk house, syrup operation, or other work area, explain what enters the drain and when it is used. Grease, scale, and process material can affect the blockage and the method under consideration. Photos of cleanouts and the affected area, along with any seasonal operating needs, help define access, inspection, and follow-up planning."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Elmira, Ontario",
-    h1: "Repiping From a Local Waterloo Plumbing Team",
-    intro: "Farmhouses around Elmira have been added onto for a hundred years, and each generation left its own piping behind, some of it galvanized, some poly-B, all of it aging at once. Elmira Plumbing repipes homes and outbuildings across Woolwich in PEX and copper, protecting the character of the place while dragging the plumbing into this century. Pressure-tested, permitted, and inspected before we call it finished.",
-    meta: "Repiping in Elmira, Ontario. Galvanized and poly-B replacement for farmhouses and town homes in PEX and copper, including outbuilding lines, by licensed Waterloo plumbers under plumbing permit.",
-    problem_h: "Generations of piping all failing together?",
-    problem_p: "We repipe Elmira farmhouses and town homes in PEX and copper, barn lines included when asked.",
-    features: [
-      ["wrench", "Layered History, One Fix", "Additions plumbed in different eras get unified on one clean system, so the 1920s wing and the 1980s addition finally share standard materials."],
-      ["home", "Character Kept Intact", "Woodwork, staircases, and finished rooms dictate our access plan. Rural repipes here stay tidy, and the openings we cut get patched."],
-      ["shield", "Tested and Filed", "Pressure testing with walls open, permit filed with the township, inspection passed. Woolwich paperwork, done properly."]
+    "icon": "wrench",
+    "kicker": "Repiping in Elmira, Ontario",
+    "h1": "Repiping Options for Elmira Homes and Outbuildings",
+    "intro": "Repiping a property in Elmira starts with understanding what is already installed and where each addition connects. If sections contain galvanized piping or poly-B, photograph visible pipe markings and note leaks, pressure changes, or renovations; concealed material may need confirmation before a full scope is set. PEX and copper are possible replacement materials, with different routing and connection considerations. Include barns or other outbuildings only if their lines are part of the project, and compare access, testing, and finish-work assumptions.",
+    "meta": "Repiping scope guidance for galvanized or poly-B piping, PEX or copper options, and connected outbuildings in Elmira, Ontario.",
+    "problem_h": "Do different additions have different pipe materials?",
+    "problem_p": "Document visible pipe types, affected areas, and connected outbuildings. Those details help compare a targeted repair with a broader repiping plan.",
+    "features": [
+      [
+        "wrench",
+        "Map Different Generations of Pipe",
+        "Draw a simple plan of the house and additions, marking visible pipe material, shutoffs, and fixtures with recurring problems. If separate eras use different materials, ask how a proposal would connect or replace each section. A clear map helps determine whether a unified system is practical and where concealed piping needs further inspection before the scope is finalized."
+      ],
+      [
+        "home",
+        "Plan Access Around Finished Areas",
+        "Photograph finished walls, ceilings, stairways, woodwork, and utility spaces along likely pipe routes. Ask which areas may need opening, how access will be minimized, and who handles patching and refinishing. If an outbuilding is connected, note the route and distance. These conditions affect labour, disruption, and whether separate routing options should be compared."
+      ],
+      [
+        "shield",
+        "Clarify Testing and Required Review",
+        "Ask whether the scope includes pressure testing while piping is accessible, documentation of materials, and confirmation of applicable permit and inspection requirements. Verify who will check those requirements and what paperwork is included. Comparing these details alongside the pipe material and access plan helps distinguish a complete repiping proposal from one that covers only installation of new lines."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Elmira, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Waterloo Plumbing Team",
-    intro: "The hardware store sells fixtures, what it cannot sell is the half day of crawling under a farmhouse sink that follows. Elmira Plumbing installs toilets, faucets, sinks, and shower packages across Elmira and the township, roughing in renovations and basement bathrooms as the town grows. We choose trim that stands up to country water and set it so it stays dry underneath for the long haul.",
-    meta: "Fixture and toilet installation in Elmira, Ontario. Toilets, faucets, sinks, and shower packages plus reno and basement rough-ins by licensed Waterloo plumbers for farmhouses and new builds alike.",
-    problem_h: "New bathroom planned, or a faucet beyond repair?",
-    problem_p: "We install fixtures across Elmira properly, chosen for country water and set to stay dry underneath.",
-    features: [
-      ["home", "Installed to Outlast", "Wax rings, flanges, and supply lines are renewed rather than reused, so the Elmira fixture you install today is not a drip next spring."],
-      ["check", "Rough-Ins as the Town Grows", "Basement bathrooms and additions get drains and vents designed to code, ready for the finish stages and the township inspection."],
-      ["award", "Trim for Country Water", "Iron and hardness wear fixtures fast. We favour metal-bodied, cartridge-serviceable models that hold up on Woolwich water."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Elmira, Ontario",
+    "h1": "Fixture and Toilet Installation in Elmira",
+    "intro": "A fixture project in Elmira may be a straightforward toilet or faucet replacement, or part of a larger bathroom renovation with new rough-ins. Before choosing products, check the existing supply, drain, shutoff, flange, and available clearances; photograph labels and connections where possible. If you are planning a basement bathroom or addition, ask how drains and vents will be routed and what needs review before finishes go in. Comparing these details helps establish compatibility, access, and the work included.",
+    "meta": "Toilet, faucet, sink, shower, and bathroom rough-in planning for properties in Elmira, Ontario.",
+    "problem_h": "Are you replacing a fixture or planning a new bathroom?",
+    "problem_p": "Photos of the existing connections, fixture measurements, and renovation plans help determine whether the work is a simple replacement or requires changes to plumbing rough-ins.",
+    "features": [
+      [
+        "home",
+        "Inspect the Connections Before Choosing",
+        "Photograph the shutoffs, supply lines, toilet flange, and visible drain connections, and note the fixture model if available. Ask whether worn supply lines, seals, or a damaged flange should be replaced rather than reused. These checks can reveal compatibility or repair needs that affect the scope and help prevent a new fixture from being installed over an existing problem."
+      ],
+      [
+        "check",
+        "Plan Rough-Ins Before Finishing",
+        "For a basement bathroom or addition, share the proposed fixture locations and any drawings before walls or floors are finished. Ask how drain and vent routes will be assessed and what applicable review is needed. The layout can affect access, pipe routing, and the sequence of work, so confirming these details early can reduce changes during later finish stages."
+      ],
+      [
+        "award",
+        "Compare Materials and Serviceability",
+        "If you are comparing faucets, shower trim, or other fixtures, check the manufacturer's material and cartridge information and confirm that replacement parts are available. If water testing indicates iron or hardness concerns, discuss how the selected finish and maintenance requirements fit the test results. Product details help distinguish appearance from durability and make future servicing easier to plan."
+      ]
     ],
-    rev: [1, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Elmira, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Waterloo Plumbing Team",
-    intro: "A leak on a well system announces itself differently, the pump cycles at odd hours, the pressure tank tires out, the well draws down faster than it should. Elmira Plumbing knows those signs and the ordinary ones too, stains, smells, and creeping bills. We locate leaks in walls, under floors, and along the long buried runs between house, well, and barn, then repair with minimal disturbance to either building.",
-    meta: "Leak detection and repair in Elmira, Ontario. Acoustic and pressure-based location for wells, walls, floors, and buried runs to barns, by licensed Waterloo plumbers with one-opening repairs.",
-    problem_h: "Pump cycling at strange hours for no clear reason?",
-    problem_p: "We trace Elmira area leaks, in the walls or out along the buried runs to well and barn, and repair them once.",
-    features: [
-      ["droplets", "Well System Diagnosis", "Cycling pumps and tired pressure tanks often point to a leak in the line. We isolate sections and trace the fault before digging anything up."],
-      ["pin", "Long Rural Runs Covered", "The pipe between house, well, and barn can run a hundred metres. Our locating gear narrows the failure to a spot, not a trench."],
-      ["check", "Repaired and Recorded", "The fix closes with photos and findings, useful for the farm file, the insurer, or the next family to own the place."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Elmira, Ontario",
+    "h1": "Leak Detection and Repair in Elmira",
+    "intro": "A suspected leak in Elmira can involve a visible fixture, concealed piping, or a buried line between a house, well, and outbuilding. Note when the symptom occurs, photograph stains or damp areas, and record any unusual pump cycling or pressure changes. If the property uses a well, share the pump and pressure-tank details. These observations help compare acoustic or pressure-based locating approaches and determine whether investigation can be focused before floors, walls, or ground are opened.",
+    "meta": "Leak investigation planning for concealed pipes, well systems, and buried lines in Elmira, Ontario.",
+    "problem_h": "Is a pump cycling or a damp patch appearing without explanation?",
+    "problem_p": "Record when symptoms occur and photograph visible signs. If a well system or buried outbuilding line is involved, note its layout to help focus the investigation.",
+    "features": [
+      [
+        "droplets",
+        "Check the Well System in Sections",
+        "If a well pump cycles unexpectedly or pressure changes, note the timing and whether fixtures are in use. Gather pump and pressure-tank model details if available. Ask how the system could be isolated into sections before excavation is considered. Comparing pressure behaviour across sections can help distinguish a plumbing leak from another issue in the well system."
+      ],
+      [
+        "pin",
+        "Narrow the Route of a Buried Line",
+        "Sketch the route between the house, well, and barn or other outbuilding, adding approximate distances and any known repairs. Photograph accessible entry points and valves. If the line is long or concealed, ask whether locating equipment can narrow the likely failure area before digging. A more focused location can affect the excavation plan and limit unnecessary disturbance."
+      ],
+      [
+        "check",
+        "Document Findings Before Repairs",
+        "Ask for a clear description of the suspected leak location, the method used to investigate it, and photographs of accessible findings. Compare the proposed repair with the observed pipe material and access requirements. Written notes can help with property records, later maintenance, or discussions with an insurer, while making clear what was and was not confirmed during the investigation."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Elmira, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Waterloo Plumbing Team",
-    intro: "The Conestogo River and its cousins wrap through Woolwich, and the land holds water the way farmland does, honestly and in volume. Elmira Plumbing installs sump pumps and basins sized to both, with battery backup for the storms that cut power across the countryside at exactly the wrong moment. Backwater valves go in under permit where they matter, and old pumps get tested before spring rather than during it.",
-    meta: "Sump pump and backwater valve installation in Elmira, Ontario. Pumps sized to river-adjacent farmland, battery backup for outage storms, and permitted sewer protection by licensed Waterloo plumbers.",
-    problem_h: "Spring water looking for a way indoors?",
-    problem_p: "We install Elmira area sump systems and backups that keep pace with river country and thaw season.",
-    features: [
-      ["shield", "Country-Sized Pumping", "Woolwich basements collect melt from wide ground. Pumps and basins here are sized to the property's real collection, and the discharge is routed to actually leave."],
-      ["zap", "Backup for the Countryside", "Rural outages arrive with the same storms that fill pits. Battery backup keeps the Elmira basement pumping until the lines come back."],
-      ["refresh", "Tested Before Thaw", "An old pump deserves a bucket test before spring, not a eulogy after. We test, service, or replace on the spot."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Elmira, Ontario",
+    "h1": "Sump Pump and Backwater Planning in Elmira",
+    "intro": "A sump pump or backwater project in Elmira should be planned around the property's actual water entry points, pit, discharge route, and power supply. Photograph the basin and pump label, note how often the pump runs, and check where the discharge ends. If outages are a concern, compare battery-backup requirements with the existing pump. For a backwater valve, ask about sewer layout, access, and applicable review. These conditions determine whether testing, replacement, added protection, or further investigation merits consideration.",
+    "meta": "Sump pump, battery backup, and backwater valve planning guidance for properties in Elmira, Ontario.",
+    "problem_h": "Do you want to check a sump pump before the next thaw?",
+    "problem_p": "Photograph the pump, basin, discharge route, and power setup. These details help assess testing, replacement, or backup options for your Elmira property.",
+    "features": [
+      [
+        "shield",
+        "Assess the Pit and Discharge Route",
+        "Measure or photograph the basin, note the pump model, and record how often it runs during wet periods. Trace the discharge to its outlet and check for visible restrictions or a route that returns water toward the property. Pit capacity, pump output, and discharge path all affect equipment selection and whether changes beyond pump replacement need consideration."
+      ],
+      [
+        "zap",
+        "Compare Backup Power Requirements",
+        "If the pump could lose power during a storm, identify its model and power needs before comparing battery-backup options. Ask how the backup connects, what it can operate, and how its battery is monitored and maintained. A system must be matched to the pump and expected operating conditions; a backup should not be assumed to suit every pump or outage scenario."
+      ],
+      [
+        "refresh",
+        "Test the Existing Pump Before Replacing It",
+        "Before spring or another period of expected use, ask how the pump and float switch can be tested safely. Note whether it starts, stops, and discharges as expected, and photograph any alarms or damaged components. Test results can help distinguish a service need from replacement and clarify whether the basin, check valve, or discharge route also needs review."
+      ]
     ],
-    rev: [4, 1, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Elmira, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Waterloo Plumbing Team",
-    intro: "Country water comes with personality, iron that stains, sulphur that announces itself, hardness that builds up in everything from kettles to milk-line coolers. Elmira Plumbing treats it properly, starting with a real test of your well and ending with equipment sized to that result. Softeners for hardness, iron and sulphur systems for the smelly stuff, UV where bacteria history warrants it, and reverse osmosis at the sink for drinking.",
-    meta: "Water softeners and well treatment in Elmira, Ontario. Softeners, iron and sulphur systems, UV disinfection, and reverse osmosis sized to your actual Woolwich well test.",
-    problem_h: "Stains, smells, or scale from the well?",
-    problem_p: "We test Woolwich wells and build the treatment stack the sample calls for, nothing it does not.",
-    features: [
-      ["gauge", "Treatment From a Test", "No two township wells match. The softener and filters we install at your Elmira property follow the lab-style results from your own water."],
-      ["droplets", "Iron, Sulphur, and Safety", "Orange stains and rotten-egg smells have specific fixes, and bacteria history earns UV. We build the sequence that clears all three."],
-      ["dollar", "Protects the Whole System", "Treated water eases the load on pressure tanks, heaters, and fixtures. Around Elmira, the softener is the cheapest plumbing you will ever buy."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Elmira, Ontario",
+    "h1": "Water Treatment Options for Elmira Properties",
+    "intro": "Water treatment for an Elmira property should follow a test of its actual water, not assumptions based on location. If the source is a well, arrange an appropriate sample and keep the results available; note staining, odour, scale, or past treatment equipment as observations, not a diagnosis. A softener, iron or sulphur treatment, UV system, or reverse osmosis unit addresses different needs. Comparing test results with equipment specifications helps define the treatment sequence, maintenance, and installation requirements.",
+    "meta": "Water testing and treatment planning for softeners, iron, sulphur, UV, and reverse osmosis in Elmira, Ontario.",
+    "problem_h": "Are stains, odour, or scale prompting a water test?",
+    "problem_p": "Use a water test and notes about observed symptoms to compare treatment options. The results help determine which equipment, if any, fits your property's needs.",
+    "features": [
+      [
+        "gauge",
+        "Base Equipment on Test Results",
+        "Keep a copy of the water test and check which parameters were measured, when the sample was taken, and whether it represents the source being treated. Ask how the results relate to the proposed softener or filters. Test details affect equipment choice, capacity, and treatment order; a system selected without them may not address the identified issue."
+      ],
+      [
+        "droplets",
+        "Separate Iron, Sulphur, and Bacteria Questions",
+        "Record whether the concern is staining, odour, or a bacteria result, and bring the relevant test information to the equipment discussion. Iron and sulphur treatment and UV disinfection address different conditions. Ask what each stage is intended to treat and what maintenance it needs. That comparison helps avoid treating an observed symptom as proof of a particular water-quality problem."
+      ],
+      [
+        "dollar",
+        "Check Maintenance and Connected Equipment",
+        "Before choosing a treatment system, compare its capacity, regeneration or replacement schedule, power and drain requirements, and ongoing supplies. Note the water heater, pressure tank, and fixtures connected downstream, then ask how the proposed system fits that arrangement. The connection plan and maintenance costs help define the whole-life scope, rather than focusing only on the equipment purchase."
+      ]
     ],
-    rev: [3, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Our well pump kept cycling overnight and we feared the worst. They traced a small leak in the buried line, fixed it in one dig, pump behaves again.", "Farmer", "West Montrose"],
-  ["Syrup season is hard on drains and ours gave up mid-boil. They jetted the line the same week and talked us through keeping it clear after.", "Farmer", "Floradale"],
-  ["The farmhouse had three kinds of pipe from three eras. They repiped it all in PEX without touching the original woodwork, pressure is superb.", "Homeowner", "Elmira"],
-  ["Iron was staining everything orange. They tested the well, installed the right filters, and the laundry actually comes out white now.", "Resident", "Conestogo"],
-  ["New basement bathroom roughed in before the pour, inspected without a hitch. The crew even explained the venting so we understood it.", "Homeowner", "Bloomingdale"],
-  ["Sump and battery backup installed before the spring thaw. The power went out for two days in April and the basement never knew.", "Cottage Owner", "St. Jacobs"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless installs sized for wells, pressure tanks, and busy farm households across Elmira and Woolwich.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Snaking, jetting, and camera inspection for milk houses, syrup rigs, and septic-connected township homes.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized and poly-B replacement across generations of farmhouse additions, outbuilding lines included.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Toilets, faucets, sinks, and shower packages installed to survive country water and country use.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Well-system diagnosis and tracing along buried runs to barns, repaired through one opening.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "River-country pump sizing, battery backup for rural outages, and pre-thaw testing of tired pumps.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Well-tested softeners, iron and sulphur systems, UV disinfection, and reverse osmosis for township water.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless capacity, venting, connections, and recovery against the hot-water demand and well-system details of your Elmira property.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Snaking, jetting, and camera inspection are different options. Describe affected drains, recurring blockages, process loads, and any septic connection before comparing the scope.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Document visible galvanized or poly-B pipe, additions, and connected outbuildings to compare PEX or copper routing, access, testing, and finish-work requirements.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Compare toilet, faucet, sink, and shower compatibility with existing connections. Bathroom additions may require drain and vent planning before finishes are installed.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Record leak symptoms and well-system pressure changes. A sketch of buried runs to a barn or other outbuilding can help plan investigation before digging.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Review the basin, pump, discharge route, and power supply when comparing pump or battery-backup options. Sewer layout and access affect backwater valve planning.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use water-test results to compare softeners, iron or sulphur treatment, UV, and reverse osmosis. Check equipment capacity, installation needs, and maintenance.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Is Elmira Plumbing properly licensed?", "Yes, licensed and insured for plumbing across Waterloo County and Woolwich township, with permits filed and inspections passed for every job that requires them under the Ontario Building Code."],
-  ["Do you answer emergencies out in the township?", "We do, including the farm routes. No-water, burst, and backup calls get priority across Elmira, Conestogo, St. Jacobs, and the sideroads between them."],
-  ["How quickly can you replace a water heater?", "Usually the same day or the next morning, since the common sizes travel with us. Elmira homes on wells get extra care with sizing and pressure."],
-  ["Our farmhouse has a patchwork of old pipe. Full repipe?", "Layered additions usually deserve one unified system in PEX or copper. We walk the property, mark what each era left behind, and quote the full or partial scope honestly."],
-  ["Do you handle wells and septic around Elmira?", "That is most of our week. Well treatment, pressure tanks, buried line repairs to house and barn, and septic building drains are standard Woolwich work for us."],
-  ["Is township water hard enough to treat?", "Between the iron, the sulphur, and the hardness, most wells here justify treatment. The sample decides the equipment, never the other way around."],
-  ["How do you handle pricing?", "Estimates come free and in writing before the work starts, and the approved figure holds whether the job is a fixture swap or a whole-farm repipe."],
-  ["Where do you work beyond Elmira?", "St. Jacobs, Conestogo, Bloomingdale, Winterbourne, Maryhill, Waterloo, and the Woolwich countryside generally."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/elmiraplumbing.ca-water-heaters.jpg", "Water heater installation in Elmira, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/elmiraplumbing.ca-drain-cleaning.jpg", "Drain cleaning in Elmira, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/elmiraplumbing.ca-repiping.jpg", "Farmhouse repiping in Elmira, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/elmiraplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Elmira, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/elmiraplumbing.ca-leak-detection.jpg", "Leak detection in Elmira, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/elmiraplumbing.ca-sump-pumps.jpg", "Sump pump installation in Elmira, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/elmiraplumbing.ca-water-softeners.jpg", "Well water treatment in Elmira, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/elmiraplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Elmira, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/elmiraplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning in Elmira, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/elmiraplumbing.ca-repiping.jpg",
+    "Farmhouse repiping in Elmira, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/elmiraplumbing.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Elmira, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/elmiraplumbing.ca-leak-detection.jpg",
+    "Leak detection in Elmira, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/elmiraplumbing.ca-sump-pumps.jpg",
+    "Sump pump installation in Elmira, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/elmiraplumbing.ca-water-softeners.jpg",
+    "Well water treatment in Elmira, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

@@ -1,185 +1,379 @@
-// Per-site content for tillsonburgplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Tillsonburg, Oxford County, farm-service
-// hub on the Norfolk-Oxford line.
-// Local angle: tobacco-belt legacy town now drawing London commuters, wartime
-// bungalows and retirement ranches on galvanized and poly-B, flat heavy clay
-// directing storms at basements, sulphur and iron wells south and east of
-// town, and hard-working farm-household plumbing.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Tillsonburg, Ontario",
-    h1: "Water Heater Installation From a Local Oxford Plumbing Team",
-    intro: "Tillsonburg grew serving the farms around it, and the housing shows that history, wartime bungalows, retirement ranches, and new subdivisions for the London commuters finding the drive worth it. Tillsonburg Plumbing Pros keeps hot water flowing through all of it, installing and swapping tanks and tankless units with the sizing farm households and growing families actually need. Failures get same-day attention, and rural properties get well-aware treatment.",
-    meta: "Water heater installation in Tillsonburg, Ontario. Tank and tankless units for bungalows, new subdivisions, and farm households, with same-day swaps by licensed Oxford plumbers and permits filed.",
-    problem_h: "Tank groaning, leaking, or simply finished?",
-    problem_p: "We install and replace water heaters across Tillsonburg, sized for real demand and swapped fast when they fail.",
-    features: [
-      ["flame", "Sized to the Household", "A shift-working household and a retiring couple use water differently. We match the unit to the people, the house, and where the water comes from."],
-      ["clock", "Same-Day Failures", "Tillsonburg calls get stocked sizes and a short drive, so a dead tank is usually a same-day memory rather than a cold weekend."],
-      ["shield", "Rural Properties Considered", "Wells change the pressure picture. Out toward the townships we size heaters and pressure setups together so nothing starves."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Tillsonburg, Ontario",
+    "h1": "Water Heater Installation and Replacement in Tillsonburg",
+    "intro": "For a water heater project in Tillsonburg, start by noting the existing unit’s fuel, tank capacity or tankless model, age, and venting arrangement. A replacement may fit the same space, while a change in household demand or equipment type can alter sizing, connections, and installation scope. If the property uses a well, record any pressure concerns and ask whether the supply setup affects equipment selection. Comparing the proposed unit and installation details helps clarify what the work includes.",
+    "meta": "Plan a Tillsonburg water heater replacement or installation. Compare tank and tankless options, household demand, fuel, venting, and well-system needs.",
+    "problem_h": "Is your water heater noisy, leaking, or no longer meeting demand?",
+    "problem_p": "A leak, unusual noise, or inconsistent hot water can point to different work. Record the symptoms and unit details so the replacement scope can be matched to the property.",
+    "features": [
+      [
+        "flame",
+        "Match Capacity to Household Demand",
+        "List how many people use hot water, the number of bathrooms, and when showers, laundry, or other high-demand tasks overlap. Compare that pattern with the proposed tank capacity or tankless output. The household’s actual use can affect sizing, recovery needs, and whether a like-for-like replacement is suitable."
+      ],
+      [
+        "clock",
+        "Compare Replacement Equipment and Scope",
+        "Photograph the data plate, surrounding clearances, fuel connection, venting, and nearby piping before requesting a quote. Ask whether the proposed work keeps the existing equipment type or changes it, and whether the price includes removal, connections, vent adjustments, and required testing. Those details help distinguish a straightforward exchange from a larger installation."
+      ],
+      [
+        "shield",
+        "Check Well and Pressure Conditions",
+        "If the property uses a well, note pressure fluctuations, the pressure tank arrangement, and any water treatment equipment near the heater. Ask how those conditions affect the proposed connections and equipment choice. Reviewing the supply setup alongside the heater can reveal scope beyond the appliance itself, rather than assuming every property has the same water pressure."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Tillsonburg, Ontario",
-    h1: "Drain Cleaning From a Local Oxford Plumbing Team",
-    intro: "Farm towns ask a lot of their drains, and Tillsonburg's kitchens, laundries, and floor drains have absorbed decades of it. Tillsonburg Plumbing Pros clears them with the right combination of snake, jetter, and camera, because a line that blocks twice deserves a diagnosis, not a repeat bill. Older neighbourhoods with clay laterals and big street trees get special attention, and so do the homes packing in laundry for crews and kids.",
-    meta: "Drain cleaning in Tillsonburg, Ontario. Snaking, hydro-jetting, and camera diagnosis for farm-town kitchens, laundry loads, and clay laterals by licensed Oxford plumbers with recurring-clog investigation.",
-    problem_h: "Drains that treat every week like a long weekend?",
-    problem_p: "We clear and diagnose Tillsonburg drains properly so the same line stops re-clogging.",
-    features: [
-      ["refresh", "Snake, Jet, or Camera, as Needed", "Each tool answers a different problem, and we carry all three. Tillsonburg drains get the response the condition of the line calls for."],
-      ["droplets", "Recurring Clogs Investigated", "A second blockage earns a camera run, full stop. The footage shows the roots or the sag, and the quote addresses the cause."],
-      ["calendar", "Laundry-Heavy Homes Planned", "Houses washing for crews and teams load their drains harder than average. We set clearing intervals that match the real usage."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Tillsonburg, Ontario",
+    "h1": "Drain Cleaning and Diagnosis in Tillsonburg",
+    "intro": "For a drain problem in Tillsonburg, note which fixtures are slow, whether more than one drain is affected, and how often the blockage returns. A hand or powered snake, hydro-jetting, and a camera inspection serve different purposes, so the condition and location of the line should guide the method. If a camera shows roots, a sag, or another defect, ask how that finding changes the proposed work. Photos, dates, and prior repair records help compare recommendations.",
+    "meta": "Plan drain cleaning in Tillsonburg with snaking, hydro-jetting, or camera inspection selected for the blockage and line condition.",
+    "problem_h": "Does the same drain keep slowing down or blocking?",
+    "problem_p": "Repeated clogs may need more than clearing. Note which fixtures are affected and ask whether a camera inspection is appropriate before choosing a repair.",
+    "features": [
+      [
+        "refresh",
+        "Choose the Method for the Line",
+        "Ask what the proposed snake, hydro-jetter, or camera inspection is intended to establish. Snaking can clear an obstruction, jetting can clean a line, and a camera can show its interior condition. The right method depends on access, blockage, and pipe condition, so a tool should be selected for the specific finding needed."
+      ],
+      [
+        "droplets",
+        "Investigate Recurring Blockages",
+        "If the same line blocks again, keep the dates and note whether several fixtures back up together. Ask whether a camera run can check for roots, a sag, or another visible obstruction, and request an explanation of any footage used to support the recommendation. The finding can change the scope from clearing to addressing a recurring cause."
+      ],
+      [
+        "calendar",
+        "Account for Heavy Laundry Use",
+        "If a household regularly washes work clothes, team uniforms, or other frequent loads, mention that when discussing a laundry drain. Photograph accessible cleanouts and note when slow drainage occurs. This context helps distinguish a usage-related maintenance discussion from a line defect, and can inform whether any suggested inspection or clearing interval is appropriate."
+      ]
     ],
-    rev: [1, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Tillsonburg, Ontario",
-    h1: "Repiping From a Local Oxford Plumbing Team",
-    intro: "The bungalow belt around Tillsonburg was piped in the decades when galvanized and early poly-B looked like progress, and time has filed its objections. Tillsonburg Plumbing Pros repipes those homes and the older places near the core in modern PEX and copper, working clean, testing pressure as we go, and closing with permit and inspection. The result is water that arrives clearly and leaves without commentary.",
-    meta: "Repiping in Tillsonburg, Ontario. Galvanized and poly-B replacement for the bungalow belt and older core homes in PEX and copper by licensed Oxford plumbers, permitted and pressure-tested.",
-    problem_h: "Bungalow piping showing its vintage?",
-    problem_p: "We repipe Tillsonburg homes in PEX and copper and restore the pressure the original pipe stole.",
-    features: [
-      ["wrench", "Vintage Materials Retired", "Galvanized that closes and poly-B that cracks come out in one planned campaign, replaced with material rated for the next fifty years."],
-      ["home", "Lived-In Works Fine", "Occupied homes stay occupied. We sequence the work by room, keep water available where we can, and finish walls properly behind us."],
-      ["shield", "Permit, Test, Inspection", "Pressure testing happens in the open, the permit closes with the municipality, and the record stays with the property."]
+    "icon": "wrench",
+    "kicker": "Repiping in Tillsonburg, Ontario",
+    "h1": "Home Repiping in Tillsonburg",
+    "intro": "If a Tillsonburg home has galvanized supply pipe, poly-B, or another aging material, identify what is visible before comparing repiping proposals. Photograph pipe markings, accessible runs, corrosion, leaks, and any areas with low pressure or discoloured water. PEX and copper are possible replacement materials, but the route, access, fixture count, and finish work affect the scope. Ask how testing, permits, inspection requirements, and restoration are handled for the specific project before work is planned.",
+    "meta": "Plan home repiping in Tillsonburg. Compare galvanized or poly-B replacement options in PEX or copper, access, testing, and project requirements.",
+    "problem_h": "Are aging pipes leaking or limiting water flow?",
+    "problem_p": "Visible pipe material, leak history, pressure changes, and access affect a repiping plan. Gather those details to compare the proposed route and work.",
+    "features": [
+      [
+        "wrench",
+        "Identify Existing Pipe Materials",
+        "Photograph accessible pipe markings and fittings, especially where galvanized pipe or poly-B may be present. Record leaks, corrosion, and pressure changes by location. Confirming what is actually installed helps determine whether the scope is a local repair or broader replacement, and whether concealed areas need inspection before a proposal can be compared."
+      ],
+      [
+        "home",
+        "Plan Work in an Occupied Home",
+        "Ask for the proposed route by room and which fixtures may be without water during each stage. If the home is occupied, confirm how access, temporary water interruptions, wall openings, and finish restoration are treated in the scope. Sequencing can affect household disruption and cost, so compare the work plan rather than relying only on the listed pipe material."
+      ],
+      [
+        "shield",
+        "Verify Testing and Project Requirements",
+        "Ask how the completed piping will be pressure-tested and what records will be provided. Confirm whether permits or inspections apply to the proposed work and who is responsible for arranging them. These requirements depend on the project; checking them in advance helps clarify the closeout documents and prevents an assumption that testing or inspection is included when it may not be."
+      ]
     ],
-    rev: [2, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Tillsonburg, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Oxford Plumbing Team",
-    intro: "Nothing in a Tillsonburg house works harder than the bathroom, between shift workers, farm schedules, and every sports season known to minor hockey. Tillsonburg Plumbing Pros installs toilets, faucets, sinks, tubs, and full shower packages that hold up to that schedule, and we rough in the new bathrooms that growing households need. Everything gets set level, sealed right, and chosen to survive the local water, which is its own kind of endurance test.",
-    meta: "Fixture and toilet installation in Tillsonburg, Ontario. Heavy-duty toilets, faucets, tubs, and shower packages with new-bathroom rough-ins by licensed Oxford plumbers for busy farm-town households.",
-    problem_h: "Bathroom on its last legs, or a new one going in?",
-    problem_p: "We install Tillsonburg fixtures built for busy households and rough in the additions.",
-    features: [
-      ["home", "Built for Busy", "We install toilets and faucets chosen for heavy use and hard water, set properly so they take the schedule without complaint."],
-      ["check", "New Bathrooms Roughed In", "Growing households get new bathrooms plumbed to code, drains and vents designed before the finish stages arrive."],
-      ["award", "Water-Proof Choices", "Fixtures with metal bodies and replaceable cartridges survive here. We recommend them because we dislike callbacks."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Tillsonburg, Ontario",
+    "h1": "Fixture and Toilet Installation in Tillsonburg",
+    "intro": "For a fixture project in Tillsonburg, decide whether you are replacing a toilet, faucet, sink, tub, or shower package, or planning a new bathroom. Photograph the existing connections, available space, and any visible damage, then compare the selected fixture’s dimensions and installation requirements. A new bathroom may need drain and vent planning before finishes begin. If water quality or heavy household use is a concern, ask how materials, serviceable cartridges, and maintenance affect the choice.",
+    "meta": "Plan Tillsonburg toilet, faucet, sink, tub, shower, or bathroom rough-in work. Compare dimensions, connections, materials, and drain and vent needs.",
+    "problem_h": "Is a fixture worn out, or are you planning a new bathroom?",
+    "problem_p": "Fixture replacement and a new bathroom require different preparation. Note existing dimensions and connections, and ask what rough-in work is needed before finishing.",
+    "features": [
+      [
+        "home",
+        "Compare Fixtures for Intended Use",
+        "Record the fixture type, dimensions, and connection locations, and note how often it is used. Compare toilet, faucet, sink, tub, or shower specifications with the existing setup. If heavy use or water treatment needs influence the selection, ask about durable body materials and replaceable cartridges; those choices can affect compatibility and future servicing."
+      ],
+      [
+        "check",
+        "Plan New Bathroom Rough-Ins",
+        "For a new bathroom, identify the proposed fixture locations and ask how drains and vents will be routed before finishes are installed. Share available plans and photographs of accessible plumbing. The layout can change the amount of rough-in work and access required, so comparing this stage separately from fixture installation helps define the full project scope."
+      ],
+      [
+        "award",
+        "Check Materials and Serviceability",
+        "Before selecting fixtures, compare body materials, cartridge availability, connection requirements, and the manufacturer’s maintenance guidance. If the property has a water treatment system or you have concerns about scale, ask whether that affects the fixture choice or servicing. These details help distinguish a suitable product from one that may require different upkeep or replacement parts."
+      ]
     ],
-    rev: [1, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Tillsonburg, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Oxford Plumbing Team",
-    intro: "Flat country hides nothing except what is underground, and around Tillsonburg that is exactly where the interesting leaks live, under basement floors, out along the service run, and in the long lines feeding workshops and barns. Tillsonburg Plumbing Pros finds them with acoustic and thermal instruments plus patient isolation testing, then repairs through the smallest possible opening. The bill reflects precision, not square footage of opened drywall.",
-    meta: "Leak detection and repair in Tillsonburg, Ontario. Acoustic and thermal location with isolation testing for underfloor, service-line, and outbuilding leaks by licensed Oxford plumbers, repaired in one opening.",
-    problem_h: "Unexplained wet spot or a climbing meter?",
-    problem_p: "We pinpoint Tillsonburg leaks with instruments and repair them through one small opening.",
-    features: [
-      ["droplets", "Instruments Over Excavation", "Acoustic and thermal gear marks the leak before anything is opened. Flat-country floors and finished walls stay mostly intact."],
-      ["pin", "Service and Outbuilding Runs", "Leaks along the street line or out toward the shop get located from the surface, so the digging, if any, is brief and exact."],
-      ["check", "Precise and Documented", "One opening, one repair, and a written record of both, which insurers and future owners both appreciate."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Tillsonburg, Ontario",
+    "h1": "Leak Detection and Repair in Tillsonburg",
+    "intro": "For suspected water leakage in Tillsonburg, document the wet area, meter movement when water is off, and any changes in pressure or water use. Note whether the suspected route is beneath a floor, along a service line, or toward an outbuilding. Acoustic and thermal instruments, together with isolation testing, can help narrow a search before opening a surface. Ask what evidence supports the proposed location and how access and repair will be handled if the leak is concealed.",
+    "meta": "Plan Tillsonburg leak detection using acoustic or thermal locating and isolation testing for concealed pipes, service lines, and outbuildings.",
+    "problem_h": "Have you found a wet spot or unexplained meter movement?",
+    "problem_p": "A leak may be concealed under a floor, along a service run, or near an outbuilding. Record symptoms and ask how the location will be confirmed before opening surfaces.",
+    "features": [
+      [
+        "droplets",
+        "Locate Before Opening Surfaces",
+        "Photograph the wet area and note when it appears, then ask whether acoustic or thermal instruments and isolation testing suit the suspected pipe. These methods can help narrow the search before a floor or wall is opened. The location evidence matters because access and repair scope depend on where the leak is found, not simply where water becomes visible."
+      ],
+      [
+        "pin",
+        "Trace Service and Outbuilding Runs",
+        "If the suspected leak is on a service line or a long run to a workshop or barn, sketch the route and mark accessible shutoffs, meters, and wet areas. Ask how the route will be checked from the surface and where excavation may be needed. This information helps focus locating work and estimate any digging or repair access."
+      ],
+      [
+        "check",
+        "Document Findings and Repair Access",
+        "Ask for the suspected leak location, the test or instrument findings, and the proposed repair opening to be explained before work proceeds. Photograph the area and keep the repair details with property records. A clear account helps compare the detection and repair scope, including whether additional access or work may be needed after the pipe is exposed."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Tillsonburg, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Oxford Plumbing Team",
-    intro: "The land around Tillsonburg runs flat and the soil runs heavy, a combination that directs spring melt and summer storms straight toward basements that never asked for them. Tillsonburg Plumbing Pros installs sump pumps and basins sized to that reality, battery backups for the storm-outage hours, and backwater valves under permit where the sewer grade makes them worthwhile. Spring tests of existing pumps are a house call we are happy to make.",
-    meta: "Sump pump and backwater valve installation in Tillsonburg, Ontario. Pumps sized to flat clay country, battery backup for outage storms, and permitted sewer protection by licensed plumbers.",
-    problem_h: "Flat yard, heavy soil, wet basement?",
-    problem_p: "We install Tillsonburg sump systems and backups that keep up with what flat country sends.",
-    features: [
-      ["shield", "Matched to Flat-Country Water", "Heavy clay on level ground sends everything toward the pit. Pump and basin sizing here follows the property's actual drainage behaviour."],
-      ["zap", "Backup Through the Outage", "The storms that test pumps also drop the power. Battery backup keeps the system working through exactly those hours."],
-      ["refresh", "Valves Where Grades Say So", "Where the municipal sewer can run toward the house, a permitted backwater valve is installed, and subsidy programs get checked."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Tillsonburg, Ontario",
+    "h1": "Sump Pumps and Backwater Valves in Tillsonburg",
+    "intro": "For a sump or backwater project in Tillsonburg, record when water enters, where it collects, and whether the pump has stopped or the power has failed during a storm. The basin, pump capacity, discharge route, backup arrangement, and property drainage all affect the design. If considering a backwater valve, ask whether the sewer layout and grade make it suitable. Compare inspection, permit, and installation requirements for the specific work rather than assuming every property needs the same protection.",
+    "meta": "Plan Tillsonburg sump pump, battery backup, or backwater valve work. Compare drainage conditions, discharge, sewer layout, and project requirements.",
+    "problem_h": "Does water collect in the basement or is the pump unreliable?",
+    "problem_p": "A pump, backup, or valve addresses different risks. Record water patterns, equipment details, and power interruptions to help define what the property needs.",
+    "features": [
+      [
+        "shield",
+        "Size the Pump to Site Conditions",
+        "Photograph the pit and existing pump, and note when it runs, how water enters, and where the discharge goes. Ask how basin size, pump capacity, and the property’s drainage behaviour inform the proposal. These conditions affect equipment selection; a pump chosen without reviewing the site may not suit the volume or discharge arrangement."
+      ],
+      [
+        "zap",
+        "Review Backup Power Options",
+        "If the pump has been affected by outages, record the pump model, power arrangement, and how long the interruption lasted. Ask whether a battery backup is compatible and what capacity and maintenance it requires. Storm-related power loss can change the scope from replacing a pump to planning backup operation, so compare those items separately."
+      ],
+      [
+        "refresh",
+        "Check Backwater Valve Suitability",
+        "Ask whether the property’s sewer layout and grade could allow flow toward the building, and whether a backwater valve is appropriate. Confirm what access, permit, and inspection requirements apply to the proposed installation. A valve is not a universal substitute for a sump system, so the sewer arrangement and project-specific requirements should guide the decision."
+      ]
     ],
-    rev: [4, 1, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Tillsonburg, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Oxford Plumbing Team",
-    intro: "Ask around Tillsonburg about water and you will hear about sulphur, the wells south and east of town carry it, and about the hardness that comes with the regional aquifer generally. Tillsonburg Plumbing Pros treats both from evidence, testing the well or the tap first and building the system the sample justifies. Softeners for hardness, iron and sulphur treatment where the smell lives, UV where needed, and reverse osmosis for the drinking tap.",
-    meta: "Water softeners and well treatment in Tillsonburg, Ontario. Softeners, sulphur and iron systems, UV disinfection, and reverse osmosis sized from your actual water test by licensed Oxford plumbers.",
-    problem_h: "Rotten-egg mornings and scale everywhere else?",
-    problem_p: "We test Tillsonburg area water and install the treatment the results call for, sulphur included.",
-    features: [
-      ["gauge", "Evidence Before Equipment", "The well or tap gets tested first, and the softener and filters follow the numbers. Around Tillsonburg, that order matters."],
-      ["droplets", "Sulphur and Iron, Handled", "The smell that announces itself at the tap has a specific treatment stack. We size it to the well, not the brochure."],
-      ["dollar", "Longer Life Everywhere", "Treated water spares heaters, appliances, and fixtures the regional assault. The softener earns its cost in what stops failing."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Tillsonburg, Ontario",
+    "h1": "Water Softeners and Water Treatment in Tillsonburg",
+    "intro": "For water treatment in Tillsonburg, begin with a current test of the tap or well water rather than selecting equipment from a symptom alone. Keep the results and note where odour, staining, scale, or taste concerns occur. A softener, iron or sulphur treatment, UV system, and reverse osmosis unit address different conditions and may serve different points in the home. Ask how each proposed component relates to the test, plumbing layout, and maintenance needs before comparing system options.",
+    "meta": "Plan Tillsonburg water softening and treatment from test results. Compare softeners, iron or sulphur treatment, UV, and reverse osmosis options.",
+    "problem_h": "Are you noticing odour, staining, or scale on fixtures?",
+    "problem_p": "Different water concerns call for different treatment. Obtain a water test and record where symptoms occur before comparing softeners, filters, or other equipment.",
+    "features": [
+      [
+        "gauge",
+        "Test Before Selecting Equipment",
+        "Obtain a water sample and keep the results, including which source and tap were tested. Ask how the measured conditions relate to each proposed softener or filter. Testing can change equipment type and size; it also helps avoid choosing a system based on an odour or scale observation that may have more than one explanation."
+      ],
+      [
+        "droplets",
+        "Match Treatment to Sulphur or Iron Findings",
+        "If a well has an odour or staining, describe where and when it occurs and compare that information with test results. Ask which treatment stages are proposed for the measured conditions and how the system will be sized for the well. Treatment choices should follow the sample, rather than assuming a particular cause from the symptom alone."
+      ],
+      [
+        "dollar",
+        "Compare Equipment and Ongoing Care",
+        "Ask what each treatment component is intended to do, what supplies or maintenance it requires, and how it connects to the plumbing. If considering a softener alongside a heater, appliances, or drinking-water equipment, compare the proposed treatment points and upkeep. Those details help assess the full system scope without assuming treatment will prevent every equipment problem."
+      ]
     ],
-    rev: [3, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["New subdivision, builder-grade everything. Their softener and RO install made the water drinkable and the tank will actually last now.", "Homeowner", "Tillsonburg"],
-  ["Our well water smelled like eggs every August. They tested it, installed the sulphur system, and the smell is completely gone.", "Farmer", "Langton"],
-  ["Drain in the basement floor kept flooding after big rains. Camera found the roots, jetting cleared them, and it has stayed dry since.", "Resident", "Otterville"],
-  ["Repipe of our seventies bungalow took four days, water was on every night, and the walls were patched better than expected.", "Homeowner", "Delhi"],
-  ["Cafe's water heater died before opening. They had the new one in and inspected before we poured a single coffee next morning.", "Business Owner", "Courtland"],
-  ["Sump and battery backup installed after two wet springs. This year's melt was worse and the basement never noticed.", "Cottage Owner", "Villa Nova"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless installs and same-day swaps for Tillsonburg bungalows, new builds, and farm households on wells.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Snaking, jetting, and camera diagnosis for hard-worked kitchens, laundry loads, and clay laterals.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized and poly-B replacement across the bungalow belt in PEX and copper, permitted and tested.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Heavy-use toilets, faucets, and shower packages plus new-bathroom rough-ins for growing households.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and thermal pinpointing of underfloor, service-line, and outbuilding leaks, repaired in one opening.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Pumps sized to flat clay country, battery backup for outage storms, and permitted backwater valves.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Test-first softener sizing, sulphur and iron systems for local wells, and reverse osmosis drinking water.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless replacements by fuel, household demand, venting, and connections. If the property uses a well, include pressure conditions when reviewing heater sizing and installation scope.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Snaking, hydro-jetting, and camera inspection serve different needs. Note recurring clogs and affected fixtures so the method and any investigation of roots or a sag can match the line.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Compare galvanized or poly-B replacement in PEX or copper. Pipe access, room-by-room sequencing, testing, and project requirements can change the repiping scope.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan toilet, faucet, tub, or shower replacement around dimensions and connections. New bathrooms may need drains and vents planned before the finish work begins.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Acoustic or thermal locating and isolation testing can help investigate concealed leaks under floors, along service lines, or on outbuilding runs before opening surfaces.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare pump capacity, basin, discharge, and battery backup for the property. A backwater valve depends on sewer layout and grade, so check suitability and requirements.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use water test results to compare softening, iron or sulphur treatment, UV, and reverse osmosis. Each option addresses different conditions and has its own maintenance needs.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed plumbers in Oxford County?", "Yes, licensed and insured, filing permits for the work that needs them and closing each one with an inspection under the Ontario Building Code."],
-  ["Do you respond to plumbing emergencies in Tillsonburg?", "Any time. Burst pipes, sewer backups, flooding, and no-water calls get priority across Tillsonburg and the surrounding townships, with stocked trucks for first-visit fixes."],
-  ["How fast can you swap a failed water heater?", "Most often the same day. The common tank sizes ride on the truck, and rural properties get sizing that accounts for their wells."],
-  ["Our bungalow still has original pipe. Repipe now?", "If the water runs rusty and the pressure fades with use, the piping is telling you its plans. We assess what is actually installed and quote the scope it honestly needs."],
-  ["Do you service wells and septic around Tillsonburg?", "That is daily work here. Well treatment, pressure tanks, septic building drains, and long runs to barns and shops are standard calls for our crews."],
-  ["Is the water here really worth treating?", "Between regional hardness and the sulphur wells south and east of town, most properties test into treatment. The sample decides what gets installed, never a default package."],
-  ["What does plumbing work cost with you?", "A written quote first, free and without obligation, and the approved amount is what the invoice reads at the end, repairs and repipes alike."],
-  ["Where beyond Tillsonburg do you go?", "Norwich, Otterville, Courtland, Delhi, Simcoe, Langton, and the farm roads linking them across the counties."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/tillsonburgplumbingpros.ca-water-heaters.jpg", "Water heater installation in Tillsonburg, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/tillsonburgplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning in Tillsonburg, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/tillsonburgplumbingpros.ca-repiping.jpg", "Repiping a bungalow in Tillsonburg, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/tillsonburgplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Tillsonburg, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/tillsonburgplumbingpros.ca-leak-detection.jpg", "Leak detection in Tillsonburg, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/tillsonburgplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Tillsonburg, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/tillsonburgplumbingpros.ca-water-softeners.jpg", "Well water treatment in Tillsonburg, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/tillsonburgplumbingpros.ca-water-heaters.jpg",
+    "Water heater installation in Tillsonburg, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/tillsonburgplumbingpros.ca-drain-cleaning.jpg",
+    "Drain cleaning in Tillsonburg, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/tillsonburgplumbingpros.ca-repiping.jpg",
+    "Repiping a bungalow in Tillsonburg, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/tillsonburgplumbingpros.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Tillsonburg, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/tillsonburgplumbingpros.ca-leak-detection.jpg",
+    "Leak detection in Tillsonburg, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/tillsonburgplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump installation in Tillsonburg, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/tillsonburgplumbingpros.ca-water-softeners.jpg",
+    "Well water treatment in Tillsonburg, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "otterville": {
-    name: "Otterville",
-    intro: "Otterville sits on Otter Creek in Norwich township, a village of heritage streets, mill history, and surrounding farms south of Tillsonburg. Tillsonburg Plumbing Pros serves Otterville with water heaters, drain cleaning, sump pumps, repipes, and full well water treatment. Licensed plumbers make the village and its sideroads a regular stop, not a special trip.",
-    meta: "Plumber in Otterville, Ontario. Water heaters, drain cleaning, sump pumps, repipes, and well water treatment from a licensed Oxford plumbing team. Free quotes.",
-    nearby: ["Tillsonburg", "Norwich", "Delhi", "Springford"],
-    faq: [
-      ["Do you treat well water in Otterville?", "Yes. Otterville wells commonly bring hardness plus iron or sulphur. We test the water, then size the softener and filters to the sample."],
-      ["Can you replace a water heater in Otterville quickly?", "Yes. Being minutes from Tillsonburg means fast swaps, and we stock the common sizes for exactly that."],
-      ["Do you install sump pumps in Otterville?", "Yes. Creek-side properties and heavy soils make good sump protection worthwhile, and we size systems to the property."],
-      ["Are emergency calls available in Otterville?", "Yes. Bursts, backups, and no-water calls in Otterville get priority response from our local crew."]
+    "name": "Otterville",
+    "intro": "For a plumbing project in Otterville, identify the equipment, symptoms, and access points before comparing proposed work. If the property uses a well, obtain a water test before choosing a softener or iron or sulphur treatment. If a pump or basement drainage is a concern, document where water collects and how the discharge is arranged. For recurring drain trouble, note affected fixtures and ask whether camera inspection is appropriate. These details help shape the scope for the specific property.",
+    "meta": "Plan plumbing work in Otterville, including water heaters, drains, sump pumps, repiping, and test-guided well treatment.",
+    "nearby": [
+      "Tillsonburg",
+      "Norwich",
+      "Delhi",
+      "Springford"
     ],
+    "faq": [
+      [
+        "What should I check before choosing well-water treatment in Otterville?",
+        "If the property uses a well, arrange a water test and keep the results. Compare proposed softening, iron, or sulphur treatment with the measured conditions rather than choosing equipment based on a symptom alone."
+      ],
+      [
+        "What information helps plan a water heater replacement?",
+        "Photograph the unit data plate, fuel connection, venting, and nearby piping. Note household demand and, if the property uses a well, any pressure fluctuations; these details can affect equipment selection and installation scope."
+      ],
+      [
+        "How can I compare sump pump options?",
+        "Record the basin, pump model, discharge route, and when water enters. If outages have affected operation, include that information when asking about battery backup. Site drainage and equipment details affect sizing."
+      ],
+      [
+        "What should I document for repeated drain blockages?",
+        "Note the affected fixtures, dates, and whether more than one drain backs up. Ask whether a camera inspection could identify roots, a sag, or another visible condition that changes the work from clearing to further investigation."
+      ]
+    ]
   },
   "courtland": {
-    name: "Courtland",
-    intro: "Courtland is a quiet Norfolk village on the highway between Tillsonburg and Delhi, surrounded by the sandy farmland that made this tobacco and now ginseng country. Tillsonburg Plumbing Pros handles Courtland water heaters, drain cleaning, fixtures, sump pumps, and well water treatment. Rural properties here get sulphur and iron expertise as standard.",
-    meta: "Plumber in Courtland, Ontario. Water heaters, drain cleaning, fixtures, sump pumps, and sulphur well treatment from a licensed Oxford plumbing team. Free quotes.",
-    nearby: ["Tillsonburg", "Delhi", "Langton", "Otterville"],
-    faq: [
-      ["Our Courtland well smells of sulphur. Can you fix that?", "Yes. Sulphur treatment sized to an actual test is one of our most common Courtland installs, and it works."],
-      ["Do you install water heaters in Courtland?", "Yes. Tank and tankless units, sized to the household and the well, swapped quickly when one fails."],
-      ["Can you clear slow drains in Courtland?", "Yes. We carry snaking, jetting, and camera gear so the visit diagnoses and fixes in one stop."],
-      ["Do you serve farms around Courtland?", "Yes. Barn lines, pressure tanks, septic building drains, and long buried runs are routine work on these properties."]
+    "name": "Courtland",
+    "intro": "For a plumbing job in Courtland, collect the visible equipment details and describe the symptoms before comparing estimates. If the property has a well and an odour or staining concern, use water-test results to guide any sulphur or iron treatment proposal. Photograph a water heater’s data plate and connections when considering replacement. For a farm property, sketch long buried runs or barn lines and identify accessible shutoffs; that can affect locating, access, and repair planning. Scope depends on the individual site.",
+    "meta": "Plan plumbing work in Courtland, including water heaters, drains, fixtures, sump pumps, and test-guided well treatment.",
+    "nearby": [
+      "Tillsonburg",
+      "Delhi",
+      "Langton",
+      "Otterville"
     ],
-  },
+    "faq": [
+      [
+        "How should I investigate a sulphur odour from a well?",
+        "If the property uses a well, obtain a water test and note which taps have the odour and when it occurs. Compare proposed treatment with the results; the appropriate equipment depends on the measured conditions."
+      ],
+      [
+        "What details matter when replacing a water heater?",
+        "Record the existing unit’s fuel, capacity or model, venting, and connections. Note household demand and, if there is a well, any pressure concerns so the proposed equipment and installation scope can be compared."
+      ],
+      [
+        "What should I share about a slow drain?",
+        "Identify the affected fixtures and whether the blockage recurs. Ask whether snaking, hydro-jetting, or camera inspection suits the line condition and what finding would justify further work."
+      ],
+      [
+        "How do I prepare for plumbing work on a farm property?",
+        "Sketch the route of any long buried line, barn supply, or building drain and mark visible shutoffs and access points. This helps clarify where locating or excavation may be required; confirm the specific repair scope after the route and condition are assessed."
+      ]
+    ]
+  }
 };

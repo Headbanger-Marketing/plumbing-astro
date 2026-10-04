@@ -1,159 +1,320 @@
-// Per-site content for clintonplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Clinton, Central Huron, at the
-// crossroads of Highways 4 and 8. Local angle: a mid-century housing stock
-// of fifties-through-eighties bungalows and side-splits (aging tanks, the
-// polybutylene era, galvanized in the oldest postwar homes), tree-lined
-// streets rooting into clay sewers, slab-on-grade leak profiles and long
-// rural service runs to wells, spring field melt loading sump pits, and
-// hard Central Huron water on every tap.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Clinton, Ontario",
-    h1: "Water Heater Installation From a Local Huron Plumbing Team",
-    intro: "Clinton's housing runs heavily to the bungalows and side-splits of the fifties through the eighties, which puts an enormous number of water heaters in the age bracket where tanks start talking back. Clinton Plumbing installs and replaces tank and tankless units across Central Huron, updating venting that old swaps left behind, and finishing every job with the permit and inspection that keep the paperwork honest.",
-    meta: "Water heater installation in Clinton, Ontario. Tank and tankless replacement for Central Huron's mid-century homes, with venting updates and permitted installs.",
-    problem_h: "Tank from the last decade acting its age?",
-    problem_p: "Clinton Plumbing swaps tired units and brings the venting and relief up to current code while we are there.",
-    features: [
-      ["flame", "Matched to the Bungalow", "One bath or three, soaker tub or standard, the unit follows the house. We size honestly and explain the choice in plain terms."],
-      ["clock", "Swaps Without the Wait", "A failed tank is a same-day priority. The common residential sizes ride on the truck for Clinton, Vanastra, and the rural routes."],
-      ["shield", "Code-Complete Installs", "Permits, pans, relief valves, and inspections are not extras. They are included, documented, and useful the day you sell."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Clinton, Ontario",
+    "h1": "Plan a Water Heater Replacement in Clinton",
+    "intro": "For a water heater project in Clinton, first compare the existing unit’s fuel, tank capacity, venting route and condition with the household’s hot-water needs. Tank and tankless equipment have different space, venting and installation requirements, so the replacement choice can affect more than the appliance itself. If the existing vent or relief-valve arrangement appears outdated, include it in the assessment rather than assuming it can be reused. Ask what permits and inspections apply, and what documentation will be provided for the completed work.",
+    "meta": "Plan tank or tankless water heater replacement in Clinton, including capacity, venting and permit questions.",
+    "problem_h": "Is the existing tank showing signs of wear?",
+    "problem_p": "Compare its age, performance, fuel type and visible connections before choosing a replacement. Those details help establish whether the project is a direct swap or also needs venting or safety-component changes.",
+    "features": [
+      [
+        "flame",
+        "Match Capacity to Household Use",
+        "List the number of bathrooms, household members and high-demand fixtures, such as a soaker tub. Compare that usage with the proposed tank capacity or tankless output. The right sizing depends on simultaneous demand and available fuel and space, so ask for the basis of the recommendation rather than selecting by the old unit’s dimensions alone."
+      ],
+      [
+        "clock",
+        "Check the Full Replacement Scope",
+        "Photograph the rating plate, vent route, nearby clearances and water connections. Ask whether the proposed work reuses or changes the venting, and whether the existing fuel supply and electrical connections suit the new equipment. These details distinguish a simple replacement from work that may need additional materials, planning or inspection."
+      ],
+      [
+        "shield",
+        "Confirm Permits and Inspection Requirements",
+        "Before work is scheduled, ask which permits and inspections apply to the particular installation and who is responsible for each step. Request a written scope that identifies the heater, venting changes, relief valve and any drain pan included. Keep the permit and inspection records with the equipment information for future maintenance or a property sale."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Clinton, Ontario",
-    h1: "Drain Cleaning From a Local Huron Plumbing Team",
-    intro: "The mature trees that line Clinton's older streets share their root systems generously with the clay sewers below, and busy kitchens add their share. Clinton Plumbing clears main lines, kitchen drains, and floor drains with snakes and hydro-jetting, sends a camera down any line that keeps plugging, and tells Central Huron homeowners plainly whether they need maintenance, repair, or just better habits.",
-    meta: "Drain cleaning in Clinton, Ontario. Snaking, hydro-jetting, and camera inspection for root-invaded sewers and slow drains across Central Huron.",
-    problem_h: "Main line backing up into the floor drain again?",
-    problem_p: "Repeats mean a reason. We clear the line and scope it so the reason stops being a mystery.",
-    features: [
-      ["refresh", "Lines Restored, Not Rented", "Jetting returns the pipe to full bore, which ends the monthly snake routine better than any bottle of chemicals ever did."],
-      ["droplets", "Roots on Record", "The camera shows the root intrusion and marks its position. Scheduled cutting manages it, repair ends it, and we quote both honestly."],
-      ["shield", "Advice Without Invoicing", "What goes down the kitchen sink decides half of this. We finish every Clinton drain job with the habits that keep it clear."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Clinton, Ontario",
+    "h1": "Plan Drain Cleaning in Clinton",
+    "intro": "A slow fixture and a recurring main-line backup can have different causes, so note where the problem appears and how often it returns before arranging drain work in Clinton. A cable snake may clear a blockage, while hydro-jetting may be considered when the pipe and obstruction suit that method. If the same line plugs repeatedly, a camera inspection can help distinguish a recurring obstruction from a damaged section. Ask what method is proposed, what the inspection can establish and whether follow-up repair should be considered.",
+    "meta": "Compare drain snaking, hydro-jetting and camera inspection options for a recurring or slow drain in Clinton.",
+    "problem_h": "Does the same drain keep backing up?",
+    "problem_p": "Record which fixtures are affected and whether the blockage returns after clearing. Repeated trouble may justify a camera inspection to help identify whether the cause is buildup, roots or a pipe defect.",
+    "features": [
+      [
+        "refresh",
+        "Choose a Clearing Method for the Pipe",
+        "Ask whether the line will be cleared with a snake or hydro-jetting, and why that method suits the pipe and reported blockage. Jetting uses pressurized water to remove buildup from pipe walls, but the pipe’s condition and access matter. A written explanation helps distinguish routine clearing from a method that requires further assessment."
+      ],
+      [
+        "droplets",
+        "Use Camera Findings to Guide Root Work",
+        "If roots are suspected or blockages recur, ask whether a camera inspection is appropriate and request the footage or a clear summary of its findings. The location and extent of intrusion can affect whether cutting is a maintenance measure or whether repair should be compared. Ask how the position was identified before planning excavation or repeat service."
+      ],
+      [
+        "shield",
+        "Reduce Repeat Kitchen Blockages",
+        "Before the visit, note what is commonly put down the sink and whether a dishwasher or disposal is connected. Grease and food residue can contribute to kitchen-line buildup, but the drain layout and condition also matter. Ask for practical disposal guidance based on the specific fixture and blockage, rather than relying on chemical cleaners as a substitute for diagnosis."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Clinton, Ontario",
-    h1: "Repiping From a Local Huron Plumbing Team",
-    intro: "Polybutylene was the pipe of choice through the building boom that shaped much of Clinton and neighbouring Vanastra, and that choice has aged into caution. Clinton Plumbing removes poly-B and the older galvanized beneath it, repiping in PEX and copper with openings cut where they hide best, fixtures returned at proper pressure, and a permitted, inspected finish that stands up to any future inspection.",
-    meta: "Repiping in Clinton, Ontario. Polybutylene and galvanized replacement with PEX or copper, permitted, pressure-tested, and inspected across Central Huron.",
-    problem_h: "Poly-B under the floor and on the insurance questionnaire?",
-    problem_p: "We replace it with modern piping, documented start to finish, and the questionnaire gets a better answer.",
-    features: [
-      ["wrench", "Poly-B Fully Retired", "Plastic fittings and chlorinated water were a bad long-term pairing. We remove the whole system, not just the visible runs, and replace it properly."],
-      ["home", "Galvanized Era Included", "The older galvanized beneath Clinton's first postwar homes narrows with every year. Repiping restores the pressure the plumbing lost decades ago."],
-      ["shield", "Inspection-Ready Finish", "Permit, pressure test, and municipal sign-off close the job. The file answers what the walls cannot."]
+    "icon": "wrench",
+    "kicker": "Repiping in Clinton, Ontario",
+    "h1": "Plan a Whole-Home Repiping Project in Clinton",
+    "intro": "If a Clinton property has polybutylene or older galvanized piping, document where the material is visible and which fixtures have pressure or leakage concerns before comparing repiping proposals. A whole-system replacement differs from replacing accessible sections, especially when pipes are concealed in walls or floors. Ask whether the scope includes all branches, what openings and restoration may be needed, and whether the proposed material is PEX or copper. Confirm the applicable permit, pressure-test and inspection steps, and request records of the completed work.",
+    "meta": "Plan replacement of polybutylene or galvanized plumbing with PEX or copper in Clinton.",
+    "problem_h": "Have you found polybutylene or galvanized pipe?",
+    "problem_p": "Photograph visible pipe and fittings, and note affected fixtures or pressure changes. A site assessment can establish whether the concern involves a section or a broader piping replacement.",
+    "features": [
+      [
+        "wrench",
+        "Check Whether Polybutylene Is System-Wide",
+        "If polybutylene is present, ask how the assessment will check concealed branches and fittings, not only visible runs. Chlorinated water and plastic fittings are relevant considerations, but the scope depends on the actual piping layout and condition. Compare proposals for full-system removal against partial replacement, and request a clear list of what remains in place."
+      ],
+      [
+        "home",
+        "Assess Older Galvanized Runs",
+        "If the property has galvanized supply piping, note low pressure, visible corrosion and which fixtures are affected. Internal narrowing can reduce flow, but symptoms alone do not establish the pipe’s condition throughout the building. Ask which sections are included, how concealed runs will be handled, and whether the proposed PEX or copper layout restores service to each fixture."
+      ],
+      [
+        "shield",
+        "Keep Test and Inspection Records",
+        "Ask which permits and inspections apply to the repiping work, and whether the proposal includes pressure testing and municipal sign-off where required. Clarify how wall or floor openings will be located and what restoration is excluded. Retain the pipe-material details, test results and inspection documentation so future owners or reviewers can understand what was changed."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Clinton, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Huron Plumbing Team",
-    intro: "Central Huron renovates pragmatically, a main-floor laundry here, a basement bathroom there, a full refresh when the budget aligns, and Clinton Plumbing fits that rhythm. We install toilets, faucets, and sinks, set tubs and showers, and rough in the moves and additions that make a bungalow work harder, keeping every fixture level, sealed, and trouble-free for the decade it owes you.",
-    meta: "Fixture and toilet installation in Clinton, Ontario. Toilets, faucets, tubs, and showers, plus laundry and basement bathroom rough-ins for Central Huron.",
-    problem_h: "Laundry moving upstairs or downstairs?",
-    problem_p: "We rough in the drain and supply properly and set the fixtures that follow, so the project ends clean.",
-    features: [
-      ["home", "Bungalow Logic", "Main-floor laundries, walk-in showers replacing tubs, and basement additions all suit this housing stock. We plan the plumbing that fits the plan."],
-      ["check", "Rough-Ins That Pass", "Drains, vents, and supply land where the layout needs them and pass inspection the first time, keeping the renovation moving."],
-      ["shield", "Durable by Default", "Huron water finishes cheap fixtures quickly. We install quality hardware with serviceable parts because doing it twice costs more."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Clinton, Ontario",
+    "h1": "Plan Fixture and Toilet Installation in Clinton",
+    "intro": "For a fixture or renovation project in Clinton, start with the layout, fixture specifications and the location of existing drains and supplies. Replacing a toilet or faucet can be a different scope from moving laundry or adding a basement bathroom, where drainage, venting and supply routes need assessment. If a tub is being replaced by a shower, check dimensions, drain position and access before choosing equipment. Ask how the proposed rough-in will be checked and what finishing work is outside the plumbing scope.",
+    "meta": "Plan toilet, faucet, tub, shower and laundry or bathroom rough-in work in Clinton.",
+    "problem_h": "Are you changing a fixture location or room layout?",
+    "problem_p": "Mark the proposed fixture positions and photograph existing connections. Moving a fixture can change drain, vent and supply work, so the layout affects the scope before finishes are selected.",
+    "features": [
+      [
+        "home",
+        "Plan Fixtures Around the Room Layout",
+        "For a laundry move, basement bathroom or tub-to-shower change, draw the proposed fixture locations and note walls, floors and access points. The route to existing drains and supplies can determine how much rough-in work is needed. Ask for a review of clearances, connections and access before ordering fixtures that may not suit the planned layout."
+      ],
+      [
+        "check",
+        "Verify Drain, Vent and Supply Locations",
+        "A new or relocated fixture may require changes to its drain, vent and water supply. Ask for the proposed rough-in locations and how they will be checked against the fixture specifications and applicable inspection requirements. Confirm those positions before walls or floors are closed, since corrections after finishing can add work and disrupt the renovation schedule."
+      ],
+      [
+        "shield",
+        "Compare Fixture Parts and Service Access",
+        "Before selecting toilets, faucets, tubs or showers, compare their connection requirements, dimensions and replacement-part availability. Ask where shutoffs and serviceable components will remain accessible after installation. If water treatment equipment is present, note it when discussing fixture materials and maintenance. This information helps assess whether the chosen hardware suits the existing plumbing and planned access."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Clinton, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Huron Plumbing Team",
-    intro: "Slab-on-grade construction and long rural service runs give Central Huron its own leak profile: failures that stay invisible until the floor warms or the meter runs. Clinton Plumbing locates hidden leaks with acoustic listening and pressure isolation, under concrete, inside walls, and along the yard runs to wells and streets, then repairs the break with the least disturbance the job allows.",
-    meta: "Leak detection and repair in Clinton, Ontario. Acoustic and pressure location of slab leaks and service line breaks, repaired with minimal disturbance.",
-    problem_h: "Meter creeping with everything switched off?",
-    problem_p: "That is your leak detector working. We find the failure and fix it with surgical openings.",
-    features: [
-      ["droplets", "Under the Concrete", "Slab leaks announce themselves as warm spots and rising bills. We isolate the branch acoustically and open exactly where the failure is."],
-      ["shield", "Long Runs Located", "Rural service lines run far from the street here. We trace the break along the run and repair the failed length with proper bedding."],
-      ["check", "Leak Found and Closed", "Location, repair, and a written explanation in one engagement, because a diagnosis without a fix is just an invoice."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Clinton, Ontario",
+    "h1": "Plan Leak Detection and Repair in Clinton",
+    "intro": "A rising water-meter reading, warm floor area or unexplained moisture can help narrow a leak investigation, but each clue needs checking before opening walls or concrete. For a Clinton property, note whether the plumbing runs beneath a slab, inside walls or along a longer yard service line. Acoustic listening and pressure isolation are possible diagnostic approaches, depending on access and system layout. Ask how the suspected section will be isolated, what evidence supports the proposed opening and how the repair scope will be documented.",
+    "meta": "Plan acoustic or pressure-based investigation of a suspected slab, wall or service-line leak in Clinton.",
+    "problem_h": "Does the meter move when water is not being used?",
+    "problem_p": "Record the meter reading with fixtures off and note any dampness or warm flooring. These observations can help guide pressure isolation and leak-location checks before repair planning.",
+    "features": [
+      [
+        "droplets",
+        "Investigate a Possible Slab Leak",
+        "If plumbing runs beneath a concrete slab and a floor area feels warm or moisture appears, record its position and check the meter with water use stopped. Ask whether acoustic listening and pressure isolation can narrow the affected branch. The findings help determine where an opening may be needed, rather than relying on symptoms alone to choose a location."
+      ],
+      [
+        "shield",
+        "Trace a Longer Service Line",
+        "If the suspected leak is on a buried service line, sketch its route from the building toward the well or street and note known access points. Ask how the line will be traced and how the failed section will be distinguished from other plumbing. If excavation is proposed, compare the stated location and repair limits, including how bedding and backfill are addressed."
+      ],
+      [
+        "check",
+        "Request Findings Alongside the Repair Scope",
+        "Ask for a written explanation of the suspected leak location, the diagnostic method and the repair proposed. If the location is uncertain, clarify what further testing might be needed before an opening or excavation. A record of the findings and completed repair helps distinguish the repaired section from other possible leaks if symptoms continue."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Clinton, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Huron Plumbing Team",
-    intro: "Clinton-area homes ride the spring on their drainage, farm fields shed melt fast, and the sump pit quietly decides which basements stay showroom. Clinton Plumbing installs and replaces pumps sized to the pit and the water they face, adds battery backup for the outages that arrive with the weather, and maintains existing systems with the float, valve, and discharge checks that keep a good pump from dying of neglect.",
-    meta: "Sump pump installation and service in Clinton, Ontario. Right-sized pumps, battery backup, and maintenance for Central Huron homes and rural properties.",
-    problem_h: "Pump running constantly through the thaw?",
-    problem_p: "It is doing another pump's job. We size, replace, and back up systems so the work is shared properly.",
-    features: [
-      ["shield", "Sized to the Season", "Spring melt and summer cloudbursts set different loads. The pump we install handles the heavier one your property actually faces."],
-      ["zap", "Outage Insurance", "Rural power wobbles exactly when the water rises. Battery backup keeps the pit empty through the outage without a generator."],
-      ["refresh", "The Once-Over", "Float travel, check valve, and discharge frost-protection get checked annually. Ten minutes of maintenance buys out months of worry."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Clinton, Ontario",
+    "h1": "Plan Sump Pump and Backup Work in Clinton",
+    "intro": "Before selecting a sump pump for a Clinton property, note the pit dimensions, discharge route, existing pump rating and how often the system runs. Spring melt and intense rainfall create different potential demands, so the relevant design load depends on the property and drainage system. If outages are a concern, compare battery backup capacity and alarm arrangements with the expected operating time. Ask for checks of float travel, the check valve and discharge frost protection, and clarify whether backwater protection is part of the project.",
+    "meta": "Plan sump pump sizing, battery backup and system checks for a Clinton property.",
+    "problem_h": "Is the pump running often or during poor weather?",
+    "problem_p": "Note run frequency, pit water level, discharge direction and any power interruptions. These details help assess pump capacity, backup needs and whether a discharge or control issue is contributing.",
+    "features": [
+      [
+        "shield",
+        "Size the Pump to the Pit and Discharge",
+        "Photograph the pit, pump label, float arrangement and discharge outlet. Ask how the proposed pump capacity relates to pit size, discharge height and the water load the property may face during thaw or heavy rain. Those conditions vary by site, so a proposal should explain its sizing assumptions rather than use a seasonal label alone."
+      ],
+      [
+        "zap",
+        "Compare Battery Backup Requirements",
+        "If the pump must operate during a power outage, ask what battery backup system is proposed, how long it can run under expected conditions and whether an alarm is included. Check the available installation space and how the battery will be maintained. Backup capacity depends on pump demand and outage duration, so compare stated assumptions with the property’s needs."
+      ],
+      [
+        "refresh",
+        "Check Float, Valve and Discharge Details",
+        "Ask for the float’s full travel to be checked, along with the check valve and discharge route. If the outlet is exposed to cold weather, ask how frost protection is handled and whether the discharge could return water toward the foundation. These checks can reveal restrictions or control problems that a pump replacement alone would not correct."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Clinton, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Huron Plumbing Team",
-    intro: "The evidence collects quietly in a Clinton house, towels going stiff and grey no matter the soap, taps weeping at the base long before their time, a hot-water tank aging faster than its warranty. Village supply runs hard and the farm wells beyond the highway lines run harder, and each asks something different of the equipment. Clinton Plumbing reads the water before quoting a dollar of it, softening for the scale on the municipal side, iron and sediment stages where a well feeds the house, all plumbed to bypass in a minute and to be serviced without clearing a utility shelf.",
-    meta: "Water softeners and filtration in Clinton, Ontario. Scale control for village homes and staged iron treatment for Central Huron farm wells, designed from your water test.",
-    problem_h: "Hot-water tank limping years before its time?",
-    problem_p: "Scale from Huron water is the usual suspect. Tested water and matched treatment take the stone out of the supply.",
-    features: [
-      ["gauge", "Read Before You Buy", "Hardness, iron, and pH come off your tap, not a county brochure. The spec sheet is written from your sample, never before it."],
-      ["droplets", "Village Line or Farm Well", "Municipal hardness and well-borne iron want different machines. We design for the water your property actually draws, and farm systems get pre-filtration sized to what the concession wells carry."],
-      ["shield", "Built to Be Bypassed", "A softener you cannot bypass is a softener you cannot live with. Valves and access are planned so a filter change in Clinton stays a five-minute job."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Clinton, Ontario",
+    "h1": "Plan Water Softening and Filtration in Clinton",
+    "intro": "A softener or filter should be selected from water test results and the property’s supply, not from assumptions about a town or rural area. For a Clinton home, identify whether water comes from a municipal connection or a private well, then test the relevant characteristics before comparing equipment. Hardness, iron, sediment and pH can call for different treatment stages. Ask how the system will be sized, where bypass valves and service access will go, and what maintenance and test results should be recorded.",
+    "meta": "Compare water softening and filtration options in Clinton using a property-specific water test.",
+    "problem_h": "Are scale, staining or equipment wear prompting a water test?",
+    "problem_p": "Test the water at the property and identify its source before selecting equipment. The results help distinguish hardness treatment from filtration needs such as iron or sediment removal.",
+    "features": [
+      [
+        "gauge",
+        "Test the Water Before Selecting Equipment",
+        "Arrange testing from a sample taken at the property and request results for the characteristics relevant to the concern, such as hardness, iron and pH. Ask how those results affect equipment type and sizing. A test-based specification is more useful than a generic recommendation because water chemistry and household demand can differ from one property to another."
+      ],
+      [
+        "droplets",
+        "Distinguish Municipal Supply from a Private Well",
+        "Identify the water source and, for a private well, ask whether iron or sediment testing indicates a need for pre-filtration. Hardness control and iron treatment serve different purposes, so compare the proposed treatment stages against the test results. Ask what each stage removes and how changes in test results would affect maintenance or equipment selection."
+      ],
+      [
+        "shield",
+        "Plan Bypass and Service Access",
+        "Check where the softener or filters will sit, how the bypass valves can be reached and whether cartridges or media can be serviced without moving stored items. Ask what routine maintenance is required and how the system behaves during bypass. Clear access and an understandable service plan help make filter changes and other maintenance practical."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Tank went on the long weekend. They had a new one in the next morning and took the old one away.", "Homeowner", "Clinton"],
-  ["Third backup in two years stopped after they jetted the line and cut the roots properly. Should have called sooner.", "Resident", "Vanastra"],
-  ["Full poly-B replacement before our insurance renewal. Paperwork was clean and the crew left the place spotless.", "Homeowner", "Clinton"],
-  ["Warm patch on the kitchen floor turned out to be a slab leak. Found it in an hour, opened a hole the size of a book.", "Homeowner", "Holmesville"],
-  ["Battery backup carried the sump through the Easter outage. Two neighbours pumped out, ours stayed dry.", "Farmer", "Londesborough"],
-  ["Well test said iron, softener and filter sized to match. Laundry came out white for the first time in years.", "Farmer", "Auburn"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless installs for Clinton's mid-century stock, with venting updates and same-day failure swaps.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Snaking, jetting, and camera inspection for root-invaded sewers and repeatedly slow drains.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Polybutylene and galvanized replacement, fully removed and documented for insurance and resale.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Toilets, faucets, tubs, and showers, plus laundry moves and basement bathroom rough-ins.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and pressure location of slab leaks and long rural service line breaks.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Season-sized pumps, battery backup for rural outages, and annual maintenance visits.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Scale control for village supply and staged iron work for Central Huron farm wells.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless options for a Clinton replacement. Check capacity, fuel, venting and applicable permit or inspection requirements before setting the scope.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "For slow or recurring drains, compare snaking with hydro-jetting and ask whether camera inspection can help assess suspected roots or pipe damage.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "If polybutylene or galvanized pipe is present, compare partial and whole-system replacement in PEX or copper. Clarify concealed runs, pressure testing and inspection records.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan toilet, faucet, tub and shower changes around fixture dimensions and existing connections. Laundry moves and basement bathroom rough-ins need drain, vent and supply review.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "For suspected slab, wall or buried service-line leaks, record symptoms and ask how acoustic listening or pressure isolation can guide the repair location.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare pump sizing with pit and discharge details, and assess battery backup for the property’s outage needs. Check float, valve and frost protection requirements.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Test the property’s water before choosing treatment. Compare hardness control with any tested iron or sediment needs, and plan for bypass and service access.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed plumbers in Clinton?", "Yes. Licensed, insured, and pulling permits for the work that needs them, with inspections passed and documents handed over when we finish."],
-  ["Do you do emergency calls around Central Huron?", "We do. Burst pipes, sewer backups, flooded basements, and no-water calls get priority dispatch across Clinton, Vanastra, and the rural routes."],
-  ["Can you replace a leaking water heater quickly?", "Yes. Common sizes are on the truck, most swaps complete same-day, and the job includes disposal, permit, and a venting check."],
-  ["Is poly-B really worth replacing?", "Insurers think so, and so do we. The piping and fittings degrade with age and chlorinated water, and a documented replacement ends the worry and the surcharge conversation."],
-  ["We are on a well. Can you treat the water?", "Regular work for us. We test the well, then install softeners, iron filtration, and UV where the results justify them, sized to the household."],
-  ["Does Central Huron water need softening?", "Almost always yes, on wells and on municipal supply. The map says hard, the kettle confirms it, and a sized softener fixes it."],
-  ["What should a quote include?", "Everything to finish the job, itemized, in writing, before work starts. Ours do, and the number holds absent an approved change."],
-  ["Where do your trucks go?", "Clinton, Seaforth, Vanastra, Holmesville, Londesborough, Auburn, and out to Goderich and Bayfield, plus the farm roads between."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/clintonplumbing.ca-water-heaters.jpg", "Water heater installation in Clinton, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/clintonplumbing.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Clinton, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/clintonplumbing.ca-repiping.jpg", "Whole-home repiping in Clinton, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/clintonplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Clinton, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/clintonplumbing.ca-leak-detection.jpg", "Leak detection and repair in Clinton, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/clintonplumbing.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Clinton, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/clintonplumbing.ca-water-softeners.jpg", "Water softener and filtration installation in Clinton, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/clintonplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Clinton, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/clintonplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning and hydro-jetting in Clinton, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/clintonplumbing.ca-repiping.jpg",
+    "Whole-home repiping in Clinton, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/clintonplumbing.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Clinton, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/clintonplumbing.ca-leak-detection.jpg",
+    "Leak detection and repair in Clinton, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/clintonplumbing.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Clinton, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/clintonplumbing.ca-water-softeners.jpg",
+    "Water softener and filtration installation in Clinton, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

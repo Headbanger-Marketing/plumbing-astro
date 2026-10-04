@@ -1,158 +1,320 @@
-// Per-site content for petroliaplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Petrolia, Lambton County, the
-// Victorian oil-boom town at the heart of Canada's first oil field.
-// Local angle: homes from the 1870s and 1880s carrying the oldest plumbing
-// stock in the county, delicate heritage renovations behind plaster and
-// lath, legacy wells and cisterns on edge-of-town properties, and
-// small-town service where reputation travels faster than advertising.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Petrolia, Ontario",
-    h1: "Water Heater Installation From a Local Lambton Plumbing Team",
-    intro: "A Victorian house in Petrolia stores its surprises behind the walls, low basement ceilings, odd chimneys, and pipe routes that made sense in 1895, and a water heater install has to respect all of them. Petrolia Plumbing places tanks and tankless units into those spaces properly: venting run right for the room, pans and drains where the age of the house demands them, and sizing that accounts for clawfoot tubs that hold more water than any modern fixture. Old-house experience is the difference here, and it is what we bring.",
-    meta: "Water heater installation in Petrolia, Ontario. Tanks and tankless units fitted into heritage homes, correct venting, and honest sizing for tub-heavy households.",
-    problem_h: "Tank tired, or the house resisting a new one?",
-    problem_p: "Petrolia's older homes get water heaters installed around their quirks, vented right, and sized for real demand.",
-    features: [
-      ["flame", "Fitted to the House", "Heritage basements and chimneys do not accept standard installs. We plan the venting and placement around the building, which is routine work on Petrolia's older stock."],
-      ["home", "Sized for Clawfoot Tub Reality", "A deep soak tub empties a badly sized tank in one fill. Petrolia households get recovery rates and capacities matched to how the house is actually used."],
-      ["clock", "Straightforward Replacements", "When a unit fails, we arrive with common sizes on the truck and finish the swap in a day, heritage considerations included."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Petrolia, Ontario",
+    "h1": "Water Heater Installation for Petrolia Homes",
+    "intro": "When planning a water heater replacement in Petrolia, check the available floor space, ceiling height, existing vent route, and distance to a drain. These details can affect whether a tank or tankless model fits and what installation work is needed. Note the current unit’s fuel type, capacity, and any label information, and consider how many people use hot water and whether the home has a deep soaking tub. That information helps compare suitable capacity and recovery rates before selecting equipment.",
+    "meta": "Water heater installation in Petrolia, Ontario. Compare tank and tankless options, venting needs, placement, and capacity for household demand.",
+    "problem_h": "Will the new heater fit the space and meet demand?",
+    "problem_p": "Check the existing heater label, vent route, clearances, and hot-water use. A deep tub or limited basement space can change the equipment and installation scope.",
+    "features": [
+      [
+        "flame",
+        "Check Placement and Venting",
+        "Photograph the current heater, its connections, nearby walls, ceiling, and vent termination. Compare the proposed unit’s clearances and venting requirements with the room and existing route. Low ceilings, a chimney connection, or limited access may affect placement and installation steps, so confirm these details before choosing a replacement."
+      ],
+      [
+        "home",
+        "Match Capacity to Hot-Water Use",
+        "Record the current tank capacity and note when hot water runs short. Include the number of people in the household, simultaneous uses, and whether a deep soaking tub needs filling. Compare first-hour delivery and recovery information for tank models, or rated flow for tankless models, so the selected equipment reflects actual demand."
+      ],
+      [
+        "clock",
+        "Plan Replacement Work Around Existing Connections",
+        "Before comparing replacement estimates, photograph the fuel connection, water lines, drain or pan, and vent. Ask what changes are included if the new unit has different dimensions or connection requirements. A like-for-like swap may have a different scope from relocating equipment or changing venting, drainage, or fuel connections."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Petrolia, Ontario",
-    h1: "Drain Cleaning From a Local Lambton Plumbing Team",
-    intro: "Drains laid a century and a quarter ago in Petrolia have earned patience: cast iron that has scaled to half its bore, clay runs shifted by generations of frost, and mature trees over everything. Petrolia Plumbing clears kitchen and bath lines with matched cable work, scour mains with hydro-jetting where the pipe can take it, and cameras every line that keeps blocking so the decision about repair rests on what the lens shows. On streets this old, guessing is the expensive approach.",
-    meta: "Drain cleaning in Petrolia, Ontario. Gentle, effective clearing for century cast iron and clay lines, with camera inspection before any repair decision.",
-    problem_h: "Century drains running slower every year?",
-    problem_p: "We clear Petrolia's old lines carefully and camera the repeats, matching method to what century-old pipe can tolerate.",
-    features: [
-      ["refresh", "Respect for Old Pipe", "Jetting pressure and cutter heads get matched to what cast iron or clay can carry. Aggressive work on century lines creates repairs, and we clean Petrolia drains without causing them."],
-      ["droplets", "Camera Before Commitments", "The lens travels the run and shows scale, root intrusion, and settled sections. Repairs on Petrolia's older streets get quoted from footage you watch with us."],
-      ["wrench", "Kitchen Lines Given Time", "Grease and a hundred holidays conspire in old kitchen stacks. We clear them thoroughly rather than chemically, which the pipe and the septic or sewer both prefer."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Petrolia, Ontario",
+    "h1": "Drain Cleaning and Inspection in Petrolia",
+    "intro": "A recurring blockage needs more than a quick clearing if the pipe’s condition or cause is uncertain. For a drain-cleaning project in Petrolia, note which fixtures are affected, whether the problem returns, and how long it takes to recur. If a camera inspection is proposed, ask whether the line’s material and condition are suitable for the chosen cleaning method. Cable equipment can clear many branch lines; hydro-jetting may suit some mains, but pressure and tools should reflect the pipe’s condition. Footage can guide repair decisions.",
+    "meta": "Drain cleaning in Petrolia, Ontario. Compare cable clearing, suitable hydro-jetting, and camera inspection for recurring blockages.",
+    "problem_h": "Does the blockage keep returning?",
+    "problem_p": "Record affected fixtures and recurrence timing. Pipe material, visible condition, and camera findings can help determine whether cable clearing or another approach is appropriate.",
+    "features": [
+      [
+        "refresh",
+        "Match the Method to Pipe Condition",
+        "If a line may be older cast iron or clay, ask how its condition will be assessed before choosing cutter heads or jetting pressure. Existing scale, cracks, or displaced joints can affect what the pipe can tolerate. Matching the cleaning method to inspected conditions helps reduce the risk of turning a blockage into a pipe repair."
+      ],
+      [
+        "droplets",
+        "Use Camera Findings to Compare Options",
+        "For a recurring blockage, ask whether a camera can inspect the relevant run and whether access is available. Footage may show scale, root intrusion, or a settled section, each of which can affect the next step. Request the relevant video or still images so any proposed repair can be compared with what the inspection actually shows."
+      ],
+      [
+        "wrench",
+        "Trace Kitchen-Line Blockages",
+        "If a kitchen sink or stack drains slowly, note whether other fixtures are affected and whether the problem follows heavy use. Grease and accumulated debris may call for mechanical clearing rather than chemical products. Ask which section of the line will be cleaned and whether a shared drain or septic connection changes the work or follow-up guidance."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Petrolia, Ontario",
-    h1: "Repiping From a Local Lambton Plumbing Team",
-    intro: "Repiping a Petrolia heritage home is surgery, not demolition, because plaster and lath do not forgive careless openings and original trim cannot be reordered. Petrolia Plumbing replaces galvanized and patched-together supply systems with PEX or copper routed through access that is planned, minimal, and repairable, keeping the character of the walls intact while bringing the water system into this century. Pressure gets tested at every stage, and the permit trail documents the work for the next century of owners.",
-    meta: "Repiping in Petrolia, Ontario. Heritage-sensitive galvanized replacement, minimal plaster openings, PEX and copper systems, permitted and pressure-tested.",
-    problem_h: "Pressure failing behind plaster and lath?",
-    problem_p: "Petrolia's heritage homes get repiped with planned, minimal openings and modern systems that leave the character walls standing.",
-    features: [
-      ["wrench", "Plaster-Friendly Access", "Openings are planned on the map before the tool touches the wall, cut small, and patched cleanly. Repiping a Petrolia home should not cost its original details."],
-      ["home", "Modern System, Old Bones", "PEX routes around obstacles that fight rigid pipe, bringing full pressure to Petrolia's upper floors without reshaping the house to receive it."],
-      ["shield", "Permit Trail for the Next Century", "Every phase is pressure-tested under permit and inspected, leaving documentation that protects the home's story and its resale."]
+    "icon": "wrench",
+    "kicker": "Repiping in Petrolia, Ontario",
+    "h1": "Repiping Options for Petrolia Homes",
+    "intro": "Repiping can involve replacing a full supply system or selected sections, and the scope depends on pipe condition, access, and the home’s layout. For a project in Petrolia, photograph visible pipe runs, shutoffs, previous repairs, and areas where pressure drops. If walls have plaster and lath or original trim, identify details that should be protected and ask where access openings may be needed. Compare proposed PEX or copper routes, pressure-testing steps, restoration responsibilities, and any required inspections before deciding how much of the system to replace.",
+    "meta": "Repiping in Petrolia, Ontario. Compare PEX and copper routes, access planning, pressure testing, and project documentation.",
+    "problem_h": "Are recurring pressure problems pointing to old supply pipes?",
+    "problem_p": "Photograph visible piping, repairs, and affected fixtures. Pipe material, wall construction, and access points can change the extent and sequence of repiping work.",
+    "features": [
+      [
+        "wrench",
+        "Map Access Before Opening Walls",
+        "Ask for proposed access locations to be marked or described before work begins. Plaster and lath, trim, and concealed obstacles may affect how a route can be reached and repaired. A planned opening strategy helps you compare the expected disruption and identify which wall finishes or original details need particular care."
+      ],
+      [
+        "home",
+        "Compare PEX and Copper Routes",
+        "Ask to see how the proposed route will reach upper floors and connect to existing branches. PEX can bend around some obstacles, while copper may suit other layouts; the building and connection details inform the choice. Comparing the materials, route, and pressure-testing plan clarifies what is included and how the new system serves each fixture."
+      ],
+      [
+        "shield",
+        "Confirm Testing and Project Records",
+        "Ask what pressure tests, inspections, and records apply to the proposed work, and who is responsible for confirming requirements. Keep copies of the scope, material information, test results, and any inspection documentation provided. These records help explain what was replaced and support future maintenance or renovation planning."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Petrolia, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Lambton Plumbing Team",
-    intro: "A bathroom renovation in one of Petrolia's Victorian homes blends eras by design, period-style fillers beside modern valves, a new toilet serving a floor that has settled an inch since 1885. Petrolia Plumbing installs that mix properly: level in a house that no longer is, sealed against supply lines that predate the fixture by decades, and roughed in wherever the new layout lands. Modern efficient fixtures go in the same way, chosen to keep working in water that is hard on hardware.",
-    meta: "Fixture and toilet installation in Petrolia, Ontario. Period-sensitive installs, level work in settled houses, and efficient modern fixtures that endure hard water.",
-    problem_h: "Renovating around a house that settled in 1890?",
-    problem_p: "Petrolia fixture installs come out level, sealed, and period-appropriate, whatever the floor has decided to do over the decades.",
-    features: [
-      ["home", "Level in an Unlevel World", "Settled floors and out-of-square walls are normal here. We shim, scribe, and set fixtures so they read right and stay dry, whatever the house has done since it was built."],
-      ["check", "Blending Period and Modern", "Period-look fillers and handles install over modern valves and stops, so a Petrolia bathroom keeps its character and gains today's reliability."],
-      ["dollar", "Efficient Where It Counts", "New toilets and aerated taps cut water use quietly, and we spec finishes proven in Lambton water rather than whatever photographs best in a catalogue."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Petrolia, Ontario",
+    "h1": "Fixture and Toilet Installation in Petrolia",
+    "intro": "Fixture replacement can be straightforward, but an older bathroom may have uneven floors, out-of-square walls, older shutoffs, or a layout that differs from the new fixture’s requirements. For a project in Petrolia, photograph the existing connections and measure the fixture space, including toilet rough-in distance and door clearance. If the floor is sloped or the room combines period-style fittings with modern valves, discuss how leveling, sealing, and compatible connections will be handled. Compare water-use specifications and finish details as well as appearance.",
+    "meta": "Fixture and toilet installation in Petrolia, Ontario. Plan for uneven floors, existing connections, fixture dimensions, and water-use specifications.",
+    "problem_h": "Will the new fixture suit the room and existing connections?",
+    "problem_p": "Measure the space and photograph shutoffs, supply lines, and floor conditions. Dimensions, uneven surfaces, and the mix of old and new fittings can affect installation scope.",
+    "features": [
+      [
+        "home",
+        "Check Floors, Walls, and Dimensions",
+        "Use a level or photograph the floor and walls, and record the fixture’s available space and connection locations. If surfaces are uneven or out of square, ask how the fixture will be set level and sealed. This can affect fitting, appearance, and the approach to keeping joints dry without forcing the fixture into position."
+      ],
+      [
+        "check",
+        "Coordinate Period Details with Modern Valves",
+        "If you want period-style handles or fillers, confirm that the selected trim is compatible with the valve and rough-in behind it. Photograph existing fittings and note any planned layout changes. Checking compatibility before purchase can prevent mismatched parts and helps compare what must change to combine a traditional appearance with modern connections."
+      ],
+      [
+        "dollar",
+        "Compare Water-Use and Finish Information",
+        "For toilets and taps, compare water-use specifications, dimensions, replacement-part availability, and finish information. Ask whether the proposed fixture suits the existing supply and drain arrangement. These checks help distinguish a simple fixture swap from work that needs connection changes, and let you weigh water use and maintenance alongside the catalogue appearance."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Petrolia, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Lambton Plumbing Team",
-    intro: "Water behind plaster and lath travels silently along the strapping before any stain surfaces, and in a Petrolia heritage home that silence can mean weeks of hidden damage to wood nobody can replace. Petrolia Plumbing locates leaks acoustically and with pressure isolation, opens the smallest possible section of wall, and repairs the line with materials that will not fight the old ones. Long service runs to edge-of-town properties get traced and tested too, since several still cross ground that held a cistern once.",
-    meta: "Leak detection and repair in Petrolia, Ontario. Acoustic location, pressure isolation, minimal openings in plaster walls, and long service line tracing.",
-    problem_h: "Stain creeping across a plaster ceiling?",
-    problem_p: "We find Petrolia's hidden leaks precisely and open the wall once, small, in the right place, then repair the line properly.",
-    features: [
-      ["droplets", "Heard Through Plaster", "Acoustic listening follows the escape along the strapping and joists, so one planned opening replaces exploratory holes across a finished Petrolia ceiling."],
-      ["shield", "Old Runs, Long Memories", "Service lines here sometimes cross former cistern ground and generations of repairs. We pressure-test the full run and address what the test exposes."],
-      ["check", "Repaired in the Same Visit", "Findings usually become repairs immediately, with fittings on the truck and documentation left for insurers and future owners."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Petrolia, Ontario",
+    "h1": "Leak Detection and Repair in Petrolia",
+    "intro": "A ceiling stain, unexplained moisture, or pressure loss can have more than one cause, so document the symptoms before opening a wall. For a leak concern in Petrolia, photograph stains and nearby plumbing, note when they appear, and record any change in the water meter when fixtures are off. Acoustic locating and pressure isolation may help narrow the source, while a long service run may need separate tracing and testing. Ask what evidence supports the proposed opening location and what repair access is likely to involve.",
+    "meta": "Leak detection and repair in Petrolia, Ontario. Plan acoustic locating, pressure isolation, service-line testing, and focused access.",
+    "problem_h": "Where is the moisture coming from?",
+    "problem_p": "Photograph stains, note when they change, and record affected fixtures. Pressure tests and acoustic findings can help narrow the source before deciding where access is needed.",
+    "features": [
+      [
+        "droplets",
+        "Narrow the Source Before Opening",
+        "If a leak may be hidden behind plaster and lath, ask whether acoustic listening or pressure isolation can help identify the affected section. Share photographs and note nearby joists, pipes, and when moisture appears. The findings can inform the opening location and may reduce unnecessary exploratory access across a finished ceiling or wall."
+      ],
+      [
+        "shield",
+        "Include Long Service Runs in Testing",
+        "If the suspected leak lies on a long supply run, document the route as far as it is known and identify previous repairs or unusual ground features, such as a former cistern area. Ask what sections a pressure test will include and how results will be recorded. The tested length and access points affect both diagnosis and repair scope."
+      ],
+      [
+        "check",
+        "Clarify Repair Scope and Records",
+        "Before work begins, ask whether the proposal includes locating only or also repairing an accessible leak, and what materials or fittings may be required. Photograph exposed conditions and keep any test findings and repair details provided. This makes it easier to understand what was changed and to share accurate information with future trades or an insurer."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Petrolia, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Lambton Plumbing Team",
-    intro: "Stone foundations and a century of grading changes leave some Petrolia basements with a favorite wet corner, and the storms that sweep up through Lambton test every one of them. Petrolia Plumbing installs sump pumps and basins sized to the water your foundation gathers, positions discharge where it actually leaves the property, and adds battery backup for the outage nights that arrive with the worst weather. Where the street sewer has ever surged, a permitted backwater valve completes the defense.",
-    meta: "Sump pump and backwater valve installation in Petrolia, Ontario. Pumps for stone-foundations and wet corners, battery backups, and permitted backwater valves.",
-    problem_h: "That one wet corner again this spring?",
-    problem_p: "Petrolia basements, old stone included, get pumps sized to their real water and backups that survive the outage.",
-    features: [
-      ["shield", "Sized to the Wet Corner", "A stone foundation's water behaves differently than a modern one. We place and size the basin for how your Petrolia basement actually collects."],
-      ["zap", "Backup for Outage Nights", "Lambton storm systems bring wind, water, and downed lines together. Battery-backed pumps and alarms keep the floor dry precisely then."],
-      ["refresh", "Discharge Done Properly", "Water pumped to a low spot in the yard returns. We route Petrolia discharge so it leaves the property instead of cycling back into the pit."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Petrolia, Ontario",
+    "h1": "Sump Pump and Backwater Planning in Petrolia",
+    "intro": "A sump system should be selected around the way water enters and collects at a particular foundation, not just the room’s size. For a project in Petrolia, note where dampness or standing water appears, when it occurs, and whether a sump pit already exists. Photograph the basin, pump label, discharge route, and nearby sewer connection. Ask how pump capacity, battery backup, alarms, and discharge routing are being considered. If sewer backup is a concern, check the existing layout and applicable requirements for a backwater valve.",
+    "meta": "Sump pump and backwater planning in Petrolia, Ontario. Compare basin placement, pump capacity, backup options, discharge routing, and valve requirements.",
+    "problem_h": "Does water return to the same basement area?",
+    "problem_p": "Record where and when water collects, and photograph the basin and discharge route. Foundation drainage, power backup, and sewer connections can change the recommended scope.",
+    "features": [
+      [
+        "shield",
+        "Plan Basin Placement for Water Entry",
+        "Map damp areas and note where water gathers during or after wet weather. If a basement has a stone foundation, ask how the basin location and size will relate to the observed collection pattern. These site details can affect where a pump can be placed and what capacity is appropriate; a generic pump selection may not reflect the actual water entry."
+      ],
+      [
+        "zap",
+        "Compare Backup and Alarm Options",
+        "If power interruption is a concern, compare battery-backed pump options, battery capacity, and alarm features. Check the existing pump label and available electrical setup, and ask what the backup can operate and for how long under its specified conditions. This helps clarify whether the proposed arrangement suits the expected outage scenario and what maintenance it requires."
+      ],
+      [
+        "refresh",
+        "Trace Discharge and Check Valve Requirements",
+        "Follow the current discharge route and note whether water could return toward the foundation. Ask where proposed discharge will go and how the route avoids recirculating into the basin. If street-sewer backup is a concern, have the plumbing layout reviewed for a backwater valve and confirm applicable permit or inspection requirements before work is scoped."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Petrolia, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Lambton Plumbing Team",
-    intro: "Town supply in Petrolia runs hard enough to mark its territory on fixtures and heating elements, and the properties just past the edge of town often draw from wells carrying iron alongside the hardness. Petrolia Plumbing starts with a test from your actual tap, then installs the system the results justify: a softener sized to household and grain load, iron treatment where a well demands it, and reverse osmosis for the drinking tap. In old houses, placement gets planned around the mechanical space available, not despite it.",
-    meta: "Water softeners and filtration in Petrolia, Ontario. Tap-tested softener sizing, iron treatment for edge-of-town wells, and reverse osmosis drinking water.",
-    problem_h: "Hard water leaving its marks on everything?",
-    problem_p: "Petrolia homes and surrounding wells get treatment designed from test results and installed to fit heritage mechanical spaces.",
-    features: [
-      ["gauge", "Test Results Decide", "The tap tells us hardness, and out past town, iron levels too. The Petrolia system that follows is sized to those numbers and the household using them."],
-      ["droplets", "Wells Past the Edge of Town", "Properties on the outskirts draw different water than the mains carry. Staged iron and sediment treatment keeps softener resin alive and fixtures white."],
-      ["home", "Fitted to Heritage Spaces", "Mechanical rooms in 1880s houses are what they are. We place treatment so it works, remains serviceable, and does not colonize the basement."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Petrolia, Ontario",
+    "h1": "Water Treatment Planning in Petrolia",
+    "intro": "Water treatment equipment should follow test results from the supply serving the home, rather than assumptions based on a town or address. For a project in Petrolia, identify whether the property uses municipal water or a private well and arrange suitable testing for the concerns you want to investigate. Hardness results can inform softener sizing; if testing identifies iron or sediment, treatment may need additional stages. Compare regeneration needs, household demand, and available mechanical-room space. Reverse osmosis is a separate option to assess for a drinking-water tap.",
+    "meta": "Water softeners and filtration in Petrolia, Ontario. Use water tests to compare softening, iron or sediment treatment, and reverse osmosis.",
+    "problem_h": "What does a water test say needs treatment?",
+    "problem_p": "Confirm whether the home uses municipal water or a well, then compare test results with treatment options. Results, household use, and installation space shape equipment selection.",
+    "features": [
+      [
+        "gauge",
+        "Let Test Results Guide Sizing",
+        "Obtain a water test appropriate to the supply and the concerns being considered. Hardness results can inform softener capacity and household grain demand; do not assume a particular result based on location. Share household size and water use when comparing equipment, since both measured conditions and demand affect the system specification."
+      ],
+      [
+        "droplets",
+        "Assess Well Water for Iron and Sediment",
+        "If the property uses a well, ask whether testing should include iron and sediment as well as hardness. Results may support staged pretreatment before a softener, but the needed equipment depends on measured conditions. Compare the proposed treatment sequence and maintenance requirements so you understand how each stage protects downstream equipment and addresses the specific test findings."
+      ],
+      [
+        "home",
+        "Check Space and Drinking-Tap Options",
+        "Measure the available mechanical area and photograph nearby drains, outlets, and existing plumbing before selecting treatment equipment. Tight spaces can affect placement and future service access. If reverse osmosis is being considered for a drinking tap, ask how its components and dedicated faucet fit the kitchen layout and what additional connections or maintenance the arrangement involves."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["They put a tankless unit into a basement with a five-foot ceiling and a chimney exactly where the manual says nothing should be. Solved it, cleanly.", "Homeowner", "Petrolia"],
-  ["Three generations of pipe behind our plaster, mapped and replaced in stages. The walls were patched so well the trim never knew.", "Resident", "Petrolia"],
-  ["Camera down our 1910 clay run showed the settle point the last plumber guessed wrong about. Repaired the right section, finally.", "Homeowner", "Oil Springs"],
-  ["The wet corner in our stone basement has been wet since before we owned it. New basin and pump placed right, and it is dry for the first spring ever.", "Homeowner", "Courtright"],
-  ["Fixture install in a bathroom that is four inches out of level. Everything reads level, nothing leaks, and the period look survived intact.", "Resident", "Wyoming"],
-  ["Our well just outside town ran orange for years. The test led to iron treatment first, softener second, and the bathroom finally stays white.", "Farmer", "Brigden"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tanks and tankless units fitted into Petrolia's heritage basements, vented right and sized for tub-heavy households.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Careful clearing of century cast iron and clay lines, with camera evidence before any repair decision.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Heritage-sensitive repipes with minimal plaster openings, bringing modern pressure into Petrolia's oldest homes.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Period-sensitive and modern fixture installs, level in houses that settled generations ago.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic location through plaster and lath, long service line testing, and minimal-opening repairs.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Pumps sized to stone foundations and wet corners, battery backups, and proper discharge routing.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Tap-tested softener sizing, well iron treatment, and reverse osmosis fitted to heritage mechanical spaces.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless options using the current vent route, available clearances, household demand, and any deep-tub use. These details help define equipment capacity and installation changes.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Identify affected fixtures and whether blockages recur. Pipe condition can determine whether cable clearing, suitable hydro-jetting, or camera inspection is appropriate before repair decisions.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Compare PEX and copper routes, wall access, and pressure-testing plans. Photograph visible piping and finishes to clarify the scope for replacing all or part of a supply system.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Check fixture dimensions, shutoffs, floor level, and existing connections. Period-style trim, modern valves, or an uneven floor can change the parts and installation steps required.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Document stains and affected fixtures before assessing a suspected leak. Acoustic location, pressure isolation, and long service-line testing can help guide access and repair scope.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Record where water collects and photograph the basin and discharge route. Compare pump capacity, backup options, routing, and any backwater-valve requirements for the layout.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use water test results to compare softening, iron or sediment treatment, and reverse osmosis. Household demand and mechanical-room space also affect equipment selection.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed for work on older homes?", "Fully licensed and insured, with permits filed through the municipality wherever the job requires them, which in Petrolia's older housing is more often than not."],
-  ["Do you take emergencies in Petrolia?", "Yes. Burst lines, flooded basements, and no-water calls in Petrolia get a same-day response, and a small town means we are never far from the door."],
-  ["Can a tankless heater work in an old house here?", "Usually yes, with planning. Venting routes and gas supply have to suit the building, and we assess both honestly before recommending the unit."],
-  ["Our 1800s home needs repiping. How do you protect the plaster?", "Access is mapped before cutting, openings stay small, and patches get finished properly. The repipe brings the water system forward without erasing the house's original detail."],
-  ["Does Petrolia water really need a softener?", "Town supply runs hard, and the marks on kettles and shower doors agree. Out past town, wells add iron to the problem, so we test and treat for exactly what your tap shows."],
-  ["Do you service wells and older service lines?", "Yes, well-related treatment, pressure systems, and the long service runs that some Petrolia properties still cross old ground with, all get tested and maintained."],
-  ["What does your pricing look like?", "Written quotes before work starts, honoured to the dollar on the invoice, with the heritage-specific variables priced in rather than discovered aloud mid-job."],
-  ["Where around Petrolia do you work?", "Petrolia itself plus Oil Springs, Wyoming, Brigden, Courtright, and regular runs into Forest and Sarnia."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/petroliaplumbing.ca-water-heaters.jpg", "Water heater installation in Petrolia, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/petroliaplumbing.ca-drain-cleaning.jpg", "Drain cleaning in Petrolia, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/petroliaplumbing.ca-repiping.jpg", "Heritage home repipe in Petrolia, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/petroliaplumbing.ca-fixtures-toilets.jpg", "Fixture installation in Petrolia, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/petroliaplumbing.ca-leak-detection.jpg", "Leak detection in Petrolia, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/petroliaplumbing.ca-sump-pumps.jpg", "Sump pump installation in Petrolia, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/petroliaplumbing.ca-water-softeners.jpg", "Water softener installation in Petrolia, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/petroliaplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Petrolia, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/petroliaplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning in Petrolia, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/petroliaplumbing.ca-repiping.jpg",
+    "Heritage home repipe in Petrolia, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/petroliaplumbing.ca-fixtures-toilets.jpg",
+    "Fixture installation in Petrolia, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/petroliaplumbing.ca-leak-detection.jpg",
+    "Leak detection in Petrolia, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/petroliaplumbing.ca-sump-pumps.jpg",
+    "Sump pump installation in Petrolia, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/petroliaplumbing.ca-water-softeners.jpg",
+    "Water softener installation in Petrolia, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

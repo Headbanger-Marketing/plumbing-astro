@@ -1,198 +1,408 @@
-// Per-site content for keswickplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Keswick, Georgina, York Region, on the
-// south shore of Lake Simcoe.
-// Local angle: cottage country plumbing, original summer cottages being
-// winterized, year-round subdivisions with high water table near the lake,
-// private wells and septic throughout, lake-effect cold that freezes
-// vulnerable lines, and boat-and-cottage seasonal properties from Jackson's
-// Point to Pefferlaw.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Keswick, Ontario",
-    h1: "Water Heater Installation From a Local York Plumbing Team",
-    intro: "Keswick Plumbing Pros heats water on the south shore of Lake Simcoe, where a converted cottage, a family home, and a four-season bunkie each need something different from a tank. Cottage conversions get units that survive shoulder-season freeze risk, family homes get capacity for hockey-night laundry loads, and everything gets installed with the venting and drainage our cold snaps demand. If the old tank spent its life in a crawl space, we can get the new one in and out of there.",
-    meta: "Water heater installation and replacement in Keswick, Ontario. Cottage conversion units, freeze-safe venting, and family-capacity tanks by licensed plumbers.",
-    problem_h: "Tank dead, or the cottage going four-season?",
-    problem_p: "Lake Simcoe cold changes what a water heater needs. Keswick installs get venting and placement that survive January.",
-    features: [
-      ["flame", "Freeze-Safe Placement", "A tank in an uninsulated Keswick crawl space needs heat tracing, pipe insulation, and sometimes relocation. We solve the whole exposure, not just the swap."],
-      ["clock", "Off-Season Failures Handled Fast", "Cottages fail when nobody is watching, and arriving to a cold, wet crawl space is miserable. Our trucks cover the Georgina shore, so the replacement happens in days, not weeks."],
-      ["shield", "Sized for Real Usage", "A bunkie used on weekends and a full-time Keswick family home load a tank completely differently. We ask how the building actually lives before recommending capacity."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Keswick, Ontario",
+    "h1": "Water Heater Installation and Replacement in Keswick",
+    "intro": "Planning a water heater replacement in Keswick starts with the building and how it is used. A cottage being converted to year-round use may need different capacity, placement and freeze protection than a weekend bunkie or a busy family home. Before comparing equipment, note the existing tank’s fuel and size, where it sits, how the vent is routed and whether nearby pipes are exposed to cold. Photos of the data plate, connections and installation area help clarify the work involved.",
+    "meta": "Water heater replacement and installation planning in Keswick, Ontario, including capacity, venting and freeze-protection considerations.",
+    "problem_h": "Is the tank failing, or is a cottage becoming a year-round home?",
+    "problem_p": "Tank condition, household demand and winter exposure all affect the replacement scope. Record what is installed and where before comparing options.",
+    "features": [
+      [
+        "flame",
+        "Check placement and cold exposure",
+        "Photograph the tank location, nearby piping and any crawl-space access. If the area is unheated, ask how pipes and the appliance will be protected from freezing, and whether relocation is practical. These details can change the installation scope beyond a straightforward tank exchange."
+      ],
+      [
+        "clock",
+        "Plan for seasonal properties",
+        "If a cottage is left unoccupied in cold weather, ask what shutdown and drain-down steps apply to the selected equipment and connected plumbing. Compare the proposed placement and protection measures with the property’s winter routine; a seasonal building may need a different plan from a continuously heated home."
+      ],
+      [
+        "shield",
+        "Match capacity to actual use",
+        "List the number of occupants, bathrooms and high-demand uses, such as laundry or back-to-back showers. Compare that pattern with the proposed tank capacity and recovery information. A weekend bunkie and a full-time family home can have very different demands, so intended use should inform the equipment choice."
+      ]
     ],
-    rev: [0, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Keswick, Ontario",
-    h1: "Drain Cleaning From a Local York Plumbing Team",
-    intro: "Around Keswick the drain conversation usually starts with septic, because most properties outside the town core treat their own wastewater, and a sluggish drain can mean anything from grease in the kitchen line to a tank that needs pumping. Keswick Plumbing Pros clears the indoor lines first, cameras where the history says structure, and tells you honestly when the problem belongs to the septic side instead of selling you a third unnecessary snaking.",
-    meta: "Drain cleaning in Keswick, Ontario. Kitchen and bath clogs, main line clearing, camera inspection, and septic-side diagnosis for Georgina properties.",
-    problem_h: "Drains slow everywhere at once?",
-    problem_p: "When every fixture in a Keswick home slows together, the line or the septic side is talking. We find out which before charging you.",
-    features: [
-      ["refresh", "Clear Lines First", "Kitchen grease, cottage-era pipe scale, and root entry at the cleanout get cleared with proper machines and jetting, restoring flow through Keswick's mixed old and new stock."],
-      ["droplets", "Camera Clarity", "A camera pass shows the line's real condition, offset joints, root mats, or sag, so Georgina homeowners know exactly what they own before problems escalate."],
-      ["shield", "Septic Boundary Honesty", "We identify where drain cleaning ends and septic service begins, and say so plainly. If the tank needs attention, you hear it from us before the backup, not after."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Keswick, Ontario",
+    "h1": "Drain Cleaning and Inspection in Keswick",
+    "intro": "A slow drain in a Keswick property can come from a local obstruction, a problem farther along the building drain, or, where the property uses a septic system, an issue beyond the plumbing line. Note which fixtures are affected, when the symptoms began and whether the problem returns after clearing. If several fixtures slow or back up together, that pattern can help determine whether inspection should extend to the main line. A camera inspection may help assess suspected pipe damage before repair options are compared.",
+    "meta": "Drain cleaning and camera inspection planning in Keswick, Ontario, including main-line and septic-boundary considerations.",
+    "problem_h": "Are several drains slowing or backing up together?",
+    "problem_p": "The number and location of affected fixtures can help distinguish a local clog from a main-line or septic-side concern. Note the pattern before arranging an inspection.",
+    "features": [
+      [
+        "refresh",
+        "Describe the blockage and access",
+        "Record which sink, tub or toilet is affected, how quickly water drains and whether previous clearing helped. Photograph accessible cleanouts and note any known pipe changes. This information helps determine suitable access and whether the likely scope is a local line or a larger drain run."
+      ],
+      [
+        "droplets",
+        "Use a camera when pipe condition matters",
+        "If a blockage recurs or there is reason to suspect roots, a displaced joint or a sag, ask whether a camera inspection is appropriate. Request the findings and their location so you can compare repair options against the observed pipe condition rather than relying on symptoms alone."
+      ],
+      [
+        "shield",
+        "Identify the septic boundary",
+        "If the property uses septic, ask where the building drain ends and septic service begins before choosing work. A plumbing-line blockage and a tank or disposal-field concern are different scopes. Confirm what inspection covers and which specialist may be needed if the evidence points beyond the house drain."
+      ]
     ],
-    rev: [1, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Keswick, Ontario",
-    h1: "Repiping From a Local York Plumbing Team",
-    intro: "The cottages scattered through Keswick and Georgina were plumbed across every era this province has produced, galvanized under the oldest, brittle grey plastic in the 70s additions, and patchwork repairs ever since. Winterizing a cottage properly almost always means opening that history up. Keswick Plumbing Pros repipes with freeze-tolerant PEX routing and shutoffs that let you drain down for winter, designed for how shore properties actually get used.",
-    meta: "Repiping in Keswick, Ontario. Cottage repipes, winterization-ready piping, galvanized and plastic era replacement across Georgina.",
-    problem_h: "Pipes that have been patched too many winters?",
-    problem_p: "Cottage plumbing has usually been repaired for decades by whoever was there. We replace it with a system built for seasonal living.",
-    features: [
-      ["wrench", "Winterization Built In", "Sloped low points, drain valves, and accessible shutoffs mean a Georgina property can be emptied for winter in minutes instead of gambling on a heat lamp."],
-      ["home", "Cottage and Addition Stock", "We replace the galvanized under original cottages and the brittle plastic in later additions, coordinating the two into one coherent Keswick system."],
-      ["shield", "Permitted Where Required", "Year-round dwellings get permitted, inspected repipes with documentation. Seasonal buildings get the same workmanship, with honest guidance on what applies."]
+    "icon": "wrench",
+    "kicker": "Repiping in Keswick, Ontario",
+    "h1": "Repiping and Plumbing Replacement in Keswick",
+    "intro": "Repiping in Keswick may involve one aging section, several generations of repairs, or a broader change during a cottage renovation. Start by photographing exposed pipe material, visible corrosion or brittleness, shutoff locations and any previous patches. If the property is seasonal, explain how it is heated and winterized; that use affects routing, drain points and access. Ask for a clear description of which supply lines are included and how new piping will connect with retained sections before comparing proposals.",
+    "meta": "Repiping planning in Keswick, Ontario, including older piping, cottage renovations and seasonal drain-down considerations.",
+    "problem_h": "Have repeated patches made the piping hard to trust?",
+    "problem_p": "The materials, layout and winter routine determine whether a repair or broader replacement makes sense. Document what is visible before discussing scope.",
+    "features": [
+      [
+        "wrench",
+        "Plan for seasonal drain-down",
+        "If the property is winterized, ask whether low points can drain and whether accessible shutoffs and drain valves are included in the proposed layout. Review the route and valve locations before work begins. A system designed around the actual drain-down routine is easier to inspect and operate seasonally."
+      ],
+      [
+        "home",
+        "Compare old sections and additions",
+        "Photograph exposed galvanized pipe, brittle plastic or mixed materials, and mark where additions join the original building. Ask which sections will be replaced and how connections to retained piping will be made. Mapping the different eras of work helps clarify the scope and avoid assuming every part of the system is alike."
+      ],
+      [
+        "shield",
+        "Confirm approvals and documentation",
+        "Ask which approvals or inspections may apply to the specific building and scope, and who is responsible for confirming them. Request a written description of materials, routes and work included. Seasonal use does not by itself determine requirements, so verify the applicable rules rather than relying on assumptions."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Keswick, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local York Plumbing Team",
-    intro: "Shore living is hard on fixtures, lake humidity, seasonal temperature swings, and water that leaves its mark, so Keswick fixture work ranges from replacing corroded marine-grade taps to fitting out a full winterized bathroom in a cottage renovation. Keswick Plumbing Pros sets toilets and vanities that stay sealed through freeze-thaw, and roughs in new bathrooms for the wave of Georgia renovations turning cottages into homes.",
-    meta: "Fixture and toilet installation in Keswick, Ontario. Cottage bathroom rough-ins, corrosion-resistant fixtures, and renovation plumbing for Georgina homes.",
-    problem_h: "Cottage bathroom finally getting renovated?",
-    problem_p: "Georgina renovations get fixtures that survive shore conditions, set level and sealed for years of freeze-thaw seasons.",
-    features: [
-      ["home", "Renovation Rough-Ins", "Cottage-to-home conversions need new drainage, venting, and supply run to code. We rough in Keswick renovations so inspectors and insulators both stay happy."],
-      ["check", "Corrosion-Minded Choices", "Lake air and water chemistry eat cheap finishes. We recommend fixture lines that hold up in Keswick conditions and stand behind the installation."],
-      ["shield", "Frost-Resilient Setups", "Outdoor showers, hose bibbs, and sillcocks get frost-free valving and proper drainage so spring does not start with a burst in the wall."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Keswick, Ontario",
+    "h1": "Fixture and Toilet Installation in Keswick",
+    "intro": "Fixture work in Keswick can be a single toilet or tap replacement, frost protection for an outdoor connection, or plumbing rough-in during a cottage renovation. Before choosing fixtures, check the existing supply and drain locations, available clearances, shutoff condition and wall or floor access. If the building is being converted to year-round use, identify any new bathroom layout and ask how drainage, venting and supply routes will be coordinated. Photos and measurements help define the work before products are selected.",
+    "meta": "Fixture, toilet and bathroom rough-in planning in Keswick, Ontario, including renovation and outdoor frost-protection considerations.",
+    "problem_h": "Is a cottage bathroom renovation changing the plumbing layout?",
+    "problem_p": "A new fixture in the same location differs from a new bathroom rough-in. Measurements and photos help establish what must move or be added.",
+    "features": [
+      [
+        "home",
+        "Map renovation rough-ins",
+        "For a new or relocated bathroom, record the proposed fixture positions and note access from below or behind the walls. Ask how supply, drainage and venting will be routed and what must be in place before walls are closed. The layout and access can change both sequencing and scope."
+      ],
+      [
+        "check",
+        "Compare fixture requirements",
+        "Check the fixture’s dimensions, connection requirements and finish options against the space and existing plumbing. If water chemistry or exposure is a concern, ask what material and finish information the manufacturer provides. Comparing specifications helps avoid selecting a product that does not suit the installation or intended use."
+      ],
+      [
+        "shield",
+        "Review outdoor frost protection",
+        "For an outdoor shower, hose bibb or sillcock, ask how the valve is protected and whether the line can drain as intended. Photograph the interior access and exterior connection. The wall construction, shutoff location and seasonal routine affect which frost-protection arrangement is appropriate."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Keswick, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local York Plumbing Team",
-    intro: "A leak at the cottage announces itself differently, a damp crawl space discovered in May, a well pump that cycles all night, a water bill that only makes sense if something is running. Keswick Plumbing Pros traces leaks with acoustic and thermal gear across Georgina's mix of crawl spaces, additions, and slab additions, and we check the well side too, because out here the pressure system is part of every plumbing puzzle.",
-    meta: "Leak detection and repair in Keswick, Ontario. Acoustic and thermal location, crawl space and yard leaks, and well system diagnosis.",
-    problem_h: "Well pump running when nothing is on?",
-    problem_p: "Around Keswick a phantom leak often lives between the pressure tank and the cottage. We trace the whole run.",
-    features: [
-      ["droplets", "Crawl Space and Addition Tracing", "Older Keswick buildings layer additions over crawl spaces, hiding runs everywhere. Our detection gear narrows it before anything gets opened."],
-      ["shield", "Well System Diagnosis", "A cycling pump can be a leak, a failing tank bladder, or a foot valve problem. We test the Georgina well side methodically instead of guessing by replacement."],
-      ["check", "Seasonal Reopened Properties", "Arriving to find winter damage is a cottage ritual nobody enjoys. We locate every break from one event and repair them in a single coordinated visit."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Keswick, Ontario",
+    "h1": "Leak Detection and Repair Planning in Keswick",
+    "intro": "A suspected leak in Keswick may show up as a damp crawl space, unexplained water use, a cycling well pump or visible damage after a property has been closed for winter. Note when the symptom occurs, whether water is being used at the time and which areas are affected. Photograph staining, wet surfaces and accessible piping before opening walls or floors. If the property has a well, include the pressure tank and pump behaviour in the description, since those components can affect the investigation.",
+    "meta": "Leak detection and repair planning in Keswick, Ontario, including concealed plumbing, crawl spaces and well-system symptoms.",
+    "problem_h": "Does a well pump run when no water is being used?",
+    "problem_p": "Pump cycling can have several causes. Record the timing, pressure changes and visible moisture so the inspection can distinguish among possible faults.",
+    "features": [
+      [
+        "droplets",
+        "Trace concealed lines methodically",
+        "If a leak may be behind a wall, under a floor or in a crawl space, photograph accessible routes and mark where moisture appears. Ask what detection methods are suitable before finishes are opened. The building’s layout and access help determine where to investigate and how much exploratory work may be needed."
+      ],
+      [
+        "shield",
+        "Check the well pressure system",
+        "If a pump cycles unexpectedly, note its frequency and whether pressure changes when fixtures are off. Ask for the pressure tank, pump controls and relevant valves to be checked before assuming a buried leak. A leak, tank issue or valve fault can produce similar symptoms but lead to different repair scopes."
+      ],
+      [
+        "check",
+        "Inspect after seasonal closure",
+        "After reopening a seasonal property, document each wet area and any plumbing that was exposed to cold. If several breaks may relate to one event, ask for a coordinated inspection before individual repairs are finalized. A record of locations and affected lines helps distinguish related damage from separate problems."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Keswick, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local York Plumbing Team",
-    intro: "Keswick sits low and close to the water table, and streets a short walk from Cook's Bay and the lake move serious groundwater in spring and during storm fronts crossing Simcoe. Keswick Plumbing Pros builds pumping systems for that reality, generous basins, cast-iron pumps with head capacity to push water well away from the foundation, battery backup for storm outages, and discharge routing that does not simply recycle water back against the wall.",
-    meta: "Sump pump installation in Keswick, Ontario. Water table-sized pumps, battery backup, basin upgrades, and discharge routing for lakeshore properties.",
-    problem_h: "Spring melt turning the crawl space into a pond?",
-    problem_p: "Near the lake, the water table does the talking. Keswick properties get pumping capacity matched to that conversation.",
-    features: [
-      ["shield", "Water Table Reality Sizing", "A few streets back from Cook's Bay, pits fill fast for weeks in spring. We install pumps with the head capacity and duty rating that season demands."],
-      ["zap", "Battery Backup Standard", "Simcoe storms take power lines down with regularity. Backup pumping keeps Keswick basements and crawl spaces dry through the outage, not just the rain."],
-      ["refresh", "Discharge Done Properly", "Pumping water to a low spot beside the foundation is a circle. We route Keswick discharge far from the wall, frost-protected, and within municipal rules."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Keswick, Ontario",
+    "h1": "Sump Pump and Backwater Planning in Keswick",
+    "intro": "Sump and backwater work in Keswick should be based on the property’s observed water entry, pump history and discharge layout, not on location alone. Record when the pit fills, how often the pump runs and what happens during a power interruption. Photograph the basin, pump label, discharge route and any backwater device. If spring melt or heavy rain causes water problems, those observations help compare pump capacity, backup options and discharge changes suited to the specific building.",
+    "meta": "Sump pump and backwater planning in Keswick, Ontario, including pump capacity, backup power and discharge routing.",
+    "problem_h": "Does water collect in the basement or crawl space during wet weather?",
+    "problem_p": "The basin, pump performance and discharge route all affect a drainage plan. Photos and notes from wet periods make the assessment more specific.",
+    "features": [
+      [
+        "shield",
+        "Size from observed pumping conditions",
+        "Record how quickly the pit refills, how often the pump cycles and where the discharge ends. Ask how proposed pump capacity and head relate to the actual lift and run length. Those measurements matter more than choosing equipment by a general location description."
+      ],
+      [
+        "zap",
+        "Compare backup arrangements",
+        "If outages coincide with water concerns, ask what backup options are compatible with the existing pump and basin. Compare how each option operates, its power source and what maintenance it requires. The pump model, expected run time and access to the installation affect which backup arrangement is practical."
+      ],
+      [
+        "refresh",
+        "Review the discharge route",
+        "Trace where pumped water exits and whether it can return toward the foundation or freeze along the route. Ask how a revised line would be protected and whether local requirements apply. The site layout and discharge point determine what changes are possible and how the work should be scoped."
+      ]
     ],
-    rev: [5, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Keswick, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local York Plumbing Team",
-    intro: "Most of Georgina drinks from the ground, and Keswick's private wells carry the region's signature mix, hardness, iron, and now and then the sulphur smell that announces a well before you see it. Town pockets on municipal supply get the softer end of that deal but still scale. Keswick Plumbing Pros starts every treatment job with a proper water test and builds the system the results call for, from a simple softener to a full iron-and-UV stack.",
-    meta: "Water softeners and well water treatment in Keswick, Ontario. Iron filters, sulphur systems, UV disinfection, and softeners sized from water testing.",
-    problem_h: "Well water staining, smelling, or both?",
-    problem_p: "Georgina wells each have a personality. We test yours and treat what is actually in it, in the order that actually works.",
-    features: [
-      ["gauge", "Tested, Never Guessed", "Iron levels decide equipment order, and hardness decides softener size. Keswick systems are assembled from your results, not from what is on the shelf."],
-      ["droplets", "Iron, Sulphur, and Colour", "Oxidizing filters lift the orange, carbon and retention handle the rotten-egg note, and sediment stages protect everything downstream in Georgina homes."],
-      ["shield", "UV for Well Safety", "Spring melt and heavy rain can push bacteria into wells that tested clean for years. An inline UV system treats everything entering the Keswick house, all year."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Keswick, Ontario",
+    "h1": "Water Softener and Filtration Planning in Keswick",
+    "intro": "Water treatment in Keswick should begin with the property’s supply and test results, not an assumed local water profile. Identify whether the building uses a private well or municipal supply, and record the problems noticed, such as scale, staining, odour or sediment. For a well, ask which tests are appropriate and whether recent results are available. Treatment order and equipment depend on measured conditions, water use and installation space, so compare proposals against the same test information.",
+    "meta": "Water softener and filtration planning in Keswick, Ontario, based on supply type, test results and household needs.",
+    "problem_h": "Does the water have staining, odour or scale?",
+    "problem_p": "Different symptoms can have different causes. Confirm the supply and obtain relevant test results before comparing treatment equipment.",
+    "features": [
+      [
+        "gauge",
+        "Choose equipment from test results",
+        "Keep copies of water test results and note household use before comparing softeners or filters. Ask how measured hardness or other findings affect equipment selection and treatment order. Results help avoid choosing a system based only on appearance or on another property’s experience."
+      ],
+      [
+        "droplets",
+        "Separate treatment goals",
+        "If staining, colour, odour or sediment is present, ask which measured condition each proposed treatment is intended to address. Compare the equipment stages and their maintenance needs, including any filtration or oxidation steps. The confirmed cause determines which components are relevant and how they should be arranged."
+      ],
+      [
+        "shield",
+        "Assess UV only when appropriate",
+        "If considering UV treatment for a private well, ask what water testing and pretreatment the equipment requires, and how the unit’s operation is verified and maintained. A UV device is not a substitute for testing or for addressing other water-quality findings. The well results and installation conditions determine whether it belongs in the proposed system."
+      ]
     ],
-    rev: [4, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Winterized our 1960s cottage properly, new PEX with drain-downs everywhere. First time in years we did not hold our breath in November.", "Cottage Owner", "Jackson's Point"],
-  ["Every drain in the house slowed at once and I feared the septic. They cleared the line, filmed it, and told me the tank was actually fine. Honest people.", "Homeowner", "Keswick"],
-  ["Water heater in a crawl space nobody wanted to enter. They got the old one out, heat-traced the new lines, no fuss.", "Resident", "Keswick"],
-  ["Well pump was cycling all night. They found a leaking yard line with listening gear instead of selling me a new pump I did not need.", "Farmer", "Pefferlaw"],
-  ["Spring melt used to flood the crawl space yearly. Their pump and discharge routing ended it completely. Dry two springs running.", "Cottage Owner", "Sutton"],
-  ["Iron and sulphur in our well was brutal. The system they built from our water test fixed both, and the drinking water is excellent now.", "Homeowner", "Virginia"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Freeze-safe installs and cottage conversion units built for Lake Simcoe winters and Keswick family homes.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Line clearing, camera inspection, and honest septic-side diagnosis for Georgina properties.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Cottage repipes with winterization built in, replacing generations of patched piping across Keswick.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Shore-tough fixture installs and full rough-ins for the cottage-to-home renovations sweeping Georgina.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and thermal tracing through crawl spaces and additions, plus well system diagnosis.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Water table-sized pumping, battery backup, and discharge routing for lakeshore streets.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Well water treatment built from test results, handling Georgina iron, sulphur, and hardness.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank capacity, venting, fuel connections and placement. If the building is seasonal or the installation area is unheated, include winter protection and shutdown needs in the equipment discussion.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Describe affected fixtures and recurring symptoms. Where the property uses septic or pipe damage is suspected, clarify whether the scope includes main-line camera inspection or stops at the building drain.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Document visible pipe materials, prior patches and addition connections. For seasonal properties, compare routes, shutoffs and drain points against the actual winterization routine.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Check fixture dimensions, connections and access before choosing products. Bathroom renovations may require new supply, drainage and venting routes; outdoor fixtures need a suitable frost-protection plan.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Record when and where moisture or pump cycling occurs. Crawl-space access, concealed pipe routes and well pressure-system symptoms can change how a leak investigation is planned.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare basin refill rate, pump capacity, discharge routing and outage needs. The site layout and observed water conditions determine whether a backup or discharge change is appropriate.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Identify the water supply and gather relevant test results before comparing equipment. Treatment stages depend on measured conditions, household use and maintenance requirements.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed for plumbing work around Georgina?", "Yes, licensed and insured, with permits pulled through the proper authority for work that requires them, on year-round Keswick homes and cottage conversions alike."],
-  ["Do you answer emergency calls out here?", "We do, covering Keswick and the wider Georgina shore for bursts, backups, and no-water calls, at hours that suit cottages failing on a Sunday of a long weekend."],
-  ["How fast can you replace a cottage water heater?", "Most Keswick-area replacements are done within a day or two of the call, including crawl space retrievals and the freeze protection the new unit needs."],
-  ["Should we repipe before winterizing the cottage?", "It is the single best moment to do it, since walls are open and the piping can be routed with drain-downs. Patched-together Keswick systems rarely survive conversion otherwise."],
-  ["We are on a well and septic. Is that a problem?", "It is our normal. Georgina properties get full well-side work, pressure tanks, treatment, and the plumbing-to-septic boundary respected, with the tank side referred honestly when it is theirs."],
-  ["Is Keswick water hard?", "Town supply is moderate, and the wells are frequently hard with iron. Testing decides, and most Keswick homes see a real difference once treatment goes in."],
-  ["What do you charge to look at the problem?", "Assessment and written quotes are free, with the price presented before work begins, whether the job is a Keswick bunkie retrofit or a full repipe."],
-  ["Which communities do you cover from Keswick?", "Keswick, Sutton, Jackson's Point, Pefferlaw, Virginia, and Mount Albert, all regular stops for our crews."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/keswickplumbingpros.ca-water-heaters.jpg", "Water heater installation in Keswick, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/keswickplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning in Keswick, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/keswickplumbingpros.ca-repiping.jpg", "Cottage repiping and winterization in Keswick, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/keswickplumbingpros.ca-fixtures-toilets.jpg", "Fixture installation in Keswick, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/keswickplumbingpros.ca-leak-detection.jpg", "Leak detection and well diagnosis in Keswick, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/keswickplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Keswick, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/keswickplumbingpros.ca-water-softeners.jpg", "Well water treatment installation in Keswick, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/keswickplumbingpros.ca-water-heaters.jpg",
+    "Water heater installation in Keswick, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/keswickplumbingpros.ca-drain-cleaning.jpg",
+    "Drain cleaning in Keswick, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/keswickplumbingpros.ca-repiping.jpg",
+    "Cottage repiping and winterization in Keswick, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/keswickplumbingpros.ca-fixtures-toilets.jpg",
+    "Fixture installation in Keswick, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/keswickplumbingpros.ca-leak-detection.jpg",
+    "Leak detection and well diagnosis in Keswick, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/keswickplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump installation in Keswick, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/keswickplumbingpros.ca-water-softeners.jpg",
+    "Well water treatment installation in Keswick, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "sutton": {
-    name: "Sutton",
-    intro: "Sutton anchors the east end of Georgina with a genuine small-town main street, a mix of year-round homes, and cottages pushing toward the lake. Keswick Plumbing Pros serves Sutton with well system work, winterization-ready repipes, water heaters, drain clearing, and full cottage-to-home renovation plumbing. Our crews are a short run up the lakeshore for both planned Sutton jobs and emergencies.",
-    meta: "Plumber in Sutton, Ontario. Well systems, water heaters, repipes, drain cleaning, and cottage renovation plumbing from a licensed Georgina-area team.",
-    nearby: ["Keswick", "Jackson's Point", "Pefferlaw", "Virginia"],
-    faq: [
-      ["Do you service Sutton wells and pressure systems?", "Yes, from bladder tanks to foot valves, plus the treatment systems Sutton iron and hardness usually call for."],
-      ["Can you repipe an older Sutton cottage?", "Regularly, with PEX routed for drain-downs so a seasonal Sutton property can be winterized without gambles."],
-      ["How fast do you reach Sutton for emergencies?", "Sutton is minutes from our Keswick base, so bursts and no-water calls get a same-day response."],
-      ["Do you install water heaters in Sutton?", "Yes, sized to how the building is used, with freeze-safe placement for cottages and crawl space units handled routinely."]
+    "name": "Sutton",
+    "intro": "For a plumbing project in Sutton, first identify whether the property uses municipal water or a private well, and whether it is occupied year-round or seasonally. Those details affect water testing, winterization and equipment selection. Photograph the existing pressure tank, water heater, exposed piping or drain access where relevant. If several fixtures are affected or the property uses septic, note the symptoms and ask where an inspection would stop. This information helps define a suitable project scope without assuming conditions across Sutton.",
+    "meta": "Plumbing project planning in Sutton, Ontario, including wells, water heaters, drains and seasonal property considerations.",
+    "nearby": [
+      "Keswick",
+      "Jackson's Point",
+      "Pefferlaw",
+      "Virginia"
     ],
+    "faq": [
+      [
+        "What should I prepare before discussing a Sutton well or pressure-system issue?",
+        "Note when the pump runs, any pressure changes and whether water use is occurring. Photograph the pressure tank label and accessible controls. Testing and inspection can then be considered against the symptoms rather than assuming a particular well condition."
+      ],
+      [
+        "What affects repiping plans for a seasonal Sutton property?",
+        "The existing pipe materials, building access and winterization routine all matter. Ask whether the proposed layout includes accessible shutoffs and drain points if the property is meant to be drained for winter."
+      ],
+      [
+        "How can I tell whether a Sutton drain concern may involve septic?",
+        "Record which fixtures are affected and whether they slow together. Ask where the building drain and septic system meet; symptoms alone do not establish whether the plumbing line or septic service needs attention."
+      ],
+      [
+        "What information helps compare water heaters for a Sutton property?",
+        "Share the existing unit’s fuel, capacity, venting and location, along with the building’s occupancy pattern. If the installation area is unheated or the property is seasonal, include that in the comparison."
+      ]
+    ]
   },
   "jacksons-point": {
-    name: "Jackson's Point",
-    intro: "Jackson's Point hugs the Lake Simcoe shoreline with cottage streets, year-round homes, and the lake's influence never far away, humidity, storm weather, and a water table that makes itself known in spring. Keswick Plumbing Pros handles sump systems sized for that shoreline, water heaters, fixture installs, and the well treatment most Jackson's Point properties rely on.",
-    meta: "Plumber in Jackson's Point, Ontario. Shoreline sump systems, water heaters, fixtures, and well water treatment from a licensed Georgina-area team.",
-    nearby: ["Keswick", "Sutton", "Virginia", "Pefferlaw"],
-    faq: [
-      ["Our Jackson's Point crawl space floods in spring. Can you help?", "Yes, with pumping capacity sized to the shoreline water table, battery backup, and discharge routed away from the foundation."],
-      ["Do you winterize plumbing in Jackson's Point?", "We do, from drain-downs on repiped systems to protecting vulnerable lines and water heaters before the lake cold arrives."],
-      ["Can you treat Jackson's Point well water?", "Yes, beginning with a proper test, then iron, hardness, sulphur, and UV treatment as the results require."],
-      ["Are you available for cottage emergencies here?", "Yes, Jackson's Point is minutes from our Keswick base, with priority response for bursts and backups."]
+    "name": "Jackson's Point",
+    "intro": "For work at a property in Jackson's Point, document the plumbing symptoms and the building’s use before comparing equipment or repairs. If water enters a crawl space or basement, note when it happens, how quickly a sump pit refills and where the discharge ends. For a seasonal building, include the winter shutdown routine and any exposed lines. If the supply comes from a private well, collect available test results before discussing treatment. These observations help keep the project scope specific to the property.",
+    "meta": "Plumbing project planning in Jackson's Point, Ontario, including sump systems, water heaters, fixtures and well treatment.",
+    "nearby": [
+      "Keswick",
+      "Sutton",
+      "Virginia",
+      "Pefferlaw"
     ],
+    "faq": [
+      [
+        "What details help plan a sump system for a Jackson's Point property?",
+        "Record when water enters, how quickly the basin refills, the pump model and the discharge location. Ask how capacity, backup power and routing would be assessed for that specific installation."
+      ],
+      [
+        "What should seasonal-property owners check before winter?",
+        "Identify exposed pipes, the water heater, shutoff locations and the steps used to drain the building. Ask which equipment instructions and plumbing conditions apply to the property rather than assuming one winterization method suits every home."
+      ],
+      [
+        "How should I prepare for well-water treatment planning?",
+        "Confirm that the property uses a private well and gather available test results. Note staining, odour or scale, then ask which measured conditions each proposed treatment stage is intended to address."
+      ],
+      [
+        "What information is useful for a plumbing inquiry in Jackson's Point?",
+        "Describe the affected fixtures or equipment, when the issue occurs and whether the building is seasonal. Photos of labels, exposed connections and access points can help clarify what inspection or work may be needed."
+      ]
+    ]
   },
   "pefferlaw": {
-    name: "Pefferlaw",
-    intro: "Pefferlaw sits where Georgina meets the lake's eastern shore, a spread of rural properties, cottages, and small farms where private wells and septic are simply how life works. Keswick Plumbing Pros serves Pefferlaw with well system diagnosis and treatment, septic-side honesty on drain problems, winterization, and the repiping and fixture work country properties eventually need.",
-    meta: "Plumber in Pefferlaw, Ontario. Well systems, drain cleaning, repiping, winterization, and country property plumbing from a licensed Georgina-area team.",
-    nearby: ["Sutton", "Jackson's Point", "Udora", "Keswick"],
-    faq: [
-      ["Do you cover Pefferlaw for well problems?", "Yes, cycling pumps, pressure tanks, yard line leaks, and treatment for the iron and hardness Pefferlaw wells are known for."],
-      ["Is Pefferlaw too far for emergency calls?", "No, our crews cover the full Georgina shore including Pefferlaw, with priority dispatch for active leaks and no-water calls."],
-      ["Can you repipe a Pefferlaw farm house?", "Yes, with winterization built in, which rural Pefferlaw properties need given how cold the eastern shore gets."],
-      ["Do you handle drain problems when we are on septic?", "We clear the plumbing lines and tell you honestly where the septic side begins, so Pefferlaw homeowners spend money on the right fix."]
+    "name": "Pefferlaw",
+    "intro": "Before planning plumbing work at a property in Pefferlaw, confirm the water supply, wastewater setup and seasonal use. If the building relies on a private well, note pump behaviour and gather available water test results. If it uses septic, describe which drains are affected and whether several fixtures slow together. Photograph visible piping, prior repairs and accessible cleanouts. Rural layouts can involve longer routes or different access points, so these details help establish what should be inspected and where one service scope ends and another begins.",
+    "meta": "Plumbing project planning in Pefferlaw, Ontario, including private wells, septic boundaries, repiping and seasonal properties.",
+    "nearby": [
+      "Sutton",
+      "Jackson's Point",
+      "Udora",
+      "Keswick"
     ],
-  },
+    "faq": [
+      [
+        "What should I record when a Pefferlaw well pump cycles unexpectedly?",
+        "Note how often it runs, whether any fixtures are in use and whether pressure changes. Photograph the pressure tank label and accessible valves. Inspection can then consider the pressure system and possible leaks without assuming a single cause."
+      ],
+      [
+        "What information helps plan repiping for a rural Pefferlaw home?",
+        "Photograph exposed pipe materials, visible patches and connections between additions. Explain how the building is heated and winterized; routing, access and drain-down needs affect the scope."
+      ],
+      [
+        "How can septic ownership affect a drain-cleaning inquiry?",
+        "List affected fixtures and whether the problem recurs or affects several drains. Ask whether the proposed inspection covers the plumbing line only and how concerns beyond the building drain would be identified."
+      ],
+      [
+        "What should I gather before discussing Pefferlaw water treatment?",
+        "Confirm the water source and collect any recent test results. Describe specific concerns such as staining, odour or scale so proposed equipment can be compared with measured findings and household needs."
+      ]
+    ]
+  }
 };

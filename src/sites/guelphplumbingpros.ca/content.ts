@@ -1,185 +1,379 @@
-// Per-site content for guelphplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Guelph, Wellington County, on the Speed
-// and Eramosa rivers at the escarpment's edge.
-// Local angle: deep bedrock wells delivering some of the region's hardest
-// water, limestone century homes with galvanized and brass remnants, clay
-// laterals under mature maples, melt-water in low river corridors, rural
-// Guelph/Eramosa and Puslinch properties on wells, and constant renovation.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Guelph, Ontario",
-    h1: "Water Heater Installation From a Local Wellington Plumbing Team",
-    intro: "Guelph pumps its drinking water from deep bedrock wells, and that mineral-rich supply is unkind to water heaters, quietly cementing tanks shut years early. Guelph Plumbing Pros installs and replaces units built to survive it, from power-vent tanks in limestone-basement homes to tankless systems for growing households. Sizing accounts for the water as much as the family, because in Guelph the water is half the equation. Copper for the showable runs, PEX for the rest, chosen on merit.",
-    meta: "Water heater installation in Guelph, Ontario. Tank and tankless units sized for bedrock-well water and real household demand, same-day swaps by licensed Wellington plumbers with permits filed.",
-    problem_h: "Tank limping, or already leaking onto the floor?",
-    problem_p: "We install water heaters in Guelph sized to beat the minerals, with same-day swaps for failures.",
-    features: [
-      ["flame", "Built for the Water Here", "Hard bedrock-well water shortens tank life, so we spec units and anode configurations that hold up in Guelph basements instead of the national average."],
-      ["clock", "Same-Day Failures", "A leaking tank cannot wait for a booking window. Stocked sizes and local crews put most Guelph replacements in the same day, old unit hauled off."],
-      ["shield", "Permits Handled Quietly", "Filing, relief valves, pans, and venting are our side of the job. The install closes inspected and documented for Guelph resale."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Guelph, Ontario",
+    "h1": "Plan a Water Heater Installation in Guelph",
+    "intro": "Choosing a replacement water heater involves more than matching the old tank’s capacity. Compare the household’s hot-water demand, the existing fuel and venting, available space, and the equipment’s installation requirements. If a property has hard water, ask whether a water test and maintenance plan should affect the model or anode selection. Tank and tankless systems have different sizing and connection needs, so photographs of the rating plate, vent, and surrounding area can help clarify the project scope before work is planned.",
+    "meta": "Compare tank and tankless water heater installation needs in Guelph, including capacity, venting, fuel, and water testing.",
+    "problem_h": "Is your water heater leaking or struggling to keep up?",
+    "problem_p": "Record the unit’s age, fuel, capacity, and any leak location. Those details help distinguish a replacement from a problem with venting, controls, or household demand.",
+    "features": [
+      [
+        "flame",
+        "Match the Unit to the Water and Household",
+        "If a water test shows elevated hardness, ask how that result affects equipment selection and maintenance intervals. Compare tank capacity or tankless flow with the number of occupants and simultaneous uses. Also check the existing fuel, electrical supply, and vent route, since changing any of these can add work beyond a like-for-like replacement."
+      ],
+      [
+        "clock",
+        "Check the Existing Connections and Access",
+        "Photograph the rating plate, shutoff, venting, drain pan, and route into the installation area. Confirm whether the proposed unit fits the available clearance and can connect to existing services. If a tank is actively leaking, identify where water is collecting and whether the shutoff is accessible; this helps clarify immediate site concerns without assuming a particular response time."
+      ],
+      [
+        "shield",
+        "Clarify Safety Items and Required Approvals",
+        "Ask for the proposed scope to identify any required approvals, inspection steps, temperature-and-pressure relief discharge, drainage, and venting work. Compare these details with the existing installation and applicable requirements before work begins. Keeping the equipment model, test results, and completed-work records together can also make later maintenance or a future property sale easier to document."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Guelph, Ontario",
-    h1: "Drain Cleaning From a Local Wellington Plumbing Team",
-    intro: "The older quarters of Guelph, brick and stone around the Speed and Eramosa, drain through clay lines that have hosted tree roots since the neighbourhood maples were saplings. Guelph Plumbing Pros cleans what the century has clogged, kitchen grease hardened in cast iron, soap-clogged laundry stacks, and root-feathered mains. Jetting restores the diameter, the camera explains the history, and the basement floor drain goes back to being boring.",
-    meta: "Drain cleaning in Guelph, Ontario. Hydro-jetting, snaking, and camera inspection for century clay lines, cast-iron grease, and rooted main sewers by licensed Wellington plumbers with same-week booking.",
-    problem_h: "Floor drain with opinions after every rainfall?",
-    problem_p: "We jet and camera Guelph's old lines so the diagnosis is on screen before the repair is quoted.",
-    features: [
-      ["refresh", "Century Lines, Modern Method", "High-pressure water scours clay and cast iron back to original diameter, moving decades of Guelph grease and root feather no cable can match."],
-      ["droplets", "Diagnosis on Screen", "The camera shows the offset, the belly, or the root mass responsible. Guelph homeowners see the evidence before deciding on the fix."],
-      ["calendar", "Maintenance That Fits", "Mature-tree properties near downtown get a jetting schedule that keeps lines open, because an annual clean beats a flooded spring every time."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Guelph, Ontario",
+    "h1": "Plan Drain Cleaning and Inspection in Guelph",
+    "intro": "A recurring blockage can come from grease, scale, roots, a damaged pipe, or a change in pipe alignment, and those causes call for different approaches. Note which fixtures drain slowly, whether several fixtures are affected, and when the problem occurs. A cable machine can clear some obstructions; hydro-jetting uses pressurized water to clean pipe walls when the pipe and blockage are suitable. A camera inspection can help show what remains and whether further investigation is warranted.",
+    "meta": "Compare drain snaking, hydro-jetting, and camera inspection for Guelph drainage projects.",
+    "problem_h": "Does a floor drain back up or gurgle after water runs?",
+    "problem_p": "Record which drains are affected and when the symptoms appear. Several affected fixtures or a repeat blockage may call for a camera inspection as well as clearing.",
+    "features": [
+      [
+        "refresh",
+        "Choose a Cleaning Method for the Pipe",
+        "Ask whether snaking or hydro-jetting is appropriate for the pipe material, condition, and type of obstruction. Jetting directs high-pressure water through suitable lines to remove buildup from the pipe walls; it is not a substitute for repairing a damaged or badly offset pipe. Photos of accessible cleanouts and notes about previous work can help establish what should be checked first."
+      ],
+      [
+        "droplets",
+        "Use a Camera to Understand Repeat Blockages",
+        "If a blockage returns, ask whether a camera can show roots, an offset, a belly, or another visible condition. Request an explanation of the footage and its limits, including what portions of the line were inspected. Seeing the pipe can help compare clearing alone with monitoring or repair, rather than treating every recurring backup as the same problem."
+      ],
+      [
+        "calendar",
+        "Base Maintenance on Evidence",
+        "If a property has mature trees near a buried sewer line or a history of recurring obstructions, ask whether inspection findings support scheduled cleaning. The line’s material, condition, and blockage pattern affect how often maintenance may be useful. Keep records of locations, dates, and camera observations so later comparisons can show whether the same section is causing trouble again."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Guelph, Ontario",
-    h1: "Repiping From a Local Wellington Plumbing Team",
-    intro: "Downtown Guelph's limestone terraces hide brass, galvanized, and the occasional legacy patch, a museum of supply piping no museum would want. Guelph Plumbing Pros replaces it with PEX and copper, planned room by room so a century home keeps its character while its plumbing enters the current century. Pressure-tested before closing, permitted with the city, and documented for the day the house sells.",
-    meta: "Repiping in Guelph, Ontario. Galvanized, brass, and legacy-pipe replacement in PEX and copper for century homes, permitted and pressure-tested by licensed Wellington plumbers with heritage finishes protected.",
-    problem_h: "Rust-tinted baths and showers that fade to a drizzle?",
-    problem_p: "We repipe Guelph century homes carefully, replacing what time has corroded while protecting what makes them worth keeping.",
-    features: [
-      ["wrench", "Museum Piping, Retired", "Brass, galvanized, and patched-together runs all give way to clean PEX and copper, sized so every Guelph fixture upstream of the work improves."],
-      ["home", "Character Preserved", "Access routes are planned around plaster, staircases, and millwork. We discuss cuts before making them, then patch what we open."],
-      ["shield", "Documented for Resale", "Permit, pressure test, and inspection records come with the job, paperwork Guelph buyers' lawyers actually ask for."]
+    "icon": "wrench",
+    "kicker": "Repiping in Guelph, Ontario",
+    "h1": "Plan a Home Repiping Project in Guelph",
+    "intro": "Repiping may involve replacing one failing section or changing much of a home’s water supply system. First identify the pipe materials you can see, the affected fixtures, any discoloured water, and whether low flow occurs throughout the home or only in one area. Ask how PEX and copper options would connect to existing piping and how routes through finished spaces would be planned. Photos of exposed pipes and finishes help explain access constraints and the likely scope.",
+    "meta": "Plan Guelph home repiping by comparing existing pipe materials, PEX and copper options, access routes, and testing needs.",
+    "problem_h": "Are discoloured water or weak taps affecting multiple rooms?",
+    "problem_p": "Note which fixtures are affected and photograph visible pipe markings or corrosion. The pattern and material can help distinguish a localized repair from broader repiping.",
+    "features": [
+      [
+        "wrench",
+        "Identify What Needs Replacement",
+        "If exposed piping includes galvanized steel, brass, or older patched sections, document where each material appears and which fixtures it serves. Ask whether the proposed work replaces a single run or a larger portion of the system, and how the change affects flow to connected fixtures. That distinction helps compare a targeted repair with a more comprehensive repipe."
+      ],
+      [
+        "home",
+        "Plan Access Before Opening Finished Areas",
+        "Ask for proposed pipe routes and access points to be discussed before work starts, especially around plaster, staircases, millwork, or other finishes. Photograph the rooms and note areas that need protection. PEX and copper can require different routing and connection decisions; the layout, existing structure, and repair of opened surfaces all affect the project scope."
+      ],
+      [
+        "shield",
+        "Ask How Testing and Documentation Work",
+        "Clarify how the new piping will be tested before walls or ceilings are closed, and what records will be provided. If approvals or inspections apply, ask who is responsible for confirming the requirements and recording the outcome. A clear record of materials, routes, and testing makes later repairs easier to plan and helps a future owner understand what was changed."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Guelph, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Wellington Plumbing Team",
-    intro: "Guelph renovates constantly, basements becoming suites, kitchens opening up, bathrooms multiplying, and every one of those projects lands on our bench. Guelph Plumbing Pros installs the fixtures and does the rough-in behind them, toilets set true, faucets torqued even, shower valves pressure-balanced and accessible for service. Hard water argues for quality trim, so we steer toward fixtures whose cartridges can be swapped, not junked, a decade on.",
-    meta: "Fixture and toilet installation in Guelph, Ontario. Toilets, faucets, and shower trim plus suite and reno rough-ins, with cartridges chosen to survive hard water, by licensed Wellington plumbers.",
-    problem_h: "Adding a suite, or finishing the basement at last?",
-    problem_p: "We rough in and trim out Guelph renovations with fixtures chosen to survive the local water.",
-    features: [
-      ["home", "Suite and Reno Rough-Ins", "Basement apartments and added bathrooms need vents, drains, and proper fixture spacing. We lay it out to code before the trades that follow arrive."],
-      ["check", "Set Once, Set Right", "Flanges are checked and repaired, wax rings are fresh, and supply lines are new. A Guelph install should outlive the trend that motivated it."],
-      ["award", "Serviceable by Design", "We favour trim with replaceable cartridges and metal bodies, because hard water turns disposable fixtures into recurring costs."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Guelph, Ontario",
+    "h1": "Plan Fixture and Toilet Installation in Guelph",
+    "intro": "A fixture installation can be a straightforward replacement or part of a larger renovation with new drains, vents, and supply lines. Before choosing products, check the fixture dimensions, shutoff locations, drain position, and access behind walls or under floors. For a basement bathroom or added suite, ask how the proposed layout accommodates venting and fixture spacing. If water testing indicates hardness, compare whether the selected trim has replaceable cartridges and whether parts are available for future service.",
+    "meta": "Plan Guelph toilet, faucet, shower trim, and renovation rough-ins by checking dimensions, connections, and service access.",
+    "problem_h": "Are you adding a bathroom or replacing a fixture?",
+    "problem_p": "Photograph existing connections and measure the available space. For a new bathroom, the drain, vent, and fixture layout help establish the rough-in scope before finishes are chosen.",
+    "features": [
+      [
+        "home",
+        "Map Drains, Vents, and Fixture Spacing",
+        "For a new bathroom or suite, ask how the proposed toilet, basin, and shower locations connect to drains and venting. Compare fixture dimensions with door swings, clearances, and framing before finishes are selected. A layout drawing can reveal whether changes to concealed piping are needed, which affects both the rough-in work and coordination with other renovation trades."
+      ],
+      [
+        "check",
+        "Inspect the Toilet Connection Before Setting",
+        "For a toilet replacement, check the flange’s condition and position, the floor around it, and the location of the shutoff. Ask whether damaged or poorly positioned parts need repair before the toilet is set. A new seal and supply line may be part of the scope, but the condition of the flange and drain connection determines whether additional work is needed."
+      ],
+      [
+        "award",
+        "Compare Fixtures for Future Service",
+        "Check whether faucet and shower trim use replaceable cartridges and whether compatible parts can be identified from the product information. If water testing shows hardness, ask how that may affect maintenance of the selected fixture. Metal bodies and serviceable components can make future repairs more practical, but the product’s specifications and access to its internal parts matter when comparing options."
+      ]
     ],
-    rev: [1, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Guelph, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Wellington Plumbing Team",
-    intro: "Guelph's escarpment-edge geology moves water in surprising directions, and so does its old housing stock, which makes leak diagnosis here a thinking trade. Guelph Plumbing Pros brings acoustic sensors, thermal cameras, and a methodical isolation process that narrows a leak to a single run before the first hole is cut. Whether the culprit sits under a slate floor, behind fieldstone, or beneath the front lawn, we find it and fix it once.",
-    meta: "Leak detection and repair in Guelph, Ontario. Acoustic and thermal location, isolation testing, and one-opening repairs under slate, stone, and lawn by licensed Wellington plumbers.",
-    problem_h: "Meter spinning with everything switched off?",
-    problem_p: "We isolate, trace, and pinpoint Guelph leaks before opening anything, then repair through one deliberate hole.",
-    features: [
-      ["droplets", "Method Over Demolition", "Zone isolation plus acoustic and thermal readings shrink the search area to one pipe run. Guelph slate and fieldstone stay intact where guesswork would have opened them."],
-      ["pin", "Lawn and Service Leaks", "A soggy strip between house and street usually means the service line. We locate the break and repair or reroute with the least excavation."],
-      ["check", "Insurance-Grade Reporting", "You leave with photos, findings, and a completed repair, the file an insurer needs and a future buyer respects."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Guelph, Ontario",
+    "h1": "Plan Leak Detection and Repair in Guelph",
+    "intro": "Water can travel away from the point where a leak becomes visible, so a stain or wet patch does not always identify the source. Note when the moisture appears, whether the water meter moves with fixtures off, and which plumbing or heating systems are nearby. Depending on access and conditions, acoustic equipment, thermal imaging, and step-by-step isolation can help narrow the search. Photos and a clear description of the symptoms help plan investigation before any opening is made.",
+    "meta": "Plan Guelph leak detection using symptom records, isolation testing, acoustic tools, and thermal imaging where suitable.",
+    "problem_h": "Is the meter moving when taps and appliances are off?",
+    "problem_p": "Photograph visible moisture and note when it changes. Meter readings and the affected area can help guide isolation and detection before surfaces are opened.",
+    "features": [
+      [
+        "droplets",
+        "Narrow the Search Before Cutting",
+        "Ask what isolation steps and detection methods may suit the suspected pipe and surrounding materials. Acoustic readings or thermal imaging can help locate a pipe run, but results depend on access and conditions. Photographing the wet area and noting recent plumbing use can help compare the visible symptom with test findings and reduce unnecessary opening."
+      ],
+      [
+        "pin",
+        "Check the Route Between the Home and Street",
+        "If a soggy strip or unexplained wet area appears near a buried service line, record its location and whether it changes over time. Ask how the service route will be located and whether repair or rerouting may be considered after the break is found. Soil, landscaping, and other buried services can affect excavation planning, so site information helps define the scope."
+      ],
+      [
+        "check",
+        "Keep Findings and Repair Records",
+        "Ask for photographs and a written description of the investigation, the identified leak location, and the completed repair. If an insurer is involved, check what documentation it requires before work proceeds; requirements vary by policy. Keeping the records with future maintenance information can help explain the repair to another contractor or owner without implying that a particular insurer will accept it."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Guelph, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Wellington Plumbing Team",
-    intro: "Spring along the Speed and Eramosa arrives as melt-water, and Guelph basements in the low corridors feel it first. Guelph Plumbing Pros installs sump systems with the respect that geography demands, correctly sized pumps, check-valved discharge, battery backup for the outage that always accompanies the storm, and permitted backwater valves where the sewer profile makes them matter. We also test and service the lonely pump you inherited with the house.",
-    meta: "Sump pump and backwater valve installation in Guelph, Ontario. Melt-water-ready pumps, battery backup, and permitted sewer protection for low-lying Wellington basements by licensed plumbers, tested yearly.",
-    problem_h: "Spring melt heading for the low side of the basement?",
-    problem_p: "We install and maintain Guelph sump systems that keep pace with the rivers' spring schedule.",
-    features: [
-      ["shield", "Sized to the Corridor", "Low streets near the rivers collect more water than the average lot. Pump and basin sizing here follows the property, not a catalogue page."],
-      ["zap", "Outage-Proof Backup", "Melt storms and power failures travel together. Battery-backed pumping bridges the gap until the grid returns."],
-      ["refresh", "Valves Where Profiles Demand", "Where Guelph sewer grades allow surging, a permitted backwater valve closes the door on it. We assess, install, and file the paperwork."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Guelph, Ontario",
+    "h1": "Plan Sump Pump and Backwater Protection in Guelph",
+    "intro": "A sump system should be considered in relation to the property’s pit, discharge route, electrical supply, and history of water entry. Record when water appears, how high it rises, and whether the pump runs or loses power during storms. Pump capacity and basin design depend on site conditions, while a battery backup has its own charging and maintenance needs. A backwater valve is a separate measure whose suitability depends on the sewer connection and property layout.",
+    "meta": "Plan Guelph sump pump and backwater projects by checking the pit, discharge, backup power, and sewer layout.",
+    "problem_h": "Does water collect near the sump pit during heavy rain or thaw?",
+    "problem_p": "Photograph the pit, pump label, discharge route, and any water marks. These details help assess equipment sizing, backup needs, and possible sewer protection separately.",
+    "features": [
+      [
+        "shield",
+        "Size Equipment to the Property",
+        "If a property has a sump pit, record its dimensions, pump label, discharge route, and how often the pump runs. Ask how those observations affect pump and basin selection. A catalogue rating alone does not describe the property’s water entry or discharge constraints, so site conditions help determine whether existing equipment is appropriately matched."
+      ],
+      [
+        "zap",
+        "Compare Backup Options and Maintenance",
+        "If the pump depends on household power, ask what happens during an outage and whether a battery-backed system fits the installation. Check the battery’s capacity, charging arrangement, alarm features, and maintenance instructions. Storm conditions can coincide with power interruptions, but backup equipment has limits; knowing the expected runtime helps plan what the system can and cannot do."
+      ],
+      [
+        "refresh",
+        "Assess Whether a Backwater Valve Fits",
+        "A backwater valve addresses a different risk from a sump pump. If sewer backup is a concern, ask for the building drain layout and sewer connection to be assessed, and verify whether a valve is suitable and what approvals apply. Its position, access for maintenance, and any inspection requirements affect the scope, so ask how these will be documented."
+      ]
     ],
-    rev: [4, 1, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Guelph, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Wellington Plumbing Team",
-    intro: "If southern Ontario has a capital of hard water, Guelph makes a strong claim, its deep bedrock wells deliver mineral content that scales tanks, furs kettles, and defeats bargain softeners. Guelph Plumbing Pros treats water as a specialty, testing hardness at the tap, matching softener capacity to measured grains and household use, and finishing with reverse osmosis for drinking. Rural properties around the city get iron, sulphur, and UV treatment built on an actual well sample.",
-    meta: "Water softeners and filtration in Guelph, Ontario. Softeners sized to measured bedrock-well hardness, reverse osmosis, and rural iron, sulphur, and UV treatment by licensed Wellington plumbers.",
-    problem_h: "Shower glass fogging white within days of cleaning?",
-    problem_p: "We size Guelph water treatment from a measured test, then install equipment that earns its keep.",
-    features: [
-      ["gauge", "Measured, Then Matched", "Bedrock-well hardness varies across the city. The softener capacity we install reflects the grains measured at your tap and the water your household uses daily."],
-      ["droplets", "Rural Well Programs", "Properties outside town get iron, sulphur, and UV disinfection planned from a current well sample, not a regional assumption."],
-      ["dollar", "The Scale Dividend", "Softened Guelph water extends tank and appliance life measurably. Treatment here is maintenance avoidance, not a luxury."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Guelph, Ontario",
+    "h1": "Plan Water Softening and Filtration in Guelph",
+    "intro": "Water treatment choices should follow a test of the water source, not an assumption based on an address. For a municipal supply, measure hardness at the tap if scale is a concern; for a private well, use a current sample suited to the questions being investigated. Softener capacity depends on measured hardness and household use. Iron, sulphur, ultraviolet treatment, and reverse osmosis each address different concerns, so ask what test results support each proposed component.",
+    "meta": "Compare Guelph water softeners, reverse osmosis, and well treatment based on water tests and household use.",
+    "problem_h": "Is scale building up on fixtures or glass soon after cleaning?",
+    "problem_p": "Arrange an appropriate water test and record household use. The results help distinguish hardness from other concerns and guide equipment selection.",
+    "features": [
+      [
+        "gauge",
+        "Test the Water and Size the Softener",
+        "If hardness is the concern, ask for a measured result and compare it with household water use before selecting capacity. Number of occupants and peak demand affect sizing, while regeneration settings influence operation. Keep the test results and proposed equipment specifications together so you can understand why the unit was selected and what should be checked during maintenance."
+      ],
+      [
+        "droplets",
+        "Treat Well Water According to Results",
+        "If a property uses a private well, obtain a current sample and identify the specific concerns being tested. Iron, sulphur, and microbial concerns call for different treatment decisions; ultraviolet equipment, for example, should not be assumed necessary without relevant results and suitable system design. Ask how each proposed filter or treatment stage relates to the sample and what ongoing checks it requires."
+      ],
+      [
+        "dollar",
+        "Compare Treatment and Ongoing Costs",
+        "Ask what the proposed system is intended to reduce, what it will not address, and what consumables or servicing it requires. If hardness is confirmed, compare the expected salt use and maintenance with the equipment’s capacity and household demand. Treatment may help manage scale, but costs and performance depend on test results, installation, settings, and continued upkeep."
+      ]
     ],
-    rev: [3, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Our tank was four years old and already full of scale from the well water. They sized the replacement properly and it has been flawless since.", "Homeowner", "Arkell"],
-  ["Camera found the roots in our clay lateral on screen. They jetted it clean and the basement floor drain has stayed dry through two springs.", "Resident", "Eden Mills"],
-  ["Repiped our 1900s place off the galvanized without touching the woodwork. The bath upstairs actually has pressure for the first time in years.", "Homeowner", "Guelph"],
-  ["Wet strip kept growing between the house and the street. They located the service-line leak in an afternoon and rerouted it neatly.", "Farmer", "Marden"],
-  ["Softener was regenerating twice a day when we moved in. They retested the water, reset everything, and the salt lasts three times longer now.", "Resident", "Ariss"],
-  ["Roughed in two basement bathrooms for our reno and passed inspection without a correction. Clean venting, tidy access, fair bill.", "Business Owner", "Morriston"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless units specified for Guelph's bedrock-well water, with same-day swaps and permits handled.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Hydro-jetting and camera inspection for century clay lines, cast-iron grease, and rooted mains near the rivers.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized and brass replacement in PEX and copper, planned to protect limestone-home character.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Toilet, faucet, and shower installs plus suite and renovation rough-ins built for hard water.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and thermal tracing with isolation testing, repairing through one deliberate opening.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Melt-water-ready pumps, battery backup, and permitted valves for Guelph's low river corridors.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Tap-tested softener sizing, reverse osmosis, and rural well treatment from actual water samples.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless sizing, fuel, venting, and maintenance needs. If a water test shows hardness, ask how it may affect equipment selection and upkeep.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Review whether snaking, hydro-jetting, or camera inspection suits the pipe material and blockage. Repeat problems may warrant inspection for roots, offsets, or other visible conditions.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Identify existing galvanized, brass, or patched piping, then compare PEX and copper routes. Finished walls, plaster, and millwork affect access and repair planning.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan toilet, faucet, and shower replacements around dimensions and existing connections. New bathrooms may also need drain, vent, spacing, and rough-in planning.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Record moisture patterns and meter readings. Isolation, acoustic tools, and thermal imaging may help narrow a leak location before an opening is planned.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare sump capacity, discharge, and backup power for the property. Assess sewer layout separately to determine whether a backwater valve may be suitable.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Choose treatment from water test results and household use. Hardness, iron, sulphur, ultraviolet treatment, and reverse osmosis address different needs.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are your Guelph plumbers licensed?", "Yes, licensed and insured through and through. Work that requires a permit under the Ontario Building Code is filed with the city and inspected, and you receive the documentation."],
-  ["Can you respond to emergencies in Guelph?", "Any hour of the day. Bursts, sewer backups, flooding, and total loss of water are prioritized, and first-visit fixes are the norm because the trucks arrive prepared."],
-  ["How fast can a leaking water heater be replaced?", "Almost always same day. Tank sizes are stocked locally, so Guelph homes are rarely without hot water overnight."],
-  ["Our century home has fading pressure. Repipe time?", "When multiple fixtures weaken together and the water runs tinted, the old supply piping is usually the cause. We assess it directly and quote the branch or whole-home replacement it needs."],
-  ["Is Guelph water really that hard?", "It genuinely is. The bedrock wells deliver some of the hardest municipal water in the region, and the proof lives on every shower door. We test and size treatment to the measured number."],
-  ["Do you service rural wells around Guelph?", "Yes. Properties in Guelph/Eramosa and Puslinch get softeners, iron and sulphur systems, pressure tanks, and UV disinfection designed around a current water sample."],
-  ["How does your quoting work?", "Free, written, and provided before work begins. The estimate you approve for anything from a cartridge swap to a full repipe is what the invoice says at the end."],
-  ["Which communities beyond Guelph do you cover?", "Rockwood, Fergus, Elora, Aberfoyle, Morriston, Ariss, and the rural routes connecting them across Wellington."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/guelphplumbingpros.ca-water-heaters.jpg", "Water heater installation in Guelph, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/guelphplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning in Guelph, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/guelphplumbingpros.ca-repiping.jpg", "Repiping a century home in Guelph, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/guelphplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Guelph, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/guelphplumbingpros.ca-leak-detection.jpg", "Leak detection in Guelph, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/guelphplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Guelph, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/guelphplumbingpros.ca-water-softeners.jpg", "Water softener installation in Guelph, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/guelphplumbingpros.ca-water-heaters.jpg",
+    "Water heater installation in Guelph, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/guelphplumbingpros.ca-drain-cleaning.jpg",
+    "Drain cleaning in Guelph, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/guelphplumbingpros.ca-repiping.jpg",
+    "Repiping a century home in Guelph, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/guelphplumbingpros.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Guelph, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/guelphplumbingpros.ca-leak-detection.jpg",
+    "Leak detection in Guelph, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/guelphplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump installation in Guelph, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/guelphplumbingpros.ca-water-softeners.jpg",
+    "Water softener installation in Guelph, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "rockwood": {
-    intro: "Rockwood sits where the Eramosa River threads past the cliffs of its conservation area, a growing town mixing village century homes with waves of new construction. Guelph Plumbing Pros serves Rockwood with water heaters, drain cleaning, repipes, fixture installs, and water treatment for both municipal and well supplies. Licensed plumbers are minutes up the highway for Rockwood emergencies.",
-    name: "Rockwood",
-    meta: "Plumber in Rockwood, Ontario. Water heaters, drain cleaning, repipes, fixtures, and well water treatment from a licensed Wellington plumbing team. Free quotes.",
-    nearby: ["Guelph", "Acton", "Fergus", "Ariss"],
-    faq: [
-      ["Do you install water heaters in Rockwood?", "Yes. New subdivisions and older village homes alike get tank and tankless units sized to the household, swapped same day when a failure demands it."],
-      ["Can you treat our Rockwood well water?", "Yes. Iron, hardness, and sulphur are common in local wells. We test first, then install softeners, filters, and UV sized to the sample."],
-      ["Do you repipe older Rockwood homes?", "Yes. Galvanized remains common in the village stock, and we replace it in PEX or copper under permit with finishes protected."],
-      ["How fast can you reach Rockwood?", "Rockwood sits minutes from Guelph, so both booked work and emergency calls turn around quickly."]
+    "intro": "For a plumbing project in Rockwood, start by checking the property’s water source, existing equipment, and the specific symptoms or renovation plans. If the home uses a private well, obtain a current sample before comparing softeners or filters; if it has a municipal supply, test the water before assuming a treatment need. Older piping, newer installations, and different drainage layouts can call for different scopes. Photos of equipment labels, visible pipework, and affected areas help make project discussions more specific.",
+    "name": "Rockwood",
+    "meta": "Plan plumbing work in Rockwood, Ontario, including water heaters, drainage, repiping, fixtures, and water treatment based on property conditions.",
+    "nearby": [
+      "Guelph",
+      "Acton",
+      "Fergus",
+      "Ariss"
     ],
+    "faq": [
+      [
+        "What should I check before replacing a water heater in Rockwood?",
+        "Record the existing unit’s fuel, capacity, venting, and connection details, then compare them with the household’s hot-water demand. If water hardness is a concern, arrange a test and ask how the result affects equipment selection and maintenance."
+      ],
+      [
+        "How do I choose treatment for a Rockwood well?",
+        "Use a current water sample to identify the specific concerns before comparing softeners, filters, or ultraviolet equipment. Hardness, iron, sulphur, and microbial results call for different decisions; ask what each proposed treatment is intended to address."
+      ],
+      [
+        "When might an older Rockwood home need repiping?",
+        "Document visible pipe materials, corrosion, discoloured water, and which fixtures have low flow. If galvanized or brass piping is present, compare a targeted repair with broader replacement and ask how access through finished areas will be planned."
+      ],
+      [
+        "What information helps plan a plumbing visit in Rockwood?",
+        "Share the affected fixtures, when the problem occurs, and photographs of equipment labels or accessible connections. For a leak or backup, note where water appears and whether more than one fixture is affected; this helps clarify what needs investigating."
+      ]
+    ]
   },
   "aberfoyle": {
-    intro: "Aberfoyle is the Puslinch crossroads village known for its market and its quarry country, surrounded by horse farms and gravel lands where private wells rule. Guelph Plumbing Pros serves Aberfoyle with water heaters, drain cleaning, softeners and iron filters, sump pumps, and septic-line work. Rural calls are the norm for our licensed plumbers, not the exception.",
-    name: "Aberfoyle",
-    meta: "Plumber in Aberfoyle, Ontario. Well water treatment, water heaters, drain cleaning, sump pumps, and septic-line work from a licensed Wellington plumbing team. Free quotes.",
-    nearby: ["Guelph", "Morriston", "Cambridge", "Hespeler"],
-    faq: [
-      ["Can you treat hard well water in Aberfoyle?", "Yes. Puslinch wells run hard and often carry iron. We size softeners and iron filters from an actual test of your Aberfoyle supply."],
-      ["Do you repair septic building drains?", "Yes. We clear, camera, and repair the line from house to tank around Aberfoyle, showing you the pipe before any excavation begins."],
-      ["Do you replace water heaters on rural properties?", "Yes. We install tank and tankless units across Aberfoyle, sizing around well pressure and household demand."],
-      ["Are emergency calls available in Aberfoyle?", "Yes. Bursts, backups, and no-water calls in Aberfoyle and across Puslinch get priority dispatch from our Guelph-based crew."]
+    "intro": "For a plumbing project in Aberfoyle, first establish whether the property uses a private well, municipal water, or a septic system, then gather details relevant to the work. If a well is present, a current sample can guide decisions about hardness, iron, sulphur, or other measured concerns. For a drain between a house and septic tank, identify cleanouts and note recurring symptoms before discussing clearing or camera inspection. Equipment labels, site access, and the intended renovation all affect the scope.",
+    "name": "Aberfoyle",
+    "meta": "Plan plumbing work in Aberfoyle, Ontario, including well treatment, water heaters, drainage, sump systems, and building drains to septic tanks.",
+    "nearby": [
+      "Guelph",
+      "Morriston",
+      "Cambridge",
+      "Hespeler"
     ],
-  },
+    "faq": [
+      [
+        "How should I choose treatment for hard well water in Aberfoyle?",
+        "Start with a current water test that measures hardness and any other concerns. Compare softener capacity with the measured result and household use; consider iron or other treatment only when the sample and system requirements support it."
+      ],
+      [
+        "What information helps assess a drain to a septic tank?",
+        "Note where the line runs, identify accessible cleanouts, and record when backups or slow drainage occur. Ask whether clearing or camera inspection is suitable, and request that findings be reviewed before excavation or repair is considered."
+      ],
+      [
+        "What should I compare when replacing a water heater on a rural property?",
+        "Record fuel, tank capacity or tankless model, venting, and available electrical service. If the system depends on a well, note any pressure issues, and compare equipment sizing with household demand and the site’s connections."
+      ],
+      [
+        "How can I plan a plumbing repair in Aberfoyle?",
+        "Describe the symptoms and when they began, and provide photographs of accessible equipment or affected areas. For work involving a well, septic line, or buried service, note the known system layout and any past test or repair records."
+      ]
+    ]
+  }
 };

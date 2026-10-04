@@ -1,160 +1,320 @@
-// Per-site content for portdoverplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Port Dover, Norfolk County, on the
-// north shore of Lake Erie at the mouth of Lynn Creek.
-// Local angle: a beach and fishing town that swings from packed summer to
-// quiet winter. Cottages and bungalows that need opening-weekend service and
-// proper fall winterizing, hard Lake Erie water that coats fixtures and
-// kettles, tourist-season deadlines for restaurants and shops whose plumbing
-// must not fail in August, and lake-effect storms that cut power and test
-// every sump pit at once.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Port Dover, Ontario",
-    h1: "Water Heater Installation From a Local Norfolk Plumbing Team",
-    intro: "A Port Dover water heater fights two enemies, Lake Erie water hard enough to plate it with scale and a tourist calendar that turns one busy shower weekend into heavy demand. Port Dover Plumbing installs tanks and tankless units chosen for both, replaces end-of-life rentals, and schedules installs around cottage openings so the first weekend of the season is not the weekend discovered the tank died in March.",
-    meta: "Water heater installation in Port Dover, Ontario. Hard-water-ready tanks, tankless options, and cottage-season scheduling by licensed Norfolk plumbers.",
-    problem_h: "Hot water gone the weekend the cottage opened?",
-    problem_p: "Water heaters installed in Port Dover are picked for this water and booked around the lake calendar.",
-    features: [
-      ["flame", "Chosen for Erie Water", "Scale from hard water is the top tank killer on this shore. We install units set up to be flushed easily and configured to slow the mineral march instead of surrendering to it."],
-      ["calendar", "Booked to the Season", "Opening weekends and closing weeks are our busy rhythm too. Book the spring swap in the quiet weeks and the hot water is waiting when the family arrives."],
-      ["shield", "Permitted and Papered", "Norfolk permits, proper relief piping, drain pans where the space requires, and commissioning records all come standard with the install."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Port Dover, Ontario",
+    "h1": "Water Heater Options for Port Dover Homes and Cottages",
+    "intro": "Planning a water-heater replacement in Port Dover? Compare tank and tankless equipment against the household’s hot-water demand, available space, fuel supply, and venting requirements. If the property is used seasonally, note when it is occupied and whether the system needs draining or other winter preparation. If scale is a concern, ask what maintenance the proposed unit requires and whether its design allows practical flushing. These details affect equipment selection, installation scope, and future upkeep.",
+    "meta": "Compare tank and tankless water-heater options for homes and cottages in Port Dover, including capacity, installation requirements, and maintenance.",
+    "problem_h": "Does the current water heater meet your household’s demand?",
+    "problem_p": "Record the heater’s fuel, age, capacity, venting, and any performance problems before comparing replacement options. These details help establish the work involved.",
+    "features": [
+      [
+        "flame",
+        "Compare Capacity and Water Demand",
+        "List the number of occupants, bathrooms, and appliances that may draw hot water at once. Compare that demand with the proposed tank capacity or tankless flow rate, including peak-use periods. If the property is occupied only seasonally, explain the pattern and ask how it affects sizing and operating needs."
+      ],
+      [
+        "calendar",
+        "Plan for Seasonal Use",
+        "For a cottage or other intermittently occupied property, note opening and closing dates, winter conditions, and whether the heater is currently drained. Ask how the proposed equipment should be shut down and restarted, and whether seasonal use changes installation or maintenance requirements. Planning around occupancy helps distinguish equipment needs from scheduling preferences."
+      ],
+      [
+        "shield",
+        "Check Installation Requirements",
+        "Ask for the proposed unit’s fuel, venting, clearance, drainage, and pressure-relief requirements to be compared with the existing setup. Photograph the heater, surrounding space, and visible pipes before requesting a scope. Confirm who is responsible for any required approvals and inspection, and request the commissioning and equipment documents for your records."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Port Dover, Ontario",
-    h1: "Drain Cleaning From a Local Norfolk Plumbing Team",
-    intro: "Sand, sunscreen, and a houseful of weekend guests are hard on drains, and behind Main Street the older homes on Lynn Creek side streets carry drains that have been catching everything since the fishing fleet was sail-powered. Port Dover Plumbing snakes and jets lines from kitchen sinks to main sewers, then cameras them so the answer to the recurring backup is evidence instead of a shrug.",
-    meta: "Drain cleaning in Port Dover, Ontario. Kitchen and main line clearing, hydro-jetting, root cutting, and camera inspection by licensed plumbers.",
-    problem_h: "Drains giving up every long weekend?",
-    problem_p: "We clear Port Dover drains fully and scope them so the fix sticks through the whole season.",
-    features: [
-      ["refresh", "Jetting After the Guests", "Grease, sand, and soap load up fast in a busy cottage or a seasonal kitchen. Jetting strips the line back to clean wall so the next crowd does not overflow anything."],
-      ["droplets", "Camera for the Repeat Offender", "A drain that blocks every year is announcing a problem. We scope the line, find the roots or the settled section, and show you the footage with straight options."],
-      ["shield", "Old Streets, Old Clay", "Mature streets near the harbor run clay and cast iron that roots love. Regular clearing on a schedule costs less than one ruined long weekend."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Port Dover, Ontario",
+    "h1": "Drain Cleaning Options for Port Dover Properties",
+    "intro": "A recurring drain blockage can call for more than another clearing. For a Port Dover property, note which fixtures are affected, how often the problem returns, and whether several drains back up together. If the line may contain clay or cast iron, or tree roots or a settled section are suspected, ask whether a camera inspection is appropriate after clearing. Grease, soap, sand, and heavy seasonal use can also influence the choice between mechanical cleaning and hydro-jetting.",
+    "meta": "Compare drain clearing, hydro-jetting, root cutting, and camera inspection for properties in Port Dover.",
+    "problem_h": "Does the same drain keep blocking?",
+    "problem_p": "Note where the backup appears, what drains are affected, and how often it returns. That history helps determine whether clearing alone or further inspection is worth considering.",
+    "features": [
+      [
+        "refresh",
+        "Choose a Clearing Method",
+        "Describe the material entering the drain and the fixtures affected. Grease, soap, sand, and heavy use may call for different clearing methods. Ask whether mechanical snaking or hydro-jetting suits the pipe material and condition, and what the work includes. A camera inspection may be useful if the blockage returns or the cause remains unclear."
+      ],
+      [
+        "droplets",
+        "Investigate Repeat Blockages",
+        "Keep dates, photos, and notes about which fixtures back up and whether the problem follows heavy use or rain. Ask whether a camera can show roots, a settled section, or another obstruction, and whether the inspection covers the affected line. Viewing the footage can help compare targeted repairs with repeated clearing."
+      ],
+      [
+        "shield",
+        "Check Older Pipe Materials",
+        "If records or visible sections suggest clay or cast-iron drains, photograph accessible pipework and share any repair history. Ask whether the proposed cleaning method is suitable for the pipe’s condition, particularly if it is cracked, displaced, or fragile. Confirm whether root cutting is included and whether a camera check can document the line after clearing."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Port Dover, Ontario",
-    h1: "Repiping From a Local Norfolk Plumbing Team",
-    intro: "The charming older bungalows and converted cottages around Port Dover often still run their original galvanized supply, and Erie-side water is not gentle to it, so pressure sags and stains arrive years before the pipes actually fail. Port Dover Plumbing repipes in PEX or copper, sequences the work so the house or cottage stays usable, and finishes with pressure tests and the Norfolk permit closed properly.",
-    meta: "Repiping in Port Dover, Ontario. Galvanized replacement, cottage and bungalow repipes, and PEX or copper installation by licensed plumbers.",
-    problem_h: "Upstairs pressure barely rinsing shampoo?",
-    problem_p: "We retire original galvanized from Port Dover homes with clean piping, done on a schedule that fits a lake town.",
-    features: [
-      ["wrench", "Original Galvanized, Retired", "Hard water and old steel are a bad marriage, and this shore has plenty of both. New PEX or copper restores pressure the house has not seen in decades."],
-      ["home", "Cottage-Friendly Staging", "Seasonal homes get repiped in the off months when nobody is booked in, and year-round homes get staged work that keeps a bathroom live throughout."],
-      ["shield", "Tested, Permitted, Documented", "The inspector sees the pressure test before anything closes, and the paperwork stays with the property, a real asset when a cottage changes hands."]
+    "icon": "wrench",
+    "kicker": "Repiping in Port Dover, Ontario",
+    "h1": "Repiping Options for Port Dover Homes and Cottages",
+    "intro": "Low pressure, discoloured water, or repeated leaks may justify investigating the supply piping before deciding on a full repipe. For a Port Dover property, photograph visible pipe materials, note which fixtures are affected, and gather any records of past repairs. If galvanized steel is present, ask how much remains and whether a targeted replacement or broader repipe is appropriate. Compare PEX and copper proposals, including access, staging, pressure testing, and how bathrooms remain usable during the work.",
+    "meta": "Compare galvanized pipe replacement, PEX, and copper repiping options for homes and cottages in Port Dover.",
+    "problem_h": "Are low pressure or recurring leaks affecting several fixtures?",
+    "problem_p": "Document the symptoms, affected rooms, and visible pipe materials. This information helps distinguish a localized repair from a larger supply-piping project.",
+    "features": [
+      [
+        "wrench",
+        "Identify Existing Supply Pipe",
+        "Photograph accessible pipes and fittings, and note any labels, corrosion, staining, or previous repairs. If galvanized steel is present, ask how the assessment will determine which sections need replacement. The amount and location of remaining pipe affect whether a targeted repair or a broader PEX or copper repipe is worth comparing."
+      ],
+      [
+        "home",
+        "Plan the Work in Stages",
+        "List the bathrooms, kitchen, and other fixtures that must remain available during the project. Ask how access openings and water interruptions will be staged, and whether seasonal occupancy changes the preferred timing. For a cottage, clarify how the system will be left when unoccupied; for a year-round home, compare the proposed sequence for maintaining essential facilities."
+      ],
+      [
+        "shield",
+        "Confirm Testing and Documentation",
+        "Request a written description of the new pipe material, routes, access work, and pressure-testing steps. Ask whether any inspection or approval applies and who will arrange it. Clarify when testing occurs relative to closing walls, and keep the results and product details with the property records for future maintenance or ownership changes."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Port Dover, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Norfolk Plumbing Team",
-    intro: "Between beach houses upgrading ahead of the season, heritage homes near Main Street needing careful fixture matches, and the restaurants whose washrooms cannot fail during a Friday-night rush, Port Dover runs the full range of fixture work. Port Dover Plumbing sets toilets, faucets, and showers that survive hard lake water, and does the complete rough-in side for renovations and added bathrooms.",
-    meta: "Fixture and toilet installation in Port Dover, Ontario. Cottage and home fixture upgrades, heritage-friendly installs, and renovation rough-ins.",
-    problem_h: "Upgrading before the season, or fixing mid-rush?",
-    problem_p: "From beach-house swaps to Main Street washroom repairs, we set fixtures that stand up to Erie water.",
-    features: [
-      ["home", "Season-Ready Swaps", "Toilets, faucets, and shower hardware replaced and sealed properly, booked for the shoulder weeks so everything works when the calendars fill."],
-      ["check", "Heritage-Home Care", "Older homes near the harbor need fixtures that fit existing plumbing without reworking the whole wall. We adapt and install so the result looks native to the house."],
-      ["shield", "Hard-Water Hardware", "Cheap cartridges surrender to this water fast. We point installs toward hardware with the durability record to survive a Norfolk water supply."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Port Dover, Ontario",
+    "h1": "Fixture and Toilet Options for Port Dover Properties",
+    "intro": "A fixture replacement in Port Dover may be a straightforward swap or part of a larger renovation with new rough-ins. Before comparing options, photograph the existing toilet, faucet, shower hardware, and exposed connections, and note any leaks, unusual dimensions, or wall finishes that must remain. If the property is older, ask how the selected fixture will connect to existing plumbing without unnecessary wall changes. For a renovation or added bathroom, clarify the proposed supply, drain, and access work.",
+    "meta": "Plan toilet, faucet, shower, and renovation rough-in work for a property in Port Dover.",
+    "problem_h": "Is a fixture failing, or are you planning a bathroom update?",
+    "problem_p": "Photos, measurements, and details about existing connections help establish whether the work is a replacement or needs new rough-in plumbing.",
+    "features": [
+      [
+        "home",
+        "Prepare for a Fixture Swap",
+        "Record the fixture make and model if available, measure clearances, and photograph supply and drain connections. Ask whether the replacement fits the existing layout or needs changes to shutoffs, connections, or seals. If the property is seasonal, explain its occupancy pattern and ask what should be checked before the plumbing is left unused."
+      ],
+      [
+        "check",
+        "Fit Fixtures to Existing Plumbing",
+        "In an older home, document visible pipe materials, fixture spacing, and nearby wall or floor finishes. Ask how a proposed toilet, faucet, or shower connects to what is already there, and whether access work is expected. Comparing compatible options before purchase can help avoid an unsuitable fixture or a larger-than-planned renovation."
+      ],
+      [
+        "shield",
+        "Plan Renovation Rough-Ins",
+        "For a new bathroom or changed layout, provide a sketch, fixture locations, and renovation drawings if available. Ask for the proposed supply and drain routes, access points, and any required approvals or inspections to be identified in the scope. If considering water-efficient hardware, compare its specifications and service parts before selecting the final fixtures."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Port Dover, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Norfolk Plumbing Team",
-    intro: "A leak that starts in January in a cottage that sits empty till May is a small disaster by discovery, and even year-round Port Dover homes hide plumbing behind finished walls and crawl spaces where water travels far from its source. Port Dover Plumbing isolates the system, listens with acoustic sensors, and traces with thermal imaging until the exact escape point is marked, then repairs just that.",
-    meta: "Leak detection and repair in Port Dover, Ontario. Acoustic and thermal location, pressure isolation, and cottage leak repair by licensed plumbers.",
-    problem_h: "Water where it should not be, or a bill that climbed?",
-    problem_p: "We pinpoint leaks in Port Dover homes and cottages precisely, then repair with the smallest possible opening.",
-    features: [
-      ["droplets", "Found Before Opened", "Section isolation plus acoustic and thermal tracing narrows a leak to one mark on one surface, which is the difference between a patch and a demolition."],
-      ["pin", "Seasonal Home Check-Ins", "Heading back to the city for winter? We can flag vulnerable runs during any visit, and a mid-winter check catches a small problem before it owns the spring."],
-      ["check", "Repaired and Pressure-Proven", "The fix holds under test before anything closes, and you get the findings documented, useful for insurance when water got a head start."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Port Dover, Ontario",
+    "h1": "Leak Detection and Repair Planning in Port Dover",
+    "intro": "Water stains, unexplained usage, or dampness in a Port Dover property can appear far from the source of a plumbing leak. Record when symptoms began, photograph visible damage, and note whether the property has a crawl space, finished walls, or long periods without occupants. Ask how pressure isolation, acoustic sensors, or thermal imaging could help narrow the search before opening surfaces. The suspected pipe location and access conditions affect the inspection method, repair scope, and documentation to request.",
+    "meta": "Plan plumbing leak investigation and repair in Port Dover, including pressure isolation and acoustic or thermal tracing.",
+    "problem_h": "Have you noticed dampness, staining, or an unexpected water-use change?",
+    "problem_p": "Note when the symptoms occur and photograph affected areas. This history helps guide leak isolation and decide whether tracing equipment may be useful.",
+    "features": [
+      [
+        "droplets",
+        "Narrow the Search Before Opening",
+        "Describe the affected area and provide photos of stains, dampness, or visible pipework. Ask whether isolating sections of the system, acoustic sensors, or thermal imaging suit the suspected leak. These methods can help narrow a search, but access and pipe conditions matter; clarify what testing is proposed before any wall or floor is opened."
+      ],
+      [
+        "pin",
+        "Consider Seasonal Occupancy",
+        "If the property is empty during winter or other long periods, share the dates it is unoccupied and whether water is shut off or drained. Ask which accessible supply runs, crawl spaces, or fixtures should be checked during an inspection. This information can help prioritize likely exposure points and shape a practical monitoring plan without assuming a leak is present."
+      ],
+      [
+        "check",
+        "Verify the Repair and Findings",
+        "Ask what testing will confirm the repair, whether pressure testing applies, and what surfaces may need opening or restoration. Photograph the affected area before work and request a record of the location, findings, and repair details. If damage may be reported to an insurer, keep dates and documentation, and confirm what evidence that insurer requires."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Port Dover, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Norfolk Plumbing Team",
-    intro: "A lake at the end of the street means stormwater has nowhere polite to go, and Port Dover's low-slung streets and cottage basements take it seriously when an Erie blow combines with a saturated spring. Port Dover Plumbing installs sump pumps sized for genuine storm load, backs them with batteries for the outages the same storms cause, and fits backwater valves where surcharging has reached basements before.",
-    meta: "Sump pump and backwater valve installation in Port Dover, Ontario. Battery backups, storm-ready pumps, and flood protection by licensed plumbers.",
-    problem_h: "Northeast wind, heavy rain, and a finished basement?",
-    problem_p: "Lakeshore properties get pumps, backups, and valves rated for the storms this shore actually receives.",
-    features: [
-      ["shield", "Storm Load, Not Average Load", "We size pumps to the sustained inflow of a real blow, because the unit that handles the average week is the one that drowns in the exceptional one."],
-      ["zap", "Batteries Through the Blackout", "Erie storms that fill the pit are the same storms that drop the power. Battery-backed pumping with a high-water alarm covers the hours when nothing else can."],
-      ["refresh", "Backwater Valve Protection", "Where the street main has pushed back into basements around the low streets, a permitted backwater valve is the lasting fix, installed and inspected by us."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Port Dover, Ontario",
+    "h1": "Sump Pump and Backwater Planning in Port Dover",
+    "intro": "A basement protection plan in Port Dover should be based on the property’s drainage, sump pit, power supply, and history of water entry. If stormwater has entered before, record where and when it appeared, and photograph the pit, discharge route, and any sewer backup evidence. Ask how pump capacity would be matched to expected inflow, whether a battery backup and high-water alarm suit the setup, and whether a backwater valve is appropriate for the plumbing layout.",
+    "meta": "Compare sump pump, battery backup, high-water alarm, and backwater valve options for a Port Dover property.",
+    "problem_h": "Has water entered the basement during heavy rain or a power outage?",
+    "problem_p": "Photograph the sump pit, note prior water events, and check what happens when power is interrupted. These details help define a suitable protection plan.",
+    "features": [
+      [
+        "shield",
+        "Assess Pump Capacity",
+        "Record the pit dimensions, existing pump details, discharge route, and any known water-entry events. Ask how the proposed pump capacity is selected for the property’s expected inflow and discharge conditions. Comparing the pump’s rated performance with the actual setup matters more than choosing a unit by an average-use description alone."
+      ],
+      [
+        "zap",
+        "Plan for Power Interruptions",
+        "If the pump depends on household electricity, ask what backup options fit the system and how long they can operate under load. A battery-backed pump and high-water alarm address different parts of an outage scenario, so compare their functions, testing needs, and maintenance. Include the battery location and alarm visibility in the proposed scope."
+      ],
+      [
+        "refresh",
+        "Evaluate a Backwater Valve",
+        "If a basement has experienced sewer backup, document where it entered and when, and ask whether a backwater valve is suitable for the building’s drain layout. Confirm which line the valve would protect, what access and maintenance it requires, and whether approval or inspection applies. A valve and a sump pump protect against different water pathways, so compare them separately."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Port Dover, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Norfolk Plumbing Team",
-    intro: "Norfolk County water is honestly hard, and on this shore it leaves its signature on every shower door, kettle, and heater element it touches, while places inland on wells add iron and sulphur to the list. Port Dover Plumbing tests your actual supply, then installs softeners and filtration sized to that result and to the household or cottage using it, with service arrangements that work for seasonal residents too.",
-    meta: "Water softeners and filtration in Port Dover, Ontario. Softener installation, well treatment, and reverse osmosis by licensed Norfolk plumbers.",
-    problem_h: "Shower doors fogging and elements burning out?",
-    problem_p: "Treatment sized from your own water test, installed to protect heaters and fixtures on this shore.",
-    features: [
-      ["gauge", "Sized to the Test and the Household", "A weekend cottage and a full family home stress a softener differently. We match grain capacity to real demand so regeneration is efficient, not constant."],
-      ["droplets", "Inland Wells Treated Too", "Toward Courtland and Windham, wells bring iron and sulphur that lake supply never shows. Softeners, oxidizing filters, and UV get staged to the sample."],
-      ["shield", "Protection That Pays Forward", "Softened water extends heater life, protects the new fixtures, and ends the scale scrub, which matters more the harder the water starts out."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Port Dover, Ontario",
+    "h1": "Water Treatment Options for Port Dover Properties",
+    "intro": "Water treatment choices depend on a property’s actual supply and the issue the household wants to address. Before selecting equipment in Port Dover, identify whether the water comes from a municipal supply or a private well, and arrange suitable testing rather than relying on assumptions about its quality. If results show hardness, iron, sulphur, or another concern, ask which treatment method addresses that finding. Household size, seasonal use, plumbing layout, and maintenance access all affect equipment capacity and configuration.",
+    "meta": "Compare water softeners and filtration options for Port Dover properties using supply type, test results, and household demand.",
+    "problem_h": "Are scale, staining, or taste concerns prompting a water-treatment review?",
+    "problem_p": "Identify the water source and obtain a test suited to the concern. Results help determine whether softening, filtration, or another treatment is relevant.",
+    "features": [
+      [
+        "gauge",
+        "Size Equipment to Test Results",
+        "Share a recent water test and explain how many people use the property, including seasonal occupancy. Ask how hardness results and household demand determine softener capacity and regeneration settings. A weekend cottage and a continuously occupied home have different usage patterns, so comparing equipment against actual demand can help avoid an unsuitable configuration."
+      ],
+      [
+        "droplets",
+        "Match Well Treatment to Findings",
+        "If the property uses a private well, test for the specific concerns before choosing treatment. Where results identify iron or sulphur, ask whether an oxidizing filter, softener, or staged combination is appropriate; UV treatment addresses a different concern and should not be selected without a reason. Compare required pretreatment, maintenance, and space for each proposed unit."
+      ],
+      [
+        "shield",
+        "Review Maintenance and Connections",
+        "Ask how the proposed treatment connects to the plumbing and whether a drain, electrical supply, bypass, or storage space is needed. Compare consumables, regeneration, filter changes, and service access before choosing a system. If the goal is to reduce scale at a water heater or fixture, discuss what the selected treatment can and cannot address based on the test."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Water heater died over the winter and we found out at opening. They had a new one in fast and set it up for this water. Booked next year's flush already.", "Cottage Owner", "Turkey Point"],
-  ["Main Street restaurant, Friday night, backed-up drain. They came after close and had it cleared and camera-ed before Saturday service.", "Business Owner", "Port Dover"],
-  ["Our forties bungalow still had galvanized. Full repipe in the spring quiet weeks and the upstairs pressure finally feels normal.", "Resident", "Port Dover"],
-  ["Northeast storm took the power and the old pump quit. New sealed unit with battery backup and an alarm, done the week after.", "Homeowner", "Port Ryerse"],
-  ["Softener sized for the cottage instead of a hotel, their words. Salt use is way down and the glass door finally stays clear.", "Cottage Owner", "Vittoria"],
-  ["Bathroom reno rough-in at the farmhouse, done when promised and passed inspection first visit. Rare and appreciated.", "Farmer", "Windham Centre"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Hard-water-ready tanks and tankless installs, booked around cottage openings and the season.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Post-guest jetting, old-street root clearing, and camera-verified fixes across Port Dover.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Original galvanized retired in PEX or copper, staged for year-round homes and seasonal cottages.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Beach-house upgrades, heritage-home fixture care, and full renovation rough-ins.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and thermal pinpointing for homes and empty winter cottages alike.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Storm-load-sized pumps, battery backups, and permitted backwater valves for lakeshore streets.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Test-sized softeners for Norfolk water, inland well treatment, and reverse osmosis.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless equipment by household demand, fuel, venting, available space, and seasonal use. Ask what maintenance and winter preparation the selected system requires.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Describe affected fixtures and repeat blockage history. Compare mechanical clearing, hydro-jetting, root cutting, and camera inspection according to pipe material and condition.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Document visible pipe materials, pressure symptoms, and past repairs. Compare targeted galvanized replacement with broader PEX or copper repiping, including staging and pressure testing.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Photograph existing connections and measure fixture clearances before choosing replacements. Renovations may also require new supply, drain, and rough-in planning.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Record leak symptoms and photograph affected areas. Ask whether pressure isolation, acoustic sensors, or thermal imaging fit the suspected location and access conditions.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare pump capacity with pit and discharge conditions. Assess battery backup, high-water alarms, and backwater valves separately for the property’s water-entry pathways.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use test results and supply type to compare softeners, filtration, and well-treatment options. Account for household demand, installation connections, and ongoing maintenance.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed for plumbing work in Norfolk County?", "Yes, licensed and insured, and any job requiring a permit is filed with the county and inspected under the Ontario Building Code. Completed paperwork goes to you, cottage or full-time home alike."],
-  ["Do you answer emergency calls in Port Dover?", "Yes, especially in season, when a failed water line or a backed-up drain can sink a weekend or a dinner service. Flooded basements and no-water calls around Port Dover get priority handling."],
-  ["Our tank died and family arrives Friday. Can you help?", "That is a normal call here. Common tank sizes are stocked, and we move heaven and earth to have hot water restored before the cars pull in."],
-  ["Should a 1950s bungalow here be repiped?", "If it still runs galvanized, the signs will tell you, rusty tint, fading pressure, repeat leaks. We assess first and only recommend repipe when the piping itself is genuinely done."],
-  ["Do you look after wells and septic around Port Dover?", "We do, mostly inland toward Courtland, Windham Centre, and St. Williams, where properties run their own water and waste. Wells, pressure tanks, iron and sulphur treatment, and septic-side plumbing are steady work for us."],
-  ["Is the water here really hard enough for a softener?", "Norfolk water is consistently hard, lake supply included, and it shows on shower doors and kettle elements quickly. A softener sized from your test measurably slows the wear on everything it touches."],
-  ["How do quotes and pricing work?", "Written quote before any work, plain options when there is more than one path, and the price holds unless scope truly changes, in which case we stop and re-confirm."],
-  ["Where do you travel from Port Dover?", "All of town plus Simcoe, Waterford, Delhi, Port Rowan, Turkey Point, Vittoria, and the lakeshore and farm roads between. If you are near any of those, we cover you."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/portdoverplumbing.ca-water-heaters.jpg", "Water heater installation in Port Dover, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/portdoverplumbing.ca-drain-cleaning.jpg", "Drain cleaning and jetting in Port Dover, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/portdoverplumbing.ca-repiping.jpg", "Whole-home repipe in Port Dover, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/portdoverplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Port Dover, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/portdoverplumbing.ca-leak-detection.jpg", "Leak detection and repair in Port Dover, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/portdoverplumbing.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Port Dover, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/portdoverplumbing.ca-water-softeners.jpg", "Water softener and filtration installation in Port Dover, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/portdoverplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Port Dover, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/portdoverplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning and jetting in Port Dover, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/portdoverplumbing.ca-repiping.jpg",
+    "Whole-home repipe in Port Dover, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/portdoverplumbing.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Port Dover, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/portdoverplumbing.ca-leak-detection.jpg",
+    "Leak detection and repair in Port Dover, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/portdoverplumbing.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Port Dover, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/portdoverplumbing.ca-water-softeners.jpg",
+    "Water softener and filtration installation in Port Dover, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

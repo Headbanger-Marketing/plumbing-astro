@@ -1,159 +1,320 @@
-// Per-site content for lucanplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Lucan, Biddulph township in northern
-// Middlesex County, north of London on the way to Exeter.
-// Local angle: a village core on municipal service ringed by flat farm
-// country on dug and drilled wells with septic beds, original village housing
-// with cast-iron drains and galvanized supply, equipment-shop and barn
-// plumbing across the concessions, and the wet Ausable plain that keeps
-// sump work in demand every thaw.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Lucan, Ontario",
-    h1: "Water Heater Installation From a Local Middlesex Plumbing Team",
-    intro: "Farm kitchens in Biddulph run dishloads the size of small restaurants, and the village houses around Lucan's main intersection hold their own at breakfast. Lucan Plumbing installs water heaters equal to both appetites. Village properties get straightforward tank and tankless work, while the surrounding farms get units chosen around well capacity and shed-cold installation rooms, because a mechanical space that dips well below freezing changes what survives out there.",
-    meta: "Water heater installation in Lucan, Ontario. Tank and tankless units for village homes and north Middlesex farm properties.",
-    problem_h: "No hot water on a north Middlesex morning?",
-    problem_p: "Lucan Plumbing replaces failed tanks fast and sizes new units to the household, the well, and the room they sit in.",
-    features: [
-      ["flame", "Cold-Room Aware Installs", "A utility shed on a farm line is a different environment than a finished basement. We spec insulation, heat tracing, and placement so the unit and pipes see spring."],
-      ["clock", "Failed Tank, Fast Turnaround", "Common sizes ride on the truck, and most Lucan-area swaps finish in a single visit with the dead unit drained away and gone."],
-      ["shield", "Well and Pressure Tank Checked", "Low well recovery or a waterlogged pressure tank kills heaters early by cycling them ragged. We verify both while we are on the property."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Lucan, Ontario",
+    "h1": "Plan a Water Heater Installation in Lucan",
+    "intro": "For a water heater project in Lucan, first compare the household’s hot-water demand with the proposed tank or tankless unit’s capacity. If the property uses a well, check recovery rate and pressure-tank operation; these can affect sizing and system performance. Also note where the heater will sit. A utility room or shed exposed to freezing temperatures may require a different placement and pipe-protection plan than a finished basement. Photos of the existing connections and room help clarify the scope before equipment is selected.",
+    "meta": "Water heater installation planning in Lucan, Ontario, including tank and tankless options, well systems, and cold-room considerations.",
+    "problem_h": "What should you check before replacing a water heater?",
+    "problem_p": "Compare household demand, fuel and venting requirements, and the existing unit’s capacity. If the heater is in a cold space or supplied by a well, document those conditions because they may change placement, protection, or sizing.",
+    "features": [
+      [
+        "flame",
+        "Check the Installation Space",
+        "Photograph the heater, nearby pipes, clearances, and the route for bringing in replacement equipment. If the room may fall below freezing, ask how the location and exposed piping will be protected. Insulation, heat tracing, or relocating the unit may affect the work, so identify the temperature risk before comparing proposals."
+      ],
+      [
+        "clock",
+        "Compare Replacement Scope",
+        "Record the tank’s capacity, fuel type, age, and connection details, then compare them with the proposed equipment. For a tankless model, ask about required flow, venting, and utility capacity. Confirm whether removal and disposal of the old tank are included, rather than assuming the replacement covers those tasks."
+      ],
+      [
+        "shield",
+        "Include Well and Pressure Equipment",
+        "If the property is well-fed, note how quickly the well recovers and whether pressure fluctuates. Ask whether the pressure tank and controls will be checked as part of the water-heater assessment. Low recovery or a waterlogged pressure tank can contribute to frequent cycling, which may change the recommended scope and equipment selection."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Lucan, Ontario",
-    h1: "Drain Cleaning From a Local Middlesex Plumbing Team",
-    intro: "Two drain worlds meet around Lucan, the village's aging combined runs that collect grease and root growth at every joint, and the long farm lines out to septic beds that carry kitchen waste, laundry silt, and whatever the mudroom sends along. Lucan Plumbing services both with cable, jetter, and camera. The rule we work by is simple, a line that needs cleaning twice in a year deserves to be looked at, not just rodded again.",
-    meta: "Drain cleaning in Lucan, Ontario. Village drain rodding, jetting, septic line service, and camera inspection across Biddulph.",
-    problem_h: "Same drain, same backup, same month?",
-    problem_p: "Lucan Plumbing clears lines properly across the village and the concessions, and cameras the repeats to end the cycle.",
-    features: [
-      ["refresh", "Village Lines Flushed Clean", "Decades of joint roots and grease come out with jetting pressure after the cable opens passage, and the drain runs months where it used to run weeks."],
-      ["droplets", "Septic Runs Handled Gently", "Lines out to the bed get cleaned with the tank and field in mind, no chemical shortcuts, nothing forced downstream that the bed cannot digest."],
-      ["shield", "Camera Verdicts on Repeat Calls", "Footage of a dropped joint or root-crushed section ends the guessing. You see what we see, and the quote follows the picture."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Lucan, Ontario",
+    "h1": "Plan Drain Cleaning in Lucan",
+    "intro": "A recurring blockage calls for more than another clearing attempt. Before arranging drain cleaning in Lucan, note which fixtures are affected, how quickly the drain backs up again, and whether the line serves a municipal connection or runs toward a septic system. Cable equipment may open a blockage; jetting can remove additional grease or deposits, while a camera can help investigate repeat problems such as roots or a displaced joint. Photos and a record of prior work help determine which equipment and inspection steps may be appropriate.",
+    "meta": "Drain cleaning in Lucan, Ontario, with guidance on cable clearing, jetting, septic lines, and camera inspection.",
+    "problem_h": "Does the same drain keep backing up?",
+    "problem_p": "Record which fixtures are affected and how often the blockage returns. If the line serves a septic system, identify its route and avoid assuming that methods suitable for another drain are appropriate for that system.",
+    "features": [
+      [
+        "refresh",
+        "Compare Cable Clearing and Jetting",
+        "Ask what method is proposed and what the blockage suggests. A cable can open a restricted passage; jetting may help remove grease or buildup after access is restored. If a line has old joints or other known vulnerabilities, discuss those before choosing higher-pressure cleaning, since condition can affect the method and scope."
+      ],
+      [
+        "droplets",
+        "Identify Septic-System Connections",
+        "If the drain runs to a septic tank or bed, provide the system layout if available and identify cleanouts and prior service points. Ask how the proposed cleaning accounts for the tank and field. Avoid assuming chemicals are a substitute for mechanical cleaning; the destination and condition of the line can influence appropriate handling."
+      ],
+      [
+        "shield",
+        "Use a Camera for Repeat Blockages",
+        "If a line blocks repeatedly, ask whether camera inspection is suitable after access is opened. Footage may show roots, a dropped joint, or a crushed section, helping distinguish a recurring structural issue from removable buildup. Request the relevant footage or findings so the next scope can be compared against what is actually visible."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Lucan, Ontario",
-    h1: "Repiping From a Local Middlesex Plumbing Team",
-    intro: "Housing in Lucan spans original village builds with supply lines old enough to vote twice, farmhouses patched across generations, and a scattering of seventies-era homes carrying polybutylene that never earned anyone's trust. Lucan Plumbing replaces the failing layers with PEX and copper. Runs get planned around fieldstone foundations and finished spaces, water stays on overnight for the household, and the finished gauge reading is the difference owners notice first.",
-    meta: "Repiping in Lucan, Ontario. Galvanized and polybutylene replacement with PEX and copper for village homes and Biddulph farmhouses.",
-    problem_h: "Rust at the tap, trickle at the shower?",
-    problem_p: "Lucan Plumbing strips out dead supply piping and lands clean lines that deliver pressure the house has not felt in decades.",
-    features: [
-      ["wrench", "Fieldstone and Plumber-Friendly Routes", "Old Lucan basements are stone, short joists, and surprises. New piping gets routed to be serviceable, not just to be hidden."],
-      ["home", "Generational Fixes, Not Patches", "A clamp gets a farm family through the weekend. A repipe gets them through the next thirty years, and we quote the difference honestly."],
-      ["shield", "Permits Pulled, Tests Proven", "Everything files under the proper authority and passes gauge testing before cover-up. The paper trail supports resale and insurance questions later."]
+    "icon": "wrench",
+    "kicker": "Repiping in Lucan, Ontario",
+    "h1": "Plan a Whole-Home Repipe in Lucan",
+    "intro": "Repiping in Lucan can involve replacing galvanized supply piping, polybutylene, or a mixture of repairs added over time. Before comparing proposals, photograph visible pipe materials, corrosion, low-flow fixtures, and any previous repairs. Ask how the new PEX or copper routes will reach fixtures, especially if a property has fieldstone foundations, short joists, or finished rooms that limit access. A route designed for future service may require a different approach from one focused on concealing every pipe. Clarify testing and any required approvals in the written scope.",
+    "meta": "Repiping in Lucan, Ontario, with planning guidance for galvanized or polybutylene replacement using PEX or copper.",
+    "problem_h": "Are corrosion or low-flow problems appearing at several fixtures?",
+    "problem_p": "Document affected fixtures, visible pipe material, and previous patches. If access involves fieldstone, short joists, or finished rooms, compare routing and restoration details because they can change the repiping scope.",
+    "features": [
+      [
+        "wrench",
+        "Plan Routes Around Existing Construction",
+        "Photograph basement walls, joists, and finished areas, and ask where new piping would run. If the home has fieldstone foundations or restricted cavities, compare accessible, serviceable routes with concealed alternatives. The route affects access, future maintenance, and any finish work, so it should be clear before estimates are compared."
+      ],
+      [
+        "home",
+        "Compare a Repipe With Local Repairs",
+        "List the material and location of visible failures, including clamps or replacement sections installed over time. Ask which portions a proposed repipe replaces and which remain. A local repair may suit an isolated failure, while widespread deterioration or incompatible materials can change the case for broader replacement; the scope should explain the distinction."
+      ],
+      [
+        "shield",
+        "Verify Testing and Approval Requirements",
+        "Ask what pressure or gauge testing will be documented before pipes are covered, and who is responsible for confirming any applicable approval requirements. Request a written record of the completed work and tested sections. These details help clarify what is included and provide useful information for later maintenance or questions during a property sale."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Lucan, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Middlesex Plumbing Team",
-    intro: "Whether it is a second bathroom for the hired hand's season, a mudroom sink that survives boots and field dust, or the long-planned update of the village bathroom with its sixty-year-old rough-in dimensions, Lucan Plumbing does the fixture work the area actually calls for. We install toilets that flush like they mean it, taps built for water that arrives carrying mineral, and utility setups sized for farm volume.",
-    meta: "Fixture and toilet installation in Lucan, Ontario. Durable fixtures, mudroom and farm utility setups, and village bathroom renovations.",
-    problem_h: "Rough-in older than the renovator?",
-    problem_p: "Lucan Plumbing adapts old dimensions to modern fixtures and installs hardware equal to hard water and hard use.",
-    features: [
-      ["home", "Old Openings, New Fixtures", "Village bathrooms here come with spacing and drains laid out for a different era. We adapt the rough-in rather than forcing the fixture to fit badly."],
-      ["check", "Mudroom and Farm Utility Grade", "Deep utility sinks, frost-conscious hydrant placement, and wash-down taps that shrug off grit are standard orders on our Biddulph calls."],
-      ["shield", "Hardware for Mineral Water", "Village supply and area wells both carry hardness. Cartridge-based taps and quality finishes stand up to it, and that is what we set."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Lucan, Ontario",
+    "h1": "Plan Fixture and Toilet Installation in Lucan",
+    "intro": "A fixture replacement in Lucan may be a straightforward swap or a renovation affected by an older rough-in, unusual drain spacing, or a utility area built for heavier use. Before choosing a toilet, tap, or sink, measure the existing connections and photograph the fixture, shutoffs, and surrounding finishes. If a bathroom has older dimensions, confirm that the new fixture fits without compromising clearances. For mudrooms or farm utility spaces, describe expected use and exposure to grit or cold so materials and placement can be compared appropriately.",
+    "meta": "Fixture and toilet installation in Lucan, Ontario, including older rough-ins, utility sinks, and fixture selection.",
+    "problem_h": "Will a modern fixture fit an older bathroom layout?",
+    "problem_p": "Measure the rough-in and photograph the drain, supply connections, and available clearances. If the space serves as a working mudroom or utility area, describe its use because fixture depth, placement, and materials may need to differ.",
+    "features": [
+      [
+        "home",
+        "Measure Older Rough-Ins",
+        "Record the toilet rough-in, drain location, wall clearance, and existing supply position before selecting a replacement. If an older bathroom has non-standard spacing, ask whether the fixture can be adapted to the existing layout or whether plumbing changes are needed. Those measurements affect fit, usable clearance, and the work required behind finished surfaces."
+      ],
+      [
+        "check",
+        "Specify Utility and Mudroom Use",
+        "For a mudroom or farm utility sink, describe what will be washed and whether the area is exposed to cold. Compare basin depth, tap reach, and the location of nearby water supplies. If a hydrant or exposed line is part of the project, ask how its placement and freeze exposure will be considered."
+      ],
+      [
+        "shield",
+        "Compare Materials and Maintenance Needs",
+        "If mineral deposits have affected existing taps, photograph the buildup and ask how proposed cartridges and finishes can be maintained. Do not assume a particular water condition without testing or observation. Compare replacement parts, cleaning requirements, and finish durability alongside the fixture price, since these details influence long-term upkeep."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Lucan, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Middlesex Plumbing Team",
-    intro: "Water travels a long way on a Lucan-area property before anyone sees it, under stone floors, along yard runs to the barn, down through ceiling cavities that hide the drip until the stain gives it away. Lucan Plumbing finds it first. Listening equipment hears the loss through finishes, pressure isolation cuts the property into testable sections, and thermal imaging reads the temperature shadow wet leaves behind.",
-    meta: "Leak detection and repair in Lucan, Ontario. Acoustic and thermal location for hidden leaks, yard lines, and well-fed systems.",
-    problem_h: "Stain overhead, sound behind the wall?",
-    problem_p: "Lucan Plumbing traces hidden losses across the village and out along the concessions, then repairs the one section at fault.",
-    features: [
-      ["droplets", "Section-by-Section Isolation", "Closing zones and watching the gauge turns a whole-property mystery into a single identifiable run before anything gets opened."],
-      ["shield", "Yard and Milk-House Lines", "Buried feeds to barns and wash rooms rarely leak visibly. We trace, locate, and repair the exact failing length with a single dig."],
-      ["check", "Well Equipment Cleared First", "A tired pressure switch mimics a leak well enough to fool anyone. It gets tested and ruled out before walls or floors open."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Lucan, Ontario",
+    "h1": "Plan Leak Detection and Repair in Lucan",
+    "intro": "A hidden leak in Lucan may be under a floor, inside a ceiling, or along a buried feed to an outbuilding. Record when the signs appear, such as a stain, unexplained water use, or a sound near a wall, and photograph affected areas before opening finishes. Depending on access and system type, assessment may use acoustic listening, thermal imaging, or pressure isolation to narrow the suspected section. If the property is well-fed, include pressure-switch and pump information, since equipment faults can resemble a leak.",
+    "meta": "Leak detection and repair planning in Lucan, Ontario, using acoustic, thermal, and pressure-isolation methods as appropriate.",
+    "problem_h": "What can help narrow down a hidden leak?",
+    "problem_p": "Photograph stains and note water-use changes, sounds, and affected fixtures. If the property has a well, record pressure-switch or pump symptoms, since equipment problems can resemble a plumbing leak and may change which tests are needed.",
+    "features": [
+      [
+        "droplets",
+        "Isolate Sections Before Opening Finishes",
+        "Ask whether valves can divide the plumbing into testable sections and what gauge readings will be recorded. If a loss stops when one zone is isolated, that can narrow the search before walls or floors are opened. The available shutoffs and system layout affect how efficiently this diagnostic approach can be used."
+      ],
+      [
+        "shield",
+        "Trace Buried Feeds to Outbuildings",
+        "If a barn, milk house, or other outbuilding has a buried water feed, provide its route, shutoff locations, and any visible wet areas. Ask how the suspected section will be located before excavation. A defined failure point can help limit digging, while uncertain routing or access may change the repair scope."
+      ],
+      [
+        "check",
+        "Check Well Equipment Before Cutting",
+        "On a well-fed system, note pump cycling, pressure changes, and whether pressure falls when fixtures are off. Ask that the pressure switch and related equipment be considered before opening walls or floors. A worn control can mimic a leak, so distinguishing equipment behaviour from a pipe loss may prevent unnecessary access work."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Lucan, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Middlesex Plumbing Team",
-    intro: "The flat country around Lucan drains slowly at the best of times, and thaw season puts that plainly on display in every low basement between the village and the Ausable flats. Lucan Plumbing installs sump systems that treat spring as a scheduled event rather than a gamble. Proper basin depth, a duty-rated cast-iron pump, backup power for outage nights, and discharge routed far enough out to actually leave the property, that is the standard package.",
-    meta: "Sump pump installation in Lucan, Ontario. Duty-rated pumps, battery backup, and thaw-season protection for flat-country basements.",
-    problem_h: "Basement taking water every thaw?",
-    problem_p: "Lucan Plumbing builds sump systems for slow-draining flat country, with the pump, the pit, and the outflow all sized together.",
-    features: [
-      ["shield", "Pump and Pit Engineered Together", "Shallow pits in wet ground make pumps short-cycle to death. We set depth and capacity as a pair so the system paces itself through weeks of thaw."],
-      ["zap", "Backup Through the Outage", "North Middlesex weather takes lines down in the same storms that fill pits. Battery backup keeps the floor dry precisely then."],
-      ["check", "Outflow That Actually Leaves", "A short discharge loop pours meltwater straight back to the stone. We route it out and away, clear of drives, wells, and septic beds."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Lucan, Ontario",
+    "h1": "Plan Sump Pump and Backwater Work in Lucan",
+    "intro": "When planning sump or backwater work in Lucan, start with the basement’s water history rather than assuming one pump arrangement suits every property. Record when water appears, the depth and condition of the existing pit, pump details, and any power interruptions during wet weather. If a property has a shallow basin or repeated short cycling, pit depth and pump capacity may need to be considered together. Also trace the discharge route and identify nearby drives, wells, and septic components before comparing proposed layouts.",
+    "meta": "Sump pump planning in Lucan, Ontario, including pit sizing, backup power, and discharge routing.",
+    "problem_h": "Does water return to the basement during thaw or heavy rain?",
+    "problem_p": "Record water timing, pit dimensions, pump cycling, and power interruptions. If the discharge returns near the foundation or approaches a well or septic area, include that route in the assessment because outflow placement can affect the project.",
+    "features": [
+      [
+        "shield",
+        "Assess the Pit and Pump as a Pair",
+        "Measure the basin and note how often the pump starts and stops. If a pit is shallow or the pump cycles frequently, ask how basin depth and pump capacity will be evaluated together. Their relationship affects run time and equipment wear, so a pump-only replacement may not address the underlying setup."
+      ],
+      [
+        "zap",
+        "Plan for Power Interruptions",
+        "Check whether the current system has a battery backup, where it is located, and how it is maintained. If outages have coincided with rising water, compare backup options and ask what the backup can support and for how long. Power and pump requirements affect the equipment scope and ongoing checks."
+      ],
+      [
+        "check",
+        "Trace Discharge Away From the Building",
+        "Follow the discharge pipe and photograph where it ends, including nearby driveways, wells, and septic components. Ask how water will be routed away from the foundation without creating a new drainage concern. The available route and site constraints can change pipe length, outlet position, and the work needed."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Lucan, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Middlesex Plumbing Team",
-    intro: "Village supply up here runs hard, and the wells scattered across Biddulph run harder, with iron that writes on toilet bowls and the occasional sulphur signature that greets you at the tap on warm mornings. Lucan Plumbing starts every treatment design with the water itself, tested, not guessed. Village homes get straightforward softening, wells get staged treatment with iron removal ahead of the softener and ultraviolet where results call for it.",
-    meta: "Water softeners and filtration in Lucan, Ontario. Softeners, iron and sulphur treatment, and UV systems for village water and rural wells.",
-    problem_h: "Bowls staining, taps furring, water smelling?",
-    problem_p: "Lucan Plumbing designs treatment from your actual water test, village main or country well alike.",
-    features: [
-      ["gauge", "Treatment Sequenced Properly", "Iron ahead of softening, sulphur handled where it lives, UV last in line. Order of operations decides whether the equipment works or fouls."],
-      ["droplets", "Well Test as the Blueprint", "Biddulph wells vary concession to concession. The design follows the lab sheet for your water, never a regional average."],
-      ["shield", "Serviceable by Design", "Bypasses, valves, and salt access get placed for real humans in real utility spaces, so upkeep stays a five-minute chore."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Lucan, Ontario",
+    "h1": "Plan Water Softening and Filtration in Lucan",
+    "intro": "Water treatment choices in Lucan should follow the property’s actual water results, not an assumed citywide profile. If the home is on a well, arrange appropriate testing and compare the results for hardness, iron, and other identified concerns before choosing equipment. A municipal supply and a private well may call for different treatment plans. Where testing supports it, a sequence might include iron removal before softening and ultraviolet treatment later in the line. Photograph the utility space and note access for salt, valves, and maintenance.",
+    "meta": "Water softener and filtration planning in Lucan, Ontario, based on water testing and system requirements.",
+    "problem_h": "What water test should guide a treatment system?",
+    "problem_p": "Start with recent results that identify the concern, rather than choosing equipment from taste or staining alone. For a well, confirm which treatment stages the test supports and in what order, since water characteristics can affect equipment selection and maintenance.",
+    "features": [
+      [
+        "gauge",
+        "Set Treatment Order From Results",
+        "Compare test results with the proposed treatment sequence and ask what each stage is intended to remove. If iron is present, iron treatment may need to precede a softener; ultraviolet equipment, when indicated, is generally positioned after other treatment. The water results and equipment requirements determine whether that sequence fits the system."
+      ],
+      [
+        "droplets",
+        "Use the Property’s Well Test",
+        "If the home has a private well, provide a current laboratory report and ask which findings drive each equipment choice. Well results can vary between properties, so a regional assumption is not a substitute for testing. Confirm whether additional tests are needed before selecting iron, sulphur, softening, or ultraviolet treatment."
+      ],
+      [
+        "shield",
+        "Check Service Access and Bypass Layout",
+        "Photograph the proposed installation space and note room for salt, valves, and filter changes. Ask where the bypass and shutoffs will sit and what routine maintenance requires. A technically suitable system can be difficult to maintain if access is restricted, so the utility-room layout should be part of equipment comparisons."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Heater sat in an unheated farm shed and froze its first winter here. They reinstalled inside with proper heat trace and insulation, no issues since.", "Farmer", "Culloden"],
-  ["Village drain that rodded clean every spring still plugged by June. Camera found the dropped joint, they replaced that section, and two years clear now.", "Homeowner", "Lucan"],
-  ["Galvanized from the fifties came out of our village bungalow in two days of staged work. Water on every night, and the pressure is unrecognizable.", "Resident", "Lucan"],
-  ["Mystery damp in the stone basement turned out to be a leaking yard line to the wash room. They isolated, traced, dug once. Exactly where they said it would be.", "Farmer", "Ailsa Craig"],
-  ["Every thaw the sump ran nonstop and the floor still sweated. New deep basin and a real pump, discharge moved well out. Dry through the last two springs.", "Homeowner", "Parkhill"],
-  ["Well test showed iron and bacteria after the spring floods. Iron filter, softener, and UV staged in the right order, water finally tastes of nothing.", "Farmer", "Granton"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless installs chosen around the well, the household, and the room they live in, village or farm.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Rodding, jetting, and camera inspection for village drains and long septic runs across Biddulph.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized and polybutylene replacement routed to be serviceable in fieldstone basements and finished spaces.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Durable toilets and taps, mudroom and farm utility setups, and old-rough-in bathroom renovations.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic, thermal, and isolation testing that finds losses under stone floors and along yard lines.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Thaw-ready sump systems with duty-rated pumps, backup power, and outflow routed off the property.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Village softening and staged well treatment with iron, sulphur, and UV handled in the right order.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless capacity with household demand, fuel and venting needs, and the installation room. If a property uses a well or an unheated space, include recovery and freeze-protection considerations.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Consider cable clearing, jetting, or camera inspection based on the blockage and line condition. Identify whether the drain serves a septic system, and document repeat backups before selecting an approach.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Plan galvanized or polybutylene replacement with PEX or copper, and compare routes through fieldstone basements, joists, and finished spaces. Confirm testing and approval requirements in the project scope.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Measure older rough-ins before choosing toilets or taps. For mudroom and utility setups, compare sink depth, fixture placement, materials, and any exposure to cold or grit.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Acoustic listening, thermal imaging, and pressure isolation may help narrow hidden losses under floors or along buried yard feeds. Well equipment should also be considered when symptoms overlap.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare pit depth and pump capacity, consider backup power if outages matter, and trace discharge routing. Nearby foundations, drives, wells, and septic components can affect the outlet plan.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use water test results to compare softening and staged treatment. If results indicate iron or other concerns, ask how treatment order and maintenance access affect the proposed system.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed for work in Lucan and Biddulph?", "Yes, licensed and filing permits through the proper authority for any drain, vent, or supply work. Rural township or village, the standard holds."],
-  ["Can you come urgently out this way?", "We run priority response for bursts, backups, and no-water calls across Lucan, Parkhill, Ailsa Craig, and the gravel between them."],
-  ["Water heater in a cold outbuilding, is that a problem?", "It is solvable. Insulation, heat trace, and sometimes relocation keep the unit and its piping alive through north Middlesex January cold."],
-  ["Old house with patchy repairs. Full repipe or more patches?", "When clamps outnumber original fittings, the piping is done. Repiping in stages keeps cost manageable, and pressure comes back like a new house."],
-  ["Do you handle septic-side plumbing?", "Yes, drain runs to the tank, bed-friendly cleaning methods, and the fixtures that feed it are all regular work on Biddulph properties."],
-  ["Our well stains and smells. Where do we start?", "With a test, always. The lab sheet drives the treatment order, iron first, softener second, UV where bacteria show up after flooding."],
-  ["How do you handle pricing?", "Straight quotes in writing before work starts, with repair and replacement options priced side by side when both are honest answers."],
-  ["How far from Lucan do you go?", "Across Biddulph and neighboring townships, taking in Parkhill, Ailsa Craig, Granton, Denfield, Exeter, and down into London."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/lucanplumbing.ca-water-heaters.jpg", "Water heater installation in Lucan, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/lucanplumbing.ca-drain-cleaning.jpg", "Drain cleaning in Lucan, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/lucanplumbing.ca-repiping.jpg", "Repiping in Lucan, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/lucanplumbing.ca-fixtures-toilets.jpg", "Fixture installation in Lucan, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/lucanplumbing.ca-leak-detection.jpg", "Leak detection in Lucan, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/lucanplumbing.ca-sump-pumps.jpg", "Sump pump installation in Lucan, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/lucanplumbing.ca-water-softeners.jpg", "Water treatment installation in Lucan, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/lucanplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Lucan, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/lucanplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning in Lucan, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/lucanplumbing.ca-repiping.jpg",
+    "Repiping in Lucan, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/lucanplumbing.ca-fixtures-toilets.jpg",
+    "Fixture installation in Lucan, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/lucanplumbing.ca-leak-detection.jpg",
+    "Leak detection in Lucan, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/lucanplumbing.ca-sump-pumps.jpg",
+    "Sump pump installation in Lucan, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/lucanplumbing.ca-water-softeners.jpg",
+    "Water treatment installation in Lucan, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

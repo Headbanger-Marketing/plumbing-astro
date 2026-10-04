@@ -1,158 +1,320 @@
-// Per-site content for goderichplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Goderich, Huron County, on Lake Huron.
-// Local angle: lake-effect storms and the power outages that ride with them
-// (battery backup, backwater valves), century brick housing around the
-// historic square and harbour flats with clay and cast-iron sewers, room-
-// by-room repipes that keep families in the house, and iron-heavy wells in
-// Colborne and the rural townships east of town.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Goderich, Ontario",
-    h1: "Water Heater Installation From a Local Huron Plumbing Team",
-    intro: "Lake-effect country is hard on neglected water heaters, and Goderich's stock of century brick homes and postwar bungalows holds thousands of tanks at or past their best years. Goderich Plumbing installs and replaces tank and tankless water heaters throughout town and the Huron townships, sizing to the household, bringing venting up to current code, and scheduling swaps so the lake wind is the only cold thing in the house.",
-    meta: "Water heater installation in Goderich, Ontario. Tank and tankless replacement sized to the household, code-compliant venting, and prompt service along the Huron lakeshore.",
-    problem_h: "Tank weeping at the base, or lukewarm mornings?",
-    problem_p: "Goderich Plumbing replaces aging tanks fast and installs new units right, with clear pricing before the work starts.",
-    features: [
-      ["flame", "Right Unit, Right House", "A four-bedroom near the square and a cottage above the beach road have different demands. We match capacity and recovery to the actual home, then install to code."],
-      ["clock", "Storm-Season Readiness", "The worst time to lose hot water is the week the power blinks. We replace marginal tanks before they fail and stage installs around the weather."],
-      ["shield", "Permit and Inspection Included", "Every Goderich install is taken out under permit, pressure and relief checked, and inspected. The paperwork matters when the house changes hands."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Goderich, Ontario",
+    "h1": "Plan a Water Heater Installation in Goderich",
+    "intro": "For a water heater installation in Goderich, first compare the existing unit’s fuel, capacity, age, venting route, and available space with the household’s hot-water use. Tank and tankless systems have different sizing and installation needs, so note how many people live in the home and whether demand peaks at particular times. If the project involves an older building or a change in equipment type, ask how the proposed unit will connect to existing services and what venting and inspection requirements apply.",
+    "meta": "Compare tank and tankless water heater options, capacity, fuel, venting, and installation requirements for a Goderich home.",
+    "problem_h": "Is the water heater leaking or failing to keep up?",
+    "problem_p": "Photograph the unit label, connections, and any visible leak. Those details help clarify whether the project is a replacement, a capacity change, or a more involved installation.",
+    "features": [
+      [
+        "flame",
+        "Choose capacity for household demand",
+        "Record the tank size or model and note when hot water runs short, such as during overlapping showers. Compare those details with the household’s usual demand before selecting a replacement. Capacity and recovery needs affect which equipment may suit the home, particularly when several fixtures are used close together."
+      ],
+      [
+        "clock",
+        "Compare venting and equipment type",
+        "Before considering tankless equipment or a different fuel, check the existing heater’s fuel supply, vent route, clearances, and installation space. Photograph the label and vent connections. A change in equipment can require different venting or service connections, which may alter the work and should be assessed before choosing a unit."
+      ],
+      [
+        "shield",
+        "Ask about testing and inspection",
+        "Request a clear scope showing how the new heater will connect to the water and fuel services, how venting will be handled, and what testing is planned. Ask which permits or inspections may apply to the specific project and who is responsible for confirming those requirements. Keep equipment and inspection documents with the home’s records."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Goderich, Ontario",
-    h1: "Drain Cleaning From a Local Huron Plumbing Team",
-    intro: "Downtown Goderich grew up with clay and cast-iron beneath it, and a town this old earns its drain calls honestly: roots in the laterals, grease in the kitchen line, and storm water testing old connections. Goderich Plumbing snakes, hydro-jets, and cameras drains from the historic square to the harbour flats and out into the rural townships, clearing the immediate blockage and identifying the condition behind it.",
-    meta: "Drain cleaning in Goderich, Ontario. Snaking, hydro-jetting, and camera inspection of roots, grease, and aging laterals across town and the Huron countryside.",
-    problem_h: "Toilet gurgling when the washer drains?",
-    problem_p: "That sound is a line fighting a blockage. We clear it properly and scope it if the problem keeps returning.",
-    features: [
-      ["refresh", "Cleared and Cleaned", "Cutting through the clog is step one. Jetting scours the pipe wall so the same drain does not refill with the same grease and silt next month."],
-      ["droplets", "Scoped, Not Guessed", "Recurring backups get a camera pass before any repair quote. Roots, offset joints, and sags look different on screen, and the fix follows what we see."],
-      ["shield", "Storm-Hardened Advice", "Old combined connections around the harbour take water in heavy lake events. We advise on backwater protection and drainage so the next storm stays outside."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Goderich, Ontario",
+    "h1": "Understand the Cause of a Drain Blockage",
+    "intro": "For drain cleaning in Goderich, describe which fixtures are slow or backing up, when the problem began, and whether several drains are affected at once. A blockage near one fixture may call for different equipment than a recurring problem in a larger drain line. Snaking, hydro-jetting, and camera inspection serve different purposes. If a camera is considered, ask what pipe condition it can help establish and whether the findings will guide a separate repair decision.",
+    "meta": "Compare drain snaking, hydro-jetting, and camera inspection for a blockage or recurring drain problem in Goderich.",
+    "problem_h": "Do other fixtures gurgle when one drain runs?",
+    "problem_p": "Note which fixtures are affected and when symptoms occur. That pattern can help distinguish a local clog from a problem farther along the drain line.",
+    "features": [
+      [
+        "refresh",
+        "Match cleaning equipment to the blockage",
+        "Ask whether snaking or hydro-jetting is being considered and why. A snake can reach and break through a blockage, while jetting uses water to clean deposits from pipe walls when the pipe and conditions are suitable. The pipe material, access, and suspected material matter, so confirm the proposed method fits the line before work begins."
+      ],
+      [
+        "droplets",
+        "Use a camera for recurring problems",
+        "If the blockage returns, ask whether camera inspection could show roots, an offset joint, a sag, or another visible condition. Request an explanation of what the camera can and cannot establish, and how the recording relates to any repair recommendation. The findings can help compare clearing the line again with investigating a specific pipe section."
+      ],
+      [
+        "shield",
+        "Check storm-related connections if relevant",
+        "If the affected drain is connected to older or combined storm and sanitary piping, ask whether stormwater could be contributing during heavy rain. Confirm which connections are actually present before considering backwater protection or drainage changes. A description of when backups occur, along with any available pipe records, can help define what needs investigation."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Goderich, Ontario",
-    h1: "Repiping From a Local Huron Plumbing Team",
-    intro: "Brick facades age beautifully, and the galvanized behind them does not, which describes half the plumbing calls in old Goderich. Goderich Plumbing repipes in PEX and copper, working room by room to keep the house livable, cutting access where it hides best, and finishing with a pressure test and municipal inspection. From a single bath stack to the complete service, the aim is flow restored and walls respected.",
-    meta: "Repiping in Goderich, Ontario. Galvanized and polybutylene replacement in PEX or copper, room-by-room scheduling, and permitted, inspected finishes.",
-    problem_h: "Rust-tinted water and one tap killing the shower?",
-    problem_p: "Old supply lines are narrowing. We replace them with modern piping and return full pressure to every floor.",
-    features: [
-      ["wrench", "Old House, Modern Pipe", "Century construction rewards planning. We route new lines through accessible chases and joist bays, keeping openings few and patching what remains."],
-      ["home", "Livable Room by Room", "Families stay in the house during a Goderich repipe. Sequencing keeps a working bathroom available until the last section is tested and tied in."],
-      ["shield", "Tested and Papered", "Pressure testing precedes inspection, and inspection precedes the paperwork you keep. The repipe stands up to insurers and buyers alike."]
+    "icon": "wrench",
+    "kicker": "Repiping in Goderich, Ontario",
+    "h1": "Plan a Water Supply Repiping Project",
+    "intro": "Repiping in Goderich may involve a single section or a broader replacement, depending on the pipe material, condition, and symptoms. Record which taps have low flow, whether water is discoloured, and whether the issue changes when other fixtures run. If a home has galvanized or polybutylene supply piping, ask what sections are present and how the proposed work will connect to existing lines. PEX and copper are possible materials; access, routing, and the project scope influence the choice.",
+    "meta": "Plan PEX or copper repiping in Goderich by comparing existing pipe material, symptoms, access, and project scope.",
+    "problem_h": "Does one tap lose pressure when another is used?",
+    "problem_p": "Photograph accessible pipes and note which fixtures are affected. This helps establish whether the concern involves one branch, several sections, or a wider repiping scope.",
+    "features": [
+      [
+        "wrench",
+        "Map routes and access before work",
+        "If the home has older construction, identify accessible chases, joist bays, and finished areas before discussing pipe routes. Photograph existing access points and note rooms that are difficult to open. Routing affects how much wall or ceiling access may be needed, and helps compare a targeted replacement with a larger project."
+      ],
+      [
+        "home",
+        "Set a room-by-room work sequence",
+        "Ask which water services will be interrupted and how the work can be sequenced if the home remains occupied. Confirm when each bathroom or kitchen will be unavailable and when sections are expected to be connected and tested. A practical sequence depends on the pipe layout and access, and can help the household plan around temporary service interruptions."
+      ],
+      [
+        "shield",
+        "Clarify testing and inspection steps",
+        "Request the proposed pipe material, connection locations, pressure-testing plan, and any inspection requirements for the project. If walls or ceilings will be opened, ask which areas are included in the plumbing scope and which finishing work is separate. Written details make it easier to compare quotations and retain a record of the completed piping."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Goderich, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Huron Plumbing Team",
-    intro: "Between the heritage districts and the new builds creeping out along the highways, Goderich fixture work ranges from careful period replacements to complete modern bathrooms. Goderich Plumbing installs toilets, faucets, tubs, and showers, roughs in renovations, and replaces the builder-grade trim that hard Huron water has finally finished. Everything gets set level, sealed properly, and tested before we pack up.",
-    meta: "Fixture and toilet installation in Goderich, Ontario. Toilets, faucets, tubs, and showers for heritage homes, renovations, and new construction.",
-    problem_h: "Bathroom remodel starting, or a faucet beyond saving?",
-    problem_p: "We install fixtures that suit the house and the water, from the historic square to the newest subdivision.",
-    features: [
-      ["home", "Period and Modern", "Heritage bathrooms need supply and drain work that respects the original while meeting code. New builds need efficient fixtures installed right the first time. We do both."],
-      ["check", "Renovation Rough-Ins", "Moving a toilet or adding a shower means drains and vents planned before the floor goes down. We rough in to layout and pass inspection on schedule."],
-      ["shield", "Built for Local Water", "Huron hardness wears cheap washers out in a few seasons. We favour fixtures with serviceable cartridges and finishes that tolerate it."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Goderich, Ontario",
+    "h1": "Plan Fixture Installation or Bathroom Rough-In",
+    "intro": "Fixture projects in Goderich can range from replacing a toilet or faucet to moving drains and supplies as part of a bathroom renovation. Before requesting a scope, photograph the existing fixture connections, note the proposed layout, and identify any changes to the toilet, tub, or shower location. If the home has older finishes or a renovation is underway, access and the existing drain and vent arrangement can affect what must be done before new flooring or wall finishes are installed.",
+    "meta": "Plan toilet, faucet, tub, shower, and bathroom rough-in work in Goderich, including layout and connection considerations.",
+    "problem_h": "Are you replacing a fixture or changing the bathroom layout?",
+    "problem_p": "Share the fixture model and a simple layout or photos. Moving a toilet or adding a shower changes the drain and vent planning, not just the finish selection.",
+    "features": [
+      [
+        "home",
+        "Check fit and existing connections",
+        "For a replacement, compare the new fixture’s dimensions and connection locations with the existing setup. In an older bathroom, photograph the supply and drain connections and note nearby finishes that should be protected. Fit and access can affect installation scope, while a period-style fixture may require different considerations than a standard modern replacement."
+      ],
+      [
+        "check",
+        "Plan rough-ins before finishes",
+        "If a toilet is moving or a shower is being added, confirm the proposed layout and ask how drains and vents will be routed before floors and walls are closed. Request clarification on inspection requirements and which rough-in measurements must be confirmed. Early coordination can prevent a fixture choice or finished surface from restricting access to needed plumbing connections."
+      ],
+      [
+        "shield",
+        "Compare materials and service access",
+        "If water hardness is a concern at the property, ask which fixture parts are replaceable and how cartridges or washers can be serviced. Compare the manufacturer’s care instructions and available replacement parts rather than assuming a finish or fitting will suit every supply. Accessible shutoffs and serviceable components can affect future maintenance and repair scope."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Goderich, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Huron Plumbing Team",
-    intro: "Stone foundations and thick plaster hide water patiently, which is why a small leak in an older Goderich home often announces itself as a smell or a bill before it shows itself as a stain. Goderich Plumbing tracks hidden leaks with acoustic and pressure methods, above the harbour roads and out through the townships, then repairs the failure with openings sized to the problem and a full account of what was found.",
-    meta: "Leak detection and repair in Goderich, Ontario. Acoustic and pressure location of hidden leaks in stone, plaster, and slab construction across Huron County.",
-    problem_h: "Musty corner that never dries out?",
-    problem_p: "Trace moisture usually has a plumbing source. We locate it precisely and repair the line with minimal disturbance.",
-    features: [
-      ["droplets", "Sound Before Surgery", "Acoustic gear hears water escaping a line before anyone opens a wall. The repair opening lands where the leak is, not where suspicion was."],
-      ["shield", "Difficult Access Solved", "Stone walls and finished basements make leaks awkward, not invisible. We isolate sections by pressure and read the results before cutting."],
-      ["check", "Findings You Can Use", "Every search ends with a clear explanation and a written record, useful for insurance, resale, or simply deciding what to fix first."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Goderich, Ontario",
+    "h1": "Investigate and Repair a Hidden Plumbing Leak",
+    "intro": "For leak detection in Goderich, note where moisture appears, when it is noticeable, and whether the area changes after plumbing fixtures are used. A stain or musty smell does not by itself identify the source. If a property has stone walls, plaster finishes, a finished basement, or a slab, explain those conditions before investigation because they can affect access. Acoustic and pressure methods may help narrow the search, while the repair scope depends on the leak’s confirmed location.",
+    "meta": "Compare acoustic and pressure methods for locating hidden plumbing leaks in Goderich, including access considerations.",
+    "problem_h": "Is a damp area returning after it dries?",
+    "problem_p": "Photograph the moisture and note nearby plumbing and timing. This information can guide investigation before a wall, floor, or ceiling is opened.",
+    "features": [
+      [
+        "droplets",
+        "Use sound to narrow the search",
+        "Ask whether acoustic equipment may help locate escaping water in the affected line. Share when the sound or moisture occurs and identify nearby fixtures. Acoustic findings can help target an opening, but the method and access depend on the pipe and site conditions; ask how the suspected location will be confirmed before repairs begin."
+      ],
+      [
+        "shield",
+        "Investigate difficult-to-access sections",
+        "If a leak may be behind stone, plaster, a finished basement, or beneath a slab, ask whether pressure testing can isolate sections of the plumbing. Record which shutoffs or lines are accessible and whether pressure changes have been observed. Those details can help narrow the search and determine whether further investigation is needed before cutting into finished surfaces."
+      ],
+      [
+        "check",
+        "Request clear findings and next steps",
+        "Ask for an explanation of the suspected or confirmed leak location, the method used, and the repair proposed. If the source remains uncertain, clarify what further testing would establish before authorizing an opening or repair. Written findings and photographs can help organize repair decisions and provide a useful record for future maintenance or property documentation."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Goderich, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Huron Plumbing Team",
-    intro: "When a storm rolls off Lake Huron, the two questions that decide a dry basement are whether the pump runs and whether the power stays on, and Goderich Plumbing engineers for both. We install basins and pumps sized to the foundation, battery backup that carries through outage after outage, and backwater valves on sewers that take storm water, so the wind can howl while the floor stays dry.",
-    meta: "Sump pump and backwater valve installation in Goderich, Ontario. Outage-proof battery backup, correctly sized pumps, and storm protection for lakeshore homes.",
-    problem_h: "Storm forecast already worrying you?",
-    problem_p: "We size, install, and back up sump systems so Goderich basements ride out lake-effect weather without a puddle.",
-    features: [
-      ["shield", "Sized for Lake Weather", "Sustained lake-effect rain is a different test than a summer shower. The pump and basin get sized for the long, wet version of Huron County weather."],
-      ["zap", "Outage-Proof Operation", "The storms that fill the basin are the storms that knock lines down. Battery and water-driven backup options keep pumping through the outage."],
-      ["refresh", "Valves That Hold the Line", "A backwater valve set to code keeps the sewer on its side of the basement during system surges. Permitted, installed, and inspected."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Goderich, Ontario",
+    "h1": "Review Sump Pump and Backwater Protection Options",
+    "intro": "For a sump pump or backwater project in Goderich, start by recording where water enters, how the existing pump is arranged, and whether the concern occurs during heavy rain or a power outage. If the property has a sump basin, photograph the pump label, discharge route, and any backup equipment. A battery backup, water-driven backup, or backwater valve addresses a different scenario, so confirm the plumbing layout and outage risks before comparing options.",
+    "meta": "Compare sump pump, battery or water-driven backup, and backwater valve options for a Goderich property.",
+    "problem_h": "Does water collect during storms or power interruptions?",
+    "problem_p": "Photograph the basin, pump, and discharge route, and note any outage-related problems. Those details help define whether the concern is pumping capacity, backup power, or sewer flow.",
+    "features": [
+      [
+        "shield",
+        "Size the pump for the site",
+        "If a sump basin is present, note its dimensions, pump model, discharge route, and how often the pump runs. Ask how the proposed pump capacity relates to the site’s water entry and basin. Sustained inflow is a different demand from occasional water, so those observations help assess pump and basin requirements without assuming a particular local condition."
+      ],
+      [
+        "zap",
+        "Compare backup choices and limits",
+        "If the pump is needed during outages, ask how a battery backup or water-driven backup would connect to the existing system. Confirm what the backup can operate, its expected limits, and how it will be tested and maintained. The choice depends on the pump, available services, and likely outage duration, so compare the proposed arrangement with the property’s actual setup."
+      ],
+      [
+        "refresh",
+        "Check whether a backwater valve applies",
+        "A backwater valve is relevant only where the plumbing layout and sewer connections make it appropriate. Ask for confirmation of its location, access for maintenance, and any applicable permit or inspection requirements. If stormwater or sewer surges are a concern, identify the connected lines first; this changes whether a valve, sump work, or another investigation is the appropriate scope."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Goderich, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Huron Plumbing Team",
-    intro: "Huron water is hard, and on the wells east and north of town it arrives with iron and the smell of sulphur as frequent travelling companions. Goderich Plumbing installs softeners and filtration matched to an actual test of your supply, in-town municipal customers included, plumbs each system for easy service, and sets the regeneration schedule to your usage rather than a factory default.",
-    meta: "Water softeners and filtration in Goderich, Ontario. Softeners, iron filters, and sulphur treatment sized to water tests for town and township homes.",
-    problem_h: "Kettle furred and shower doors fogged white?",
-    problem_p: "Classic Huron hardness. We test, size, and install treatment that clears the water and protects the fixtures.",
-    features: [
-      ["gauge", "Capacity Matched to Use", "A seasonal cottage and a full household soften differently. We size grain capacity to the real occupants so salt and water are not wasted."],
-      ["droplets", "Iron and Sulphur Handled", "Well customers around Goderich routinely deal with staining and odour. The correct filter sequence removes both, staged to the test results."],
-      ["shield", "Serviceable by Design", "Bypass, pre-filter, and clear access are planned into every install, so annual maintenance is a short visit instead of a rebuild."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Goderich, Ontario",
+    "h1": "Choose Water Treatment From Test Results",
+    "intro": "Water treatment in Goderich should begin with a test of the property’s actual supply, not an assumption based on its address. Identify whether the home uses municipal water or a private well, and gather any recent test results before comparing softeners or filters. If testing shows hardness, iron, or sulphur-related odour, each concern may call for a different treatment sequence. Household size, water use, and space for service access also affect equipment selection and settings.",
+    "meta": "Compare water softeners and filtration for a Goderich property using actual supply tests and household water use.",
+    "problem_h": "Are deposits, staining, or an odour affecting water use?",
+    "problem_p": "Record the symptoms, water source, and any test results. Treatment depends on what testing finds, so those details help avoid choosing equipment by guesswork.",
+    "features": [
+      [
+        "gauge",
+        "Match capacity to household use",
+        "If a softener is being considered, note the number of occupants, typical water use, and whether the home is seasonal or occupied year-round. Ask how the proposed capacity and regeneration settings relate to those figures. Correct sizing can affect regeneration frequency and salt and water use, so compare equipment using the household’s actual pattern rather than a default setting."
+      ],
+      [
+        "droplets",
+        "Choose filtration from test results",
+        "If a well test identifies iron or a sulphur-related odour, ask which treatment stages are proposed and how each relates to the test results. Municipal and private well supplies should not be treated as interchangeable assumptions. Request the test basis, expected maintenance, and any pre-treatment requirements; this helps explain the equipment sequence and avoids selecting a filter for an unconfirmed issue."
+      ],
+      [
+        "shield",
+        "Plan access for service and maintenance",
+        "Before installation, identify space for the unit, bypass, pre-filter, and access to connections that may need routine service. Ask what maintenance the equipment requires and how the settings can be checked or adjusted. Clear access can make filter changes and servicing simpler, while cramped placement may change installation scope or limit practical equipment choices."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Tank went during the first cold snap of the season. They had the new one in before the weekend was out.", "Homeowner", "Goderich"],
-  ["Camera showed roots where three drain cleaners had just snaked. Jetted and cut properly, and the drain finally stayed clear.", "Resident", "Vanastra"],
-  ["Repiped our brick century home with the family still living in it. One bathroom worked the whole time, walls patched beautifully.", "Homeowner", "Goderich"],
-  ["Power was out two days in the spring storm and the battery backup kept the pit empty. Worth every penny of the install.", "Cottage Owner", "Benmiller"],
-  ["Well water was turning the tub orange. Their iron filter and softener setup fixed it inside a month.", "Farmer", "Dungannon"],
-  ["Found a pinhole leak behind plaster with that listening gear in twenty minutes. Opening was the size of a paperback.", "Homeowner", "Holmesville"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless installation with storm-season scheduling and code-corrected venting across Goderich and Huron.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Snaking, jetting, and camera inspection for roots, grease, and aging laterals from the square to the harbour.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "PEX and copper repipes planned for century construction, done room by room while the family stays put.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Period-appropriate and modern fixture installs, renovation rough-ins, and builder-grade replacements.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and pressure location of leaks hiding in stone, plaster, and slab across Huron County.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Outage-proof pumping with battery backup and backwater valves rated for lake-effect storms.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Treatment sized to water tests, from municipal supply in town to iron and sulphur wells in the townships.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless equipment by household demand, fuel, venting route, and installation space before planning a replacement in Goderich.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Consider snaking, hydro-jetting, or camera inspection according to blockage symptoms, pipe condition, and whether the problem keeps returning.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Compare PEX or copper replacement scopes by existing pipe material, accessible routes, finished areas, and the service interruptions involved.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan toilet, faucet, tub, or shower work around fixture fit, existing connections, and any drain or vent changes required by a renovation.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Use moisture timing, accessible plumbing details, and construction type to plan acoustic or pressure investigation before opening finished surfaces.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare sump capacity, battery or water-driven backup, and backwater valve suitability against the property’s plumbing layout and outage concerns.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use water test results, supply type, household demand, and service access to compare softeners and filtration equipment.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed to do plumbing work in Goderich?", "Yes. Our plumbers are fully licensed and insured, permits are pulled for the work that requires them, and every job closes with inspection under the Ontario Building Code."],
-  ["Do you take emergency calls along the lakeshore?", "Yes. Flooding, sewer backup, burst piping, and total loss of water are dispatched as emergencies across Goderich, Vanastra, and the surrounding Huron townships at any hour."],
-  ["Our water heater is fourteen years old. Replace now or wait?", "At that age the tank is on borrowed time, and waiting usually means replacing the floor along with it. We can inspect it and, if replacement is due, schedule the swap before it fails."],
-  ["What does repiping a century home involve?", "Planning first. We map the existing runs, choose routes that minimize openings in plaster, work section by section to keep water on, and close with pressure testing, inspection, and clean patching."],
-  ["Can you treat well water outside town?", "That is a large share of our work. Iron filters, sulphur systems, UV disinfection, and softeners are all sized to your specific well test, not a generic package."],
-  ["Is Goderich water hard enough to justify a softener?", "In town and out, the answer is usually yes. The hardness here scales heaters and fixtures measurably, and a correctly sized softener removes that cost from the household."],
-  ["How is your pricing handled?", "Written and upfront. The itemized quote comes before work begins and holds unless you approve a change, on a repair or a full repipe alike."],
-  ["What area does your truck cover?", "Goderich and the immediate lakeshore, plus Clinton, Bayfield, Blyth, Auburn, and the rural routes between them."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/goderichplumbing.ca-water-heaters.jpg", "Water heater installation in Goderich, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/goderichplumbing.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Goderich, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/goderichplumbing.ca-repiping.jpg", "Whole-home repiping in Goderich, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/goderichplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Goderich, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/goderichplumbing.ca-leak-detection.jpg", "Leak detection and repair in Goderich, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/goderichplumbing.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Goderich, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/goderichplumbing.ca-water-softeners.jpg", "Water softener and filtration installation in Goderich, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/goderichplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Goderich, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/goderichplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning and hydro-jetting in Goderich, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/goderichplumbing.ca-repiping.jpg",
+    "Whole-home repiping in Goderich, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/goderichplumbing.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Goderich, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/goderichplumbing.ca-leak-detection.jpg",
+    "Leak detection and repair in Goderich, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/goderichplumbing.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Goderich, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/goderichplumbing.ca-water-softeners.jpg",
+    "Water softener and filtration installation in Goderich, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

@@ -1,159 +1,320 @@
-// Per-site content for bayfieldplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Bayfield, Huron County, on Lake Huron.
-// Local angle: cottage country. A village that swells in summer and sits
-// cold from October to April, so every service carries a seasonal lens:
-// winterization and de-winterization, 1950s-70s cottages on galvanized and
-// polybutylene in crawlspaces, guest-season drain loads, spring-opening
-// leak discoveries, and a shallow lakeside water table plus private wells
-// with iron and sulphur.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Bayfield, Ontario",
-    h1: "Water Heater Installation From a Local Huron Plumbing Team",
-    intro: "Bayfield houses split their year between full-time residents and the summer wave, and the water heater has to survive both patterns, including a winter of sitting cold. Bayfield Plumbing installs tank and tankless heaters sized to cottage life or family life as required, with freeze-tolerant installation details, drain provisions that protect the floor, and scheduling that respects the May long weekend like the civic institution it is.",
-    meta: "Water heater installation in Bayfield, Ontario. Tank and tankless units for year-round homes and seasonal cottages, installed with freeze protection in mind.",
-    problem_h: "Cottage hot water down to a lukewarm trickle?",
-    problem_p: "Bayfield Plumbing replaces cottage and residential water heaters with the season in mind, quickly and to code.",
-    features: [
-      ["flame", "Cottage and Residential Sizing", "A weekend place for six in July needs different equipment than a full-time home for two. We size to the pattern the house actually lives."],
-      ["clock", "Shoulder-Season Swaps", "Spring and fall are the windows cottage owners plan around, and we plan around them too, booking installs before the rush and after the close."],
-      ["shield", "Installed to Survive Winter", "Vacant months change the rules. Heat tracing, drain pans, and shut-down procedures are part of a proper Bayfield water heater install."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Bayfield, Ontario",
+    "h1": "Plan a Water Heater Installation in Bayfield",
+    "intro": "Choosing a replacement water heater starts with how the property is used, the available fuel and venting, and the space around the unit. A seasonal cottage occupied by several people at once may have different demand from a year-round household. Compare tank and tankless options against the hot-water needs, utility connections, and installation clearances. If the building sits vacant in winter, ask how draining, freeze protection, and safe shutdown should be handled, and whether a drain pan and suitable discharge route are needed.",
+    "meta": "Compare tank and tankless water heater options for Bayfield homes and cottages, including winter shutdown and freeze-protection considerations.",
+    "problem_h": "Does hot water run short when the cottage is full?",
+    "problem_p": "Compare household demand, unit capacity, fuel, and venting before selecting a replacement. For a seasonal property, include a clear winter shutdown plan in the project scope.",
+    "features": [
+      [
+        "flame",
+        "Size for the way the home is used",
+        "Record how many people use hot water at once, the number of bathrooms, and whether demand is concentrated in weekends or spread across the year. Compare those details with proposed tank recovery or tankless output. This helps distinguish an undersized unit from a change in usage, and gives a sound basis for comparing equipment."
+      ],
+      [
+        "clock",
+        "Plan around seasonal use",
+        "Before arranging a seasonal installation, confirm when the property is accessible, how the existing heater will be handled, and whether the water system will be shut down afterward. Ask what work must be completed before the building is left vacant. This makes the timing and scope clearer without assuming that a particular installation window or appointment is available."
+      ],
+      [
+        "shield",
+        "Include winter protection and drainage",
+        "If the home is left unheated or its water is shut off during winter, ask how the heater and connected lines should be drained or protected. Photograph the unit, nearby floor drain, and available discharge route. Check proposed clearances, drain-pan provisions, and shutdown instructions; the building layout and equipment type affect what protection is appropriate."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Bayfield, Ontario",
-    h1: "Drain Cleaning From a Local Huron Plumbing Team",
-    intro: "Cottage drains face an honesty test every long weekend, when a house built for four suddenly holds twelve, and decades of guest-season grease sit in lines that were small to begin with. Bayfield Plumbing clears kitchen, bath, and main drains with snaking and hydro-jetting, checks the line with a camera when clogs become tradition, and keeps the whole system working through the season that pays for it.",
-    meta: "Drain cleaning in Bayfield, Ontario. Snaking and hydro-jetting for cottage and residential drains, with camera checks for recurring seasonal clogs.",
-    problem_h: "Same drain backing up every long weekend?",
-    problem_p: "That is a line with a story, and we clear it well enough to end the tradition.",
-    features: [
-      ["refresh", "Cleared for the Season", "Jetting strips the walls of the pipe clean, so the guest-house surge in August meets a drain at full capacity instead of half."],
-      ["droplets", "Camera Ends the Guessing", "Recurring clogs point to roots, sags, or buildup. The scope shows which one, and the plan follows the picture."],
-      ["shield", "Gentle on Old Systems", "Cottage-country lines include everything from modern plastic to brittle old clay. We match the method to the pipe so clearing does not become cracking."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Bayfield, Ontario",
+    "h1": "Plan Drain Cleaning in Bayfield",
+    "intro": "A recurring blockage can call for more than another pass with a cable. First note which fixtures are slow, whether several drains are affected, and when the symptoms occur. Snaking and hydro-jetting suit different situations, and neither should be selected without considering the pipe material and condition. If a clog returns, a camera inspection may help distinguish roots, a sag, or accumulated buildup. Photos of cleanouts and records of earlier work can help define the scope before clearing begins.",
+    "meta": "Compare drain snaking, hydro-jetting, and camera inspection for recurring or seasonal drain problems in Bayfield.",
+    "problem_h": "Does the same drain back up whenever the property is busy?",
+    "problem_p": "Track which fixtures are affected and how often the blockage returns. Ask whether a camera inspection is appropriate before choosing a clearing method for the pipe.",
+    "features": [
+      [
+        "refresh",
+        "Choose a clearing method with care",
+        "Ask whether the proposed method is snaking or hydro-jetting and why it suits the reported blockage. Jetting can remove buildup from pipe walls, but pipe material, condition, and access matter. Share previous repair records and identify cleanouts so the method and expected scope can be compared before work starts."
+      ],
+      [
+        "droplets",
+        "Use a camera to investigate repeat clogs",
+        "When a blockage returns, ask whether a camera can show roots, a sag, or buildup in the affected line. Note how often the problem occurs and which fixtures are involved. A view of the pipe can help narrow the next step and avoid treating a suspected cause as confirmed before inspection."
+      ],
+      [
+        "shield",
+        "Check pipe condition before clearing",
+        "Older lines may include clay, while newer sections may use plastic; the actual material and condition should be checked rather than assumed. Photograph visible cleanouts and share any known pipe history. Ask how the clearing method will be matched to the line, since fragile or damaged pipe may change the safe scope."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Bayfield, Ontario",
-    h1: "Repiping From a Local Huron Plumbing Team",
-    intro: "A large share of Bayfield's housing stock went up as summer places in the fifties through seventies, which means crawlspaces full of galvanized and polybutylene that were never meant to see fifty Canadian winters. Bayfield Plumbing repipes cottages and year-round homes in PEX, routing through tight crawlspace and joist runs, pressure-testing everything, and converting seasonal plumbing into plumbing that no longer needs the winter off.",
-    meta: "Repiping in Bayfield, Ontario. Galvanized and polybutylene replacement for cottages and year-round homes, with crawlspace routing and pressure testing.",
-    problem_h: "Fifty-year-old pipes under the cottage floor?",
-    problem_p: "They have done their time. We replace them with PEX sized to the house and tested before the floor goes back.",
-    features: [
-      ["wrench", "Crawlspace Specialists", "Low clearances and long spans are the norm here. We work them properly, insulating and supporting the new runs as we go."],
-      ["home", "Seasonal to Full-Time", "Converting a cottage for year-round living changes the plumbing requirements. We repipe for the four-season version of the house."],
-      ["shield", "Tested, Permitted, Done", "Pressure testing and inspection close every Bayfield repipe, with documentation for insurance on a property that now behaves."]
+    "icon": "wrench",
+    "kicker": "Repiping in Bayfield, Ontario",
+    "h1": "Plan a Repiping Project in Bayfield",
+    "intro": "Repiping may be considered when visible corrosion, leaks, or aging pipe materials make repeated repairs impractical. The scope depends on what is actually installed, how much of the system is affected, and whether the property is seasonal or occupied through winter. Photograph accessible pipe markings, crawlspace entries, and tight joist runs before requesting a comparison. If PEX is proposed, ask how routes, supports, insulation, pressure testing, and access for inspection will be handled before finishes are restored.",
+    "meta": "Plan replacement of aging water lines in Bayfield, including crawlspace routing, PEX options, supports, insulation, and pressure testing.",
+    "problem_h": "Are aging pipes or recurring leaks prompting a repipe?",
+    "problem_p": "Document visible pipe material, leak locations, and access constraints. Compare proposed replacement routes and ask how pressure testing will be recorded before surfaces are closed.",
+    "features": [
+      [
+        "wrench",
+        "Map crawlspace and joist routes",
+        "If pipes run through a crawlspace or tight joist bays, record access points, clearances, and any obstructions with photographs. Ask how new runs will be supported and insulated, and whether access panels or finish work affect the estimate. Route length and working space can change both the project scope and the practical sequence of work."
+      ],
+      [
+        "home",
+        "Define the intended occupancy",
+        "A building changing from seasonal to year-round use may need a different plumbing plan. List fixtures, expected occupancy, and any areas that will remain unheated. Compare the proposed layout with those requirements and ask how vulnerable runs will be protected. This helps ensure the scope reflects the intended use rather than simply reproducing the existing arrangement."
+      ],
+      [
+        "shield",
+        "Verify testing and inspection requirements",
+        "Ask what pressure test will be performed on the replacement lines and how the result will be documented before walls or floors are closed. Confirm which inspections or permits, if any, apply to the specific project with the appropriate authority. Keep photographs of accessible work and records of materials, since they can assist future maintenance and project review."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Bayfield, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Huron Plumbing Team",
-    intro: "Cottage refreshes and lakeside builds both end at the fixtures, and Bayfield Plumbing handles that ending well, installing outdoor showers that survive November, guest bathrooms that survive August, and kitchens built for the crowd that arrives with the warm weather. We set toilets, faucets, and showers level and sealed, and rough in the new spaces before the finishes commit.",
-    meta: "Fixture and toilet installation in Bayfield, Ontario. Outdoor showers, guest bathrooms, and lakeside kitchen installs for cottages and homes.",
-    problem_h: "Outdoor shower on the project list?",
-    problem_p: "We install them to drain right and to survive the winter, along with every indoor fixture the plan calls for.",
-    features: [
-      ["home", "Indoors and Out", "An outside shower needs frost-aware plumbing, not a garden hose arrangement. We plumb them properly with drainage that works and shutoffs where they belong."],
-      ["check", "Guest-Grade Capacity", "Houses that swell in July need fixtures and drains sized for the crowd. We install hardware that keeps up with the company."],
-      ["shield", "Finish-Friendly Installs", "Cottage finishes are often custom. We coordinate stub-outs and valves to the plan so nothing gets cut twice."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Bayfield, Ontario",
+    "h1": "Plan Fixture and Toilet Installation in Bayfield",
+    "intro": "Fixture work can range from replacing a toilet or faucet to roughing in an outdoor shower, guest bathroom, or kitchen. Before comparing proposals, note the fixture locations, existing supply and drain points, and any finishes that should remain untouched. Outdoor plumbing needs particular attention to drainage, shutoffs, and winter exposure. For a renovation, share the fixture specifications and finished-wall measurements early; valve positions and stub-outs are harder to change after tile, cabinetry, or other finishes are installed.",
+    "meta": "Plan toilet, faucet, shower, and kitchen fixture installation in Bayfield, including outdoor drainage and coordination with finishes.",
+    "problem_h": "Planning an outdoor shower or a new guest bathroom?",
+    "problem_p": "Share fixture specifications, supply and drain locations, and finish plans. Confirm how outdoor lines will drain and where shutoffs will be accessible before work is scoped.",
+    "features": [
+      [
+        "home",
+        "Plan outdoor plumbing for winter",
+        "If an outdoor shower is planned, ask how its supply lines will be shut off and drained before freezing weather. Photograph the proposed location and identify a suitable drainage route. The connection, shutoff position, and drainage arrangement affect the installation scope; a garden-hose connection does not establish that the system is properly protected."
+      ],
+      [
+        "check",
+        "Compare fixtures with expected use",
+        "For a bathroom or kitchen used by many guests at once, list the fixtures and likely simultaneous demand, then ask whether the planned supply and drain arrangement suits that use. Share product specifications before installation. Fixture selection, pipe sizing, and existing drainage can alter the work needed, so capacity should be considered rather than inferred from appearance."
+      ],
+      [
+        "shield",
+        "Coordinate rough-ins with finished surfaces",
+        "Provide drawings or measurements showing tile, cabinetry, and finished wall locations, along with the selected valves and fixtures. Ask where stub-outs and controls should sit before surfaces are closed. Accurate coordination can prevent misplaced connections and avoid reopening custom finishes; changes made after finishing may require additional work."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Bayfield, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Huron Plumbing Team",
-    intro: "A slow leak in a house that sits empty from October to April does not stay small, and the spring walkthrough usually finds what the plumbing spent all winter admitting. Bayfield Plumbing detects leaks acoustically and by pressure isolation, in cottage walls, under floors, and along the yard lines that freeze first, repairs the failure, and winterizes the system so next spring's walkthrough is boring.",
-    meta: "Leak detection and repair in Bayfield, Ontario. Acoustic and pressure location of leaks in seasonal and year-round properties, plus repairs and winterization.",
-    problem_h: "Spring opening revealed a wet ceiling?",
-    problem_p: "We find the source precisely, repair the line, and shut the system down properly in the fall.",
-    features: [
-      ["droplets", "Vacant-Property Specialists", "Leaks in empty houses have all winter to grow. We locate them precisely and repair before the damage compounds."],
-      ["shield", "Yard Lines and Freeze Points", "The runs that freeze first are the ones that fail first. We find the break and reroute or protect the vulnerable section."],
-      ["check", "Winterization That Holds", "Proper fall shut-down, drained lines, and compressed-air clears prevent the spring call entirely. We do them thoroughly."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Bayfield, Ontario",
+    "h1": "Plan Leak Detection and Repair in Bayfield",
+    "intro": "A leak can be difficult to locate when it is behind a wall, beneath a floor, or along a buried yard line. Record when the moisture appears, which fixtures or water systems are in use, and whether the property has been vacant or shut down. Acoustic methods and pressure isolation can help narrow the search, but the appropriate approach depends on access and system layout. Photograph visible damage and note any freezing exposure; locating the source and planning a repair are related but distinct steps.",
+    "meta": "Plan acoustic or pressure-isolation leak investigation and repairs in Bayfield, including seasonal shutdown considerations.",
+    "problem_h": "Did a wet ceiling or floor appear after the property was closed?",
+    "problem_p": "Photograph the damage and note the water-system status, timing, and nearby fixtures. This information can help determine whether acoustic location or pressure isolation is appropriate.",
+    "features": [
+      [
+        "droplets",
+        "Gather details before tracing a leak",
+        "For a vacant property, note when it was last checked, whether water was shut off, and where dampness or staining first appeared. Photograph affected surfaces and accessible pipes. Those observations can help distinguish an active supply leak from another moisture source and guide whether acoustic methods or pressure isolation should be considered."
+      ],
+      [
+        "shield",
+        "Investigate exposed and buried lines",
+        "If a yard line may be involved, mark the approximate route and photograph visible connections, wet areas, or places where the line enters the building. Ask how the suspected section will be located and whether repair or rerouting is being considered. Access, line material, and evidence of freezing can change the investigation and repair scope."
+      ],
+      [
+        "check",
+        "Make a specific winter shutdown plan",
+        "If the building is left vacant in cold weather, ask which lines and equipment need draining and whether compressed air is suitable for the system. Confirm the steps for shutting off water and restoring it safely. The plumbing layout and equipment determine the procedure, so record the plan rather than relying on a generic seasonal checklist."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Bayfield, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Huron Plumbing Team",
-    intro: "Sandy soil, a shallow water table, and a lake at the end of the street give Bayfield basements and crawlspaces a standing challenge, and March tests every one of them before the owners arrive. Bayfield Plumbing installs and services sump systems sized to the grit and the volume that lakeside lots move, with battery backup for the outages, sealed lids for the damp season, and monitoring options for owners who are three hours away when the storm hits.",
-    meta: "Sump pump installation in Bayfield, Ontario. Lakeside-sized pumps, battery backup, and remote-friendly setups for seasonal and year-round properties.",
-    problem_h: "Crawlspace damp at every spring opening?",
-    problem_p: "A right-sized pump with backup changes the season. We install for the water table that comes with the address.",
-    features: [
-      ["shield", "Built for Sandy Lots", "Fine sand moves through pumps that were built for clean water. We install grouted basins and grit-tolerant pumps that survive it."],
-      ["zap", "Backup and Monitoring", "Storm outages happen whether anyone is home or not. Battery backup, with alerts for absentee owners, keeps the basement from filling unattended."],
-      ["refresh", "Opening and Closing Service", "We test and prime systems in the spring and clear them down in the fall, on a schedule built around the Bayfield season."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Bayfield, Ontario",
+    "h1": "Plan Sump Pump and Backwater Work in Bayfield",
+    "intro": "A sump or backwater project should begin with observations about where water appears, when it occurs, and what equipment is already installed. Photograph the pit, pump label, discharge route, and any sediment or debris. If fine sand is present, ask whether the basin and pump are suited to that material; grit can affect equipment choice. Consider power interruptions, backup capacity, alarms, and seasonal testing as separate parts of the plan. The site and existing setup determine the appropriate scope.",
+    "meta": "Compare sump pump, basin, backup power, monitoring, and seasonal service options for a Bayfield property.",
+    "problem_h": "Does water collect in the basement or crawlspace after heavy rain?",
+    "problem_p": "Record water levels, pump operation, discharge routing, and sediment in the basin. Those details help compare pump capacity, grit handling, and backup options.",
+    "features": [
+      [
+        "shield",
+        "Check the basin and sediment",
+        "If the pit contains fine sand or grit, photograph the material and current pump model. Ask how the basin will be sealed or grouted and whether the proposed pump can tolerate the observed solids. Sediment and discharge conditions can influence equipment selection; a pump intended for clean water may not suit every installation."
+      ],
+      [
+        "zap",
+        "Compare backup power and alerts",
+        "If the property may be unattended during an outage, ask what battery backup can support, how long it may operate, and how its condition is checked. Compare optional alerts with the available power and communications setup. Pump capacity, battery condition, and notification limits affect what protection a backup arrangement can reasonably provide."
+      ],
+      [
+        "refresh",
+        "Set a seasonal inspection routine",
+        "If the property is used seasonally, identify when the pump should be tested, primed, or cleared, and what should happen before winter. Photograph the discharge outlet and note any recurring blockage. A written routine tied to the actual equipment and drainage route makes it easier to spot changes and plan maintenance."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Bayfield, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Huron Plumbing Team",
-    intro: "Between the municipal line that serves the village core and the private wells that serve everything around it, Bayfield water quality depends heavily on the address, and both sources skew hard. Bayfield Plumbing tests the actual supply and installs softeners and filtration to match, with compact equipment that fits mechanical rooms that were never really rooms, and settings tuned to intermittent cottage usage as well as daily family demand.",
-    meta: "Water softeners and filtration in Bayfield, Ontario. Softeners and well treatment sized to water tests, compact enough for cottage mechanical spaces.",
-    problem_h: "Shower pressure weak and the kettle white inside?",
-    problem_p: "Two different problems, one water test. We size treatment to what your address actually supplies.",
-    features: [
-      ["gauge", "Compact and Correct", "Cottage utility spaces are tight. We install right-sized equipment that fits the space and still meets the household's grain demand."],
-      ["droplets", "Well Water, Full Treatment", "Wells around Bayfield bring hardness with iron and occasional sulphur. The treatment sequence follows the test, stage by stage."],
-      ["shield", "Seasonal Settings", "A softener that sits all winter needs different programming than one that runs daily. We set both patterns correctly and show you the difference."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Bayfield, Ontario",
+    "h1": "Plan Water Softening and Filtration in Bayfield",
+    "intro": "Treatment equipment should be selected from a water test and the actual supply, not from the property address alone. First confirm whether the home uses municipal water or a private well, then collect recent test results and describe the symptoms observed. Hardness, iron, and other results can call for different treatment stages. Photograph the mechanical space, drains, and nearby connections before comparing equipment. If a cottage sits unused part of the year, ask how the controls and regeneration settings should suit intermittent demand.",
+    "meta": "Compare water softeners and filtration for Bayfield properties using supply type, water-test results, space, and seasonal usage.",
+    "problem_h": "Do you notice scale, staining, or changes in water taste?",
+    "problem_p": "Confirm the supply type and obtain a water test before selecting treatment. Results, available space, and seasonal use all affect the equipment and settings required.",
+    "features": [
+      [
+        "gauge",
+        "Measure the space and household demand",
+        "Photograph the proposed equipment area and measure its access, clearances, drain, and nearby connections. Record household size and water use so proposed capacity can be compared with demand. Tight mechanical spaces may constrain unit dimensions, while an undersized or oversized choice can affect how well the system suits the household."
+      ],
+      [
+        "droplets",
+        "Base well treatment on test results",
+        "If the property uses a private well, obtain a current water test and share the results before selecting a treatment sequence. Ask which measured conditions each stage is intended to address and how stages fit together. Do not assume that hardness, iron, or sulphur is present; testing and the reported symptoms should guide the proposed equipment."
+      ],
+      [
+        "shield",
+        "Set controls for seasonal use",
+        "If water use stops for part of the year, ask how the softener or filter should be set during vacancy and restarted afterward. Compare the settings with those for daily household use, and request clear operating instructions. Usage patterns and equipment controls affect regeneration and maintenance, so seasonal settings should follow the specific system and test results."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Water heater was original to the cottage. New one installed with a pan and heat trace before we closed up in October.", "Cottage Owner", "Bayfield"],
-  ["Kitchen drain plugged every August like clockwork. They jetted it and the camera found the belly. Fixed properly at last.", "Cottage Owner", "Zurich"],
-  ["Pulled the poly-B from under the cottage floor and insulated the new lines. First winter we left the heat down, nothing split.", "Resident", "Bayfield"],
-  ["Outdoor shower plumbed properly with a real drain. No more bucket-and-hose routine for the sandy feet parade.", "Cottage Owner", "Kippen"],
-  ["Spring opening found a leak from a frozen yard line. They located it fast, repaired it, and winterized everything in the fall.", "Homeowner", "Egmondville"],
-  ["Softener sized for a family of six in July and two all winter. Programmed properly, and it actually keeps up.", "Cottage Owner", "Dashwood"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless installs for seasonal and year-round Bayfield homes, with freeze-aware details and fall shut-downs.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Snaking and hydro-jetting for guest-season surges, plus camera checks when the clog becomes a tradition.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized and polybutylene replacement through crawlspace and joist runs, converting seasonal plumbing to four-season.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Outdoor showers, guest bathrooms, and lakeside kitchens installed level, sealed, and sized for company.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and pressure location of leaks in vacant properties, plus yard-line freeze repairs and winterization.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Grit-tolerant pumps, battery backup, and seasonal service for high-water-table lakeside lots.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Compact softeners and well treatment sized to the water your address actually supplies.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless capacity, fuel, venting, and winter shutdown requirements for a seasonal cottage or year-round Bayfield home.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Consider snaking or hydro-jetting based on pipe condition, and use camera inspection to investigate blockages that return.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Document aging pipe materials and crawlspace access, then compare replacement routes, supports, insulation, and pressure testing.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan toilets, faucets, outdoor showers, guest bathrooms, and kitchens around supply, drainage, winter shutoffs, and finished surfaces.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Record leak symptoms and property shutdown history to help compare acoustic location, pressure isolation, yard-line repair, and winterization.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare basin and pump suitability, battery backup, alerts, and seasonal checks using observed water, sediment, and discharge conditions.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use water-test results, supply type, available space, and seasonal demand to compare softeners and filtration options.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed to work on Bayfield properties?", "Yes, licensed and insured. Every permit-required job is filed and inspected properly, which matters for cottages at resale and for insurance on vacant-season properties."],
-  ["Do you handle emergencies in cottage country?", "Yes. We cover Bayfield and the surrounding lake roads for floods, burst lines, and no-water calls, and we can also attend for owners who cannot get there themselves."],
-  ["Our cottage water heater failed on the May weekend. Help?", "That is our busiest call of the year, and we plan staffing for it. Most Bayfield swaps happen same-day or next-day in season with common sizes on the truck."],
-  ["Should we repipe the cottage before converting to year-round?", "If the under-floor piping is galvanized or polybutylene, yes, it belongs on the conversion list. We assess the crawlspace runs and quote the PEX replacement to fit the project."],
-  ["Can you deal with our well water?", "Wells around Bayfield are our daily work. Testing first, then softeners, iron filters, and UV as the results call for, sized to household or cottage usage."],
-  ["Is the village water hard enough to soften?", "It runs hard enough to scale kettles and fixtures, yes. A softener sized to your household takes care of it, and we fit equipment to small mechanical spaces."],
-  ["How do you price work?", "Written quotes before work starts, itemized and held to. Seasonal scheduling means planning ahead costs you less than the emergency alternative."],
-  ["Where do you work around Bayfield?", "Bayfield village and the lake roads, plus Zurich, Egmondville, Kippen, Vanastra, and over toward Goderich and Grand Bend."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/bayfieldplumbing.ca-water-heaters.jpg", "Water heater installation in Bayfield, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/bayfieldplumbing.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Bayfield, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/bayfieldplumbing.ca-repiping.jpg", "Whole-home repiping in Bayfield, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/bayfieldplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Bayfield, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/bayfieldplumbing.ca-leak-detection.jpg", "Leak detection and repair in Bayfield, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/bayfieldplumbing.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Bayfield, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/bayfieldplumbing.ca-water-softeners.jpg", "Water softener and filtration installation in Bayfield, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/bayfieldplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Bayfield, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/bayfieldplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning and hydro-jetting in Bayfield, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/bayfieldplumbing.ca-repiping.jpg",
+    "Whole-home repiping in Bayfield, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/bayfieldplumbing.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Bayfield, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/bayfieldplumbing.ca-leak-detection.jpg",
+    "Leak detection and repair in Bayfield, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/bayfieldplumbing.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Bayfield, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/bayfieldplumbing.ca-water-softeners.jpg",
+    "Water softener and filtration installation in Bayfield, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

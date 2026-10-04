@@ -1,197 +1,408 @@
-// Per-site content for hamiltonplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Hamilton, at the west end of Lake Ontario.
-// Local angle: century semis and rowhouses in the lower city with original
-// galvanized supply lines and clay laterals, old combined-sewer districts where
-// heavy rain backs into basements, rented hot water tanks in cramped cellars,
-// postwar wards on the Mountain, and steady renovation work across every
-// neighbourhood from Dundas to Stoney Creek.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Hamilton, Ontario",
-    h1: "Water Heater Service From a Local Hamilton Plumbing Team",
-    intro: "Plenty of Hamilton households are still paying monthly on a rented tank that is older than the car in the driveway, and Hamilton Plumbing Pros swaps, installs, and repairs water heaters across every corner of the city. From a tight basement cell in a lower-city semi to a spacious utility room in a Mountain subdivision, our licensed plumbers size the replacement properly, vent it to current code, and connect it the same visit whenever a tank has already let go.",
-    meta: "Water heater installation and replacement in Hamilton, Ontario. Rented tank buyouts, tankless upgrades, and same-day emergency swaps by licensed local plumbers.",
-    problem_h: "Tank leaking, or ready to stop renting?",
-    problem_p: "We replace failing tanks and set up owned units across Hamilton, with clear pricing and clean code-compliant venting every time.",
-    features: [
-      ["flame", "Buy Out the Rented Tank", "Ending a rental agreement is simpler than most Hamilton homeowners expect. We remove the old unit, handle the swap paperwork direction you need, and install an owned tank or tankless system that stops the monthly charge for good."],
-      ["clock", "Same-Day Emergency Replacements", "A tank leaking onto the basement floor cannot wait a week. Common sizes ride on our trucks, so most Hamilton emergency swaps finish the same day, disposal of the old tank included."],
-      ["shield", "Vented to Current Code", "Older Hamilton homes often carry legacy chimney vents that no longer meet requirements. We bring the new heater up to modern venting standards and arrange the permit so the installation passes review."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Hamilton, Ontario",
+    "h1": "Water Heater Service for Hamilton Homes",
+    "intro": "Planning a water-heater replacement or investigating a tank that is leaking? For a Hamilton home, the right scope depends on the existing fuel, tank capacity, venting, location and condition of nearby connections. Compare the cost and requirements of owning a tank with continuing a rental, and ask whether a tankless unit suits the household’s hot-water demand. Photograph the rating plate, vent route and installation area before requesting a quote; those details help clarify equipment and installation needs.",
+    "meta": "Water heater replacement, repair and tankless planning in Hamilton, Ontario. Compare equipment, capacity and venting requirements.",
+    "problem_h": "Is your tank leaking, or are you weighing rental against ownership?",
+    "problem_p": "Record the tank’s age, fuel, capacity and vent type, and photograph any leak or corrosion. This helps determine whether repair, replacement or a different system needs assessment.",
+    "features": [
+      [
+        "flame",
+        "Compare Rental and Ownership Options",
+        "Before ending a rental, review the agreement for buyout terms, removal requirements and any outstanding charges. Ask for separate estimates for an owned storage tank and a tankless system, including equipment, installation and disposal where applicable. The comparison can change the project scope and clarify whether an existing rental provider must be involved."
+      ],
+      [
+        "clock",
+        "Plan for a Failed or Leaking Tank",
+        "If a tank is actively leaking, note where water is collecting, whether the shutoff is accessible and whether nearby finishes are affected. Photograph the rating plate and connections, then ask what replacement capacity and removal arrangements are proposed. Do not assume a particular model is in stock or that a replacement can be completed the same day."
+      ],
+      [
+        "shield",
+        "Check Venting and Installation Requirements",
+        "Older installations may use a chimney or other venting arrangement that is not suitable for a replacement appliance. Photograph the vent route, nearby clearances and the heater’s rating plate. Ask the installer to explain the proposed venting, fuel connections and any permit or inspection requirements before comparing quotes."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Hamilton, Ontario",
-    h1: "Drain Cleaning From a Local Hamilton Plumbing Team",
-    intro: "Under the older wards of Hamilton lie decades-old clay and cast-iron laterals, mature street trees, and kitchen lines layered with years of grease, so recurring clogs are practically a municipal tradition. Hamilton Plumbing Pros clears kitchen sinks, floor drains, and main sewer lines with professional snaking and hydro-jetting, then puts a camera down the line so you know whether the blockage was a one-off or a symptom of something structural.",
-    meta: "Drain cleaning in Hamilton, Ontario. Main line snaking, hydro-jetting, and camera inspections that find the real cause of recurring clogs.",
-    problem_h: "Floor drain backing up when it rains?",
-    problem_p: "We clear stubborn blockages throughout Hamilton and camera the line to show you exactly what is going on down there.",
-    features: [
-      ["refresh", "Jetting That Actually Cleans", "A cable bores a channel through a clog, while hydro-jetting scours grease and scale off the pipe wall entirely. For Hamilton kitchens and greasy restaurant-adjacent lines, jetting is the difference between cleared today and backed up next month."],
-      ["droplets", "Camera Answers Before Digging", "Repeat backups deserve a real diagnosis. We push a camera through the lateral and show you the root ball, the sagging section, or the cracked joint on screen before anyone talks excavation."],
-      ["shield", "Basement Floor Drain Rescue", "When a Hamilton storm saturates the ground and the floor drain starts to gurgle, the main line needs attention immediately. We respond fast, clear the line, and advise on backwater protection."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Hamilton, Ontario",
+    "h1": "Drain Cleaning and Inspection in Hamilton",
+    "intro": "A recurring blockage can come from grease, scale, an obstruction or damage within a drain line. For a Hamilton property, identify which fixtures are affected and whether the problem returns after clearing; that information helps determine whether a local cable cleaning, hydro-jetting or a camera inspection may be appropriate. If a camera is proposed, ask what section it will inspect and whether you can review the findings. Photograph standing water and note when backups occur before requesting an assessment.",
+    "meta": "Drain cleaning in Hamilton, Ontario, with guidance on snaking, hydro-jetting and camera inspections for recurring blockages.",
+    "problem_h": "Are several fixtures backing up, or does one drain clog repeatedly?",
+    "problem_p": "Note which drains are affected, when the issue occurs and what has already been tried. This helps distinguish a local blockage from a problem farther along the line.",
+    "features": [
+      [
+        "refresh",
+        "Choose a Cleaning Method for the Pipe",
+        "A cable can open a passage through a blockage, while hydro-jetting uses pressurized water to clean deposits from the pipe wall. Ask which method suits the pipe material and reported obstruction, and whether an inspection is needed first. The choice matters because clearing a path and removing accumulated grease or scale are different scopes of work."
+      ],
+      [
+        "droplets",
+        "Use a Camera to Investigate Repeat Backups",
+        "If a blockage keeps returning, ask whether a camera inspection can identify a root intrusion, sagging section or damaged joint before excavation is considered. Confirm which part of the line will be viewed and request an explanation of the footage. The findings can help distinguish routine cleaning from a structural repair that needs separate planning."
+      ],
+      [
+        "shield",
+        "Investigate a Gurgling Floor Drain",
+        "If a floor drain gurgles or backs up during heavy rain, record the timing and check whether other fixtures are affected. Ask whether the issue may involve the main drain line and whether camera inspection or backwater protection should be assessed. The cause cannot be determined from the weather alone, so findings should guide the next step."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Hamilton, Ontario",
-    h1: "Repiping From a Local Hamilton Plumbing Team",
-    intro: "Walk into a century home in Kirkendall, Corktown, or the North End and there is a fair chance the water is still travelling through galvanized steel installed before the war. Hamilton Plumbing Pros replaces those corroded lines, along with failing poly-B runs in postwar neighbourhoods, using PEX or copper routed with care through plaster walls and finished spaces. Flow comes back, the rusty tint disappears, and the pinhole leaks stop for good.",
-    meta: "Repiping in Hamilton, Ontario. Galvanized and poly-B replacement in century homes and postwar neighbourhoods, done under permit with minimal wall damage.",
-    problem_h: "Rust-coloured water and dropping pressure?",
-    problem_p: "Original galvanized piping is the usual culprit in older Hamilton houses, and we replace it cleanly from service to fixture.",
-    features: [
-      ["wrench", "Century-Home Specialists", "Working behind lath and plaster takes patience and the right patching plan. Our crews cut access where it hides best, route flexible PEX through awkward framing, and leave walls ready for a tidy fill-and-sand."],
-      ["home", "Poly-B Eradication", "Neighbourhoods built through the seventies and eighties often carry polybutylene that fails at the fittings. We map the whole system, quote the full picture, and repipe it in materials with a real service life."],
-      ["shield", "Pressure-Tested Under Permit", "Every Hamilton repipe we sign is filed with the city, tested before coverage goes back on, and inspected. The paperwork protects you at resale and proves the work was done properly."]
+    "icon": "wrench",
+    "kicker": "Repiping in Hamilton, Ontario",
+    "h1": "Repiping Options for Hamilton Homes",
+    "intro": "Low pressure, discoloured water or repeated pinhole leaks may justify assessing the home’s piping rather than repairing one section at a time. In a Hamilton property, the scope depends on the pipe material, accessible routes, fixture locations and the condition of finished walls and ceilings. Photograph exposed pipes and any visible corrosion, and note where symptoms occur. Ask whether the proposal covers the full system or only selected runs, which materials are planned and what testing or inspection applies.",
+    "meta": "Repiping guidance in Hamilton, Ontario, including galvanized and polybutylene piping, material choices and project planning.",
+    "problem_h": "Seeing rusty water, low pressure or repeated pipe leaks?",
+    "problem_p": "Photograph exposed pipe markings and visible corrosion, and list which fixtures have symptoms. These details help assess whether a local repair or broader repiping review is appropriate.",
+    "features": [
+      [
+        "wrench",
+        "Plan Access Through Finished Walls",
+        "If pipes run behind plaster, lath or finished surfaces, ask where access openings may be needed and how the proposed routes avoid framing and visible finishes. Compare access plans and clarify who handles patching and finishing. Flexible PEX and copper have different routing considerations, so the material and available access can affect both the work and restoration scope."
+      ],
+      [
+        "home",
+        "Identify Polybutylene and Other Existing Pipes",
+        "If a home has polybutylene, galvanized steel or another older pipe material, photograph accessible markings and fittings rather than relying on the home’s age alone. Ask whether the assessment maps all affected runs, including connections, and whether replacement is proposed throughout or in stages. A complete map makes quotes easier to compare and helps identify the limits of partial work."
+      ],
+      [
+        "shield",
+        "Ask About Testing and Required Approvals",
+        "Before walls are closed, ask how the new piping will be pressure-tested and what inspections or permits may apply to the project. Request written confirmation of the materials, work areas and test results. These details help clarify compliance responsibilities and provide a useful record for future maintenance or a property sale."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Hamilton, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Hamilton Plumbing Team",
-    intro: "Hamilton renovation culture runs from basement second-suites to full bathroom gut-jobs, and every one of those projects lands on the quality of the plumbing underneath. Hamilton Plumbing Pros sets toilets, hangs faucets, and installs tubs, showers, and sinks for homeowners, landlords, and flippers alike. We rough in before the board goes up and trim out after the tile is down, so the finished room works as good as it looks.",
-    meta: "Fixture and toilet installation in Hamilton, Ontario. Faucets, sinks, toilets, tub and shower installs, and renovation rough-ins by licensed plumbers.",
-    problem_h: "Renovating, or fighting a running toilet?",
-    problem_p: "From a single stubborn toilet to a complete bathroom rough-in, our Hamilton crews install fixtures that stay tight and dry.",
-    features: [
-      ["home", "Second-Suite Rough-Ins", "Legal basement apartments need properly permitted plumbing, not a improvised drain run. We rough in suites across Hamilton to satisfy inspection, from the standalone shower drain to the mini water heater tie-in."],
-      ["check", "Faucet and Fixture Swaps", "A dripping tap or a cracked vanity basin is a quick visit for our team. We set new fixtures with quality supply lines and seals so the cabinet underneath stays dry for years, not months."],
-      ["dollar", "Durable Over Decorative", "Rental units and family bathrooms need hardware that survives heavy use. We steer Hamilton landlords toward fixtures that balance looks with the toughness tenants and kids demand."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Hamilton, Ontario",
+    "h1": "Fixture and Toilet Installation in Hamilton",
+    "intro": "A fixture replacement may be a straightforward swap, or part of a larger bathroom renovation that changes drain, supply or fixture locations. For a Hamilton project, confirm what is staying, what is moving and whether the room is ready for rough-in or final installation. Photograph the existing connections, selected fixture labels and available clearances. Ask for the scope to distinguish rough-in work from trim-out after tile and finishes are complete, since timing and access affect installation.",
+    "meta": "Fixture and toilet installation planning in Hamilton, Ontario, including faucets, sinks, tubs, showers and renovation rough-ins.",
+    "problem_h": "Planning a bathroom renovation or dealing with a running toilet?",
+    "problem_p": "Photograph the existing fixture connections and note whether the work is a replacement or a layout change. This helps determine the rough-in, access and finish-stage scope.",
+    "features": [
+      [
+        "home",
+        "Plan Basement Suite Rough-Ins",
+        "If a basement project includes a bathroom, bar or suite, confirm fixture locations and whether drains, vents and water lines are already available. Ask what permit or inspection requirements apply before finishes conceal the work. A shower drain and a small water-heater connection have different requirements, so listing each fixture helps establish a complete rough-in scope."
+      ],
+      [
+        "check",
+        "Prepare for a Faucet or Fixture Swap",
+        "For a dripping faucet, cracked basin or toilet replacement, photograph the supply lines, shutoffs and space below or behind the fixture. Compare the new fixture’s connection requirements with the existing setup and ask whether additional parts or changes are needed. This can distinguish a direct replacement from work involving worn shutoffs, seals or incompatible fittings."
+      ],
+      [
+        "dollar",
+        "Compare Durability and Fit",
+        "When choosing fixtures for a family bathroom or rental, compare dimensions, materials, replacement-part availability and the manufacturer’s care instructions. Ask how the selected hardware fits the existing supply and drain connections. Considering maintenance as well as appearance can change the product choice and reduce the chance that a fixture is unsuitable for frequent use."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Hamilton, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Hamilton Plumbing Team",
-    intro: "Hamilton's older housing stock leaks in silence, behind brick party walls, under stone foundations, and beneath basement slabs, sometimes for months before a stain or a spike on the water bill gives it away. Hamilton Plumbing Pros tracks these hidden failures down with acoustic listening equipment and systematic pressure isolation, marks the spot, and opens the smallest possible hole to make the repair. One visit finds it, the same visit fixes it.",
-    meta: "Leak detection and repair in Hamilton, Ontario. Acoustic location, pressure isolation, and slab leak repair with minimal opening of walls and floors.",
-    problem_h: "Water bill climbing with no explanation?",
-    problem_p: "Hidden leaks waste money quietly in older Hamilton homes. We pinpoint them precisely and repair them the same visit.",
-    features: [
-      ["droplets", "Acoustic Location First", "Guesswork turns one hole into five. Our listening gear pinpoints the leak through plaster and masonry, so the repair opens exactly where the failure is and nowhere else."],
-      ["shield", "Slab and Service Line Leaks", "Warm spots on a basement floor or a perpetually damp foundation edge often mean a leak below or outside. We isolate the failing section and repair or reroute it without excavating the whole yard."],
-      ["check", "Documented for Insurance", "When a hidden leak damages finishes, our written findings and repair records give your insurer what the claim needs. Hamilton homeowners get the full picture in plain language."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Hamilton, Ontario",
+    "h1": "Leak Detection and Repair Planning in Hamilton",
+    "intro": "A hidden leak may show up as a rising water bill, a damp finish or a warm patch on a floor, but the visible symptom does not always identify its source. For a Hamilton property, document when the sign appeared, whether it changes when water is off and which surfaces are affected. Ask whether acoustic listening or pressure isolation is appropriate and what opening or repair may follow. Photographs and a written record help clarify the investigation and repair scope.",
+    "meta": "Leak detection planning in Hamilton, Ontario, including acoustic location, pressure isolation and possible slab or service-line repairs.",
+    "problem_h": "Has your water use increased without an obvious explanation?",
+    "problem_p": "Photograph damp areas or stains, note changes in water use and record when symptoms appear. This helps guide investigation without assuming where the leak is located.",
+    "features": [
+      [
+        "droplets",
+        "Consider Acoustic Location and Isolation",
+        "If a leak may be concealed behind plaster or masonry, ask whether acoustic listening and pressure isolation can narrow the search before a wall is opened. Share any pipe plans and mark the areas where symptoms appear. The investigation method and access plan affect how much of the finish may need to be removed to reach the failure."
+      ],
+      [
+        "shield",
+        "Assess Slab and Service-Line Symptoms",
+        "If a floor feels warm or a foundation edge remains damp, record the location and whether the condition changes over time. Ask whether the suspected section can be isolated and whether repair or rerouting is being considered. A leak beneath a slab or outside the building may require a different scope from a fixture or interior-pipe repair."
+      ],
+      [
+        "check",
+        "Keep Written Findings and Repair Records",
+        "If water damage may involve an insurance claim, ask for written findings that describe the observed symptoms, investigation and completed repair. Photograph affected finishes before work begins and retain relevant invoices or test records. Clear documentation can help explain what was found, though coverage and claim requirements are determined by the insurer."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Hamilton, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Hamilton Plumbing Team",
-    intro: "Parts of older Hamilton still drain into combined sewers, which means one punishing summer downpour can push the whole neighbourhood's storm water back toward the lowest basements on the street. Hamilton Plumbing Pros installs sump pumps, battery backup systems, and backwater valves engineered for that reality. We size the pump to your actual drainage load and set the discharge so it never simply recycles back against the house.",
-    meta: "Sump pump and backwater valve installation in Hamilton, Ontario. Battery backups and main line protection for basements in combined-sewer districts.",
-    problem_h: "One bad storm from a flooded basement?",
-    problem_p: "Homes in Hamilton's older sewer districts need real backup protection, and we design it to fit the house and the street.",
-    features: [
-      ["shield", "Backwater Valves Done Right", "A properly installed backwater valve is the single strongest defence against sewer surcharge in Hamilton's oldest wards. We pull the permit, cut into the main line cleanly, and confirm the city inspection."],
-      ["zap", "Battery Backup That Matters", "The storms that flood basements are the same storms that knock power out. A battery-backed secondary pump keeps water moving through the outage, exactly when the primary is dead."],
-      ["refresh", "Pump Checks and Replacements", "A pump that runs constantly or has not been tested since installation is a liability. We test, service, and replace failing units across Hamilton before the spring melt proves the point."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Hamilton, Ontario",
+    "h1": "Sump Pumps and Backwater Planning in Hamilton",
+    "intro": "Basement water protection should be planned around the property’s drainage layout, sump-pit condition, discharge route and exposure to power interruptions or sewer backup. For a Hamilton home, check whether a sump pump is present, how it discharges and whether a backwater valve is accessible. Photograph the pit, pump label, discharge point and any past water entry. Ask which risks each proposed measure addresses; a pump and a backwater valve protect against different conditions.",
+    "meta": "Sump pump, battery backup and backwater valve planning for Hamilton, Ontario, properties.",
+    "problem_h": "Are you reviewing basement protection after water entry or a power outage?",
+    "problem_p": "Photograph the sump pit, pump label, discharge route and any affected areas. These details help assess pump capacity, backup options and whether sewer protection needs separate review.",
+    "features": [
+      [
+        "shield",
+        "Review Backwater Valve Access and Scope",
+        "If sewer backup is a concern, ask whether a backwater valve is present, where it can be accessed and what work its installation would require on the main drain line. Confirm which approvals or inspections may apply. A valve and a sump pump serve different purposes, so the property’s drainage arrangement affects whether either measure is suitable."
+      ],
+      [
+        "zap",
+        "Compare Battery Backup Options",
+        "If the primary pump depends on household power, check whether a backup battery is installed and note its age, condition and test status. Ask how the backup system is sized and what it can support during an outage. This information helps compare systems and identify whether backup capacity or maintenance is part of the proposed scope."
+      ],
+      [
+        "refresh",
+        "Check Pump Operation and Discharge",
+        "If a pump runs often, makes unusual noise or has not been tested recently, record its label and observe where the discharge ends. Ask how the pump and float switch will be tested and whether the discharge route is appropriate for the site. Pump condition, water inflow and discharge arrangement all affect replacement choices."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Hamilton, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Hamilton Plumbing Team",
-    intro: "Hamilton draws lake water that arrives carrying enough dissolved mineral to white-coat shower doors, choke faucet aerators, and settle scale inside every tank-type heater in the house. Hamilton Plumbing Pros tests the actual hardness at your tap and installs softeners and filtration sized to the household, not to a brochure. Outlying properties on private wells around Binbrook and Flamborough get treatment matched to their specific water chemistry.",
-    meta: "Water softeners and filtration in Hamilton, Ontario. Hard water treatment, whole-home filtration, and well water systems sized to the household.",
-    problem_h: "Scale on every fixture in the house?",
-    problem_p: "Hamilton's water hardness is real and measurable. We test, size, and install treatment that protects the whole plumbing system.",
-    features: [
-      ["gauge", "Tested, Then Sized", "Hardness varies by ward and by well across Hamilton. We measure your water first and match the softener capacity to the household, so regeneration runs efficiently instead of constantly."],
-      ["droplets", "Well Water Treatment", "Rural properties around the city face iron, sulphur odour, and bacteria that lake supply never brings. We build treatment trains with the right filters and UV stage for the test results."],
-      ["dollar", "Protects the Big-Ticket Items", "Softened water extends the life of the heater, the dishwasher, and every fixture finish. The equipment pays for itself slowly in what you stop replacing."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Hamilton, Ontario",
+    "h1": "Water Softener and Filtration Planning in Hamilton",
+    "intro": "Water treatment should be selected from test results, not from assumptions about a city or neighbourhood. For a Hamilton home, first identify whether the supply is municipal or a private well, then test for the concerns relevant to the property. Hardness, iron, sulphur odour and other measured results can call for different equipment, such as a softener, filter stages or ultraviolet treatment. Keep the results and ask how system capacity, maintenance and installation needs were determined.",
+    "meta": "Water softener and filtration planning in Hamilton, Ontario, based on household or well-water test results.",
+    "problem_h": "Are you seeing scale, staining or an unusual water odour?",
+    "problem_p": "Record where the issue appears and whether the property uses municipal supply or a private well. Testing helps identify which treatment, if any, fits the measured water conditions.",
+    "features": [
+      [
+        "gauge",
+        "Test Water Before Choosing a System",
+        "If scale is appearing on fixtures, request a water test and ask which results determine softener capacity and regeneration settings. Household size and water use also affect sizing. Comparing the test results with the proposed equipment helps explain whether a softener is appropriate rather than relying on a general claim about local water."
+      ],
+      [
+        "droplets",
+        "Match Well Treatment to Results",
+        "If a property uses a private well and has iron, sulphur odour or another concern, test the water before selecting treatment. Ask how each proposed filter stage relates to a measured result and whether ultraviolet treatment is being considered for a specific test finding. The results determine the treatment sequence and maintenance requirements."
+      ],
+      [
+        "dollar",
+        "Consider Equipment and Maintenance Together",
+        "If the goal is to reduce scale on a water heater, dishwasher or fixtures, compare the expected treatment benefit with equipment, salt or filter replacement needs. Ask what maintenance the system requires and how performance will be checked. These details help evaluate ongoing costs and whether the proposed equipment suits the household’s water use."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Rented tank started weeping on a Sunday. They had a new owned unit in that afternoon and took the old one away. Should have done it years ago.", "Homeowner", "Hamilton"],
-  ["The main line backed up into the floor drain during that big August storm. They jetted it clear and the camera showed exactly where roots had got in. Fixed properly since.", "Homeowner", "Dundas"],
-  ["Bought a century semi near Gage Park with original galvanized. Full repipe in PEX, and the water pressure upstairs finally exists. Plaster patching was tidy.", "Resident", "Hamilton"],
-  ["Backwater valve and battery backup sump installed before spring. The street flooded and our basement stayed completely dry. Worth every call.", "Homeowner", "Stoney Creek"],
-  ["They roughed in our basement second suite and walked us through the permit stuff without drama. Inspection passed first try.", "Business Owner", "Hamilton"],
-  ["Softener sized off an actual water test, not a guess. Kettle scale is gone within a month and the shower glass finally wipes clean.", "Resident", "Binbrook"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Rented tank buyouts, tankless upgrades, and same-day emergency replacements for Hamilton homes old and new.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Main line snaking, hydro-jetting, and camera inspections that explain why Hamilton drains keep clogging.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized and poly-B replacement through century homes and postwar streets, filed under city permit.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Toilet and faucet installs, tub and shower sets, and second-suite rough-ins across Hamilton renovations.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic leak location and slab leak repair that opens one small hole instead of five big ones.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Pumps, battery backups, and permitted backwater valves built for Hamilton's combined-sewer neighbourhoods.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Softeners and filtration sized to a real water test, for city supply and rural wells alike.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank ownership, rental terms and tankless options. Share the unit’s rating plate, fuel and venting details to help clarify replacement requirements.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Describe which drains are affected and how often blockages return. Snaking, hydro-jetting and camera inspection address different conditions and should be scoped accordingly.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Document visible pipe material, leaks and pressure symptoms. A review can compare partial repairs with replacing galvanized or polybutylene runs and assess access through finished walls.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan toilet, faucet, sink, tub and shower replacements or renovation rough-ins. Fixture locations, connection condition and the project’s finish stage shape the scope.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Record water-use changes and photograph damp finishes or warm floor areas. Acoustic investigation, pressure isolation and repairs to concealed or slab lines depend on findings.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare sump pump, battery backup and backwater valve needs. Pit condition, discharge routing, power dependence and drain layout affect which protection is suitable.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Identify the water source and obtain relevant test results before selecting treatment. Hardness, iron, sulphur odour and other findings can call for different equipment.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are your Hamilton plumbers actually licensed?", "Yes, fully licensed and insured. Any job in Hamilton that requires a plumbing permit gets one, and the work is inspected to the Ontario Building Code before we call it finished."],
-  ["Can you come out tonight for a flooding basement?", "We run emergency service across Hamilton for burst pipes, sewer backups, and no-water calls. Call and we will get a crew moving toward you as fast as the schedule allows, evenings included."],
-  ["How quickly can a failed water heater be replaced?", "In most cases the same day. Standard tank sizes are stocked on the truck, so a Hamilton swap usually wraps in one visit, old unit hauled away."],
-  ["Our century house has weak upstairs pressure. Repipe?", "Almost certainly the galvanized. Original steel narrows with rust until little passes through. We can repipe in PEX or copper and the upstairs fixtures will feel like new."],
-  ["What does a backwater valve do for a Hamilton home?", "It seals the main line against municipal sewer surcharge during heavy rain, which is the exact failure mode in the older combined-sewer districts. We install them under permit with an inspection."],
-  ["Is Hamilton water hard enough to need a softener?", "It is moderately hard, and it shows on glass and in kettles. A right-sized softener stops the scale; we test first so the unit is matched to your actual numbers."],
-  ["Do you charge for quotes and how do you price work?", "Quotes are free and there is no obligation. We walk the job, explain the options, and put the full price in writing before any wrench turns, so nothing gets added later."],
-  ["Which communities around Hamilton do you cover?", "The whole city plus Stoney Creek, Dundas, Ancaster, Waterdown, Binbrook, and Winona. If you are close by and unsure, call and ask, we will tell you straight."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/hamiltonplumbingpros.ca-water-heaters.jpg", "Water heater replacement in Hamilton, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/hamiltonplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning and camera inspection in Hamilton, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/hamiltonplumbingpros.ca-repiping.jpg", "Whole-home repipe in a Hamilton century home", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/hamiltonplumbingpros.ca-fixtures-toilets.jpg", "Fixture installation in Hamilton, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/hamiltonplumbingpros.ca-leak-detection.jpg", "Acoustic leak detection in Hamilton, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/hamiltonplumbingpros.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Hamilton, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/hamiltonplumbingpros.ca-water-softeners.jpg", "Water softener installation in Hamilton, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/hamiltonplumbingpros.ca-water-heaters.jpg",
+    "Water heater replacement in Hamilton, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/hamiltonplumbingpros.ca-drain-cleaning.jpg",
+    "Drain cleaning and camera inspection in Hamilton, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/hamiltonplumbingpros.ca-repiping.jpg",
+    "Whole-home repipe in a Hamilton century home",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/hamiltonplumbingpros.ca-fixtures-toilets.jpg",
+    "Fixture installation in Hamilton, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/hamiltonplumbingpros.ca-leak-detection.jpg",
+    "Acoustic leak detection in Hamilton, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/hamiltonplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Hamilton, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/hamiltonplumbingpros.ca-water-softeners.jpg",
+    "Water softener installation in Hamilton, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "dundas": {
-    name: "Dundas",
-    intro: "Dundas sits in its own valley west of the city core, a mix of preserved 19th-century stone homes, postwar streets, and escarpment-adjacent properties that all drain toward the same creek lowlands. Hamilton Plumbing Pros serves Dundas with repipes for the older housing stock, water heater swaps, drain cleaning, and full renovation rough-ins. Our crews work the valley regularly and know which streets hold original piping.",
-    meta: "Plumber in Dundas, Ontario. Repipes, water heaters, drain cleaning, and fixture installation for valley homes from a licensed Hamilton team.",
-    nearby: ["Ancaster", "Hamilton", "Waterdown", "Flamborough"],
-    faq: [
-      ["Do you repipe the older stone homes in Dundas?", "Yes. Much of Dundas predates modern piping, and we route new PEX or copper through those homes carefully, protecting original finishes while restoring proper flow."],
-      ["Can you replace a water heater in Dundas quickly?", "Yes. Dundas sits minutes from our Hamilton routes, and stocked tank sizes mean most replacements finish same day."],
-      ["Our Dundas basement takes water in spring. Can you help?", "Yes. Valley-floor lots and creek proximity make drainage real here. We install sump pumps and backwater protection suited to the property."],
-      ["Do you handle small plumbing repairs in Dundas too?", "Yes. From a stubborn toilet to a dripping faucet, the same licensed crew that does full repipes takes care of the small jobs properly."]
+    "name": "Dundas",
+    "intro": "For a plumbing project in Dundas, start by documenting the property’s existing pipe materials, drainage layout and equipment rather than assuming these from its age or location. If a home has older piping, ask whether a focused repair or broader repiping assessment is appropriate. If a basement has taken on water, note where and when it occurred and check the sump and discharge route. Photos of fixtures, heater labels and affected areas can help define a useful scope.",
+    "meta": "Plumbing project planning in Dundas, Ontario, including piping, water heaters, drains and basement water protection.",
+    "nearby": [
+      "Ancaster",
+      "Hamilton",
+      "Waterdown",
+      "Flamborough"
     ],
+    "faq": [
+      [
+        "How should I plan repiping for an older stone home in Dundas?",
+        "Photograph accessible pipe materials and identify symptoms by fixture. Ask how proposed PEX or copper routes would be accessed and what finish restoration, testing and approvals may apply."
+      ],
+      [
+        "What information helps scope a water-heater replacement in Dundas?",
+        "Share the unit’s rating plate, fuel, capacity, vent route and installation-area photos. Ask about replacement options, removal and any venting or inspection requirements."
+      ],
+      [
+        "What should I check if a Dundas basement takes on water in spring?",
+        "Record where water entered and when, then photograph the sump pit, pump and discharge point. A review can distinguish drainage concerns from pump or sewer-backup protection needs."
+      ],
+      [
+        "Can a small fixture problem require more than a simple replacement?",
+        "It can if shutoffs, supply lines or connections are worn or incompatible. Photograph the existing fittings and selected fixture so the proposed scope can account for access and parts."
+      ]
+    ]
   },
   "stoney-creek": {
-    name: "Stoney Creek",
-    intro: "Stoney Creek stretches from older streets near the lake up the escarpment face into wide new subdivisions around Fifty Point and Fruitland Road, so the plumbing ranges from mid-century galvanized to brand-new builder-grade installs needing correction. Hamilton Plumbing Pros serves Stoney Creek homeowners with water heaters, drain work, fixture installation, and water treatment for both city water and rural well properties on the east edge.",
-    meta: "Plumber in Stoney Creek, Ontario. Water heaters, drain cleaning, fixtures, and well water treatment from a licensed Hamilton plumbing team.",
-    nearby: ["Hamilton", "Winona", "Grimsby", "Binbrook"],
-    faq: [
-      ["We are on a well in Stoney Creek. Do you treat well water?", "Yes. Properties along the eastern edge often run private wells with iron or sulphur. We test and install treatment matched to the results."],
-      ["Can you fix builder-grade issues in a new Stoney Creek home?", "Yes. New subdivisions carry their own problems, from loose fixture installs to noisy pipes. We correct them properly and to code."],
-      ["Do you offer emergency service in Stoney Creek?", "Yes. Floods, backups, and no-water calls across Stoney Creek get the same fast response as the rest of Hamilton."],
-      ["Our older Stoney Creek home has galvanized pipe. Do you replace it?", "Yes. We repipe mid-century streets in PEX or copper, under permit, with the pressure restored by the end of the job."]
+    "name": "Stoney Creek",
+    "intro": "For a plumbing job in Stoney Creek, the property’s actual equipment and water source should guide the assessment. If an older home has galvanized piping, photograph exposed sections and describe pressure or leak symptoms. If a property uses a private well, test the water before choosing treatment for iron, sulphur odour or other concerns. For newer installations, record fixture or pipe issues and share product details so the required correction can be compared with the existing setup.",
+    "meta": "Plumbing project planning in Stoney Creek, Ontario, including water heaters, drains, fixtures and private-well treatment.",
+    "nearby": [
+      "Hamilton",
+      "Winona",
+      "Grimsby",
+      "Binbrook"
     ],
+    "faq": [
+      [
+        "What should I do before considering well-water treatment in Stoney Creek?",
+        "Confirm that the property uses a private well and obtain water-test results. Ask how any proposed filter stages relate to the measured concerns, such as iron or sulphur odour."
+      ],
+      [
+        "How can I describe a fixture issue in a newer home?",
+        "Photograph the fixture, connections and product label, and note when the problem occurs. This helps clarify whether the work involves adjustment, replacement or changes to connections."
+      ],
+      [
+        "What should I document after a backup or loss of water?",
+        "Note which fixtures are affected and when the issue began. Photos and details about the property’s drains or water supply can help determine what investigation is appropriate."
+      ],
+      [
+        "How can I assess galvanized piping in an older home?",
+        "Photograph accessible pipe markings and note any leaks, discolouration or pressure changes. Ask whether the assessment should cover selected sections or the full system, and what testing or approvals apply."
+      ]
+    ]
   },
   "binbrook": {
-    name: "Binbrook",
-    intro: "Binbrook has grown from a quiet village at the city's southeast corner into one of the fastest-growing community plans in the region, with new subdivisions wrapping the old hamlet core. Hamilton Plumbing Pros serves Binbrook with water heaters, fixture rough-ins for growing homes, sump pumps for the flat clay terrain, and well water treatment for the rural properties still surrounding the town. Growth keeps us busy out here, and we like it that way.",
-    meta: "Plumber in Binbrook, Ontario. Water heaters, fixture installs, sump pumps, and well treatment for a fast-growing Hamilton community.",
-    nearby: ["Hamilton", "Mount Hope", "Caledonia", "Winona"],
-    faq: [
-      ["Do you install sump pumps for new Binbrook homes?", "Yes. The flat clay around Binbrook holds water, and many new homes depend on a working sump. We size, install, and add battery backup where it makes sense."],
-      ["Can you plumb a finished basement in Binbrook?", "Yes. We rough in basement bathrooms, bars, and suites properly under permit before the finishing starts."],
-      ["Our rural Binbrook property has sulphur water. Can you fix that?", "Yes. Sulphur odour responds to the right treatment chain. We test the well and install the correct filter stages for it."],
-      ["Do you cover Binbrook for emergency calls?", "Yes. Binbrook and the surrounding rural roads get the same emergency response as the city core."]
+    "name": "Binbrook",
+    "intro": "When planning plumbing work in Binbrook, use the property’s drainage setup, water source and existing equipment to set the scope. If a sump pump is installed, photograph its pit, label and discharge point and ask how operation and backup power can be assessed. If a property uses a private well, get water-test results before considering filtration for a reported odour or other issue. For basement renovations, confirm fixture locations and applicable approvals before finishes conceal the rough-in.",
+    "meta": "Plumbing project planning in Binbrook, Ontario, including sump pumps, renovation rough-ins and private-well treatment.",
+    "nearby": [
+      "Hamilton",
+      "Mount Hope",
+      "Caledonia",
+      "Winona"
     ],
-  },
+    "faq": [
+      [
+        "How do I assess a sump pump in a Binbrook home?",
+        "Photograph the pump label, pit, float switch and discharge route. Ask how capacity and operation will be checked and whether a battery backup suits the property’s power needs."
+      ],
+      [
+        "What should I plan before finishing a Binbrook basement?",
+        "List planned fixtures and locations, then confirm available drains, vents and water lines. Ask what rough-in work, permits or inspections may be required before closing walls or floors."
+      ],
+      [
+        "How should a rural property investigate sulphur odour in its water?",
+        "Confirm the water source and obtain well-water test results. Ask how the results determine treatment stages; an odour alone does not identify the cause or suitable equipment."
+      ],
+      [
+        "What information helps with an urgent plumbing inquiry?",
+        "Describe the affected area, when the problem began and whether water can be shut off safely. Photographs of the equipment or visible damage can help explain the issue and its possible scope."
+      ]
+    ]
+  }
 };

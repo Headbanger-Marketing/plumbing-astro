@@ -94,7 +94,7 @@ const otherLocs = Object.entries(LOCATIONS)
     <h1 set:html={vc.heroH1(locName)}></h1>
     <p set:html={intro}></p>
     <div class="page-hero__cta">
-      <a class="btn btn-primary btn-lg" href="#quote">Get a Free Quote</a>
+      <a class="btn btn-primary btn-lg" href="#quote">Request a Quote</a>
     </div>
   </div>
 </section>
@@ -105,7 +105,7 @@ const otherLocs = Object.entries(LOCATIONS)
       <div class="reveal">
         <span class="eyebrow">{vc.bodyEyebrow}</span>
         <h2>Serving {locName} Homeowners</h2>
-        <p set:html={vc.bodyLead(locName, site.county, site.city, site.brandHtml)}></p>
+        <p>Include the property address, system details and access restrictions when requesting a visit in {locName}. The location guide below covers the questions specific to this service area.</p>
         {loc.nearby.length > 0 && (
           <div style="margin-top:24px">
             <h3 style="font-size:1.1rem;margin-bottom:10px">Also serving nearby:</h3>
@@ -114,7 +114,7 @@ const otherLocs = Object.entries(LOCATIONS)
         )}
       </div>
       <div class="split__media">
-        <div style="position:sticky;top:96px"><QuoteForm site={site} heading={vc.quoteHeading} sub={`Tell us what's going on with your ${locName} home, we'll get back to you fast.`} idSuffix={`loc-${slug}`} /></div>
+        <div style="position:sticky;top:96px"><QuoteForm site={site} heading={vc.quoteHeading} sub={`Describe the job at your ${locName} property so scope and availability can be confirmed.`} idSuffix={`loc-${slug}`} /></div>
       </div>
     </div>
   </div>

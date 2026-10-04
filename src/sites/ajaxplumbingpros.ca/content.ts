@@ -1,158 +1,320 @@
-// Per-site content for ajaxplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Ajax, Durham Region, on the Lake
-// Ontario shoreline between Pickering and Whitby.
-// Local angle: post-war bungalows and wartime-era homes near the lakeshore
-// with original galvanized and cast iron, a high water table in the low
-// streets near the lake making sump and sewer backup protection essential,
-// newer subdivisions in north Ajax, and the heritage Pickering Village core.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Ajax, Ontario",
-    h1: "Water Heater Installation From a Local Durham Plumbing Team",
-    intro: "Ajax Plumbing Pros changes water heaters in a town whose housing runs from wartime-era bungalows steps off the lake to ten-year-old subdivisions up at the north end. The old half of town is on replacement number three or four, and the new half is discovering minimum-spec builder tanks. We install for how long you plan to stay, not just for tomorrow, with venting and placement chosen for Ajax's lake-damp mechanical rooms.",
-    meta: "Water heater installation and replacement in Ajax, Ontario. Post-war bungalow tank swaps, north Ajax upgrades, and efficient permitted installs.",
-    problem_h: "Tank eleven years old and grumbling?",
-    problem_p: "South Ajax bungalows and north Ajax builds need different answers, and we bring the one that fits your end of town.",
-    features: [
-      ["flame", "Right Unit, Right Timeline", "Staying thirty years argues for quality copper and a tankless option, while a five-year plan suggests something simpler. Ajax homeowners get both numbers and choose."],
-      ["clock", "Fast Changeovers", "Hot water back within the day is the standard, not the stretch. Our Ajax calls usually end with the new unit running, the old one hauled, and the permit filed before supper."],
-      ["shield", "Lake-Damp Awareness", "Mechanical rooms near the shore corrode faster than owners expect. We set units and connections with Ajax's humidity in mind, and say so when relocation makes sense."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Ajax, Ontario",
+    "h1": "Water Heater Installation for Homes in Ajax",
+    "intro": "Choosing a replacement water heater starts with the existing unit, fuel, venting, household demand and the space available for installation. For a bungalow with an older tank, check its data plate, vent route and connection condition; for a newer home, compare the installed equipment with current household use. In Ajax, these details help determine whether a like-for-like tank, a different tank size or a tankless system is practical. Ask for the proposed scope, required approvals and any changes to venting or piping.",
+    "meta": "Compare water heater replacement options, venting and installation scope for homes in Ajax, Ontario.",
+    "problem_h": "Is your water heater noisy, unreliable or nearing replacement?",
+    "problem_p": "A tank’s age, condition and venting affect the replacement options. Photograph its data plate and connections so the proposed equipment and installation scope can be compared accurately.",
+    "features": [
+      [
+        "flame",
+        "Compare Equipment With Your Plans",
+        "Estimate how long you expect to remain in the home, then compare a conventional tank with a tankless option where the existing fuel, venting and space make one feasible. Ask for equipment, installation and ongoing operating costs separately. This makes it easier to judge whether a higher initial cost suits your plans, rather than choosing by purchase price alone."
+      ],
+      [
+        "clock",
+        "Check the Changeover Scope",
+        "Before comparing quotes, record the tank’s dimensions, location, fuel connection and vent route. Ask whether removal, disposal, connection changes, testing and any required approval are included, and how long hot water may be unavailable. Those details can distinguish a straightforward replacement from work involving altered venting, piping or access."
+      ],
+      [
+        "shield",
+        "Inspect the Room and Connections",
+        "Look for corrosion, moisture, restricted access and the condition of visible piping around the heater. If the room is damp or the unit is near exterior walls, ask how the proposed equipment and connections suit those conditions. A photograph of the room and vent termination can help clarify whether relocation or additional work should be considered."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Ajax, Ontario",
-    h1: "Drain Cleaning From a Local Durham Plumbing Team",
-    intro: "South toward the shore, Ajax's oldest sewers are cast iron and clay that have spent seventy years collecting scale and roots, and the neighbourhood mature trees finished the job decades ago. North, newer builds clog more often from construction debris than neglect. Ajax Plumbing Pros clears both ends of town with the right equipment, and cameras the line whenever a clog's history says the pipe itself is the story.",
-    meta: "Drain cleaning in Ajax, Ontario. Cast iron and clay sewer clearing, root cutting, jetting, and camera inspection for south and north Ajax homes.",
-    problem_h: "Basement drain first to back up, every time?",
-    problem_p: "Old Ajax sewers tell their story through the floor drain, and we read it with cameras before recommending anything permanent.",
-    features: [
-      ["refresh", "Scale and Root Clearing", "Seventy years of buildup narrows old drain lines until the smallest grease event tips them. We descale and jet south Ajax mains back toward real capacity."],
-      ["droplets", "Camera When History Says So", "Second clog in a year earns a camera pass, full stop. Ajax homeowners see the roots, the sag, or the break before deciding between maintenance and repair."],
-      ["shield", "New-Build Debris Clears", "North Ajax lines sometimes carry leftover construction material that should never have been buried. We clear it and confirm the line is actually clean."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Ajax, Ontario",
+    "h1": "Drain Cleaning and Camera Inspection in Ajax",
+    "intro": "A recurring blockage can come from buildup inside a drain, roots entering a sewer line, a sag or break, or debris left in a newer installation. Note which fixtures drain slowly, whether several fixtures are affected and where backups appear, such as at a basement floor drain. If a property has older cast-iron or clay piping, ask whether descaling or root cutting is appropriate; if the line is newer, ask whether construction debris could be present. A camera inspection can help distinguish clearing from repair.",
+    "meta": "Drain cleaning and camera inspection options for Ajax homes, including older piping and newer installations.",
+    "problem_h": "Does the basement floor drain back up when other drains slow?",
+    "problem_p": "The location and history of a blockage can help distinguish a local clog from a main-line concern. Note affected fixtures and ask whether camera inspection is warranted before repair decisions.",
+    "features": [
+      [
+        "refresh",
+        "Choose Cleaning for the Pipe",
+        "If inspection or known pipe history indicates scale inside older cast-iron or clay drains, ask whether mechanical descaling is suitable before or alongside jetting. The pipe’s material and condition affect the cleaning method and the risk of damaging a weakened section. Compare the proposed equipment and scope rather than assuming every line should receive the same treatment."
+      ],
+      [
+        "droplets",
+        "Use a Camera for Repeat Blockages",
+        "For a second blockage within a year, or a backup that returns soon after clearing, ask whether a camera pass can check for roots, a sag or a break. Request the footage or findings and the location of any concern. Seeing the line’s condition helps you compare continued maintenance with a targeted repair instead of relying on guesswork."
+      ],
+      [
+        "shield",
+        "Check Newer Lines for Debris",
+        "If a drain in a newer build has clogged repeatedly, ask whether leftover construction material could be restricting the line. Confirm what equipment will be used to clear it and how completion will be checked. A camera inspection may help verify that debris has been removed and identify any separate pipe issue that cleaning alone would not resolve."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Ajax, Ontario",
-    h1: "Repiping From a Local Durham Plumbing Team",
-    intro: "The wartime and post-war bungalow streets near the Ajax lakeshore hold some of the oldest galvanized still in service anywhere in Durham, and the symptoms are familiar to everyone on those blocks, a red tinge first thing in the morning, pressure that vanishes upstairs, shutoffs frozen open. Ajax Plumbing Pros replaces those systems completely, in PEX and copper, with the sequencing and cleanup that make living through a repipe a minor inconvenience rather than a saga.",
-    meta: "Repiping in Ajax, Ontario. Original galvanized replacement for wartime and post-war bungalows, whole-home PEX and copper installs under permit.",
-    problem_h: "Morning water running faintly orange?",
-    problem_p: "That colour is the galvanized dissolving into your glass, and the fix is a full, permitted Ajax repipe.",
-    features: [
-      ["wrench", "Oldest-Stock Specialists", "Wartime-era Ajax housing brings challenges younger homes never pose, from mixed-material patchwork to buried runs. We handle all of it, not just the basement."],
-      ["home", "Live-In Friendly Sequencing", "Rooms are completed one at a time with water restored daily, and openings planned behind furniture where possible. Ajax families stay home throughout."],
-      ["shield", "Shutoffs Included, Always", "Every fixture gets a working new stop, so the frozen shutoffs common in old Ajax bungalows stop being tomorrow's emergency."]
+    "icon": "wrench",
+    "kicker": "Repiping in Ajax, Ontario",
+    "h1": "Whole-Home Repiping Options in Ajax",
+    "intro": "Discoloured water, reduced pressure or shutoffs that will not turn can justify checking the home’s supply piping before choosing a repair. If a property has original galvanized runs, record which taps show symptoms, how long the water clears and whether upstairs fixtures behave differently. Older homes may also contain mixed materials, buried runs or later patches, so a basement-only inspection may not describe the whole system. Ask for a proposed PEX or copper scope, fixture-by-fixture shutoff work and a room-by-room plan before comparing quotes.",
+    "meta": "Compare PEX and copper repiping scopes for Ajax homes, including galvanized supply lines and fixture shutoffs.",
+    "problem_h": "Does water appear discoloured at first use or lose pressure upstairs?",
+    "problem_p": "Record which fixtures are affected and photograph visible supply pipes and shutoffs. That evidence helps determine whether the concern is limited to a branch or may involve a larger repiping scope.",
+    "features": [
+      [
+        "wrench",
+        "Trace Existing Pipe Materials",
+        "If an older home has galvanized piping, ask the scope to identify visible materials, mixed-material patches and any runs that cannot be seen without access openings. Check whether symptoms occur throughout the home or only in one branch. This information helps compare a localized repair with full replacement and reduces the chance of overlooking a buried or concealed section."
+      ],
+      [
+        "home",
+        "Plan Work Around Occupied Rooms",
+        "Before work begins, ask which rooms will be opened, how access locations will be chosen and when water is expected to be restored each day. Photograph furniture, finishes and any existing damage near planned routes. A room-by-room sequence and clear cleanup expectations make it easier to plan daily routines and compare the disruption associated with different piping routes."
+      ],
+      [
+        "shield",
+        "Include Fixture Shutoffs",
+        "Check whether each fixture has an accessible, working shutoff and ask whether replacement stops are included in the repiping scope. A new supply system with old, frozen valves can leave future fixture work difficult. Confirm which stops will be replaced, where they will be placed and whether the quote includes testing each connection after installation."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Ajax, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Durham Plumbing Team",
-    intro: "Whether it is a Pickering Village century bathroom that needs quiet competence behind original trim or a north Ajax ensuite getting the full modern treatment, Ajax Plumbing Pros installs fixtures that stay put and stay dry. We swap the running toilets and crusted faucets that old bungalows collect, rough in basement bathrooms and legal suites, and leave every connection we touch with new stops and a clean seal.",
-    meta: "Fixture and toilet installation in Ajax, Ontario. Bungalow fixture replacements, Pickering Village bathrooms, suite rough-ins, and renovation installs.",
-    problem_h: "Fixturing an old bungalow or a new ensuite?",
-    problem_p: "Ajax homes at both ends of the age range get fixtures set properly, sealed fully, and chosen for the room's real life.",
-    features: [
-      ["home", "Sensitive to the Old Stuff", "Pickering Village bathrooms deserve installers who slow down. We work around original tile and trim without treating them as obstacles."],
-      ["check", "Suite and Basement Rough-Ins", "Basement bathrooms and second suites get full drainage and venting to code, so the Ajax inspection is a formality rather than a return visit."],
-      ["shield", "Fixtures That Behave", "Low-flow toilets set properly on level flanges and faucets with quality cartridges, installed once, quietly doing their job for years."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Ajax, Ontario",
+    "h1": "Fixture and Toilet Installation in Ajax",
+    "intro": "Fixture work can range from replacing a running toilet or faucet to roughing in a basement bathroom or suite. Before selecting products, measure the room, photograph existing connections and note any fragile tile, trim or other finishes that should be protected. If the bathroom has older materials or original finishes, ask how removal and installation will avoid unnecessary disturbance. For a new basement layout, confirm drainage and venting requirements, fixture locations and the approvals that apply to the project before work is priced.",
+    "meta": "Fixture, toilet and bathroom rough-in planning for homes in Ajax, including older finishes and basement layouts.",
+    "problem_h": "Planning a fixture replacement or a new basement bathroom?",
+    "problem_p": "Room measurements, existing connections and finish conditions affect fixture fit and installation scope. Share photos and ask what drainage, venting or finish work is included.",
+    "features": [
+      [
+        "home",
+        "Protect Existing Tile and Trim",
+        "If a bathroom has original tile, trim or finishes that need to remain, photograph them and identify vulnerable edges before work is scoped. Ask how the old fixture will be removed and whether access or replacement parts could affect surrounding materials. Careful planning helps distinguish a simple fixture swap from work that may require finish repairs."
+      ],
+      [
+        "check",
+        "Confirm Rough-In Requirements",
+        "For a basement bathroom or suite, ask how the proposed fixture positions connect to drainage and venting, and what inspection or approval requirements apply. Compare the plan with the existing rough-in locations and note any changes to walls or floors. These details affect both the plumbing scope and whether the intended layout is feasible."
+      ],
+      [
+        "shield",
+        "Check Toilets, Flanges and Cartridges",
+        "Before choosing a toilet, confirm that it suits the room and existing waste connection, and ask whether the flange is level and in sound condition. For faucets, compare cartridge type and parts access. These checks can reveal whether installation is a straightforward replacement or requires additional repair to make the fixture sit securely and operate as intended."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Ajax, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Durham Plumbing Team",
-    intro: "Close to the lake, Ajax basements hide leaks behind humidity levels that already read high, which makes the usual clues ambiguous and detection gear genuinely useful. Ajax Plumbing Pros separates groundwater dampness from plumbing leaks with thermal imaging, acoustic listening, and pressure isolation, then repairs the confirmed source through a single small opening. Deep lots with long side yard lines get those traced too.",
-    meta: "Leak detection and repair in Ajax, Ontario. Thermal and acoustic location, humidity-proof diagnosis, and yard line tracing near the lakeshore.",
-    problem_h: "Damp basement, but no obvious source?",
-    problem_p: "Near the shore, dampness is ambiguous. Our equipment tells Ajax homeowners whether it is the plumbing or the property talking.",
-    features: [
-      ["droplets", "Ambiguity Resolved", "Thermal and acoustic readings distinguish a leaking pipe from condensation and seepage, so Ajax repairs target the true problem the first time."],
-      ["shield", "Long Lot Line Tracing", "Side yard runs on deep Ajax lots fail in places nobody looks. We trace the full service and repair only the failed length."],
-      ["check", "Insurance-Ready Findings", "Where a claim is warranted, our written findings and photos give Ajax adjusters what they need without a second site visit."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Ajax, Ontario",
+    "h1": "Leak Detection and Repair Planning in Ajax",
+    "intro": "Dampness in a basement does not by itself show whether water comes from plumbing, condensation or seepage. Record when the area becomes wet, photograph marks and nearby pipes, and note whether a water meter changes when fixtures are off. Thermal imaging, acoustic listening and pressure isolation may help investigate a suspected plumbing leak without opening large areas unnecessarily. If a property has a long side-yard service line, ask whether tracing can include that route. Confirm what findings and repair options will be documented.",
+    "meta": "Leak detection planning in Ajax using thermal, acoustic and pressure-isolation methods where appropriate.",
+    "problem_h": "Is there basement dampness without a visible plumbing leak?",
+    "problem_p": "Timing, location and meter observations can help separate plumbing concerns from condensation or seepage. Photos and a record of changing conditions give an investigation useful context.",
+    "features": [
+      [
+        "droplets",
+        "Separate Plumbing From Other Moisture",
+        "If dampness appears near pipes, walls or a floor, record its location and whether it changes with rain, water use or ventilation. Thermal imaging, acoustic listening and pressure isolation can help test different explanations. Ask what each test can establish and how the findings will be used, so any opening or repair targets a supported source."
+      ],
+      [
+        "shield",
+        "Trace a Long Service Line",
+        "If the suspected leak may be on a long side-yard supply line, provide a sketch of the route and photographs of visible access points. Ask whether the investigation can trace the service and how the suspected section will be confirmed before excavation or repair. Identifying the failed length can help avoid replacing sound portions of the line unnecessarily."
+      ],
+      [
+        "check",
+        "Request Clear Findings and Photos",
+        "When documenting a suspected plumbing leak, ask for written findings, relevant photographs and the location of any confirmed source. If you may contact an insurer, check what records they request before work starts. Clear documentation can help explain why a repair was proposed and may reduce uncertainty when discussing the claim, without presuming coverage or a particular outcome."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Ajax, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Durham Plumbing Team",
-    intro: "Ask around the lakeshore streets and you will hear exactly which Ajax basements took water and which ones sailed through, and the difference is almost always preparation. With the water table sitting close under the low end of town and storm systems tested harder every season, Ajax Plumbing Pros installs pumping capacity with margin, battery backup for the outages storms bring, and permitted backwater valves where sewer surcharge is the documented street risk.",
-    meta: "Sump pump and backwater valve installation in Ajax, Ontario. High water table pumping, battery backup, and permitted valves for lakeshore streets.",
-    problem_h: "One storm from being the story on your street?",
-    problem_p: "Low Ajax streets near the lake need deliberate protection, and the homes that have it are the ones that stayed dry.",
-    features: [
-      ["shield", "Margin for the Water Table", "When the lake keeps the ground full, pits refill fast for days. Ajax installs get capacity and switch logic with real margin built in."],
-      ["zap", "Outage Coverage", "The storms that load the pit are the ones that drop branches on lines. Battery-backed pumping keeps Ajax basements dry through both together."],
-      ["refresh", "Valves With Paperwork", "Where Ajax streets have surcharge history, we install mainline backwater valves under permit, with the access and documentation done properly."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Ajax, Ontario",
+    "h1": "Sump Pump and Backwater Valve Planning in Ajax",
+    "intro": "A sump pump or backwater valve should be considered in relation to the property’s drainage, equipment and documented water history, not a general assumption about a street. Note how quickly a sump pit refills, the pump’s label and discharge route, and what happened during previous outages or backups. If the property has experienced sewer surcharge, ask whether a mainline backwater valve is appropriate and what access it needs. Compare pump capacity, switch operation, backup arrangements, installation scope and approval requirements before selecting equipment.",
+    "meta": "Sump pump, battery backup and backwater valve planning for properties in Ajax, Ontario.",
+    "problem_h": "Do you know what happens to the sump pump during a power outage?",
+    "problem_p": "Record pump details, discharge routing and past water events. These observations help compare pumping capacity and backup options or determine whether a separate sewer concern needs assessment.",
+    "features": [
+      [
+        "shield",
+        "Match Pumping to Pit Behaviour",
+        "If a sump pit refills quickly or continues cycling after wet weather, note how often the pump runs and how long conditions persist. Ask how pit dimensions, pump capacity, float-switch settings and discharge routing affect the proposed selection. These observations help identify whether the existing equipment is undersized, poorly controlled or simply responding to the conditions at the property."
+      ],
+      [
+        "zap",
+        "Compare Backup Options",
+        "If a power interruption could coincide with pump operation, check whether the current system has battery backup and inspect its battery age and status. Ask what pump or alarm the proposed backup supports, how its capacity is assessed and what maintenance it needs. Comparing these details shows what protection is available during an outage and where its limits are."
+      ],
+      [
+        "refresh",
+        "Assess Backwater Valve Access",
+        "If the property has a documented history of sewer surcharge, ask whether a mainline backwater valve is suitable and where it could be accessed for inspection and cleaning. Confirm the proposed location, maintenance needs and applicable permit or inspection steps. Access and existing drain layout can change the scope, so request those details before treating a valve as a simple add-on."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Ajax, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Durham Plumbing Team",
-    intro: "Ajax sits on Durham's lake supply, consistent and safe but with enough hardness to mark its territory on every kettle, shower door, and appliance in town, and lakeshore humidity makes scale corrosion worse in cramped mechanical rooms. Ajax Plumbing Pros installs metered softeners that track real usage, drinking filtration for the taste preferences north-end families bring, and corrosion-conscious connections throughout, sized from what the taps show, not a generic chart.",
-    meta: "Water softeners and filtration in Ajax, Ontario. Metered softeners, drinking water filtration, and corrosion-conscious installs for lakeshore homes.",
-    problem_h: "Shower doors that never come clean?",
-    problem_p: "Lake-supplied hardness builds steadily on everything in an Ajax home, and a metered softener takes it off the list permanently.",
-    features: [
-      ["gauge", "Metered Efficiency", "Softeners that regenerate on measured usage handle Ajax households of any rhythm without wasting salt or water overnight."],
-      ["droplets", "Taste and Drinking Options", "Under-sink filtration and reverse osmosis give north Ajax families drinking water they prefer, installed with clean tubing and easy cartridge access."],
-      ["shield", "Corrosion-Conscious Plumbing", "In lake-humid mechanical rooms, connections and bypasses get specified to resist rather than corrode, protecting the Ajax equipment downstream."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Ajax, Ontario",
+    "h1": "Water Softener and Filtration Options in Ajax",
+    "intro": "Water treatment choices depend on what you want to change and what is measured at the property. If scale marks appear on fixtures or appliances, note where they occur and ask whether a water test can establish hardness before selecting a softener. For drinking water preferences, compare under-sink filtration with reverse osmosis and confirm which contaminants or taste concerns each system is designed to address. Photograph the mechanical-room layout and available drain and connections; space, bypass access and cartridge access affect installation and maintenance.",
+    "meta": "Compare water softeners and drinking-water filtration for homes in Ajax, based on testing and installation needs.",
+    "problem_h": "Are mineral deposits building up on fixtures or appliances?",
+    "problem_p": "A water test and clear description of your concerns can help distinguish a softener need from a drinking-water filtration preference. Check space and service access before choosing equipment.",
+    "features": [
+      [
+        "gauge",
+        "Size a Metered Softener From Use",
+        "If testing indicates softening is appropriate, compare metered equipment that regenerates according to measured use with other control options. Household size and water use affect the required capacity and regeneration pattern. Ask how the proposed settings are determined and what salt, water and maintenance needs to expect, rather than relying on a generic household-size chart."
+      ],
+      [
+        "droplets",
+        "Choose Filtration for a Specific Goal",
+        "For a drinking-water taste preference or a defined treatment concern, compare under-sink filtration and reverse osmosis by their stated capabilities and replacement cartridges. Ask what the system is designed to reduce, what testing supports that choice and where cartridges can be reached. These details help avoid selecting equipment that does not match the water concern or is difficult to maintain."
+      ],
+      [
+        "shield",
+        "Plan Connections and Service Access",
+        "Before installation, photograph the mechanical-room space and identify nearby drains, outlets, shutoffs and existing piping. Ask how the unit will connect, whether a bypass is included and how the connections suit the room’s conditions. A workable service area and accessible cartridges or controls make maintenance easier and can affect equipment placement and installation scope."
+      ]
     ],
-    rev: [4, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Wartime bungalow with the original galvanized. Full repipe, water every evening, and the morning red tinge is finally gone for good.", "Homeowner", "Ajax"],
-  ["Second backup in a year earned the camera. Roots at two joints, jetted and cut, and the footage went straight to my records.", "Resident", "Pickering Village"],
-  ["Tank swap same visit with the permit handled. They also relocated it away from the damp corner, which the old one rotted in.", "Homeowner", "Ajax"],
-  ["Damp basement for two years, everyone guessed. Their gear found a leaking yard line, one excavation, fixed and dry since.", "Resident", "Greenwood"],
-  ["Low street near the lake. Their pump and battery backup carried us through the August storm while neighbours pumped out.", "Homeowner", "Ajax"],
-  ["Roughed in our basement bathroom before the suite inspection. Passed first time, and the guys cleaned up like guests.", "Business Owner", "Ajax"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank swaps for lakeshore bungalows and builder-package upgrades for north Ajax, with permits handled.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Cast iron and clay clearing, root cutting, and camera diagnosis for Ajax's full range of housing ages.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Complete galvanized replacement in wartime and post-war homes, sequenced so families stay put.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Village-sensitive bathroom work, basement suite rough-ins, and everyday fixtures that behave.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Thermal and acoustic diagnosis that separates plumbing leaks from lakeshore damp, then precise repair.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Water table pumping with margin, battery backup, and permitted valves for surcharge-prone streets.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Metered softeners and drinking water systems, corrosion-conscious for damp Ajax mechanical rooms.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless options using the existing fuel, vent route, household demand and available space. Check the data plate and ask what removal, connection changes and approvals the installation scope includes.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Recurring clogs may involve buildup, roots, construction debris or a damaged line. Note affected fixtures and ask whether mechanical cleaning, jetting or a camera inspection fits the pipe material and blockage history.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "If a home has galvanized supply piping, compare whole-home PEX and copper scopes. Ask how mixed materials, concealed runs, fixture shutoffs, room access and water-restoration timing will be handled.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Measure spaces and photograph connections before choosing fixtures. For older finishes, discuss protection during removal; for basement bathrooms, confirm drainage, venting, layout and applicable approvals.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Record when and where dampness appears, then compare appropriate thermal, acoustic or pressure-isolation investigation. If a long side-yard line may be involved, ask how its route and suspected failure will be checked.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare pump capacity and battery backup using pit behaviour, equipment details and discharge routing. If sewer surcharge has occurred, ask whether a mainline backwater valve is suitable and what access and approvals it needs.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use water testing to assess whether softening fits scale concerns, and compare filtration systems for a defined drinking-water goal. Check mechanical-room space, bypass access, drains and cartridge maintenance before selecting equipment.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed and insured in Ajax?", "Licensed and insured, with permits filed through the Durham authority for anything the code requires, which means Ajax homeowners end up with paper that stands behind the work."],
-  ["What are your emergency hours?", "Around the clock, for active leaks, sewage backing up, and no-water situations anywhere in Ajax, with crews dispatched from nearby rather than across the region."],
-  ["Can you replace a leaking water heater today?", "In most cases the same day, since the standard configurations are stocked and the Ajax permit filing rides along with the install visit."],
-  ["Why do our shutoffs never turn anymore?", "Original galvanized-era stops in Ajax's older bungalows corrode seized. We replace every stop as part of repiping or fixture work, so future maintenance is a quarter-turn."],
-  ["Is the basement dampness a plumbing problem?", "Near the lake that is exactly the right question, and the answer needs instruments. Our detection visit tells Ajax homeowners whether to call us or a drainage contractor, honestly."],
-  ["Does Ajax need water softeners?", "The lake supply is moderately hard, enough to scale and etch steadily. Metered softener installs here consistently pay off in fixtures, appliances, and cleaning effort."],
-  ["When do we find out the cost?", "At the free written quote, before any work begins. Ajax customers see scope and total up front, and approved numbers hold through the invoice."],
-  ["Do you only serve Ajax?", "Ajax plus Pickering, Whitby, Greenwood, Brougham, and Oshawa, all regular stops for the same crews."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/ajaxplumbingpros.ca-water-heaters.jpg", "Water heater installation in Ajax, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/ajaxplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning in Ajax, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/ajaxplumbingpros.ca-repiping.jpg", "Whole-home repiping in Ajax, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/ajaxplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Ajax, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/ajaxplumbingpros.ca-leak-detection.jpg", "Leak detection in Ajax, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/ajaxplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Ajax, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/ajaxplumbingpros.ca-water-softeners.jpg", "Water softener installation in Ajax, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/ajaxplumbingpros.ca-water-heaters.jpg",
+    "Water heater installation in Ajax, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/ajaxplumbingpros.ca-drain-cleaning.jpg",
+    "Drain cleaning in Ajax, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/ajaxplumbingpros.ca-repiping.jpg",
+    "Whole-home repiping in Ajax, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/ajaxplumbingpros.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Ajax, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/ajaxplumbingpros.ca-leak-detection.jpg",
+    "Leak detection in Ajax, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/ajaxplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump installation in Ajax, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/ajaxplumbingpros.ca-water-softeners.jpg",
+    "Water softener installation in Ajax, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

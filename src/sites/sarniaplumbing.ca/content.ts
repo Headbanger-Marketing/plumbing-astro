@@ -1,185 +1,379 @@
-// Per-site content for sarniaplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Sarnia, Lambton County, on the St.
-// Clair River across from Port Huron.
-// Local angle: a mid-size industrial city with south-end wartime bungalows,
-// riverside flats, north-end newer builds, and rental doubles maintained
-// around shift-work schedules; quick city-wide emergency response is the
-// selling point, plus well properties out in the county.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Sarnia, Ontario",
-    h1: "Water Heater Installation From a Local Lambton Plumbing Team",
-    intro: "Sarnia runs on shift schedules, and plumbing appointments that only exist between nine and five simply do not fit a house where somebody works nights at the plant. Sarnia Plumbing installs and replaces water heaters evenings and weekends too: owned tanks that retire the rental contract, tankless units for households whose mornings overlap, and emergency swaps for units that flood the floor overnight. South-end bungalows, north-end builds, and upstairs apartments all get the same standard of work.",
-    meta: "Water heater installation in Sarnia, Ontario. Owned tank replacements, tankless installs, emergency swaps, and evening appointments for shift-work households.",
-    problem_h: "Night shift ending into a cold shower?",
-    problem_p: "Sarnia homeowners and landlords get water heaters replaced fast, with appointment windows that respect shift-work schedules.",
-    features: [
-      ["flame", "Rental Contract, Retired", "Sarnia households ready to stop renting get owned tanks installed cleanly, with the old unit and the monthly charge gone in the same visit."],
-      ["clock", "Evenings and Weekends Too", "Plant rotations do not follow office hours, so neither do our install windows. Hot water work in Sarnia gets booked around your shifts, not ours."],
-      ["shield", "Swapped to Code, Every Time", "Relief valves, pans, venting, and the permit, handled on every Sarnia install, so the paperwork stands up when the house sells."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Sarnia, Ontario",
+    "h1": "Plan a Water Heater Installation in Sarnia",
+    "intro": "When a water heater needs replacement, compare the existing unit’s fuel, capacity, venting and connections with the proposed equipment before choosing a tank or tankless model. An owned replacement may involve removing rental equipment, while a tankless conversion can require changes to gas supply, venting or electrical service. If household schedules make daytime access difficult, note preferred appointment windows when requesting an inquiry. For a unit that is leaking, photograph the label, connections and any water damage so the scope can be assessed.",
+    "meta": "Water heater replacement and tankless installation planning in Sarnia, Ontario. Compare equipment, connections and project scope.",
+    "problem_h": "What should you check before replacing a water heater?",
+    "problem_p": "Record the unit’s fuel, model, capacity and vent arrangement, then note whether the project is a like-for-like replacement, rental changeover or tankless conversion. Those details affect equipment selection and installation scope.",
+    "features": [
+      [
+        "flame",
+        "Compare ownership and equipment options",
+        "If replacing a rented tank with an owned unit, confirm who owns the existing equipment and what removal or contract steps may apply. Compare proposed tank capacity, fuel and connection requirements with the current setup. For tankless equipment, ask whether gas, venting or electrical changes are included, because these can change the project scope."
+      ],
+      [
+        "clock",
+        "Plan access around household schedules",
+        "If daytime access is difficult, include preferred times and any sleep or work constraints in the inquiry. Ask which stages require someone at home, including equipment removal, installation and testing. A clear access plan helps compare appointment options without assuming that evenings, weekends or a particular completion time are available."
+      ],
+      [
+        "shield",
+        "Verify safety components and documentation",
+        "Before work begins, ask which relief valve, drain pan, venting and other safety details apply to the selected unit and the property. Confirm whether permits or inspections are required and who is responsible for arranging them. Keep equipment documentation and any inspection records with the home’s maintenance papers for future reference."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Sarnia, Ontario",
-    h1: "Drain Cleaning From a Local Lambton Plumbing Team",
-    intro: "The mature elms and maples shading Sarnia's south-end streets share their roots with the clay laterals underneath, and every apartment laundry in an older double adds its contribution. Sarnia Plumbing clears kitchen, laundry, and stack lines with proper cable work, scours mains with hydro-jetting, and runs cameras down anything that has plugged twice. Landlords with several units get recurring issues solved at the source instead of paying for the same snake-out every season.",
-    meta: "Drain cleaning in Sarnia, Ontario. Stack and main line snaking, hydro-jetting, root cutting, and camera inspection for homes and multi-unit buildings.",
-    problem_h: "Same drain, third snake-out this year?",
-    problem_p: "We clear Sarnia drains properly and camera the repeats, ending the seasonal snake-out cycle for owners and landlords.",
-    features: [
-      ["refresh", "Cleared to the Wall", "Cables punch through and jets scrub clean. Doing both in one visit leaves Sarnia lines at full bore, instead of ninety percent and slowly closing."],
-      ["droplets", "Cameras End Repeat Business", "Whatever keeps plugging gets filmed, roots, offset joints, or scale, so the fix gets quoted on evidence and the blockage stops returning on schedule."],
-      ["home", "Multi-Unit Experience", "Doubles and upstairs flats in older Sarnia buildings drain through shared stacks. We trace which unit feeds the problem before opening anything."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Sarnia, Ontario",
+    "h1": "Plan Drain Cleaning in Sarnia",
+    "intro": "A recurring blockage needs diagnosis as well as clearing. Note which fixtures drain slowly, whether several fixtures are affected at once, and how often the problem returns. A cable may clear a localized obstruction, while hydro-jetting can be considered for suitable lines with buildup; a camera inspection can help assess a repeat blockage, roots, scale or a displaced joint. If the property has shared stacks or multiple units, identify which fixtures are connected and when symptoms occur. Photos or short videos can help explain the scope.",
+    "meta": "Drain clearing, hydro-jetting and camera inspection planning in Sarnia, Ontario. Compare options for recurring blockages.",
+    "problem_h": "Why does the same drain keep blocking?",
+    "problem_p": "Track affected fixtures, previous clearing and how soon the blockage returned. This information helps determine whether the inquiry concerns a local line, a shared stack or a main, and whether camera inspection may be useful.",
+    "features": [
+      [
+        "refresh",
+        "Match clearing equipment to the blockage",
+        "Ask whether cable clearing or hydro-jetting suits the pipe material, access and suspected obstruction. A cable can open a passage; jetting may scour suitable lines more thoroughly. The method matters because pipe condition and blockage type affect both the work and the likelihood that further investigation is needed."
+      ],
+      [
+        "droplets",
+        "Use camera evidence for repeat problems",
+        "If a line has blocked more than once, ask whether a camera inspection can identify roots, scale or an offset joint. Request an explanation of what the footage shows and where it was recorded. Evidence can help distinguish a recurring structural issue from buildup and inform decisions about next steps."
+      ],
+      [
+        "home",
+        "Trace shared stacks in multi-unit buildings",
+        "For a duplex or building with upstairs flats, list which units and fixtures show symptoms and whether the issue changes with use. Ask how the shared stack and individual branches will be distinguished before opening anything. Mapping the affected connections can clarify which part of the system is within the proposed scope."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Sarnia, Ontario",
-    h1: "Repiping From a Local Lambton Plumbing Team",
-    intro: "A lot of Sarnia's wartime and post-war housing still runs its original galvanized, and decades of Lake Huron water have narrowed it from within, so the upstairs shower loses to the kitchen faucet and the first draw runs rusty. Sarnia Plumbing repipes those homes in PEX or copper, working floor by floor so a shift worker's sleep hours stay quiet where possible, and testing every stage under permit. Buyers holding an older listing ask about supply lines now, and a documented repipe answers them.",
-    meta: "Repiping in Sarnia, Ontario. Wartime and post-war galvanized replacement, whole-home PEX and copper repipes, permitted and pressure-tested. Free quotes.",
-    problem_h: "Upstairs shower losing to the kitchen tap?",
-    problem_p: "Original galvanized gets replaced floor by floor in Sarnia homes, restoring pressure with the household kept in service.",
-    features: [
-      ["wrench", "Narrowed Pipe, Reopened System", "We replace the rusted galvanized with right-sized PEX or copper, and the difference at Sarnia fixtures shows up the day the water turns back on."],
-      ["home", "Scheduled Around Sleep Hours", "Night-shift households get noisy phases booked when the house is empty. Repiping a Sarnia home should not cost anyone a week of sleep."],
-      ["shield", "Documented for the Listing", "Permits filed, tests passed, paperwork in hand. When an older Sarnia house sells, a finished repipe is a straight answer to the hardest inspection question."]
+    "icon": "wrench",
+    "kicker": "Repiping in Sarnia, Ontario",
+    "h1": "Plan a Home Repiping Project in Sarnia",
+    "intro": "If a home has original or aging galvanized supply lines, compare water flow at several fixtures and note discoloration, reduced pressure or changes when taps run together. These observations can help establish whether the concern is local or system-wide. A repipe may use PEX or copper, with scope depending on access, layout and which branches are replaced. Ask how work will be phased, how water service is managed during each stage, and what testing and records are included. Photograph visible pipe markings and keep any prior plumbing documents available.",
+    "meta": "Repiping planning in Sarnia, Ontario. Compare PEX and copper options, access, project phasing and testing.",
+    "problem_h": "Do several fixtures show low flow or discoloration?",
+    "problem_p": "Record which taps are affected and whether symptoms change when other fixtures run. If galvanized supply lines are present, photographs and pipe details help assess whether the scope should include selected sections or a broader repipe.",
+    "features": [
+      [
+        "wrench",
+        "Assess the existing pipe system",
+        "If galvanized pipe is present, ask how its condition and sizing will be assessed and which branches are proposed for replacement. Compare PEX and copper options against access and layout. The distinction matters because replacing only a local section differs substantially from renewing supply lines throughout the home."
+      ],
+      [
+        "home",
+        "Plan the work in phases",
+        "Before work is scheduled, ask which rooms and pipe routes are affected, when water may be interrupted, and whether noisy stages can be coordinated with household needs. A floor-by-floor or area-by-area plan may help organize access, but the feasible sequence depends on the building and pipe routes."
+      ],
+      [
+        "shield",
+        "Confirm testing and project records",
+        "Ask what pressure or other testing will be performed and what documentation will be provided when the work is complete. Check whether permits or inspections apply to the proposed scope and clarify who arranges them. Records help explain which lines were replaced and support future maintenance or property-sale discussions."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Sarnia, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Lambton Plumbing Team",
-    intro: "Sarnia fixture work spans quiet bathroom renovations in Point Edward doubles, hardworking laundry rooms in the south end, and refreshes in the newer north-end builds, and all of it comes down to fit and finish. Sarnia Plumbing sets toilets, faucets, and shower trim with fresh seals and functioning shut-offs, installs tubs and surrounds level, and roughs in basement bathrooms and relocated kitchens to current code. Our fixture recommendations favour finishes that tolerate the region's water instead of spotting and seizing early.",
-    meta: "Fixture and toilet installation in Sarnia, Ontario. Toilet and faucet installs, tub and shower sets, basement rough-ins, and evening and weekend appointments.",
-    problem_h: "Bathroom refresh booked, or a toilet that runs all night?",
-    problem_p: "From single-fixture swaps to basement rough-ins, Sarnia installs are set level, sealed fresh, and scheduled around your hours.",
-    features: [
-      ["home", "Set Level, Sealed Fresh", "Toilets on new wax and bolts, taps on new stops and supplies. Small parts get renewed during Sarnia installs, which is why they stay dry."],
-      ["check", "Rough-Ins for Every Layout", "Basement bathrooms, kitchen islands, relocated laundry, all roughed in to code and confirmed with you before finishes close the walls."],
-      ["calendar", "Booked Around Real Schedules", "Evening and weekend slots exist because plant rotations and family weekends are when Sarnia homeowners can actually be home for the work."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Sarnia, Ontario",
+    "h1": "Plan Fixture and Toilet Installation in Sarnia",
+    "intro": "Fixture projects range from replacing a toilet or faucet to installing a tub, shower trim or plumbing for a new basement bathroom. Before requesting an inquiry, photograph the existing fixture, shut-off valves and visible connections, and note whether the new model has already been selected. For a layout change, describe the proposed location and whether walls or floors will be opened. Confirm that the fixture dimensions, drain position and supply connections suit the space. These details help distinguish a straightforward replacement from work requiring new rough-ins or access changes.",
+    "meta": "Fixture and toilet installation planning in Sarnia, Ontario. Scope replacements, tubs, shower trim and new rough-ins.",
+    "problem_h": "Is this a fixture swap or a layout change?",
+    "problem_p": "Share the fixture model, dimensions, existing shut-off locations and proposed layout. A direct replacement may differ from a project that moves plumbing or adds a basement bathroom, so these details shape the scope.",
+    "features": [
+      [
+        "home",
+        "Check seals, stops and connections",
+        "For a toilet or faucet replacement, ask whether existing shut-offs and supply connections are serviceable and what seals or small parts are included. A toilet may need a fresh seal and mounting hardware; taps may need new stops or supplies. Checking these details helps avoid comparing quotes with different included work."
+      ],
+      [
+        "check",
+        "Confirm rough-in locations before finishes",
+        "For a basement bathroom, kitchen island, relocated laundry or other changed layout, mark the proposed fixture positions and photograph accessible plumbing. Ask how drain and supply routes will be confirmed before walls or floors are closed. The location and access can determine whether the project needs new rough-ins rather than a simple fixture installation."
+      ],
+      [
+        "calendar",
+        "Coordinate access and preparation",
+        "If access is limited by work or family schedules, state preferred windows and ask what preparation is needed before the visit. Confirm whether the fixture must be on site and whether the work area needs to be cleared. These practical details help establish a realistic project plan without presuming appointment availability."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Sarnia, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Lambton Plumbing Team",
-    intro: "Finished basements and shared walls in older doubles give a small leak plenty of places to hide, and by the time a stain appears on a Sarnia ceiling the damage upstairs is already weeks old. Sarnia Plumbing locates hidden leaks with acoustic listening gear, thermal checks, and pressure isolation, then repairs through the smallest opening the evidence allows. For landlords, a leak caught between tenancies is a repair, and the same leak found by a tenant is a claim.",
-    meta: "Leak detection and repair in Sarnia, Ontario. Acoustic and thermal location, pressure isolation, slab leak repair, and documentation for owners and insurers.",
-    problem_h: "Stain spreading on a ceiling with no source?",
-    problem_p: "Hidden leaks in Sarnia homes and doubles get located precisely and repaired through minimal openings, with records kept for insurers.",
-    features: [
-      ["droplets", "Pinpointed Before Opening", "Listening gear and thermal imaging narrow the escape to a spot, so a Sarnia ceiling or wall opens once, small, and in the right place."],
-      ["shield", "Slab and In-Floor Runs", "Homes on slabs and additions with in-floor plumbing get isolation testing first. We confirm which run leaks before any concrete is touched."],
-      ["check", "Caught Between Tenancies", "Vacant-unit checks and quick diagnosis turn would-be insurance claims into routine repairs for Sarnia property owners."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Sarnia, Ontario",
+    "h1": "Plan Leak Detection and Repair in Sarnia",
+    "intro": "A stain, damp area or unexplained water use does not always reveal where a leak begins. Record when the symptom appears, whether it changes while fixtures are running, and which rooms or floors are affected. Acoustic listening, thermal checks and pressure isolation may help narrow a hidden leak’s location before a wall or ceiling is opened. If plumbing runs beneath a slab or through an addition, identify the known route if possible. Photographs, meter readings and prior repair notes can help define investigation and repair scope.",
+    "meta": "Leak detection and repair planning in Sarnia, Ontario. Acoustic, thermal and pressure-isolation methods for hidden leaks.",
+    "problem_h": "Where is the source of a spreading water stain?",
+    "problem_p": "Photograph the affected area and note when it changes, nearby fixtures and any meter readings. If a slab or in-floor run may be involved, share known pipe routes so diagnostic options can be considered before opening surfaces.",
+    "features": [
+      [
+        "droplets",
+        "Locate before opening surfaces",
+        "Ask whether acoustic listening, thermal checks or other suitable methods can narrow the suspected leak area. Share photographs and explain what was operating when the symptom appeared. Better location evidence can help limit exploratory openings, though access and the building’s construction affect how precisely the source can be found."
+      ],
+      [
+        "shield",
+        "Isolate slab and in-floor plumbing",
+        "If a home has a slab or an addition with in-floor plumbing, ask whether pressure isolation can identify the affected run before concrete is disturbed. Provide any available plans or notes on pipe routes. Confirm which line is being tested and what the results show, since different findings can lead to different repair scopes."
+      ],
+      [
+        "check",
+        "Document findings and repair scope",
+        "For a vacant unit or a concern discovered between tenancies, record dates, photos and any water-meter observations. Ask for findings that distinguish the suspected source from visible damage, and clarify what surfaces or finishes are included in a repair. Clear documentation helps owners compare repair options and maintain useful records."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Sarnia, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Lambton Plumbing Team",
-    intro: "Flat lakeplain ground, aging storm infrastructure, and the kind of summer downpours that park over the river all add up to wet basements in low-lying Sarnia pockets, and the north-of-expressway flats are not immune either. Sarnia Plumbing installs sump pumps matched to basin and foundation, adds battery backup for storm-night outages, and fits backwater valves under permit where street sewers have ever surged. Existing systems get tested and serviced before the seasons that test them.",
-    meta: "Sump pump and backwater valve installation in Sarnia, Ontario. Matched pumps, battery backups, seasonal servicing, and permitted backwater valves.",
-    problem_h: "Storm parked over the river again?",
-    problem_p: "Sarnia basements get real protection: matched pumps, tested backups, and backwater valves that shut the street sewer out.",
-    features: [
-      ["shield", "Matched to the Ground", "Lakeplain clay and flat grades mean slow, sustained water, and the pump spec has to match that reality instead of a big-box default."],
-      ["zap", "Battery Backup for Storm Nights", "The outages that accompany Sarnia's worst weather are precisely when the pit fills. Backup pumps and alarms keep the floor dry through the blackout."],
-      ["refresh", "Backwater Valves, Permitted", "Where surge has ever reached a floor drain, a permitted backwater valve closes automatically and keeps it out. We handle the filing and the install."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Sarnia, Ontario",
+    "h1": "Plan Sump Pump and Backwater Protection in Sarnia",
+    "intro": "Basement water protection should be selected from the property’s actual drainage arrangement, not a general description of the city. If a home has a sump basin, note its dimensions, pump label, discharge route and any high-water marks. Ask whether the proposed pump capacity suits the basin and expected inflow. If outages are a concern, compare battery backup and alarm options. Where a floor drain has shown sewer backup, ask whether a backwater valve is appropriate and what access, permit or inspection requirements may apply.",
+    "meta": "Sump pump, battery backup and backwater valve planning in Sarnia, Ontario. Compare equipment and site requirements.",
+    "problem_h": "What protection fits your basement and drainage setup?",
+    "problem_p": "Photograph the basin, pump label, discharge and any evidence of water or sewer backup. The existing arrangement helps assess pump sizing, backup needs and whether a backwater valve merits investigation.",
+    "features": [
+      [
+        "shield",
+        "Size a pump to the actual basin",
+        "Record basin dimensions, pump details, discharge route and any observed inflow during wet weather. Ask how the proposed pump capacity is matched to those conditions rather than relying on a generic replacement. If site drainage or foundation details are uncertain, confirm what inspection is needed before choosing equipment."
+      ],
+      [
+        "zap",
+        "Compare backup and alarm options",
+        "If a power interruption could coincide with water entering the basin, ask about battery backup compatibility, expected operating limits and alarm options. Confirm how the backup is tested and maintained. These details affect the protection available during an outage and whether an existing primary pump can work with the proposed equipment."
+      ],
+      [
+        "refresh",
+        "Check backwater valve requirements",
+        "If a floor drain or lower fixture has experienced sewer backup, document where and when it occurred and ask whether a backwater valve suits the plumbing layout. Confirm access requirements and whether permits or inspections apply. The location of the building drain and available access can change both feasibility and project scope."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Sarnia, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Lambton Plumbing Team",
-    intro: "City water drawn from Lake Huron arrives consistent and moderate, while properties out toward Camlachie, Mandaumin, and the county runs often sit on wells with iron and real hardness, so the right treatment depends entirely on which of those describes your tap. Sarnia Plumbing tests before recommending anything: softeners sized to measured hardness and household count, iron treatment for the county wells, and reverse osmosis for drinking water at the kitchen sink. Nothing gets installed that the test does not call for.",
-    meta: "Water softeners and filtration in Sarnia, Ontario. Tested softener sizing for city and well properties, iron treatment, and reverse osmosis drinking systems.",
-    problem_h: "City supply or county well, which treatment fits?",
-    problem_p: "Testing decides the equipment for Sarnia homes, city moderate or well iron, before a single component gets installed.",
-    features: [
-      ["gauge", "Tested on Both Water Worlds", "Lake Huron supply and county wells behave differently in the same township. The number from your tap sets the system, whether you are central Sarnia or rural Lambton."],
-      ["droplets", "Iron Handled for County Wells", "Wells around Sarnia pull orange iron that defeats plain softeners. Staged filtration keeps resin alive and plumbing white."],
-      ["shield", "Drinking Water at the Sink", "Reverse osmosis units deliver bottle-quality water at the kitchen tap for coffee, cooking, and kids, without cases to carry up the stairs."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Sarnia, Ontario",
+    "h1": "Plan Water Treatment in Sarnia",
+    "intro": "Water treatment should follow a test of the water serving the property. First confirm whether the supply is municipal or from a private well, then obtain appropriate results for hardness, iron and any other concern before comparing equipment. A softener is sized using measured hardness and household demand; well water with iron may need separate or staged treatment. Reverse osmosis is a point-of-use option for drinking water at a kitchen sink. Share test results and existing equipment details so the proposed system can match the actual water and plumbing.",
+    "meta": "Water softener and filtration planning in Sarnia, Ontario. Use water test results to compare softening, iron treatment and reverse osmosis.",
+    "problem_h": "What does a water test say about the right treatment?",
+    "problem_p": "Confirm the supply source and share recent test results, including hardness and iron where relevant. Measurements and household demand guide equipment selection; location alone cannot determine which treatment a property needs.",
+    "features": [
+      [
+        "gauge",
+        "Select equipment from test results",
+        "If the property uses municipal water or a private well, identify the source and review current test results before selecting treatment. Ask how hardness, iron and household demand affect sizing. Different results can call for different equipment, so a generic recommendation may not match the water at your tap."
+      ],
+      [
+        "droplets",
+        "Assess iron in well water",
+        "If a well test shows iron, ask whether a softener alone is suitable or whether staged filtration is needed first. Confirm which form and level of iron the proposed equipment is intended to treat and how maintenance will work. This information matters because unsuitable pretreatment can affect the treatment system’s operation."
+      ],
+      [
+        "shield",
+        "Consider point-of-use drinking water",
+        "If the goal is drinking water at the kitchen sink, ask whether reverse osmosis is appropriate for the test results and intended use. Check the proposed tap location, available cabinet space, connection requirements and filter replacement schedule. These details define installation scope and ongoing maintenance needs."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Night-shift house, and they booked the tank swap for a Saturday morning. Old rental gone, owned unit in, and the afternoon to spare.", "Homeowner", "Sarnia"],
-  ["Three units in one building, one shared stack, endless backups. They camera-ed it, cleared it, and two years later we have not called again.", "Business Owner", "Point Edward"],
-  ["Bought a wartime bungalow with original galvanized. Repiped floor by floor, quiet phases while I slept after nights, pressure restored.", "Resident", "Sarnia"],
-  ["Tenant reported a ceiling stain at four, they isolated the leak by six, and the repair happened through one small opening. No claim needed.", "Business Owner", "Corunna"],
-  ["The storm that flooded half the street skipped our basement. New pump, battery backup, and a valve that closed exactly when it should have.", "Homeowner", "Bright's Grove"],
-  ["Well water out in the county was staining everything orange. Their test led to iron treatment ahead of the softener, and the fixtures finally stay white.", "Homeowner", "Camlachie"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Owned tank and tankless installs with evening and weekend windows for Sarnia's shift-work households.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Stack and main line clearing, jetting, and camera evidence to end repeat snake-outs in homes and doubles.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Wartime galvanized replacement floor by floor in PEX and copper, permitted, tested, and documented.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Toilets, faucets, tubs, and basement rough-ins set level and sealed fresh, on your schedule.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and thermal leak location, slab run isolation, and repairs through minimal openings.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Matched pumps, battery backups, and permitted backwater valves for Sarnia's flat, storm-tested ground.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Test-first treatment for Lake Huron city supply and iron-heavy county wells, plus reverse osmosis.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless replacements by fuel, capacity, venting and connection needs; note whether rental equipment or household access affects the project.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Describe affected fixtures and repeat blockages to compare cable clearing, hydro-jetting and camera inspection for a home or shared stack.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "For aging galvanized supply lines, compare PEX and copper scope, pipe access, work phasing, water interruptions and testing records.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan toilet, faucet, tub or shower replacements by checking dimensions and connections; layout changes may require new rough-ins.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Document symptoms and affected rooms; acoustic, thermal or pressure-isolation checks may help locate a hidden or in-floor leak.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare pump capacity with basin and discharge details, then consider outage backup or a backwater valve where site conditions warrant.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use water test results and supply type to compare softening, iron filtration or kitchen-sink reverse osmosis equipment.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed and insured in Sarnia?", "Yes, an Ontario plumbing licence with full insurance, and we file municipal permits and pass inspection for every job that requires one."],
-  ["Do you answer emergency calls in the city?", "Yes, and being city-based means fast arrivals for floods, burst lines, and sewer backups anywhere in Sarnia, including the same evening when the schedule allows."],
-  ["Can you replace a water heater the same week?", "Almost always the same day or next. Common tank sizes are stocked on the truck, and evening and weekend installs exist specifically for shift-work households."],
-  ["Is our wartime house a repipe candidate?", "If it still has galvanized supply lines, yes, and the rusty first draw and weak upstairs pressure are the signs. We assess honestly whether the full house or the worst floors come first."],
-  ["Do city water and well water need different treatment here?", "They do. Sarnia's Lake Huron supply runs moderate, while county wells often carry iron and heavier hardness, so we test your actual tap before recommending any system."],
-  ["How do you charge for work?", "Written quotes approved in advance and honoured on the invoice. Multi-unit landlords get per-unit documentation that keeps accounting simple."],
-  ["Can you add a battery backup to an existing sump pump?", "Yes, plus testing and servicing of the pump you already own. Most Sarnia systems can take a battery-backed secondary without replacing the whole setup."],
-  ["Where do you work beyond Sarnia?", "Point Edward, Corunna, Bright's Grove, Camlachie, and Mooretown are regular territory, with runs to Petrolia, Forest, and Wyoming weekly."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/sarniaplumbing.ca-water-heaters.jpg", "Water heater installation in Sarnia, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/sarniaplumbing.ca-drain-cleaning.jpg", "Drain cleaning in Sarnia, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/sarniaplumbing.ca-repiping.jpg", "Repiping a wartime home in Sarnia, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/sarniaplumbing.ca-fixtures-toilets.jpg", "Fixture installation in Sarnia, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/sarniaplumbing.ca-leak-detection.jpg", "Leak detection in Sarnia, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/sarniaplumbing.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Sarnia, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/sarniaplumbing.ca-water-softeners.jpg", "Water softener installation in Sarnia, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/sarniaplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Sarnia, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/sarniaplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning in Sarnia, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/sarniaplumbing.ca-repiping.jpg",
+    "Repiping a wartime home in Sarnia, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/sarniaplumbing.ca-fixtures-toilets.jpg",
+    "Fixture installation in Sarnia, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/sarniaplumbing.ca-leak-detection.jpg",
+    "Leak detection in Sarnia, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/sarniaplumbing.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Sarnia, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/sarniaplumbing.ca-water-softeners.jpg",
+    "Water softener installation in Sarnia, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "corunna": {
-    name: "Corunna",
-    intro: "Corunna sits along the St. Clair River south of Sarnia, a mix of longtime family streets, waterfront properties, and commuter homes where industrial shift schedules shape everything including plumbing appointments. Sarnia Plumbing serves Corunna with water heaters, drain cleaning, repipes, fixtures, sump systems, and water treatment, booking around plant rotations and reaching town within minutes.",
-    meta: "Plumber in Corunna, Ontario. Water heaters, drain cleaning, repipes, fixtures, and sump systems from a licensed Lambton plumbing team. Free quotes.",
-    nearby: ["Sarnia", "Mooretown", "Courtright", "Point Edward"],
-    faq: [
-      ["Do you install water heaters in Corunna?", "Yes. Owned tank and tankless installs across Corunna, with evening and weekend windows for shift-working households and fast swaps for failures."],
-      ["Can you repipe an older Corunna home?", "Yes. Homes carrying galvanized supply lines get repiped in PEX or copper floor by floor, under permit, with the household kept in water throughout."],
-      ["Is emergency plumbing available in Corunna?", "Yes. Corunna is minutes from our Sarnia base, so floods, burst lines, and backups get a fast response at any hour."],
-      ["Do Corunna basements need sump protection?", "The river-adjacent, flat ground says yes for many homes. We size pumps and basins to actual conditions and add battery backup for storm outages."]
+    "name": "Corunna",
+    "intro": "For a plumbing project in Corunna, describe the property’s equipment and the issue rather than relying on assumptions about local conditions. For a water heater, share its label and connections; for recurring drain trouble, list affected fixtures and previous clearing. If a home has a sump basin, photograph the pump and discharge, and if well water is used, provide recent test results. These details help an inquiry distinguish replacement work from diagnosis or a layout change and clarify what site information is still needed.",
+    "meta": "Plumbing project planning in Corunna, Ontario. Share equipment details and symptoms to clarify water heater, drain, repiping and sump scopes.",
+    "nearby": [
+      "Sarnia",
+      "Mooretown",
+      "Courtright",
+      "Point Edward"
     ],
+    "faq": [
+      [
+        "What information helps plan a water heater replacement in Corunna?",
+        "Share the current unit’s fuel, model, capacity, venting and connections. Note whether it is rented or owned and whether the proposed equipment is a tank or tankless model. This helps identify changes that may affect the project scope."
+      ],
+      [
+        "How can I assess a possible repipe in an older home?",
+        "If galvanized supply lines are present, photograph visible pipe and note which fixtures have low flow or discoloration. Ask whether the concern appears local or system-wide and what testing or access may be needed to compare a partial repair with a broader repipe."
+      ],
+      [
+        "What should I document for a plumbing emergency inquiry?",
+        "Describe the active leak or blockage, its location and whether water can be shut off safely. Provide photographs if possible and note affected rooms or fixtures. Do not assume response times; clear information helps explain the situation and its likely scope."
+      ],
+      [
+        "How do I evaluate sump protection?",
+        "If the property has a sump basin, record its dimensions, pump label, discharge route and any water marks. Ask whether capacity, battery backup or an alarm suits the observed setup. If sewer backup has occurred, provide its location and ask whether a backwater valve is appropriate."
+      ]
+    ]
   },
   "brights-grove": {
-    name: "Bright's Grove",
-    intro: "Bright's Grove hugs the Lake Huron shoreline northeast of Sarnia, blending older cottage-era homes that became year-round, mid-century streets, and newer builds near the water. Sarnia Plumbing serves Bright's Grove with seasonal and year-round plumbing: water heaters, drain cleaning, repipes, fixtures, sump systems, and water treatment suited to lake-effect weather and properties that may sit empty in deep winter.",
-    meta: "Plumber in Bright's Grove, Ontario. Water heaters, drains, repipes, sump systems, and winterization for lakeshore and year-round homes. Free quotes.",
-    nearby: ["Sarnia", "Camlachie", "Point Edward", "Wyoming"],
-    faq: [
-      ["Do you service seasonal homes in Bright's Grove?", "Yes. Fall drain-downs, spring start-ups, and the in-between repairs, so lakeshore places survive a January nobody witnesses."],
-      ["Can you replace a water heater in Bright's Grove quickly?", "Yes. Common units ride on the truck from Sarnia, so most Bright's Grove replacements complete within a day of the call."],
-      ["Our Bright's Grove basement takes water in big storms. Help?", "Yes. Lake-effect downpours fill pits fast, so we install matched pumps, battery backups for outage nights, and backwater valves where the sewer has surged."],
-      ["Do you repipe older cottage-era homes here?", "Yes. Many original Bright's Grove cottages carry mixed or aging pipe. We map it, then repipe in stages that keep the place usable, year-round or seasonal."]
+    "name": "Bright's Grove",
+    "intro": "For plumbing work in Bright's Grove, describe the property’s equipment, occupancy pattern and the specific symptoms to be assessed. If a seasonal home may sit unused, note how it is winterized and whether water remains in vulnerable lines. For a recurring drain issue, record which fixtures are affected; for a sump concern, photograph the basin, pump and discharge. If a water-treatment system is present, share recent test results and equipment labels. This information helps distinguish maintenance, replacement and diagnostic work without presuming conditions at the property.",
+    "meta": "Plumbing project planning in Bright's Grove, Ontario. Share property details for seasonal plumbing, drains, sump equipment and water treatment.",
+    "nearby": [
+      "Sarnia",
+      "Camlachie",
+      "Point Edward",
+      "Wyoming"
     ],
-  },
+    "faq": [
+      [
+        "What should I consider for a seasonal home?",
+        "If the property is left unoccupied in cold weather, document how water supply, drains and exposed lines are managed. Ask what drain-down or start-up work the specific plumbing system requires; the steps depend on the equipment and layout."
+      ],
+      [
+        "What details help plan a water heater replacement?",
+        "Photograph the unit label and connections, and note its fuel, capacity, venting and ownership. If equipment is unavailable or the home is not occupied year-round, mention that when describing access and project timing."
+      ],
+      [
+        "How should I investigate basement water during storms?",
+        "Record where water appears, when it occurs, and whether the sump pump runs or power is interrupted. Photograph the basin, pump and discharge. These details help assess whether pump capacity, battery backup, an alarm or further drainage investigation should be considered."
+      ],
+      [
+        "What information is useful before repiping an older cottage-era home?",
+        "If mixed or aging pipes are present, photograph visible materials and list symptoms by fixture. Ask how the pipe routes can be mapped and whether work could be phased. The building’s layout and access determine whether staged replacement is practical."
+      ]
+    ]
+  }
 };

@@ -1,199 +1,408 @@
-// Per-site content for brantfordplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Brantford, on the Grand River in Brant
-// County.
-// Local angle: postwar bungalow streets on slab foundations with poly-B and
-// galvanized stock hiding under concrete, river-adjacent low ground where the
-// Grand influences basement drainage, water hard enough that softeners are
-// standard equipment, southwest subdivisions adding new construction, and an
-// aging homeowner base that appreciates comfort-height and accessible fixture
-// work.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Brantford, Ontario",
-    h1: "Water Heater Replacement From a Local Brant Plumbing Team",
-    intro: "A water heater in a Brantford bungalow usually lives in a utility corner it was never really meant to fit, and by the time it is fifteen years old it is on borrowed time. Brantford Plumbing Pros pulls aging tanks, fixes illegal or degraded venting from decades of patchwork, and installs properly sized replacements, owned outright, with the option to step up to tankless for households tired of scheduling showers around laundry.",
-    meta: "Water heater replacement in Brantford, Ontario. Owned tank installs, venting corrections, and tankless upgrades for bungalows and new builds.",
-    problem_h: "Fifteen-year-old tank sounding rough?",
-    problem_p: "Old tanks in Brantford utility corners fail without much warning. We replace them properly, venting and all.",
-    features: [
-      ["flame", "Owned Beats Rented Here", "Monthly rental fees add up fast against the cost of an owned unit. We walk Brantford homeowners through the honest math and install the unit that wins it."],
-      ["clock", "Fast Failures Get Same-Week Service", "A leaking tank moves to the front of our Brantford schedule. Common capacities are on the truck, so the swap is usually a single-visit job."],
-      ["shield", "Old Venting Made Legal", "Decades of handyman patches leave dangerous vent runs on many Brantford streets. Every replacement we set includes venting brought to current requirements."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Brantford, Ontario",
+    "h1": "Water Heater Replacement in Brantford",
+    "intro": "Planning a water heater replacement in Brantford? Start by recording the tank’s age, capacity, fuel type, and any label information, then photograph its connections and vent route. Those details help compare a like-for-like tank with a tankless option and identify possible venting or space changes before work is scoped. If the existing unit is rented, compare the remaining rental terms with the purchase and installation costs. A replacement plan should also account for household hot-water demand and applicable installation requirements.",
+    "meta": "Water heater replacement in Brantford, including tank options, tankless conversions, and venting considerations.",
+    "problem_h": "Is an aging or noisy water heater due for review?",
+    "problem_p": "A leak, unusual noise, or inconsistent hot water can signal a need to assess the tank. Compare its age and condition, and have the venting and connections included in the scope.",
+    "features": [
+      [
+        "flame",
+        "Compare Rental and Ownership Costs",
+        "If the existing heater is rented, gather the agreement, monthly charge, buyout terms, and unit details. Compare those figures with the purchase and installation costs for an owned replacement. Capacity, fuel type, and vent requirements affect the total, so a simple monthly-payment comparison may not show the full cost."
+      ],
+      [
+        "clock",
+        "Document the Existing Setup",
+        "Photograph the data plate, connections, surrounding clearance, and the full vent route. Note any leak, interruption, or change in hot-water supply. This information helps assess whether a replacement can use the existing arrangement or needs additional work, and supports a clearer comparison of proposed equipment and scope."
+      ],
+      [
+        "shield",
+        "Include Venting in the Scope",
+        "Before replacing a fuel-burning heater, ask how the proposed unit’s venting will be checked against its installation requirements. Photograph visible joints and note any past alterations, but do not assume a vent is suitable because the old unit used it. Vent material, route, and termination can change the work required."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Brantford, Ontario",
-    h1: "Drain Cleaning From a Local Brant Plumbing Team",
-    intro: "The Grand River valley left Brantford with heavy clay soil that swells in wet seasons and shrinks in dry ones, and that slow ground motion works older laterals out of line, opening the joints that roots from the big street maples eventually find. Brantford Plumbing Pros clears main lines, kitchen stacks, and laundry drains with the machine the pipe actually needs, then scopes it on camera so the fix is a decision based on evidence. Repeated snaking without scoping is just renting your own basement back.",
-    meta: "Drain cleaning in Brantford, Ontario. Main line root clearing, kitchen drain jetting, and camera scoping for valley-tree root damage.",
-    problem_h: "Main line slowing every fall without fail?",
-    problem_p: "Valley roots are relentless into Brantford laterals. We clear the line fully and scope it so the next step is your call.",
-    features: [
-      ["refresh", "Machines Matched to the Pipe", "Kitchen grease, laundry lint, and root masses each respond to different equipment. Our trucks carry sectional machines and jetters so the Brantford job gets the right tool on the first visit."],
-      ["droplets", "Scoping Included Where It Counts", "A main line that has backed up twice deserves a camera pass. We record the condition and mark the problem footage for you, which turns a mystery into a plan."],
-      ["pin", "Neighbourhood Root Patterns", "We know which Brantford streets fight which trees. That local history helps us predict whether a clearing will hold or whether a spot repair is the smarter spend."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Brantford, Ontario",
+    "h1": "Drain Cleaning and Inspection in Brantford",
+    "intro": "For a recurring drain problem in Brantford, note which fixtures are affected, whether they slow or back up together, and when the symptoms occur. If the main line has backed up more than once, ask whether a camera inspection would help distinguish a removable blockage from a pipe defect or root intrusion. Equipment selection depends on the pipe, access, and obstruction: a sectional machine and a water jetter are not interchangeable. A recorded inspection can help compare clearing alone with further investigation.",
+    "meta": "Drain cleaning in Brantford with equipment selection and camera inspection options for recurring blockages.",
+    "problem_h": "Does the same drain keep slowing or backing up?",
+    "problem_p": "Record which fixtures are affected and how often symptoms return. If several fixtures are involved, a main-line inspection may clarify whether clearing alone is enough.",
+    "features": [
+      [
+        "refresh",
+        "Match Equipment to the Obstruction",
+        "Describe whether the problem involves kitchen grease, laundry lint, or a suspected root mass, and share any history of repeat blockages. Ask what equipment is proposed and why. A sectional drain machine and a jetter work differently, and pipe size, condition, access, and obstruction type can change which approach is appropriate."
+      ],
+      [
+        "droplets",
+        "Use a Camera to Clarify Repeat Problems",
+        "If a main line has backed up repeatedly, ask whether a camera pass is appropriate after clearing. Request the relevant footage or a clear description of what it shows, including the location and nature of any concern. Evidence of roots, a defect, or an obstruction can affect whether the next step is monitoring, further cleaning, or repair."
+      ],
+      [
+        "pin",
+        "Check the Property-Specific Pipe Route",
+        "Do not assume a particular tree or street condition explains a blockage. If roots are suspected, ask where they appear in the pipe and whether the footage shows an entry point or other damage. Note the cleanout location and gather any available drainage plans, since access and the affected pipe section shape the scope and options."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Brantford, Ontario",
-    h1: "Repiping From a Local Brant Plumbing Team",
-    intro: "Brantford's big building decades, the fifties through the eighties, line up almost perfectly with the eras of galvanized steel and then polybutylene, which means much of the city is drinking through pipes that are well past their design life. Brantford Plumbing Pros repipes bungalows and two-stories in PEX or copper, working over slab and through finished ceilings with surgical access, and files every job under permit so the paperwork matches the improvement.",
-    meta: "Repiping in Brantford, Ontario. Galvanized and poly-B replacement across postwar housing stock, permitted, tested, and inspected.",
-    problem_h: "Pipes from the era of everything else failing?",
-    problem_p: "Brantford's postwar stock is due. We replace corroded supply lines completely instead of chasing leaks one at a time.",
-    features: [
-      ["wrench", "Over-Slab Expertise", "Bungalow repipes mean routing new lines around slab work and through finished ceilings. We plan chases that keep patching to a minimum and pressure-test before anything closes."],
-      ["home", "Stop the Leak Whack-a-Mole", "One pinhole repair predicts the next. When Brantford homes show repeat failures in galvanized or poly-B, full replacement ends the pattern and the ceiling stains with it."],
-      ["shield", "Permit and Inspection Standard", "Every repipe is filed with the city and inspected on completion. Documentation matters when the house changes hands on these streets."]
+    "icon": "wrench",
+    "kicker": "Repiping in Brantford, Ontario",
+    "h1": "Whole-Home Repiping in Brantford",
+    "intro": "If a Brantford home has repeated supply-line leaks, discoloured water, or older galvanized steel or polybutylene piping, document the material and locations before comparing repair with repiping. Photographs of exposed pipe, past leak areas, and affected ceilings help show how much of the system may be involved. A plan for a bungalow over a slab can differ from one for a two-storey home with accessible framing. Ask how new PEX or copper lines would be routed, tested, and documented, and verify applicable permit and inspection requirements.",
+    "meta": "Repiping in Brantford, with planning guidance for older piping, PEX or copper routes, testing, and approvals.",
+    "problem_h": "Are repeated leaks pointing to aging supply lines?",
+    "problem_p": "Record leak locations and any visible pipe material. Multiple failures may warrant comparing another spot repair with a plan for replacing more of the supply system.",
+    "features": [
+      [
+        "wrench",
+        "Plan Routes Around Slabs and Finishes",
+        "If the home is built over a slab or has finished ceilings, ask where new PEX or copper lines could run and what surfaces may need access. Photograph visible pipe and areas affected by earlier repairs. The proposed route and pressure-testing plan help estimate disruption and reduce uncertainty before finished areas are closed."
+      ],
+      [
+        "home",
+        "Compare Spot Repairs With Replacement",
+        "When leaks recur, list their dates, locations, and any known pipe material, such as galvanized steel or polybutylene. Ask which sections a repair would leave in service and what evidence supports a broader replacement. The extent and pattern of failures can change the scope, so avoid assuming one leak proves the condition of every line."
+      ],
+      [
+        "shield",
+        "Verify Permits, Inspection, and Records",
+        "Ask which permits and inspections apply to the proposed repipe and who is responsible for confirming requirements before work begins. Request a written description of the materials, route, testing, and completion records. Clear documentation helps explain what was changed and gives future owners useful information about the plumbing system."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Brantford, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Brant Plumbing Team",
-    intro: "Between the original owners updating the bungalow they raised families in and young buyers renovating their first east-end two-story, Brantford runs on practical fixture work done well. Brantford Plumbing Pros swaps toilets and faucets, installs walk-in shower conversions, adds grab bars and comfort-height fixtures where staying in the house long-term is the plan, and roughs in basement bathrooms that actually drain. Solid, code-clean work at a fair number.",
-    meta: "Fixture and toilet installation in Brantford, Ontario. Comfort-height and accessible fixtures, walk-in showers, and basement bathroom rough-ins.",
-    problem_h: "Updating for the next thirty years?",
-    problem_p: "From comfort-height toilets to walk-in showers, we make Brantford bathrooms work for the long haul.",
-    features: [
-      ["home", "Aging-in-Place Upgrades", "Comfort-height toilets, lever taps, grab blocking, and curbless entries let Brantford homeowners stay put safely. We install with the framing reinforced properly behind the walls."],
-      ["check", "Basement Bathroom Rough-Ins", "Adding a three-piece below grade takes real drain planning, especially over slab. We size the pumping or gravity approach honestly before the concrete conversation starts."],
-      ["dollar", "Sensible Fixture Choices", "We install reliable mid-range fixtures that suit Brantford budgets, and we will happily set whatever you supply yourself, installed to code either way."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Brantford, Ontario",
+    "h1": "Fixture and Toilet Installation in Brantford",
+    "intro": "A bathroom update in Brantford can range from replacing a toilet or faucet to changing a shower layout or adding a basement bathroom. Before comparing options, photograph the existing fixtures, note dimensions and plumbing locations, and identify any access or mobility needs. Grab bars and other wall-mounted fittings may require suitable blocking behind the finish; a curbless shower also depends on floor and drain details. For a below-grade bathroom, ask whether gravity drainage is feasible or a pump is needed, particularly where a slab affects routing.",
+    "meta": "Fixture and toilet installation in Brantford, from accessible upgrades to basement bathroom planning.",
+    "problem_h": "Does the bathroom need a more practical layout?",
+    "problem_p": "List the fixtures to change and photograph their connections and surrounding surfaces. Layout, wall support, and drain access can all affect the installation scope.",
+    "features": [
+      [
+        "home",
+        "Plan Accessible Fixtures With Wall Support",
+        "If adding grab bars, lever taps, a comfort-height toilet, or a curbless entry, note who will use the space and what changes are needed. Ask how walls will be checked for blocking and how the shower floor and drain will be coordinated. Support and layout affect what must be opened or reinforced before finishes go in."
+      ],
+      [
+        "check",
+        "Assess Drainage for a Basement Bathroom",
+        "Before planning a below-grade three-piece bathroom, record the proposed fixture locations and whether the floor is over a slab. Ask whether gravity drainage is practical or a pump is required, and how the drain route will be established. Those details affect equipment, access, and the amount of concrete or other work involved."
+      ],
+      [
+        "dollar",
+        "Compare Fixtures and Supply Responsibilities",
+        "Choose fixtures by checking dimensions, connection details, and manufacturer requirements, then confirm who supplies each item. If supplying fixtures yourself, share the model information before the work is scoped. The selected toilet, faucet, or shower can affect fit, connections, and installation steps, so compare quotes using the same equipment and responsibilities."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Brantford, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Brant Plumbing Team",
-    intro: "Slab construction is the reason Brantford leak stories sound the same, a warm patch on the floor, a water heater that never rests, a bill that quietly doubles. Under-slab supply lines corrode and weep for months before anything surfaces. Brantford Plumbing Pros isolates sections, listens with acoustic gear, and pinpoints slab leaks before anyone cuts concrete, then repairs or reroutes with the smallest opening the repair allows.",
-    meta: "Leak detection and repair in Brantford, Ontario. Slab leak isolation and acoustic location with minimal concrete opening for bungalow homes.",
-    problem_h: "Warm floor spot and a climbing water bill?",
-    problem_p: "Classic under-slab leak signs in Brantford bungalows. We locate it precisely before any concrete comes up.",
-    features: [
-      ["droplets", "Isolation Before Excavation", "We shut sections and meter the rest, so the leak is bracketed to one run before cutting begins. Brantford slabs get one access, not a trench across the rec room."],
-      ["shield", "Reroute Options Considered", "Sometimes the smartest slab repair is abandoning the failing run overhead in PEX. We quote both paths straight and let the house decide."],
-      ["check", "Repair and Verification Together", "The fix is pressure-proven and the meter watched before we leave. If the needle still moves, we stay until it does not."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Brantford, Ontario",
+    "h1": "Leak Detection and Repair in Brantford",
+    "intro": "A warm floor patch, a meter that moves when fixtures are off, or an unexplained increase in water use can justify investigating a possible leak. If a Brantford property has a slab, note where the symptoms occur and photograph any visible moisture or finish changes before requesting a scope. Section isolation and acoustic listening can help narrow a suspected under-slab leak before concrete is opened. Ask how the suspected line will be verified and compare repair at the leak location with rerouting an affected run where appropriate.",
+    "meta": "Leak detection and repair in Brantford, including section isolation and acoustic investigation of suspected slab leaks.",
+    "problem_h": "Is a warm floor or moving meter raising concern?",
+    "problem_p": "Record meter readings with water use stopped, and note any warm or damp areas. If a slab leak is suspected, ask how its location will be narrowed before opening concrete.",
+    "features": [
+      [
+        "droplets",
+        "Isolate Sections Before Opening Concrete",
+        "If a leak may be under a slab, ask how sections of the supply system will be shut off and tested to narrow the suspected run. Share meter readings and mark visible floor symptoms. Isolation can help define an access point and avoid assuming a broad excavation is necessary, but findings should guide the opening."
+      ],
+      [
+        "shield",
+        "Compare Repair With Rerouting",
+        "Once a failing line is located, ask whether an accessible repair or rerouting the run overhead in PEX is feasible. Compare the affected pipe length, access, finish work, and implications for the existing line. The condition and route of the pipe determine whether opening the slab or abandoning a run is the more suitable option."
+      ],
+      [
+        "check",
+        "Ask How the Repair Will Be Verified",
+        "Request a description of the pressure test or other verification planned after the repair, and ask how the water meter will be checked. Keep the readings and repair details with the home records. If a suspected leak remains unresolved, further investigation may be needed before finishes are restored."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Brantford, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Brant Plumbing Team",
-    intro: "The low streets toward the Grand and the older combined sections of Brantford both send storm water the same direction, into basements that never used to take it. Brantford Plumbing Pros installs sump systems with the basin and discharge done correctly the first time, fits backwater valves where the municipal main is the threat, and adds battery backup so a summer outage does not undo everything. The river sets the rules, we just make sure your house wins.",
-    meta: "Sump pump and backwater valve installation in Brantford, Ontario. Flood-path protection for low-lying streets near the Grand River.",
-    problem_h: "Basement taking water it never used to?",
-    problem_p: "Brantford's low ground and older mains back up under load. We install the protection that changes the outcome.",
-    features: [
-      ["shield", "Basins Installed to Work", "A sump hole hacked into a slab corner pumps sludge. We core a proper basin, set the inlet elevation, and size the pump to actual Brantford inflow rates."],
-      ["zap", "Battery Backup as Standard Sense", "Storm outages and storm inflow arrive together. A charged backup stage keeps the pit empty through the outage and recharges ready for the next front."],
-      ["refresh", "Backwater Valves, Permitted", "Where the city main surcharges, a backwater valve is the difference between a damp smell and a ruined rec room. We file the permit and book the inspection."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Brantford, Ontario",
+    "h1": "Sump Pump and Backwater Valve Planning in Brantford",
+    "intro": "If a Brantford basement has taken on water, first record where it entered, when it happened, and whether the event coincided with heavy rain, a power interruption, or a drain backup. Photographs and any existing sump or valve details help distinguish groundwater entering around the foundation from water returning through a sewer connection. A sump system needs an appropriate basin, inlet arrangement, pump, and discharge route; a battery backup addresses a different risk. Ask what local approvals or inspections apply to a proposed backwater valve.",
+    "meta": "Sump pump and backwater valve planning in Brantford, including basin, discharge, backup, and approval considerations.",
+    "problem_h": "Has water entered the basement more than once?",
+    "problem_p": "Photograph the affected area and note the timing and source if known. The right protection depends on whether water is entering from outside or backing up through a drain.",
+    "features": [
+      [
+        "shield",
+        "Check the Basin, Inlet, and Discharge",
+        "If considering a sump system, document any existing pit, pump, inlet, and discharge route. Ask how the basin size, inlet elevation, and pump capacity will be selected for the property. A basin cut into a slab and an improvised corner pit are not equivalent; access and the source of water affect the design."
+      ],
+      [
+        "zap",
+        "Consider Backup Power Separately",
+        "A primary pump and its backup address different operating conditions. If outages have occurred during periods when pumping was needed, ask how a battery backup would be sized, charged, and maintained, and what it can support. Compare the proposed arrangement with the pump load and expected runtime rather than assuming every backup provides the same coverage."
+      ],
+      [
+        "refresh",
+        "Check Backwater Valve Requirements",
+        "If sewer backup is a concern, ask whether a backwater valve is suitable for the affected connection and what access is needed for installation and future maintenance. Verify which permits and inspections apply before work begins. The location of the building drain and municipal connection can change feasibility and scope."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Brantford, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Brant Plumbing Team",
-    intro: "Brantford tap water carries a mineral load that shows up as kettle crust, grey film on the shower door, and heaters dying years early, and most homes in town already run a softener for exactly that reason. Brantford Plumbing Pros sets up softeners and filtration right, sized from a hardness test, drained properly, and plumbed with a bypass so future service never shuts the house down. Country properties toward Brant add iron and sulphur stages to match their wells.",
-    meta: "Water softeners and filtration in Brantford, Ontario. Correctly sized softener installs and rural well treatment for country properties.",
-    problem_h: "Kettle furring faster than it should?",
-    problem_p: "Brantford water hardness is real. We size treatment from a test and plumb it for easy service forever after.",
-    features: [
-      ["gauge", "Hardness Tested, Then Matched", "We measure before we recommend, so the softener capacity fits the household it serves. Right-sized units in Brantford use less salt and regenerate on demand."],
-      ["droplets", "Rural Well Staging", "Properties outside town bring iron staining and sulphur smell. We stage oxidation and filtration to the well's actual profile, and add UV where safety calls for it."],
-      ["dollar", "Long-Game Economics", "Softened water lets heaters, dishwashers, and fixtures reach full service life. The treatment earns its cost back in what you stop replacing early."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Brantford, Ontario",
+    "h1": "Water Softening and Filtration in Brantford",
+    "intro": "Before choosing water treatment for a Brantford home or a nearby rural property, identify the water source and test the water rather than selecting equipment from symptoms alone. Hardness, iron, and other measured results can call for different treatment stages, and a private well should be assessed using results specific to that source. Photograph the plumbing area and note drain access, household use, and available space. Ask for the test results, equipment capacity, regeneration approach, bypass arrangement, and any maintenance requirements before comparing systems.",
+    "meta": "Water softeners and filtration in Brantford, with test-based equipment selection and private-well treatment planning.",
+    "problem_h": "Is scale or staining prompting a treatment review?",
+    "problem_p": "Record the water source and the symptoms you notice, then arrange appropriate testing. Results help determine whether softening, filtration, or another treatment stage is relevant.",
+    "features": [
+      [
+        "gauge",
+        "Test Water Before Selecting Capacity",
+        "Ask which water measurements will guide equipment selection and request the results in writing. Household size and water use also affect softener capacity and regeneration settings. Comparing systems against the same test results makes it easier to understand why a particular unit is proposed and whether its operating requirements suit the household."
+      ],
+      [
+        "droplets",
+        "Stage Private-Well Treatment to Results",
+        "If the property uses a private well and testing identifies iron, sulphur-related odour, or another concern, ask which treatment stage targets each result and how the stages work together. Do not assume every well needs the same setup. A bypass, drain access, and any proposed UV equipment should be discussed in relation to the test findings and system design."
+      ],
+      [
+        "dollar",
+        "Compare Purchase and Maintenance Costs",
+        "Review the equipment price alongside salt or other consumables, regeneration settings, filter changes, and service access. Ask whether the system has a bypass so the home can remain supplied during maintenance. These details affect ongoing cost and convenience, and make comparisons between treatment options more useful than purchase price alone."
+      ]
     ],
-    rev: [4, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Swapped our dying rental tank for an owned one and fixed venting two other outfits said nothing about. Night and day crew.", "Homeowner", "Brantford"],
-  ["Roots in the main line every autumn. They cleared it, scoped it on camera, and showed us the exact joint. Patched that one spot, problem gone.", "Resident", "Brantford"],
-  ["Full repipe of our seventies bungalow while we lived in it. They worked over the slab with barely any patching and filed all the permits.", "Homeowner", "St. George"],
-  ["Warm spot on the basement floor turned out to be a slab leak. They isolated the run and rerouted it overhead instead of jackhammering the rec room.", "Homeowner", "Brantford"],
-  ["Walk-in shower conversion with grab bars so Mom can stay in her house. Respectful crew and the finish work is beautiful.", "Resident", "Mount Pleasant"],
-  ["Softener sized off an actual test. Salt use dropped compared to the old unit and the shower door finally stays clear.", "Farmer", "Scotland"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Owned tank installations, venting corrections, and tankless upgrades for Brantford bungalows and newer builds.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Root clearing, jetting, and camera scoping for Brantford laterals under those big valley maples.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized and poly-B replacement across postwar Brantford stock, permitted and inspected start to finish.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Comfort-height and accessible installations, walk-in showers, and basement bathroom rough-ins.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Slab leak isolation and acoustic location that keeps concrete cutting to a single access.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Flood-path protection sized for low Brantford streets and Grand-adjacent ground.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Test-based softener installs and rural well treatment for properties around town.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless options by household demand, fuel, venting, and available space. Include the existing unit’s rental terms if applicable.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "The right approach depends on the blockage and pipe: compare sectional machine clearing, jetting, and camera inspection when problems recur.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Document visible galvanized steel or polybutylene lines and past leaks. Compare PEX or copper routing, access, testing, and permit requirements.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan toilet and fixture replacements, accessible upgrades, walk-in showers, or basement bathrooms around dimensions, wall support, and drainage.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "For a suspected slab leak, document meter readings and floor symptoms, then ask how isolation and acoustic investigation can narrow the location.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare sump basin, pump, discharge, and battery backup needs. Consider a backwater valve if sewer backup is a concern and verify approvals.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use water test results to compare softener capacity and filtration stages. Private-well treatment should match the source-specific findings.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are your Brantford plumbers licensed and insured?", "Yes on both counts. Where a permit applies we take it out with the city, and the inspection gets passed before we call the job done."],
-  ["What counts as a plumbing emergency worth calling about?", "Active flooding, sewage backing into the home, a burst supply line, or no water at all. Those get priority response across Brantford, including evenings."],
-  ["How fast can you replace a tank that just started leaking?", "Leaking tanks jump our queue. Most Brantford replacements happen within a day or two of the call, and standard capacities often finish same visit."],
-  ["Our seventies house still has poly-B. How urgent is it?", "It is a when, not an if. The fittings embrittle with age. We can phase a repipe to spread cost while removing the highest-risk runs first."],
-  ["Do Brantford basements really need backwater valves?", "On the low streets near the river and through the older combined sections, yes. When the main surcharges, the valve is what keeps it out of your rec room."],
-  ["Is the water here hard enough to justify a softener?", "It is, and most homes in town already run one. We test your actual hardness first so the unit is sized to the house, not to a sales target."],
-  ["Will you quote before starting work?", "Every time. The written price is agreed before tools come out, and it is the price you pay at the end."],
-  ["Where around Brantford do you travel?", "Brantford itself plus Paris, St. George, Burford, Scotland, Mount Pleasant, and the County of Brant roads between them."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/brantfordplumbingpros.ca-water-heaters.jpg", "Water heater replacement in Brantford, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/brantfordplumbingpros.ca-drain-cleaning.jpg", "Main line cleaning in Brantford, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/brantfordplumbingpros.ca-repiping.jpg", "Bungalow repipe in Brantford, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/brantfordplumbingpros.ca-fixtures-toilets.jpg", "Accessible fixture installation in Brantford, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/brantfordplumbingpros.ca-leak-detection.jpg", "Slab leak detection in Brantford, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/brantfordplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Brantford, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/brantfordplumbingpros.ca-water-softeners.jpg", "Water softener setup in Brantford, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/brantfordplumbingpros.ca-water-heaters.jpg",
+    "Water heater replacement in Brantford, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/brantfordplumbingpros.ca-drain-cleaning.jpg",
+    "Main line cleaning in Brantford, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/brantfordplumbingpros.ca-repiping.jpg",
+    "Bungalow repipe in Brantford, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/brantfordplumbingpros.ca-fixtures-toilets.jpg",
+    "Accessible fixture installation in Brantford, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/brantfordplumbingpros.ca-leak-detection.jpg",
+    "Slab leak detection in Brantford, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/brantfordplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump installation in Brantford, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/brantfordplumbingpros.ca-water-softeners.jpg",
+    "Water softener setup in Brantford, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "st-george": {
-    name: "St. George",
-    intro: "St. George sits northwest of Brantford on the Fairchild Creek flats, a village of older brick homes, infill builds, and rural properties stretching out toward the wetlands. Brantford Plumbing Pros serves St. George with well water treatment, water heater swaps, drain clearing, and renovation plumbing. Village water pressures and creek-adjacent ground both get accounted for when we plan work here.",
-    meta: "Plumber in St. George, Ontario. Well treatment, water heaters, and drain service for a Brant County village from a licensed local team.",
-    nearby: ["Brantford", "Paris", "Cambridge", "Glen Morris"],
-    faq: [
-      ["Do you treat well water in St. George?", "Yes. St. George wells commonly carry iron and hardness. We test and stage treatment to the specific results."],
-      ["Can you replace a water heater out in St. George?", "Yes, quickly. Standard sizes ride on the truck and most swaps finish in one visit."],
-      ["Our St. George basement is damp near the creek side. Advice?", "We assess whether it is ground seepage or plumbing, then size sump protection or repairs to match."],
-      ["Do you handle emergencies in St. George?", "Yes. Floods and no-water calls in the village get priority response like anywhere else on our map."]
+    "name": "St. George",
+    "intro": "For a plumbing project in St. George, first identify whether the property uses municipal water or a private well, and gather any recent water test results. If a well shows hardness, iron, or another measured issue, treatment options should be chosen from those findings rather than assumed from the address. For drainage or basement concerns, note where symptoms occur and whether a sump, sewer connection, or visible pipework is involved. Photographs of equipment and past repairs help clarify the scope for water heaters, fixtures, and drain work.",
+    "meta": "Plumbing project planning in St. George, including well treatment, water heaters, drains, and renovations.",
+    "nearby": [
+      "Brantford",
+      "Paris",
+      "Cambridge",
+      "Glen Morris"
     ],
+    "faq": [
+      [
+        "How should I plan well-water treatment in St. George?",
+        "Confirm that the property uses a private well and obtain appropriate test results. Compare treatment equipment against those results, including any measured hardness or iron, rather than selecting a system based on location alone."
+      ],
+      [
+        "What information helps scope a water heater replacement?",
+        "Photograph the data plate, connections, and vent route, and note the fuel type and capacity. Those details help compare replacement equipment and identify questions about venting or access."
+      ],
+      [
+        "How can I investigate a damp basement?",
+        "Record where and when water appears, and photograph the affected area. The pattern may help distinguish water entering through the foundation from a plumbing leak or drain backup; the source affects which investigation is useful."
+      ],
+      [
+        "What should I check before arranging drain work?",
+        "Note which fixtures are slow, whether several are affected, and how often the issue returns. A recurring main-line backup may call for camera inspection after clearing, depending on access and the pipe condition."
+      ]
+    ]
   },
   "burford": {
-    name: "Burford",
-    intro: "Burford anchors the farm country west of Brantford, where supply lines run long from the street and plenty of properties still draw from wells out on the concessions. Brantford Plumbing Pros serves Burford with water heater work, softener and iron filter installs, drain cleaning, and repipes for the older village housing. Farm families get straight answers and service that shows up when the truck says it will.",
-    meta: "Plumber in Burford, Ontario. Well systems, water heaters, and full plumbing service for farm-country properties west of Brantford.",
-    nearby: ["Brantford", "Paris", "Scotland", "Princeton"],
-    faq: [
-      ["Can you service farm properties around Burford?", "Yes. Yard hydrants, well pressure systems, and farmhouse plumbing all sit inside our regular Burford work."],
-      ["Is Burford water hard?", "Village supply runs hard and the wells often harder. We test and size softening and iron treatment to the source."],
-      ["Do you repipe older Burford farmhouses?", "Yes. Galvanized runs are common out here, and we replace them in PEX or copper under permit."],
-      ["How fast is emergency response to Burford?", "Burford sits on our regular routes, and emergencies get the same priority as in-town Brantford calls."]
+    "name": "Burford",
+    "intro": "For work at a Burford property, note whether the water comes from a municipal supply or a private well, and gather recent test results if available. If a farm property has a well pressure system, yard hydrant, or long supply run, photograph its layout and record any pressure changes or leaks; those details can affect access and the scope. For older homes, identify visible pipe materials and previous repair locations before comparing spot repairs with repiping. Water heater and treatment choices also depend on the existing equipment and the property’s water source.",
+    "meta": "Plumbing project planning in Burford, from private-well systems to water heaters, drains, and older pipes.",
+    "nearby": [
+      "Brantford",
+      "Paris",
+      "Scotland",
+      "Princeton"
     ],
+    "faq": [
+      [
+        "What should I document for plumbing work on a farm property?",
+        "Photograph the well pressure system, yard hydrants, and visible supply routes, and note any pressure or leak symptoms. The layout and distance between equipment and fixtures can affect access and the proposed scope."
+      ],
+      [
+        "How do I choose a softener or iron filter?",
+        "Identify the water source and use appropriate test results to compare treatment options. Hardness, iron, and other findings can call for different equipment, so do not assume village supply and private wells need the same system."
+      ],
+      [
+        "When is repiping worth comparing with another repair?",
+        "If leaks recur, record their dates and locations and note any visible galvanized or polybutylene piping. Compare the proposed repair with the amount of pipe that would remain in service under a wider replacement."
+      ],
+      [
+        "What should I check before a water heater replacement?",
+        "Gather the unit’s age, capacity, fuel type, data plate, and photographs of its connections and vent route. These details help compare equipment and identify potential changes to the installation scope."
+      ]
+    ]
   },
   "scotland": {
-    name: "Scotland",
-    intro: "Scotland sits on pleasant rolling ground east of Brantford along the road to St. George, a small community of established homes and rural lots. Brantford Plumbing Pros covers Scotland for water heater replacement, drain and sewer clearing, fixture installation, and water treatment for the wells that serve many of the properties. Small place, same standard of work.",
-    meta: "Plumber in Scotland, Ontario. Water heaters, drain service, and well water treatment for a quiet Brant County community.",
-    nearby: ["Brantford", "St. George", "Burford", "Mount Pleasant"],
-    faq: [
-      ["Do you install water heaters in Scotland?", "Yes, with common sizes stocked and most replacements completed in a single visit."],
-      ["Can you put in a softener for our Scotland well?", "Yes. We test the well first and match the softener and filtration to what is actually in the water."],
-      ["Do you clear main line roots out near Scotland?", "Yes. Our jetting and camera equipment comes to Scotland the same as everywhere on the map."],
-      ["Are you taking new customers in Scotland?", "We are. Call or email and we will set the visit that fits your schedule."]
+    "name": "Scotland",
+    "intro": "When planning plumbing work in Scotland, begin with the property-specific details rather than assumptions about the area. If the home relies on a private well, gather recent test results before comparing softening or filtration equipment. For a water heater, photograph the data plate, fuel connections, and vent route. If a main drain repeatedly slows or backs up, record which fixtures are affected and whether the problem returns after clearing; a camera inspection may help clarify pipe condition. Fixture updates also benefit from measurements and photos of existing connections.",
+    "meta": "Plumbing project planning in Scotland, including water heaters, drain investigations, fixtures, and well treatment.",
+    "nearby": [
+      "Brantford",
+      "St. George",
+      "Burford",
+      "Mount Pleasant"
     ],
-  },
+    "faq": [
+      [
+        "What details help plan a water heater replacement?",
+        "Share the unit’s capacity, fuel type, data plate, and photographs of the connections and vent route. That information helps compare replacement options and identify questions about access or venting."
+      ],
+      [
+        "How should I choose treatment for a Scotland well?",
+        "Confirm the property uses a well and obtain appropriate water test results. Compare softening or filtration equipment with the measured findings and ask about capacity, maintenance, and bypass arrangements."
+      ],
+      [
+        "What should I do about recurring main-line roots or blockages?",
+        "Record the symptoms and how often they return. If a main line has backed up repeatedly, ask whether clearing followed by camera inspection could help locate an obstruction or identify pipe damage."
+      ],
+      [
+        "What should I prepare before fixture installation?",
+        "Photograph the current fixture and connections, measure the available space, and note the model of any supplied replacement. Fit and connection details can change the installation scope."
+      ]
+    ]
+  }
 };

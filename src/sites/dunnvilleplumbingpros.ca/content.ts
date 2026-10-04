@@ -1,160 +1,320 @@
-// Per-site content for dunnvilleplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Dunnville, Haldimand County, where the
-// Grand River meets Lake Erie.
-// Local angle: a farm-town service economy. In town, an older housing stock
-// on Lake Erie-sourced water that runs hard, with clay-and-cast-iron drains
-// under mature streets. Out of town, properties on private wells (iron,
-// sulphur, hardness) and septic, farm service plumbing, and Lake Erie shore
-// places from Lowbanks to Port Maitland that need seasonal care and real
-// flood protection when the Grand is high.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Dunnville, Ontario",
-    h1: "Water Heater Installation From a Local Haldimand Plumbing Team",
-    intro: "Dunnville hard water is unkind to water heaters, and a tank here works through mineral load that a city unit never sees, which is why sizing and flushing matter more than the sticker. Dunnville Plumbing Pros installs tanks and tankless units built to survive Lake Erie country water, replaces rentals with owned equipment, and keeps the common sizes ready so a cold morning does not turn into a cold week.",
-    meta: "Water heater installation in Dunnville, Ontario. Hard-water-ready tanks, tankless options, and same-week swaps by licensed Haldimand plumbers.",
-    problem_h: "Tank groaning, or the hot tap running lukewarm?",
-    problem_p: "Dunnville water heaters get installed with the local water in mind, quoted plainly and kept on schedule.",
-    features: [
-      ["flame", "Built for Hard Water", "Mineral collects fastest in the hottest place in the house. We install units with the right anode and fitting configuration for this water, and set up the flushing routine that stretches tank life."],
-      ["dollar", "Rental to Owned", "Monthly tank rentals add up to several times a unit's worth over its life. We handle the swap to owned equipment, tank or tankless, with the math shown up front."],
-      ["clock", "Rural Routes Planned Weekly", "Farm places from Byng to Stromness are not drive-bys. Our weekly route days cover the countryside around Dunnville so a replacement lands fast without a special trip fee."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Dunnville, Ontario",
+    "h1": "Water Heater Options for Dunnville Homes",
+    "intro": "Planning a water-heater replacement in Dunnville? Start by recording the existing unit’s fuel, capacity, venting, connection sizes, and any rental details. If a water test shows mineral content, ask how the selected tank or tankless model is maintained and what anode or flushing requirements apply. A change from rental to owned equipment may also affect removal, installation, and ongoing costs. Comparing these details helps define the scope before choosing a unit.",
+    "meta": "Compare tank and tankless water heater replacement options in Dunnville, including equipment details, maintenance, and rental-to-owned considerations.",
+    "problem_h": "Is the water lukewarm, or is the tank making unusual noises?",
+    "problem_p": "Note when the symptoms occur, how many fixtures are affected, and the unit’s age and model. That information helps distinguish a capacity issue from a possible equipment or maintenance problem.",
+    "features": [
+      [
+        "flame",
+        "Check the water and maintenance needs",
+        "If mineral buildup is a concern, review a recent water test and the manufacturer’s maintenance instructions before selecting equipment. Compare anode access, flushing requirements, and compatible fittings. Those details can affect installation choices and future service needs, rather than relying on a general assumption about water conditions."
+      ],
+      [
+        "dollar",
+        "Compare rental and ownership costs",
+        "Before changing from a rental to an owned unit, photograph the rental label and review the contract’s removal, buyout, and return terms. Compare those costs with the purchase, installation, and expected maintenance of a replacement. Tank and tankless systems have different requirements, so confirm which option fits the property."
+      ],
+      [
+        "clock",
+        "Plan installation access and timing",
+        "For properties outside the town centre, note the route, access conditions, unit location, and any narrow doors or stairs. Share photographs of the existing heater, venting, and connections. These details help establish equipment handling and installation scope; do not assume a particular route schedule or delivery timeframe."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Dunnville, Ontario",
-    h1: "Drain Cleaning From a Local Haldimand Plumbing Team",
-    intro: "Dunnville's older streets run drains through decades-old clay and cast iron under some of the biggest trees in the county, and out on the concession roads, long private lines out to septic beds collect everything roots can reach. Dunnville Plumbing Pros snakes, jets, and cameras through all of it, from a backed-up basement floor drain downtown to a sluggish farm line two concessions out.",
-    meta: "Drain cleaning in Dunnville, Ontario. Main line snaking, hydro-jetting, root cutting, septic line care, and camera inspection by licensed plumbers.",
-    problem_h: "Floor drain backing up when laundry runs?",
-    problem_p: "Town main or long rural run, we clear Haldimand drains properly and put a camera on the cause.",
-    features: [
-      ["refresh", "Jets and Machines for Every Line", "Kitchen grease downtown and root-invaded clay under the boulevard maples both fall to our jetting and cutting gear, with the line restored to real diameter rather than poked through."],
-      ["droplets", "Camera on the Cause", "A drain that keeps returning is telling you something. We scope the line, find the belly, the break, or the root plate, and show you the footage before anyone talks repairs."],
-      ["shield", "Septic Line Stewardship", "Long runs to tanks and beds need gentle, knowledgeable care. We clean them without harsh chemistry and tell you honestly when a pump-out or repair is the real fix."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Dunnville, Ontario",
+    "h1": "Drain Cleaning Options in Dunnville",
+    "intro": "A slow or blocked drain in Dunnville can involve a local fixture branch, a building drain, or a longer line leading to a septic system. Describe which fixtures are affected, when symptoms appear, and whether the property uses municipal sewer or a septic system. If the same blockage returns, ask whether a camera inspection would help identify a belly, break, or root intrusion. The line material, access points, and length determine whether a cable machine, jetting, or another approach is appropriate.",
+    "meta": "Drain cleaning in Dunnville, with guidance on cable clearing, hydro-jetting, septic lines, and camera inspection.",
+    "problem_h": "Does a floor drain back up when the laundry is running?",
+    "problem_p": "Record which fixtures drain slowly, whether water backs up elsewhere, and how often the problem returns. This helps narrow the affected line and whether camera inspection may be useful.",
+    "features": [
+      [
+        "refresh",
+        "Match the clearing method to the line",
+        "Photograph accessible cleanouts and note the pipe material if known. Grease in a kitchen branch, roots in clay, and buildup in cast iron can call for different equipment. Cable machines cut or open a blockage, while hydro-jetting uses water to clean suitable lines. Confirm the method is appropriate for the line’s condition before work begins."
+      ],
+      [
+        "droplets",
+        "Use a camera when blockages return",
+        "If the drain repeatedly clogs, ask whether a camera can inspect the line after clearing. Footage may show a belly, break, root plate, or other obstruction, helping distinguish a recurring cause from ordinary buildup. Request the relevant footage or findings so repair options can be compared before deciding whether further work is warranted."
+      ],
+      [
+        "shield",
+        "Take care with septic lines",
+        "For a property with a septic system, note the line route, approximate length, cleanouts, and any known tank or bed locations. Long runs need an approach suited to the pipe and system; ask how cleaning will avoid unnecessary disturbance. If symptoms suggest a full tank or a damaged line, compare cleaning with pump-out or repair guidance."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Dunnville, Ontario",
-    h1: "Repiping From a Local Haldimand Plumbing Team",
-    intro: "The housing stock around Dunnville carries a lot of original galvanized, and hard water speeds the clock on it, choking supply lines with scale and rust until pressure sags and fixtures stain. Dunnville Plumbing Pros repipes homes and farmhouses in PEX or copper, plans the job so water is back on every evening, and closes it out with pressure tests and the permit signed by Haldimand County.",
-    meta: "Repiping in Dunnville, Ontario. Galvanized replacement, farmhouse re-plumbing, and whole-home PEX or copper repipes by licensed plumbers.",
-    problem_h: "Pressure dropping and tub water running orange?",
-    problem_p: "We retire rusted galvanized from Dunnville homes with clean piping, staged scheduling, and full permits.",
-    features: [
-      ["wrench", "Galvanized, Gone for Good", "Rust and scale have no repair, only replacement. We pull the old steel out and land PEX or copper sized to deliver strong pressure at the farthest fixture."],
-      ["home", "Water On Every Evening", "Repipes here are staged room by room so the house stays livable and the farm keeps running, with service restored at the end of each working day."],
-      ["shield", "Permitted and Proven", "Everything is pressure-tested with the inspector present before covering, and the closed permit is yours, which matters when selling or insuring an older property."]
+    "icon": "wrench",
+    "kicker": "Repiping in Dunnville, Ontario",
+    "h1": "Whole-Home Repiping Options in Dunnville",
+    "intro": "If a Dunnville property has galvanized supply piping, recurring leaks, low pressure, or discoloured water, first document which fixtures are affected and where visible pipe is accessible. A repipe may use PEX or copper, but the right scope depends on the existing layout, fixture locations, access through walls or floors, and connection requirements. Ask how water interruption, testing, inspections, and restoration are handled. Confirm permit requirements with the appropriate authority rather than assuming they are included.",
+    "meta": "Explore galvanized pipe replacement and whole-home PEX or copper repiping considerations in Dunnville.",
+    "problem_h": "Is pressure falling, or does water appear rusty at a fixture?",
+    "problem_p": "Photograph visible piping and note which taps show low pressure or discolouration, plus when it occurs. The pattern can help distinguish a localized issue from a broader supply-pipe replacement scope.",
+    "features": [
+      [
+        "wrench",
+        "Assess old galvanized piping",
+        "If galvanized steel is present, photograph accessible sections, fittings, and any corrosion, and note the farthest fixtures with weak flow. Scale and rust may affect the usable pipe opening, but visible symptoms alone do not establish the full condition. Compare a localized repair with replacement and ask how new PEX or copper would be sized for the layout."
+      ],
+      [
+        "home",
+        "Plan the water interruption",
+        "Ask which areas will be opened, what access is needed, and when water service is expected to be interrupted and restored. A room-by-room sequence may suit some properties, but access, pipe routing, and the extent of replacement determine whether that is practical. Confirm arrangements for household or farm water needs before work is scheduled."
+      ],
+      [
+        "shield",
+        "Verify testing and permit requirements",
+        "Ask for the proposed pressure-testing procedure and identify which sections need inspection before walls or ceilings are closed. Confirm with the relevant authority whether permits or inspections apply to the specific project, and clarify who is responsible for arranging them. Keep test records and any applicable permit documentation with the property’s maintenance information."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Dunnville, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Haldimand Plumbing Team",
-    intro: "Hard water eats cheap fixtures quickly, so the toilet or faucet you choose for a Dunnville home matters more here than in softer-water country. Dunnville Plumbing Pros installs quality fixtures that stand up to Lake Erie area water, adapts modern units to the odd plumbing geometries of older houses, and does the rough-in work for basement bathrooms and renovations across town and township.",
-    meta: "Fixture and toilet installation in Dunnville, Ontario. Hard-water-durable fixtures, toilet and faucet replacement, and renovation rough-ins.",
-    problem_h: "Replacing what the water ruined, or renovating?",
-    problem_p: "Fixtures chosen and installed to survive Haldimand water, set properly, and guaranteed leak-free.",
-    features: [
-      ["home", "Fixtures That Fight Scale", "We steer you toward cartridges and finishes that tolerate this water, because a bargain faucet in Dunnville becomes a two-year fixture, and not in a good way."],
-      ["check", "Old-House Adaptations", "Century homes and converted farmhouses throw odd angles at new fixtures. We adapt supplies, offsets, and drains so the install looks intended, not improvised."],
-      ["shield", "Reno and Basement Rough-Ins", "Adding a bathroom or moving laundry means drains, vents, and supplies placed to code before the finishes arrive, and we handle it from break to trim."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Dunnville, Ontario",
+    "h1": "Fixture and Toilet Installation Options in Dunnville",
+    "intro": "For a fixture replacement or renovation in Dunnville, record the model, connection locations, and dimensions before choosing new equipment. If a water test identifies mineral content, compare manufacturers’ cleaning and maintenance guidance for finishes and cartridges rather than assuming a particular fixture will resist scale. Older homes may have unusual supply, drain, or toilet rough-in positions; photograph these before ordering. Basement bathrooms and moved laundry also require planning for drain, vent, and supply routes before finishes are installed.",
+    "meta": "Fixture and toilet installation planning in Dunnville, including replacements, older layouts, and renovation rough-ins.",
+    "problem_h": "Are you replacing a damaged fixture or planning a renovation?",
+    "problem_p": "Photograph the fixture, nearby shutoffs, connections, and available space. For a new bathroom or moved laundry, note the proposed locations so drain, vent, and supply requirements can be assessed.",
+    "features": [
+      [
+        "home",
+        "Compare fixtures with maintenance in mind",
+        "If testing shows mineral content, review cartridge replacement, cleaning, and finish-care instructions before selecting a faucet or shower fixture. Compare connection sizes and access to shutoffs as well. Those details influence installation compatibility and upkeep, while a water test is more useful than assuming conditions from the city name."
+      ],
+      [
+        "check",
+        "Measure older layouts before ordering",
+        "In an older home or converted farmhouse, measure the toilet rough-in and note supply and drain positions, wall angles, and clearances. Photograph the existing connections and any offsets. These details help determine whether a standard fixture fits or whether adapters or layout changes are needed, reducing the risk of ordering equipment that does not suit the space."
+      ],
+      [
+        "shield",
+        "Coordinate rough-ins before finishing",
+        "For a basement bathroom or relocated laundry, mark proposed fixture locations and identify accessible drains and supply lines. Ask how drain slope, vent routing, and connection placement will be checked before walls or floors are finished. Confirm applicable code and permit requirements for the project; the planned route and existing structure affect the scope."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Dunnville, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Haldimand Plumbing Team",
-    intro: "A leak under a farmhouse floor or inside a Dunnville crawl space can run for a season before it surfaces, and rural properties pay a second penalty when a failing line feeds a well pump overtime. Dunnville Plumbing Pros isolates systems section by section, listens with acoustic gear, and traces with thermal imaging to find the exact failure point before opening anything up.",
-    meta: "Leak detection and repair in Dunnville, Ontario. Acoustic location, pressure isolation, crawl space and slab leak repair by licensed plumbers.",
-    problem_h: "Well pump cycling when nothing runs, or a damp patch?",
-    problem_p: "We find Haldimand's hidden leaks precisely, then repair the exact stretch of pipe that failed.",
-    features: [
-      ["droplets", "Isolation Before Excavation", "Section-by-section pressure testing narrows a leak to one run, keeping floors and crawl space openings to the minimum the repair truly needs."],
-      ["pin", "Listening and Thermal Tools", "Acoustic sensors hear escapes through slab and soil, and thermal cameras trace the temperature trail. Together they turn a mystery into a mark on the floor."],
-      ["check", "Wells Protected Too", "A hidden leak forces your pump into overtime and shortens its life. Fixing the leak protects the equipment, the power bill, and the water supply in one move."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Dunnville, Ontario",
+    "h1": "Leak Detection and Repair Planning in Dunnville",
+    "intro": "A suspected leak in a Dunnville property may be hidden below a floor, in a crawl space, or along a buried service line. Note changes in the water meter, pump cycling, damp areas, and whether the symptoms continue when fixtures are off. If the property uses a well, record pump behaviour and pressure changes. A technician may use section-by-section pressure testing, acoustic equipment, or thermal imaging depending on the pipe location and conditions. These observations help narrow investigation and repair scope before opening surfaces.",
+    "meta": "Leak detection planning in Dunnville, including pressure isolation, acoustic locating, and thermal imaging.",
+    "problem_h": "Is a well pump cycling with no water in use, or is there a damp patch?",
+    "problem_p": "Photograph damp areas and note meter movement, pump cycles, and whether shutting off a section changes the symptoms. This information helps focus leak investigation and limits unnecessary opening.",
+    "features": [
+      [
+        "droplets",
+        "Isolate sections before opening surfaces",
+        "Ask whether pressure testing can isolate individual runs and what sections of the system will be tested. Share a simple pipe layout, if available, and identify areas where floors or crawl spaces are accessible. Narrowing the suspected run can help limit openings, but the test results and pipe configuration determine how precisely the failure can be located."
+      ],
+      [
+        "pin",
+        "Choose locating tools for the suspected route",
+        "Acoustic sensors can help locate escaping water through soil or a slab, while thermal imaging can show temperature patterns associated with a leak. Neither tool applies equally to every material or condition. Photograph the suspected area and provide pipe route information, then ask what the equipment can establish before any surface is opened."
+      ],
+      [
+        "check",
+        "Consider well-pump symptoms",
+        "If the property has a well, record how often the pump cycles when taps and appliances are off, along with pressure changes and any visible wet areas. A leak can increase pump operation, but other faults can cause similar symptoms. Share these observations and ask how the leak check will distinguish pipe loss from pump or pressure-system problems."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Dunnville, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Haldimand Plumbing Team",
-    intro: "Between the Grand River's moods and Lake Erie pushing back on the outlet, low-lying Dunnville basements need pumps that are honestly up to the job, not whatever unit was cheapest the year the house went up. Dunnville Plumbing Pros sizes and installs sump systems with battery backup for storm-power outages, plus backwater valves on streets where the main has pushed back before.",
-    meta: "Sump pump and backwater valve installation in Dunnville, Ontario. Battery backup systems and river-country flood protection by licensed plumbers.",
-    problem_h: "Watching the river level and the weather at the same time?",
-    problem_p: "River country rewards preparation. We install Dunnville's pumps, backups, and backwater valves before the water argues for them.",
-    features: [
-      ["shield", "Sized for Wet Years", "High-water seasons here arrive in runs, not one-offs. We install pumps matched to the pit, the lift, and the worst week you have had, not the average one."],
-      ["zap", "Backup for the Blackout Hours", "The storms that load your pit take power lines down with them. Battery-backed pumping with a high-water alarm keeps working through exactly that overlap."],
-      ["refresh", "Backwater Valve Installs", "Where street mains have surcharged in storms, a permitted backwater valve is the difference between a wet floor and a ruined basement. We install and inspect them properly."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Dunnville, Ontario",
+    "h1": "Sump Pump and Backwater Options in Dunnville",
+    "intro": "A sump or backwater project in Dunnville should begin with the property’s drainage layout and the symptoms it is meant to manage. Photograph the sump pit, pump label, discharge route, and any water marks; note how often the pump runs and whether the outlet can drain freely. If outages are a concern, compare battery-backup capacity and alarm features. A backwater valve may be relevant where sewer backup risk is being assessed, but suitability, access, and approval requirements need to be verified for the specific property.",
+    "meta": "Sump pump, battery backup, alarm, and backwater valve planning for properties in Dunnville.",
+    "problem_h": "Are you watching water levels or concerned about a basement backup?",
+    "problem_p": "Record pump cycles, outage history, water marks, and the condition of the discharge route. These details help assess pump capacity, backup needs, and whether a backwater valve should be considered.",
+    "features": [
+      [
+        "shield",
+        "Size a pump for the pit and lift",
+        "Photograph the pit dimensions, pump label, discharge pipe, and outlet location. If the pit has filled quickly in a past event, record how long pumping took and how high the water rose. Capacity depends on pit conditions, lift, and discharge routing, so compare those factors rather than choosing a pump based only on its advertised rating."
+      ],
+      [
+        "zap",
+        "Compare backup power and alarms",
+        "If a storm-related outage is a concern, check the existing pump’s power requirements and available battery location. Ask how long a proposed backup can operate under expected pumping conditions and whether a high-water alarm is included. Run time depends on battery capacity and pump demand, so confirm the limits and maintenance schedule before relying on a backup system."
+      ],
+      [
+        "refresh",
+        "Check whether a backwater valve is suitable",
+        "If sewer backup is a concern, identify the building drain, accessible cleanouts, and any history of water entering through plumbing fixtures. Ask whether a backwater valve can be installed and maintained at the proposed location, and verify applicable permits and inspection requirements. A valve’s suitability depends on the property’s drainage arrangement and should not be presumed from nearby conditions."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Dunnville, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Haldimand Plumbing Team",
-    intro: "Water is the whole story in Haldimand. Dunnville's treated Lake Erie supply runs hard enough to scale everything it touches, and the wells across the county throw in iron and sulphur for good measure. Dunnville Plumbing Pros tests your actual supply, then builds treatment to match: softeners sized to hardness and household, iron removal where a well demands it, and drinking-water filtration at the tap.",
-    meta: "Water softeners and filtration in Dunnville, Ontario. Softener installation, well iron and sulphur treatment, and drinking water systems.",
-    problem_h: "Scale on everything, or well water that stains and smells?",
-    problem_p: "We test first and build second, so treatment fits the water your property actually has.",
-    features: [
-      ["gauge", "Matched to the Water Test", "County water varies street to street and well to well. Sizing from a real sample means efficient regeneration, softer water at the tap, and no oversized equipment."],
-      ["droplets", "Iron and Sulphur, Handled", "Orange stains and rotten-egg smell are the county's signature. Oxidizing filters and the right media sequence take both out before the water reaches a fixture."],
-      ["shield", "Whole System Thinking", "Treatment that sits downstream of protected equipment lasts longer, so we coordinate softener placement with heater and fixture life instead of selling one box and leaving."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Dunnville, Ontario",
+    "h1": "Water Softener and Filtration Planning in Dunnville",
+    "intro": "Water treatment choices in Dunnville should be based on a sample from the property, not assumptions about municipal or well water. If the home has a well, testing can check for concerns such as hardness, iron, or sulphur; for any supply, use results relevant to the treatment goal. Compare a softener’s capacity and regeneration settings with household demand, and assess drinking-water filtration separately. Equipment placement and treatment order can affect maintenance and compatibility with a water heater and fixtures.",
+    "meta": "Plan water softening and filtration in Dunnville using test results, household needs, and equipment requirements.",
+    "problem_h": "Are fixtures scaling, or does well water stain or smell unusual?",
+    "problem_p": "Note the supply type, affected fixtures, and when staining or odour occurs. Arrange appropriate water testing before selecting treatment, since different results call for different equipment and maintenance.",
+    "features": [
+      [
+        "gauge",
+        "Size equipment from test results",
+        "Obtain a water test for the property and compare its results with the treatment system’s specifications. If hardness is present, household size and expected use affect softener capacity and regeneration settings. A sample-based assessment can help avoid equipment that is poorly matched to demand; confirm which test results and assumptions inform the proposed size."
+      ],
+      [
+        "droplets",
+        "Identify iron or sulphur before choosing media",
+        "If a well produces orange staining or an unusual odour, test the water before selecting an oxidizing filter or media sequence. Different test results may require different treatment steps, and equipment settings affect performance and upkeep. Ask which measured conditions the proposed system is intended to address and what maintenance or replacement intervals apply."
+      ],
+      [
+        "shield",
+        "Coordinate treatment with the plumbing system",
+        "Before installation, photograph the water entry point, heater, and available equipment space, and note any existing filters or softeners. Ask where each treatment stage will sit and how it affects water flow and maintenance access. Coordinating equipment placement with the heater and fixtures can clarify compatibility, bypass needs, and the complete installation scope."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Tank let go on a Sunday and they had a hard-water-ready unit in Tuesday on the regular route. Hot water and no trip charge nonsense.", "Homeowner", "Dunnville"],
-  ["Our farm line to the septic tank kept slowing. They jetted it, camera found the root plate, and cut it back clean. Honest about what it needed.", "Farmer", "Byng"],
-  ["Full repipe off galvanized at our century place. Water was back on every supper and the pressure upstairs finally works.", "Resident", "Dunnville"],
-  ["Lowbanks cottage needed the softener and a new toilet before opening weekend. Booked, done, and the shower door has not fogged since.", "Cottage Owner", "Lowbanks"],
-  ["Well pump would not stop and they traced it to a leak under the crawl space in one visit. Fixed the line, pump went quiet.", "Homeowner", "Stromness"],
-  ["Backwater valve in after the neighbors all got flooded in the big storm. Permitted, inspected, and the crew respected the house.", "Business Owner", "Dunnville"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Hard-water-ready tanks and tankless installs, rental buyouts, and route-day swaps across Dunnville and Haldimand.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Roots, clay, cast iron, and long septic runs, cleared and camera-verified by a county crew.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized replacement for town homes and farmhouses, staged so water returns every evening.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Scale-tough fixtures, old-house adaptations, and basement and renovation rough-ins.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Pressure isolation and acoustic tracing that finds leaks under slabs, crawl spaces, and yards.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Pumps sized for river-country wet years, battery backups, and permitted backwater valves.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Test-based softening plus iron and sulphur treatment for the county's wells and Lake Erie supply.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless replacement needs, fuel and venting details, maintenance instructions, and rental contract terms before selecting equipment.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Identify affected fixtures and line access. Cable clearing, hydro-jetting, and camera inspection suit different pipe materials, blockages, and recurring problems.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Assess visible galvanized piping, weak-flow fixtures, and access needs. Compare PEX or copper replacement scope, service interruptions, testing, and applicable permits.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Check dimensions, rough-in positions, and connection locations before replacing fixtures. Renovation plans may also need drain, vent, and supply routing.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Document damp areas, meter changes, and pump behaviour. Pressure isolation, acoustic locating, and thermal imaging may help investigate different leak locations.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare pit and discharge details with pump capacity. Consider battery backup, high-water alarms, and whether a backwater valve suits the property layout.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use property-specific test results to compare softener capacity, iron or sulphur treatment, and drinking-water filtration requirements.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed for plumbing work in Haldimand County?", "Fully licensed and insured, with permits taken out through the county for every job that needs one under the Ontario Building Code. The paperwork lands in your hands at completion."],
-  ["Can you get out here fast in an emergency?", "Town of Dunnville addresses get priority response, and rural routes run on set days with emergency slots held open. Call and describe the situation, and we will tell you straight when we can be there."],
-  ["Our water heater died. How soon can it be replaced?", "Usually within a day or two on the regular route, same day in town if the size is on the truck, which the common ones are."],
-  ["The house still has galvanized pipe. Repair or repipe?", "Scattered leaks and fading pressure mean the pipe is done and a staged repipe is cheaper than the next flood. One problem in an otherwise sound system can be spot-repaired, and we will tell you honestly which yours is."],
-  ["Do you work on well and septic systems?", "Constantly. Most places we serve outside town run private wells with pressure tanks, iron filters, and septic handling. We plumb and service the whole water side of rural Haldimand properties."],
-  ["Is Dunnville water hard enough to need a softener?", "It is, both the treated lake supply in town and especially the wells beyond it. A softener here measurably protects heaters and fixtures, and testing confirms the right size."],
-  ["How does pricing work at Dunnville Plumbing Pros?", "Written quotes before work starts, no hourly surprises, and options explained when more than one fix exists. Rural jobs are quoted with the drive included, not tacked on later."],
-  ["What area do you cover from Dunnville?", "Dunnville and the whole surrounding county: Cayuga, Hagersville, Caledonia, Nanticoke, Port Dover, Simcoe edges, and the Lake Erie shore including Lowbanks and Byng."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/dunnvilleplumbingpros.ca-water-heaters.jpg", "Water heater installation in Dunnville, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/dunnvilleplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning and septic line service in Dunnville, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/dunnvilleplumbingpros.ca-repiping.jpg", "Whole-home repipe in Dunnville, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/dunnvilleplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Dunnville, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/dunnvilleplumbingpros.ca-leak-detection.jpg", "Leak detection and repair in Dunnville, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/dunnvilleplumbingpros.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Dunnville, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/dunnvilleplumbingpros.ca-water-softeners.jpg", "Water softener and well treatment installation in Dunnville, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/dunnvilleplumbingpros.ca-water-heaters.jpg",
+    "Water heater installation in Dunnville, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/dunnvilleplumbingpros.ca-drain-cleaning.jpg",
+    "Drain cleaning and septic line service in Dunnville, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/dunnvilleplumbingpros.ca-repiping.jpg",
+    "Whole-home repipe in Dunnville, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/dunnvilleplumbingpros.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Dunnville, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/dunnvilleplumbingpros.ca-leak-detection.jpg",
+    "Leak detection and repair in Dunnville, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/dunnvilleplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Dunnville, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/dunnvilleplumbingpros.ca-water-softeners.jpg",
+    "Water softener and well treatment installation in Dunnville, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

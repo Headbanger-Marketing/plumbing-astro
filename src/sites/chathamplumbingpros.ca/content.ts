@@ -1,185 +1,379 @@
-// Per-site content for chathamplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Chatham, seat of Chatham-Kent, on the
-// flat lowlands of the lower Thames.
-// Local angle: century brick homes near downtown with galvanized supply
-// lines, post-war bungalow streets, fast-growing south-end subdivisions,
-// flood-prone low basements close to the river, and treated municipal water
-// that still runs hard enough to scale fixtures.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Chatham, Ontario",
-    h1: "Water Heater Installation From a Local Chatham-Kent Plumbing Team",
-    intro: "Chatham Plumbing Pros installs, swaps, and repairs water heaters for households across the city, from the century brick two-storeys near downtown to the new streets curling through the south end. If you are finished renting a tank, we set you up with an owned unit that actually suits the household. Prefer endless hot water for a full house of morning showers? We size and hang a tankless unit, connect the venting and gas properly, and commission it the same visit.",
-    meta: "Water heater installation and replacement in Chatham, Ontario. Owned tank upgrades, tankless installs, emergency swaps, and honest sizing from local Chatham-Kent plumbers.",
-    problem_h: "Cold showers, or a tank weeping onto the floor?",
-    problem_p: "Chatham homeowners get straight pricing and quick turnarounds on water heater work, including same-day replacements when a tank fails outright.",
-    features: [
-      ["flame", "Owned Beats Rented, Usually", "Rental tanks quietly cost far more than the price of a new one over a decade of monthly fees. We install owned tank and tankless water heaters in Chatham homes, sized so the second shower is still hot."],
-      ["clock", "Failed Tank? Often Same Day", "A leaking tank empties itself onto the basement floor and takes your routine with it. Common sizes ride on our trucks, so a Chatham swap usually happens the day you call."],
-      ["shield", "Permits and Safety Handled", "Temperature and pressure relief, a drain pan where the code asks for one, and the municipal permit filed for you. Every Chatham install leaves inspection-ready paperwork behind."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Chatham, Ontario",
+    "h1": "Water Heater Installation and Replacement in Chatham",
+    "intro": "Planning a water heater replacement in Chatham? Start by recording the tank’s fuel, capacity, age, vent arrangement and connection sizes, then photograph its rating plate and surrounding piping. Those details help distinguish a straightforward tank swap from work that may require changes to venting, gas connections or drainage. If you are comparing an owned tank with a tankless unit, consider household demand, available space and the installation requirements for each. A site assessment can establish a suitable scope before equipment is selected.",
+    "meta": "Water heater installation and replacement planning in Chatham, Ontario, including tank and tankless equipment considerations.",
+    "problem_h": "Is the water cold, or is the tank leaking?",
+    "problem_p": "A leak, inconsistent hot water or an ageing tank calls for prompt assessment. Photograph the unit and its connections, and note when the problem began to help clarify replacement or repair requirements.",
+    "features": [
+      [
+        "flame",
+        "Compare Tank and Tankless Requirements",
+        "Record how many people use hot water at once and list showers, laundry and other peak demands. A storage tank is selected by capacity and recovery rate, while tankless equipment must meet simultaneous flow needs. Ask how each option affects venting, fuel supply, electrical requirements and available installation space before comparing purchase and operating costs."
+      ],
+      [
+        "clock",
+        "Check the Existing Installation",
+        "Before arranging a replacement, photograph the rating plate, shut-off, vent, drain pan and nearby floor drain, if present. Note any corrosion, active leaks or difficult access. These conditions can change removal, drainage and connection work, so a quote based only on the tank’s capacity may not reflect the full scope."
+      ],
+      [
+        "shield",
+        "Review Safety and Documentation",
+        "Ask what safety components and connection checks are included, such as the temperature and pressure relief arrangement, venting review and leak checks. Requirements depend on the equipment and installation. Confirm who is responsible for determining applicable permits and inspections, and keep the model information and final work documents with the home’s maintenance records."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Chatham, Ontario",
-    h1: "Drain Cleaning From a Local Chatham-Kent Plumbing Team",
-    intro: "Older Chatham streets carry big maples and elms over clay sewer laterals, which is a dependable recipe for roots, and the water here coats pipe walls with scale that catches whatever passes through. Chatham Plumbing Pros snakes kitchen lines, tubs, floor drains, and main sewers, then flushes with hydro-jetting where the buildup has earned it. When a clog keeps coming back, we push a camera down and show you exactly what is living in the line.",
-    meta: "Drain cleaning in Chatham, Ontario. Kitchen and main line snaking, root cutting, hydro-jetting, and camera inspections of problem laterals by licensed Chatham-Kent plumbers.",
-    problem_h: "Gurgling floor drain or a sink that will not empty?",
-    problem_p: "We clear Chatham drains with the right tool for the clog and camera the line when blockages keep returning.",
-    features: [
-      ["refresh", "Jetting, Not Just Snaking", "A cable bores a hole through the blockage, while hydro-jetting scours grease and scale off the pipe wall. We carry both on the truck, so the drain leaves our visit genuinely clean."],
-      ["droplets", "Cameras End the Guessing", "Recurring backups usually mean roots, a sagged section, or a crumbling clay joint. We camera the lateral from your Chatham basement out toward the main and quote the real fix."],
-      ["wrench", "Roots Cut Back Cleanly", "Mature street trees and shallow clay laterals fight each other all summer. We cut the intrusion back and set a cleaning interval that keeps your sewer ahead of the regrowth."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Chatham, Ontario",
+    "h1": "Drain Cleaning and Inspection in Chatham",
+    "intro": "A slow sink, gurgling floor drain or recurring sewer backup can have different causes, so the right cleaning method depends on the affected line and what is obstructing it. In Chatham, note which fixtures drain slowly, whether several fixtures act up together, and whether the problem returns after clearing. If a camera inspection is considered, ask what portion of the line it can view and request the recorded findings. Snaking, hydro-jetting and inspection serve different purposes and are not interchangeable.",
+    "meta": "Drain cleaning guidance in Chatham, Ontario, covering snaking, hydro-jetting, root cutting and camera inspection.",
+    "problem_h": "Are several drains slow or backing up repeatedly?",
+    "problem_p": "Describe which fixtures are affected and when symptoms occur. Recurring clogs may warrant inspection to distinguish a local blockage from a problem farther along the drain or sewer line.",
+    "features": [
+      [
+        "refresh",
+        "Choose a Cleaning Method for the Blockage",
+        "Ask whether a cable snake or hydro-jetting is appropriate for the line and reported obstruction. A cable can open a path through a clog, while jetting uses water to scour material such as grease or scale from pipe walls. Pipe condition, access and the type of buildup affect the choice; cleaning should not be treated as a repair to damaged piping."
+      ],
+      [
+        "droplets",
+        "Use a Camera When Problems Return",
+        "If backups recur, request camera findings that identify the viewed route, distance and any visible obstruction or pipe defect. Roots, a sagged section or a damaged joint call for different next steps than a single removable clog. Ask for footage or a written description so you can compare the evidence with the proposed cleaning or repair scope."
+      ],
+      [
+        "wrench",
+        "Assess Root Intrusion Carefully",
+        "If roots appear in a sewer lateral, ask where they enter and whether the pipe also shows cracks, displaced joints or other damage. Cutting roots can restore flow but does not remove their entry point. Camera evidence can help determine whether periodic cleaning is reasonable or whether a damaged section needs separate evaluation."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Chatham, Ontario",
-    h1: "Repiping From a Local Chatham-Kent Plumbing Team",
-    intro: "Plenty of Chatham's older housing stock still carries galvanized steel supply lines, and the telltales arrive together: rust-tinted cold water, shower pressure that dies the moment laundry kicks on, and pinhole drips behind finished walls. Chatham Plumbing Pros replaces that tired pipe with PEX or copper, planned room by room so the household keeps running, and pressure-tested before anything closes up. Buying a century house near downtown? We will walk the plumbing with you before you firm up the deal.",
-    meta: "Repiping in Chatham, Ontario. Galvanized supply line replacement, whole-home PEX and copper repipes, and pressure testing by licensed Chatham-Kent plumbers.",
-    problem_h: "Rusty water and fading pressure upstairs?",
-    problem_p: "Old galvanized lines choke themselves with rust. Chatham homeowners get honest assessments and clean repipes that bring full pressure back to every tap.",
-    features: [
-      ["wrench", "Galvanized Out, Modern Pipe In", "Steel pipe rusts inward until a garden hose outflows the upstairs shower. We replace Chatham galvanized runs with properly sized PEX or copper and balance the system so far fixtures flow again."],
-      ["home", "Staged Room by Room", "Whole-house repipes do not have to mean weeks without water. We sequence the work around your household, keeping at least one working bathroom available through every phase."],
-      ["check", "Tested Before the Walls Close", "Every repipe gets pressure-tested and inspected under its plumbing permit. You receive the paperwork that keeps the work insurable when you eventually sell the place."]
+    "icon": "wrench",
+    "kicker": "Repiping in Chatham, Ontario",
+    "h1": "Home Repiping in Chatham",
+    "intro": "Repiping may be worth assessing when supply lines show corrosion, leaks or persistent pressure problems. In Chatham, identify which taps are affected, whether the change occurs when another fixture runs, and whether water colour changes after the system sits. If a property has older galvanized piping, ask for the visible pipe material and proposed replacement route to be documented. A room-by-room plan, choice of PEX or copper, access through finished surfaces and pressure testing all influence the work and disruption.",
+    "meta": "Repiping planning in Chatham, Ontario, including galvanized supply lines, PEX and copper options, and pressure testing.",
+    "problem_h": "Is water rusty, or does pressure drop at upstairs taps?",
+    "problem_p": "Record affected fixtures and any visible pipe material or leaks. Comparing symptoms across the home helps determine whether a local repair or broader supply-line assessment is appropriate.",
+    "features": [
+      [
+        "wrench",
+        "Identify Pipe Material and Replacement Scope",
+        "Photograph accessible piping and note any labels, corrosion or previous repairs. If galvanized steel is present, ask which runs would be replaced and whether the proposal uses PEX or copper. Pipe sizing, route and fixture locations affect flow and access, so a clear scope should explain how the new lines connect to existing plumbing."
+      ],
+      [
+        "home",
+        "Plan the Work in Stages",
+        "Ask which rooms and fixtures will be affected at each stage, how water shutoffs will be scheduled and what access openings may be needed. A staged sequence can help a household plan around temporary interruptions, but the available route and number of fixtures determine what can remain usable. Confirm how walls or ceilings are left after plumbing access."
+      ],
+      [
+        "check",
+        "Ask About Testing and Records",
+        "Before surfaces are closed, ask how the completed piping will be pressure-tested and what results or work records you will receive. If permits or inspections may apply, confirm who determines the requirements and how those steps fit the schedule. Keeping material details and test documentation can help with later maintenance and future renovation planning."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Chatham, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Chatham-Kent Plumbing Team",
-    intro: "A new faucet should not arrive with a slow drip, and a toilet should sit solid for a decade, so Chatham Plumbing Pros installs fixtures properly the first time. We swap running toilets and dripping taps in an afternoon, rough in plumbing for basement bathrooms and kitchen renovations, and help homeowners in the older neighbourhoods choose finishes that suit a century bathroom without fighting its quirks. New builds out in the south end get the same careful trim-out.",
-    meta: "Fixture and toilet installation in Chatham, Ontario. Faucet swaps, toilet resets, shower trim, and renovation rough-ins by licensed Chatham-Kent plumbers. Free quotes.",
-    problem_h: "Wobbly throne, dripping tap, or a reno on the calendar?",
-    problem_p: "From a single toilet swap to a full kitchen rough-in, Chatham fixture installs land level, sealed, and code-clean.",
-    features: [
-      ["home", "Set Solid, Sealed Right", "Wax rings, supply lines, and shut-offs get replaced rather than reused, so a Chatham toilet install does not turn into a ceiling stain on the floor below next summer."],
-      ["check", "Rough-Ins for Renovations", "Moving a basement bath or reworking a kitchen island puts drains and supplies in new places. We rough in to your layout and confirm locations before concrete or tile hides them."],
-      ["dollar", "Efficient Fixtures That Pay Off", "Modern low-flow toilets and aerated taps trim the water bill quietly all year. We steer you toward fixtures built to survive hard water instead of scaling shut."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Chatham, Ontario",
+    "h1": "Fixture and Toilet Installation in Chatham",
+    "intro": "A fixture replacement may be a simple connection change or part of a larger renovation, depending on the existing plumbing and the new layout. For a Chatham project, photograph the current faucet, toilet or shower trim, note leaks or movement, and check whether shut-off valves work. If a bathroom or kitchen is being reconfigured, mark proposed fixture locations before finishes are chosen. Drain position, supply routing, floor condition and access can all change the installation scope.",
+    "meta": "Fixture and toilet installation planning in Chatham, Ontario, including replacements and renovation rough-ins.",
+    "problem_h": "Is a toilet loose, a tap dripping or a renovation underway?",
+    "problem_p": "Note what is being replaced and photograph the connections and surrounding finishes. For renovations, confirm drain and supply locations before walls, tile or concrete conceal the route.",
+    "features": [
+      [
+        "home",
+        "Check the Toilet Base and Connections",
+        "If a toilet rocks, leaks or is being replaced, photograph its base, shut-off and supply connection. Ask whether the existing flange and floor can support a secure reset, and whether the wax seal, supply line and shut-off should be replaced. These checks help distinguish a fixture swap from additional floor or connection work."
+      ],
+      [
+        "check",
+        "Confirm Rough-In Locations Before Finishing",
+        "For a new bathroom or kitchen layout, mark the proposed fixture positions and compare them with existing drain and supply routes. Ask for locations to be verified before concrete, tile or cabinetry hides the work. Moving a toilet, shower or kitchen sink can require different drainage and vent arrangements than replacing a fixture in its existing position."
+      ],
+      [
+        "dollar",
+        "Compare Fixture Specifications",
+        "Before choosing a toilet, faucet or shower trim, check connection sizes, rough-in dimensions and manufacturer requirements against the existing plumbing. If considering a low-flow toilet or aerated tap, compare its operating specifications and compatibility with the planned installation. Sharing product details early can prevent a mismatch that changes fittings or finish work."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Chatham, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Chatham-Kent Plumbing Team",
-    intro: "Water travels sideways along floor joists before it ever shows itself, which is why a small supply-line leak in a Chatham bungalow surfaces as a bulging ceiling on the far side of the room. Chatham Plumbing Pros tracks hidden leaks with acoustic listening gear and pressure isolation, checks the meter and the service line, and opens the smallest possible hole to reach the repair. An unexplained jump on the water bill deserves a phone call before it deserves a renovation.",
-    meta: "Leak detection and repair in Chatham, Ontario. Acoustic leak location, pressure isolation, and slab or yard line repairs by licensed Chatham-Kent plumbers.",
-    problem_h: "Water bill climbing with no obvious cause?",
-    problem_p: "We pinpoint hidden leaks in Chatham homes with listening gear and pressure tests, then repair the line through the smallest opening possible.",
-    features: [
-      ["droplets", "Found Before It Floods", "Our acoustic equipment hears water escaping a pipe long before your eyes find it, which keeps the repair to one small opening instead of a demolished wall."],
-      ["shield", "Slab and Yard Lines Too", "Leaks under basement floors or out toward the property line behave differently, and flat Chatham soils hold moisture. We isolate the run, confirm the failure point, and repair only that section."],
-      ["check", "One Visit, Found and Fixed", "Diagnosing a leak and then disappearing helps nobody. We carry the fittings to finish most Chatham leak repairs in that same visit, and document everything for insurers."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Chatham, Ontario",
+    "h1": "Leak Detection and Repair Planning in Chatham",
+    "intro": "A hidden leak can travel along framing or flooring before a stain becomes visible, so the wettest spot may not mark the source. If you suspect a leak in Chatham, note when it appears, photograph stains or damp areas, and compare water-meter readings when no water is being used. Mention whether the suspected line is under a floor, in a wall or outside toward the property line. Acoustic listening and pressure isolation may help narrow the search and define access needs.",
+    "meta": "Leak detection planning in Chatham, Ontario, including acoustic location, pressure isolation and line repair considerations.",
+    "problem_h": "Has the water bill risen without an obvious explanation?",
+    "problem_p": "Record meter readings, visible moisture and when symptoms occur. These observations can help distinguish a supply leak from other sources and guide the choice of diagnostic checks.",
+    "features": [
+      [
+        "droplets",
+        "Narrow the Search Before Opening Surfaces",
+        "Ask whether acoustic listening equipment or another locating method is suitable for the suspected pipe. Share where moisture appears and whether the line is accessible. Listening and other checks can help locate a leak before opening a wall or floor, but the signal and pipe layout influence how precisely the repair point can be identified."
+      ],
+      [
+        "shield",
+        "Separate Slab and Yard-Line Questions",
+        "A leak beneath a basement floor and one along an exterior service line involve different access and repair considerations. Identify where the suspected route runs and ask how pressure isolation can distinguish sections. If the line extends toward the property boundary, confirm what portion is being assessed and how the suspected failure point will be verified."
+      ],
+      [
+        "check",
+        "Clarify Diagnosis, Repair and Records",
+        "Ask which tests will be used, what evidence supports the diagnosis and what opening may be required to reach the pipe. The repair scope can change if fittings, surrounding material or pipe condition differ from expectations. Request a description of the completed repair and any relevant readings or photographs for maintenance records or an insurance discussion."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Chatham, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Chatham-Kent Plumbing Team",
-    intro: "Chatham sits on some of the flattest ground in southern Ontario, and every spring thaw or August downpour reminds the low-lying neighbourhoods which basements were built where the water wants to travel. Chatham Plumbing Pros installs sump pumps matched to the basin and the groundwater around your foundation, adds battery backup so a blackout never leaves the pit filling silently, and fits backwater valves that keep the street sewer on its own side of the line.",
-    meta: "Sump pump and backwater valve installation in Chatham, Ontario. Battery backups, basin upgrades, and sewer backup protection by licensed Chatham-Kent plumbers.",
-    problem_h: "Puddle in the pit, or nervous every forecast?",
-    problem_p: "Chatham basements stay drier with properly sized pumps, tested backups, and backwater valves installed under permit.",
-    features: [
-      ["shield", "Pump and Basin Matched", "A pump that cycles constantly burns out young, and an undersized one loses the storm. We match the unit and basin to the water your Chatham foundation actually collects."],
-      ["zap", "Backup for the Blackout", "The grid tends to fail during the same storms that fill the pit. Battery-backed secondary pumps keep moving water when the lights are out across the neighbourhood."],
-      ["refresh", "Backwater Valve, Done Right", "A code-installed backwater valve is what stands between the municipal sewer and your floor drain during a cloudburst. We pull the permit and set it where it truly protects."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Chatham, Ontario",
+    "h1": "Sump Pumps and Backwater Valves in Chatham",
+    "intro": "Sump pumps and backwater valves manage different water risks, so begin by identifying where water has appeared and how it entered. For a Chatham property, photograph the sump basin, pump label, discharge route and any backup equipment; note how often the pump runs and what happens during a power interruption. If a floor drain or sewer backup is involved, ask whether a backwater valve is appropriate. Basin size, discharge routing, electrical supply and access affect the proposed scope.",
+    "meta": "Sump pump and backwater valve planning in Chatham, Ontario, including basin, backup and sewer protection considerations.",
+    "problem_h": "Does the sump pit fill, or are you concerned about sewer backup?",
+    "problem_p": "Document water entry, pump operation and discharge routing. Separating groundwater concerns from sewer backup symptoms helps identify whether a pump, backup system or valve needs assessment.",
+    "features": [
+      [
+        "shield",
+        "Match Pump Capacity to the Basin",
+        "Record the basin dimensions, pump model, float position and how frequently the unit cycles. Ask how the proposed pump capacity and discharge route suit the basin and the water it collects. A pump that cycles too often or cannot keep up can indicate a mismatch, but the basin, piping and observed water flow all inform the assessment."
+      ],
+      [
+        "zap",
+        "Check Backup Power and Discharge",
+        "If continued pumping during an outage matters, photograph existing backup equipment and its battery information, if available. Ask how a secondary pump or battery backup would operate, how it is tested and where it discharges. The backup arrangement depends on the basin, electrical setup and discharge route, so those details should be reviewed together."
+      ],
+      [
+        "refresh",
+        "Assess Backwater Valve Placement",
+        "A backwater valve is intended to limit sewer flow toward a building, while a sump pump handles water collected in its basin. If considering a valve, ask where it could be installed and how it will remain accessible for inspection and maintenance. Confirm what permit or inspection requirements may apply, rather than assuming every property or layout uses the same arrangement."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Chatham, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Chatham-Kent Plumbing Team",
-    intro: "Water in this part of Lake Erie country arrives treated and safe, and it also arrives hard, leaving a signature on kettle elements, glass shower doors, and the bottom of every tank in town. Chatham Plumbing Pros tests the actual hardness at your tap, sizes a softener to the household rather than the showroom floor, and plumbs it with a bypass that makes future service a five-minute job instead of a plumbing event. Drinking water filters and reverse osmosis round out the system.",
-    meta: "Water softeners and filtration in Chatham, Ontario. Hardness testing, right-sized softeners, and reverse osmosis drinking systems by licensed Chatham-Kent plumbers.",
-    problem_h: "Scale on the shower door and white film in the kettle?",
-    problem_p: "Chatham hard water is fixable where it enters the house. We size and install softeners that quietly pay for themselves in fixtures alone.",
-    features: [
-      ["gauge", "Tested, Then Sized", "Guesswork sells the wrong softener. We test hardness and flow at the tap in your Chatham home, then match grain capacity to the people actually using the water."],
-      ["droplets", "Drinking Water Polish", "Softened whole-house water plus an under-sink reverse osmosis unit gives you kettle-friendly water everywhere and bottle-quality water at the kitchen tap."],
-      ["shield", "Protection That Adds Up", "Softened water slows scale inside the water heater, keeps shower heads flowing, and extends seals and cartridges. The fixtures you stop replacing are the rebate."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Chatham, Ontario",
+    "h1": "Water Softeners and Filtration in Chatham",
+    "intro": "Water treatment choices should follow measurements and a clear goal, rather than assumptions about a location. If you are considering equipment in Chatham, ask for hardness to be tested at the tap and identify whether the concern is scale, taste or drinking-water filtration. Household size, water use, available drain and bypass access affect softener selection and installation. Reverse osmosis is a separate point-of-use option, so compare what each system treats and what ongoing maintenance it requires.",
+    "meta": "Water softener and filtration planning in Chatham, Ontario, including hardness testing and reverse osmosis options.",
+    "problem_h": "Are you seeing scale on fixtures or residue in a kettle?",
+    "problem_p": "Describe the deposits or taste concerns and request relevant water measurements. Testing and intended use help distinguish a softener need from a separate drinking-water filtration goal.",
+    "features": [
+      [
+        "gauge",
+        "Test Before Selecting Capacity",
+        "Ask how hardness and flow will be measured, then compare the results with household demand and the proposed softener’s grain capacity. The number of users and water use affect sizing and regeneration frequency. A test-based selection is more useful than choosing a unit by appearance or relying on a general claim about water in the area."
+      ],
+      [
+        "droplets",
+        "Separate Whole-House Softening from Drinking Filtration",
+        "A softener treats water through the home, while an under-sink reverse osmosis system is a point-of-use option for drinking water. Explain which fixtures or uses matter and ask what each proposed system is designed to reduce. Check installation space, drain connections, filter replacement needs and the system’s documentation before comparing options."
+      ],
+      [
+        "shield",
+        "Plan for Bypass and Ongoing Maintenance",
+        "Ask where a bypass can be installed so treatment equipment can be isolated for service, and confirm access to the drain and connections. Discuss salt or filter replacement and any routine checks required by the selected equipment. These practical details affect installation location, ongoing upkeep and whether the system fits the household’s use."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Our tank let go on a Sunday morning and a new owned unit was in before supper. They hauled the old rental away and the paperwork took five minutes.", "Homeowner", "Pain Court"],
-  ["The main line had been snaked twice in a year before these folks camera-ed it, cut the roots out properly, and flushed the pipe clean. It has run clear since.", "Resident", "Charing Cross"],
-  ["We bought a century place near the river and the galvanized was beyond saving. They repiped in stages so we kept a working bathroom the whole time.", "Homeowner", "Thamesville"],
-  ["Spring thaw used to leave an inch of water in the basement. New basin, proper pump, and a battery backup, and this year it stayed bone dry.", "Homeowner", "Dover Centre"],
-  ["The softener was sized off an actual test instead of a brochure. The shower door finally stays clean and the kettle stopped furring up.", "Resident", "Erie Beach"],
-  ["They roughed in our basement bathroom before the flooring went down, and the layout advice kept the toilet out from under the stair slope.", "Homeowner", "Tupperville"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Owned tank and tankless water heater installs, rental buy-outs, and same-day emergency replacements across Chatham.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Snaking, hydro-jetting, root cutting, and camera inspections for Chatham kitchens, floor drains, and main sewers.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized supply line replacement in PEX or copper, staged to keep your Chatham household running through the job.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Toilet resets, faucet swaps, and renovation rough-ins installed level and sealed right in Chatham homes.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic leak location, pressure isolation, and repairs finished in a single visit for hidden Chatham leaks.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Sized sump systems, battery backups, and backwater valves for Chatham's flat, flood-prone basements.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Hardness-tested softener sizing, reverse osmosis drinking systems, and scale protection for Chatham homes.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless options using household demand, fuel, venting and available space. Photograph the existing rating plate and connections to help clarify replacement scope.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Describe affected fixtures and recurring symptoms. Snaking, hydro-jetting and camera inspection address different situations, and line condition helps determine which approach is suitable.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Assess visible galvanized supply lines, pressure changes and affected fixtures. Compare PEX and copper proposals, access routes, staging plans and pressure-testing documentation.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan toilet and faucet replacements around existing connections, floor condition and product dimensions. For renovations, verify drain and supply locations before finishes conceal them.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Record meter readings, moisture locations and suspected pipe routes. Acoustic listening and pressure isolation can help narrow the search and define repair access.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Review pump, basin, discharge and backup details separately from sewer-backup concerns. Layout and access help determine whether pump or valve work is appropriate.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use measured hardness and household demand to compare softener capacity. Consider reverse osmosis separately for point-of-use drinking water and review maintenance needs.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are your plumbers licensed and insured?", "Yes. Chatham Plumbing Pros works under a valid plumbing licence with full insurance, and jobs that need permits are filed with the municipality and inspected under the Ontario Building Code before we call them done."],
-  ["Do you handle plumbing emergencies in Chatham?", "We do. Burst supply lines, sewer backups, and no-water failures get priority dispatch across the city, and a failed water heater usually means a replacement the same day, since common tank sizes travel on our trucks."],
-  ["How quickly can you replace my water heater?", "Most Chatham swaps happen within a day of the call. We confirm the size and venting ahead of time, shut down and drain the old unit, and leave the new one commissioned and working the same visit."],
-  ["Is my older Chatham house due for a repipe?", "If the supply lines are galvanized steel, start planning. Rusty tint, weak upstairs pressure, and repeat pinhole leaks are the standard warnings. We tell you honestly whether a full repipe or branch-by-branch replacement fits the house."],
-  ["Will a water softener help in Chatham-Kent?", "The water here is treated and safe but genuinely hard, and the scale on every shower door proves it. A softener sized from an actual test protects the water heater, the fixtures, and your skin through a Chatham winter."],
-  ["What does plumbing work cost in Chatham?", "Quotes are free and written, and the number we hand you is the number on the invoice. Whether the job is a toilet swap or a full repipe, you approve the complete price before a wrench turns."],
-  ["Can you install a backwater valve in my basement?", "Yes, and it is some of the most valuable work we do here. Chatham's flat terrain makes sewer backup a real risk in heavy storms, so we size and install backwater valves under permit, often alongside a sump upgrade with battery backup."],
-  ["Do you work outside the city itself?", "Regularly. City calls fill most of the week, and we also run to Wallaceburg, Ridgetown, Blenheim, Thamesville, and the wider Chatham-Kent municipality for installs, drain work, and emergencies."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/chathamplumbingpros.ca-water-heaters.jpg", "Water heater installation in Chatham, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/chathamplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Chatham, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/chathamplumbingpros.ca-repiping.jpg", "Whole-home repipe in Chatham, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/chathamplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Chatham, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/chathamplumbingpros.ca-leak-detection.jpg", "Leak detection in Chatham, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/chathamplumbingpros.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Chatham, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/chathamplumbingpros.ca-water-softeners.jpg", "Water softener installation in Chatham, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/chathamplumbingpros.ca-water-heaters.jpg",
+    "Water heater installation in Chatham, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/chathamplumbingpros.ca-drain-cleaning.jpg",
+    "Drain cleaning and hydro-jetting in Chatham, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/chathamplumbingpros.ca-repiping.jpg",
+    "Whole-home repipe in Chatham, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/chathamplumbingpros.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Chatham, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/chathamplumbingpros.ca-leak-detection.jpg",
+    "Leak detection in Chatham, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/chathamplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Chatham, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/chathamplumbingpros.ca-water-softeners.jpg",
+    "Water softener installation in Chatham, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "thamesville": {
-    name: "Thamesville",
-    intro: "Thamesville sits east of Chatham on the old Highway 2, a village of mature shade trees, brick storefronts, and homes ranging from true century stock to recent infill. Chatham Plumbing Pros serves Thamesville with water heaters, drain cleaning, repipes, sump systems, and water treatment, arriving from the city in well under half an hour for planned work or emergencies.",
-    meta: "Plumber in Thamesville, Ontario. Water heaters, drain cleaning, repipes, sump pumps, and water softeners from a licensed Chatham-Kent plumbing team. Free quotes.",
-    nearby: ["Chatham", "Bothwell", "Highgate", "Kent Bridge"],
-    faq: [
-      ["Do you install water heaters in Thamesville?", "Yes. We swap rental tanks for owned units and install tankless systems across Thamesville, staging the job so the house is without hot water for hours rather than days."],
-      ["Can you repipe an older Thamesville home?", "Yes. Village homes from the early 1900s often hold galvanized supply lines. We repipe in PEX or copper under permit, working room by room to keep water on for the household."],
-      ["Do you offer emergency plumbing in Thamesville?", "Yes. Thamesville is a short run from our Chatham base, so burst pipes, backups, and no-water calls get a fast response at any hour."],
-      ["Is Thamesville water hard enough for a softener?", "It is. Village supply runs hard like most of the municipality, and we size softeners from a test at your tap so the unit regenerates efficiently instead of constantly."]
+    "name": "Thamesville",
+    "intro": "For a plumbing project in Thamesville, begin with the equipment and symptoms at the property rather than assumptions based on its location. Photograph a water heater’s rating plate and vent, note which drains are affected, or record where water appears around a sump basin. If the home has older supply piping, document visible material and pressure changes. These details help distinguish a fixture replacement from broader work and make it easier to compare proposed equipment, access requirements and next steps.",
+    "meta": "Plumbing project planning in Thamesville, Ontario, with guidance on water heaters, drains, repiping, sump systems and water treatment.",
+    "nearby": [
+      "Chatham",
+      "Bothwell",
+      "Highgate",
+      "Kent Bridge"
     ],
+    "faq": [
+      [
+        "What should I compare when replacing a water heater in Thamesville?",
+        "Record the existing fuel, tank capacity, vent arrangement and connections. Compare tank and tankless options against household demand, installation requirements and available space. Ask which safety checks and documentation are included in the proposed scope."
+      ],
+      [
+        "How can I assess repiping in an older Thamesville home?",
+        "Photograph accessible piping and note corrosion, leaks and which fixtures lose pressure. If galvanized supply lines are present, ask what runs would be replaced, whether PEX or copper is proposed, how the work could be staged and how new piping will be tested."
+      ],
+      [
+        "What information is useful for an urgent plumbing problem?",
+        "Describe the affected fixtures, when the problem began and whether water is actively leaking or backing up. Photographs of the equipment, shut-offs or affected area can help clarify the issue. For an active leak, note whether the water supply can be safely shut off."
+      ],
+      [
+        "Should I consider a water softener in Thamesville?",
+        "Do not rely on location alone to choose treatment. Request a hardness measurement at the tap and compare it with household use and the proposed softener’s capacity. If the goal is drinking-water treatment, discuss point-of-use filtration separately and review maintenance requirements."
+      ]
+    ]
   },
   "pain-court": {
-    name: "Pain Court",
-    intro: "Pain Court grew as one of Chatham-Kent's French farming villages north of the city, ringed by some of the flattest and most productive farmland in the province. Chatham Plumbing Pros serves Pain Court homeowners with water heaters, drain and sewer cleaning, fixture installs, sump pumps, and water treatment, with the same crew and standards we bring to Chatham city work.",
-    meta: "Plumber in Pain Court, Ontario. Water heaters, drain cleaning, fixture installs, sump pumps, and water treatment from a licensed Chatham-Kent plumbing team. Free quotes.",
-    nearby: ["Chatham", "Tupperville", "Dover Centre", "Charing Cross"],
-    faq: [
-      ["Do you serve rural properties around Pain Court?", "Yes. Farm and acreage properties around Pain Court get the full range of our work, from well-side water treatment to sump systems that handle spring melt on flat clay ground."],
-      ["Can you replace a water heater at a Pain Court home quickly?", "Yes. Common tank sizes ride on our trucks, so most Pain Court water heater replacements happen the same day we are called."],
-      ["Our Pain Court basement takes water in spring. Can you help?", "Yes. We size and install sump pumps, basins, and battery backups suited to the high water table north of Chatham, and we service existing units before melt season."],
-      ["Do you install fixtures during renovations in Pain Court?", "Yes. From a bathroom refresh to a full kitchen redo, we rough in and trim out fixtures for Pain Court homes, confirming drain and supply locations before finishes cover them."]
+    "name": "Pain Court",
+    "intro": "When planning plumbing work in Pain Court, describe the property’s equipment, water source where known and the specific symptoms rather than assuming every home needs the same solution. For a rural property, note whether a water-treatment system serves a well supply and photograph its labels, bypass and drain connections. If spring moisture or basement water is a concern, record where it enters and how the sump pump operates. These observations help distinguish treatment, drainage and fixture scopes.",
+    "meta": "Plumbing project planning in Pain Court, Ontario, including water heaters, drains, fixtures, sump systems and water treatment.",
+    "nearby": [
+      "Chatham",
+      "Tupperville",
+      "Dover Centre",
+      "Charing Cross"
     ],
-  },
+    "faq": [
+      [
+        "What should I provide when planning plumbing work on a rural property near Pain Court?",
+        "List the affected fixtures and equipment, note whether the property uses a well or other supply if known, and photograph system labels and connections. For water treatment, ask what measurements are needed before selecting equipment. Access and the existing layout can change the work scope."
+      ],
+      [
+        "How should I compare water heater replacement options in Pain Court?",
+        "Photograph the rating plate, fuel connection, vent and surrounding space. Compare tank capacity or tankless flow requirements with household demand, and ask whether the existing connections and venting suit the proposed equipment."
+      ],
+      [
+        "What can I document if a basement takes water in spring?",
+        "Record where water appears, how quickly the sump basin fills, how often the pump runs and where its discharge goes. Photograph the pump label and any backup equipment. Those observations help assess the basin, pump capacity, discharge and backup requirements without assuming a cause."
+      ],
+      [
+        "What should be confirmed before fixture work during a Pain Court renovation?",
+        "Mark the proposed fixture locations and compare them with existing drains and supply lines. Confirm positions before concrete, tile or cabinetry conceals the route. Moving fixtures may change drainage, venting, access and finish work compared with a direct replacement."
+      ]
+    ]
+  }
 };

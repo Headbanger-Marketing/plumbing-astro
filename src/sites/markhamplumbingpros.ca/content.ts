@@ -1,159 +1,320 @@
-// Per-site content for markhamplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Markham, York Region, northeast of Toronto.
-// Local angle: one of Canada's biggest renovation markets, with century homes
-// in old Markham village and Unionville running original galvanized, 1980s and
-// 90s subdivisions full of poly-B and failing basement fixtures, and a steady
-// stream of basement-finishing and multi-generational suite work. Municipal
-// lake-based supply leaves moderate scale; finished basements make leak and
-// backup protection high stakes.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Markham, Ontario",
-    h1: "Water Heater Service From a Local York Plumbing Team",
-    intro: "Markham Plumbing Pros keeps hot water flowing in one of the busiest renovation markets in the country. We replace rented tanks that have outlived their warranty, install high-efficiency and tankless units for growing households, and size systems for the multi-bathroom homes common across Markham and Unionville. Whether a tank in a Cornell-area townhouse is seeping or a century home near Main Street needs a modern unit that fits a tight mechanical room, we measure first and quote straight.",
-    meta: "Water heater installation and replacement in Markham, Ontario. Tank and tankless units, rented tank buyouts, and same-day emergency swaps by licensed York Region plumbers.",
-    problem_h: "Tank leaking, or showers turning cold halfway through?",
-    problem_p: "Markham homeowners get honest sizing and clean installs for tank and tankless water heaters, with emergency swaps when a tank lets go.",
-    features: [
-      ["flame", "Tankless for Busy Households", "Markham homes often run three or more bathrooms and back-to-back morning routines. A tankless unit sized to your actual demand ends the cold-shower lottery and frees up floor space in a cramped utility room."],
-      ["clock", "Emergency Tank Replacement", "A tank that splits overnight can soak a finished basement before breakfast. We stock the common sizes, pull the old unit, and have the new one running the same visit in most Markham neighbourhoods."],
-      ["shield", "Permits Handled For You", "Every water heater changeout in York Region that requires a permit gets filed by us, with relief valves, drain pans, and venting done to the Ontario Building Code so the inspection passes the first time."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Markham, Ontario",
+    "h1": "Plan Water Heater Replacement in Markham",
+    "intro": "A water heater replacement in Markham starts with the existing unit, available space and the household’s hot-water demand. Record the tank’s make, model, age and fuel, and photograph its connections, venting and surrounding clearances. For a tankless conversion, compare the required gas or electrical capacity and vent route with what is already installed. If the heater is rented, review the rental terms before arranging a replacement. These details help define equipment, installation work and any related changes.",
+    "meta": "Compare tank and tankless water heater replacement options for a home in Markham, including capacity, connections and installation requirements.",
+    "problem_h": "Is the tank leaking, or does hot water run out too soon?",
+    "problem_p": "Compare the heater’s age, capacity and fuel with household demand. Photos of the unit and connections can help clarify whether a replacement or a different system needs consideration.",
+    "features": [
+      [
+        "flame",
+        "Compare Tankless Capacity and Supply",
+        "For a tankless system, list how many fixtures may run at once and note the existing gas line or electrical service. Ask how the proposed unit’s flow rate and input capacity match that demand. Check the planned vent route and available wall space too, since supply upgrades or a longer vent run can change installation scope."
+      ],
+      [
+        "clock",
+        "Document a Tank Replacement",
+        "If a tank leaks, photograph the label, connections, venting, drain pan and nearby floor before arranging work, provided it is safe to do so. Compare the current tank’s capacity and fuel with the proposed replacement. Ask what removal, drainage and connection changes are included; a tight mechanical space or altered venting can affect the work required."
+      ],
+      [
+        "shield",
+        "Check Requirements Before Work",
+        "Ask which current Ontario requirements and local approvals apply to the proposed water heater work, and who is responsible for confirming them. Compare the planned temperature-and-pressure relief discharge, drainage, venting and clearances with the installation instructions and applicable rules. Clarifying these items before choosing equipment helps avoid scope surprises and identifies what documentation to request when work is complete."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Markham, Ontario",
-    h1: "Drain Cleaning From a Local York Plumbing Team",
-    intro: "Between busy kitchens, deep lot tree cover, and decades-old underground lines, Markham drains clog in some predictable ways, and Markham Plumbing Pros clears them for good rather than for a month. Our crews snake and hydro-jet everything from a bathroom sink to a main sewer line, then camera the pipe when a blockage keeps returning so you can see the root ball or collapsed section yourself before spending a dollar on repairs.",
-    meta: "Drain cleaning in Markham, Ontario. Main line snaking, hydro-jetting, kitchen and bath clogs, and sewer camera inspection by licensed York Region plumbers.",
-    problem_h: "Gurgling floor drains or a tub that will not empty?",
-    problem_p: "We clear Markham drain lines properly, then show you on camera why the clog formed and what will stop it from coming back.",
-    features: [
-      ["refresh", "Hydro-Jetting, Not Just Snaking", "Grease and soap buildup coat older Markham sewer lines like plaque. A jetter scours the pipe wall back to full diameter, which a cable alone never does, and the difference lasts years instead of weeks."],
-      ["droplets", "Camera Inspection That Shows Why", "Recurring backups usually mean roots, a sagging line, or a cracked section under the yard. We push a camera through, mark the exact depth, and you watch the footage with us before deciding anything."],
-      ["shield", "Main Line and Backwater Advice", "Once a Markham main line is jetted clean, we tell you honestly whether a maintenance flush, root cutting, or a backwater valve makes sense for your street, with no upsell pressure."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Markham, Ontario",
+    "h1": "Plan Drain Cleaning in Markham",
+    "intro": "A recurring drain blockage can call for different methods depending on its location, cause and the pipe’s condition. Note which fixtures drain slowly, whether several fixtures are affected, and when the problem occurs; photograph any accessible cleanout and record recent work. Snaking may clear an obstruction, while hydro-jetting can remove deposits from suitable pipe walls. If the blockage returns, ask whether a camera inspection is appropriate before repair decisions. Pipe material and condition help determine safe, useful next steps.",
+    "meta": "Compare drain snaking, hydro-jetting and camera inspection options for a drain problem in Markham.",
+    "problem_h": "Are floor drains gurgling, or is a tub slow to empty?",
+    "problem_p": "Record which drains are affected and whether the blockage returns. That history helps distinguish a local fixture clog from a possible main-line problem and informs the inspection method.",
+    "features": [
+      [
+        "refresh",
+        "Choose Between Snaking and Jetting",
+        "Describe the blockage and ask whether a cable or hydro-jetting is suitable for the affected line. Snaking can open a passage through an obstruction; jetting uses water to clean deposits from pipe walls. Pipe material, condition and access matter, so ask how the line will be assessed before a higher-pressure method is used."
+      ],
+      [
+        "droplets",
+        "Use Camera Inspection for Repeat Clogs",
+        "If a blockage keeps returning, ask whether a camera can inspect the relevant section after it is cleared. Request the footage and an explanation of any roots, sagging section or visible damage, if present. Ask how the inspection locates the issue and whether depth or distance can be estimated; this helps compare repair options without assuming a cause."
+      ],
+      [
+        "shield",
+        "Discuss Main-Line Follow-Up",
+        "For a main-line blockage, ask what the cleaning result shows and whether follow-up maintenance or further inspection is worth considering. Root cutting may be relevant if roots are visible, while a backwater valve is a separate protective measure, not a drain-cleaning method. The property’s drainage layout and evidence from inspection should guide any recommendation."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Markham, Ontario",
-    h1: "Repiping From a Local York Plumbing Team",
-    intro: "Housing in Markham spans century clapboard near the village to 1980s and 90s subdivisions that were piped with poly-B during the boom years, and both eras now fail in ways Markham Plumbing Pros sees daily. Rusty galvanized restricts flow until showers trickle, and aging plastic fittings let go behind finished walls. We repipe single bathrooms or whole houses in PEX or copper, planning cuts around tile and cabinetry so restoration stays small.",
-    meta: "Repiping in Markham, Ontario. Galvanized and poly-B replacement, whole-home PEX and copper repipes, and pressure restoration by licensed York Region plumbers.",
-    problem_h: "Red-tinged water or pressure that drops when a tap opens?",
-    problem_p: "Old galvanized and poly-B piping is the usual culprit in Markham homes, and we replace it with clean piping sized for modern fixtures.",
-    features: [
-      ["wrench", "Poly-B and Galvanized Experts", "The 80s subdivisions across Markham and the century stock near Unionville each carry their own failure patterns. We identify what is in your walls, explain the timeline honestly, and repipe with materials that outlast the mortgage."],
-      ["home", "Surgical Wall Openings", "Finished basements and upgraded bathrooms deserve better than a demolition. We map each run first, cut only where needed, and keep patching to a handful of tidy access panels."],
-      ["shield", "Permitted, Tested, Documented", "Your repipe is pressure-tested before any wall closes and inspected under its York Region plumbing permit, leaving paperwork that satisfies insurers and future buyers."]
+    "icon": "wrench",
+    "kicker": "Repiping in Markham, Ontario",
+    "h1": "Plan a Repiping Project in Markham",
+    "intro": "Repiping scope depends on the pipe material, the affected branches and how the plumbing runs through finished rooms. If you suspect galvanized pipe or poly-B, photograph accessible pipe markings and fittings, and note low pressure, discolouration or past leaks. Ask for a clear comparison between repairing one section and replacing a larger system. PEX and copper are possible replacement materials, but routing, fixture connections and access influence the choice, wall openings and restoration required.",
+    "meta": "Review galvanized or poly-B replacement options, pipe routing and project scope for a home in Markham.",
+    "problem_h": "Is water discoloured, or does pressure drop when another tap opens?",
+    "problem_p": "Identify visible pipe markings and note where pressure changes occur. Those details help determine whether inspection should focus on a branch, material transition or broader system.",
+    "features": [
+      [
+        "wrench",
+        "Identify Existing Pipe Material",
+        "Photograph accessible pipe and fittings, including any printed markings, and note where each material is visible. Galvanized pipe and poly-B have different characteristics and replacement considerations. Ask how the proposed inspection will confirm what is inside finished walls, and request the evidence behind any recommendation to replace a branch or the whole system."
+      ],
+      [
+        "home",
+        "Plan Access Through Finished Rooms",
+        "Before work is scoped, mark finished walls, tile, cabinetry and ceilings that could conceal pipe routes. Ask for the proposed route and locations of access openings, along with what repair or patching is excluded. Mapping the runs first can help compare options that limit disturbance while still allowing proper connections and practical future access."
+      ],
+      [
+        "shield",
+        "Ask About Testing and Documentation",
+        "Ask how replacement piping will be pressure-tested and when the test will happen relative to closing walls. Confirm which current requirements, approvals or inspections apply to the proposed work, and who will clarify them. Request a written description of materials, routing and completed tests so future owners or trades can understand what was changed."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Markham, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local York Plumbing Team",
-    intro: "Markham renovates more bathrooms per capita than almost anywhere in Ontario, and Markham Plumbing Pros is the crew behind a lot of those trim-outs. We set one-piece toilets and wall-hung vanities, install rainfall shower systems, and rough in basement bathrooms that were stubbed years ago and never finished. If your renovation contractor needs a licensed plumber who shows up on schedule and passes inspection the first time, that is the standard we work to.",
-    meta: "Fixture and toilet installation in Markham, Ontario. Bathroom and kitchen fixtures, basement bathroom rough-ins, and renovation plumbing by licensed York Region plumbers.",
-    problem_h: "Renovation underway, or a fixture that will not stop dripping?",
-    problem_p: "From a single faucet swap to a full bathroom renovation rough-in, Markham homeowners get level, sealed, code-passing fixture installs.",
-    features: [
-      ["home", "Renovation-Grade Installations", "A renovation is only as good as what sits behind the tile. We set tubs, valves, and drains dead level and seal every connection so the marble and cabinetry above them stay dry for decades."],
-      ["check", "Basement Bathroom Rough-Ins", "Thousands of Markham basements were stubbed for a future bathroom and never finished. We tie into the existing drainage correctly, whether it needs a lift station or gravity works."],
-      ["shield", "Fixtures That Handle Local Water", "Markham's municipal supply carries enough mineral content to choke cheap aerators. We steer clients toward fixture brands that survive it, and we install them so warranty claims are never an argument."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Markham, Ontario",
+    "h1": "Plan Fixture and Toilet Installation in Markham",
+    "intro": "Fixture work in Markham can range from replacing a faucet to coordinating a bathroom renovation or finishing a basement rough-in. Before comparing proposals, photograph existing supply, drain and shutoff locations, and collect the fixture specifications and installation instructions. For a tub, shower valve or wall-hung fixture, confirm framing, finished-wall depth and access needs with the relevant trades. A basement bathroom also depends on drainage elevation and the existing rough-in, which can determine whether gravity drainage is feasible.",
+    "meta": "Plan toilet, fixture and bathroom rough-in work in Markham by comparing specifications, connections and drainage requirements.",
+    "problem_h": "Is a fixture dripping, or are you planning a bathroom renovation?",
+    "problem_p": "Share fixture specifications, connection photos and renovation plans. Those details help clarify whether the work is a direct replacement, a rough-in or a larger plumbing change.",
+    "features": [
+      [
+        "home",
+        "Coordinate Fixtures With the Renovation",
+        "Collect the tub, valve, drain and fixture specifications before tile or cabinetry is installed. Ask how supply locations, drain alignment, access panels and waterproofing interfaces will be coordinated with the other work. Level placement and accessible connections affect both installation scope and future service, so clarify responsibilities before finishes conceal the plumbing."
+      ],
+      [
+        "check",
+        "Verify Basement Drainage Before Finishing",
+        "Photograph the existing rough-in and note the proposed toilet, shower and sink locations. Ask whether gravity drainage is possible by comparing fixture elevations with the available drain connection. If it is not, a lift station may need consideration. Confirm the proposed route, access and equipment requirements before finishing the basement, since those choices change the scope."
+      ],
+      [
+        "shield",
+        "Compare Fixture Specifications and Materials",
+        "Check the fixture’s installation instructions, connection sizes and required clearances before selecting a product. If mineral deposits are a concern at the property, compare aerator access and maintenance instructions rather than assuming a particular water condition. Ask which compatible fittings and shutoffs are included and how the installation will be checked for leaks after connections are made."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Markham, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local York Plumbing Team",
-    intro: "Behind the finished drywall of a typical Markham basement, a pinhole leak can quietly ruin flooring, framing, and a home theatre before anything looks wet. Markham Plumbing Pros tracks these down with acoustic sensors, thermal imaging, and pressure isolation so we open one small section of wall instead of the whole basement rec room. Poly-B fittings and aging copper manifolds are our usual suspects, and we repair or reroute them the same visit.",
-    meta: "Leak detection and repair in Markham, Ontario. Acoustic and thermal leak location, slab leak repair, and pressure testing by licensed York Region plumbers.",
-    problem_h: "Water bill creeping up with no explanation?",
-    problem_p: "We pinpoint hidden leaks in Markham homes with acoustic and thermal equipment, then repair the line with minimal opening of walls and ceilings.",
-    features: [
-      ["droplets", "Acoustic and Thermal Location", "Hissing through a pipe run and cold spots on a wall tell two halves of the story. Our listening gear and thermal camera confirm the leak position before a single tool touches drywall."],
-      ["shield", "Slab and Underfloor Leaks", "Warm spots on a basement floor or a foundation wall that never dries point to a buried line. We isolate the run, verify it with a pressure test, and reroute or repair with the smallest excavation possible."],
-      ["check", "Poly-B Fitting Failures", "A large share of sudden Markham ceiling stains trace to a single failed poly-B crimp ring. We locate it, and can quote replacing that branch or the whole system before the next one lets go."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Markham, Ontario",
+    "h1": "Plan Leak Detection and Repair in Markham",
+    "intro": "A hidden leak investigation is easier to scope when symptoms and accessible evidence are recorded first. Note changes in the water bill, sounds, damp areas, ceiling stains or unexplained moisture, and photograph affected surfaces before they are disturbed. Acoustic equipment, thermal imaging and pressure isolation can each help investigate different conditions; none should be treated as proof without suitable checks. If a buried line is suspected, ask what testing can distinguish it from another source before planning access or repair.",
+    "meta": "Compare acoustic, thermal and pressure-testing approaches for locating a suspected plumbing leak in Markham.",
+    "problem_h": "Has water use increased without an obvious explanation?",
+    "problem_p": "Record when symptoms occur and photograph dampness, stains or unusual warm areas. This information helps focus investigation before opening walls, floors or ceilings.",
+    "features": [
+      [
+        "droplets",
+        "Combine Acoustic and Thermal Clues",
+        "If a leak is suspected behind a wall, note any hissing, temperature difference or visible moisture and photograph the area. Ask whether acoustic listening and thermal imaging are appropriate for those conditions, and how findings will be verified. These tools provide different clues; confirming the likely location before opening drywall can reduce unnecessary access work."
+      ],
+      [
+        "shield",
+        "Test Suspected Slab or Underfloor Leaks",
+        "If a floor feels unusually warm or a foundation area stays damp, record the location and any pattern in the symptoms. Ask whether isolating the relevant line and pressure-testing it can confirm a leak. Discuss how a repair or reroute would be accessed and compare the likely excavation or opening required before authorizing work."
+      ],
+      [
+        "check",
+        "Inspect Poly-B Connections Carefully",
+        "If accessible plumbing is poly-B, photograph the pipe markings and any stained ceiling or wall below a connection. Ask whether the investigation found a specific failed fitting, such as a crimp connection, or evidence of a wider concern. Comparing a branch repair with system replacement requires confirmed scope, access planning and a clear description of what is included."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Markham, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local York Plumbing Team",
-    intro: "A finished Markham basement full of electronics, laminate, and a young tenant or in-law suite is an expensive thing to flood, and the storms rolling through York Region lately have made that risk real on streets that never used to take water. Markham Plumbing Pros installs correctly sized sump pumps with sealed lids and battery backup, plus mainline backwater valves that keep an overloaded City sewer from pushing back into your basement.",
-    meta: "Sump pump and backwater valve installation in Markham, Ontario. Battery backup pumps, sealed basins, and mainline backwater valves by licensed York Region plumbers.",
-    problem_h: "Sump pit filling fast, or sewer smell before a storm?",
-    problem_p: "Markham homes get sump systems and backwater valves sized to their lot, so storm night stays boring instead of becoming a claim.",
-    features: [
-      ["shield", "Pumps Matched to the Lot", "High water table or a weeper tile system fed by clay soil changes what pump you need. We size horsepower and float logic to your actual pit behaviour so it keeps up in the worst hour of the storm."],
-      ["zap", "Battery and Alarms", "The grid tends to fail during the same storm that fills the pit. A battery-backed secondary pump and a high-water alarm keep your Markham basement protected precisely when the primary has no power."],
-      ["refresh", "Backwater Valve Installs", "A mainline backwater valve is the only thing that stops municipal sewer surcharge at the source. We install them under permit, and many Markham homeowners qualify for the City's basement flooding protection subsidy program."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Markham, Ontario",
+    "h1": "Plan Sump Pump and Backwater Protection in Markham",
+    "intro": "Sump and sewer-backflow projects require different checks, so begin by photographing the pit, pump label, discharge route and any visible water marks. Note how quickly the pit fills, whether an alarm or backup is present, and any history of sewer backup. Pump capacity depends on actual pit behaviour and discharge conditions; a backwater valve concerns the building drain. Ask what site measurements and current requirements apply before comparing equipment or planning installation.",
+    "meta": "Compare sump pump, battery backup and backwater valve planning considerations for a property in Markham.",
+    "problem_h": "Does the sump pit fill quickly, or have you noticed sewer odour before a storm?",
+    "problem_p": "Photograph the pit and note water levels, pump operation and any backup history. These observations help separate sump concerns from possible sewer backflow risks.",
+    "features": [
+      [
+        "shield",
+        "Match Pump Capacity to Pit Behaviour",
+        "Record how often the pump runs, how quickly water rises and where its discharge leads. If the property has a weeper-tile system or a high inflow during wet periods, those observations may affect pump capacity and float settings. Ask how the proposed pump is selected for measured conditions rather than choosing by horsepower alone."
+      ],
+      [
+        "zap",
+        "Compare Backup Power and Alarms",
+        "Check the pump model, power supply and alarm status, and note what happens during a power interruption. Ask whether a battery-backed secondary pump is compatible with the pit and how its capacity and battery runtime will be assessed. A high-water alarm can provide notice of rising levels; confirm where it sounds and how it is powered."
+      ],
+      [
+        "refresh",
+        "Assess a Mainline Backwater Valve Separately",
+        "A backwater valve is installed on a building drain to help limit sewer surcharge from entering the property; it does not replace a sump pump. Ask where the building drain is accessible and whether the layout suits a valve. Confirm applicable approvals and inspection requirements, and independently check current municipal subsidy rules before including funding in a project budget."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Markham, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local York Plumbing Team",
-    intro: "Markham draws treated lake water through the York Region system, and while it is safe and consistent, it arrives with enough hardness to fog glassware, crust shower heads, and layer scale inside tanks and appliances. Markham Plumbing Pros installs right-sized softeners and filtration for homes across the city, from compact cabinet units for townhouses to high-flow systems feeding five-bathroom family homes, all plumbed with bypasses that make service painless.",
-    meta: "Water softeners and filtration in Markham, Ontario. Right-sized softener installation, reverse osmosis drinking systems, and whole-home filtration by licensed plumbers.",
-    problem_h: "Scale on shower doors and kettles that never come clean?",
-    problem_p: "A properly sized softener stops the hardness marking up Markham homes, protecting fixtures, water heaters, and everything else the water touches.",
-    features: [
-      ["gauge", "Sized to the Household", "Two people in a townhouse and a family of seven near Unionville need different capacities. We test hardness, count fixtures, and set regeneration so the unit neither starves nor wastes salt."],
-      ["droplets", "Drinking Water Systems", "Many Markham families add an under-sink reverse osmosis unit for taste and convenience. We install RO systems with clean tubing runs and easy cartridge changes at the sink cabinet."],
-      ["shield", "Protects the Big Purchases", "Scale is what kills tankless heat exchangers and coats tank elements years early. A softener is cheap insurance for the appliances and fixture finishes in a renovated Markham home."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Markham, Ontario",
+    "h1": "Plan Water Softening and Filtration in Markham",
+    "intro": "A softener or filter should be selected for a measured water concern and the home’s actual plumbing layout. If scale is visible, photograph affected fixtures and appliances, and arrange a suitable hardness test rather than assuming a reading. Record household size, peak water use, available installation space and nearby drains. For drinking-water treatment, identify the taste or other concern and compare the system’s stated treatment function. Capacity, bypass access and cartridge servicing all affect equipment choice and installation scope.",
+    "meta": "Compare water softener and reverse osmosis options for a home in Markham using test results and household demand.",
+    "problem_h": "Are deposits building up on fixtures or inside a kettle?",
+    "problem_p": "Document where deposits appear and compare a water test with the proposed treatment. Testing and household use help distinguish softening needs from drinking-water filtration choices.",
+    "features": [
+      [
+        "gauge",
+        "Size a Softener From Test Results",
+        "Obtain a hardness result and note household size, peak use and the number of fixtures that may run together. Ask how those figures determine softener capacity and regeneration settings. A system that is too small may not meet demand, while unsuitable settings can waste salt; also check that the planned location allows bypass access and servicing."
+      ],
+      [
+        "droplets",
+        "Compare Drinking-Water Treatment",
+        "If the concern is taste or drinking water, ask what a proposed under-sink reverse osmosis system is designed to treat and what its specifications do not cover. Photograph the sink cabinet and note available space, drain access and tap preference. Compare filter replacement intervals and cartridge availability so routine servicing is practical for the household."
+      ],
+      [
+        "shield",
+        "Consider Appliance and Maintenance Needs",
+        "If scale is present on fixtures or inside a water heater, ask how test results relate to the proposed treatment and the equipment manufacturer’s maintenance guidance. A softener changes hardness but is not a universal filtration system. Compare the installation’s bypass arrangement, drain connection and ongoing salt or filter requirements before weighing potential appliance benefits."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Tank burst on a Sunday night and they had a new one in by Monday afternoon. The crew laid floor protection and hauled the old tank away.", "Homeowner", "Unionville"],
-  ["Third company we called about our main line and the only one that put a camera in before quoting. Footage showed the roots, jetting fixed it.", "Homeowner", "Thornhill"],
-  ["Repiped our 1992 build off the poly-B after a fitting let go in the ceiling. They kept the wall cuts minimal and the pressure is unbelievable now.", "Resident", "Markham"],
-  ["Roughed in our basement bathroom during the reno and passed inspection first try. Showed up when they said they would, which says a lot.", "Business Owner", "Unionville"],
-  ["Backwater valve and battery backup sump installed before the spring storms. Watched the neighbours bail out their rec room while ours stayed dry.", "Homeowner", "Markham"],
-  ["Softener sized to our house instead of the biggest box on the truck. Glassware actually comes clear now and the shower head stopped plugging.", "Resident", "Milliken"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless installation, rented tank replacement, and emergency swaps for Markham homes running out of hot water.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Hydro-jetting, main line snaking, and camera inspection for the recurring clogs Markham tree cover and older sewers produce.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Poly-B and galvanized replacement in PEX or copper, planned around finished spaces to keep restoration small.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Bathroom renovation rough-ins, basement bathrooms, and fixture installs that pass inspection the first time.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and thermal location of hidden leaks behind finished Markham walls, plus repair the same visit.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Battery-backed sump systems and mainline backwater valves protecting finished basements across Markham.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Right-sized softeners and reverse osmosis systems for Markham's municipal supply and its stubborn scale.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless replacement options by capacity, fuel, venting and available mechanical-room space. If a tank is rented, review its terms before planning a change.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "For a slow or recurring drain, compare snaking with hydro-jetting based on pipe condition and blockage location. Camera inspection may help investigate repeat main-line problems.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Document visible galvanized or poly-B pipe and compare branch replacement with broader repiping. Material, routing and finished-wall access affect the choice of PEX or copper and the restoration scope.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan fixture replacements, bathroom renovation plumbing or basement rough-ins using product specifications, connection locations and drainage elevations. These details can affect installation access and equipment needs.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Record stains, damp areas, sounds and unusual water use before investigating a hidden leak. Acoustic, thermal and pressure-testing methods provide different clues and can guide access planning.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare sump capacity, battery backup and alarms using pit behaviour and discharge details. Assess a mainline backwater valve separately, based on the building drain layout and applicable requirements.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use water test results, household demand and installation space to compare softener capacity. For drinking water, assess reverse osmosis specifications, cabinet access and filter maintenance.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are your plumbers actually licensed?", "Every job is done by licensed plumbers and covered by a certificate of insurance, and anything requiring one is taken out under a plumbing permit with the York Region authority so the work is documented and insurable."],
-  ["Can you get here today? My basement is flooding.", "Emergency calls for bursts, backups, and no-water situations get priority dispatch across Markham, and because our crews are based in the city, arrival windows are measured in minutes, not days."],
-  ["How fast can a leaking water heater be replaced?", "Same-day in most cases. Common tank sizes ride on our trucks, so a Markham call in the morning usually means hot water by dinner, with the permit and removal of the old unit included."],
-  ["Our 1990s house still has poly-B. Should we repipe now?", "Not automatically. One failed fitting or visible staining means plan it now, otherwise we assess the crimp rings and manifold condition and give you an honest timeline instead of a scare quote."],
-  ["Is Markham water hard enough to bother with a softener?", "The lake-sourced supply is moderately hard, enough to scale fixtures and shorten tankless heaters. Most families notice the difference within weeks of a properly sized softener going in."],
-  ["Do you handle wells and septic at all?", "Markham is almost entirely on municipal services, but rural acreage toward Stouffville and north Whitby still runs private systems, and we service their pressure tanks, treatment, and septic lines."],
-  ["What does plumbing work cost here?", "Quotes are free and itemized before any wrench turns, so a faucet swap or a full repipe is priced the same whether you live near Main Street or in Cornell, with no surprise lines on the invoice."],
-  ["Which areas around Markham do you cover?", "Crews work across Markham, Unionville, Thornhill, Stouffville, and neighbouring Richmond Hill, with the same licensing and the same warranty on every job."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/markhamplumbingpros.ca-water-heaters.jpg", "Water heater installation in Markham, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/markhamplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Markham, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/markhamplumbingpros.ca-repiping.jpg", "Whole-home repiping in Markham, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/markhamplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Markham, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/markhamplumbingpros.ca-leak-detection.jpg", "Leak detection and repair in Markham, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/markhamplumbingpros.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Markham, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/markhamplumbingpros.ca-water-softeners.jpg", "Water softener installation in Markham, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/markhamplumbingpros.ca-water-heaters.jpg",
+    "Water heater installation in Markham, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/markhamplumbingpros.ca-drain-cleaning.jpg",
+    "Drain cleaning and hydro-jetting in Markham, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/markhamplumbingpros.ca-repiping.jpg",
+    "Whole-home repiping in Markham, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/markhamplumbingpros.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Markham, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/markhamplumbingpros.ca-leak-detection.jpg",
+    "Leak detection and repair in Markham, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/markhamplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Markham, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/markhamplumbingpros.ca-water-softeners.jpg",
+    "Water softener installation in Markham, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

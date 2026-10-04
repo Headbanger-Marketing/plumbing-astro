@@ -1,159 +1,320 @@
-// Per-site content for newmarketplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Newmarket, York Region, on the Holland
-// River between Toronto and Lake Simcoe.
-// Local angle: century homes near Main Street with original galvanized,
-// post-war and 70s subdivisions between, low-lying neighbourhoods along the
-// Holland River and Tannery Creek needing sump and backwater protection, and
-// rural East Gwillimbury edges (Sharon, Queensville, Holland Landing) on
-// wells and septic.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Newmarket, Ontario",
-    h1: "Water Heater Installation From a Local York Plumbing Team",
-    intro: "Newmarket Plumbing Pros handles the full spread of water heater work a town like this generates: century homes near Main Street with tanks wedged into coal-room corners, 70s family houses due for their second replacement, and bungalow-to-two-storey conversions that need real capacity. We drain, haul, set, and commission properly, whether the unit feeds one bathroom or a house full of teenagers, and the municipal permit side never lands on your desk.",
-    meta: "Water heater installation and replacement in Newmarket, Ontario. Tight-space tank swaps, high-capacity units, and same-day emergency replacements.",
-    problem_h: "Tank on its last legs in a tight old basement?",
-    problem_p: "Newmarket's older homes need installers who can work around cramped mechanical rooms, and we do it every week without shortcuts.",
-    features: [
-      ["flame", "Tight-Access Specialists", "Coal rooms, crawlspaces, and low ceilings near Newmarket's old core are routine for us. We plan the rigging and removal first so a difficult space does not become a botched install."],
-      ["clock", "Same-Day Failures", "Cold water at six in the morning gets a truck rolling. Common configurations are stocked, so most Newmarket emergency replacements restore hot water before the day is out."],
-      ["shield", "Capacity Matched to the Household", "Teenagers, in-law suites, and deep soaking tubs change the math. We count the real fixtures and usage pattern before recommending a tank size, never after."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Newmarket, Ontario",
+    "h1": "Water Heater Installation and Replacement in Newmarket",
+    "intro": "Planning a water heater replacement in Newmarket? The right scope depends on the existing unit, access to the mechanical area, venting and fuel connections, and how much hot water the household uses. In a tight basement, crawlspace, or room with a low ceiling, measure clearances and photograph the route from the entrance to the tank. For a larger household, suite, or renovation, compare the current tank capacity with the number of fixtures and expected simultaneous use before selecting a replacement.",
+    "meta": "Water heater installation and replacement in Newmarket, Ontario. Compare tank access, capacity, fuel connections and installation scope.",
+    "problem_h": "Will a replacement fit through the access route and meet household demand?",
+    "problem_p": "Photograph the tank, its connections, and the route out of the room. Those details help clarify removal access, installation requirements, and whether the proposed capacity fits the household's use.",
+    "features": [
+      [
+        "flame",
+        "Check Access Before Choosing a Tank",
+        "Measure doorways, stair turns, ceiling height, and the clear space around the existing heater. Photograph obstacles and the tank label. In a coal room, crawlspace, or other restricted area, these details can change the removal plan, the replacement dimensions, and the work needed to connect and vent the new unit."
+      ],
+      [
+        "clock",
+        "Compare Replacement Scope and Timing",
+        "If a tank is leaking or no longer heating reliably, record its age, fuel type, capacity, and symptoms before requesting a replacement. Ask what the proposed work includes, such as draining and removal, disposal, reconnection, venting changes, and testing. Timing depends on the job's requirements and should be confirmed rather than assumed."
+      ],
+      [
+        "shield",
+        "Match Capacity to Actual Use",
+        "List the household's fixtures and note when hot water is used at the same time. A second bathroom, in-law suite, teenagers, or a deep soaking tub may affect capacity needs. Compare the current unit's rating and household pattern with the proposed model so the recommendation reflects demand, not just the tank already in place."
+      ]
     ],
-    rev: [0, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Newmarket, Ontario",
-    h1: "Drain Cleaning From a Local York Plumbing Team",
-    intro: "Newmarket's sewer stories follow its geography. Neighbourhoods near the Holland River and Tannery Creek fight root intrusion and shifting clay, older sections near the historic core still have cast iron and clay in the ground, and everywhere else the culprit is usually grease and decades of buildup. Newmarket Plumbing Pros clears all of it with sectional machines and jetters, and puts a camera in the line when the pattern says the problem is structural.",
-    meta: "Drain cleaning in Newmarket, Ontario. Sewer snaking, hydro-jetting, root removal, and camera inspection for older lines and river-adjacent lots.",
-    problem_h: "Floor drain backing up when the washer drains?",
-    problem_p: "Newmarket's mixed sewer stock clogs for different reasons by neighbourhood, and we diagnose yours before choosing the clearing method.",
-    features: [
-      ["refresh", "Jetting for Buildup and Grease", "Pressurized water strips the walls of a drain the way no chemical or hand snake can. For kitchen lines and grease-heavy Newmarket households, it restores genuine full diameter."],
-      ["droplets", "Roots and Shifting Clay", "River-adjacent lots and streets with mature boulevard trees get root intrusion through offset joints. We cut them back cleanly and show you the camera footage of what remains."],
-      ["shield", "Pre-Storm Main Line Clears", "If your street floods, a partly blocked main makes it worse. We clear and inspect ahead of wet season for Newmarket homes that have taken water before."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Newmarket, Ontario",
+    "h1": "Drain Cleaning and Inspection in Newmarket",
+    "intro": "A slow drain or recurring backup can result from a local blockage, grease buildup, roots entering a line, or a damaged sewer pipe. For a drain-cleaning job in Newmarket, note which fixtures are affected, when the problem occurs, and whether several drains back up together. If the property has older cast-iron or clay piping, nearby mature trees, or a history of basement water, share that information when discussing the inspection. The symptoms can help determine whether snaking, water jetting, or a camera assessment is appropriate.",
+    "meta": "Drain cleaning in Newmarket, Ontario. Compare snaking, hydro-jetting and camera inspection for blockages or suspected pipe damage.",
+    "problem_h": "Do several drains slow down or back up at the same time?",
+    "problem_p": "Record which fixtures are affected and whether the issue follows laundry, heavy water use, or rain. That pattern can help distinguish a local clog from a main-line or pipe condition that needs inspection.",
+    "features": [
+      [
+        "refresh",
+        "Consider Jetting for Grease and Buildup",
+        "If a kitchen line repeatedly slows and the pipe condition is suitable, ask whether hydro-jetting is an option. Pressurized water can clear accumulated material from the pipe walls, while a hand snake may only open a channel through it. The pipe material, access, and any known damage should be checked before choosing a cleaning method."
+      ],
+      [
+        "droplets",
+        "Check for Roots or Pipe Movement",
+        "If a line runs beneath mature trees or has a history of recurring blockage, roots or offset joints may be contributing. Ask whether a camera inspection is appropriate, and request an explanation of what it shows before and after clearing. This can distinguish a temporary obstruction from damage that may need separate repair planning."
+      ],
+      [
+        "shield",
+        "Plan Main-Line Checks Before Heavy Rain",
+        "If the property has had basement backups or water entry during storms, note where water appeared and whether floor drains or fixtures gurgled. Ask about inspecting and clearing the main drain, and whether a camera is needed to check its condition. A past backup is useful context, but does not by itself establish the cause of a future one."
+      ]
     ],
-    rev: [1, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Newmarket, Ontario",
-    h1: "Repiping From a Local York Plumbing Team",
-    intro: "Walk far enough down any street near Newmarket's Main Street and you will find galvanized supply lines still doing a job they were never meant to do this long, choking flow and shedding rust into every glass. The post-war and 70s rings around them carry their own legacy plastic issues. Newmarket Plumbing Pros replaces both with PEX and copper, organized fixture by fixture, and the drawings and permits that make the work count at resale.",
-    meta: "Repiping in Newmarket, Ontario. Galvanized and legacy plastic replacement, whole-home PEX and copper repipes, and permitted inspections.",
-    problem_h: "Pressure dropping every time two taps run?",
-    problem_p: "Galvanized that has narrowed to a straw is the standard diagnosis in Newmarket's older rings, and repiping is the real fix.",
-    features: [
-      ["wrench", "Galvanized Done Thoroughly", "We replace the visible piping and the buried runs most companies skip, from the municipal side to every fixture, so the rust problem actually ends rather than relocating."],
-      ["home", "Renovation Timing", "If a Newmarket kitchen or bath renovation is planned, repiping first costs less than repiping after new tile goes on. We coordinate with your contractor to sequence it right."],
-      ["shield", "Documented for Resale", "Permits pulled, pressure tests witnessed, walls closed with sign-off. When a Newmarket home changes hands, that file answers every buyer's inspector."]
+    "icon": "wrench",
+    "kicker": "Repiping in Newmarket, Ontario",
+    "h1": "Repiping and Supply-Line Replacement in Newmarket",
+    "intro": "Repiping may be worth investigating when several fixtures have low flow, pipes show corrosion, or repairs keep shifting from one section to another. For a Newmarket project, photograph visible pipe material, stains, fittings, and any past repair locations. If the home has galvanized supply piping or older plastic lines, ask which sections are included and how concealed runs will be assessed. Compare proposed materials, access openings, fixture reconnections, testing, and restoration. If a kitchen or bathroom renovation is planned, coordinate the plumbing sequence before new finishes are installed.",
+    "meta": "Repiping in Newmarket, Ontario. Review galvanized or older plastic piping, replacement scope, renovation sequencing and inspection requirements.",
+    "problem_h": "Are low pressure or recurring leaks affecting several fixtures?",
+    "problem_p": "Photograph accessible piping and list the affected fixtures. A comparison of pipe material, visible condition, and prior repairs can help determine whether a local repair or broader replacement needs consideration.",
+    "features": [
+      [
+        "wrench",
+        "Map Galvanized Piping Before Work",
+        "If visible supply lines are galvanized, ask how the assessment will account for concealed sections and branches to individual fixtures. Photograph accessible runs and note where water pressure changes. The scope may differ if the issue is limited to one section or if corrosion and restricted flow appear across multiple lines."
+      ],
+      [
+        "home",
+        "Sequence Piping With Renovations",
+        "If a kitchen or bathroom renovation is planned, discuss repiping before tile, cabinets, or finished walls go in. Share the renovation drawings and fixture locations, then compare the proposed route and openings with the contractor's schedule. Early coordination can reduce conflicts between new plumbing connections and completed finishes."
+      ],
+      [
+        "shield",
+        "Clarify Testing and Project Records",
+        "Ask what testing and documentation are included, and confirm any inspection or permit requirements that apply to the specific work. A written scope should identify piping material, included runs, fixture reconnections, access openings, and who handles wall restoration. Clear records can help explain what was changed if the home is later inspected or sold."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Newmarket, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local York Plumbing Team",
-    intro: "Fixture work in Newmarket runs from quick wins to full project plumbing. A dripping faucet or a rocking toilet is an hour of our day. A basement apartment near Davis Drive, a barrier-free main-floor bathroom for a parent moving in, or a century-home bathroom that has to look untouched when we are done, those are the jobs Newmarket Plumbing Pros is known for, and the reason our crews treat every rough-in like it will be photographed.",
-    meta: "Fixture and toilet installation in Newmarket, Ontario. Barrier-free bathrooms, basement apartments, faucet and toilet replacement, and renovation rough-ins.",
-    problem_h: "Adding a bathroom, or fixing the ones you have?",
-    problem_p: "Newmarket homeowners get fixture installs that respect the room they are in, from century-tile bathrooms to brand-new basement suites.",
-    features: [
-      ["home", "Basement Suite Plumbing", "Second units need their own drainage logic, and often a lifting system. We rough in Newmarket basement apartments to pass municipal inspection for rental registration."],
-      ["check", "Barrier-Free Adaptations", "Grab bars, comfort-height toilets, curbless shower drains, and lever fixtures keep a parent in their own Newmarket home longer, and we install them properly into blocking, not drywall."],
-      ["shield", "Heritage-Friendly Renovations", "In the older streets near Main Street, we work to preserve tile and trim, sourcing fixtures that fit the home's period while meeting modern code underneath."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Newmarket, Ontario",
+    "h1": "Fixture and Toilet Installation in Newmarket",
+    "intro": "Fixture work in Newmarket can involve a straightforward faucet or toilet replacement, a new bathroom, or changes to make a room easier to use. Before requesting a scope, photograph the existing fixture, its connections, surrounding finishes, and any signs of movement or leaking. If adding a basement bathroom or suite, ask how drainage, venting, and any required lifting system affect the design. For an accessibility update or older tiled room, identify desired fixtures and finishes early so mounting support, clearances, and connection locations can be considered together.",
+    "meta": "Fixture and toilet installation in Newmarket, Ontario. Plan replacements, basement bathrooms, accessibility adaptations and renovation rough-ins.",
+    "problem_h": "Are you replacing a fixture or planning a new bathroom?",
+    "problem_p": "Share measurements, fixture photos, and renovation plans before comparing options. Drainage, mounting support, clearances, and existing finishes can all change the work required.",
+    "features": [
+      [
+        "home",
+        "Plan Basement Bathroom Drainage",
+        "If a basement bathroom or secondary suite is planned, ask how the proposed fixtures connect to drainage and venting. Depending on the layout and elevations, a lifting system may need consideration. Share a floor plan and fixture locations so the drainage approach and any applicable inspection requirements can be discussed before walls are closed."
+      ],
+      [
+        "check",
+        "Check Support and Clearances for Accessibility",
+        "For a more accessible bathroom, measure the available clear floor space and note where grab bars, a comfort-height toilet, lever handles, or a curbless shower are desired. Grab bars need suitable structural backing, not just drywall. These details help determine whether framing, drain location, or other changes are needed in addition to fixture installation."
+      ],
+      [
+        "shield",
+        "Protect Existing Tile and Trim During Renovation",
+        "If the bathroom has older tile, trim, or other finishes you want to retain, photograph the area and identify the fixtures you plan to change. Ask how access to existing connections and the proposed fixture dimensions may affect surrounding materials. Checking compatibility before work begins helps clarify whether preserving finishes is practical or alterations are needed."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Newmarket, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local York Plumbing Team",
-    intro: "Water travels, which is why a stain on a Newmarket ceiling rarely lines up with the leak that caused it. Our crews trace the actual source with thermal imaging, acoustic listening, and methodical pressure isolation, whether it is a failing supply joint, a cracked drain serving a second-floor bath, or a yard line leaking toward the Holland River watershed. Then we repair it through the smallest possible opening and document everything.",
-    meta: "Leak detection and repair in Newmarket, Ontario. Thermal and acoustic leak location, drain leak diagnosis, and yard line repair by licensed plumbers.",
-    problem_h: "Ceiling stain that keeps returning after patching?",
-    problem_p: "Painters cannot fix a leak, and Newmarket homeowners deserve the source found before the next coat goes on. That is our job.",
-    features: [
-      ["droplets", "Trace to the True Source", "Gravity drags water far from its entry point. We follow the moisture with instrumentation to the real breach, so the repair lands where the problem is, not where it dripped."],
-      ["shield", "Drain Versus Supply Diagnosis", "A stain from a shower drain only appears when water runs, while a supply leak is constant. Simple isolation tests tell them apart in minutes and save Newmarket homeowners from opening the wrong ceiling."],
-      ["check", "Yard and Crawl Space Leaks", "Older Newmarket properties with crawlspaces and long yard runs get a full external trace too, including the section between the street shutoff and the foundation."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Newmarket, Ontario",
+    "h1": "Leak Detection and Repair in Newmarket",
+    "intro": "A ceiling stain, damp wall, or unexplained water use does not always reveal where a leak begins. For a leak investigation in Newmarket, photograph the affected area and record when moisture appears, including whether it follows showering, appliance use, or rain. Thermal imaging, acoustic listening, and pressure isolation may help investigate different types of leaks, depending on the building and piping. If the suspected source is a drain, supply line, or buried yard pipe, share what is known so the inspection can focus on the right system before repair openings are planned.",
+    "meta": "Leak detection and repair in Newmarket, Ontario. Investigate supply, drain and yard-line leaks using suitable tracing methods.",
+    "problem_h": "Does a ceiling stain return after it has been patched?",
+    "problem_p": "Photograph the stain and note when it changes or returns. Timing can help distinguish a drain-related leak from a constant supply leak and guide investigation before repairs or repainting.",
+    "features": [
+      [
+        "droplets",
+        "Trace Water Beyond the Visible Stain",
+        "Water can travel along framing before it appears on a ceiling or wall. Photograph the visible damage and nearby plumbing, then ask how the inspection will trace moisture back to its source. Depending on access and conditions, thermal imaging or acoustic listening may help narrow the search and reduce unnecessary opening of finished surfaces."
+      ],
+      [
+        "shield",
+        "Separate Drain Leaks From Supply Leaks",
+        "Note whether moisture appears only when a shower, sink, or other fixture drains, or whether it continues when fixtures are unused. This timing can help guide pressure isolation and other checks. Comparing the symptoms before opening a ceiling can reduce the chance of investigating the wrong line or repairing a location where water only becomes visible."
+      ],
+      [
+        "check",
+        "Include Yard Lines and Crawlspaces in the Check",
+        "If a property has a crawlspace, long buried water line, or dampness near the foundation, point out the suspected route and any accessible shutoffs. Ask whether the investigation includes the section between the street shutoff and the home. Access, pipe location, and the distinction between a supply line and drainage issue affect the testing and repair scope."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Newmarket, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local York Plumbing Team",
-    intro: "Some Newmarket streets sit close enough to the Holland River and Tannery Creek that spring melt and summer cloudbursts put real water under the slab, and the neighbourhoods that flooded in recent storms know exactly which houses had working pumps. Newmarket Plumbing Pros installs pump systems chosen for those conditions, with the battery backup that covers the power outage that arrives with every big storm, and backwater valves where municipal surcharge is the threat.",
-    meta: "Sump pump and backwater valve installation in Newmarket, Ontario. High-capacity pumps, battery backup, and flood-prone street protection.",
-    problem_h: "Lived through a Newmarket flood, or planning not to?",
-    problem_p: "Houses near the river and creek get protection sized for real water table conditions, not a box-store special on a hope.",
-    features: [
-      ["shield", "Sized for River-Adjacent Lots", "Proximity to the Holland River watershed means fast pit fill during melt. We install high-capacity cast-iron pumps that clear it without running themselves to death."],
-      ["zap", "Outage-Proof Backup", "The storm that fills your pit is the same storm that knocks a transformer out. Battery-backed secondary pumping keeps low-lying Newmarket basements dry through both at once."],
-      ["refresh", "Backwater Valves Where Sewers Surge", "On streets where the municipal main surcharges, we retrofit mainline backwater valves under permit, the upgrade that has saved Newmarket basements repeatedly in recent storm seasons."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Newmarket, Ontario",
+    "h1": "Sump Pumps and Backwater Valves in Newmarket",
+    "intro": "A sump pump or backwater valve plan should reflect the home's drainage layout, previous water entry, and the equipment already installed. For a Newmarket property, photograph the sump pit, pump label, discharge route, electrical connection, and any backup equipment. Record when water has entered and whether the concern involved groundwater, a power outage, or a plumbing backup. If the home is near a watercourse or has experienced flooding, treat that as a reason to assess the specific site, not as proof of a particular risk. Ask how pump capacity, backup, and valve suitability will be determined.",
+    "meta": "Sump pump and backwater valve planning in Newmarket, Ontario. Compare pump capacity, backup options, discharge routes and site requirements.",
+    "problem_h": "Could a power outage or sewer backup affect your basement?",
+    "problem_p": "Note past water entry, pump operation, and the route water takes away from the home. These details help frame a site-specific discussion of pumping, backup, and backwater protection.",
+    "features": [
+      [
+        "shield",
+        "Size a Pump for the Pit and Inflow",
+        "Measure the pit if practical and photograph the pump label, discharge pipe, and any signs of frequent cycling. If the property has experienced fast pit filling during snowmelt or heavy rain, record when and how quickly it happens. Pit dimensions, inflow, discharge routing, and pump specifications all affect whether a higher-capacity pump is appropriate."
+      ],
+      [
+        "zap",
+        "Compare Backup Options for Outages",
+        "If the existing pump stops when power is lost, photograph its electrical setup and note any alarm or backup equipment. Ask how a battery-backed secondary pump would operate, what it can handle, and how its battery is maintained. Backup needs depend on the pit, expected inflow, discharge arrangement, and the duration of a possible outage."
+      ],
+      [
+        "refresh",
+        "Assess Whether a Backwater Valve Fits",
+        "If the concern is sewer surcharge or a previous plumbing backup, ask whether a backwater valve is suitable for the home's main drain and layout. The location, access, drainage arrangement, and applicable permit or inspection requirements can affect the work. A valve and a sump pump address different water pathways, so compare the proposed protection to the reported problem."
+      ]
     ],
-    rev: [5, 1, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Newmarket, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local York Plumbing Team",
-    intro: "Newmarket straddles two water worlds, and neither is soft. The municipal supply works hard but arrives with scale-building minerals, while homes toward Sharon, Queensville, and Holland Landing on private wells often deal with iron, hardness, and the occasional sulphur odour that country water is famous for. Newmarket Plumbing Pros tests what actually comes out of your tap and installs treatment matched to it, city or well.",
-    meta: "Water softeners and filtration in Newmarket, Ontario. City-water softeners, well iron filters, UV disinfection, and drinking water systems.",
-    problem_h: "Kettle furring or orange streaks in the toilet bowl?",
-    problem_p: "City minerals and country iron ruin fixtures differently, and Newmarket homeowners get treatment built for their actual supply.",
-    features: [
-      ["gauge", "Two-Water Expertise", "The system a Newmarket subdivision needs differs completely from what a Holland Landing well needs. We quote from a water test, not a catalogue page."],
-      ["droplets", "Iron, Hardness, and Odour Wells", "Rural properties around town get oxidizing iron filters, softeners sized to grain requirements, and carbon or retention treatment where sulphur shows up."],
-      ["shield", "Drinking Water Polish", "Under-sink reverse osmosis gives Newmarket families bottled-water taste without the bottles, installed with tidy fittings and easy annual cartridge changes."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Newmarket, Ontario",
+    "h1": "Water Softeners and Filtration in Newmarket",
+    "intro": "Water treatment should be selected from the water source and test results, rather than appearance or a general product recommendation. For a Newmarket home, first establish whether the supply is municipal or from a private well. Note scale in kettles, orange staining, odour, and any existing treatment equipment, then arrange suitable testing before comparing systems. Hardness, iron, and other measured concerns can call for different treatment stages. Ask how a proposed softener, iron filter, carbon system, UV unit, or drinking-water filter addresses the test results and what routine maintenance it requires.",
+    "meta": "Water softeners and filtration in Newmarket, Ontario. Compare treatment options using water-source details and test results.",
+    "problem_h": "Do you see scale, staining, or an unusual water odour?",
+    "problem_p": "Identify the water source, photograph staining and existing equipment, and compare treatment options with test results. Different measured concerns require different equipment and maintenance.",
+    "features": [
+      [
+        "gauge",
+        "Start With the Water Source and Test",
+        "Confirm whether the property uses municipal water or a private well, and gather any recent test results before choosing equipment. If the source or results are unknown, ask what testing is appropriate. Water characteristics can differ from one property to another, so the source and measured values determine which treatment options merit comparison."
+      ],
+      [
+        "droplets",
+        "Compare Options for Iron, Hardness, and Odour",
+        "If testing identifies hardness, iron, or a sulphur odour, ask which treatment stage is intended for each result. Depending on the findings, options may include a softener, oxidizing iron filter, carbon treatment, or a retention system. Compare capacity and maintenance needs with the test values rather than assuming one device will resolve every concern."
+      ],
+      [
+        "shield",
+        "Review Drinking-Water Filtration and Upkeep",
+        "If you are considering under-sink reverse osmosis or another drinking-water filter, ask which measured concern it is intended to address and what it does not treat. Check the proposed installation location, replacement cartridge schedule, and access for servicing. This makes it easier to compare ongoing upkeep and avoid selecting a system solely on taste or appearance."
+      ]
     ],
-    rev: [4, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Our street flooded twice in five years. Their pump and backwater install was the first spring we watched the news dry.", "Homeowner", "Newmarket"],
-  ["Bought a century house off Main. Galvanized was choked to nothing, full repipe done in a week, showers actually have pressure now.", "Resident", "Newmarket"],
-  ["Traced our recurring ceiling stain to a shower drain two rooms over. One small opening, repaired, done. Painters finished after.", "Homeowner", "Holland Landing"],
-  ["Roughed in a basement apartment for my parents. Inspector passed everything and the rental registration went through clean.", "Resident", "Queensville"],
-  ["Well water had iron bad enough to stain in days. The filter they sized has run a year and the toilets are still white.", "Homeowner", "Sharon"],
-  ["Old tank was in a coal-room corner nobody wanted to touch. They rigged it out and set the new one same day, permit included.", "Farmer", "Queensville"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tight-access tank swaps and capacity upgrades for Newmarket century homes, 70s subdivisions, and suite conversions.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Root cutting, jetting, and camera work for river-adjacent lots and the older sewer stock across Newmarket.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Complete galvanized replacement down to the buried runs, sequenced with renovations and documented for resale.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Basement suites, barrier-free bathrooms, and heritage-friendly fixture work throughout Newmarket.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Thermal and acoustic tracing that finds the true source of a stain, then repairs through the smallest opening.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "High-capacity pumps, battery backup, and backwater valves for Holland River and Tannery Creek streets.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Treatment sized from a water test, for Newmarket's municipal supply and the country wells around it.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank dimensions, fuel connections, access route, and household hot-water demand before planning a replacement or capacity change in Newmarket.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Discuss symptoms and pipe access before choosing snaking, hydro-jetting, or camera inspection for a recurring blockage or suspected sewer-line issue.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Review visible pipe materials, concealed runs, fixture connections, renovation timing, and testing when comparing a partial repair with a broader repipe.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan fixture replacements, basement bathroom drainage, accessibility details, and finish protection around the room's existing layout and plumbing.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Record when and where moisture appears to help guide investigation of supply, drain, or yard-line leaks before repair openings are planned.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare pit size, pump capacity, discharge route, outage backup, and backwater-valve suitability against the property's water-entry history.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Confirm whether the home uses municipal water or a well, then compare treatment and maintenance options with relevant test results.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Do you pull permits for your plumbing work?", "Whenever the Ontario Building Code requires one, we file with the local authority having jurisdiction and arrange the inspection, so Newmarket homeowners never discover an unpermitted repipe or backwater valve at resale."],
-  ["Are you available for after-hours emergencies?", "Yes, with live dispatch for burst pipes, sewer backups, and no-water calls across Newmarket at any hour, because a failure at midnight cannot wait for a morning appointment window."],
-  ["How quickly can you replace a failed water heater?", "Usually the same day for Newmarket homes, since the common residential configurations are on the truck and the permit paperwork is handled as part of the visit."],
-  ["Half our street has galvanized. Repipe the whole house?", "If more than one fixture shows rusty water or weak flow, whole-home replacement beats patching. We scope it, sequence it around your family, and leave the file documented for buyers."],
-  ["We are east of town on a well and septic. Do you service those?", "Regularly, from Sharon to Queensville and Holland Landing. Pressure tanks, well treatment, and the building side of septic plumbing are all within our work for rural Newmarket-area properties."],
-  ["Is Newmarket water hard?", "The municipal supply carries enough hardness to scale kettles and fixtures, and outlying wells are frequently harder with iron. A test tells us which, and the treatment follows the result."],
-  ["Will you quote before starting work?", "Always, in writing, at no charge. Newmarket customers see the full scope and price before tools come out, and invoices match the quote or we explain why before proceeding."],
-  ["What area do you serve from Newmarket?", "Newmarket itself plus Aurora, Sharon, Queensville, Holland Landing, and Bradford, with the same crew standards throughout."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/newmarketplumbingpros.ca-water-heaters.jpg", "Water heater installation in Newmarket, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/newmarketplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning and camera inspection in Newmarket, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/newmarketplumbingpros.ca-repiping.jpg", "Galvanized repiping in Newmarket, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/newmarketplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Newmarket, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/newmarketplumbingpros.ca-leak-detection.jpg", "Leak detection and repair in Newmarket, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/newmarketplumbingpros.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Newmarket, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/newmarketplumbingpros.ca-water-softeners.jpg", "Water softener and well water treatment in Newmarket, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/newmarketplumbingpros.ca-water-heaters.jpg",
+    "Water heater installation in Newmarket, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/newmarketplumbingpros.ca-drain-cleaning.jpg",
+    "Drain cleaning and camera inspection in Newmarket, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/newmarketplumbingpros.ca-repiping.jpg",
+    "Galvanized repiping in Newmarket, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/newmarketplumbingpros.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Newmarket, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/newmarketplumbingpros.ca-leak-detection.jpg",
+    "Leak detection and repair in Newmarket, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/newmarketplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Newmarket, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/newmarketplumbingpros.ca-water-softeners.jpg",
+    "Water softener and well water treatment in Newmarket, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

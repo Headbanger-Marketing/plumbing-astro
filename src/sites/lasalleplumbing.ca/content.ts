@@ -1,159 +1,320 @@
-// Per-site content for lasalleplumbing.ca
-// Plumbing lead-gen (plumbing-astro). LaSalle, Essex County, between Windsor
-// and Amherstburg along the Detroit River.
-// Local angle: one of the fastest-growing suburbs in the region, so the work
-// skews new: builder-grade tank and fixture corrections in 1990s-to-2020s
-// subdivisions, basement finishing rough-ins, sump pumps that clay soil and
-// Turkey Creek lowlands make standard, poly-B and pinhole copper in the
-// 80s-90s housing stock, and municipal water where a softener is a choice.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in LaSalle, Ontario",
-    h1: "Water Heater Service From a Local Essex Plumbing Team",
-    intro: "LaSalle grew fast, and a lot of that growth came with builder-grade water heaters sized to a price point rather than a family, and LaSalle Plumbing replaces them properly. We upgrade tanks in 90s and 2000s subdivisions, install high-efficiency power-vent units, and convert to tankless where endless hot water suits a busy household. Newer family homes on the west and south edges of town are our daily work.",
-    meta: "Water heater installation and replacement in LaSalle, Ontario. Builder-grade upgrades, power-vent tanks, and tankless installs by licensed Essex plumbers.",
-    problem_h: "Builder tank running out, or finally letting go?",
-    problem_p: "We replace undersized and failing water heaters across LaSalle with right-sized units installed under permit the same week, often sooner.",
-    features: [
-      ["flame", "Upgrade Past Builder Grade", "The tank that came with the house was chosen for the price, not your household. We size the replacement to real demand so the shower survives the dishwasher and the laundry on the same evening."],
-      ["clock", "Swap Before It Floods", "A tank at the end of its life in a finished LaSalle basement is a countdown. We stage the replacement ahead of failure and have the old unit out and the new one running the same visit."],
-      ["shield", "High-Efficiency Done Right", "Power-vent and tankless units need correct venting, gas sizing, and condensate drainage. We handle all three under permit so the install passes inspection the first time."]
+    "icon": "flame",
+    "kicker": "Water Heaters in LaSalle, Ontario",
+    "h1": "Water Heater Options for Your LaSalle Home",
+    "intro": "When planning a water heater replacement in LaSalle, compare the existing unit’s capacity, fuel, venting, and age with the household’s hot-water use. A builder-installed tank may not suit a changed family or renovation, but a larger model is not automatically the right choice. Power-vent tanks and tankless units have different venting, gas-supply, and drainage requirements. Photograph the rating plate and installation area, then ask for a scope that explains sizing, connections, and any work needed to suit the selected equipment.",
+    "meta": "Compare tank, power-vent, and tankless water heater replacement options in LaSalle, including sizing and installation requirements.",
+    "problem_h": "Is your water heater struggling to meet household demand?",
+    "problem_p": "A review of the unit, usage, and installation constraints can help distinguish a sizing issue from equipment failure and clarify which replacement options fit the home.",
+    "features": [
+      [
+        "flame",
+        "Compare capacity with actual use",
+        "Record the tank’s capacity and note when hot water runs short, including whether laundry, dishwashing, or showers overlap. Ask how the proposed size accounts for those patterns. This information helps compare a like-for-like replacement with a larger tank or a different system, rather than assuming the builder-selected unit still suits the household."
+      ],
+      [
+        "clock",
+        "Check the unit and surrounding area",
+        "Photograph the rating plate, connections, vent route, and floor around the tank. Look for visible corrosion, water staining, or changes to finished basement space. These details help establish access and replacement scope. Ask whether the estimate includes removal, reconnection, and any changes required by the selected equipment; do not rely on a general promise about timing."
+      ],
+      [
+        "shield",
+        "Verify venting and utility requirements",
+        "Power-vent and tankless models can require different venting, gas capacity, and condensate drainage than a standard tank. Ask the installer to identify the requirements for the specific model, explain any alterations, and clarify applicable permit and inspection steps. Comparing these details before choosing equipment helps avoid selecting a unit that does not fit the home’s existing setup."
+      ]
     ],
-    rev: [0, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in LaSalle, Ontario",
-    h1: "Drain Cleaning From a Local Essex Plumbing Team",
-    intro: "Young subdivisions on Essex County clay bring their own drain problems: soil that settles and shifts lines, low-flow fixtures that struggle with modern paper, and kitchen lines that collect grease a block at a time. LaSalle Plumbing clears all of it. We cable the fixture, jet the buildup off the pipe wall, and camera the line when a clog returns, because a repeat clog always has a reason.",
-    meta: "Drain cleaning in LaSalle, Ontario. Cabling, hydro-jetting, and camera inspection for newer subdivisions and established neighbourhoods.",
-    problem_h: "Slow drains in a newer home should not be normal",
-    problem_p: "We clear recurring clogs across LaSalle and camera the line to find the settling, the grease, or the sag that keeps bringing them back.",
-    features: [
-      ["refresh", "Jetting Off the Buildup", "Grease and soap coat a drain the way cholesterol coats an artery, until only a trickle gets through. Hydro-jetting strips the pipe back to full diameter and keeps it flowing for seasons, not weeks."],
-      ["droplets", "Camera When It Recurs", "One clog is an event, two is a pattern. We camera recurring lines in LaSalle and show you exactly what is down there, a settled section, a root entry, or a low spot holding debris."],
-      ["check", "Honest Maintenance Advice", "Some lines need a routine cleaning and nothing more. We tell you which, and set a schedule only where it genuinely saves you an emergency call."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in LaSalle, Ontario",
+    "h1": "Drain Cleaning Options for LaSalle Homes",
+    "intro": "A slow drain can come from a local blockage or a problem farther along the line. For a home in LaSalle, note which fixtures are affected, whether the issue returns, and what work has already been tried. Cabling can clear an obstruction, while hydro-jetting may be considered for suitable lines with substantial buildup. A camera inspection can help investigate recurring clogs, including a settled section, root entry, or low spot. Ask what method fits the pipe and what inspection findings support it.",
+    "meta": "Drain cabling, hydro-jetting, and camera inspection options for slow or recurring drains in LaSalle.",
+    "problem_h": "Does the same drain keep slowing down after it is cleared?",
+    "problem_p": "Track affected fixtures and repeat blockages. That history helps determine whether a cable, jetting, or camera inspection is appropriate for the drain and the suspected cause.",
+    "features": [
+      [
+        "refresh",
+        "Choose a cleaning method for the line",
+        "Ask whether cabling or hydro-jetting is being proposed and why. Jetting can remove grease and soap buildup from pipe walls, but the line and its condition matter when choosing a method. Share any history of repeat blockages or previous repairs. Comparing the proposed approach with the symptoms helps clarify whether cleaning alone is a reasonable scope."
+      ],
+      [
+        "droplets",
+        "Use a camera to investigate repeat clogs",
+        "If the blockage returns, ask whether camera inspection can identify a settled section, root entry, or low spot holding debris. Note how often the clog recurs and which fixtures are affected, and request an explanation of the footage or findings. Evidence from the line can help distinguish a one-time obstruction from a condition that may require further evaluation."
+      ],
+      [
+        "check",
+        "Base maintenance on observed conditions",
+        "A recurring problem may justify a cleaning schedule, but not every drain needs routine service. Ask what evidence supports future maintenance, such as repeated buildup or a documented blockage pattern. Keep notes on dates, affected fixtures, and previous clearing methods. This record can help compare recommendations and avoid treating an isolated clog as proof that regular cleaning is necessary."
+      ]
     ],
-    rev: [1, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in LaSalle, Ontario",
-    h1: "Repiping From a Local Essex Plumbing Team",
-    intro: "Not every LaSalle repipe is a whole-house project. The 80s and 90s stock carries poly-B lines and fittings that fail with age, some newer homes develop pinhole copper in localized runs, and basement finishes often just need a manifold and clean reroute. LaSalle Plumbing diagnoses which situation you are in, then repipes exactly what needs repiping in PEX or copper, permitted and tested.",
-    meta: "Repiping in LaSalle, Ontario. Poly-B replacement, pinhole copper repair, and PEX reroutes for basement finishes by licensed Essex plumbers.",
-    problem_h: "Pinhole leak or failing poly-B fittings?",
-    problem_p: "We trace failing pipe runs in LaSalle homes and replace them with PEX or copper, from a single branch to the whole house, under permit.",
-    features: [
-      ["wrench", "Poly-B Put Behind You", "Polybutylene pipe and its fittings degrade from the inside and let go without warning. Where it survives in LaSalle homes we replace it outright with PEX and modern manifolds."],
-      ["home", "Reroutes for Basement Finishes", "Finishing the basement is the smart time to abandon tired ceiling runs and reroute in clean PEX. We plan the paths with your framer so nothing gets boxed in."],
-      ["shield", "Tested Before Drywall", "Every repipe is pressure-tested and inspected before the walls close. You get a permitted, insurable system, not a hidden gamble behind new finishes."]
+    "icon": "wrench",
+    "kicker": "Repiping in LaSalle, Ontario",
+    "h1": "Repiping Options for LaSalle Homes",
+    "intro": "Repiping in LaSalle may mean replacing a particular branch or planning work throughout a home. If the property has polybutylene pipe, inspect accessible runs and fittings and record where they appear; if it has pinhole leaks in copper, note their locations and whether they recur in one area. A basement renovation may also make a reroute practical. Ask for the affected materials, proposed PEX or copper routes, access points, and testing steps in writing so the scope matches the evidence.",
+    "meta": "Repiping guidance for polybutylene, pinhole copper, and basement reroutes in LaSalle homes.",
+    "problem_h": "Are leaking pipes or renovation plans prompting a repipe?",
+    "problem_p": "Document pipe material, leak locations, and areas being renovated. Those details help compare a targeted replacement with broader repiping and plan access before finishes are closed.",
+    "features": [
+      [
+        "wrench",
+        "Identify polybutylene and its fittings",
+        "If accessible piping appears to be polybutylene, photograph the pipe markings, fittings, and locations before requesting an assessment. Ask whether the proposed work replaces the affected runs with PEX and modern manifolds, and how the replacement connects to remaining lines. Confirming the material and boundaries of the work helps distinguish a specific replacement scope from a whole-house proposal."
+      ],
+      [
+        "home",
+        "Plan reroutes alongside basement work",
+        "If a basement finish will cover existing ceiling runs, discuss whether a clean PEX reroute is practical before framing or drywall. Photograph exposed pipes and share the renovation plan so routes can be coordinated with the framer. Ask which lines will be abandoned, where new runs will go, and what access will remain for future service."
+      ],
+      [
+        "shield",
+        "Confirm testing and inspection before closing walls",
+        "Before drywall, ask how the repiped system will be pressure-tested and what inspection steps apply to the planned work. Request a description of the materials, connections, and test results for your records. Keeping the system accessible until checks are complete helps identify issues before finishes are installed and makes the project scope easier to verify."
+      ]
     ],
-    rev: [2, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in LaSalle, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Essex Plumbing Team",
-    intro: "LaSalle renovates in waves, primary-suite updates upstairs, basement bathrooms going in below, kitchens opening up in between, and LaSalle Plumbing does the plumbing in all of it. We set toilets, faucets, shower trim, and sinks in the finishes you chose, rough in new basement baths before the concrete patch dries, and correct the shortcut installs that previous renovations left behind.",
-    meta: "Fixture and toilet installation in LaSalle, Ontario. Faucets, toilets, basement bathrooms, and renovation rough-ins by licensed Essex plumbers.",
-    problem_h: "Renovating, or living with a wobbly toilet?",
-    problem_p: "From primary-suite updates to basement bath rough-ins, we install fixtures across LaSalle homes cleanly, level, and to code.",
-    features: [
-      ["home", "Set Level, Sealed, and Solid", "A toilet that rocks breaks its seal and rots the floor around it. We set every fixture level on proper flanges and sealed connections so the install outlives the renovation trend."],
-      ["check", "Basement Bath Rough-Ins", "Adding a bathroom below grade means pumping or gravity planning, venting, and permits. We rough in LaSalle basement baths so the inspection passes and the fixtures drain right."],
-      ["shield", "Correcting Shortcut Work", "Previous flips leave zip-tied traps and missing shut-offs behind drywall. We find them, fix them, and leave an install you can actually service."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in LaSalle, Ontario",
+    "h1": "Fixture and Toilet Installation Planning in LaSalle",
+    "intro": "Fixture work in LaSalle can range from replacing a toilet or faucet to adding a bathroom during a renovation. Before requesting a scope, photograph the existing connections and note which fixtures are changing. For a toilet, check whether it rocks or shows staining at its base. For a proposed basement bathroom, ask whether drainage can use gravity or needs pumping, and how venting and inspection requirements affect the rough-in. Planning these details before finishes are chosen helps clarify access and connections.",
+    "meta": "Toilet, faucet, shower trim, and basement bathroom installation planning in LaSalle.",
+    "problem_h": "Planning a renovation or dealing with an unstable toilet?",
+    "problem_p": "Record the fixture, connection, and renovation details. For a new basement bathroom, confirm drainage, venting, and rough-in requirements before finishing the space.",
+    "features": [
+      [
+        "home",
+        "Check the toilet base and flange",
+        "If a toilet rocks, photograph its position and any visible damage or staining around the base. Ask how the flange, floor, and seal will be assessed before installation. A fixture needs a stable, level connection; understanding the condition beneath it can change the work from a straightforward replacement to correcting a problem that could affect the surrounding floor."
+      ],
+      [
+        "check",
+        "Plan basement bathroom drainage and venting",
+        "A bathroom below grade may need gravity drainage or pumping, along with suitable venting. Share the proposed fixture locations and basement plans, then ask how the drainage route and rough-in will be assessed. Confirm applicable permit and inspection steps before concrete is patched or finishes go in, since these requirements can affect the layout and project scope."
+      ],
+      [
+        "shield",
+        "Inspect existing work before it is concealed",
+        "If previous renovations left connections behind a wall or cabinet, photograph anything accessible and note missing shut-offs or improvised-looking traps. Ask which parts can be inspected and serviced without opening finished surfaces. This helps identify whether the request is limited to fitting new fixtures or also includes correcting hidden connections that could complicate future maintenance."
+      ]
     ],
-    rev: [3, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in LaSalle, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Essex Plumbing Team",
-    intro: "Most LaSalle leaks we find are hiding inside finished basements, above ceilings, or in the runs through walls nobody wants opened on a hunt. LaSalle Plumbing locates them first and opens last. Pressure isolation, acoustic listening, and moisture mapping narrow the failure to a few feet of pipe, so the repair cuts one small access instead of unwalling a recreation room.",
-    meta: "Leak detection and repair in LaSalle, Ontario. Acoustic location, pressure isolation, and precision repair with minimal opening of finished space.",
-    problem_h: "Ceiling stain or humidifier running nonstop?",
-    problem_p: "We pinpoint hidden leaks in finished LaSalle homes with acoustic and pressure testing, then repair through one small, chosen opening.",
-    features: [
-      ["droplets", "Locate Before You Cut", "Guesswork demolition costs more than the repair. We isolate the circuit, listen for the leak, and mark the spot before a single tool touches drywall."],
-      ["shield", "Behind-Finished-Wall Experts", "LaSalle basements are finished, which is exactly where slow leaks hide longest. We trace moisture to its source and repair with the smallest possible opening."],
-      ["check", "Repair and Test the System", "We do not leave with a located leak and a shrug. The repair is ours too, pressure-tested after, with the area ready for your patch."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in LaSalle, Ontario",
+    "h1": "Leak Detection and Repair Planning in LaSalle",
+    "intro": "Water staining, damp finishes, or an unexplained increase in water use can point to a hidden leak, but the visible mark may be away from the source. In a LaSalle home with finished walls or ceilings, record when the sign appeared, whether it changes, and which plumbing fixtures were recently used. Ask whether pressure isolation, acoustic listening, or moisture mapping is suitable for narrowing the search before opening a wall. A focused investigation can help plan access and repair around the evidence.",
+    "meta": "Leak location and repair planning in LaSalle using pressure isolation, acoustic listening, and moisture mapping where suitable.",
+    "problem_h": "Has a ceiling stain or damp area appeared without an obvious source?",
+    "problem_p": "Photograph the affected area and track changes. The pattern and nearby plumbing can help guide testing and determine where access may be needed for repair.",
+    "features": [
+      [
+        "droplets",
+        "Investigate before opening finishes",
+        "Photograph the stain or damp area, mark when it changes, and note nearby plumbing. Ask whether pressure isolation or acoustic listening can narrow the suspected location before drywall is opened. A documented search plan can help explain why access is needed at a particular point and reduce unnecessary demolition, though the final opening depends on what testing reveals."
+      ],
+      [
+        "shield",
+        "Trace moisture behind finished walls",
+        "If a leak may be behind a finished wall or ceiling, note the nearest fixtures and any recent renovation or plumbing changes. Ask whether moisture mapping can help distinguish the visible damage from the source. Understanding the route and the limits of the investigation helps plan a suitable access point without assuming the leak is directly behind the stain."
+      ],
+      [
+        "check",
+        "Confirm repair and post-work testing",
+        "Ask whether the requested scope includes repairing the leak after it is located and how the system will be checked afterward. Request a clear explanation of the repair location, materials, and any remaining work needed to restore the finish. Testing after repair can help verify the plumbing connection, while separate patching may need to be planned for the opened area."
+      ]
     ],
-    rev: [0, 3, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in LaSalle, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Essex Plumbing Team",
-    intro: "In LaSalle, clay soil and the low ground toward Turkey Creek put water against every foundation wall each spring, and most homes here already have a sump doing that quiet work. LaSalle Plumbing makes sure it keeps doing it. We replace tired pumps before they quit, size basins and float settings so cycles are short and clean, add battery backup for storm outages, and install backwater valves where the street main surcharges.",
-    meta: "Sump pump service and installation in LaSalle, Ontario. Pump replacement, battery backup, and backwater valves for clay-soil subdivisions.",
-    problem_h: "When did you last hear your sump run?",
-    problem_p: "We test, replace, and upgrade sump protection across LaSalle so the pump that answers the spring thaw is one that actually starts.",
-    features: [
-      ["shield", "Pumps Replaced Before They Quit", "Sump pumps die at the start of the wettest week of the year, it never fails. We test amperage and cycle behavior, then replace marginal units on our first visit."],
-      ["zap", "Battery Backup for Outage Storms", "The grid tends to blink exactly when the basin is filling. A maintained battery backup keeps the pump turning through the outage and the storm together."],
-      ["check", "Discharge Done Properly", "A pump that empties onto the foundation wall is a loop, not a solution. We route discharge away from the house and above frost so the line runs in January."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in LaSalle, Ontario",
+    "h1": "Sump Pump and Backwater Planning in LaSalle",
+    "intro": "Sump and backwater equipment should be considered in light of the home’s drainage layout and the devices already installed. In LaSalle, inspect the pump, basin, discharge route, and any backup power equipment; photograph labels and note whether the pump cycles or makes unusual sounds. If a sump serves the home, ask how its operation and float settings will be checked. Battery backup and backwater valves address different situations, so confirm which equipment suits the identified risk and plumbing arrangement.",
+    "meta": "Sump pump, battery backup, discharge, and backwater valve planning for homes in LaSalle.",
+    "problem_h": "Have you checked whether the sump pump starts and discharges correctly?",
+    "problem_p": "Inspect the basin, pump, power source, and discharge path. Their condition helps determine whether testing, replacement, backup power, or further assessment is relevant.",
+    "features": [
+      [
+        "shield",
+        "Assess pump operation and cycle behavior",
+        "If the property has a sump pump, photograph its label and basin and note how often it runs, whether it starts reliably, and any unusual sounds. Ask what checks will be made, including the float and cycling behavior. These observations help distinguish a maintenance concern from a pump that may need replacement and clarify which equipment is actually involved."
+      ],
+      [
+        "zap",
+        "Compare backup power options",
+        "If an outage could interrupt an installed sump pump, ask what battery backup equipment is compatible with the pump and how its condition would be maintained. Photograph the pump and power setup, and ask how backup operation differs from the primary pump. This comparison helps establish whether backup capacity is appropriate for the system rather than assuming every installation needs the same arrangement."
+      ],
+      [
+        "check",
+        "Review the discharge route and backwater needs",
+        "Inspect where the sump discharge exits and whether water could return toward the foundation. Ask how the route is protected against freezing and directed away from the home. A backwater valve serves a different purpose by limiting sewer backup; discuss it separately and ask whether the plumbing layout supports one. The two observations help define the relevant equipment and work."
+      ]
     ],
-    rev: [4, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in LaSalle, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Essex Plumbing Team",
-    intro: "LaSalle runs on treated municipal water that is moderate on the hardness scale, and for a lot of homes that means the softener decision is about appliance life and comfort rather than emergencies. LaSalle Plumbing installs systems that earn their place: softeners sized so they regenerate on demand, carbon filtration that cleans up seasonal taste, and reverse osmosis at the sink for drinking water without the bottle run.",
-    meta: "Water softeners and filtration in LaSalle, Ontario. Demand-regenerated softeners, carbon filtration, and reverse osmosis by licensed Essex plumbers.",
-    problem_h: "Scale on fixtures and a dishwasher that looks tired?",
-    problem_p: "We install right-sized softeners and filtration for LaSalle municipal water, protecting fixtures and appliances without overpaying for capacity.",
-    features: [
-      ["gauge", "Sized to the Household", "Moderate hardness still builds scale year over year. We match softener capacity to your family and water use so it regenerates efficiently instead of nightly."],
-      ["leaf", "Filtration for Taste", "Municipal water picks up seasonal flavour the treatment plant cannot fully chase. A whole-home carbon filter settles that at every tap in the LaSalle house."],
-      ["droplets", "Drinking Water at the Sink", "An under-sink reverse osmosis unit ends the jug water routine and gives the fridge dispenser a run for its money, with a dedicated tap installed cleanly."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in LaSalle, Ontario",
+    "h1": "Water Softener and Filtration Planning in LaSalle",
+    "intro": "A softener or filter should be selected for a measured water concern and the household’s use, not assumed from the city name. If scale appears on fixtures or appliances, consider testing hardness before comparing softener capacity. If taste is the concern, identify whether you want treatment at one tap or throughout the home; carbon filtration and under-sink reverse osmosis serve different purposes. Photograph existing equipment and plumbing, then ask how regeneration demand, filter changes, and installation connections affect the proposed system.",
+    "meta": "Compare water softeners, carbon filtration, and under-sink reverse osmosis for a LaSalle home.",
+    "problem_h": "Are scale or taste concerns leading you to consider water treatment?",
+    "problem_p": "Identify the specific concern and, where relevant, test the water. That information helps compare treatment type, capacity, and maintenance rather than choosing equipment by assumption.",
+    "features": [
+      [
+        "gauge",
+        "Size a softener using water and household data",
+        "If scale is the concern, ask about measuring hardness and comparing results with household water use. Share household size and existing equipment so proposed capacity and demand-based regeneration can be reviewed. These details affect how often a softener regenerates and whether the selected model suits the use pattern; do not rely on a broad assumption about water conditions."
+      ],
+      [
+        "leaf",
+        "Match filtration to the taste concern",
+        "If taste is the issue, identify whether it affects one tap or several and ask what a carbon filter would treat. Compare whole-home filtration with a point-of-use option, and ask about filter replacement intervals and installation space. The answers help determine whether the proposed system matches the concern and what ongoing maintenance the household should plan for."
+      ],
+      [
+        "droplets",
+        "Compare under-sink reverse osmosis options",
+        "If the goal is drinking water at a particular sink, ask whether an under-sink reverse osmosis unit fits the cabinet and plumbing. Review the location of its dedicated tap, connections, and any link to a refrigerator dispenser. Comparing these installation details and maintenance needs helps establish whether a point-of-use system suits the household better than treating water throughout the home."
+      ]
     ],
-    rev: [5, 1, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Builder tank gave out four years into the house. They sized a proper replacement, swapped it in a morning, and the shower no longer dies when the dishwasher runs.", "Homeowner", "Malden Centre"],
-  ["Every spring the sump ran constantly and one year it stopped. New pump with a battery backup installed in one visit, and the April thaw was a non-event.", "Homeowner", "River Canard"],
-  ["Basement bathroom rough-in passed inspection first try. They planned the pumping setup around our layout instead of selling us the biggest option.", "Resident", "McGregor"],
-  ["Recurring kitchen clog in a five year old house turned out to be a settled line. Camera, jetting, and an honest plan instead of a third bottle of chemicals.", "Homeowner", "Sandwich"],
-  ["Found a slow leak above the rec room ceiling with moisture mapping. One small hole, one clean repair, none of the demolition we feared.", "Resident", "Glengarry"],
-  ["Softener sized to the family instead of the sales sheet. Regenerates a third as often as the old one and the glassware finally looks clear.", "Homeowner", "Forest Glade"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Builder-grade tank upgrades, power-vent and tankless installs, and fast replacements for LaSalle family homes.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Cabling, hydro-jetting, and camera work for recurring clogs in LaSalle's clay-soil subdivisions.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Poly-B replacement, pinhole copper repair, and PEX reroutes planned around LaSalle basement finishes.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Toilets, faucets, and shower trim set level and sealed, plus basement bath rough-ins across LaSalle.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and pressure-based leak location that opens one small hole instead of unwalling a finished room.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Pump testing and replacement, battery backup, and backwater valves for LaSalle foundations sitting in clay.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Softeners, carbon filtration, and reverse osmosis sized to LaSalle municipal water and real household use.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank capacity with household demand, and check whether a power-vent or tankless model’s venting, gas supply, and condensate needs fit the installation.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Cabling may clear a local obstruction; hydro-jetting can remove suitable pipe-wall buildup, while camera inspection can investigate recurring clogs and possible settled sections or low spots.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Document accessible polybutylene or leaking copper runs. Compare targeted replacement with broader PEX or copper repiping and coordinate basement reroutes before walls are closed.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan toilet, faucet, and shower trim connections before replacement. Basement bathroom rough-ins also require drainage and venting review, with pumping considered where gravity drainage is unsuitable.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Record stains and nearby plumbing before opening finishes. Pressure isolation, acoustic listening, and moisture mapping may help narrow a hidden leak and plan access.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Check the sump pump, float, power, and discharge route. Consider battery backup separately from a backwater valve, since they address different equipment and risks.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Compare softener capacity using water testing and household use. Carbon filtration and under-sink reverse osmosis address different taste and treatment needs.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are your plumbers licensed for work in LaSalle?", "Yes. We are licensed plumbers serving LaSalle and Essex County, insured for every job, and we pull the plumbing permit whenever the Ontario Building Code requires one."],
-  ["Do you take emergency calls in LaSalle?", "Yes. Flooding, no water, burst lines, and sewer backups are priority dispatch, and LaSalle sits close enough to our daily route that response is quick at most hours."],
-  ["How quickly can a failed water heater be replaced?", "Commonly the same day or the next morning. We stock the tank sizes that fit most LaSalle mechanical rooms and finish the swap, permit and haul-away included, in one visit."],
-  ["Our house has poly-B pipe. Should we be worried?", "It deserves a plan. Poly-B and its fittings degrade with age, so we assess the runs, prioritize the riskiest, and repipe in PEX under permit, whether one branch or the whole house."],
-  ["Do LaSalle homes need a water softener?", "The municipal supply is moderately hard, so a softener is a comfort and appliance decision rather than an emergency. Sized correctly, it ends scale buildup on fixtures, dishes, and heater elements."],
-  ["Is our new subdivision's sump pump enough for spring thaw?", "Often, until the power blinks or the pump ages out. We test the unit, check float travel and discharge routing, and add battery backup so the system survives the worst-timed outage."],
-  ["How does your pricing work?", "We quote the job before touching a wrench and that number holds. You will see what is covered and why, whether it is a faucet swap or a full repipe, with no surprise line items."],
-  ["Where do you work outside LaSalle?", "Across the neighbouring communities too: Windsor, Amherstburg, Tecumseh, Lakeshore, Essex, and McGregor are all regular stops for our crews."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/lasalleplumbing.ca-water-heaters.jpg", "Water heater installation in LaSalle, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/lasalleplumbing.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in LaSalle, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/lasalleplumbing.ca-repiping.jpg", "Repiping in LaSalle, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/lasalleplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in LaSalle, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/lasalleplumbing.ca-leak-detection.jpg", "Leak detection and repair in LaSalle, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/lasalleplumbing.ca-sump-pumps.jpg", "Sump pump installation in LaSalle, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/lasalleplumbing.ca-water-softeners.jpg", "Water softener installation in LaSalle, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/lasalleplumbing.ca-water-heaters.jpg",
+    "Water heater installation in LaSalle, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/lasalleplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning and hydro-jetting in LaSalle, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/lasalleplumbing.ca-repiping.jpg",
+    "Repiping in LaSalle, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/lasalleplumbing.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in LaSalle, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/lasalleplumbing.ca-leak-detection.jpg",
+    "Leak detection and repair in LaSalle, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/lasalleplumbing.ca-sump-pumps.jpg",
+    "Sump pump installation in LaSalle, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/lasalleplumbing.ca-water-softeners.jpg",
+    "Water softener installation in LaSalle, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

@@ -5,6 +5,7 @@
 // and astro.config.mjs). Per-site content is auto-extracted from build_pages.py.
 
 import type { SiteConfig } from './types';
+import { phoneVisibility } from './phone-visibility';
 import type { SiteContent } from '../data/content';
 
 export interface LoadedSite {
@@ -18,12 +19,12 @@ let _cache: LoadedSite | null = null;
 export async function loadSite(): Promise<LoadedSite> {
   if (_cache) return _cache;
   const siteName = process.env.HVAC_SITE!;
-  const site: SiteConfig = (await import(`../sites/${siteName}.ts`)).site;
+  const site: SiteConfig = phoneVisibility((await import(`../sites/${siteName}.ts`)).site);
   const c = await import(`../sites/${siteName}/content.ts`);
   const content: SiteContent = {
     SVC: c.SVC,
     BLOG: c.BLOG,
-    REVIEW_POOL: c.REVIEW_POOL,
+    REVIEW_POOL: [],
     HOME_SERVICES: c.HOME_SERVICES,
     HOME_FAQ: c.HOME_FAQ,
     SVC_PHOTO: c.SVC_PHOTO,

@@ -1,157 +1,320 @@
-// Per-site content for wallaceburgplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Wallaceburg, Chatham-Kent, built low
-// where the north and east branches of the Sydenham River meet.
-// Local angle: a river town where high water tests every basement, a high
-// water table under older factory-era housing, investor-owned rental stock,
-// and sump and backwater protection as the centrepiece service rather than
-// an afterthought. NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Wallaceburg, Ontario",
-    h1: "Water Heater Installation From a Local Chatham-Kent Plumbing Team",
-    intro: "Wallaceburg housing runs from river-era two-storeys to post-war bungalows and tenant-occupied doubles, and every one of them has the same tank in the basement quietly aging toward a bad weekend. Wallaceburg Plumbing installs owned replacements that end the rental meter, hangs tankless units where floor space matters, and gets failed tanks swapped fast, because a household, or a tenant, should never spend more than a day without hot water. Landlords get straightforward paperwork for every unit.",
-    meta: "Water heater installation in Wallaceburg, Ontario. Owned tank replacements, tankless installs, fast swaps, and landlord paperwork by licensed Chatham-Kent plumbers.",
-    problem_h: "Tank past its best, or already leaking?",
-    problem_p: "Wallaceburg homes and rental units get prompt water heater replacements, owned instead of rented, with clean documentation.",
-    features: [
-      ["flame", "End the Rental Meter", "Rental fees outlast the tank they attach to. Wallaceburg owners who buy their next unit through us stop the monthly charge and choose equipment worth owning."],
-      ["clock", "Fast Swaps, Tenant or Owner", "A failed tank in a rented unit is urgent twice over. We carry common sizes and can usually complete Wallaceburg replacements within a day of the call."],
-      ["home", "Paperwork Landlords Can File", "Installed, permitted, and documented. Rental property owners in Wallaceburg receive the records they need for insurance, filings, and the next sale."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Wallaceburg, Ontario",
+    "h1": "Plan a Water Heater Replacement in Wallaceburg",
+    "intro": "When a water heater is leaking, undersized, or nearing replacement, compare the existing unit with the household’s hot-water needs before choosing equipment. A conventional tank may suit a straightforward replacement, while a tankless model requires checking fuel, venting, and installation space. If the heater is rented, review the agreement and any buyout terms before deciding whether to keep renting or purchase a replacement. For a Wallaceburg property, collect the unit’s rating plate details and photographs of its connections to help define the work.",
+    "meta": "Compare tank and tankless water heater options for a Wallaceburg home, including connection, venting, and rental-agreement considerations.",
+    "problem_h": "Is the tank leaking, or no longer meeting demand?",
+    "problem_p": "A clear scope starts with the heater’s age, fuel, capacity, connections, and any rental agreement. Those details help distinguish a direct replacement from a change in equipment type.",
+    "features": [
+      [
+        "flame",
+        "Compare Rental and Ownership Costs",
+        "Find the rental agreement, monthly charge, and buyout conditions before planning a replacement. Compare those costs with purchasing a new unit, including installation and future maintenance. The agreement may affect who can remove the existing heater and how the work must be arranged, so clarify those terms before selecting equipment."
+      ],
+      [
+        "clock",
+        "Check Capacity and Connections",
+        "Photograph the rating plate, shut-off, vent, and surrounding area, then note how often hot water runs short. Tank size, fuel type, venting, and access can change the replacement scope. If considering tankless equipment, ask how its installation requirements differ from the existing tank and what additional work may be needed."
+      ],
+      [
+        "home",
+        "Keep Installation Records",
+        "Ask what documents will be provided for the selected equipment and completed work, and keep them with the property records. Owners of rental properties can note the installation date, model, and maintenance information for future reference. Confirm any applicable inspection or permit requirements with the relevant authority rather than assuming they are included."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Wallaceburg, Ontario",
-    h1: "Drain Cleaning From a Local Chatham-Kent Plumbing Team",
-    intro: "When the Sydenham runs high, the whole town's drainage works harder, and the floor drain that gurgles in March is telling you something about the line beyond it. Wallaceburg Plumbing clears kitchen, laundry, and main drains with cable and hydro-jet, cuts the roots that invade the older clay laterals across town, and puts a camera down any line that has backed up more than once. You watch the footage with us and decide on the repair from evidence, not vibes.",
-    meta: "Drain cleaning in Wallaceburg, Ontario. Floor drain and main line snaking, root cutting, hydro-jetting, and camera inspection by licensed Chatham-Kent plumbers.",
-    problem_h: "Floor drain gurgling when the river runs high?",
-    problem_p: "We clear Wallaceburg lines properly and camera the repeats, so the repair targets what the footage shows.",
-    features: [
-      ["refresh", "Main Lines Taken Seriously", "A slow floor drain during high water usually means the lateral needs real attention. We jet the full run, not just the first metre past the cleanout."],
-      ["droplets", "Camera Proof Before Repairs", "Two backups in one year earns a camera pass. The footage shows roots, sags, or breaks, and the quote for your Wallaceburg line follows what we both just watched."],
-      ["wrench", "Roots Removed, Return Planned", "Wallaceburg's older streets grow aggressive maples over shallow clay. We clear the intrusion and schedule maintenance before it grows back into a problem."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Wallaceburg, Ontario",
+    "h1": "Plan Drain Cleaning in Wallaceburg",
+    "intro": "A slow fixture, gurgling floor drain, or repeated backup can point to a local blockage or a problem farther along the drain line. Note which fixtures are affected, when symptoms occur, and whether more than one drain backs up at once. A cable machine can clear many obstructions; hydro-jetting and a camera inspection may be considered when the line and blockage make them appropriate. If a property has a history of repeat backups or older piping, gather previous repair details before deciding what investigation is needed.",
+    "meta": "Drain cleaning in Wallaceburg, with guidance on cable clearing, hydro-jetting, and camera inspection for recurring or main-line symptoms.",
+    "problem_h": "Are several drains slow, or does one keep backing up?",
+    "problem_p": "The affected fixtures and backup history help show whether the scope is a local drain clearing or a main-line investigation with camera evidence.",
+    "features": [
+      [
+        "refresh",
+        "Distinguish a Local Clog from a Main-Line Issue",
+        "Record whether the kitchen, laundry, toilets, or floor drain are affected, and whether symptoms happen together. Multiple fixtures backing up can change the investigation from a single branch drain to the main line. Photograph visible cleanouts and note where backups appear so the line access and suitable clearing method can be considered."
+      ],
+      [
+        "droplets",
+        "Use Camera Evidence to Guide Repairs",
+        "If a drain has backed up repeatedly, ask whether a camera pass is appropriate after clearing. Footage may show roots, a sag, or a break, each of which can call for a different next step. Ask to review the relevant footage and have any repair proposal identify what it shows, rather than relying on a guess based only on symptoms."
+      ],
+      [
+        "wrench",
+        "Consider Root Cutting and Follow-Up",
+        "If inspection shows roots entering a line, ask where they enter, how much of the line is affected, and whether cutting alone is suitable. Older clay laterals, where present, may need a follow-up plan because clearing intrusion does not repair a damaged joint or prevent future growth. Compare maintenance recommendations with the camera findings and line condition."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Wallaceburg, Ontario",
-    h1: "Repiping From a Local Chatham-Kent Plumbing Team",
-    intro: "Housing that predates the factories closing still contains the plumbing installed to serve them, and in Wallaceburg that means galvanized runs patched with whatever was on the truck across sixty years. The evidence arrives as rusty first-draw water, pressure that collapses when two fixtures open together, and fittings that weep behind drywall. Wallaceburg Plumbing replaces those systems with PEX or copper, one zone at a time, keeping the rest of the house live and testing each zone before it disappears behind repaired walls.",
-    meta: "Repiping in Wallaceburg, Ontario. Galvanized replacement zone by zone, whole-home PEX and copper repipes, and permitted pressure-tested work. Free quotes.",
-    problem_h: "Rusty first draw and collapsing pressure?",
-    problem_p: "Wallaceburg's older housing gets its supply systems replaced properly, zone by zone, with the household kept in water throughout.",
-    features: [
-      ["wrench", "Zones, Not Chaos", "Opening the whole house at once serves nobody. We repipe Wallaceburg homes one zone at a time, so the kitchen or the spare bath stays usable every day of the job."],
-      ["home", "Right Pipe for the House", "PEX handles the long runs and cold corners well, copper suits the short hot lines, and combinations are normal. We lay out the plan before the first cut."],
-      ["shield", "Tested and Filed", "Pressure testing under an active plumbing permit, on every zone, leaves Wallaceburg owners with documented, insurable work at resale time."]
+    "icon": "wrench",
+    "kicker": "Repiping in Wallaceburg, Ontario",
+    "h1": "Plan a Plumbing Repipe in Wallaceburg",
+    "intro": "Rusty water after a period of non-use, falling pressure when several fixtures run, or repeated leaks may justify investigating the supply piping. These symptoms do not by themselves prove that a whole-house repipe is needed. Identify the affected fixtures, photograph accessible pipe and fittings, and note past repairs or pipe materials if known. If inspection confirms aging or failing runs, compare a zone-by-zone replacement with broader work in PEX, copper, or a combination. Ask how water service, wall access, testing, and repairs will be handled.",
+    "meta": "Plan a Wallaceburg plumbing repipe by comparing pipe materials, affected zones, access needs, and testing requirements.",
+    "problem_h": "Do rusty water or pressure changes keep returning?",
+    "problem_p": "A record of symptoms, visible pipe material, and previous repairs helps determine whether a local repair or phased repiping deserves consideration.",
+    "features": [
+      [
+        "wrench",
+        "Plan Work by Zone",
+        "Ask which sections would be isolated and how water service to the rest of the home would be managed during each phase. A zone-by-zone plan can limit disruption, but the layout and condition of connected runs affect what remains usable. Request a marked scope showing proposed access points, affected fixtures, and the order of work."
+      ],
+      [
+        "home",
+        "Compare PEX and Copper Options",
+        "Material selection depends on the route, temperature, connections, and building conditions, rather than a universal rule that one pipe suits every run. Ask for the proposed material by zone and why it fits that section. If combining PEX and copper, have the transitions and accessible connection locations shown before work begins."
+      ],
+      [
+        "shield",
+        "Verify Testing and Closeout Details",
+        "Ask how each completed section will be tested before walls or ceilings are closed, and request the results in the job records. Confirm which party determines whether permits or inspections apply, and who arranges them if required. Photographs of concealed piping and a written record of materials can help with future maintenance and property transactions."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Wallaceburg, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Chatham-Kent Plumbing Team",
-    intro: "Between tenant turnovers, bathroom updates in the older brick homes, and laundry upgrades in the bungalow belt, fixture work in Wallaceburg has to look right on day one and still be dry two years later. Wallaceburg Plumbing resets toilets on fresh seals, swaps taps and shut-offs together rather than reusing tired ones, sets tubs and showers level, and roughs in new layouts for basement bathrooms and kitchen moves. Durable mid-range hardware is what we recommend for water this hard.",
-    meta: "Fixture and toilet installation in Wallaceburg, Ontario. Toilet resets, faucet and shut-off swaps, tub sets, basement rough-ins, and turnover-ready work for landlords.",
-    problem_h: "Turnover next week, or a bathroom finally getting redone?",
-    problem_p: "Wallaceburg fixture installs are sealed fresh, set level, and built to stay dry, for owners and landlords alike.",
-    features: [
-      ["home", "Turnover-Ready Timing", "Rental units between tenants have a window, and we work inside it. Wallaceburg landlords get fixtures swapped, tested, and documented before the next lease starts."],
-      ["check", "Seals and Stops Renewed", "Reusing a twenty-year-old shut-off under a new faucet is how ceilings get stained. We replace the small parts behind the wall of every Wallaceburg install."],
-      ["dollar", "Hardware That Earns Its Price", "The mid-range fixtures we recommend survive hard water and daily use; the cheapest ones do not. We install what lasts and quote it straight."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Wallaceburg, Ontario",
+    "h1": "Plan Fixture and Toilet Work in Wallaceburg",
+    "intro": "A toilet replacement, new faucet, tub installation, or fixture relocation can involve more than choosing a finish. Check the existing shut-offs, drain location, fixture dimensions, and condition of the surrounding floor or wall. In a rental, coordinate access and timing with the property owner or manager. If the work changes a bathroom or kitchen layout, confirm the proposed rough-in locations and access needs before selecting fixtures. For a Wallaceburg project, photographs and model information help clarify whether the scope is a direct swap or a larger plumbing change.",
+    "meta": "Plan Wallaceburg toilet, faucet, tub, shower, and fixture work by checking dimensions, shut-offs, drainage, and layout changes.",
+    "problem_h": "Is a fixture failing, or is a room being redesigned?",
+    "problem_p": "Fixture dimensions, shut-off condition, and drain location help distinguish a simple replacement from work that changes the plumbing layout.",
+    "features": [
+      [
+        "home",
+        "Coordinate Fixture Work with Turnover",
+        "For a rental between tenants, identify the access window and list which fixtures need replacement before scheduling the work. Confirm who selects and supplies the fixtures, and whether testing or documentation is expected before occupancy. A written list helps separate essential repairs from optional upgrades and reduces the risk of overlooking a fixture during a short turnover."
+      ],
+      [
+        "check",
+        "Inspect Shut-Offs and Seals",
+        "Before replacing a faucet or toilet, check whether its shut-off turns freely and look for signs of corrosion or past moisture. A new fixture may still depend on old valves, seals, or connectors, which can affect the scope and future access. Ask which existing parts will be reused and which will be renewed, and why."
+      ],
+      [
+        "dollar",
+        "Compare Fixture Specifications",
+        "Compare dimensions, connection requirements, and replacement-part availability as well as the purchase price. If a property has hard water or fixtures see frequent use, ask how the selected model’s materials and maintenance requirements fit those conditions; do not assume every fixture performs the same. Keep model numbers and care instructions for later repairs or replacements."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Wallaceburg, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Chatham-Kent Plumbing Team",
-    intro: "A high water table and a river at the door make Wallaceburg basements naturally damp, which is exactly why a real leak hides so well here, everyone blames the ground until the ceiling bulges. Wallaceburg Plumbing separates the two properly: acoustic listening and meter behaviour to confirm a genuine loss, pressure isolation to pin the failing run, and minimal openings to reach it. If the moisture is groundwater rather than plumbing, you hear that honestly, along with what will actually fix it.",
-    meta: "Leak detection and repair in Wallaceburg, Ontario. Acoustic location, pressure isolation, honest damp-versus-leak diagnosis, and minimal-opening repairs.",
-    problem_h: "Damp basement, but is it actually a leak?",
-    problem_p: "We prove which Wallaceburg moisture is plumbing and which is ground, then repair real leaks through the smallest access possible.",
-    features: [
-      ["droplets", "Damp or Leaking, Answered", "River towns train plumbers to be careful with this claim. Meters, listening gear, and pressure tests settle whether your Wallaceburg basement needs a repair or drainage work."],
-      ["shield", "Precise Location First", "Confirming the failure to a short stretch of pipe means one opening in a floor or wall, not a search pattern of holes across the room."],
-      ["check", "Repaired and Recorded", "Most leaks we locate in Wallaceburg are fixed the same visit, and every finding plus repair is documented for insurers and future owners."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Wallaceburg, Ontario",
+    "h1": "Investigate and Repair Leaks in Wallaceburg",
+    "intro": "Damp floors, staining, or a musty smell do not identify the source by themselves. Water may come from plumbing, an exterior entry point, or another building condition, so note when moisture appears and what fixtures or weather events coincide with it. If a water meter continues moving when fixtures are off, record that observation. Depending on the suspected pipe and access, pressure isolation or acoustic listening may help narrow the search. Photographs of the affected area and any visible pipework can help shape a focused investigation.",
+    "meta": "Investigate Wallaceburg plumbing leaks with symptom records, pressure checks, and appropriate acoustic or visual location methods.",
+    "problem_h": "Could the moisture be plumbing, or another source?",
+    "problem_p": "Timing, meter observations, and the location of moisture help guide checks that distinguish a plumbing leak from other sources before repairs are planned.",
+    "features": [
+      [
+        "droplets",
+        "Separate Plumbing Leaks from Other Moisture",
+        "Record whether dampness changes after rain, fixture use, or a period when water is turned off. If accessible, photograph stains, wet areas, and nearby plumbing, and note meter movement when fixtures are unused. These observations help decide whether plumbing checks are appropriate or whether another investigation, such as drainage or exterior-water review, should be considered."
+      ],
+      [
+        "shield",
+        "Narrow the Search Before Opening Surfaces",
+        "Ask what evidence points to the suspected pipe and whether pressure isolation or acoustic listening could help localize the failure. The pipe material, layout, and access affect which method is useful. A more specific location may reduce unnecessary openings, but no method should be treated as proof until findings support the proposed repair and access point."
+      ],
+      [
+        "check",
+        "Record Findings and Repair Scope",
+        "Ask for a written description of the suspected source, the checks performed, and any repair proposed. If a leak is confirmed, clarify the access opening, pipe section, and any restoration that is outside the plumbing work. Keep photographs and records for future reference, and check directly with an insurer about its documentation requirements rather than assuming a particular format is accepted."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Wallaceburg, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Chatham-Kent Plumbing Team",
-    intro: "Living where the Sydenham branches meet makes water management the most important plumbing in your house, and Wallaceburg Plumbing treats it that way. We install sump pumps and basins engineered for what your foundation collects, fit battery backups because river weather and power failures travel together, and install backwater valves under permit so the municipal sewer stays out of your basement when the system is overwhelmed. Every spring, we check, clean, and exercise existing systems before the river tests them.",
-    meta: "Sump pump and backwater valve installation in Wallaceburg, Ontario. River-ready pump systems, battery backups, annual spring checkovers, and permitted backwater valves.",
-    problem_h: "The river is up and the pit is busy?",
-    problem_p: "Wallaceburg basements deserve engineered protection: matched pumps, tested backups, and backwater valves that close when they must.",
-    features: [
-      ["shield", "Engineered for the Street You're On", "Distance from the river and the soil around your foundation set the spec. Wallaceburg installs get pumps and basins chosen for their actual conditions."],
-      ["zap", "Backup Power, Standard Practice", "Outages arrive with the storms that fill pits. Battery-backed pumps and high-water alarms keep protecting Wallaceburg basements through the blackout hours."],
-      ["calendar", "Spring Checkovers Booked Early", "We service and test existing systems before melt and river season, because discovering a dead pump mid-storm is the costliest way to schedule maintenance."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Wallaceburg, Ontario",
+    "h1": "Plan Sump Pump and Backwater Protection in Wallaceburg",
+    "intro": "A sump pump or backwater valve should be selected for the property’s layout and the water-management problem it is meant to address. Check the pit dimensions, discharge route, existing pump label, alarm, and backup equipment, and note any past outages or water entry. If the property has a sump pit, confirm whether it collects groundwater and where its discharge goes. A backwater valve addresses a different risk in the sewer connection. Ask which system is being proposed, what it protects against, and what testing and maintenance it needs.",
+    "meta": "Plan Wallaceburg sump pump, battery backup, alarm, and backwater valve work around the property layout and system condition.",
+    "problem_h": "Is the pump running often, or has water entered before?",
+    "problem_p": "Pit, discharge, outage, and backup details help distinguish pump needs from sewer backflow protection and define what equipment to assess.",
+    "features": [
+      [
+        "shield",
+        "Match the Pump to the Site",
+        "Measure the pit and photograph the current pump label, discharge, and visible piping. Ask how the proposed pump capacity and basin suit the observed water collection and discharge route. If the property has unusual inflow or discharge constraints, those conditions can change equipment selection and installation scope, so have the assumptions explained before comparing proposals."
+      ],
+      [
+        "zap",
+        "Check Backup Power and Alarms",
+        "If storms or outages are a concern, compare a battery backup, alarm, and primary pump as separate parts of the system. Ask what each device does, how its operation is tested, and how often batteries or other components need attention. A backup does not replace a working primary pump, so include both in a written inspection and maintenance plan."
+      ],
+      [
+        "calendar",
+        "Set a Practical Maintenance Plan",
+        "Ask how the pump, float switch, alarm, and backup can be tested safely, and record the recommended inspection interval. Check that the discharge route is clear and that the system responds as expected during a test. If considering a backwater valve, separately verify its location, access for maintenance, and any applicable permit or inspection requirements with the relevant authority."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Wallaceburg, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Chatham-Kent Plumbing Team",
-    intro: "Between the hardness that coats every kettle in town and the iron showing up in wells across the surrounding flats, Wallaceburg water earns its treatment. Wallaceburg Plumbing tests first, always, then installs softeners sized to the household and the measured grain load, iron handling where the test demands it, and reverse osmosis at the kitchen tap for drinking water that stops coming home in bottles. Rental units benefit as much as family homes, since scaled heaters and wrecked fixtures are expenses landlords pay twice.",
-    meta: "Water softeners and filtration in Wallaceburg, Ontario. Tested softener sizing, iron treatment, and reverse osmosis systems for homes and rentals. Free quotes.",
-    problem_h: "Kettle furred and fixtures going grey?",
-    problem_p: "Treatment sized from testing protects heaters, fixtures, and budgets in Wallaceburg homes and tenant units alike.",
-    features: [
-      ["gauge", "Measured, Then Matched", "Hardness and iron numbers decide the equipment, never a one-size pitch. Wallaceburg systems are quoted from your water, not your postal code's reputation."],
-      ["droplets", "Drinking Water Worth the Tap", "Under-sink reverse osmosis gives cooking and coffee water that competes with anything hauled home in cases, at a fraction of the long-term cost."],
-      ["dollar", "Cheaper Than Replacing Fixtures", "Softened water extends heaters, shower heads, and appliance seals year over year. Owners who run the math install treatment and stop replacing hardware."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Wallaceburg, Ontario",
+    "h1": "Plan Water Softening and Filtration in Wallaceburg",
+    "intro": "A softener or filter should match measured water conditions and the concern it is intended to address. If the property has a private well, arrange suitable testing before selecting treatment; for any source, confirm which results are relevant to the equipment under consideration. Note household size, water use, available installation space, and existing plumbing connections. A softener targets hardness, while iron treatment and reverse osmosis serve different purposes. Compare the test results, proposed equipment, maintenance needs, and operating costs before choosing a system.",
+    "meta": "Compare Wallaceburg water softener, iron treatment, and reverse osmosis options using water testing and household needs.",
+    "problem_h": "Are scale, staining, or taste concerns driving the search?",
+    "problem_p": "Testing identifies which water characteristics need treatment, helping avoid equipment that is mismatched to the property or the concern.",
+    "features": [
+      [
+        "gauge",
+        "Choose Equipment from Test Results",
+        "Keep a copy of the water test and ask which results support each proposed treatment stage. Hardness and iron are different measurements and may call for different equipment; a postal code or visible scale alone cannot size a system. Household use, available space, and connection details also affect equipment capacity and installation scope."
+      ],
+      [
+        "droplets",
+        "Understand Reverse Osmosis at the Tap",
+        "If drinking-water treatment is the goal, ask what the proposed under-sink reverse osmosis system is designed to reduce and what testing supports that choice. Check cabinet space, faucet and drain connections, filter replacement intervals, and expected water use. Compare those maintenance requirements with the household’s needs before deciding whether point-of-use treatment is suitable."
+      ],
+      [
+        "dollar",
+        "Compare Ongoing Costs and Maintenance",
+        "When comparing systems, include salt or filter replacements, servicing, water use where applicable, and the cost of installation. Ask which components need regular attention and how to identify when replacement is due. A treatment system may help limit scale-related maintenance when matched to the measured water, but it does not eliminate routine care for heaters, fixtures, or appliances."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["The river came up in February and our backwater valve earned its keep. Installed the fall before, inspected, and it shut exactly when it needed to.", "Homeowner", "Wallaceburg"],
-  ["Two tenants, two bathrooms, one week between leases. They turned both over in days with paperwork for each. Easiest mid-winter swap we have done.", "Business Owner", "Wallaceburg"],
-  ["Camera showed the clay lateral cracked near the maple. Quoted from the footage, jetted the line that day, and the repair followed in spring.", "Resident", "Dresden"],
-  ["Pump died mid-storm on a Sunday. They answered, talked us through the emergency, and had the new one plus a battery backup in Monday morning.", "Homeowner", "Port Lambton"],
-  ["Everyone told us the basement was just damp. They proved it was a supply leak, opened one small hole, and fixed it in a single visit.", "Resident", "Sombra"],
-  ["The well water treatment was staged off a real test. Iron filter first, softener behind it, and the stains that used to define our bathroom are gone.", "Homeowner", "Wilkesport"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Owned tank replacements and tankless installs for Wallaceburg homes and rentals, swapped fast with landlord paperwork.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Main line and floor drain clearing, root cutting, jetting, and camera evidence before any repair quote.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Zone-by-zone galvanized replacement in PEX and copper, keeping the rest of the house in water throughout.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Toilet resets, faucet and shut-off swaps, and turnover-ready fixture work timed between tenants.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Honest damp-versus-leak diagnosis, acoustic location, and minimal-opening repairs.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "River-ready pump systems, battery backups, spring checkovers, and permitted backwater valves.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Tested softener sizing, iron treatment, and reverse osmosis for homes and rental units.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless replacement options using the existing heater’s fuel, capacity, venting, connections, and any rental-agreement terms.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Assess affected fixtures and backup history to distinguish a local clearing from main-line cable work, hydro-jetting, or camera inspection.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Review pipe materials, affected zones, access, and water-service needs when comparing phased replacement with broader PEX or copper work.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan toilet, faucet, tub, or shower work around fixture dimensions, shut-offs, drain locations, and any layout changes.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Use moisture timing, meter observations, and suitable pressure or acoustic checks to investigate plumbing leaks before defining access and repairs.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Assess pit size, pump and discharge details, backup power, alarms, and sewer connections to define the right protection scope.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Compare softening, iron treatment, and reverse osmosis using water test results, household use, installation space, and maintenance needs.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Is Wallaceburg Plumbing properly licensed?", "Yes, licensed and insured under Ontario rules, with permits filed through the municipality for the jobs that require them and inspections passed before completion."],
-  ["Do you take emergency calls in town?", "Around the clock for flooding, no-water, and sewer backup calls in Wallaceburg, with priority on anything involving the river running high or a pit that will not keep up."],
-  ["How fast can a dead water heater be replaced?", "Usually next day at the latest, often the same day. Common sizes ride on the truck, which matters for tenant units where hot water is not optional."],
-  ["Our house has galvanized from the fifties. Full repipe or partial?", "Depends on condition and budget, and we say which after looking. Many Wallaceburg homes are best done zone by zone, starting with the failing branches and finishing the rest on schedule."],
-  ["What does a backwater valve actually do for us here?", "It closes automatically when the municipal sewer surges, keeping the system on its own side of your floor drain. In a river town during storm season, it is the single most protective valve a basement can have, and we install them under permit."],
-  ["Will a softener help with Wallaceburg water?", "The hardness here is real and the scale proves it in every kettle. Testing tells us the load, the softener gets sized to it, and wells with iron get staged treatment so the resin survives."],
-  ["How do you handle pricing?", "Written quote, approved before work starts, honoured at invoice. Rentals and multi-unit buildings get itemized documentation per unit."],
-  ["Where do you work from Wallaceburg?", "Town-wide plus Dresden, Port Lambton, Sombra, Tupperville, and Wilkesport, with regular runs into Chatham and Ridgetown."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/wallaceburgplumbing.ca-water-heaters.jpg", "Water heater installation in Wallaceburg, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/wallaceburgplumbing.ca-drain-cleaning.jpg", "Drain cleaning in Wallaceburg, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/wallaceburgplumbing.ca-repiping.jpg", "Repiping in Wallaceburg, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/wallaceburgplumbing.ca-fixtures-toilets.jpg", "Fixture installation in Wallaceburg, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/wallaceburgplumbing.ca-leak-detection.jpg", "Leak detection in Wallaceburg, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/wallaceburgplumbing.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Wallaceburg, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/wallaceburgplumbing.ca-water-softeners.jpg", "Water softener installation in Wallaceburg, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/wallaceburgplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Wallaceburg, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/wallaceburgplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning in Wallaceburg, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/wallaceburgplumbing.ca-repiping.jpg",
+    "Repiping in Wallaceburg, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/wallaceburgplumbing.ca-fixtures-toilets.jpg",
+    "Fixture installation in Wallaceburg, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/wallaceburgplumbing.ca-leak-detection.jpg",
+    "Leak detection in Wallaceburg, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/wallaceburgplumbing.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Wallaceburg, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/wallaceburgplumbing.ca-water-softeners.jpg",
+    "Water softener installation in Wallaceburg, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

@@ -1,188 +1,379 @@
-// Per-site content for strathroyplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Strathroy-Caradoc, Middlesex County,
-// west of London along the 402.
-// Local angle: the Sydenham headwaters and the Caradoc clay plain that keep
-// basements wet, a 19th-century brick downtown with century houses still on
-// galvanized, 402-commuter growth pushing new subdivision plumbing, farm
-// properties on wells and septic around the town line, and hard town water
-// that writes on glassware.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Strathroy, Ontario",
-    h1: "Water Heater Installation From a Local Middlesex Plumbing Team",
-    intro: "Strathroy carries a name borrowed from the Isle of Skye, and its oldest streets behave accordingly, century brick houses with low cellar mechanical rooms and stairs a tank negotiates sideways. Out by the 402 interchanges, the new subdivisions build bright utility closets with none of those worries. Strathroy Plumbing installs water heaters in both worlds, measuring headroom before promising a unit, sizing recovery for households that all shower before the London commute, and setting farm properties up around what the well and pressure tank can actually deliver.",
-    meta: "Water heater installation and replacement in Strathroy, Ontario. Tank and tankless units, tight-cellar swaps, and well-property sizing by licensed Middlesex plumbers.",
-    problem_h: "Tank dead, or dying on the cellar floor?",
-    problem_p: "Strathroy Plumbing measures the stair, matches the unit to the household and the water source, and stocks common sizes for fast swaps.",
-    features: [
-      ["flame", "Measured Before Quoted", "A tank that cannot make it down the cellar stair is not a bargain. We check access first, then size tank or tankless to the fixtures, the family, and the supply behind them, town main or well."],
-      ["clock", "Same-Visit Swaps on Stocked Sizes", "When a tank lets go, hot water is the whole emergency. Common capacities ride on the truck, and most Strathroy-Caradoc swaps finish in one visit with the dead unit drained and gone."],
-      ["shield", "Permits and Paper in Order", "Relief valves, pans, venting, and the municipal permit are handled on our side of the job, so the install passes inspection and reads clean at resale."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Strathroy, Ontario",
+    "h1": "Plan a Water Heater Installation in Strathroy",
+    "intro": "For a water heater project in Strathroy, start by checking the route from the entrance to the installation area. Measure narrow stairs, doorways, and overhead clearance, especially if the unit is in a cellar or utility closet. Compare the existing heater’s fuel, venting, capacity, and connection locations with the proposed unit. If the property uses a well, note the pump and pressure-tank details too; available flow can affect whether a tank or tankless design suits the household.",
+    "meta": "Plan water heater replacement in Strathroy, Ontario. Compare tank and tankless options, access, venting, household demand, and well-system capacity.",
+    "problem_h": "Is the old heater failing or leaking?",
+    "problem_p": "Photograph the rating plate, connections, vent, and access route before requesting a quote. These details help establish which replacement options fit the space and the home’s supply.",
+    "features": [
+      [
+        "flame",
+        "Check Access Before Choosing",
+        "Measure the full path to the heater, including stair turns, ceiling height, and door openings. Photograph obstacles and the current unit in place. A tank that fits the utility area may not fit through the route, which can change the equipment choice and installation scope."
+      ],
+      [
+        "clock",
+        "Compare Capacity and Recovery",
+        "Record the existing tank’s capacity and fuel type, then consider how many people use hot water and when demand peaks. Ask how a proposed tank’s recovery rate compares with household needs. For tankless equipment, confirm that the home’s supply, venting, and expected simultaneous use suit the model."
+      ],
+      [
+        "shield",
+        "Verify Venting and Required Approvals",
+        "Ask what work is included for the relief valve, drain pan where appropriate, venting, and removal of the old unit. Check which approvals or inspections apply to the specific installation and who is responsible for confirming them. Clear scope prevents assumptions about safety components or paperwork."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Strathroy, Ontario",
-    h1: "Drain Cleaning From a Local Middlesex Plumbing Team",
-    intro: "The Caradoc clay plain holds moisture close and gives it back slowly, the willows along the Sydenham's headwater branches send roots toward every pipe seam within reach, and between them they keep drain work honest around here. Strathroy Plumbing clears lines the full way. The cable opens the blockage, the jetter scrubs the wall clean, and a camera goes through anything that has plugged twice, from a downtown kitchen to a farm run heading out to a septic bed past the town line.",
-    meta: "Drain cleaning in Strathroy, Ontario. Cabling, hydro-jetting, and camera inspection for root intrusion, village lines, and rural septic runs across Middlesex County.",
-    problem_h: "Second backup in one season?",
-    problem_p: "We clear Strathroy-Caradoc lines back to full bore and camera the repeats, so the cycle ends with a diagnosis instead of another rodding.",
-    features: [
-      ["refresh", "Jetted Back to Full Bore", "Grease cast and soap film come off the pipe wall with water pressure, not chemistry. A jetted line in this clay country runs months where a punched hole ran weeks."],
-      ["droplets", "Camera on the Second Call", "One clog is a clog. Two is information. Footage of the root plate or the dropped joint sets the repair budget before the next backup sets it for you."],
-      ["pin", "Rural Runs Handled Gently", "Long lines out to septic tanks and fields get cleaned with the bed in mind, nothing forced downstream that the system cannot digest, and honest advice on a maintenance rhythm."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Strathroy, Ontario",
+    "h1": "Plan Drain Cleaning in Strathroy",
+    "intro": "A slow drain can have different causes, from a local obstruction to a problem farther along the line. Note which fixtures are affected, whether the issue changes when other fixtures run, and how often it returns. If a line has backed up more than once, ask whether camera inspection is appropriate after clearing it. For a rural property, identify the route to the septic tank and any known limits on the system; those details help determine a suitable cleaning method.",
+    "meta": "Drain cleaning in Strathroy, Ontario. Compare cabling, hydro-jetting, and camera inspection for recurring blockages and rural septic lines.",
+    "problem_h": "Has the same drain blocked again?",
+    "problem_p": "Keep notes on when backups occur and which fixtures are involved. Repeated symptoms can change the scope from clearing a blockage to inspecting the line for its cause.",
+    "features": [
+      [
+        "refresh",
+        "Choose a Cleaning Method for the Line",
+        "Ask whether cabling or hydro-jetting is appropriate for the pipe material, blockage, and known condition of the line. Jetting uses water pressure to clean deposits from pipe walls, while a cable opens an obstruction. The method matters because clearing a passage is not always the same as removing buildup."
+      ],
+      [
+        "droplets",
+        "Use a Camera for Recurring Problems",
+        "If a blockage returns, ask whether a camera can inspect the affected section after it is cleared. Request footage or a clear explanation of any visible root intrusion, joint displacement, or other defect. Finding the location and type of problem helps compare maintenance with a repair plan."
+      ],
+      [
+        "pin",
+        "Consider Septic-System Limits",
+        "For a long rural run connected to a septic system, identify the cleanouts, tank location, and any known system restrictions. Ask how the proposed method will avoid pushing material toward the tank or field inappropriately. This information can affect equipment setup, cleaning direction, and the work included."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Strathroy, Ontario",
-    h1: "Repiping From a Local Middlesex Plumbing Team",
-    intro: "Behind the brick storefronts downtown and the century houses on the streets around them, plenty of Strathroy still runs on galvanized laid when the town had fewer stoplights, and the seventies bungalows toward the highway carry poly-B as their own inheritance. Strathroy Plumbing replaces both eras in PEX and copper. Openings get planned against plaster and original millwork, water stays live overnight for the household, and the new system proves itself on a gauge before anything closes up.",
-    meta: "Repiping in Strathroy, Ontario. Galvanized and poly-B replacement in PEX and copper, planned around plaster and brick in older Middlesex homes.",
-    problem_h: "Rust at the tap and a shower that trickles?",
-    problem_p: "We strip the dead supply piping out of Strathroy homes and land clean lines that deliver pressure the house has not felt in decades.",
-    features: [
-      ["wrench", "Two Eras of Pipe, One Fix", "Galvanized that rusts shut and poly-B that lets go at the fittings get the same honest answer, full replacement in material sized to the home, with access planned before a tool comes out."],
-      ["home", "Water On Every Night", "Repipes here run floor by floor so the kitchen and a shower keep working through the job. Strathroy families stay in the house, which is how it should be."],
-      ["shield", "Gauge-Proven Before Cover-Up", "Pressure testing happens with the walls still open, under a municipal permit, and the inspection record stays with the house for resale."]
+    "icon": "wrench",
+    "kicker": "Repiping in Strathroy, Ontario",
+    "h1": "Plan a Home Repiping Project in Strathroy",
+    "intro": "Repiping scope depends on the existing material, the condition of the branches, and how much of the home needs new supply lines. Photograph exposed pipe markings and fittings, and note symptoms such as rust-coloured water or reduced flow at several fixtures. If the home has galvanized piping or poly-B, ask for an assessment of the full system rather than assuming a small visible section represents it all. Discuss access through plaster, brick, or finished rooms before comparing materials and quotes.",
+    "meta": "Repiping in Strathroy, Ontario. Assess galvanized or poly-B supply lines, compare PEX and copper, and plan access and testing.",
+    "problem_h": "Several taps have rusty water or weak flow?",
+    "problem_p": "Record which fixtures are affected and photograph accessible pipe and fittings. The material, extent of deterioration, and access through finished walls shape a repiping plan.",
+    "features": [
+      [
+        "wrench",
+        "Identify the Existing Pipe System",
+        "Photograph markings, fittings, and any exposed pipe, then ask whether the material is galvanized, poly-B, or something else. Galvanized lines may corrode internally, while poly-B concerns can involve fittings. Confirm whether a quote covers a branch repair or replacement of the broader supply system."
+      ],
+      [
+        "home",
+        "Plan Water Service During the Work",
+        "Ask which areas will be without water and how the work will be sequenced across floors. If the household needs access to particular fixtures, raise that before scheduling. The route of new lines and the number of openings can affect both disruption and the project’s scope."
+      ],
+      [
+        "shield",
+        "Request Testing and Approval Details",
+        "Before walls are closed, ask how the new system will be pressure-tested and what results will be documented. Confirm whether permits or inspections apply and who will arrange them. Testing while pipe is accessible can reveal problems before repairs to plaster, millwork, or other finishes begin."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Strathroy, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Middlesex Plumbing Team",
-    intro: "Strathroy grows the way 402 towns do, young families into the new subdivisions and buyers redoing the century houses within walking distance of the brick downtown, and both currents arrive at the same bench eventually, a kitchen or bathroom that needs sound plumbing behind its new face. Strathroy Plumbing does that work. Fixtures go in level and sealed, hardware gets chosen to survive this county's water, and renos get roughed in ahead of the tile instead of argued about after it.",
-    meta: "Fixture and toilet installation in Strathroy, Ontario. Faucets, toilets, shower trim, and renovation rough-ins for older homes and new subdivisions alike.",
-    problem_h: "Reno booked, plumbing not yet?",
-    problem_p: "We rough in to the finished plan and trim out after the tile, every fixture set level, sealed, and fed by lines that can actually supply it.",
-    features: [
-      ["home", "Set Level, Sealed for Good", "A rocking toilet or a weeping faucet base is an install problem, not a fixture problem. Ours go in flat, bolted, and watertight on the first visit."],
-      ["check", "Hardware Built for This Water", "Middlesex hardness eats cheap cartridges. We point renovators toward fixtures with replaceable parts and metal bodies, then install them so the parts stay reachable."],
-      ["shield", "Rough-Ins That Match the Plan", "Moved sinks, added showers, basement bathrooms, the drains and vents land where the layout needs them, under permit, before the finishes arrive."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Strathroy, Ontario",
+    "h1": "Plan Fixture and Toilet Installation in Strathroy",
+    "intro": "A fixture replacement can be straightforward, but renovation work needs coordination with the finished layout. Before choosing a toilet, faucet, or shower trim, record the existing connections and measurements, and compare them with the product specifications. For a larger renovation, mark sink, shower, and toilet locations on the plan before tile or cabinetry is ordered. If the layout changes, ask how drains, vents, and supply lines will be routed and whether approvals apply; early decisions can prevent costly finish changes.",
+    "meta": "Fixture and toilet installation in Strathroy, Ontario. Plan replacements, product compatibility, and renovation rough-ins before finishing work.",
+    "problem_h": "Are renovation plans moving ahead without plumbing details?",
+    "problem_p": "Share the fixture specifications and finished layout before work begins. Connection locations, clearances, and required rough-ins can affect both product choice and renovation scope.",
+    "features": [
+      [
+        "home",
+        "Check Fit, Level, and Sealing",
+        "For a toilet, compare the rough-in measurement and available clearance with the product dimensions. For faucets, check the number and spacing of mounting holes. Ask how the fixture will be secured and sealed; correcting an incompatible fit after finishes are in place may require more than a simple swap."
+      ],
+      [
+        "check",
+        "Compare Parts and Service Access",
+        "Review whether cartridges and other wearable components are replaceable, and ask where shutoff valves will sit after installation. If water testing identifies a concern, consider how it may affect material choice. Accessible valves and serviceable parts can make future maintenance easier without changing the selected fixture’s appearance."
+      ],
+      [
+        "shield",
+        "Coordinate Rough-Ins With the Finished Plan",
+        "Give the installer the latest drawings before moving a sink, adding a shower, or planning a basement bathroom. Drain, vent, and supply locations need to suit the finished walls and fixtures. Confirm which approvals or inspections may apply before tile and cabinetry limit access to the work."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Strathroy, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Middlesex Plumbing Team",
-    intro: "Damp in a Strathroy basement is ambiguous by nature, the Caradoc clay holds meltwater against foundations every spring, and a pinholed supply line can feed a wall quietly for a season. Paying for the wrong diagnosis is the expensive part. Strathroy Plumbing isolates the plumbing under pressure before anyone opens anything, listens with acoustic gear where the gauge points, and repairs through one planned opening. Rural properties get the same discipline along yard runs and well lines.",
-    meta: "Leak detection and repair in Strathroy, Ontario. Pressure isolation and acoustic location that separate clay-plain groundwater from plumbing leaks.",
-    problem_h: "Stain on the cellar wall, cause unknown?",
-    problem_p: "We prove whether it is the ground or the pipe before the first hole gets cut, then repair the fault through one small opening.",
-    features: [
-      ["droplets", "Isolation Before Demolition", "Section-by-section pressure testing clears or condemns the plumbing in an afternoon. If the system holds, the fix is drainage, and a torn-open wall just got cancelled."],
-      ["shield", "Clay-Plain Judgment", "Decades of local seepage patterns get read for what they are. We know which Strathroy conditions point at the foundation wall and which point at the pipe."],
-      ["check", "Yard and Well Lines Traced", "Buried runs to barns and cisterns rarely leak in sight. We trace the failing length and dig once, exactly where the gear says."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Strathroy, Ontario",
+    "h1": "Plan Leak Detection and Repair in Strathroy",
+    "intro": "A damp basement wall does not by itself show whether water is coming from plumbing or from outside the building. Photograph the wet area, note when it appears, and check whether a water meter moves when fixtures are off, if that can be done safely. Ask whether pressure isolation can test plumbing sections before any wall is opened. For a suspected buried line, identify its route and endpoints. These observations help distinguish the possible causes and define an appropriate inspection or repair scope.",
+    "meta": "Leak detection and repair in Strathroy, Ontario. Plan pressure isolation, acoustic locating, and investigation of buried water lines.",
+    "problem_h": "Is a basement stain’s source unclear?",
+    "problem_p": "Photograph the area and note when moisture appears. Evidence of timing, plumbing use, and nearby lines can help decide what should be tested before opening a wall.",
+    "features": [
+      [
+        "droplets",
+        "Test Before Opening Finished Surfaces",
+        "Ask whether plumbing can be isolated and pressure-tested in sections. A test may help distinguish a supply leak from moisture unrelated to the plumbing, although results must be interpreted alongside site conditions. Identifying the likely source first can reduce unnecessary openings and help define the repair area."
+      ],
+      [
+        "shield",
+        "Compare Plumbing and Groundwater Clues",
+        "Record whether moisture changes after rain, thaw, or plumbing use, and photograph stains, joints, and nearby fixtures. These observations are clues, not proof of a cause. Ask how the inspection will distinguish a foundation-water issue from a pipe leak before deciding whether plumbing repair is appropriate."
+      ],
+      [
+        "check",
+        "Trace Buried Lines Before Digging",
+        "For a yard line to a barn, cistern, or other outbuilding, mark known endpoints and photograph visible shutoffs or access points. Ask whether locating equipment can narrow the suspected section before excavation. A defined route and fault location can affect how much digging and repair are included."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Strathroy, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Middlesex Plumbing Team",
-    intro: "The Sydenham gathers its headwater threads through Strathroy-Caradoc, and the flat clay that made these fields good farming makes basements here slow to drain at both ends of the year, thaw in April, storm in July. Strathroy Plumbing builds sump systems equal to that calendar, basin depth matched to how the yard actually behaves, a duty-rated pump that paces itself, battery power for outage nights, and discharge routed far enough from the stone to truly leave. Melbourne and Mount Brydges homes get the same engineering as town.",
-    meta: "Sump pump and backwater valve installation in Strathroy, Ontario. Sydenham-headwater groundwater protection, battery backup, and permitted backwater valves.",
-    problem_h: "Pump running all through the thaw?",
-    problem_p: "We build Strathroy-Caradoc sump systems sized to clay-plain water, with backup power and discharge that leaves the property instead of looping back.",
-    features: [
-      ["shield", "Pit and Pump Sized as a Pair", "A shallow pit in wet clay makes a good pump short-cycle to death. Depth and capacity get set together so the system paces itself through weeks of melt."],
-      ["zap", "Power for the Dark Hours", "Storms and outages arrive together in this county, and the pit does not wait for the grid. Battery backup holds the floor through exactly those nights."],
-      ["refresh", "Discharge That Leaves", "A short outflow loop pours the same water back against the footing. We route Strathroy discharges out and clear, past drives, wells, and septic beds."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Strathroy, Ontario",
+    "h1": "Plan Sump Pump and Backwater Protection in Strathroy",
+    "intro": "A sump system should be considered in relation to the property’s water entry points, pit, power supply, and discharge route. Note how often the pump runs, whether it cycles rapidly, and where its outlet ends. Photograph the pit and pump label, and record any outage history. If water has reached floor drains or fixtures, ask whether a backwater valve assessment is relevant. These details help compare pump capacity, basin configuration, backup power, and discharge options without assuming every property has the same needs.",
+    "meta": "Sump pump and backwater planning in Strathroy, Ontario. Compare pit sizing, battery backup, discharge routing, and valve assessment.",
+    "problem_h": "Does the sump pump cycle repeatedly or stop during outages?",
+    "problem_p": "Record pump cycling, outage behaviour, and the discharge outlet. The pit, power arrangement, and water route help determine which changes are relevant to the property.",
+    "features": [
+      [
+        "shield",
+        "Assess the Pit and Pump Together",
+        "Photograph the pit’s dimensions and the pump label, and note how often the pump starts. Ask how the basin volume and pump capacity suit the observed inflow. A mismatch can affect cycling and equipment selection, so replacing only the pump may not address a pit configuration that needs review."
+      ],
+      [
+        "zap",
+        "Plan for Power Interruptions",
+        "Check whether a backup system is present, its battery age, and whether it has been tested. Ask what it can operate and for how long under expected conditions. Those details help determine whether battery backup is suitable and whether the proposed setup matches the property’s outage and pumping requirements."
+      ],
+      [
+        "refresh",
+        "Trace the Discharge Route",
+        "Follow the outlet as far as it can be safely observed and photograph where water exits. Ask whether the discharge could return toward the foundation or conflict with a well, septic area, or driveway. The route can change installation scope; a pump alone does not ensure water is carried away appropriately."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Strathroy, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Middlesex Plumbing Team",
-    intro: "Town supply in Strathroy runs hard enough to write on glassware, and past the municipal line the Caradoc wells take over entirely, bringing iron that stains toilet bowls and the occasional sulphur signature that announces itself on warm mornings. Strathroy Plumbing designs treatment from a test of your actual water, never a regional average. Iron removal stages ahead of the softener where the sample calls for it, ultraviolet follows where wet seasons have stirred bacteria, and everything gets plumbed with a bypass so service stays a five-minute job.",
-    meta: "Water softeners and filtration in Strathroy, Ontario. Test-driven softener sizing, iron and sulphur staging, and UV systems for town supply and Caradoc wells.",
-    problem_h: "Bowls staining and kettles furring?",
-    problem_p: "Treatment here follows the lab sheet, softening for the town main, staged iron and sulphur work for the wells, sized to the household that uses it.",
-    features: [
-      ["gauge", "Sequenced Treatment", "Order of operations decides whether equipment works or fouls. Iron ahead of softening, sulphur handled at its source, UV last in line, exactly as the test dictates."],
-      ["droplets", "Sample First, Always", "Caradoc wells vary concession to concession. Your design follows the sample from your tap, not a county average or a showroom default."],
-      ["shield", "Serviceable by Design", "Bypasses, valves, and salt access get placed for real people in real utility corners, so upkeep stays trivial and the system keeps its settings."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Strathroy, Ontario",
+    "h1": "Plan Water Treatment in Strathroy",
+    "intro": "Water treatment should be based on a sample from the property and on the problem the household wants to address. Note visible staining, scale, odour, and which taps are affected, but do not treat those observations as a water test. If the home is on a well, arrange appropriate testing and share the results; a municipal supply and a private well may call for different equipment. Ask how a proposed sequence handles hardness, iron, sulphur, or bacteria when test results indicate those concerns.",
+    "meta": "Water softeners and filtration in Strathroy, Ontario. Use water test results to compare softening, iron or sulphur treatment, and UV equipment.",
+    "problem_h": "Are scale, staining, or odour affecting your water?",
+    "problem_p": "Describe what you notice and provide a recent water test if available. Results help determine whether softening, filtration, or another treatment stage is appropriate.",
+    "features": [
+      [
+        "gauge",
+        "Sequence Equipment to Match Test Results",
+        "Ask how each proposed treatment stage relates to a measured result. Where iron is present, its treatment may need to precede a softener; sulphur treatment depends on the identified cause. If UV is considered for a microbiological concern, ask how it fits the tested system and what pretreatment is required."
+      ],
+      [
+        "droplets",
+        "Base the Design on a Property Sample",
+        "Keep a copy of the sample results and note whether the source is a municipal connection or private well. If the source or results change, the design may need review. A property-specific test is more useful for selecting treatment than assuming nearby homes have identical water."
+      ],
+      [
+        "shield",
+        "Plan for Bypass and Maintenance Access",
+        "Before selecting equipment, measure the utility area and identify drains, shutoffs, and a practical route for salt or filter changes. Ask where bypass valves will sit and what routine servicing involves. Accessible placement can affect the installation layout and make upkeep more manageable."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Measured the cellar stair with a tape before quoting. The new tank went down the old staircase without a wall coming out, hot water the same afternoon.", "Homeowner", "Strathroy"],
-  ["Sulphur and iron from the well. Sample-driven staging, iron filter ahead of the softener, and the smell was gone inside a week.", "Farmer", "Melbourne"],
-  ["Every spring the main line plugged. They jetted it full length, cut the root crown at the joint, and showed me the after footage. First clear spring in five years.", "Homeowner", "Parkhill"],
-  ["Water bill spiked and a patch of yard stayed green by the barn. They traced the buried line, dug once, and spliced the leak out. Pressure tank checked too.", "Farmer", "Glencoe"],
-  ["Added a three-piece bath below grade in our Komoka house. Drain route and ejector planned honestly, roughed in before drywall, passed inspection first visit.", "Resident", "Komoka"],
-  ["They repiped just the bad branch and kept our original clawfoot, and told us the rest of the house could wait. Rare honesty, and the work is beautiful.", "Homeowner", "Mount Brydges"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tight-cellar swaps, well-property sizing, and common tank sizes stocked for same-visit replacement.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Cabling, jetting, and camera verdicts for root plates and clay-country grease across Strathroy-Caradoc.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized and poly-B replacement in PEX and copper, planned around plaster and brick in century houses.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Level, sealed installs and renovation rough-ins for downtown renos and new subdivision bathrooms alike.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Pressure isolation that separates clay-plain groundwater from plumbing leaks before walls open.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Thaw-ready sump systems with battery backup and discharge routed off the property for clay-plain yards.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Sample-driven softening with iron, sulphur, and UV staging for town mains and Caradoc wells.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless options using the access route, venting, household demand, and well-system capacity where applicable.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Choose cabling, hydro-jetting, or camera inspection based on the blockage, pipe condition, and any septic-system limits.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Assess galvanized or poly-B supply lines, compare replacement materials, and plan access through finished walls before work begins.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Check fixture dimensions and connections, then coordinate drains, vents, and supply lines with renovation plans before finishes go in.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Use moisture timing, pressure isolation, and line locations to help distinguish a plumbing leak from other sources of dampness.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Review pit and pump capacity, backup power, discharge routing, and whether a backwater valve assessment fits the symptoms.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use property-specific test results to compare softening, iron or sulphur treatment, and UV equipment where appropriate.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed for work around Strathroy-Caradoc?", "Yes, and the paperwork travels with the job. We work under a full plumbing licence, file municipal permits for anything that needs one, and hand you the inspection record at the end."],
-  ["Do you take after-hours emergency calls?", "We do. Burst lines, sewer backups, flooding, and no-water calls across Strathroy-Caradoc and the Caradoc farm roads get priority, and the trucks carry the parts that settle most of them on the spot."],
-  ["Our tank is leaking today. How fast can it change?", "Call before noon and it usually changes today. Common capacities ride on the truck, and most swaps across Strathroy finish in a single visit with the old tank drained and hauled."],
-  ["Half our century house still runs galvanized. Repipe or patch?", "When rust shows at the tap and pressure drops each time another fixture opens, patching is losing ground. We replace the failing runs in PEX or copper, keep water on overnight, and prove the system on a gauge before closing."],
-  ["We are on a well and septic outside town. Different work?", "Different, and it is our normal week. Pressure tanks, treatment staged from a sample, septic-side drain cleaning done gently, and fixtures chosen for water that arrives carrying mineral."],
-  ["Is the water here hard enough to justify a softener?", "Between the town main and the Caradoc wells, most households see the evidence within a year. We test at the tap and size the unit to the number and the household, not a brochure."],
-  ["What does a job like this cost?", "You will know before we start. Quotes are free, written, and itemized, the approved figure is the invoiced figure, and where a repair honestly beats a replacement we price both and say which we would choose."],
-  ["How far past Strathroy do you travel?", "East to Mount Brydges and Komoka, southwest through Melbourne and Glencoe, north to Parkhill, and the concession roads between are already on the route sheet."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/strathroyplumbing.ca-water-heaters.jpg", "Water heater installation in Strathroy, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/strathroyplumbing.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Strathroy, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/strathroyplumbing.ca-repiping.jpg", "Whole-home repiping in Strathroy, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/strathroyplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Strathroy, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/strathroyplumbing.ca-leak-detection.jpg", "Leak detection and repair in Strathroy, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/strathroyplumbing.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Strathroy, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/strathroyplumbing.ca-water-softeners.jpg", "Water softener and filtration installation in Strathroy, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/strathroyplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Strathroy, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/strathroyplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning and hydro-jetting in Strathroy, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/strathroyplumbing.ca-repiping.jpg",
+    "Whole-home repiping in Strathroy, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/strathroyplumbing.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Strathroy, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/strathroyplumbing.ca-leak-detection.jpg",
+    "Leak detection and repair in Strathroy, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/strathroyplumbing.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Strathroy, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/strathroyplumbing.ca-water-softeners.jpg",
+    "Water softener and filtration installation in Strathroy, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "mount-brydges": {
-    name: "Mount Brydges",
-    intro: "Mount Brydges grew up on the old Longwoods road east of Strathroy, a village where the reach of London's west end keeps pushing new builds out among houses that remember gravel streets. Strathroy Plumbing serves Mount Brydges with water heaters, drain cleaning, branch and whole-home repipes, sump protection, and water treatment for the wells and hard supply around the village. Booked work and urgent calls alike slot into village routes that run all week.",
-    meta: "Plumber in Mount Brydges, Ontario. Water heaters, drain cleaning, repipes, sump pumps, and water softeners from a licensed Middlesex plumbing team. Free quotes.",
-    nearby: ["Strathroy", "Komoka", "Ilderton", "Delaware"],
-    faq: [
-      ["Our basement sits low toward the Longwoods country. Can it survive a wet spring?", "Yes, with the right setup. We size the pit and pump to how the yard behaves in thaw, add battery power for outage nights, and send discharge far enough out to actually leave."],
-      ["Do you update plumbing in the older village houses?", "Regularly. Mount Brydges homes from the village's earlier days often carry galvanized branches and rough-ins laid out for another era, and we modernize them without gutting the character."],
-      ["Building an infill or new home in Mount Brydges. Do you rough in?", "Yes. New-construction and infill rough-ins file through Middlesex Centre with us, drains, vents, and supply landed to code before the drywall stage."],
-      ["Is Mount Brydges water as hard as Strathroy's?", "The same regional hardness runs through the village, and the surrounding wells run harder. A tap test sets the number and the softener follows it."],
-      ["Can a failed water heater here be swapped same day?", "Usually. Common tank sizes ride on the truck, and the village sits right on the route between Strathroy and London, so same-day visits are routine."]
+    "name": "Mount Brydges",
+    "intro": "For a plumbing project in Mount Brydges, begin with the property’s equipment, water source, and existing pipe layout rather than assumptions about the village. Photograph the water-heater access route, pipe markings, or sump discharge if those relate to the work. If you are planning a new build or renovation, share drawings before drains, vents, and supply locations are fixed. For a private well, obtain current test results before choosing treatment. These details help define whether the work involves replacement, diagnosis, or a broader installation.",
+    "meta": "Plumbing project planning in Mount Brydges, Ontario. Compare water heaters, drains, repiping, sump systems, and water treatment.",
+    "nearby": [
+      "Strathroy",
+      "Komoka",
+      "Ilderton",
+      "Delaware"
     ],
+    "faq": [
+      [
+        "What information helps assess a basement sump system?",
+        "Note how often the pump runs, photograph the pit and pump label, and trace the discharge outlet. If outages are a concern, record the backup equipment and battery condition. This information helps compare pump capacity, backup options, and discharge routing."
+      ],
+      [
+        "How can I tell whether older pipes need replacement?",
+        "Photograph visible pipe markings and fittings, and note which fixtures have reduced flow or discoloured water. An assessment can identify the material and whether symptoms affect a branch or a wider part of the supply system."
+      ],
+      [
+        "What should be included in a new-home rough-in plan?",
+        "Provide the latest floor plan and fixture locations before construction reaches the drywall stage. Ask how drains, vents, and supply lines will align with the finished layout and which approvals or inspections apply."
+      ],
+      [
+        "What information is useful before choosing a water softener?",
+        "Start with a current sample from the property’s water source and describe any scale or staining you have observed. Test results help determine whether softening alone is suitable or other treatment needs consideration."
+      ]
+    ]
   },
   "komoka": {
-    name: "Komoka",
-    intro: "Komoka sits where the Middlesex Centre growth corridor meets farm country west of London, new subdivisions rising around a village core that still holds its older brick and frame houses. Strathroy Plumbing serves Komoka with new-build rough-ins, water heaters, repipes, drain cleaning, and water treatment. The trucks run the village and the Kilworth side all week.",
-    meta: "Plumber in Komoka, Ontario. New-build rough-ins, water heaters, repipes, drain cleaning, and water softeners for one of Middlesex Centre's fastest-growing villages. Free quotes.",
-    nearby: ["Mount Brydges", "Strathroy", "Ilderton", "London"],
-    faq: [
-      ["We are building in the Komoka-Kilworth growth area. Do you do the rough-in?", "Yes. New-home rough-ins across Middlesex Centre file with us from the main service to the last fixture, drains, vents, and supply under permit before drywall."],
-      ["Is the water in Komoka hard on fixtures?", "It runs hard like most of the region, and the wells around the village harder still. We test at the tap and size softening or iron staging to the result."],
-      ["Our 1990s Komoka house has one weak shower. Cause?", "Often an old restrictor, a failing pressure-balance cartridge, or an undersized branch line. We diagnose in order and quote the fix, from a cartridge to a branch repipe."],
-      ["Can you add a basement bathroom in Komoka?", "Yes. Below-grade bathrooms stand or fall on the drain strategy, and we plan the route and any pumping choice before anyone budgets tile."],
-      ["Do Komoka emergencies get priority?", "They do. Flood, backup, and no-water calls in the village join the Strathroy-Caradoc priority list, and the route between town and London passes your door daily."]
+    "name": "Komoka",
+    "intro": "For plumbing work in Komoka, establish whether the project concerns a new build, an existing fixture, or a recurring system problem. Share plans before rough-ins are set, and photograph pipe markings or equipment labels where an existing installation is involved. If one shower has weak flow, note whether other fixtures are affected and whether the issue changes when they run. For a proposed basement bathroom, check the drain route and elevation early. These details help determine the equipment, investigation, and construction scope to compare.",
+    "meta": "Plumbing project planning in Komoka, Ontario. Prepare for rough-ins, water heaters, repiping, drains, and water treatment.",
+    "nearby": [
+      "Mount Brydges",
+      "Strathroy",
+      "Ilderton",
+      "London"
     ],
-  },
+    "faq": [
+      [
+        "What should I prepare before a new-home rough-in?",
+        "Share the current plans and fixture schedule, including any changes to bathrooms, laundry, or kitchen locations. Ask how drains, vents, and supply lines will be placed and what approvals or inspections may apply before drywall."
+      ],
+      [
+        "How can I decide whether water treatment is needed?",
+        "Describe the scale, staining, or odour you have noticed and obtain a water sample suited to the property’s source. Test results help compare softening with iron treatment or other filtration, rather than choosing equipment by assumption."
+      ],
+      [
+        "What can cause one shower to have weak flow?",
+        "Note whether other fixtures are affected and whether the flow changes when they run. A check may consider the showerhead, pressure-balance cartridge, and branch-line size; symptoms across multiple fixtures can point to a different scope."
+      ],
+      [
+        "What needs checking before adding a basement bathroom?",
+        "Identify the proposed fixture locations and ask how the drain can connect to the existing system. Below-grade elevation can affect whether gravity drainage is practical or pumping needs consideration, so plan the route before budgeting for finishes."
+      ]
+    ]
+  }
 };

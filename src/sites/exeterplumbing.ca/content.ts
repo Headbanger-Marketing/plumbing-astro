@@ -1,158 +1,320 @@
-// Per-site content for exeterplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Exeter, South Huron, Huron County.
-// Local angle: the Highway 4 corridor between London and the Lake Huron
-// beaches, where 2000s-era subdivisions with builder-grade tanks and tanks
-// in aging farmhouses all hit end-of-life together; farm-kitchen drains and
-// long rural septic runs; hard wells in Usborne and neighbouring townships;
-// new-build sump basins and spring field melt testing basements.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Exeter, Ontario",
-    h1: "Water Heater Installation From a Local Huron Plumbing Team",
-    intro: "Between London and the Lake Huron beaches, Exeter homes run the gamut from century farmhouses to subdivisions that went up in the 2000s, and their water heaters show it. Exeter Plumbing replaces and installs tank and tankless units across South Huron, sizing to the household, venting to current code, and swapping failed tanks fast, because nobody in a house full of kids should spend a weekend without hot water.",
-    meta: "Water heater installation in Exeter, Ontario. Tank and tankless units sized to the household, code-compliant venting, and fast replacement across South Huron and Huron County.",
-    problem_h: "Tank dripping, or showers that run cold by the second?",
-    problem_p: "Exeter Plumbing sizes and installs water heaters for South Huron homes, with straightforward pricing and fast turnaround on failures.",
-    features: [
-      ["flame", "Tank or Tankless, Matched to You", "A busy family home and a quiet retirement bungalow need different equipment. We walk the options in plain language and install the unit that fits how your Exeter household actually uses hot water."],
-      ["clock", "Replacement Without the Wait", "Failed tanks are the most common urgent call we take. Common sizes ride on the truck, so an Exeter replacement is usually measured, drained, swapped, and relit in one visit."],
-      ["shield", "Venting Brought Up to Code", "Swapping an old tank is the moment to fix venting that no longer complies. We bring the flue, relief, and drain arrangement to current standards, permitted and inspected."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Exeter, Ontario",
+    "h1": "Water Heater Installation for Exeter Homes",
+    "intro": "For a water-heater project in Exeter, first compare the existing unit’s fuel, tank capacity, age, and vent configuration with the household’s hot-water use. A tank and a tankless model have different sizing, venting, and installation requirements. Photograph the rating plate, connections, and vent route, and note when hot water runs short or leaks appear. Those details help establish whether the scope is a replacement or a change in equipment, and what should be checked against applicable requirements.",
+    "meta": "Water heater installation in Exeter, Ontario. Compare tank and tankless options, sizing, connections, and venting requirements.",
+    "problem_h": "Is the tank leaking, or does hot water run out too soon?",
+    "problem_p": "Record the unit’s fuel, capacity, age, and vent type, along with the household’s hot-water use. These details help compare replacement sizes and identify installation questions before work is scoped.",
+    "features": [
+      [
+        "flame",
+        "Compare Tank and Tankless Options",
+        "A household with several simultaneous hot-water demands may need a different capacity or recovery rate than a smaller household. Compare the existing unit’s rating plate and fuel supply with the expected use. For tankless equipment, ask how flow demand, temperature rise, and venting affect the proposed model and installation scope."
+      ],
+      [
+        "clock",
+        "Check the Replacement Scope",
+        "Before comparing replacement proposals, photograph the unit, surrounding clearances, connections, and vent route. Ask whether the work includes draining and removal, adapting water or fuel connections, and checking the discharge arrangement. If a unit has failed, these details clarify what must be changed rather than assuming a particular size or parts are available."
+      ],
+      [
+        "shield",
+        "Review Venting and Safety Details",
+        "A replacement can expose questions about the existing flue, combustion air, temperature and pressure relief discharge, and drainage. Ask what will be inspected and whether the proposed arrangement meets applicable requirements. Compare the existing and proposed vent routes, especially if the equipment type or location is changing, because those differences can affect the work."
+      ]
     ],
-    rev: [1, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Exeter, Ontario",
-    h1: "Drain Cleaning From a Local Huron Plumbing Team",
-    intro: "Farm kitchens work hard, and the lines under an Exeter house collect the proof: grease, soap, and the mineral crust Huron County water leaves behind. Exeter Plumbing clears drains with professional snakes and hydro-jetting rather than a bottle of caustic hopes, covering kitchen sinks, laundry drains, floor drains, main sewers, and the long private runs out to septic tanks across South Huron.",
-    meta: "Drain cleaning in Exeter, Ontario. Professional snaking and hydro-jetting for greasy kitchen lines, main sewers, and long rural runs to septic systems.",
-    problem_h: "Kitchen sink backing up into the second bowl?",
-    problem_p: "We clear the line properly and, when clogs return, camera it to find the grease plug, the roots, or the sag.",
-    features: [
-      ["refresh", "Jetting That Actually Cleans", "Pressure washes the pipe wall the way a drain snake cannot, stripping grease and scale back to bare pipe so the line carries full flow again instead of a trickle."],
-      ["droplets", "Camera When It Recurs", "One clog is an event, two is a pattern. We push a camera to the trouble spot and show you the cause before recommending anything expensive."],
-      ["shield", "Septic-Friendly Service", "Homes on private waste systems need blockages cleared without flooding the tank. We work the line with the system in mind, protecting the field and the biology."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Exeter, Ontario",
+    "h1": "Drain Cleaning for Exeter Properties",
+    "intro": "A recurring drain problem calls for more than identifying which fixture is slow. For a job in Exeter, note whether the blockage affects one sink, several fixtures, a floor drain, or the main sewer, and photograph any accessible cleanouts. Grease, soap buildup, roots, and a sagging pipe require different investigation. If the property uses a septic system or a long private line, share its layout and tank location so the proposed clearing method can account for the system and pipe length.",
+    "meta": "Drain cleaning in Exeter, Ontario. Guidance on snaking, hydro-jetting, camera inspection, and private lines to septic systems.",
+    "problem_h": "Does a drain keep backing up after it has been cleared?",
+    "problem_p": "Describe which fixtures are affected, how often the blockage returns, and whether the property has a septic system. That helps determine whether to compare snaking, jetting, or camera inspection.",
+    "features": [
+      [
+        "refresh",
+        "Compare Snaking and Hydro-Jetting",
+        "A drain snake can break through or retrieve a blockage, while hydro-jetting uses pressurized water to clean pipe walls. Ask which method suits the pipe material, condition, and obstruction. If grease or scale is suspected, confirm whether cleaning the pipe’s interior is part of the proposed scope, rather than only opening a narrow path through the clog."
+      ],
+      [
+        "droplets",
+        "Use a Camera for Repeat Blockages",
+        "When a clog returns, a camera inspection can help distinguish recurring buildup from roots, a damaged section, or a sag. Note the cleanout location and ask whether the inspection will identify the distance and position of the problem. Seeing the suspected cause can help compare targeted cleaning with any further investigation or repair."
+      ],
+      [
+        "shield",
+        "Plan Around a Septic System",
+        "If a property has a septic system and a long private drain, provide the available pipe route, cleanout locations, and tank access information. Ask how the clearing method will be used and what precautions apply to the system. The pipe length and layout can change equipment needs and access, so include those details when comparing the scope."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Exeter, Ontario",
-    h1: "Repiping From a Local Huron Plumbing Team",
-    intro: "The supply lines under many Exeter-area homes date to an era when galvanized steel was the standard, and decades of Huron County water have narrowed them to a straw. Exeter Plumbing repipes houses and farmhouses in PEX and copper, from a single problem branch to every pipe in the building, with permits pulled, walls opened surgically, and pressure verified at every fixture before we call it done.",
-    meta: "Repiping in Exeter, Ontario. Galvanized and polybutylene replacement, whole-home and partial repipes in PEX or copper, permitted and pressure-verified.",
-    problem_h: "Pressure that dies when the washing machine fills?",
-    problem_p: "Narrowed galvanized is usually the reason. We replace it with properly sized modern piping, branch by branch or house-wide.",
-    features: [
-      ["wrench", "Straw to Full Bore", "Replacing rust-narrowed galvanized with sized PEX or copper restores the flow the house was designed for. Showers stay strong with the laundry and the dishwasher running."],
-      ["home", "Farmhouse Specialists", "Older rural homes around Exeter bring long runs, additions, and creative past plumbing. We map what is there before quoting, so the repipe covers everything, not just the easy parts."],
-      ["shield", "Permit, Test, Inspect", "The work goes under plumbing permit, holds on a pressure test, and passes municipal inspection. Documented, insurable, and ready for decades of service."]
+    "icon": "wrench",
+    "kicker": "Repiping in Exeter, Ontario",
+    "h1": "Repiping for Exeter Homes and Farmhouses",
+    "intro": "When planning a repipe in Exeter, document the pipe material, visible corrosion, low-pressure fixtures, and any past repairs before comparing proposals. Galvanized steel and polybutylene raise different replacement questions, while PEX and copper have distinct routing and connection details. Older homes, additions, and long rural runs can make it important to map the existing branches rather than price only the visible problem area. Ask what will be opened, tested, and included in the proposed work.",
+    "meta": "Repiping in Exeter, Ontario. Compare partial and whole-home replacement options for galvanized or polybutylene piping in PEX or copper.",
+    "problem_h": "Does water pressure drop when more than one fixture runs?",
+    "problem_p": "Photograph exposed piping and note which fixtures lose pressure. The material, layout, and history of repairs help establish whether a branch replacement or broader repipe merits comparison.",
+    "features": [
+      [
+        "wrench",
+        "Assess Pipe Material and Flow",
+        "If exposed galvanized piping is narrowed by corrosion, compare its condition and sizing with the proposed replacement in PEX or copper. Note which fixtures are affected when several outlets run together. That information helps distinguish a local restriction from a broader supply issue and clarifies whether the scope should cover a branch or more of the house."
+      ],
+      [
+        "home",
+        "Map Older Homes and Additions",
+        "For a farmhouse or a home with additions, sketch visible pipe routes and identify bathrooms, kitchens, and laundry areas added over time. Photograph accessible joints and previous repairs. Unmapped branches can change labor, access, and materials, so ask whether the proposal covers the full intended system or only the easiest sections to reach."
+      ],
+      [
+        "shield",
+        "Ask About Testing and Inspections",
+        "Before work begins, ask what pressure testing is included and which applicable permit or inspection requirements should be verified for the project. Compare the proposed test and documentation with the areas being replaced. If walls or ceilings must be opened, clarify which access and restoration tasks are included so the plumbing scope is not confused with finishing work."
+      ]
     ],
-    rev: [2, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Exeter, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Huron Plumbing Team",
-    intro: "New subdivisions north of Exeter are getting their first kitchen renovations, and the village's older homes are getting their fifth, and Exeter Plumbing handles the plumbing for both. We install toilets, faucets, sinks, and showers, rough in renovated kitchens and bathrooms, and set laundry boxes for the main-floor moves that South Huron's bungalows love, with finishes sealed and drains pulling clean.",
-    meta: "Fixture and toilet installation in Exeter, Ontario. Toilets, faucets, sinks, and showers installed for renovations and new builds across South Huron.",
-    problem_h: "Renovation underway, or a faucet past its tenth cartridge?",
-    problem_p: "Exeter Plumbing sets fixtures level, sealed, and leak-free, and roughs in renovations before the cabinets and tile arrive.",
-    features: [
-      ["home", "Installed to Stay Dry", "A fixture is only as good as what seals it. We set toilets on proper flanges, pack supply connections right, and test everything before the trim goes on."],
-      ["check", "Rough-Ins on Your Schedule", "Renovation plumbing has to land between trades. We coordinate with your carpenter and tile setter so the rough-in is ready for inspection without holding up the job."],
-      ["shield", "Chosen for Huron Water", "Hard water eats cheap cartridges and finishes. We point you toward fixtures with replaceable parts and durable plating that stand up to local conditions."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Exeter, Ontario",
+    "h1": "Fixture and Toilet Installation in Exeter",
+    "intro": "For a fixture or renovation project in Exeter, identify the items being installed and whether the work is a direct replacement or a change to the room layout. Photograph existing supply stops, drains, toilet flanges, and the available space, and note the selected fixture models. A new sink, shower, toilet, or laundry location can require different rough-in dimensions and connections. Sharing renovation sequencing and cabinet or tile plans helps clarify when plumbing work needs to happen.",
+    "meta": "Fixture and toilet installation in Exeter, Ontario. Plan toilet, faucet, sink, shower, and renovation rough-in scope.",
+    "problem_h": "Are you replacing a fixture or planning a new layout?",
+    "problem_p": "Share fixture models, room measurements, and renovation timing. A changed layout may require rough-in work before cabinets, tile, or other finishes are installed.",
+    "features": [
+      [
+        "home",
+        "Check Seals and Connections",
+        "For a toilet replacement, inspect the visible flange area and note any rocking, staining, or prior leaks. For faucets and sinks, photograph supply connections and the drain arrangement. Ask how the proposed work will check the seals and connections after installation, since existing damage or mismatched fittings can change the scope."
+      ],
+      [
+        "check",
+        "Coordinate Rough-Ins With Renovation Work",
+        "If a renovation changes fixture locations, share cabinet drawings, tile plans, and the construction schedule before rough-in work is scoped. Confirm the required drain and supply locations and ask when inspection should occur, if applicable. Accurate dimensions matter because late changes can conflict with finished surfaces or hold up the next trade."
+      ],
+      [
+        "shield",
+        "Compare Fixture Parts and Water Conditions",
+        "Before choosing fixtures, check model specifications, replacement cartridge availability, finish-care guidance, and any manufacturer limits for the water supply. If a property has a water-treatment system or known mineral deposits, include that information when comparing options. Different finishes and serviceable parts can affect maintenance and the choice of fixture, without assuming a particular local water condition."
+      ]
     ],
-    rev: [3, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Exeter, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Huron Plumbing Team",
-    intro: "A slab leak under a five-year-old floor or a weeping joint in a farmhouse wall can run silently for a season, and Exeter Plumbing finds both. Using acoustic listening, pressure testing, and thermal reading, we narrow the source to a small area before anything gets opened, then repair the line and leave the concrete and drywall disturbance measured in inches, not afternoons of demolition.",
-    meta: "Leak detection and repair in Exeter, Ontario. Acoustic, pressure, and thermal methods to locate slab and hidden leaks, repaired with minimal opening.",
-    problem_h: "Warm spot on the floor or a meter that never stops?",
-    problem_p: "Those are the classic signs of a hidden leak. We locate it precisely across Exeter and rural South Huron, then repair only what failed.",
-    features: [
-      ["droplets", "Found Before It Is Opened", "Listening gear and pressure testing triangulate the leak first. The opening lands on the failure, not three feet of perfectly good ceiling beside it."],
-      ["shield", "Yard and Service Lines Too", "The leak is not always in the house. We locate breaks on the supply run from the well or street and replace the failed section with properly bedded pipe."],
-      ["check", "One Call, Both Halves", "Diagnosis without repair just moves the problem to another contractor. We find it and fix it under one quote, one visit series, one accountable crew."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Exeter, Ontario",
+    "h1": "Leak Detection and Repair in Exeter",
+    "intro": "A hidden leak in Exeter may be within a wall, beneath a floor, or along a buried service line, and each location calls for different checks. Record when the meter moves, where a floor feels warm, and whether staining or dampness changes over time. Photograph affected areas before opening anything. Acoustic listening, pressure testing, and thermal readings can help narrow a suspected source; the pipe route and test results help determine where access and repair may be needed.",
+    "meta": "Leak detection and repair in Exeter, Ontario. Learn what to document for acoustic, pressure, or thermal checks of hidden leaks.",
+    "problem_h": "Is there a warm floor spot, unexplained dampness, or a moving meter?",
+    "problem_p": "Note when the signs occur, photograph affected areas, and record meter readings if safe to do so. This information helps guide testing and limit unnecessary exploratory opening.",
+    "features": [
+      [
+        "droplets",
+        "Narrow the Source Before Opening",
+        "Ask which checks are appropriate for the suspected pipe and location. Acoustic listening, pressure testing, and thermal readings can each contribute evidence, but conditions affect what they reveal. Compare the test findings with the marked opening location before work proceeds. Targeted access can reduce disturbance when the leak is hidden beneath a floor or behind a finished surface."
+      ],
+      [
+        "shield",
+        "Consider Buried Supply Lines",
+        "If the suspected leak may be on a line from a well or street, provide the route, material, and any known repair history. Ask how the location will be narrowed and what excavation or access may be needed. A buried service line has different access and replacement considerations from piping inside the home, including how the pipe will be supported or bedded."
+      ],
+      [
+        "check",
+        "Separate Diagnosis From Repair Scope",
+        "Ask for the suspected failure location, test findings, and proposed repair to be described separately. Confirm whether the work includes only a diagnosis or also repair, and what follow-up testing is proposed. Knowing whether the leak is in a fixture branch, slab, wall, or service line helps compare the repair area and avoid assuming that one visit covers every task."
+      ]
     ],
-    rev: [0, 3, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Exeter, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Huron Plumbing Team",
-    intro: "New South Huron subdivisions are built with sump basins from day one, and older Exeter basements gain theirs the hard way, after a wet spring makes the argument. Exeter Plumbing installs and replaces pumps sized to the drainage load, fits battery backup for the outages that arrive with the weather, and maintains the whole arrangement so the quiet corner keeps doing its job.",
-    meta: "Sump pump installation and service in Exeter, Ontario. Right-sized pumps, battery backup systems, and backwater protection for South Huron basements.",
-    problem_h: "Pump humming all night, or silent when it should run?",
-    problem_p: "Either extreme is trouble. We service, size, and install sump systems for Exeter homes, new build or century.",
-    features: [
-      ["shield", "Sized to the Water", "Basin depth, drainage area, and lift height decide the pump. We measure instead of guessing, so the unit cycles properly and survives the season it was bought for."],
-      ["zap", "Battery Backup Installed", "Rural outages and big storms are the same event in South Huron. A charged backup pump carries the basement through until power returns."],
-      ["refresh", "Maintenance Before the Melt", "An annual check of the float, the check valve, and the discharge keeps a good pump good. We schedule it so spring finds every Exeter system ready."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Exeter, Ontario",
+    "h1": "Sump Pumps and Backwater Planning in Exeter",
+    "intro": "For a sump-pump project in Exeter, photograph the basin, pump label, discharge route, and any backup equipment, then note when the pump runs or fails to start. Basin depth, the area draining to it, and the vertical lift to the discharge all affect pump selection. If the project includes battery backup or backwater protection, ask how each component fits the existing layout. These details help compare replacement, maintenance, and installation scopes without assuming a particular drainage condition.",
+    "meta": "Sump pumps and backwater planning in Exeter, Ontario. Compare pump sizing, battery backup, basin details, and maintenance checks.",
+    "problem_h": "Does the pump run constantly or fail to start?",
+    "problem_p": "Record the pump model, basin dimensions, discharge route, and symptoms. Those details help identify whether to compare maintenance, pump replacement, or backup equipment.",
+    "features": [
+      [
+        "shield",
+        "Size the Pump to the Installation",
+        "Measure basin depth and note the drainage area and lift from the basin to the discharge point. Ask how those figures relate to the proposed pump’s capacity and operating cycle. If the discharge route has bends or a long run, include it in the review because the system layout can affect equipment selection."
+      ],
+      [
+        "zap",
+        "Plan Battery Backup Capacity",
+        "If backup power is being considered, record the primary pump’s specifications and how the discharge line is arranged. Ask how the backup system is sized, how its battery is charged, and what maintenance it requires. A backup pump and its power source need to suit the existing basin and discharge setup rather than being selected independently."
+      ],
+      [
+        "refresh",
+        "Inspect Components Before Seasonal Use",
+        "Before periods when the pump may be needed, check whether the float moves freely, the check valve operates, and the discharge route is clear. Photograph any unusual cycling or noise and note the last known service. These observations help focus a maintenance review on the relevant parts and identify questions about discharge or backup operation."
+      ]
     ],
-    rev: [4, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Exeter, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Huron Plumbing Team",
-    intro: "Huron County groundwater is unapologetically hard, and where it comes from a well it often brings iron and sulphur along for the ride. Exeter Plumbing installs water softeners and filtration sized to a real water test, not a package deal, treating everything from village municipal supply to the deepest farm well, and setting each system up with bypass, drain, and salt access that makes owning it reasonable.",
-    meta: "Water softeners and filtration in Exeter, Ontario. Softeners, iron filters, and sulphur treatment for town water and rural wells across South Huron.",
-    problem_h: "Orange stains and scale rings around the fixtures?",
-    problem_p: "That is Huron water announcing itself. We test it, then treat it with equipment matched to the actual results.",
-    features: [
-      ["gauge", "Sized From a Test", "One water test tells us hardness, iron, and pH, and from that comes equipment capacity. The softener regenerates on a schedule that matches reality, not a default."],
-      ["droplets", "Well Treatment Stacks", "Iron, sulphur, and sediment each answer to a different stage. We build the treatment sequence your well needs, in the order the chemistry requires."],
-      ["shield", "Long Game Economics", "Treated water stretches the life of the heater, the dishwasher, and every faucet with a rubber seal. Fewer scale repairs, fewer replaced tanks, lower running cost."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Exeter, Ontario",
+    "h1": "Water Softeners and Filtration for Exeter Properties",
+    "intro": "Water-treatment equipment should be selected from test results, not from a general assumption about a property in Exeter. If the supply is from a well or municipal system, arrange an appropriate water analysis and keep the results available for review. Hardness, iron, sulphur, pH, and sediment point to different treatment needs. Photograph the plumbing space, drain access, bypass, and existing equipment so proposals can account for capacity, treatment sequence, salt access, and maintenance requirements.",
+    "meta": "Water softeners and filtration in Exeter, Ontario. Compare treatment options using water-test results and installation requirements.",
+    "problem_h": "Are scale deposits, staining, or unusual odours appearing?",
+    "problem_p": "Record where and when the symptoms occur and obtain a water test suited to the supply. Test results help distinguish hardness from other treatment needs and guide equipment selection.",
+    "features": [
+      [
+        "gauge",
+        "Choose Equipment From Test Results",
+        "Compare a water test’s hardness, iron, and pH results with the capacity and operating requirements of proposed equipment. Household use and the supply characteristics affect sizing and regeneration settings. Ask how the selected system responds to the measured results, rather than relying on a default setting or a package selected without testing."
+      ],
+      [
+        "droplets",
+        "Arrange Treatment Stages for the Results",
+        "If test results show iron, sulphur, or sediment, ask which treatment stages are proposed and in what order. Different contaminants may require different processes, and sediment can affect equipment downstream. Reviewing the analysis and proposed sequence helps explain why each component is included and whether the installation space, drain, and bypass arrangements suit the system."
+      ],
+      [
+        "shield",
+        "Review Maintenance and Connected Equipment",
+        "Ask what routine care the proposed softener or filter needs, including salt access, filter changes, regeneration, and drain requirements. If scale has affected a water heater, dishwasher, or fixture, note the symptoms separately and ask whether treatment changes the expected maintenance. This helps compare ongoing ownership needs without assuming a particular reduction in repairs or operating cost."
+      ]
     ],
-    rev: [5, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Water heater died the night before relatives arrived for the beach weekend. They swapped it same day and saved the visit.", "Homeowner", "Exeter"],
-  ["Our kitchen line jammed every few months for years. They jetted it clean and the camera showed why. No trouble since.", "Homeowner", "Crediton"],
-  ["Replumbed the old farmhouse off galvanized. Flow in the upstairs bathroom went from sad to serious.", "Farmer", "Dashwood"],
-  ["Softener sized to our well test, not a flyer. The iron ring in the toilet is finally gone.", "Farmer", "Centralia"],
-  ["Basement took water two springs running. New pump, backup battery, and a backwater valve, and this year it stayed dry.", "Homeowner", "Huron Park"],
-  ["Roughed in our main-floor laundry and a new powder room. Clean work, fair number, no drama at inspection.", "Resident", "Exeter"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless installation with code-corrected venting and fast swaps for failed tanks across Exeter and South Huron.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Snaking and hydro-jetting for greasy kitchen lines, main sewers, and long private runs to septic tanks.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized and polybutylene replacement in PEX or copper for Exeter village homes and surrounding farmhouses.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Toilets, faucets, sinks, and showers installed or roughed in for renovations, new builds, and main-floor laundry moves.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic, pressure, and thermal leak location with repairs measured in inches of opening, not afternoons.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Pumps sized to the drainage load, battery backup for rural outages, and pre-melt maintenance visits.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Softeners and well treatment sized to actual water tests for village supply and farm wells across Huron County.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless equipment by fuel, household demand, capacity, connections, and vent route. Photograph the existing unit label and installation so replacement requirements can be reviewed.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Review snaking or hydro-jetting for a sink, floor drain, main sewer, or long private line. Recurring blockages may warrant camera inspection, especially where a septic system is involved.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Compare partial or whole-home replacement for galvanized or polybutylene piping using PEX or copper. Pipe condition, additions, routing, access, and pressure testing affect the scope.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan toilet, faucet, sink, and shower installations or renovation rough-ins. Fixture models, room measurements, flange and drain conditions, and construction timing help define the work.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Document signs of a hidden leak and compare acoustic listening, pressure testing, or thermal readings. The suspected pipe location helps determine access and repair requirements.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare pump sizing using basin depth, drainage area, lift, and discharge route. Review battery backup, float and check-valve checks, and any backwater protection in the proposed scope.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use water-test results to compare softeners and treatment stages for hardness, iron, sulphur, pH, or sediment. Installation space, drain access, and maintenance needs also matter.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are your plumbers licensed for work in Exeter?", "Yes, fully licensed and insured. Work requiring a permit is filed with the municipality and inspected, and you get the documentation for your records and any future sale."],
-  ["What counts as a plumbing emergency here?", "No water, a burst line, sewage backing into the basement, or a tank leaking across the floor. Those get emergency dispatch across Exeter and South Huron at any hour."],
-  ["How quickly can a failed water heater be replaced?", "Usually the same day. We carry the common residential sizes, so most Exeter homes are back in hot water within hours of the call."],
-  ["Our old house has galvanized pipe. Full repipe or partial?", "It depends on condition and budget, and we will show you both honestly. Often the worst runs can be replaced first, with the rest phased while we monitor pressure and water quality."],
-  ["Can you handle homes on wells and septic?", "That is the norm around here. We treat well water, service the plumbing side of septic systems, and clear lines with the tank and field protected throughout."],
-  ["Does Huron County water really need softening?", "Between the hardness and the iron in many wells, most homes see a real difference. The test tells us, and we only recommend equipment the results justify."],
-  ["Will I know the cost before work begins?", "Always. The quote is written and itemized before tools come out, and it holds unless the scope changes with your approval."],
-  ["Where do you work beyond Exeter?", "Exeter, Grand Bend, Seaforth, Dashwood, Crediton, Huron Park, and Centralia, plus rural routes throughout South Huron and northern Middlesex."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/exeterplumbing.ca-water-heaters.jpg", "Water heater installation in Exeter, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/exeterplumbing.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Exeter, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/exeterplumbing.ca-repiping.jpg", "Whole-home repiping in Exeter, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/exeterplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Exeter, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/exeterplumbing.ca-leak-detection.jpg", "Leak detection and repair in Exeter, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/exeterplumbing.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Exeter, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/exeterplumbing.ca-water-softeners.jpg", "Water softener and filtration installation in Exeter, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/exeterplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Exeter, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/exeterplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning and hydro-jetting in Exeter, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/exeterplumbing.ca-repiping.jpg",
+    "Whole-home repiping in Exeter, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/exeterplumbing.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Exeter, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/exeterplumbing.ca-leak-detection.jpg",
+    "Leak detection and repair in Exeter, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/exeterplumbing.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Exeter, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/exeterplumbing.ca-water-softeners.jpg",
+    "Water softener and filtration installation in Exeter, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

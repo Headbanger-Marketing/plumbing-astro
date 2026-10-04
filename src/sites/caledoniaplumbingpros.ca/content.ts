@@ -1,197 +1,408 @@
-// Per-site content for caledoniaplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Caledonia, on the Grand River in
-// Haldimand County along Highway 6.
-// Local angle: an old village core along the river and dam paired with fast
-// estate-subdivision growth up the highway, older sections where the sewer
-// surcharges in wet weather, rural Haldimand concessions on wells and septic,
-// and Grand River clay that keeps every basement honest.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Caledonia, Ontario",
-    h1: "Water Heater Installation From a Local Haldimand Plumbing Team",
-    intro: "Caledonia housing swings from century village homes along the river to ten-year-old estate builds up Highway 6, and the water heater needs differ just as widely. Caledonia Plumbing Pros swaps aging tanks for properly sized owned units, converts the venting that old chimneys can no longer support, and sets up tankless systems for the households outgrowing a tank. Rural properties on the concessions get the pressure system looked at in the same visit.",
-    meta: "Water heater installation in Caledonia, Ontario. Owned tank swaps, venting conversions, and tankless installs across Haldimand County.",
-    problem_h: "Tank acting its age, or already leaking?",
-    problem_p: "From village cellars to estate utility rooms, we replace Caledonia water heaters with honest sizing and clean venting.",
-    features: [
-      ["flame", "Owned Units Over Rental Fees", "Rental payments quietly outgrow the price of ownership. We run the actual numbers with Caledonia homeowners and install the unit that wins them."],
-      ["clock", "Stocked for Fast Swaps", "Common tank sizes travel on the truck, so a Caledonia failure usually means same-day or next-day hot water, not a week of kettles."],
-      ["shield", "Well System Checked Alongside", "Out on the concessions, weak pressure starves a new heater as surely as age kills an old one. The pressure tank and switch get reviewed in the same visit."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Caledonia, Ontario",
+    "h1": "Water Heater Options for Caledonia Homes",
+    "intro": "For a water heater project in Caledonia, start by recording the existing tank’s capacity, fuel, age, vent route, and any signs of leakage or corrosion. A replacement may involve a straightforward tank change, a venting change if the existing route is unsuitable, or a different system such as tankless. If the property is on a well, note pressure changes and identify the pressure tank and switch so they can be considered alongside the heater. These details help define the equipment and work involved.",
+    "meta": "Water heater planning in Caledonia, Ontario, including tank replacement, venting changes, and tankless options.",
+    "problem_h": "Is the heater leaking, inconsistent, or nearing replacement?",
+    "problem_p": "Photograph the rating plate, connections, vent, and surrounding space. These details help compare replacement sizes and identify whether venting or well-pressure equipment also needs review.",
+    "features": [
+      [
+        "flame",
+        "Compare Ownership and Rental Costs",
+        "If the existing heater is rented, gather the agreement, monthly charge, remaining term, and any buyout figure before comparing options. Ask for equipment cost, installation scope, and ongoing charges separately. This makes the ownership comparison specific to your household rather than relying on a general claim about which option costs less."
+      ],
+      [
+        "clock",
+        "Check the Tank and Venting Details",
+        "Record the tank’s capacity, fuel, vent material, and route, and photograph clearances and nearby connections. A replacement may fit the existing arrangement, while a different appliance or an unsuitable vent route can change the work. Ask what venting is included and what conditions could require additional changes."
+      ],
+      [
+        "shield",
+        "Include Well Pressure in the Assessment",
+        "If the home uses a well, note whether pressure fluctuates and photograph the pressure tank, gauge, and switch. Ask whether those components should be assessed as part of heater planning. Pressure-system concerns can affect the scope of the visit, but should be diagnosed separately rather than assumed to be a heater fault."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Caledonia, Ontario",
-    h1: "Drain Cleaning From a Local Haldimand Plumbing Team",
-    intro: "The Grand has been carving this valley longer than any pipe in it has existed, and the river clay plus generations of tree cover makes Caledonia laterals a recurring battleground for roots and buildup. Caledonia Plumbing Pros clears main lines, kitchen stacks, and floor drains with the right machine for the blockage, jets the line back to full bore, and scopes it so the next decision rests on what the camera shows. Wet-weather backups on the older streets get moved up the queue.",
-    meta: "Drain cleaning in Caledonia, Ontario. Root clearing, hydro-jetting, and camera inspection for valley clay laterals and village sewers.",
-    problem_h: "Sewer slow every time the valley gets rain?",
-    problem_p: "River clay and roots close in on old Caledonia laterals. We clear them fully and put the camera down to prove it.",
-    features: [
-      ["refresh", "Jetting the Whole Wall", "A cable opens a gap, jetting cleans the pipe. Grease, clay fines, and root hair come off the wall so the Caledonia line carries what it was built to."],
-      ["droplets", "Camera-Verified Clearing", "The scope goes down after the clearing, and you watch the result. If a joint has shifted or roots have split a section, the repair conversation starts from evidence."],
-      ["shield", "Wet-Weather Priority", "Older streets near the river see backups cluster during wet spells. Those calls jump our Caledonia schedule, because waiting just adds water."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Caledonia, Ontario",
+    "h1": "Drain Cleaning and Camera Inspection in Caledonia",
+    "intro": "For drain work in Caledonia, note which fixtures are slow, whether more than one drain is affected, and when the symptoms occur. If a backup follows heavy rain or affects several fixtures, tell the plumbing professional and photograph any visible cleanouts or floor drains. A cable may reopen a blockage, while hydro-jetting can clean pipe walls where conditions permit. A camera inspection can show whether roots, a shifted joint, or another defect remains, helping distinguish a cleaning from a repair project.",
+    "meta": "Drain cleaning in Caledonia, Ontario, with guidance on cable clearing, jetting, and camera inspection.",
+    "problem_h": "Do several fixtures slow down or back up together?",
+    "problem_p": "List affected fixtures and note weather or timing. A camera inspection after clearing can help establish whether the line is open or a pipe defect needs separate attention.",
+    "features": [
+      [
+        "refresh",
+        "Choose a Cleaning Method for the Blockage",
+        "Ask whether the proposed method is a cable or hydro-jetting and why it suits the observed blockage. A cable can make an opening through an obstruction; jetting can clean more of the pipe wall when pipe condition allows. Grease, deposits, or root material may affect the choice, so the method should follow inspection rather than assumption."
+      ],
+      [
+        "droplets",
+        "Use the Camera to Check the Result",
+        "Ask whether a camera can be used after clearing and whether you can review the footage or findings. The image may show remaining roots, a shifted joint, or a damaged section that cleaning cannot repair. This evidence helps compare another cleaning with a targeted repair and gives a clearer basis for the next decision."
+      ],
+      [
+        "shield",
+        "Record Timing and Backup Conditions",
+        "If a backup appears during wet weather, record the date, rainfall context, affected fixtures, and water level, and photograph any visible signs. This information can help plan inspection of the lateral and distinguish a recurring restriction from other causes. Do not assume weather identifies the fault; the pipe condition and camera findings determine the appropriate scope."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Caledonia, Ontario",
-    h1: "Repiping From a Local Haldimand Plumbing Team",
-    intro: "The village streets hold their share of original galvanized, and the wave of building between the sixties and nineties brought poly-B fittings that have aged exactly as feared. Caledonia Plumbing Pros replaces both in PEX or copper, whether the house is a compact village semi or a farmhouse out on the concessions, sequencing the work so the household keeps running water and filing every job under permit with a full pressure test before close-up.",
-    meta: "Repiping in Caledonia, Ontario. Galvanized and poly-B replacement for village homes and farmhouses, permitted and pressure-tested.",
-    problem_h: "Second pinhole repair in two years?",
-    problem_p: "Repeat leaks mean the system is failing, not unlucky. We repipe Caledonia homes completely and end the pattern.",
-    features: [
-      ["wrench", "Village and Farmhouse Repipes", "Compact village layouts and spread-out rural homes each get their own routing plan. Either way, openings stay small and the water stays on overnight."],
-      ["home", "Poly-B Removed for Good", "Insurance questions and fittings that let go without warning make poly-B replacement a clear win. We map the whole system so nothing gets left behind in a wall."],
-      ["shield", "Permit and Inspection Included", "Every Caledonia repipe is filed with the county, tested under pressure, and inspected. The record stays with the house for the next owner."]
+    "icon": "wrench",
+    "kicker": "Repiping in Caledonia, Ontario",
+    "h1": "Repiping Options for Caledonia Homes",
+    "intro": "If planning repiping in Caledonia, identify visible pipe materials, note where leaks or low flow occur, and photograph accessible runs, the water meter, and previous repairs. Galvanized pipe and poly-B can call for different assessment and replacement planning; confirm the material rather than relying on the home’s age alone. Ask whether PEX or copper is proposed, how routes and access openings will be chosen, and what testing and documentation are included. The layout and condition of the system shape the work.",
+    "meta": "Repiping in Caledonia, Ontario, with planning guidance for galvanized and poly-B replacement in PEX or copper.",
+    "problem_h": "Are repeated leaks or pipe concerns prompting a full-system review?",
+    "problem_p": "Photograph accessible pipe markings and leak locations. Identifying materials and layout helps determine whether the scope is a repair or a planned replacement.",
+    "features": [
+      [
+        "wrench",
+        "Plan Routes for the Home Layout",
+        "A compact home and a spread-out farmhouse may call for different pipe routes and access points. Photograph visible plumbing, finished walls, and areas that must remain accessible, then ask how the proposed route affects openings and water interruptions. Reviewing the layout early helps compare practical options without assuming every home can use the same routing plan."
+      ],
+      [
+        "home",
+        "Confirm Whether Poly-B Is Present",
+        "If a pipe is marked poly-B, photograph the marking and note accessible fittings and previous repairs. Ask how the assessment will trace the system, including concealed runs, and how any unconfirmed sections will be handled. Mapping the material helps clarify whether replacement is partial or system-wide and reduces the chance that the scope overlooks an area."
+      ],
+      [
+        "shield",
+        "Ask What Testing and Records Are Included",
+        "Request a written scope stating the pipe material, work areas, testing procedure, and any required approvals or inspections. Do not assume these are included; verify who is responsible for confirming applicable requirements and keeping records. A clear record of the completed work and test results can help with future maintenance and explain the system to a later owner."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Caledonia, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Haldimand Plumbing Team",
-    intro: "Growth up the highway means Caledonia fixture work runs two directions at once, updating the bathrooms the village has lived with for decades, and finishing the ensuites and mudrooms of new estate builds to a standard the builder's schedule sometimes rushed. Caledonia Plumbing Pros handles both, setting toilets and faucets that seal tight, roughing in basement bathrooms and laundry rooms, and correcting the quick-fix installs that new homeowners discover too late.",
-    meta: "Fixture and toilet installation in Caledonia, Ontario. Bathroom updates, new-estate finish plumbing, and basement rough-ins.",
-    problem_h: "Builder-grade troubles or a long-overdue update?",
-    problem_p: "Village renos and new-estate corrections get the same careful setting and sealing from our Caledonia crews.",
-    features: [
-      ["home", "Builder Corrections", "Loose toilets, unbalanced shower valves, and rattling pipes from the original build get redone properly. New Caledonia subdivisions keep us busy fixing exactly this."],
-      ["check", "Basement and Laundry Rough-Ins", "Growing households add bathrooms and laundry below grade. We plan the drainage honestly before the floor conversation, gravity or pumping, and permit it either way."],
-      ["dollar", "Honest Fix-or-Replace Calls", "A good fixture with a worn cartridge deserves a rebuild, not a landfill. We quote the repair when the repair is the better Caledonia answer."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Caledonia, Ontario",
+    "h1": "Fixture and Toilet Installation Planning in Caledonia",
+    "intro": "For a fixture or toilet project in Caledonia, photograph the existing connections, note any leaks or movement, and measure the available space before choosing replacement equipment. A straightforward fixture update differs from correcting an earlier installation or adding a basement bathroom. For below-grade work, check whether drainage can flow by gravity or whether a pumping arrangement may be needed; that distinction can change both equipment and layout. A written scope should identify the fixtures, connections, access, and any approvals to verify before work starts.",
+    "meta": "Fixture and toilet installation planning in Caledonia, including bathroom updates and basement rough-ins.",
+    "problem_h": "Is a fixture failing, or are you planning a bathroom addition?",
+    "problem_p": "Photograph the fixture, connections, and room layout. For basement work, ask how drainage will be routed and whether gravity or pumping affects the proposed scope.",
+    "features": [
+      [
+        "home",
+        "Review Corrections to Earlier Installations",
+        "If a toilet rocks, a shower valve behaves unevenly, or pipes rattle, photograph or record the symptom and when it occurs. Ask whether the cause is the fixture, its setting, or a connected pipe. Identifying the source helps distinguish a focused correction from replacement and avoids treating every noise or movement as the same problem."
+      ],
+      [
+        "check",
+        "Plan Basement and Laundry Rough-Ins",
+        "Before adding a basement bathroom or laundry, identify fixture locations, existing drains, and the floor level, and ask how drainage will reach the system. Gravity drainage may be possible, while another layout may require pumping equipment. That choice affects the rough-in, space, and project scope, so clarify it before finishes or flooring are planned."
+      ],
+      [
+        "dollar",
+        "Compare Repair With Replacement",
+        "A worn cartridge or other replaceable component may be repairable even when a fixture looks dated. Photograph the model or markings and describe the fault, then ask for repair and replacement scopes where both are practical. Comparing parts, labour, compatibility, and expected project disruption helps make a decision based on the actual fixture rather than an automatic replacement."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Caledonia, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Haldimand Plumbing Team",
-    intro: "River-valley ground gives every Caledonia damp spot two possible parents, seepage through the clay toward the foundation, or a supply line weeping where nobody can see it, and guessing wrong is expensive in both directions. Caledonia Plumbing Pros isolates the plumbing system under pressure and listens with acoustic gear first, then repairs the confirmed failure through a single planned opening. Rural properties add one more clue we chase well, a pressure pump that cycles when the house sleeps.",
-    meta: "Leak detection and repair in Caledonia, Ontario. Pressure isolation, acoustic location, and pump cycling diagnosis for valley properties.",
-    problem_h: "Damp foundation wall or a pump that will not rest?",
-    problem_p: "We separate ground seepage from real plumbing leaks in Caledonia homes, then fix what the evidence names.",
-    features: [
-      ["droplets", "Prove It Before Opening It", "Pressure isolation either holds or it does not. That single test keeps Caledonia walls closed when the moisture was never plumbing to begin with."],
-      ["shield", "Pump Cycling Run to Ground", "On the concessions, a pump that runs with every tap shut has a leak or a failing valve somewhere on the line. We test each in turn and repair the guilty one."],
-      ["check", "One Access, One Repair", "Acoustic pinpointing lands the opening on the failure itself. The patch stays small enough that the room forgives it."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Caledonia, Ontario",
+    "h1": "Leak Detection and Repair Planning in Caledonia",
+    "intro": "A damp spot in a Caledonia home does not by itself identify a plumbing leak. Record when moisture appears, photograph its location and spread, and note water use, meter movement, or pump cycling if observable. A plumbing assessment may isolate the system under pressure and use acoustic equipment to locate a confirmed leak before opening a wall or floor. If the home has a well and its pump runs while taps are closed, mention that pattern; it may call for separate checks of the line and valves.",
+    "meta": "Leak detection in Caledonia, Ontario, including pressure isolation, acoustic location, and well-pump cycling checks.",
+    "problem_h": "Is there unexplained moisture or a well pump that keeps cycling?",
+    "problem_p": "Record when moisture appears and whether the pump runs with taps closed. These observations help direct testing before choosing an access point or repair.",
+    "features": [
+      [
+        "droplets",
+        "Test Before Opening Walls",
+        "Ask whether the plumbing system can be isolated and tested under pressure before finishes are opened. A test result can help distinguish a supply-side leak from moisture with another cause. Photograph the damp area and any nearby plumbing; combining observations with test findings helps determine whether an opening is warranted and where it should be planned."
+      ],
+      [
+        "shield",
+        "Check Pump Cycling With Fixtures Closed",
+        "If the property uses a well, note when the pump starts and stops and whether taps, toilets, or appliances are drawing water. Ask how the pressure system, line, and relevant valves will be tested. A pump that cycles without an obvious draw needs diagnosis; documenting the pattern helps distinguish a leak from another pressure-system issue."
+      ],
+      [
+        "check",
+        "Pinpoint the Repair Access",
+        "Ask what evidence supports the proposed opening and whether acoustic equipment can help locate the suspected failure. Photograph finishes and nearby service access before work is planned. A more specific location can limit unnecessary exploratory openings, while the confirmed pipe condition determines the repair itself and the size of the access required."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Caledonia, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Haldimand Plumbing Team",
-    intro: "The river sets the terms in Caledonia, high water pushes through valley clay toward every basement on the low streets, and the older sewer sections surcharge right when the storm peaks. Caledonia Plumbing Pros installs sump systems matched to the yard's inflow with discharge routed to actually leave the property, battery backup for the outage hours, and backwater valves where the main is the real threat. Dry basements here are built on purpose.",
-    meta: "Sump pump and backwater valve installation in Caledonia, Ontario. River-valley groundwater control and sewer surcharge protection.",
-    problem_h: "Every river flood warning, same worry?",
-    problem_p: "Low-street Caledonia basements need pumping and backwater protection designed for valley water, and we build it.",
-    features: [
-      ["shield", "Basins and Pumps That Keep Up", "We core a proper basin and size the pump to observed inflow, so the system cycles normally in a melt instead of running a losing marathon."],
-      ["zap", "Backup Through the Outage", "Valley storms and power failures travel together. Battery-backed pumping covers exactly the hours the grid does not."],
-      ["refresh", "Backwater Valves, Permitted and Inspected", "Where the older sewer surcharges, a backwater valve is the difference between a wet floor and a ruined one. We file the county permit and meet the inspection."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Caledonia, Ontario",
+    "h1": "Sump Pumps and Backwater Planning in Caledonia",
+    "intro": "For a sump or backwater project in Caledonia, record when water enters, where it appears, and whether the concern follows rainfall, snowmelt, or a sewer backup. Photograph the sump basin, pump label, discharge route, and any floor drains or cleanouts. If water enters through the foundation, pumping and discharge planning may be relevant; if it returns through a sewer connection, a backwater valve may be worth assessing. The observed source, available power, and discharge destination determine the appropriate equipment and scope.",
+    "meta": "Sump pump and backwater planning in Caledonia, including discharge, backup power, and sewer protection options.",
+    "problem_h": "Does basement water follow rainfall, power loss, or a drain backup?",
+    "problem_p": "Photograph the basin, pump, discharge, and affected area. Identifying how water enters helps distinguish a sump issue from possible sewer surcharge protection.",
+    "features": [
+      [
+        "shield",
+        "Size the Basin and Pump to Observed Inflow",
+        "Note how often the pump runs, how long it runs, and whether the basin appears to fill rapidly. Photograph the pump label and basin dimensions if accessible. Ask how observed inflow informs pump capacity and basin planning; sizing from the actual site conditions helps compare equipment without assuming every basement needs the same arrangement."
+      ],
+      [
+        "zap",
+        "Plan for Power Interruptions",
+        "If pumping is important during an outage, ask whether a battery-backed system is suitable and what its limits and maintenance needs are. Record the pump’s electrical supply and any existing backup equipment. This helps clarify what continues operating when grid power is unavailable and whether the proposed backup matches the expected pump and project requirements."
+      ],
+      [
+        "refresh",
+        "Assess Backwater Valve Suitability",
+        "If water has returned through a floor drain or sewer connection, document where and when it appeared and ask whether a backwater valve is appropriate for the plumbing layout. Confirm applicable approvals, inspection requirements, and who is responsible for checking them. Valve placement and access affect the scope, and a valve should not be treated as a substitute for diagnosing other sources of water."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Caledonia, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Haldimand Plumbing Team",
-    intro: "In-town Caledonia water runs hard enough to mark its territory on glass and elements, and once you cross onto the concessions the wells take over with iron and sulphur profiles that vary almost lot to lot. Caledonia Plumbing Pros installs softeners and filtration sized from a test of your actual water, plumbed with a bypass for painless service, and staged with iron and sulphur treatment where the well results call for it. The kettle tells the story afterward.",
-    meta: "Water softeners and filtration in Caledonia, Ontario. Test-based softener installs and staged well treatment across Haldimand County.",
-    problem_h: "Element white and fixtures orange?",
-    problem_p: "Town hardness or well iron, we test first and build Haldimand treatment that fits the water you actually have.",
-    features: [
-      ["gauge", "Grain Capacity From the Test", "Hardness in Caledonia differs between the town supply and every surrounding well. Capacity follows the lab sheet so regeneration runs lean."],
-      ["droplets", "Iron and Sulphur Handled", "Concession wells bring staining and odour in varying mixes. We stage oxidation and filtration in the order your results demand."],
-      ["dollar", "Cheaper Than Replacing Fixtures", "Softened, filtered water lets heaters, appliances, and finishes reach full life. The treatment earns its keep in what stops failing."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Caledonia, Ontario",
+    "h1": "Water Softener and Filtration Planning in Caledonia",
+    "intro": "Water treatment for a Caledonia property should be based on a sample from its actual supply, not on the municipality or location alone. If the home has a well, obtain suitable test results for hardness, iron, and sulphur-related concerns before selecting equipment. For a municipal connection, confirm the measured hardness and describe the scale or staining you observe. Photograph the plumbing area and note available drain and electrical connections. Results and installation constraints help determine treatment stages, capacity, and bypass needs.",
+    "meta": "Water softener and filtration planning in Caledonia, based on test results and the property’s supply.",
+    "problem_h": "Are scale, staining, or odour leading you to consider treatment?",
+    "problem_p": "Use test results from the property’s supply and record the symptoms. Results help distinguish softening needs from iron or odour treatment and guide equipment choices.",
+    "features": [
+      [
+        "gauge",
+        "Match Capacity to Test Results",
+        "Ask for the hardness result, the proposed equipment capacity, and the assumptions used to size it, including household water use. If comparing a municipal supply with a well, use results for the specific property rather than assuming they match. Appropriate capacity affects regeneration frequency and helps compare systems on the same evidence."
+      ],
+      [
+        "droplets",
+        "Choose Treatment Stages From Well Results",
+        "If a well test shows iron or a sulphur-related issue, ask which treatment stages are proposed and why that order suits the results. Photograph staining and note any odour, but do not use appearance alone to select equipment. Test findings and plumbing constraints guide whether oxidation, filtration, or another combination belongs in the project."
+      ],
+      [
+        "dollar",
+        "Compare Treatment With the Actual Problem",
+        "List the affected fixtures or appliances and photograph scale or staining before comparing equipment. Ask which measured condition each proposed treatment addresses and what maintenance or consumables it involves. This makes it easier to compare the system’s scope and ongoing needs without assuming treatment will prevent every appliance or fixture problem."
+      ]
     ],
-    rev: [4, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Bought out the rental tank and they redid the venting the last outfit refused to touch. Water stays hot through back-to-back showers now.", "Homeowner", "Caledonia"],
-  ["Sewer backed up twice every wet fall. They jetted it, scoped it, and showed us the root-split section. Repaired once, no trouble since.", "Resident", "Caledonia"],
-  ["Repiped our village semi off the galvanized in a week with water every night. Patching was minimal and inspected properly.", "Homeowner", "Caledonia"],
-  ["New subdivision house came with a wobbly toilet and a rattling shower valve. Redone right in one visit, should have been like this from day one.", "Homeowner", "Townsend"],
-  ["Battery backup earned its keep the night the power died during the spring high water. Pit never came close to the lid.", "Resident", "York"],
-  ["Well was staining the tub orange and smelling of eggs before the open house. Test-based treatment fixed both inside the month.", "Farmer", "Canfield"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Owned tank swaps, venting conversions, and tankless installs for village homes and estate builds.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Root clearing, jetting, and camera-verified cleaning for Caledonia's valley clay laterals.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized and poly-B replacement across village streets and rural concessions, permitted and tested.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Bathroom updates, builder-grade corrections, and basement rough-ins for growing households.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Pressure isolation and pump cycling diagnosis that find the real failure before anything opens.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "River-valley groundwater control with backup power and permitted surcharge valves.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Treatment sized from actual water tests, staged for town hardness or concession well iron.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank replacement, venting changes, and tankless options using the existing heater’s capacity, fuel, vent route, and household needs.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Describe affected fixtures and timing; cable clearing, hydro-jetting, and camera inspection address different conditions and can inform next steps.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Identify visible galvanized or poly-B pipe and document leaks. Compare PEX or copper routing, access, testing, and applicable approvals.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan fixture replacements, installation corrections, and basement rough-ins. Drainage by gravity or pumping can change the work required.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Record damp areas and pump cycling. Pressure isolation and acoustic location can help determine whether plumbing is the source before access is planned.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare sump capacity, discharge routing, backup power, and possible backwater protection based on where and how water enters.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use test results from the property’s supply to compare softener capacity and any additional iron or odour treatment stages.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed for plumbing work in Caledonia and Haldimand?", "Yes, licensed and insured throughout the county. Work that needs a permit gets one through the county, and the inspection is passed before we finish."],
-  ["Do you respond to emergencies around Caledonia?", "We do. Burst pipes, sewer backups, flooding, and total no-water calls across Caledonia and the nearby concessions get priority response, evenings included."],
-  ["How soon can a leaking water heater be replaced?", "Usually same day or the next morning. Common tank sizes ride on the truck, so most Caledonia swaps are a single-visit job."],
-  ["Our older house has had two pinhole leaks. Repipe time?", "That pattern says the piping is done. We replace the failing system in PEX or copper, sequenced so the house keeps water, with the permit and test included."],
-  ["Does the river really affect our basement plumbing?", "High water pushes through the valley clay and the older sewer sections surcharge in storms. Sized sump systems and backwater valves are what stand between that and a flooded rec room."],
-  ["Do we need a softener on town water, or just on a well?", "Town water runs hard enough that most Caledonia homes benefit, and wells usually add iron on top. We test both kinds before recommending anything."],
-  ["How does your quoting work?", "We see the job, quote it in writing, and start only after you approve the number. The figure at the end is the figure you approved."],
-  ["What area do you cover from Caledonia?", "Caledonia plus Hagersville, Dunnville, Cayuga, Fisherville, Jarvis, and Townsend, along with the rural roads connecting them."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/caledoniaplumbingpros.ca-water-heaters.jpg", "Water heater installation in Caledonia, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/caledoniaplumbingpros.ca-drain-cleaning.jpg", "Sewer cleaning in Caledonia, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/caledoniaplumbingpros.ca-repiping.jpg", "Home repipe in Caledonia, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/caledoniaplumbingpros.ca-fixtures-toilets.jpg", "Fixture installation in Caledonia, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/caledoniaplumbingpros.ca-leak-detection.jpg", "Leak detection in Caledonia, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/caledoniaplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Caledonia, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/caledoniaplumbingpros.ca-water-softeners.jpg", "Water softener installation in Caledonia, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/caledoniaplumbingpros.ca-water-heaters.jpg",
+    "Water heater installation in Caledonia, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/caledoniaplumbingpros.ca-drain-cleaning.jpg",
+    "Sewer cleaning in Caledonia, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/caledoniaplumbingpros.ca-repiping.jpg",
+    "Home repipe in Caledonia, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/caledoniaplumbingpros.ca-fixtures-toilets.jpg",
+    "Fixture installation in Caledonia, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/caledoniaplumbingpros.ca-leak-detection.jpg",
+    "Leak detection in Caledonia, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/caledoniaplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump installation in Caledonia, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/caledoniaplumbingpros.ca-water-softeners.jpg",
+    "Water softener installation in Caledonia, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "hagersville": {
-    name: "Hagersville",
-    intro: "Hagersville sits at the junction of the county roads south of Caledonia, a service town for the surrounding farm country with a stock of older homes and newer infill. Caledonia Plumbing Pros serves Hagersville with water heater replacement, drain cleaning, repiping, and well treatment for the rural lots around town. Highway 6 puts us minutes away, so service here is never a special trip.",
-    meta: "Plumber in Hagersville, Ontario. Water heaters, drains, repipes, and well water treatment south of Caledonia.",
-    nearby: ["Caledonia", "Haldimand", "Jarvis", "Townsend"],
-    faq: [
-      ["Do you replace water heaters in Hagersville?", "Yes, with the common sizes stocked and most swaps completed in a single visit."],
-      ["Can you treat Hagersville area wells?", "Yes. Iron, hardness, and sulphur each get staged from the test results your well actually shows."],
-      ["Do you clear roots from Hagersville sewer lines?", "Yes, with jetting and a camera pass to verify the line afterward."],
-      ["Is Hagersville within your emergency range?", "Yes. Flood and no-water calls here get the same priority as Caledonia itself."]
+    "name": "Hagersville",
+    "intro": "For a plumbing project in Hagersville, describe the property’s supply, existing equipment, and the symptoms that prompted the inquiry. If the home uses a well, test results for hardness, iron, or sulphur-related concerns can help compare treatment options; pressure-system details may also affect the scope. For a drain concern, record which fixtures are affected and whether a camera inspection has been completed. Heater capacity, venting, and visible pipe material are useful details to photograph before discussing replacement or repiping.",
+    "meta": "Plumbing project planning in Hagersville, Ontario, including water heaters, drains, repiping, and well treatment.",
+    "nearby": [
+      "Caledonia",
+      "Haldimand",
+      "Jarvis",
+      "Townsend"
     ],
+    "faq": [
+      [
+        "What information helps plan a water heater replacement in Hagersville?",
+        "Photograph the rating plate, vent route, fuel connection, and surrounding space. Capacity and vent details help compare a straightforward tank change with work that may involve a different venting arrangement."
+      ],
+      [
+        "How should I compare treatment for a Hagersville-area well?",
+        "Use test results from the property’s water and identify the symptoms, such as hardness, staining, or odour. The results help determine which treatment stages are relevant."
+      ],
+      [
+        "What should I ask about roots in a sewer line?",
+        "Describe recurring symptoms and ask whether the proposed clearing method suits the blockage. A camera inspection can help show whether roots remain or a damaged joint needs separate attention."
+      ],
+      [
+        "How should I plan a time-sensitive plumbing inquiry?",
+        "Describe the current condition, any active water flow, and affected fixtures, and provide photographs if safe. Timing and next steps depend on the circumstances and must be confirmed for the specific inquiry."
+      ]
+    ]
   },
   "cayuga": {
-    name: "Cayuga",
-    intro: "Cayuga holds down the county seat on the Grand south of Caledonia, a quiet town of heritage buildings, riverside homes, and properties running out to the flats and concessions. Caledonia Plumbing Pros covers Cayuga for sump and backwater work that the river makes sensible, water heater swaps, fixture installation, and complete well treatment. County-town work, county-town care.",
-    meta: "Plumber in Cayuga, Ontario. Riverside sump protection, water heaters, and well treatment for the Haldimand county seat.",
-    nearby: ["Caledonia", "Dunnville", "Fisherville", "Hagersville"],
-    faq: [
-      ["Does riverside Cayuga really need sump protection?", "The flats and the older sewers make it worth taking seriously. We assess the yard and size the protection to match."],
-      ["Can you repipe an older Cayuga home?", "Yes. Heritage-stock galvanized gets replaced in PEX or copper with minimal openings and full permits."],
-      ["Do you service wells around Cayuga?", "Yes, pressure systems, well lines, and staged treatment from proper water tests."],
-      ["How fast can you reach Cayuga?", "Cayuga sits on our regular routes, and emergencies get priority scheduling."]
+    "name": "Cayuga",
+    "intro": "For a plumbing project in Cayuga, document the source and timing of water concerns before comparing equipment or repairs. If a basement gets wet, photograph the entry point, sump basin, discharge route, and any affected floor drain; these details help distinguish possible groundwater entry from sewer backup. For an older home, photograph accessible pipe markings and previous repairs when considering repiping. Well owners can use property-specific test results to guide treatment choices. The observed layout and condition, rather than the town name, determine the project scope.",
+    "meta": "Plumbing project planning in Cayuga, Ontario, including sump systems, backwater assessment, repiping, and water treatment.",
+    "nearby": [
+      "Caledonia",
+      "Dunnville",
+      "Fisherville",
+      "Hagersville"
     ],
+    "faq": [
+      [
+        "How can I assess whether a sump system suits my Cayuga property?",
+        "Record where water appears, when it occurs, and how the existing pump performs. The basin, observed inflow, and discharge destination help inform equipment planning."
+      ],
+      [
+        "What should I document before repiping an older home?",
+        "Photograph accessible pipe markings, leak locations, and previous repairs. Ask how the system will be mapped and what material, routing, testing, and approvals the written scope includes."
+      ],
+      [
+        "What information is useful for a well treatment inquiry?",
+        "Provide a current test of the property’s water and describe any hardness, staining, or odour. Results help distinguish softening from additional filtration needs."
+      ],
+      [
+        "What should I provide when asking about a plumbing visit?",
+        "Explain the symptoms, affected areas, and whether water is actively entering or leaking. Photographs and details about access help clarify the inquiry; timing must be confirmed for the specific circumstances."
+      ]
+    ]
   },
   "fisherville": {
-    name: "Fisherville",
-    intro: "Fisherville sits in the north of Haldimand amid flat, wet farm country, a small community where wells and septic handle the water on both ends and the ground holds moisture late into spring. Caledonia Plumbing Pros serves Fisherville with well treatment, sump and discharge work, water heater replacement, and everyday plumbing for the homes and farmyards. Rural work is the rule here, and it is the work we do best.",
-    meta: "Plumber in Fisherville, Ontario. Well treatment, sump protection, and farm property plumbing in northern Haldimand County.",
-    nearby: ["Caledonia", "Cayuga", "Jarvis", "Hagersville"],
-    faq: [
-      ["Do you handle farm properties near Fisherville?", "Yes. Farmyards, wells, pressure systems, and farmhouse plumbing around Fisherville are regular calls."],
-      ["Our Fisherville sump runs all spring. Is that normal?", "Common, but worth sizing properly. A pump in a constant marathon needs capacity and a discharge that never freezes."],
-      ["Can you fix iron staining from our Fisherville well?", "Yes. Test-based staging with the right oxidation and filtration takes the orange out reliably."],
-      ["Do you come out for emergencies in Fisherville?", "Yes. No-water and flood calls get priority response across the northern county roads."]
+    "name": "Fisherville",
+    "intro": "For plumbing work in Fisherville, note whether the property uses a well, septic system, or both, and identify the equipment involved before discussing scope. If considering treatment, use test results from that well rather than assuming conditions from nearby properties. For a sump concern, photograph the basin, pump label, discharge route, and any signs of freezing or repeated cycling. Farm and farmhouse layouts can affect access and pipe routing, so record visible connections and distances that may help explain the project.",
+    "meta": "Plumbing project planning in Fisherville, Ontario, including well treatment, sump systems, and farmhouse plumbing.",
+    "nearby": [
+      "Caledonia",
+      "Cayuga",
+      "Jarvis",
+      "Hagersville"
     ],
-  },
+    "faq": [
+      [
+        "What details should I provide about a farm property plumbing project?",
+        "Describe the buildings and equipment involved, identify the water supply, and photograph accessible lines or pressure-system components. Layout and access help clarify the scope."
+      ],
+      [
+        "What if a sump pump runs frequently in spring?",
+        "Record how often it cycles, how long it runs, and where its discharge goes. Those observations help assess pump capacity and whether the discharge route needs attention."
+      ],
+      [
+        "How should I investigate iron staining from a well?",
+        "Use a water test from the property and photograph affected fixtures. Test results help determine whether iron treatment is relevant and which treatment stages to compare."
+      ],
+      [
+        "What should I include in an urgent plumbing inquiry?",
+        "Describe whether water is entering or supply is interrupted, identify affected equipment, and share photographs if safe. The next steps and timing depend on the specific conditions."
+      ]
+    ]
+  }
 };

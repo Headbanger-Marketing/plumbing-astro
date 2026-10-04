@@ -1,197 +1,408 @@
-// Per-site content for waterlooplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Waterloo, Waterloo County, university
-// city north of Kitchener.
-// Local angle: student rentals near two universities that punish drains and
-// fixtures, August turnover season, Uptown century homes on galvanized, poly-B
-// in seventies subdivisions, Laurel Creek and north-end clay keeping basements
-// wet, and shared hard aquifer water.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Waterloo, Ontario",
-    h1: "Water Heater Installation From a Local Waterloo Plumbing Team",
-    intro: "Two universities means Waterloo housing runs hot water around the clock, eight months a year, and a tank that is merely adequate in September is failing by midterms. Waterloo Plumbing Pros sizes water heaters for the way this city actually lives, whether that is a five-bedroom student rental off University Avenue, a family home in Vista Hills, or an Uptown century house ready to ditch a rented tank. Same-day swaps, tankless conversions, and honest sizing, done by licensed plumbers.",
-    meta: "Water heater installation in Waterloo, Ontario. Tank and tankless units for student rentals, family homes, and Uptown century houses, with same-day emergency swaps by licensed Waterloo plumbers.",
-    problem_h: "Rented tank on its last legs, or no hot water at all?",
-    problem_p: "We size and install water heaters for Waterloo rentals and family homes, with same-day swaps when a tank quits.",
-    features: [
-      ["flame", "Sized for Real Demand", "A student house with five showers back to back needs recovery, not just capacity. We calculate actual peak use for your Waterloo household and match the tank or tankless unit to it."],
-      ["clock", "Turnover-Season Speed", "Units flip between academic years and a dead tank costs you tenants. We stage replacements around the August rush and get hot water restored the same day wherever possible."],
-      ["shield", "Code-Complete Installs", "Relief valves, drain pans, venting, and the municipal permit are all handled on our side. Your Waterloo install passes inspection and stays legal for resale."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Waterloo, Ontario",
+    "h1": "Water Heater Installation for Homes in Waterloo",
+    "intro": "Choosing a replacement water heater starts with the household’s peak demand, fuel supply, venting, and available installation space. For a rental with several showers used close together, compare recovery rate as well as tank capacity; a tankless system has different flow and venting requirements. Before requesting a quote for a Waterloo property, photograph the existing unit’s data plate, connections, vent, and surrounding clearance. Those details help determine whether the work is a straightforward replacement or a more involved conversion.",
+    "meta": "Compare tank and tankless water heater installation options for a home or rental in Waterloo, Ontario.",
+    "problem_h": "Is the water heater failing, or struggling to meet demand?",
+    "problem_p": "A replacement plan depends on the existing unit, household peak use, fuel, venting, and installation space. Gather those details before comparing tank and tankless options.",
+    "features": [
+      [
+        "flame",
+        "Match Capacity to Peak Use",
+        "List how many people may shower, run laundry, or use hot water at the same time. Compare that peak demand with a tank’s capacity and recovery rate, or a tankless unit’s flow at the required temperature rise. For a rental with concentrated morning use, this can change the appropriate equipment and connection requirements."
+      ],
+      [
+        "clock",
+        "Check Replacement Constraints",
+        "Photograph the data plate, shutoffs, vent route, and clearances around the existing heater. Ask whether the proposed replacement uses the same fuel and venting arrangement, and whether access through the mechanical room is adequate. A change in equipment type or location can add work beyond exchanging the unit."
+      ],
+      [
+        "shield",
+        "Request a Clear Installation Scope",
+        "Ask for the proposed model, removal and disposal details, connection changes, and any inspection or permit requirements that apply. Compare the written scope with the visible installation, including the relief-valve discharge and venting. Confirm who is responsible for each required step rather than assuming it is included."
+      ]
     ],
-    rev: [1, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Waterloo, Ontario",
-    h1: "Drain Cleaning From a Local Waterloo Plumbing Team",
-    intro: "Anyone who has pulled a decade of hair from a student-house shower drain knows Waterloo plumbing takes abuse no brochure anticipates. Waterloo Plumbing Pros clears what this city plugs up, grease in rental kitchens, soap sludge in laundry lines, and main-line roots under the older streets near Uptown. Snaking clears the immediate problem, hydro-jetting restores the pipe, and a camera run tells you which one your house needs.",
-    meta: "Drain cleaning in Waterloo, Ontario. Snaking, hydro-jetting, and camera inspection for rental-property clogs, kitchen grease, laundry lines, and rooted main lines by licensed plumbers with fast dispatch.",
-    problem_h: "Shower ankle-deep, or a main line that backs up every term?",
-    problem_p: "We clear the drains Waterloo households plug up, then camera the line so the same clog stops coming back.",
-    features: [
-      ["refresh", "Jetting for Rental Lines", "Rental kitchens and laundry rooms coat pipe walls in grease and soap faster than family homes do. Hydro-jetting strips that layer off completely instead of poking through it."],
-      ["droplets", "Camera Answers Recurrence", "A drain that blocks on a schedule is telling you something. We put a camera through the line and show you the root ball or the sag before you pay for another temporary clear."],
-      ["users", "Landlord Maintenance Visits", "Property owners around the universities book drain checks between tenancies. A cleaned line in September prevents the emergency call in November."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Waterloo, Ontario",
+    "h1": "Drain Cleaning and Inspection in Waterloo",
+    "intro": "A slow fixture, recurring blockage, and a backed-up main drain can require different equipment and different scopes of work. A cable machine may clear a localized obstruction, while hydro-jetting can remove buildup along suitable pipe walls; a camera inspection can help investigate repeated blockages. Before arranging drain cleaning in Waterloo, note which fixtures are affected, when the problem occurs, and whether previous clearing helped. That history helps distinguish a single clog from a line that may need further investigation.",
+    "meta": "Compare drain snaking, hydro-jetting, and camera inspection for a property in Waterloo, Ontario.",
+    "problem_h": "Is one fixture slow, or are several drains backing up?",
+    "problem_p": "Which equipment is appropriate depends on the affected fixtures, pipe access, blockage, and whether the problem returns. Record symptoms and prior clearing before comparing scopes.",
+    "features": [
+      [
+        "refresh",
+        "Choose Cleaning for the Line",
+        "Describe whether the blockage is in a fixture branch, kitchen line, laundry drain, or main drain. Ask whether snaking is intended to open a path or whether hydro-jetting is appropriate for buildup along the pipe walls. Pipe material, condition, access, and the type of obstruction affect whether jetting is suitable."
+      ],
+      [
+        "droplets",
+        "Use a Camera for Recurring Clogs",
+        "If the same line blocks repeatedly, ask whether a camera inspection can show the pipe’s condition after or during clearing. Request the recording or still images and note any visible roots, obstruction, or low section. Those findings help compare another temporary clearing with a repair or further assessment."
+      ],
+      [
+        "users",
+        "Plan Checks Around Tenancies",
+        "For a rental turnover, list slow fixtures and prior drain calls before the next occupant moves in. Ask which branches will be inspected or cleaned and whether any recommendation is based on camera evidence. This creates a useful maintenance record and helps distinguish routine cleaning from work on a recurring main-line issue."
+      ]
     ],
-    rev: [0, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Waterloo, Ontario",
-    h1: "Repiping From a Local Waterloo Plumbing Team",
-    intro: "The streets around Uptown Waterloo carry some of the oldest housing in the region, and behind many of those plaster walls is galvanized pipe that has been narrowing for decades. Farther out, the subdivisions of the seventies and eighties leaned hard on poly-B. Waterloo Plumbing Pros repipes both in PEX and copper, protecting finishes, keeping water live during the work, and pressure-testing before anything closes up.",
-    meta: "Repiping in Waterloo, Ontario. Galvanized and poly-B replacement for Uptown century homes and seventies subdivisions, in PEX and copper, by licensed Waterloo plumbers under plumbing permit.",
-    problem_h: "Tinted water and taps that trickle when the laundry runs?",
-    problem_p: "We repipe Waterloo homes off narrowed galvanized and brittle poly-B, restoring pressure and stopping pinhole leaks.",
-    features: [
-      ["wrench", "Old Walls Handled With Care", "Uptown houses deserve better than demo-saw plumbing. We plan access points around millwork and plaster, cut the minimum needed, and patch what we open."],
-      ["home", "One Branch or the Whole House", "A single problem bathroom gets a branch repipe; a home with rust at every tap gets the full treatment. We scope honestly so you spend only what the house needs."],
-      ["shield", "Pressure-Tested Before Closing", "New piping gets tested at pressure with the walls still open, then inspected under permit. Nothing gets sealed in until it holds."]
+    "icon": "wrench",
+    "kicker": "Repiping in Waterloo, Ontario",
+    "h1": "Repiping Options for Waterloo Homes",
+    "intro": "Repiping can range from replacing one affected branch to changing the supply piping throughout a home. If inspection finds galvanized pipe with restricted flow or poly-B piping that needs replacement, ask how the proposed scope accounts for the material, accessible routes, fixtures, and wall finishes. For a Waterloo project, photograph exposed pipe markings and any visible corrosion, and gather notes about low pressure or leaks. This evidence helps compare PEX and copper options and identify where access and restoration may affect the work.",
+    "meta": "Compare PEX and copper repiping scopes for galvanized or poly-B piping in Waterloo, Ontario.",
+    "problem_h": "Are low flow, discoloured water, or leaks occurring at several fixtures?",
+    "problem_p": "The material, affected branches, access, and condition of existing piping determine whether a partial or whole-home repipe should be considered.",
+    "features": [
+      [
+        "wrench",
+        "Plan Access Before Opening Walls",
+        "Photograph exposed piping, cabinets, plaster, tile, and millwork near the proposed route. Ask where access openings are expected and what wall or finish restoration is included. In an older home with delicate finishes, a planned route and limited openings can change the scope and the disruption to the room."
+      ],
+      [
+        "home",
+        "Compare Partial and Whole-Home Scopes",
+        "List which fixtures have low flow, discoloured water, or leak history, and ask whether those symptoms point to one branch or multiple supply lines. Compare a targeted branch replacement with a full repipe in PEX or copper. The extent of affected piping and the condition of concealed sections determine which scope is appropriate."
+      ],
+      [
+        "shield",
+        "Verify Testing Before Closure",
+        "Ask how new piping will be pressure-tested while it is still accessible, and request the test result and a description of any inspection requirements. Confirm that proposed connections and materials are documented before walls close. Testing at this stage can reveal a problem while the piping is visible, rather than after finish work is complete."
+      ]
     ],
-    rev: [2, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Waterloo, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Waterloo Plumbing Team",
-    intro: "Late August is fixture season in Waterloo, when landlords flip units between academic years and every toilet, faucet, and shower valve gets assessed in a single week. Waterloo Plumbing Pros is built for that rhythm, with quick turnaround on fixture swaps and rough-ins for basement bedrooms in rental properties. Owners doing full kitchen and bath renos in older Waterloo homes get the same care, fixtures set level, sealed properly, and chosen to survive the local water.",
-    meta: "Fixture and toilet installation in Waterloo, Ontario. Fast toilet and faucet swaps for rental turnovers, reno rough-ins, and hard-water-ready fixtures by licensed Waterloo plumbers, booked to your schedule.",
-    problem_h: "Turnover week, or a renovation that needs roughing in?",
-    problem_p: "We install toilets, faucets, and full bathroom packages across Waterloo, on the clock your property runs on.",
-    features: [
-      ["home", "Rental-Grade Turnaround", "We swap worn toilets and faucets between tenancies with fixtures that meet rental bylaws and budgets, booked so the unit shows well on viewing day."],
-      ["check", "Reno Rough-Ins Done Right", "Moving drains, adding venting, setting valves before tile. Our Waterloo rough-ins land where your finished plan needs them, all under permit."],
-      ["award", "Cartridges, Not Throwaways", "Hard water destroys cheap fixtures. We install models with replaceable cartridges and metal bodies, so a worn Waterloo faucet gets a five-minute repair instead of the landfill."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Waterloo, Ontario",
+    "h1": "Fixture and Toilet Installation in Waterloo",
+    "intro": "Fixture work can mean exchanging a toilet or faucet, installing a shower valve, or relocating drain and supply connections during a renovation. The scope depends on the fixture model, existing rough-in dimensions, shutoff condition, and whether the finished layout changes. For a Waterloo property, photograph the current connections and measure the toilet rough-in before selecting replacements. If a renovation involves new drain positions or venting, share the finished plan early so the rough-in can be compared with the intended tile and cabinetry.",
+    "meta": "Plan toilet, faucet, shower valve, and renovation rough-in work for a property in Waterloo, Ontario.",
+    "problem_h": "Is a fixture replacement needed, or does the renovation change its location?",
+    "problem_p": "Fixture dimensions, existing connections, and any drain or vent changes affect the work. Gather measurements and the finished plan before choosing equipment.",
+    "features": [
+      [
+        "home",
+        "Check Fixture Fit and Connections",
+        "Before buying a toilet or faucet, record the rough-in or connection dimensions, supply locations, and available clearance. Compare those measurements with the selected fixture’s specifications. For rental turnover work, also confirm the intended fixture and schedule with the property owner; a mismatch can add time or require different connections."
+      ],
+      [
+        "check",
+        "Coordinate Rough-Ins With the Finished Plan",
+        "For a renovation, mark proposed toilet, sink, and shower locations on the plan and note tile thickness, cabinetry, and valve height. Ask which drain, vent, and supply changes are included and whether permit or inspection requirements apply. Confirming positions before finishes go in helps avoid a fixture that does not align with the completed room."
+      ],
+      [
+        "award",
+        "Compare Repairable Fixture Parts",
+        "When comparing faucets or shower fixtures, check whether cartridges or other wear parts can be replaced and whether parts are available for the chosen model. Ask how the fixture connects to existing shutoffs and piping. If water testing shows mineral deposits, that evidence may also affect maintenance choices, but does not by itself establish local water conditions."
+      ]
     ],
-    rev: [1, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Waterloo, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Waterloo Plumbing Team",
-    intro: "Finished basements hide plumbing mistakes with great success, which is why a small leak in a Waterloo rec room can quietly ruin a floor before anything looks wet. Waterloo Plumbing Pros hunts leaks with acoustic sensors, thermal cameras, and meter isolation, narrowing the source to a specific run of pipe. Then we open exactly one hole, repair the line, and leave the rest of your finished space untouched.",
-    meta: "Leak detection and repair in Waterloo, Ontario. Acoustic and thermal leak location, meter isolation, and precise repairs with minimal opening of finished walls and floors.",
-    problem_h: "Water bill creeping, or a ceiling stain that keeps growing?",
-    problem_p: "We pinpoint hidden leaks in Waterloo homes with acoustic and thermal gear, then repair through one clean opening.",
-    features: [
-      ["droplets", "Found, Not Guessed", "Meter isolation rules out whole sections of the house before acoustic sensors and thermal imaging close in on the exact joint. Guesswork never touches your drywall."],
-      ["pin", "Under Slabs and Behind Tile", "The worst leaks hide under basement floors and behind shower tile. We locate them precisely and reroute or repair with the smallest possible excavation."],
-      ["check", "Fixed and Documented", "The repair closes with photos and notes on what failed and why, useful for insurance and for the next owner of your Waterloo home."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Waterloo, Ontario",
+    "h1": "Leak Detection and Repair in Waterloo",
+    "intro": "A hidden plumbing leak may show up as a meter that moves when water is off, a growing ceiling stain, or moisture near a basement floor. Locating the source can involve isolating sections at the meter, acoustic equipment, or thermal imaging, depending on the suspected pipe and surrounding materials. Before requesting leak detection in Waterloo, photograph visible damage and record when it changes. The leak’s location, access, and whether piping lies beneath a slab or behind tile affect both detection and repair scope.",
+    "meta": "Compare acoustic, thermal, and meter-isolation approaches to plumbing leak detection in Waterloo, Ontario.",
+    "problem_h": "Has a water stain grown, or does the meter move when fixtures are off?",
+    "problem_p": "Record when the sign appears and which fixtures are in use. Access, pipe location, and the suspected leak source determine the detection and repair approach.",
+    "features": [
+      [
+        "droplets",
+        "Narrow the Source Systematically",
+        "Note whether the meter changes while all fixtures and water-using appliances are off, and photograph any damp areas or stains. Ask which sections can be isolated before acoustic sensors or thermal imaging are used. The combination of test results helps narrow the source and may reduce unnecessary openings in finished surfaces."
+      ],
+      [
+        "pin",
+        "Plan for Tile and Slab Access",
+        "If the suspected line is beneath a basement slab or behind shower tile, identify the affected area and share any available plumbing plans. Ask how the location will be confirmed and whether repair could involve rerouting or excavation. The pipe’s position and the finish above it change the access plan and repair scope."
+      ],
+      [
+        "check",
+        "Document the Finding and Repair",
+        "Request photos or notes showing the identified failure, repair location, and any testing performed afterward. Keep these with the property’s maintenance records and ask what remains concealed after the repair. Clear documentation can help a future owner or insurer understand what was found, while avoiding unsupported assumptions about the cause."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Waterloo, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Waterloo Plumbing Team",
-    intro: "Laurel Creek winds through the heart of Waterloo, and the neighbourhoods around it, along with the subdivisions built on tight clay in the north end, are the basements that take water first when a storm stalls overhead. Waterloo Plumbing Pros replaces the bargain pumps builders leave behind, sizes real ones to the pit, adds battery backup for outage nights, and installs backwater valves under permit so the street's sewer stays in the street.",
-    meta: "Sump pump and backwater valve installation in Waterloo, Ontario. Properly sized pumps, battery backup, and permitted sewer protection for creek-side and clay-soil basements by licensed plumbers.",
-    problem_h: "Pump silent for years, or a pit that fills in every storm?",
-    problem_p: "We install and service sump pumps and backwater valves sized to Waterloo basements and the water they actually collect.",
-    features: [
-      ["shield", "Builder Pumps Upgraded", "The stock pump in a new subdivision pit is the cheapest component in the house. We replace it with a unit sized to your Waterloo drainage load before it fails in July."],
-      ["zap", "Backup for Outage Nights", "Big storms take out power exactly when the pit is filling. A battery-backed second pump keeps the basement dry through the outage on its own."],
-      ["refresh", "Backwater Valves Under Permit", "When the municipal main surges, a backwater valve is what protects the basement. We install them to code, file the permit, and point you at any available rebate."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Waterloo, Ontario",
+    "h1": "Sump Pump and Backwater Valve Planning in Waterloo",
+    "intro": "Sump and sewer protection should be assessed against the equipment and drainage conditions at the property, not selected by label alone. If a basement has a sump pit, check its dimensions, pump discharge route, float operation, and signs of water entry. Ask whether the existing pump’s capacity suits the observed inflow and whether a battery-backed secondary pump is appropriate. A backwater valve is a separate measure on a building drain; its access, configuration, and permit requirements should be confirmed for the Waterloo project.",
+    "meta": "Review sump pump, battery backup, and backwater valve options for a basement in Waterloo, Ontario.",
+    "problem_h": "Is the sump pump unreliable, or has water entered through a floor drain?",
+    "problem_p": "Inspect the pit, pump, discharge, and any sewer backup evidence. Pump capacity, backup power, drain layout, and access affect the protection plan.",
+    "features": [
+      [
+        "shield",
+        "Assess the Existing Pump and Pit",
+        "Photograph the pit, pump label, float, discharge pipe, and any high-water marks. Ask how the pump’s capacity will be compared with the pit and observed inflow, and whether the discharge route is suitable. If a replacement pump is being considered, those details help distinguish a like-for-like change from a system upgrade."
+      ],
+      [
+        "zap",
+        "Compare Backup Power Options",
+        "If the basement depends on a sump pump, check whether a power outage would stop it and ask how a battery-backed second pump would operate. Compare battery capacity, alarm features, and the expected pumping load. The pit size, water entry, and backup arrangement affect how long the system could operate without utility power."
+      ],
+      [
+        "refresh",
+        "Check Backwater Valve Scope",
+        "If sewer backup is a concern, ask whether the building drain layout and access allow a backwater valve and what permit or inspection requirements apply. Request the proposed valve location and maintenance access details. A backwater valve and a sump pump protect against different water paths, so one should not be assumed to replace the other."
+      ]
     ],
-    rev: [4, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Waterloo, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Waterloo Plumbing Team",
-    intro: "Waterloo shares the region's hard aquifer water, and it is rough on everything it touches, shower heads, dishwasher spray arms, tankless heat exchangers, and skin alike. Waterloo Plumbing Pros starts with a hardness test at the tap, then sizes a softener to the household rather than the showroom floor. For drinking water we add reverse osmosis at the sink, and for the whole house, sediment and carbon filtration plumbed in properly.",
-    meta: "Water softeners and filtration in Waterloo, Ontario. Tap-tested softener sizing, reverse osmosis drinking systems, and whole-home filtration by licensed Waterloo plumbers for the region's hard aquifer water.",
-    problem_h: "Scale everywhere and appliances dying young?",
-    problem_p: "We test Waterloo water at the tap and install softeners and filtration sized to the result, not a sales pitch.",
-    features: [
-      ["gauge", "Test First, Size Second", "Hardness varies street to street in Waterloo. The softener we install is set to the number measured at your tap and the water your household actually uses."],
-      ["droplets", "RO at the Kitchen Sink", "Drinking water improves immediately with an under-sink reverse osmosis unit, and refill cartridges take minutes to swap. We install and service them across the city."],
-      ["shield", "Tankless Loves Soft Water", "Hard water scales heat exchangers fast. If you run a tankless unit in Waterloo, a softener is the difference between a decade of service and constant descaling."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Waterloo, Ontario",
+    "h1": "Water Softener and Filtration Options in Waterloo",
+    "intro": "Water treatment equipment should be selected from test results and the intended use, rather than from a general description of a city or neighbourhood. If a Waterloo property has scale, staining, sediment, or a taste concern, begin by identifying the affected fixtures and testing the water at the tap. Hardness may inform softener sizing; drinking-water needs may call for an under-sink reverse osmosis system, while other concerns can require different filtration. Test results and household use change the equipment scope.",
+    "meta": "Compare water softener, reverse osmosis, and filtration options based on testing at a Waterloo property.",
+    "problem_h": "Are you seeing scale, sediment, staining, or a change in taste?",
+    "problem_p": "Test the water and identify where the issue appears before selecting equipment. Results, household use, and treatment goals determine the system and maintenance needs.",
+    "features": [
+      [
+        "gauge",
+        "Test Before Sizing a Softener",
+        "Ask for a hardness measurement at the property and note the household’s water use before comparing softener capacity. Request the settings and regeneration approach proposed for the measured result. If testing shows a different concern, such as iron or sediment, a softener alone may not match the treatment need."
+      ],
+      [
+        "droplets",
+        "Separate Drinking Water From Whole-Home Treatment",
+        "An under-sink reverse osmosis unit treats water at a specific drinking-water tap, while whole-home filtration treats water entering the property. Identify which taps and uses matter, and compare the treatment stages and cartridge replacement schedule. The intended use and test results determine whether one system or a combination is appropriate."
+      ],
+      [
+        "shield",
+        "Consider Scale at Tankless Equipment",
+        "If the property uses a tankless water heater and testing confirms hardness, ask how scale management relates to the manufacturer’s maintenance requirements. Compare a correctly sized softener with the required flushing or descaling schedule. Water test results and equipment guidance can inform the decision; do not assume a treatment system eliminates maintenance."
+      ]
     ],
-    rev: [3, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Student house, five guys, one shower. They jetted the drain line before September and it survived the whole school year without a single backup.", "Business Owner", "Conestogo"],
-  ["The rented tank died the week tenants moved in. New owned unit was in the next morning and the rental paperwork just disappeared.", "Landlord", "Erbsville"],
-  ["Our Uptown house had galvanized behind the plaster. They repiped it room by room and you can barely tell they were here. Pressure is transformed.", "Homeowner", "Waterloo"],
-  ["Laurel Creek backed up toward our place in the big storm. The sump and backwater valve they installed held the line, basement bone dry.", "Resident", "Bloomingdale"],
-  ["Water test at the kitchen tap, softener sized to the result. Six weeks in, the kettle is clean and the shower door stopped filming over.", "Resident", "Maryhill"],
-  ["Found a slow leak behind the shower tile with a thermal camera, opened one tile, fixed the pipe. Thought it would be a demolition job.", "Homeowner", "Winterbourne"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless installs sized for student rentals and family homes, rental buyouts, and same-day swaps across Waterloo.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Snaking, hydro-jetting, and camera inspection for rental clogs, kitchen grease, and rooted main lines near Uptown Waterloo.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized and poly-B replacement in PEX and copper for Uptown century homes and seventies-era subdivisions.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Toilet and faucet swaps timed to August turnovers, reno rough-ins, and fixtures built for Waterloo's hard water.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and thermal leak location, meter isolation, and repairs through one clean opening in finished space.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Pump upgrades, battery backup, and permitted backwater valves for creek-side and clay-soil Waterloo basements.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Tap-tested softener sizing, reverse osmosis drinking water, and whole-home filtration for hard aquifer water.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank capacity and recovery rate with household peak demand. Check fuel, venting, clearances, and whether a tankless conversion would change the installation scope.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Match snaking, hydro-jetting, or camera inspection to the affected branch or main line. Recurring blockages and pipe condition may change the scope beyond clearing a single clog.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Compare a branch replacement with a whole-home repipe when galvanized or poly-B piping is present. PEX or copper choice, access openings, testing, and finish restoration affect the project.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Check toilet rough-in, fixture connections, and shutoffs before ordering replacements. Renovations that move drains, vents, or valves need coordination with the finished layout.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Use meter isolation, acoustic equipment, or thermal imaging according to the suspected pipe and location. Slab, tile, and finished-wall access affect how repairs are scoped.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare pump capacity with pit size and observed inflow, then consider battery backup separately. A backwater valve protects a different route and depends on drain access and project requirements.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use water testing and household needs to compare softening, under-sink reverse osmosis, and whole-home filtration. Treatment goals and equipment maintenance determine the appropriate setup.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are your plumbers licensed and insured?", "Fully. Waterloo Plumbing Pros carries a valid plumbing licence and insurance, and every job that calls for a permit gets one taken out with the city and inspected against the Ontario Building Code."],
-  ["Can you come out urgently in Waterloo?", "Yes. Flooded basements, bursts, sewer backups, and no-water calls jump the queue, and we keep the parts that solve most of them on the truck for first-visit fixes."],
-  ["Our rental's water heater died mid-lease. How fast is a replacement?", "Most Waterloo tank replacements happen same day, because common sizes are stocked on our vehicles. Tenants are usually showering normally by the next morning."],
-  ["Is repiping worth it in an older Uptown home?", "When the water runs tinted and pressure collapses the moment a second tap opens, yes. Swapping corroded galvanized for PEX or copper ends the pinhole cycle and returns real pressure."],
-  ["What drain work should landlords do between tenants?", "A cleaning and a camera look. Rental lines collect grease, hair, and laundry residue at double speed, and clearing them between leases is cheaper than one emergency backup call."],
-  ["Does Waterloo water really need a softener?", "The aquifer-sourced supply here is genuinely hard, and the scale on glassware and fixtures proves it. We measure the hardness at your tap and size the system to that number."],
-  ["How does your pricing work?", "Every quote is written and free, and it covers the whole job before we pick up a tool. The number you approve for a fixture swap or a full repipe is the number on the invoice."],
-  ["Where do you work beyond Waterloo?", "Waterloo and Kitchener, plus Elmira, St. Jacobs, Conestogo, Ayr, Cambridge, and the townships between them."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/waterlooplumbingpros.ca-water-heaters.jpg", "Water heater installation in Waterloo, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/waterlooplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning in Waterloo, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/waterlooplumbingpros.ca-repiping.jpg", "Repiping an older home in Waterloo, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/waterlooplumbingpros.ca-fixtures-toilets.jpg", "Toilet and fixture installation in Waterloo, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/waterlooplumbingpros.ca-leak-detection.jpg", "Leak detection in Waterloo, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/waterlooplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Waterloo, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/waterlooplumbingpros.ca-water-softeners.jpg", "Water softener installation in Waterloo, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/waterlooplumbingpros.ca-water-heaters.jpg",
+    "Water heater installation in Waterloo, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/waterlooplumbingpros.ca-drain-cleaning.jpg",
+    "Drain cleaning in Waterloo, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/waterlooplumbingpros.ca-repiping.jpg",
+    "Repiping an older home in Waterloo, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/waterlooplumbingpros.ca-fixtures-toilets.jpg",
+    "Toilet and fixture installation in Waterloo, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/waterlooplumbingpros.ca-leak-detection.jpg",
+    "Leak detection in Waterloo, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/waterlooplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump installation in Waterloo, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/waterlooplumbingpros.ca-water-softeners.jpg",
+    "Water softener installation in Waterloo, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "conestogo": {
-    name: "Conestogo",
-    intro: "Conestogo sits at the north edge of Woolwich where the river and the dam meet, a village of older homes, executive builds, and country lots minutes from Waterloo. Waterloo Plumbing Pros serves Conestogo with water heaters, drain cleaning, repipes, sump pumps, and water treatment for both municipal and well supplies. Licensed plumbers reach Conestogo quickly for scheduled work and emergencies alike.",
-    meta: "Plumber in Conestogo, Ontario. Water heaters, drain cleaning, repipes, sump pumps, and well water treatment from a licensed Waterloo plumbing team. Free quotes.",
-    nearby: ["Waterloo", "Elmira", "St. Jacobs", "Bloomingdale"],
-    faq: [
-      ["Do you install water heaters in Conestogo?", "Yes. We size and install tank and tankless water heaters throughout Conestogo, replacing failing units the same day wherever stock allows."],
-      ["Can you treat well water at our Conestogo property?", "Yes. Wells around Conestogo often carry iron and hardness. We test, then install softeners, iron filters, or UV systems matched to the results."],
-      ["Our basement is near the dam. Should we add sump protection?", "High-water years test every low-lying basement. We size a proper pump and battery backup so a Conestogo pit keeps up through outage storms."],
-      ["Do you repipe older Conestogo homes?", "Yes. Galvanized and poly-B supply lines are common in the village's older stock, and we replace them in PEX or copper under permit."]
+    "name": "Conestogo",
+    "intro": "For a plumbing project in Conestogo, first identify the property’s water source and the equipment already serving it. If the home uses a well, arrange appropriate testing before comparing softeners, iron filtration, or other treatment; if it has a sump pit, record pump details and any water-entry signs. Older piping, a water heater replacement, and a drain concern each require different information. Photos of labels, connections, and affected areas help define what should be assessed and whether access changes the scope.",
+    "meta": "Plan plumbing, water treatment, and basement protection work for a property in Conestogo, Ontario.",
+    "nearby": [
+      "Waterloo",
+      "Elmira",
+      "St. Jacobs",
+      "Bloomingdale"
     ],
+    "faq": [
+      [
+        "What should I compare when replacing a water heater in Conestogo?",
+        "Record the existing model, fuel, venting, connections, and available space. Compare tank and tankless options against household peak demand, and ask whether a change in type would alter the installation scope."
+      ],
+      [
+        "How should I assess water treatment for a Conestogo property?",
+        "If the property uses a well, obtain a current water test and identify the concern, such as hardness or iron, before comparing equipment. Treatment selection should follow the results and intended use."
+      ],
+      [
+        "What information helps assess sump protection near a basement?",
+        "Photograph the pit, pump label, float, and discharge route, and note any high-water marks or outages. Those details help compare pump capacity and battery backup; a backwater valve addresses a separate sewer pathway."
+      ],
+      [
+        "What should I check before repiping an older Conestogo home?",
+        "Photograph accessible pipe markings and any corrosion or leak evidence. Ask whether the concern affects one branch or multiple lines, and compare access, PEX or copper options, testing, and finish restoration."
+      ]
+    ]
   },
   "st-jacobs": {
-    name: "St. Jacobs",
-    intro: "St. Jacobs draws visitors for its market and heritage main street, and behind those buildings sits everyday plumbing, century supply lines, busy commercial kitchens, and country wells on the outskirts. Waterloo Plumbing Pros handles water heaters, drain cleaning, fixture work, and water treatment for homes and shops in St. Jacobs, with licensed plumbers who know the village's mix of old and new stock.",
-    meta: "Plumber in St. Jacobs, Ontario. Water heaters, drain cleaning, fixtures, and water treatment for village homes and businesses from a licensed Waterloo plumbing team.",
-    nearby: ["Waterloo", "Conestogo", "Elmira", "Winterbourne"],
-    faq: [
-      ["Do you serve businesses on the main street in St. Jacobs?", "Yes. Heritage buildings need careful plumbing hands. We clear drains, repair lines, and service water heaters for St. Jacobs shops and restaurants."],
-      ["Can you replace a water heater in a century building?", "Yes. Tight mechanical rooms and old connections are routine for us in St. Jacobs, and every install is brought to current code before we leave."],
-      ["Do you work on wells around St. Jacobs?", "Yes. Outlying properties get softeners, iron filters, pressure tank service, and UV treatment based on a current water sample."],
-      ["How quickly can you reach St. Jacobs?", "Minutes from Waterloo. Emergency and booked calls in St. Jacobs both get prompt dispatch."]
+    "name": "St. Jacobs",
+    "intro": "For work in St. Jacobs, document the building’s plumbing layout and the equipment involved before comparing project options. In a heritage or commercial space, note tight access, visible pipe routes, and how a drain or water heater supports the building’s use. If a property outside the village uses a well, water testing can guide treatment choices. Photos of fixture connections, heater labels, and recurring drain symptoms help determine whether the work is a replacement, a repair, or a larger investigation.",
+    "meta": "Plan water heater, drain, fixture, and water treatment work in St. Jacobs, Ontario.",
+    "nearby": [
+      "Waterloo",
+      "Conestogo",
+      "Elmira",
+      "Winterbourne"
     ],
+    "faq": [
+      [
+        "What should a St. Jacobs business include in a drain-work request?",
+        "Identify affected fixtures, operating hours, previous blockages, and available drain access. Ask whether snaking, hydro-jetting, or camera inspection suits the pipe and obstruction; commercial kitchen buildup may call for a different scope than a single fixture clog."
+      ],
+      [
+        "How should I plan a water heater replacement in an older building?",
+        "Photograph the heater label, fuel, vent route, connections, and access dimensions. Compare the proposed unit and installation requirements with the existing setup, especially if tight space or different venting could change the work."
+      ],
+      [
+        "What testing should precede treatment at a property with a well?",
+        "Use a current water sample to establish which concerns need treatment, then compare equipment to those results and the intended uses. Do not select softening, filtration, or other treatment solely from the property’s location."
+      ],
+      [
+        "How can I plan a plumbing visit for a St. Jacobs property?",
+        "Describe the symptom, affected fixtures, access limitations, and any prior repairs when arranging an inquiry. For urgent concerns, explain what is happening so the required assessment can be discussed; arrival timing should be confirmed rather than assumed."
+      ]
+    ]
   },
   "maryhill": {
-    name: "Maryhill",
-    intro: "Maryhill is a small Woolwich community on the road toward Guelph, known for the spire of St. Boniface church and the German Catholic heritage of its founding families. Waterloo Plumbing Pros serves Maryhill homes with water heaters, drain cleaning, fixture installs, and full water treatment for the private wells most properties rely on. Our licensed plumbers treat rural Maryhill calls as the routine work they are.",
-    meta: "Plumber in Maryhill, Ontario. Water heaters, drain cleaning, fixtures, and well water treatment from a licensed Waterloo plumbing team. Free quotes.",
-    nearby: ["St. Jacobs", "Elmira", "Guelph", "Winterbourne"],
-    faq: [
-      ["Our Maryhill home is on a well. Can you treat the water?", "Yes. We test for hardness, iron, and sulphur, then install softeners, filters, and UV disinfection sized to what your Maryhill well actually produces."],
-      ["Do you install water heaters in Maryhill?", "Yes. We replace and install tank and tankless units across Maryhill, including homes where well pressure has to be considered in the sizing."],
-      ["Can you clear a slow drain out in Maryhill?", "Yes. Our trucks carry snakes, jetters, and cameras, so Maryhill drain calls are diagnosed and cleared in a single visit."],
-      ["Do you handle septic-line repairs near Maryhill?", "Yes. We clear, camera, and repair the building drain from house to tank for rural Maryhill properties, and we show you the line before any digging."]
+    "name": "Maryhill",
+    "intro": "For plumbing work in Maryhill, first establish whether the property uses municipal water or a private well and identify the equipment connected to it. If there is a well, a current test should guide choices among softening, filtration, or other treatment. Water heater selection may also depend on available fuel and, where relevant, the water supply arrangement. For a slow drain or suspected septic-line issue, note affected fixtures and access points; camera findings can help define a repair before excavation is considered.",
+    "meta": "Plan water heater, drain, fixture, and well-water assessment for a property in Maryhill, Ontario.",
+    "nearby": [
+      "St. Jacobs",
+      "Elmira",
+      "Guelph",
+      "Winterbourne"
     ],
-  },
+    "faq": [
+      [
+        "What should precede water treatment at a Maryhill property with a well?",
+        "Obtain a current water test and describe the concern, such as hardness, iron, or sulphur. Compare treatment equipment with those results and intended use rather than assuming a particular system is needed."
+      ],
+      [
+        "What information helps compare water heaters for a Maryhill home?",
+        "Provide the existing unit’s model, fuel, venting, and connection details, along with household peak demand. If a well supplies the home, include relevant water supply information so the equipment and installation requirements can be assessed."
+      ],
+      [
+        "What should I report about a slow drain in Maryhill?",
+        "List affected fixtures, when the problem occurs, and whether previous clearing helped. Ask whether snaking, hydro-jetting, or camera inspection is suitable for the pipe and obstruction; recurring symptoms may call for investigation beyond a basic clearing."
+      ],
+      [
+        "How should a possible septic-line issue be assessed?",
+        "Describe where symptoms occur and identify accessible cleanouts or available plans. A camera inspection of the building drain toward the tank may clarify the line’s condition before digging is considered; confirm the proposed inspection and repair limits first."
+      ]
+    ]
+  }
 };

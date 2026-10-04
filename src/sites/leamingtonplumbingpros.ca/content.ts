@@ -1,186 +1,379 @@
-// Per-site content for leamingtonplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Leamington, Essex County, on Lake Erie
-// at the heart of the greenhouse belt.
-// Local angle: Lake Erie water that ranks with the hardest in the region
-// (softeners, tankless protection, scale in drains), agricultural plumbing
-// for farmhouses and worker housing around the greenhouse operations,
-// seasonal lakefront and Pelee Island properties needing winterization,
-// older downtown housing stock, and septic-adjacent lines on the rural fringe.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Leamington, Ontario",
-    h1: "Water Heater Installation From a Local Essex Plumbing Team",
-    intro: "Between the orchards, the greenhouses, and the lakefront, Leamington asks a lot of its hot water, and Leamington Plumbing Pros keeps it flowing. We install tanks and tankless units for year-round homes, seasonal properties that need proper drain-downs each fall, and multi-bath farmhouses and worker housing where demand stacks up fast. Erie-hard water shortens heater life here, so we size, protect, and install for the long run.",
-    meta: "Water heater installation in Leamington, Ontario. Tanks and tankless units for homes, farmhouses, and seasonal lakefront properties.",
-    problem_h: "No hot water, or a tank the lake water ate through?",
-    problem_p: "We install and replace water heaters across Leamington with hard-water protection factored in, and drain down seasonal systems properly each fall.",
-    features: [
-      ["flame", "Sized to Real Demand", "A farmhouse with three showers running at once needs different capacity than a bungalow near the marina. We match the unit to the household so the last shower is as hot as the first."],
-      ["clock", "Fast Replacements", "Failed heaters move to the front of the board. Common tank sizes ride on the truck, and most Leamington homes are back in hot water within a day of the call."],
-      ["shield", "Built for Hard Water", "Erie-region water coats elements and fills tanks with scale years early. We install with protective anodes and filtration upstream so the new unit is not doomed to repeat the old one's fate."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Leamington, Ontario",
+    "h1": "Water Heater Installation for Leamington Homes",
+    "intro": "Choosing a replacement water heater starts with the household’s actual hot-water pattern, not just the size of the old tank. For a Leamington property, note how many bathrooms and occupants use hot water at once, and whether seasonal shutdowns or a long period without use affect the system. Compare tank and tankless options, fuel and venting requirements, and the condition of existing connections. If water testing shows mineral content that could affect equipment, ask what maintenance or protective treatment may be appropriate.",
+    "meta": "Water heater planning and installation in Leamington, Ontario, including tank and tankless systems for homes and seasonal properties.",
+    "problem_h": "Does the hot water run short or stop altogether?",
+    "problem_p": "Before choosing a replacement, record the unit’s fuel, capacity, age, and venting setup. That information helps establish whether the issue calls for repair, a like-for-like replacement, or a different system size.",
+    "features": [
+      [
+        "flame",
+        "Size the System to Peak Use",
+        "List the fixtures likely to run together, such as showers, laundry, and kitchen taps, and note how many people use them. A household with overlapping demand may need a different capacity or recovery rate than one with occasional use. Share those details when comparing tanks and tankless models so the selection reflects the property rather than an assumption based on its address."
+      ],
+      [
+        "clock",
+        "Compare Replacement Requirements",
+        "Photograph the rating plate, nearby piping, vent, and available installation space before requesting a quote. Compare proposals for removal, new connections, venting or electrical changes, and any work needed to bring the installation to applicable requirements. For a seasonal property, ask how shutdown and reopening affect the selected model and what steps should be followed when it is left unused."
+      ],
+      [
+        "shield",
+        "Check Water and Maintenance Needs",
+        "If a water test indicates elevated hardness or other minerals, ask how that result may affect the heater, its maintenance schedule, and any proposed treatment equipment. Compare the manufacturer’s maintenance instructions and warranty conditions for each model. Do not assume a protective device is necessary or suitable without checking the test results and the equipment specifications."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Leamington, Ontario",
-    h1: "Drain Cleaning From a Local Essex Plumbing Team",
-    intro: "Mineral-heavy water, decades-old cast iron under the older streets, and kitchen lines working overtime add up to slow drains all over Leamington, and Leamington Plumbing Pros clears them at the source. We cable fixture lines, hydro-jet mains back to bare pipe, and camera anything that keeps coming back. Rural properties out toward the fringe get extra attention to lines that share ground with septic fields.",
-    meta: "Drain cleaning in Leamington, Ontario. Cabling, hydro-jetting, root cutting, and camera inspection for town and rural lines.",
-    problem_h: "The kitchen sink is losing the argument again",
-    problem_p: "We clear and camera drains across Leamington, from downtown fixture lines to rural runs, and we tell you honestly what will keep it clear.",
-    features: [
-      ["refresh", "Jetting to Bare Pipe", "Scale from hard water builds on drain walls the same way it builds in a kettle, until the line is half its size. Hydro-jetting strips it back to full diameter in a single thorough visit."],
-      ["droplets", "Camera for the Repeat Offenders", "A drain that clogs every few months is reporting a problem upstream. We camera the line, mark the roots or the sag on screen, and quote the repair that actually ends it."],
-      ["shield", "Rural and Septic-Aware", "Homes on the fringe run long lines toward septic beds that punish neglect. We clean with the whole system in mind, protecting the field while restoring flow to the house."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Leamington, Ontario",
+    "h1": "Drain Cleaning and Inspection for Leamington Properties",
+    "intro": "A recurring blockage can have a different cause from a single slow fixture, so identify where the symptoms occur before choosing a cleaning method. Note whether one sink, several fixtures, or the main line is affected, and photograph any accessible cleanout or visible pipe damage. If a line has repeated problems, ask whether camera inspection is appropriate before further cleaning. For a property with a septic system, confirm the drain route and system layout so proposed work can be considered in relation to the whole setup.",
+    "meta": "Drain cleaning in Leamington, Ontario, with guidance on cabling, hydro-jetting, and camera inspection for residential lines.",
+    "problem_h": "Is one fixture slow, or are several drains backing up?",
+    "problem_p": "Record which fixtures are affected, when the blockage returns, and whether water backs up elsewhere. Those details help distinguish a local fixture line from a problem farther along the drain system.",
+    "features": [
+      [
+        "refresh",
+        "Choose a Cleaning Method for the Pipe",
+        "Before considering hydro-jetting, establish the pipe material, accessible cleanouts, and any known damage or previous repairs. Ask what inspection supports the proposed pressure and nozzle choice, and whether scale or other buildup is the target. The condition of the pipe matters because restoring flow is not the same as confirming that a line is sound or at its original diameter."
+      ],
+      [
+        "droplets",
+        "Investigate Blockages That Return",
+        "Keep a record of how often a blockage returns and which fixtures are affected. If the same line repeatedly clogs, ask whether a camera inspection can show roots, a sag, a break, or another obstruction. Request a description of what the camera reveals and where it is located. That evidence can help compare another cleaning with a targeted repair."
+      ],
+      [
+        "shield",
+        "Include Septic Layout in the Plan",
+        "If the property uses septic, photograph available access points and note the known direction and route of the building drain. Ask how the proposed cleaning method relates to the pipe leading toward the septic system and which sections will be worked on. This helps clarify the scope and avoids treating a fixture blockage as if the entire system were inspected."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Leamington, Ontario",
-    h1: "Repiping From a Local Essex Plumbing Team",
-    intro: "Leamington's older housing, lakeside cottages upgraded room by room over forty years, and farmhouses that have seen generations of additions, all tend to hide a patchwork of pipe eras. Leamington Plumbing Pros sorts it out. We trace what is galvanized, what is a questionable splice, and what has simply corroded through, then repipe in clean PEX or copper, from a single failing run to the whole house.",
-    meta: "Repiping in Leamington, Ontario. Galvanized replacement, cottage plumbing rebuilds, and farmhouse repipes in PEX or copper.",
-    problem_h: "Patchwork pipes from decades of piecemeal fixes?",
-    problem_p: "We map the mixed-material plumbing in older Leamington homes and replace what has earned retirement with clean, permitted piping.",
-    features: [
-      ["wrench", "One System, One Standard", "Spliced-together pipe eras fail at different rates and hide the next leak. We consolidate to PEX or copper throughout so pressure is even and the next repair is predictable."],
-      ["home", "Cottage Rebuilds Done Right", "Seasonal homes around Leamington often carry do-it-yourself plumbing history. We rebuild the runs properly, with shutoffs and drains placed for winterization."],
-      ["shield", "Permitted and Pressure-Tested", "Repipes here are filed, tested before cover, and inspected. Whether it is a century farmhouse or a converted cottage, the paperwork confirms the work."]
+    "icon": "wrench",
+    "kicker": "Repiping in Leamington, Ontario",
+    "h1": "Repiping Options for Leamington Homes and Cottages",
+    "intro": "Mixed plumbing materials and repairs from different periods can make it difficult to know whether one failing section or a larger repipe is appropriate. Photograph exposed pipes, fittings, shutoffs, and any areas with visible corrosion, and note previous leaks or pressure changes. If a property has galvanized pipe, older splices, or additions built at different times, ask for the affected runs to be identified separately. Compare PEX and copper proposals by route, access, connections, and the testing and inspection steps included.",
+    "meta": "Repiping guidance in Leamington, Ontario, including options for mixed materials, older plumbing, PEX, and copper.",
+    "problem_h": "Are repeated leaks or mixed pipe materials making repairs unpredictable?",
+    "problem_p": "A simple sketch of visible pipe routes, materials, and past leak locations can help define whether the work concerns one run or a broader repipe. Ask how concealed sections will be assessed.",
+    "features": [
+      [
+        "wrench",
+        "Map Materials Before Replacing Them",
+        "Ask for a room-by-room outline of which pipe materials are visible, which sections are proposed for replacement, and how the new work will connect to existing lines. Photograph accessible markings and fittings to support that discussion. Mixed materials and concealed splices can change the access and connection work, so a clear route is more useful than a quote that only names a pipe material."
+      ],
+      [
+        "home",
+        "Plan Seasonal Plumbing Changes",
+        "If a cottage or other property is shut down seasonally, identify the shutoffs, low points, and fixtures that need draining before winter. Ask whether the proposed repipe includes accessible isolation points and drain locations, and how those features suit the building layout. This can affect routing and fixture connections; confirm the intended winterization steps rather than assuming every system drains the same way."
+      ],
+      [
+        "shield",
+        "Verify Testing and Required Approvals",
+        "Before walls or floors are closed, ask what pressure testing will be performed and what documentation will be provided. Check with the relevant municipality or authority about permits and inspections required for the specific project. The pipe material, extent of replacement, and concealed connections all affect the scope, so compare proposals for testing, inspection coordination, and restoration boundaries."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Leamington, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Essex Plumbing Team",
-    intro: "Leamington Plumbing Pros installs the fixtures that finish a space, from a farmhouse kitchen being rebuilt around a big sink, to a lakefront bath getting a walk-in shower, to durable spec-level installs in rental housing that has to survive constant turnover. We set everything level, sealed, and vented right, and we choose and install with Erie-hard water in mind, because that is what will be flowing through it.",
-    meta: "Fixture and toilet installation in Leamington, Ontario. Kitchens, baths, rentals, and cottage upgrades installed for hard-water duty.",
-    problem_h: "A renovation to finish, or fixtures past their best years?",
-    problem_p: "We install faucets, toilets, sinks, and showers across Leamington homes and rentals, set properly and chosen to survive hard water.",
-    features: [
-      ["home", "Kitchens Built Around the Sink", "The farmhouse kitchen reno lives or dies on the rough-in. We place drains, supply, and dishwasher connections to your layout before the cabinets land, so the trim-out is clean."],
-      ["check", "Rental-Grade Durability", "Turnover housing needs fixtures that shrug off hard use. We install commercial-grade valves and washdown toilets that hold up between tenants."],
-      ["shield", "Hard-Water-Smart Choices", "Cheap cartridges choke on mineral within a few seasons here. We point you to finishes and valves that tolerate Leamington water and warranty them properly."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Leamington, Ontario",
+    "h1": "Fixture and Toilet Installation Planning in Leamington",
+    "intro": "Fixture work is easier to scope when the selected products, rough-ins, and finished-room layout are considered together. Photograph existing supply and drain locations, measure the available space, and note whether cabinets, flooring, or walls are changing. For a kitchen renovation, confirm sink, dishwasher, and faucet positions before cabinetry is installed. If a property has seasonal use or frequent tenant turnover, compare shutoffs, serviceable valves, and manufacturer care requirements before choosing fixtures and toilets.",
+    "meta": "Fixture and toilet installation planning in Leamington, Ontario, for kitchens, bathrooms, rentals, and seasonal properties.",
+    "problem_h": "Are you finishing a renovation or replacing worn fixtures?",
+    "problem_p": "Gather fixture model numbers, rough-in measurements, and photos of the connections. This helps identify whether the work is a straightforward replacement or involves moving drains and supplies.",
+    "features": [
+      [
+        "home",
+        "Coordinate Kitchen Fixtures with the Layout",
+        "Before cabinets arrive, confirm the sink position, drain location, hot and cold supplies, and dishwasher connection against the final plan. Photograph the rough-in and compare it with the cabinet drawings and selected sink specifications. Changes made after installation can affect access and connection work, so resolving dimensions early helps keep the fixture placement aligned with the finished kitchen."
+      ],
+      [
+        "check",
+        "Compare Fixtures for Frequent Use",
+        "For a rental or other frequently used space, compare replacement parts, valve access, cleaning requirements, and the manufacturer’s service information for each fixture. Ask how the selected toilet, faucet, and shutoffs fit the existing rough-ins. A product’s intended use and access for future maintenance can change both the equipment choice and installation scope; do not rely on a generic durability label alone."
+      ],
+      [
+        "shield",
+        "Check Product Compatibility with Water Conditions",
+        "If testing or existing scale indicates mineral buildup, ask whether a selected cartridge, valve, or finish has specific maintenance requirements. Compare manufacturer documentation and available replacement parts before choosing. Water conditions do not make every product unsuitable, but they can influence upkeep and component selection. Avoid assuming that a particular finish or valve is protected without confirming its specifications."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Leamington, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Essex Plumbing Team",
-    intro: "Lake-effect humidity makes every Leamington basement smell a little musty by October, which is exactly why real leaks go unnoticed here until the damage is expensive. Leamington Plumbing Pros finds them early. Acoustic listening, pressure testing, and thermal scanning locate leaks under slabs, behind walls, and along well lines, and our repairs open the smallest workable hole. Vacant seasonal places get freeze-break diagnosis before spring opening.",
-    meta: "Leak detection and repair in Leamington, Ontario. Acoustic and thermal location, slab leaks, well lines, and freeze-break diagnosis.",
-    problem_h: "That musty smell might be more than the lake air",
-    problem_p: "We pinpoint hidden leaks under slabs and behind walls across Leamington and repair them through the smallest possible opening.",
-    features: [
-      ["droplets", "Signal Out of the Noise", "Telling damp-basement humidity from an active leak takes instruments, not a guess. We isolate circuits and listen for the hiss that marks the failure point."],
-      ["shield", "Well Lines and Long Runs", "Rural Leamington properties push water through long buried runs. We pressure-test sections to find whether the loss is in the house or out along the yard."],
-      ["check", "Seasonal Freeze-Break Diagnosis", "A cottage or bunkhouse that sat cold all winter gets a full walk-through before reopening, so split lines are found at the start of the season, not the middle of July."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Leamington, Ontario",
+    "h1": "Leak Detection and Repair Planning in Leamington",
+    "intro": "A damp area or unexplained water use does not identify the leak source by itself. Note when moisture appears, photograph stains before they change, and check whether the meter moves when fixtures are off, if it is safe to do so. Ask how acoustic listening, pressure testing, or thermal imaging would help distinguish a plumbing leak from another source. For a property with a well line or seasonal vacancy, provide the route and shutdown history because these can change which sections need testing.",
+    "meta": "Leak detection planning in Leamington, Ontario, including acoustic, pressure, and thermal methods for concealed and buried lines.",
+    "problem_h": "Could a hidden plumbing leak be causing unexplained moisture?",
+    "problem_p": "Photographs, meter observations, and a timeline of dampness or water use help narrow the investigation. Ask what each proposed test can establish before opening a wall or floor.",
+    "features": [
+      [
+        "droplets",
+        "Use Evidence to Narrow the Search",
+        "Record where moisture first appeared, whether it changes with fixture use, and which plumbing circuits may be involved. Ask how acoustic listening, pressure testing, or thermal imaging applies to the specific material and location. Each tool provides different evidence, and agreeing on the test plan first can help limit unnecessary openings without promising that a concealed source will be found through one method alone."
+      ],
+      [
+        "shield",
+        "Test Long or Buried Supply Runs in Sections",
+        "If the property has a well or a long buried water line, sketch the route and mark accessible shutoffs or known repairs. Ask whether the line can be isolated into sections for pressure testing and how results will distinguish a loss inside the building from one along the yard. The route and available isolation points affect both the investigation and the likely repair access."
+      ],
+      [
+        "check",
+        "Inspect After Seasonal Shutdown",
+        "If a cottage, bunkhouse, or other building has been left unheated or unused, list the shutoffs, drained fixtures, and any areas where water was left in the lines. Photograph visible connections before reopening and note when pressure is restored. Ask for vulnerable sections to be checked systematically; a seasonal history can guide inspection, but it does not establish that a freeze break has occurred."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Leamington, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Essex Plumbing Team",
-    intro: "Sitting flat against Lake Erie with a water table that rises right along with it, Leamington ground wants into every basement in a wet spring, and Leamington Plumbing Pros installs what holds it back. We size pumps and basins to the real inflow, set floats for clean cycling, hang battery backup for storm outages, and put backwater valves where the street main can surge. Lakefront and low-lying properties get our full attention.",
-    meta: "Sump pump installation in Leamington, Ontario. Sized pumps, battery backup, and backwater valves for high water table and lakefront ground.",
-    problem_h: "Spring arrives and the basement holds water",
-    problem_p: "We install sump protection sized to Leamington's high water table so the spring thaw stays in the ground instead of on the floor.",
-    features: [
-      ["shield", "Sized for the Thaw", "The basin and pump have to handle the wettest week of the Leamington year, not the average one. We size for peak inflow so the system is never underwater on its own workload."],
-      ["zap", "Backup for the Dark Hours", "Lake storms cut power at the worst moment. Battery-backed pumping keeps working through the outage and buys peace through exactly the nights that worry you."],
-      ["check", "Discharge Above Frost", "A frozen discharge line turns a working pump into decoration. We bury and grade the outlet to stay clear through an Erie County January."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Leamington, Ontario",
+    "h1": "Sump Pump and Backwater Planning in Leamington",
+    "intro": "Sump and backwater equipment should be selected around the building’s drainage layout and observed water entry, not a citywide assumption about ground conditions. Photograph the pit, pump label, discharge route, and any alarm or backup equipment. Note when water enters and whether the pump cycles during outages. If a property has a low basement, a history of surface water, or a connection vulnerable to sewer backup, ask how those separate risks affect pump capacity, backup power, and valve placement.",
+    "meta": "Sump pump and backwater planning in Leamington, Ontario, including pump capacity, backup power, and discharge routing.",
+    "problem_h": "Does water collect near the sump or return through a drain?",
+    "problem_p": "Record where water appears, how the existing pump operates, and what happens during a power interruption. These details help distinguish sump protection needs from backwater concerns.",
+    "features": [
+      [
+        "shield",
+        "Size for the Observed Inflow",
+        "Share photographs of the pit and pump label, along with notes about cycling during wet periods. Ask how pit dimensions, discharge conditions, and observed inflow inform the proposed pump capacity. Peak conditions and the building’s drainage arrangement can change equipment requirements, so compare the assumptions behind each proposal rather than selecting a pump by horsepower alone."
+      ],
+      [
+        "zap",
+        "Compare Backup Options",
+        "Check whether the existing setup has a battery, alarm, or secondary pump, and record the equipment models and battery age if visible. Ask what each proposed backup can run, for how long under stated conditions, and how it signals a failure. Outage duration and pump demand influence the choice, so a backup should be compared by its documented capacity, not by the label alone."
+      ],
+      [
+        "check",
+        "Trace the Discharge Route",
+        "Follow the discharge pipe as far as it is safely visible and photograph its outlet, slope, and any exposed sections. Ask how routing, burial depth, and protection from freezing are handled in the proposed design, and where water will be directed. A blocked or poorly routed outlet can affect system performance, so the route is part of the scope, not just the pump connection."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Leamington, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Essex Plumbing Team",
-    intro: "If Leamington has one universal plumbing truth, it is hard water, and Leamington Plumbing Pros treats it for a living. Municipal supply here carries enough mineral to crust fixtures, choke tankless heaters, and leave showers feeling unfinished, and the rural wells inland can add iron and sulphur on top. We test, size, and install softeners, iron filters, and UV systems matched to what is actually coming out of your tap.",
-    meta: "Water softeners and filtration in Leamington, Ontario. Softeners, iron filters, sulphur systems, and UV treatment for town water and rural wells.",
-    problem_h: "The hardest water in the county, in your pipes",
-    problem_p: "We test and treat Leamington's hard municipal water and inland well water with softeners and filtration sized to the actual test results.",
-    features: [
-      ["gauge", "Test First, Size Second", "Guessing a softener size wastes salt or capacity. We test hardness, iron, and pH, then match the system to the numbers and the household it serves."],
-      ["droplets", "Well Water Handled Fully", "Inland wells bring iron staining, sulphur odour, and the occasional bacteria result. We install iron filters, sulphur systems, and UV treatment that turn the well into water you trust."],
-      ["shield", "Protection That Pays", "Treated water stops scale from shortening the water heater, the dishwasher, and every faucet in the house. The treatment pays for itself in what stops needing replacement."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Leamington, Ontario",
+    "h1": "Water Treatment Planning in Leamington",
+    "intro": "Water treatment should follow a water test and a clear understanding of the concern, rather than a general claim about local supply. If the property uses a private well, collect a recent laboratory report and describe staining, odour, or other observed issues. For municipal water, identify the specific scale or taste concern and ask which test or source information is relevant. Compare softeners, iron or sulphur treatment, and UV equipment only where the results support them, and check installation space and maintenance needs.",
+    "meta": "Water softener and filtration planning in Leamington, Ontario, based on water testing and equipment requirements.",
+    "problem_h": "Are scale, staining, or odour prompting questions about your water?",
+    "problem_p": "Gather recent test results, note the water source, and photograph visible deposits or staining. Those details help determine whether testing or a particular treatment type is appropriate.",
+    "features": [
+      [
+        "gauge",
+        "Test Before Selecting Equipment",
+        "Obtain a suitable water test and share the source, household size, and any observed symptoms before comparing softeners. Hardness, iron, and pH results can affect system capacity and equipment choice. Ask which results support the recommendation and how the proposed unit is sized. This avoids choosing a system by guesswork and helps establish what maintenance and salt use may involve."
+      ],
+      [
+        "droplets",
+        "Match Well Treatment to Results",
+        "If the property uses a well, provide laboratory results and describe any iron staining, sulphur odour, or other concern. Ask whether the findings support an iron filter, sulphur treatment, UV unit, or a different approach, and what additional testing may be needed. These systems address different conditions; equipment selection and ongoing servicing depend on the measured results and the installation setup."
+      ],
+      [
+        "shield",
+        "Compare the Equipment’s Practical Costs",
+        "Before choosing treatment, compare installation space, drain and power requirements, replacement media or lamps, and the manufacturer’s service schedule. Ask how treating a measured condition could affect scale-related maintenance of connected appliances, without assuming it prevents every failure. The test results and equipment instructions determine which costs and maintenance tasks belong in the comparison."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["The new tankless unit kept scaling up every winter on our old setup. They installed it with a softener upstream and it has run clean for two years now.", "Homeowner", "Wheatley"],
-  ["Our farmhouse well water turned every tub orange. Iron filter and softener installed, tested, and dialed in. The staining is completely gone.", "Farmer", "Harrow"],
-  ["Spring opening at the cottage found a split line from the cold snap. They had it repaired and the system pressure-tested the same week.", "Cottage Owner", "Pelee Island"],
-  ["Kitchen drain slowed every month like clockwork. They jetted the line back to bare pipe and it has run fast ever since, no more chemicals.", "Resident", "Kingsville"],
-  ["Six-bath bunkhouse for our crew needed reliable hot water before the season started. Sized it properly and it handles the morning rush without blinking.", "Business Owner", "Leamington"],
-  ["Sump ran nonstop every April until the spring it quit. New pump and battery backup, properly discharged, and the basement has been dry through two thaws.", "Homeowner", "Colchester"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tanks and tankless installs sized for Leamington homes, farmhouses, and worker housing, protected against hard water.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Cabling, hydro-jetting, and camera inspection for scale-narrowed lines and rural runs around Leamington.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Mixed-material pipe consolidation for older Leamington homes, cottages, and farmhouses, in PEX or copper.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Kitchen and bath installs, rental-grade fixtures, and cottage upgrades chosen for Erie-hard water.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and thermal leak location, well line testing, and freeze-break diagnosis for seasonal properties.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Pumps, battery backup, and backwater valves sized to Leamington's high water table and lakefront ground.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Softeners, iron filters, sulphur systems, and UV treatment for the hardest water in the county.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless capacity, fuel, venting, and seasonal shutdown needs. Share the existing unit’s rating plate and household demand to clarify replacement scope.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Cabling, hydro-jetting, and camera inspection suit different line conditions. Record affected fixtures and repeat blockage history, and disclose septic layout where relevant.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Assess visible pipe materials, past leaks, and concealed routes before comparing PEX or copper proposals. Confirm testing, approvals, and seasonal drain-down details where applicable.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Coordinate faucets, sinks, toilets, and showers with rough-ins and renovation plans. Compare product dimensions, service access, and care requirements before selecting fixtures.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Acoustic listening, pressure tests, and thermal imaging provide different evidence. Document moisture patterns and buried line routes to help define the investigation.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare pump capacity, backup power, valve placement, and discharge routing against observed water entry and the building’s drainage arrangement.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use water test results to compare softeners, iron or sulphur treatment, and UV systems. Check equipment space, maintenance, and replacement requirements.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed to do plumbing work in Leamington?", "Yes. We are licensed plumbers working across Leamington and Essex County, insured on every job, and permits are filed and inspected whenever the Ontario Building Code calls for them."],
-  ["Do you answer emergency calls around Leamington?", "Yes. Flooded basements, burst lines, no water, and sewer backups take priority, and our crews cover the Leamington area daily, so response is prompt at most hours."],
-  ["Our water heater died overnight. When can you get here?", "Usually same day or early next morning. Common tank sizes are on the truck, so the swap, permit, and haul-away typically happen in one visit."],
-  ["Would repiping help our older Leamington house?", "If it still has galvanized lines, or decades of pieced-together repairs behind the walls, yes. We map what is there and repipe what matters, in PEX or copper under permit."],
-  ["Can you handle places on wells and septic?", "Yes. Inland properties around Leamington are routine work for us: well lines, pressure systems, septic-adjacent drains, iron and sulphur treatment, and UV for bacteria results."],
-  ["Is Leamington water really hard enough to matter?", "It is, among the hardest municipal supplies in the region. Left untreated it scales fixtures, shortens water heaters, and defeats dishwashers, which is why we test and size treatment properly."],
-  ["How do you handle pricing?", "The quote comes before the work and it holds. You will understand exactly what a repair or install costs and why, whether it is one fixture or a whole repipe."],
-  ["What area do you cover from Leamington?", "Leamington itself plus Wheatley, Kingsville, Essex, Harrow, Colchester, Amherstburg, and the lakeside communities between, with Pelee Island properties served through the ferry season."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/leamingtonplumbingpros.ca-water-heaters.jpg", "Water heater installation in Leamington, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/leamingtonplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Leamington, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/leamingtonplumbingpros.ca-repiping.jpg", "Whole-home repiping in Leamington, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/leamingtonplumbingpros.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Leamington, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/leamingtonplumbingpros.ca-leak-detection.jpg", "Leak detection and repair in Leamington, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/leamingtonplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Leamington, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/leamingtonplumbingpros.ca-water-softeners.jpg", "Water softener installation in Leamington, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/leamingtonplumbingpros.ca-water-heaters.jpg",
+    "Water heater installation in Leamington, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/leamingtonplumbingpros.ca-drain-cleaning.jpg",
+    "Drain cleaning and hydro-jetting in Leamington, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/leamingtonplumbingpros.ca-repiping.jpg",
+    "Whole-home repiping in Leamington, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/leamingtonplumbingpros.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Leamington, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/leamingtonplumbingpros.ca-leak-detection.jpg",
+    "Leak detection and repair in Leamington, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/leamingtonplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump installation in Leamington, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/leamingtonplumbingpros.ca-water-softeners.jpg",
+    "Water softener installation in Leamington, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "wheatley": {
-    name: "Wheatley",
-    intro: "Wheatley sits where Leamington's farm belt meets the Lake Erie shore, a fishing and processing village where work boats, orchards, and quiet residential streets share the same plumbers. Leamington Plumbing Pros serves Wheatley with water heaters, drain cleaning, repipes, and the water treatment that hard lake-country water demands, with quick response down Highway 3.",
-    meta: "Plumber in Wheatley, Ontario. Water heaters, drain cleaning, repipes, and water treatment from a licensed Essex County team. Free quotes.",
-    nearby: ["Leamington", "Wheatley Provincial Park area", "Chatham-Kent line", "Erieau"],
-    faq: [
-      ["Do you install water heaters in Wheatley?", "Yes. Wheatley homes get the same fast tank and tankless service as Leamington, with hard-water protection and proper permitting on every install."],
-      ["Can you treat hard water at a Wheatley home?", "Yes. We test the supply, whether municipal or well, and size a softener or iron filter to the actual results rather than a one-size unit."],
-      ["Do you handle drains and sewer lines in Wheatley?", "Yes. We cable, jet, and camera lines throughout the area, including the older village core where tree roots and age work together on the pipe."],
-      ["Is Wheatley too far for emergency service?", "No. Wheatley is a regular stop on our route, and flooding, no-water, and burst-line calls are dispatched on priority."]
+    "name": "Wheatley",
+    "intro": "For a plumbing project in Wheatley, start by documenting the equipment and pipework involved, then compare options against the property’s actual layout and water source. If a building has a private well, gather current test results before considering treatment. If drains repeatedly block, note the affected fixtures and ask whether camera inspection is useful. Seasonal buildings may need a separate plan for shutdown and reopening. These details help define whether the work concerns a fixture, a buried line, or a larger system.",
+    "meta": "Plumbing project planning in Wheatley, Ontario, for water heaters, drains, repiping, and water treatment.",
+    "nearby": [
+      "Leamington",
+      "Wheatley Provincial Park area",
+      "Chatham-Kent line",
+      "Erieau"
     ],
+    "faq": [
+      [
+        "What information helps plan a water heater replacement in Wheatley?",
+        "Photograph the rating plate, venting, connections, and available space. Note household hot-water use and whether the building is seasonal. Those details help compare capacity, fuel, installation requirements, and shutdown needs."
+      ],
+      [
+        "How should I compare water treatment options for a Wheatley property?",
+        "First identify whether the supply is municipal or a private well. For a well, gather a recent test report; then compare equipment only against the measured results and its maintenance requirements."
+      ],
+      [
+        "What should I record before investigating a recurring drain blockage?",
+        "Note which fixtures are affected, how often the blockage returns, and whether other drains back up. If the property has septic, share the known layout and ask whether camera inspection is appropriate."
+      ],
+      [
+        "How can I plan plumbing work around an urgent leak or backup?",
+        "Describe where water is appearing, when it started, and what fixtures or equipment are involved. Share photographs and any shutoff or pump information. These facts help clarify the issue and the next steps to discuss."
+      ]
+    ]
   },
   "pelee-island": {
-    name: "Pelee Island",
-    intro: "Pelee Island lives at the end of the ferry ride from Leamington, a community of year-round residents, cottages, and vineyards that closes down hard each winter. Leamington Plumbing Pros serves island properties through the season, from seasonal drain-downs and spring reopenings to fixture installs and water treatment for island wells, scheduled around the boat.",
-    meta: "Plumber serving Pelee Island, Ontario. Seasonal winterization, spring reopenings, well systems, and fixture installs from the Leamington ferry.",
-    nearby: ["Leamington", "Kingsville", "Point Pelee", "Wheatley"],
-    faq: [
-      ["How does service to Pelee Island work?", "We schedule island work around the ferry calendar, grouping jobs onto crossings so travel stays sensible. Seasonal openings and closings are booked ahead in spring and fall."],
-      ["Can you winterize our island cottage?", "Yes. We drain systems properly, protect traps and fixtures, and mark shutoffs so a January freeze finds nothing to split. Spring reopening reverses it with a full pressure test."],
-      ["Do you treat island well water?", "Yes. Island wells have their own character, and we test before recommending anything, then install softeners, iron filters, or UV sized to the results."],
-      ["What about emergencies on the island?", "For no-water or flood situations we make best-effort arrangements on the next available crossing, and we prep island owners so the most common freeze and leak failures never happen in the first place."]
+    "name": "Pelee Island",
+    "intro": "For a plumbing project on Pelee Island, travel planning and the property’s seasonal schedule can be part of the scope. Before arranging work, list the equipment involved, photograph access points, and confirm which systems will be available during the visit. If a building is closed for winter, document how its water was shut off and drained; if it uses a well, gather current test results before considering treatment. Grouping related tasks and preparing this information can make the project easier to assess.",
+    "meta": "Plumbing project planning for Pelee Island, Ontario, including seasonal systems, well testing, and fixture work.",
+    "nearby": [
+      "Leamington",
+      "Kingsville",
+      "Point Pelee",
+      "Wheatley"
     ],
-  },
+    "faq": [
+      [
+        "How should I plan a plumbing visit to Pelee Island?",
+        "Confirm the property location, access, ferry timing, and work needed before setting a schedule. Share photographs and equipment details in advance so the proposed scope can be reviewed against the travel plan."
+      ],
+      [
+        "What should be checked when winterizing an island cottage?",
+        "List the shutoffs, low points, fixtures, traps, and any equipment that must be drained or protected. Ask for the intended winterization steps to be documented, then plan a spring reopening that includes checking connections and pressure."
+      ],
+      [
+        "What information is needed before considering treatment for island well water?",
+        "Obtain a current water test and identify the water source and household use. Softeners, iron filters, sulphur systems, and UV treatment address different conditions, so compare them only with relevant test results."
+      ],
+      [
+        "How can an island property prepare for a leak or loss of water?",
+        "Record shutoff locations, take photographs of the affected equipment, and note whether the issue involves a leak, a pump, or the supply. Travel and crossing arrangements may affect timing, so discuss the property details and practical next steps."
+      ]
+    ]
+  }
 };

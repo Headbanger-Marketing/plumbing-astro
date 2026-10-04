@@ -1,159 +1,320 @@
-// Per-site content for dorchesterplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Dorchester, Middlesex Centre, east of
-// London on the 401 corridor.
-// Local angle: a commuter town growing so fast the subdivisions outrun the
-// services, poly-B and copper stock from the seventies and eighties hiding in
-// the established streets, brand-new homes where sump pits and backwater
-// valves are code-mandated from day one, young families hard on fixtures,
-// and finished basements too valuable to gamble on a cheap pump.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Dorchester, Ontario",
-    h1: "Water Heater Installation From a Local Middlesex Plumbing Team",
-    intro: "Dorchester mornings all hit the pipes at once, shift commuters showering early, kids stacked into back-to-back bathrooms before the bus, a dishwasher cycling through the breakfast load, and the tank either keeps up or the household finds out loudly. Dorchester Plumbing installs water heaters sized to that reality. We replace dying power-vented units, convert cramped utility corners to neater setups, and leave every installation with the relief, drain, and venting details inspectors want to see.",
-    meta: "Water heater installation in Dorchester, Ontario. Tank and tankless replacements and right-sized installs for busy family households.",
-    problem_h: "Third cold shower this week?",
-    problem_p: "Dorchester Plumbing swaps tired tanks for properly sized units, usually in one visit, and sizes them to how your household actually mornings.",
-    features: [
-      ["flame", "Recovery Matched to the Morning Rush", "Households here stack showers tightly before school runs. We recommend recovery rates and sizes that keep the last person in line out of the cold."],
-      ["clock", "One-Visit Replacements", "Stocked tank sizes mean the failed unit drains out and the new one fires up in the same appointment for most Dorchester homes, old heater hauled off with it."],
-      ["shield", "Power-Vented and High-Efficiency", "Sealed-combustion units bring their own venting rules, condensate handling included. We set them to manufacturer spec so warranties hold and inspections pass."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Dorchester, Ontario",
+    "h1": "Water Heater Installation for Dorchester Homes",
+    "intro": "For a water heater project in Dorchester, first note how many people use hot water at once and whether showers, laundry, or dishwashing overlap. Those details help compare tank capacity and recovery rate with the household’s actual demand. If an existing unit is power-vented, record its vent route, fuel, clearances, and drain connections before choosing a replacement. A tankless option may require different gas, venting, and condensate arrangements, so check those requirements against the property before setting the scope.",
+    "meta": "Water heater planning in Dorchester, Ontario, including tank and tankless replacement considerations.",
+    "problem_h": "Does the hot water run short during busy periods?",
+    "problem_p": "Record when hot water runs out, how many fixtures are in use, and the existing heater’s label details. This helps compare capacity and recovery needs before discussing replacement options.",
+    "features": [
+      [
+        "flame",
+        "Compare capacity with household demand",
+        "List the number of occupants and the fixtures commonly used together, then compare that pattern with the heater’s capacity and recovery rating. A tank that seems adequate at quiet times may struggle during clustered showers or simultaneous laundry. Bring the model label and a note of the usage pattern to a planning discussion so the proposed size has a clear basis."
+      ],
+      [
+        "clock",
+        "Check connections before replacement",
+        "Photograph the existing heater, its rating label, shutoff, drain, relief-valve discharge, and nearby clearances. If access is tight or the tank uses a power vent, record the vent route and outlet location too. These details can affect removal, the replacement model, and any connection changes, rather than simply determining whether a tank of similar size will fit."
+      ],
+      [
+        "shield",
+        "Review venting and condensate requirements",
+        "For a power-vented or other sealed-combustion unit, identify the vent material, route, termination, and nearby openings. If considering a high-efficiency model, ask how condensate will drain and whether the existing route meets the manufacturer’s instructions. Comparing these details before selecting equipment helps clarify the installation scope and which requirements should be verified for the specific model."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Dorchester, Ontario",
-    h1: "Drain Cleaning From a Local Middlesex Plumbing Team",
-    intro: "Between the family grease of a commuter kitchen and the clay subsoil that Middlesex Centre sits on, Dorchester drains have plenty of ways to misbehave. Dorchester Plumbing brings the machine, the jetter, and the camera to every stubborn call. Newer subdivision laterals get checked for construction debris and slope issues left behind, while the established streets get the root and grease attention that decades-old lines deserve.",
-    meta: "Drain cleaning in Dorchester, Ontario. Drain snaking, hydro-jetting, and camera inspection for homes old and new in Middlesex Centre.",
-    problem_h: "Standing water where it should swirl?",
-    problem_p: "Dorchester Plumbing clears slow and stopped lines across town, then inspects on camera so the same clog is not back next month.",
-    features: [
-      ["refresh", "Jetting After the Cable", "The cable punches the hole, the jetter scrubs the wall. Used together they turn a greasy kitchen line from a repeat customer into a fixed one."],
-      ["droplets", "New-Build Lateral Checks", "Construction debris, improper slope, and damaged connections do surface years after the builders leave. Camera footage shows what the warranty period may still cover."],
-      ["shield", "Floor Drain and Laundry Care", "The basement floor drain and laundry standpipe catch the worst of a busy household. We clear both and check the trap seals that let sewer gas creep back."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Dorchester, Ontario",
+    "h1": "Drain Cleaning and Inspection for Dorchester Homes",
+    "intro": "For drain work in Dorchester, note which fixtures are slow, whether several drains are affected, and when the symptoms occur. A single basin may call for a different investigation than a backed-up floor drain or a recurring main-line blockage. Cabling can open a path through an obstruction; hydro-jetting may be considered when deposits remain on pipe walls, subject to pipe condition. If the line is still troublesome, camera inspection can help assess roots, debris, damage, connections, or slope before deciding what comes next.",
+    "meta": "Drain cleaning in Dorchester, Ontario, with cabling, conditional hydro-jetting, and camera-inspection planning.",
+    "problem_h": "Are drains slow, gurgling, or holding water?",
+    "problem_p": "Note which fixtures are affected, when symptoms began, and whether previous clearing helped. These observations help distinguish a local obstruction from a possible shared-line issue.",
+    "features": [
+      [
+        "refresh",
+        "Choose cabling and jetting based on the line",
+        "Ask what the cable encountered and whether it only opened a passage or removed the buildup. If deposits remain and the pipe material and condition are suitable, hydro-jetting may clean more of the wall. Comparing the blockage location, equipment used, and any camera findings helps establish whether jetting is appropriate rather than treating it as an automatic next step."
+      ],
+      [
+        "droplets",
+        "Use camera findings to investigate laterals",
+        "If a building lateral has recurring blockages, ask whether camera inspection can identify debris, a damaged connection, roots, or a possible slope concern. Photograph or keep the footage and note the distance shown on the locator. For a newer property, that evidence may help compare the observed condition with available construction or warranty records; it does not by itself establish responsibility."
+      ],
+      [
+        "shield",
+        "Check floor drains and laundry traps",
+        "If a basement floor drain or laundry standpipe is involved, note whether other fixtures back up at the same time and whether water returns after clearing. Ask that the trap and its seal be considered, since a dry or compromised trap can allow sewer odour into the room. These observations help separate a drainage obstruction from a trap-seal issue and guide the inspection."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Dorchester, Ontario",
-    h1: "Repiping From a Local Middlesex Plumbing Team",
-    intro: "The homes built through Dorchester's seventies and eighties boom carry a supply-line surprise for their owners, grey polybutylene and thin-wall copper that ages badly at the fittings, and the older village core hides original galvanized under fresh paint. Dorchester Plumbing replaces all of it in PEX and copper. Families stay in the house while we work, water comes back on each evening, and the pressure gauge tells the story when we finish.",
-    meta: "Repiping in Dorchester, Ontario. Poly-B and galvanized replacement with PEX and copper across Middlesex Centre homes.",
-    problem_h: "Fittings letting go one by one?",
-    problem_p: "Dorchester Plumbing replaces poly-B and galvanized supply lines completely, ending the pinhole patch cycle for good.",
-    features: [
-      ["wrench", "Poly-B Taken Out Completely", "Piecing new fittings onto failing polybutylene delays the inevitable. We remove it end to end and run a manifold-based PEX system with clean, serviceable connections."],
-      ["home", "Family-In-Place Scheduling", "Nobody relocates for a repipe here. We work zone by zone, restore water overnight, and coordinate around nap times and school nights."],
-      ["shield", "Gauge-Tested and Permitted", "The permit gets filed, the system gets pressure-proven before cover-up, and the paperwork lands in your hands for the day the house sells."]
+    "icon": "wrench",
+    "kicker": "Repiping in Dorchester, Ontario",
+    "h1": "Repiping Options for Dorchester Homes",
+    "intro": "If you are planning repiping in Dorchester, begin by identifying the visible supply-pipe material and where leaks, corrosion, or pressure changes occur. Photograph accessible pipe and fittings, and note any previous repairs; polybutylene, galvanized pipe, and copper can raise different replacement questions. Compare a localized repair with a broader replacement by asking which sections remain, how connections will be accessed, and what testing is proposed. For PEX or copper options, confirm the intended routing and how water service will be affected during each work stage.",
+    "meta": "Repiping in Dorchester, Ontario, with planning guidance for polybutylene, galvanized, PEX, and copper systems.",
+    "problem_h": "Are leaks or supply-line repairs becoming a pattern?",
+    "problem_p": "Photograph exposed pipes, fittings, and prior repairs, and note changes in pressure or water service. This gives a clearer basis for comparing partial repair and repiping scopes.",
+    "features": [
+      [
+        "wrench",
+        "Assess the full polybutylene system",
+        "If the supply lines are polybutylene, record visible pipe markings, fitting types, and accessible routes. Ask whether the proposal replaces the system end to end or only changes selected connections. A manifold-based PEX layout is one possible approach; compare its routing and serviceable connection locations with the existing layout so the scope is clear beyond the first visible failure."
+      ],
+      [
+        "home",
+        "Plan access and water interruptions",
+        "Ask which rooms and finishes may need access, how work will be staged, and when water is expected to be unavailable. If the household needs water restored overnight, confirm whether the proposed sequence can support that plan rather than assuming it. Mark sensitive areas and photograph existing finishes before work so access needs and restoration responsibilities can be discussed in advance."
+      ],
+      [
+        "shield",
+        "Confirm testing and documentation",
+        "Before pipes are covered, ask what pressure test will be used and request the results for your records. If a permit or inspection may apply, verify the requirements with the relevant authority and confirm who is responsible for arranging each step. Keep product information, test documentation, and any inspection records together; these details can help with future maintenance or a property sale."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Dorchester, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Middlesex Plumbing Team",
-    intro: "Growing Dorchester families put toilets and taps through an apprenticeship in abuse, and the finishes that came with the house rarely survive the training. Dorchester Plumbing swaps worn fixtures for hardware that earns its keep, roughs in the basement bathroom the house was always promised, and sets everything from toddler-height faucets to the double-vanity setup in the primary suite renovation.",
-    meta: "Fixture and toilet installation in Dorchester, Ontario. Faucets, toilets, basement bathrooms, and renovation trim-outs for family homes.",
-    problem_h: "Fixtures losing the fight with family life?",
-    problem_p: "Dorchester Plumbing installs durable toilets, faucets, and showers, plus full rough-ins for basement bathrooms and additions.",
-    features: [
-      ["home", "Basement Bathroom Rough-Ins", "That unfinished basement is one bathroom away from ending the morning bottleneck. We break the floor, tie into the drain properly, and rough in to your layout."],
-      ["check", "Kid-Proof Hardware Choices", "Hardened cartridges, lever handles, and finishes that forgive toothpaste take the abuse a Dorchester household deals out. We point you to them."],
-      ["shield", "Laundry and Utility Upgrades", "Moving the laundry upstairs or adding a second set in the basement brings venting and drain rules with it. We bring both along correctly."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Dorchester, Ontario",
+    "h1": "Fixture and Toilet Projects in Dorchester",
+    "intro": "For a fixture or toilet project in Dorchester, record the existing model, connection locations, and any signs of movement, leaking, or inconsistent flushing. A replacement may be straightforward, while a basement bathroom or room renovation can involve drain routing, floor access, venting, and fixture placement. Bring a measured layout and photographs of exposed connections when available. If adding laundry or relocating fixtures, compare the proposed drain and vent arrangements with the room plan before finishes are selected, since access and routing affect the work involved.",
+    "meta": "Fixture, toilet, laundry, and basement bathroom planning in Dorchester, Ontario.",
+    "problem_h": "Does a fixture need replacing or a new layout need planning?",
+    "problem_p": "Measure the room, photograph existing connections, and list the fixtures you want. For new bathrooms or relocated laundry, drain and vent routes can change the project scope.",
+    "features": [
+      [
+        "home",
+        "Plan basement bathroom rough-ins",
+        "Before finishing a basement bathroom, mark the intended toilet, basin, and shower locations and photograph any visible drain connections. Ask how floor access, drain connections, and venting will relate to that layout. If a rough-in already exists, have its position and condition compared with the fixture plan; mismatched locations can affect both the work required and the bathroom design."
+      ],
+      [
+        "check",
+        "Compare fixture details before choosing",
+        "Check the fixture dimensions, mounting style, supply connections, and handle operation against the room and the users’ needs. If a household prefers lever handles or particular finishes, include those preferences when comparing models. Cartridge type and finish can affect maintenance and cleaning, while clearance around a toilet or basin can determine whether the selected fixture fits without changing surrounding surfaces."
+      ],
+      [
+        "shield",
+        "Include laundry drainage and venting",
+        "If relocating laundry or adding a second washer, photograph the proposed location and any nearby drain and vent connections. Ask how the standpipe, trap, and vent will be arranged for that specific layout. Compare the plan with appliance requirements and room access, because a new laundry position can require more than extending water supplies and may affect walls, floors, and future service access."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Dorchester, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Middlesex Plumbing Team",
-    intro: "A finished Dorchester basement represents years of savings in drywall, flooring, and electronics, which makes a hidden supply leak the most expensive drip in the house. Dorchester Plumbing hunts them down with thermal cameras and acoustic sensors before opening so much as a panel. Newer homes get checked at the manifold and manifold lines, older ones at the fittings most likely to have let go, and the meter tells us when we have truly won.",
-    meta: "Leak detection and repair in Dorchester, Ontario. Thermal and acoustic leak location with minimal-open repairs for finished basements.",
-    problem_h: "A damp corner and a climbing water bill?",
-    problem_p: "Dorchester Plumbing pinpoints hidden leaks in finished homes, opens one small access instead of a wall, and repairs the line properly.",
-    features: [
-      ["droplets", "Thermal-First Searching", "Scanning surfaces with a thermal camera finds the wet path before any cutting starts, which matters enormously when the basement ceiling is done."],
-      ["shield", "Manifold and Fitting Checks", "PEX systems fail at fittings, poly-B at connections, copper in pinhole runs. We know where each system breaks and look there first."],
-      ["check", "Meter-Verified Closure", "The job ends when the meter confirms zero draw with everything shut, not when the visible drip stops. That verification protects the finished space around the repair."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Dorchester, Ontario",
+    "h1": "Leak Detection and Repair Planning in Dorchester",
+    "intro": "For a suspected hidden leak in Dorchester, note when dampness appears, whether the water meter moves when fixtures are off, and which plumbing lines run nearby. Photograph stains, flooring changes, and accessible pipework before anything is opened. Thermal imaging or acoustic equipment may help narrow a search, but findings should be compared with the building layout and confirmed before choosing an access point. Once a leak is located, ask how the proposed repair will be checked and what evidence will show that water flow has stopped.",
+    "meta": "Leak detection planning in Dorchester, Ontario, including thermal, acoustic, and meter-check considerations.",
+    "problem_h": "Is an unexplained damp area or water use concerning you?",
+    "problem_p": "Record when moisture appears and check the meter with water fixtures off. Photos and observations help guide a search while limiting unnecessary opening of finished surfaces.",
+    "features": [
+      [
+        "droplets",
+        "Use thermal imaging to guide access",
+        "If a ceiling or wall is finished, ask whether thermal imaging can help trace a temperature pattern before an access point is chosen. Photograph the area and note when the surface feels damp or changes. A thermal image is a search aid, not proof of a leak by itself, so compare it with pipe routes and other observations before cutting into the finish."
+      ],
+      [
+        "shield",
+        "Check fittings and pipe material",
+        "Identify accessible pipe material and photograph manifolds, fittings, and previous repairs. If the system is PEX, inspect relevant connections; with polybutylene, note its fittings; with copper, record any visible pinhole or corrosion evidence. These systems can fail in different places, so the material and layout help focus the investigation and clarify whether a repair is local or related to a larger concern."
+      ],
+      [
+        "check",
+        "Verify the meter after repair",
+        "Before work, note the meter reading and ensure fixtures and water-using appliances are off. Ask how the repaired line will be checked afterward and whether the meter will be observed again under comparable conditions. A stopped visible drip alone does not confirm that water use has returned to normal; documented readings can help assess whether further investigation may be needed."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Dorchester, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Middlesex Plumbing Team",
-    intro: "Every new Dorchester subdivision home arrives with a sump pit because Middlesex Centre clay demands foundation drainage, but the bargain pump dropped in at handover was never the finished story, and half the older homes in town still run no real protection at all. Dorchester Plumbing upgrades both situations. We install cast-iron pumps sized to the weeper load, add battery backup for storm-night outages, and fit backwater valves where the sewer connection warrants one.",
-    meta: "Sump pump and backwater valve installation in Dorchester, Ontario. Pump upgrades, battery backup, and flood protection for finished basements.",
-    problem_h: "Trusting a builder-grade pump with a finished basement?",
-    problem_p: "Dorchester Plumbing installs pumps and valves worthy of what sits above them, from new-division upgrades to retrofits in older homes.",
-    features: [
-      ["shield", "Upgrade Over the Handover Pump", "Thin builder pumps run constantly in Dorchester clay and die without warning. A cast-iron unit with a proper switch cycle protects the floor above it."],
-      ["zap", "Battery Backup Standard", "Storms take branches down and power with them, precisely when the pit fills hardest. Backup pumping keeps the rec room dry through the outage."],
-      ["check", "Backwater Where the Sewer Needs It", "Low laterals on flat streets can take the main's surcharge during heavy weather. A code-installed valve closes that door, and the permit comes with it."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Dorchester, Ontario",
+    "h1": "Sump Pump and Backwater Planning in Dorchester",
+    "intro": "For a sump pump or backwater project in Dorchester, inspect the pit, pump label, discharge route, electrical supply, and any alarm or backup equipment. Note how often the pump runs and whether water has entered the basement. A replacement pump should be compared with the pit dimensions, discharge arrangement, and observed inflow rather than chosen by appearance alone. If considering a battery backup or backwater valve, ask how it fits the existing system and what access, testing, and applicable requirements need to be checked for the property.",
+    "meta": "Sump pump, battery backup, and backwater valve planning in Dorchester, Ontario.",
+    "problem_h": "Is the pump setup ready for an outage or rising water?",
+    "problem_p": "Photograph the pit, pump label, discharge, and backup equipment, and note pump cycling or past water entry. These details help compare upgrade options and installation needs.",
+    "features": [
+      [
+        "shield",
+        "Compare the pump with the pit and discharge",
+        "Record the pump model, pit dimensions, switch type, discharge route, and how often the unit cycles. Ask how a proposed pump’s capacity and switch arrangement suit those observed conditions. If replacing a smaller or older unit, compare the outlet and available pit space too, since those details can affect the equipment choice and whether changes to the existing installation are needed."
+      ],
+      [
+        "zap",
+        "Plan backup power and testing",
+        "If considering battery backup, check the primary pump’s power supply, available space, battery location, and alarm arrangements. Ask what the backup is designed to operate and how it can be tested and maintained. A battery system has limits that depend on its configuration and operating conditions, so comparing those details with the household’s outage plan helps set realistic expectations for the equipment."
+      ],
+      [
+        "check",
+        "Assess whether a backwater valve applies",
+        "If considering a backwater valve, ask how the property’s sewer connection and accessible piping affect suitability and maintenance access. Have applicable installation and permit requirements verified for the specific project rather than assuming a valve is needed. Discuss where the valve could be located, how it will be inspected, and what changes to the drain line may be required before setting a scope."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Dorchester, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Middlesex Plumbing Team",
-    intro: "Middlesex Centre's municipal supply arrives plenty hard, and the kettle scale, cloudy glassware, and chalky shower doors around Dorchester testify to it daily. Dorchester Plumbing installs softeners that actually fit the house, calculating capacity from fixture count and family size rather than selling whatever unit is sitting in the van. Filtration stages handle the taste and sediment complaints, and an under-sink drinking system finishes the setup for households that want it.",
-    meta: "Water softeners and filtration in Dorchester, Ontario. Right-sized softener installation, whole-home filters, and drinking water systems.",
-    problem_h: "Kettle furring faster than you descale it?",
-    problem_p: "Dorchester Plumbing sizes softeners and filters to the household and the supply, ending the scale cycle on fixtures and appliances.",
-    features: [
-      ["gauge", "Capacity From Real Numbers", "Fixture counts, occupants, and measured hardness drive the sizing, so the unit regenerates on demand instead of running a wasteful schedule."],
-      ["droplets", "Sediment, Carbon, and Taste", "Pre-filters protect the softener and the plumbing downstream, and carbon stages settle the taste notes that municipal treatment leaves behind."],
-      ["shield", "Appliance Protection Pays", "Softened water stretches the life of the dishwasher, the washer, and the water heater that a hard-water Dorchester house otherwise eats through."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Dorchester, Ontario",
+    "h1": "Water Softener and Filtration Planning in Dorchester",
+    "intro": "If you are considering water treatment in Dorchester, start by identifying the concern: scale, sediment, taste, or drinking-water preferences. A water test and the existing equipment label provide a better basis for selecting treatment than symptoms alone. For a softener, compare measured hardness, household use, and fixture count when assessing capacity and regeneration settings. If adding sediment, carbon, or under-sink filtration, check the product’s stated purpose, replacement schedule, and installation location so each stage is matched to a defined need.",
+    "meta": "Water softener and filtration planning in Dorchester, Ontario, based on testing and household needs.",
+    "problem_h": "Are scale or taste concerns prompting a treatment review?",
+    "problem_p": "Note the symptoms, current equipment, and any available water-test results. This helps compare softening and filtration options with the specific concern rather than choosing equipment by assumption.",
+    "features": [
+      [
+        "gauge",
+        "Size a softener using measured inputs",
+        "Ask for hardness to be measured and compare that result with the number of occupants, typical water use, and relevant fixtures. Then review the proposed capacity and regeneration settings. These inputs help explain whether a unit is appropriately sized and how often it may regenerate; relying on household size or a general description alone can lead to a poor fit."
+      ],
+      [
+        "droplets",
+        "Match filters to a stated concern",
+        "If sediment is the concern, compare the proposed pre-filter’s purpose and replacement interval. For taste, ask what a carbon stage is designed to reduce and check its product information. Keep any test results with the equipment details, because filtration choices depend on the issue being targeted. A drinking-water system under a sink is a separate option to assess against household preferences and available space."
+      ],
+      [
+        "shield",
+        "Review maintenance and appliance expectations",
+        "Before choosing treatment, ask what upkeep is required, which cartridges or materials need replacement, and whether the equipment affects water use during regeneration. If considering a softener to manage scale, compare the test results and the appliance manufacturer’s guidance rather than assuming a particular service-life improvement. Understanding ongoing maintenance helps assess whether the selected arrangement fits the household’s use and expectations."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Power-vented tank quit the week we moved in. They sized up to what a family of six actually needs and had it running the same day. No more cold tail-enders.", "Homeowner", "Dorchester"],
-  ["Bought a nineties bi-level with poly-B everywhere and two clamp repairs already visible. Full PEX repipe, water on every night, pressure like a new build.", "Resident", "Thorndale"],
-  ["New-division drain backed up twice the first winter. Camera showed construction junk in the lateral. They documented it so the builder had to fix it right.", "Homeowner", "Dorchester"],
-  ["Upgraded the builder's bargain sump to a cast unit with battery backup before finishing the basement. Spring storm cut the power for six hours, floor stayed dry.", "Resident", "Putnam"],
-  ["They roughed in our basement bathroom over two weeks of evenings around the kids' bedtime. Inspector passed it first look, trim-out looks factory.", "Homeowner", "Belmont"],
-  ["Softener sized from our fixture count instead of a cookie-cutter guess. Regenerates half as often as the old one and the glassware finally runs clear.", "Resident", "Thamesford"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Replacements and right-sized installs tuned to Dorchester's back-to-back family mornings, usually done in a single visit.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Cabling, jetting, and camera inspection for grease, roots, and new-build lateral issues across Middlesex Centre.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Complete poly-B and galvanized replacement in PEX and copper, scheduled so the family keeps running water nightly.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Durable fixture swaps, laundry upgrades, and full basement-bathroom rough-ins for Dorchester's growing households.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Thermal and acoustic leak location that respects finished basements, with meter-verified closure on every repair.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Cast-iron pump upgrades, battery backup, and backwater valve installs that protect finished Dorchester basements.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Softeners sized from real fixture and family numbers, with sediment, carbon, and drinking-water stages added as needed.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank capacity, recovery, venting, and connection requirements with your household’s hot-water use before choosing a replacement.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Plan cabling, possible hydro-jetting, or camera inspection according to the affected fixtures, pipe condition, and recurring blockage evidence.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Compare targeted repairs with broader replacement by documenting pipe material, fittings, leak history, access needs, and proposed PEX or copper routing.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan fixture replacements, basement bathroom rough-ins, or laundry changes using measurements and the existing drain, supply, and vent locations.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Use moisture records, pipe locations, and meter observations to guide thermal or acoustic leak investigation and verify the repair.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare pump, backup, discharge, and valve arrangements with the existing pit, sewer connection, access, and testing needs.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use water-test results and household needs to compare softener capacity, sediment or carbon filtration, and under-sink options.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Is Dorchester Plumbing properly licensed?", "Fully. We hold a plumbing licence and pull Middlesex Centre permits for the work that needs them, so every job closes with inspection-ready paperwork."],
-  ["What counts as a plumbing emergency out here?", "Actively leaking supply, a sewer backing up into the basement, or no water at all. Those get same-day dispatch across Dorchester and the surrounding roads."],
-  ["Our tank failed overnight. When could you replace it?", "Most Dorchester swaps happen same visit because the common sizes travel with the tech. Expect a couple of cold hours, not cold days."],
-  ["How do we know if our poly-B piping needs replacing?", "Visible clamp repairs, fittings weeping at shut valves, or an insurer asking questions are the usual signals. We assess free and quote straight replacement versus staged work."],
-  ["The new house has a sump pit already. Is that enough?", "Usually not. The handover pump is the cheapest component the builder could install, and Dorchester clay keeps pits busy. An upgraded cast-iron unit with battery backup is the honest fix."],
-  ["Is town water here hard enough to soften?", "Yes, kettle scale is the tell. Sizing matters more than brand, and we calculate from household demand so it regenerates efficiently."],
-  ["How do you price plumbing jobs?", "Written quotes before work starts, always. Where repair and replacement both work we price both, so you decide with the full picture in front of you."],
-  ["Do you work outside Dorchester itself?", "Yes, Thorndale, Belmont, Putnam, Thamesford, and into London and Ingersoll all sit inside our regular Middlesex and area routes."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/dorchesterplumbing.ca-water-heaters.jpg", "Water heater installation in Dorchester, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/dorchesterplumbing.ca-drain-cleaning.jpg", "Drain cleaning in Dorchester, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/dorchesterplumbing.ca-repiping.jpg", "PEX repiping in Dorchester, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/dorchesterplumbing.ca-fixtures-toilets.jpg", "Fixture installation in Dorchester, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/dorchesterplumbing.ca-leak-detection.jpg", "Leak detection in Dorchester, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/dorchesterplumbing.ca-sump-pumps.jpg", "Sump pump installation in Dorchester, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/dorchesterplumbing.ca-water-softeners.jpg", "Water softener installation in Dorchester, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/dorchesterplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Dorchester, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/dorchesterplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning in Dorchester, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/dorchesterplumbing.ca-repiping.jpg",
+    "PEX repiping in Dorchester, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/dorchesterplumbing.ca-fixtures-toilets.jpg",
+    "Fixture installation in Dorchester, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/dorchesterplumbing.ca-leak-detection.jpg",
+    "Leak detection in Dorchester, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/dorchesterplumbing.ca-sump-pumps.jpg",
+    "Sump pump installation in Dorchester, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/dorchesterplumbing.ca-water-softeners.jpg",
+    "Water softener installation in Dorchester, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

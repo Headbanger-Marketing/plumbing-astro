@@ -1,186 +1,379 @@
-// Per-site content for grandbendplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Grand Bend, Lambton County, on Lake
-// Huron. Local angle: a beach-resort town whose housing and plumbing run on
-// the rental calendar. Peak-season demand surges (water heaters sized for
-// the August crowd), sandy soil and a shallow water table loading sumps in
-// March before anyone arrives, vacant-winter freeze leaks found at spring
-// opening, sixties-to-eighties cottage stock on poly-B, and lakeside
-// pipeline water versus inland iron wells.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Grand Bend, Ontario",
-    h1: "Water Heater Installation From a Local Lambton Plumbing Team",
-    intro: "A Grand Bend house might host four people in February and eighteen on the August long weekend, and the water heater has to make sense of both. Grand Bend Plumbing installs and replaces tank and tankless units for beach-area homes, cottage-country rentals, and year-round village houses, planning capacity around the peak season, protecting against the vacant-season freeze, and moving fast when a failure lands mid-booking.",
-    meta: "Water heater installation in Grand Bend, Ontario. Tank and tankless units sized for peak-season demand and installed with vacant-season protection in mind.",
-    problem_h: "Hot water gone mid-rental-week?",
-    problem_p: "Rental calendars do not wait, and neither do we. Grand Bend Plumbing swaps failed tanks fast and sizes replacements for the real season.",
-    features: [
-      ["flame", "Peak-Season Capacity", "July demand sets the standard. We size recovery and volume so the whole guest house gets hot water on the busiest weekend, not just the first shower."],
-      ["clock", "Failure Response Built for Rentals", "Owners three hours away cannot babysit a tank. We respond to failures directly, document the visit, and restore service before the next check-in."],
-      ["shield", "Freeze-Safe Installation", "Shoulder-season vacancies are when cottages get hurt. Pans, heat trace, and shut-down procedures are designed into every Grand Bend install."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Grand Bend, Ontario",
+    "h1": "Plan a Water Heater Installation in Grand Bend",
+    "intro": "When planning a water heater for a Grand Bend property, compare the number of people using hot water during the busiest period with the quieter months. A rental that fills on summer weekends may need different capacity and recovery than a year-round household. Tank and tankless options also have different installation requirements. Before requesting a quote, note the current unit’s type, size, fuel, venting, and location, and ask how vacancy shut-down and freeze protection would affect the proposed installation.",
+    "meta": "Compare tank and tankless water heater options for a Grand Bend property, including seasonal demand and vacancy precautions.",
+    "problem_h": "Will the hot water meet your busiest weekend’s demand?",
+    "problem_p": "Record how many people may use hot water at once, and check the existing tank’s capacity and recovery information. That helps compare replacement options for peak use without assuming that a larger unit is automatically the right fit.",
+    "features": [
+      [
+        "flame",
+        "Compare Capacity and Recovery",
+        "Check the existing heater’s label for tank volume, input, and recovery information, then estimate simultaneous showers, laundry, and kitchen use. Share those details when comparing options. Peak demand can affect whether a tank or tankless system suits the household, while fuel, venting, and available space influence the installation scope."
+      ],
+      [
+        "clock",
+        "Plan for a Vacant Property",
+        "If the property sits empty between bookings, ask what shut-down and restart steps apply to the selected heater and its connected piping. Photograph the utility area and note any access limits. These details help clarify what an installation quote includes and how an owner or caretaker can follow the equipment instructions during vacancy."
+      ],
+      [
+        "shield",
+        "Check Freeze Protection Requirements",
+        "If the heater or connected lines are in an unheated area, identify exposed piping and ask how the proposed installation accounts for cold-weather risk. A drain pan, heat trace, or shut-down procedure may be relevant depending on the layout and equipment. Confirm which measures are included rather than assuming every property needs the same protection."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Grand Bend, Ontario",
-    h1: "Drain Cleaning From a Local Lambton Plumbing Team",
-    intro: "Sand travels home from the beach in everything and everyone, and it meets a drain system already carrying the longest, hardest weekends of its year. Grand Bend Plumbing clears cottage and residential drains with snakes and hydro-jetting, handles the grease and sunscreen load of a full guest house without complaint, and scopes any line whose clogs have become part of the family routine.",
-    meta: "Drain cleaning in Grand Bend, Ontario. Snaking and hydro-jetting for cottage and rental drains carrying heavy summer use, with camera scoping for repeat clogs.",
-    problem_h: "Drains giving up by the second long weekend?",
-    problem_p: "The system needs clearing, and probably a scoping. We handle both and reset the season.",
-    features: [
-      ["refresh", "Season-Reset Clearing", "A jetted line at full diameter takes the August crowd that a snaked line merely tolerates. We clear to capacity, not to functional."],
-      ["droplets", "Scopes for Repeat Clogs", "When the same drain plugs every season, the camera explains why. Roots, bellies, and buildup each get a different fix, and we say which."],
-      ["shield", "Old Cottage Lines Handled", "Grand Bend's older cottages run every vintage of pipe there is. We match the clearing method to what the line can actually take."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Grand Bend, Ontario",
+    "h1": "Drain Cleaning Options for Grand Bend Properties",
+    "intro": "A drain that slows after heavy household or guest use may need clearing, but recurring blockage can point to a separate issue in the line. Snaking and hydro-jetting are different methods, and the pipe’s material, condition, and access can affect which is appropriate. Before arranging work in Grand Bend, note which fixtures are affected, when the problem began, and whether it repeats. For persistent clogs, ask whether a camera inspection would help identify a cause before selecting a repair.",
+    "meta": "Compare drain snaking, hydro-jetting, and camera inspection options for a Grand Bend property.",
+    "problem_h": "Does the same drain clog again after it is cleared?",
+    "problem_p": "Note how often the blockage returns, which fixtures are affected, and whether other drains change at the same time. That history helps determine whether clearing alone may be suitable or whether camera inspection could clarify the cause.",
+    "features": [
+      [
+        "refresh",
+        "Choose a Clearing Method",
+        "Ask what the proposed method is intended to remove and whether the line’s condition has been considered. Snaking can open a blockage, while hydro-jetting uses water pressure to clean the line more thoroughly when the pipe can safely tolerate it. Confirm access, pipe material, and the intended result before comparing quotes."
+      ],
+      [
+        "droplets",
+        "Investigate Repeat Blockages",
+        "If a clog returns in the same location, ask whether a camera can inspect the line after clearing. Root entry, a low section that holds water, and accumulated buildup are different possible findings and may call for different next steps. Request an explanation of what the inspection can confirm and what remains outside its view."
+      ],
+      [
+        "shield",
+        "Match Work to Older Pipe",
+        "If the property has older or mixed pipe materials, identify any known repairs and share photos of accessible sections before choosing a cleaning method. Pipe condition can affect whether snaking or jetting is appropriate. Ask how the method will be selected for that line, rather than assuming all cottage-era piping can tolerate the same equipment."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Grand Bend, Ontario",
-    h1: "Repiping From a Local Lambton Plumbing Team",
-    intro: "Beach-area housing spans canal-side cottages from the sixties, chalets from the eighties, and new builds that followed the sand all the way to premium, and a surprising share of the older stock still runs on galvanized or polybutylene. Grand Bend Plumbing repipes in PEX and copper, routing through the awkward spaces waterfront construction creates, pressure-testing everything twice, and finishing conversions that let a seasonal house behave like a year-round one.",
-    meta: "Repiping in Grand Bend, Ontario. Galvanized and polybutylene replacement for cottages, chalets, and new builds, with pressure-tested PEX and copper.",
-    problem_h: "Shower pressure sad at the height of July?",
-    problem_p: "Old pipe narrows exactly when demand peaks. We replace it with sized modern lines that hold pressure house-wide.",
-    features: [
-      ["wrench", "Waterfront Spaces Worked", "Low crawls, odd additions, and pump rooms define cottage construction here. We route new piping through all of it cleanly."],
-      ["home", "Seasonal Converted", "Turning a summer place into a four-season home starts under the floor. We repipe for the year-round version of the house."],
-      ["shield", "Tested and Documented", "Permit, pressure test, and inspection finish the job, and the paperwork helps when the property changes hands, which they tend to here."]
+    "icon": "wrench",
+    "kicker": "Repiping in Grand Bend, Ontario",
+    "h1": "Repiping Options for Grand Bend Homes and Cottages",
+    "intro": "A repiping plan depends on the existing pipe material, the property layout, and whether a seasonal home is being adapted for year-round use. If a Grand Bend property has galvanized steel or polybutylene piping, ask for an assessment of its condition and the scope of replacement. PEX and copper have different routing and connection requirements. Photograph accessible pipe runs, crawlspaces, additions, and pump rooms, then ask how the proposed routes, pressure testing, and any required approvals or inspections are reflected in the quote.",
+    "meta": "Explore PEX and copper repiping options for Grand Bend properties, including older pipe replacement and seasonal-to-year-round conversions.",
+    "problem_h": "Do several fixtures lose pressure when demand rises?",
+    "problem_p": "Record which taps or showers are affected and photograph any visible pipe markings or corrosion. If older piping is present, an assessment can help distinguish a localized restriction from a broader replacement scope and clarify how new lines could be routed.",
+    "features": [
+      [
+        "wrench",
+        "Map Difficult Routes",
+        "If the property has low crawlspaces, later additions, or a separate pump room, document access and the locations of visible supply lines. These constraints can change routing, labor, and the areas that may need opening or repair. Ask for the proposed path of new piping through each difficult section before comparing scopes."
+      ],
+      [
+        "home",
+        "Plan a Seasonal Conversion",
+        "If a cottage is changing to year-round use, list the rooms and fixtures expected to remain in service through winter. Ask whether the existing supply layout and exposed runs suit that use, and how the proposed PEX or copper routes account for them. The intended occupancy can change which areas and lines are included."
+      ],
+      [
+        "shield",
+        "Clarify Testing and Records",
+        "Ask what pressure testing is planned and what results will be documented when new piping is installed. If permits or inspections may apply, confirm who is responsible for checking the requirements and arranging any required steps. Keeping the scope, test records, and inspection documentation together can also help a future owner understand what was changed."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Grand Bend, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Lambton Plumbing Team",
-    intro: "Outdoor showers by the beach path, kitchens built for the crowd, second bathrooms for the rental, Grand Bend fixture work is its own genre. Grand Bend Plumbing installs it all, toilets that survive a houseful, faucets that shrug off sand and sunscreen, roughed-in additions that pass inspection, and we set every piece level and sealed against the season it will serve.",
-    meta: "Fixture and toilet installation in Grand Bend, Ontario. Rental-grade kitchens and baths, beach-path outdoor showers, and additions roughed in to code.",
-    problem_h: "Rental calendar demanding another bathroom?",
-    problem_p: "We rough in the space, set durable fixtures, and keep the booking season in mind throughout.",
-    features: [
-      ["home", "Built for the Crowd", "Rental fixtures take a beating no ordinary household delivers. We install commercial-flush toilets and cartridge faucets that survive this season and the next one."],
-      ["check", "Outdoor Plumbing Done Properly", "The beach shower deserves real plumbing, with frost-safe valves, drainage that works, and a shutoff that saves it in November."],
-      ["shield", "Additions and New Builds", "From bunkie to full addition, we rough in the drains and supply to the layout and pass the inspection on schedule."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Grand Bend, Ontario",
+    "h1": "Fixture and Toilet Installation Planning in Grand Bend",
+    "intro": "Fixture work in a Grand Bend property can range from replacing a toilet or faucet to adding an outdoor shower or roughing in a new bathroom. Guest volume, winter exposure, drainage, and the existing supply connections can all change the scope. Before requesting a quote, photograph the fixture area, note its measurements and nearby shutoffs, and identify whether walls or floors are already open. For an addition, share the planned layout and ask what supply, drain, and inspection requirements need to be confirmed.",
+    "meta": "Plan toilet, faucet, outdoor shower, and bathroom rough-in work for a Grand Bend property.",
+    "problem_h": "Are you adding a bathroom or outdoor shower?",
+    "problem_p": "Share the planned fixture locations, photos of nearby plumbing, and whether the space is finished or under construction. Those details help clarify supply and drain routing, weather exposure, and what work may be needed before fixtures can be installed.",
+    "features": [
+      [
+        "home",
+        "Select Fixtures for Heavy Use",
+        "If a rental or larger household will use the fixtures frequently, compare toilet flush requirements and faucet cartridge serviceability before choosing products. Ask whether the selected models suit the existing supply and drain connections, and what parts may need access for future maintenance. Fixture choice can affect both installation details and replacement options."
+      ],
+      [
+        "check",
+        "Plan an Outdoor Shower",
+        "For an outdoor shower, check where water will drain, whether the supply line is exposed to freezing, and where a shutoff could be accessed. Ask how the proposed valves, piping, and drainage suit the site and winter shut-down plan. These details affect the design and help avoid treating an outdoor fixture like an indoor installation."
+      ],
+      [
+        "shield",
+        "Coordinate Additions and Rough-Ins",
+        "For a bunkie, bathroom addition, or new build, provide the fixture layout and construction stage before work is scoped. Supply and drain positions can affect framing, access, and the sequence of other trades. Ask which rough-in details, approvals, or inspections need to be confirmed for the project and what documentation will be provided."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Grand Bend, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Lambton Plumbing Team",
-    intro: "The quiet season is when small leaks become structural ones, because nobody is in the cottage to hear them start. Grand Bend Plumbing locates hidden leaks with acoustic listening and pressure isolation, in the walls of occupied homes and the winter-dark interiors of vacant ones, along yard lines and under slabs, then repairs the failure and leaves instructions that prevent its return next freeze.",
-    meta: "Leak detection and repair in Grand Bend, Ontario. Acoustic and pressure location of hidden leaks in occupied and vacant properties, with freeze-damage repairs.",
-    problem_h: "Water found at the spring opening walkthrough?",
-    problem_p: "The leak ran all winter. We locate it precisely, repair it, and winterize against the repeat.",
-    features: [
-      ["droplets", "Vacant-Property Detection", "Damage compounds monthly in an empty house. We locate the source through finished surfaces without exploratory demolition."],
-      ["shield", "Freeze Damage Traced", "Lines that froze in January fail in March. We trace the break, repair it, and mark the exposure that let it happen."],
-      ["check", "Attendance for Absent Owners", "Owners at a distance rely on us to attend, assess, document, and repair. One call from the city, one straight report back."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Grand Bend, Ontario",
+    "h1": "Leak Detection and Repair Planning in Grand Bend",
+    "intro": "A leak in an occupied home may be easier to notice than one in a closed seasonal property, where water can remain undetected. If a Grand Bend property has unexplained moisture, a rising water bill, or water damage after winter, record when it appeared and which areas are affected. Acoustic listening and pressure isolation can help investigate some hidden leaks; the suitable method depends on the system and access. Photos of stains, meters, and exposed piping can help clarify the assessment and repair scope.",
+    "meta": "Learn what to document when arranging hidden leak detection and repair in Grand Bend, including winter-related damage.",
+    "problem_h": "Did you find water damage during a seasonal opening?",
+    "problem_p": "Photograph the wet area, nearby plumbing, and any visible meter reading, and note when the property was last checked. This information can help focus an assessment and distinguish a supply-line leak from other possible sources of moisture.",
+    "features": [
+      [
+        "droplets",
+        "Investigate Leaks in Vacant Homes",
+        "If a property has been empty, note when it was last occupied, whether the water was shut off, and where damage first appeared. Ask whether acoustic listening or pressure isolation suits the plumbing layout. These methods can help narrow a leak location, but access and the possibility of opening finished surfaces depend on what the investigation finds."
+      ],
+      [
+        "shield",
+        "Trace Possible Freeze Damage",
+        "If a line may have frozen, photograph the affected area and identify nearby unheated spaces or exposed piping. A visible break may not reveal the full extent of damage, so ask how adjacent sections will be checked and what repair is included. A winterization plan should be based on the actual layout and exposure rather than assumed from location alone."
+      ],
+      [
+        "check",
+        "Arrange Clear Documentation",
+        "If you cannot attend the property, agree in advance on access instructions and what information you need returned. Ask for photos of the affected area, a written description of findings, and a clear separation between investigation and repair costs. This helps an absent owner understand what was observed and decide whether additional work should be authorized."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Grand Bend, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Lambton Plumbing Team",
-    intro: "Between the sandy soil, the shallow water table, and the lake doing what lakes do in March, Grand Bend basements and crawlspaces face groundwater the way beach towns face tourists, reliably and all at once. Grand Bend Plumbing installs pumps and basins sized to that reality, battery backup for storm-knocked power, and discharge arrangements that keep water moving away from the foundation instead of looping back.",
-    meta: "Sump pump installation in Grand Bend, Ontario. Water-table-sized pumps, battery backup for storm outages, and discharge routing for sandy beach lots.",
-    problem_h: "Pump pit full before the season even opens?",
-    problem_p: "Spring is testing it. We install pumps sized to the water table and back them up for the storms.",
-    features: [
-      ["shield", "Sized to Sand and Table", "Fine sand and high water kill ordinary pumps early. The equipment we install is chosen for exactly what this ground moves."],
-      ["zap", "Backup for the Blackout", "Beach storms take power with confidence. Battery-backed pumping carries the pit through until the lines come back."],
-      ["refresh", "Opening and Closing Service", "We check systems during the spring opening and clear them down for the fall close, on a calendar matched to the rental season."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Grand Bend, Ontario",
+    "h1": "Sump Pump and Backwater Planning in Grand Bend",
+    "intro": "A sump system’s suitability depends on the property’s water entry, pit dimensions, pump condition, discharge route, and access to power. If a Grand Bend home has a sump pit, record its measurements, existing pump label, and where the discharge ends. Ask whether the proposed pump capacity matches the observed water flow and whether a battery backup is appropriate for the property’s outage risks. If the system serves a rental or seasonal home, clarify how inspection and opening or closing checks would be scheduled.",
+    "meta": "Compare sump pump, battery backup, and discharge planning for a Grand Bend property.",
+    "problem_h": "Does the sump pit fill faster than the pump can clear it?",
+    "problem_p": "Photograph the pit, pump label, discharge outlet, and any water marks, and note whether the pump was running during an outage. Those details help assess pump capacity, backup needs, and whether discharged water may return toward the foundation.",
+    "features": [
+      [
+        "shield",
+        "Size Equipment to Site Conditions",
+        "If fine sediment enters the pit or water rises quickly, describe what you have observed and provide pit measurements where possible. Ask how the pump type and capacity are selected for those conditions. The pit, incoming water, and discharge path all affect the equipment choice, so a generic pump rating alone may not define the right scope."
+      ],
+      [
+        "zap",
+        "Review Backup Power Options",
+        "If storms or other outages interrupt power, ask whether battery-backed pumping suits the pump and expected outage duration. Check where a battery could be installed and how its condition would be monitored. Backup arrangements add equipment and maintenance considerations, so compare what is included and what checks an owner should perform."
+      ],
+      [
+        "refresh",
+        "Set Opening and Closing Checks",
+        "For a seasonal property, ask what should be inspected when reopening and closing the home. A check may include pump operation, the pit, discharge routing, and backup equipment, depending on the installation. Share the property’s vacancy dates and access arrangements so any proposed schedule reflects the owner’s needs rather than an assumed rental calendar."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Grand Bend, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Lambton Plumbing Team",
-    intro: "A Grand Bend property lives two lives, a quiet one from November to April and a packed one where every bed fills and the laundry never stops, and the water treatment has to survive both. The pipeline strip runs treated lake water that still works its mineral into heaters and tap bodies, while inland properties draw wells that stain fixtures orange for the first renters of the season to find. Grand Bend Plumbing programs softeners to the property's real rhythm, holding soft water through the surge and idling through the empty months, in footprints that fit the utility corners cottages actually have.",
-    meta: "Water softeners and filtration in Grand Bend, Ontario. Seasonally programmed softeners and staged iron treatment for beach-strip homes and inland cottage wells.",
-    problem_h: "First guests of the season reporting orange water?",
-    problem_p: "Inland wells carry the iron and August finds it. A system tuned to the calendar takes the complaint off the list.",
-    features: [
-      ["gauge", "Tuned to the Calendar", "Regeneration follows the property's rhythm, quiet through the shoulder months and ready when the weekend crowd arrives with its laundry."],
-      ["droplets", "Rental-Ready Water", "Orange stains end up in a rental review. Staged well treatment set before opening week keeps the water off that list all season."],
-      ["shield", "Fits the Cottage Corner", "Lakeside utility rooms are a closet with ambitions. Right-sized equipment goes in with drain and overflow thought through, so the system and the beach gear share the space."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Grand Bend, Ontario",
+    "h1": "Water Treatment Options for Grand Bend Properties",
+    "intro": "Water treatment should be selected from test results and the property’s actual water source, not from a seasonal assumption. If a Grand Bend home uses a private well, arrange suitable water testing and share the results before comparing softeners or iron treatment. For a property on a municipal supply, confirm the source and identify the specific concern, such as scale or staining. Also note occupancy patterns, regeneration settings, drain access, and utility-room dimensions, since these affect equipment selection and installation scope.",
+    "meta": "Compare water softening and filtration options for Grand Bend homes using test results and property needs.",
+    "problem_h": "Are stains or scale appearing after the property reopens?",
+    "problem_p": "Identify the water source, photograph the staining, and collect recent test results if available. Testing and source information help distinguish a treatment need from a seasonal plumbing issue and guide comparisons between a softener and other filtration equipment.",
+    "features": [
+      [
+        "gauge",
+        "Match Settings to Occupancy",
+        "If the property is empty for part of the year, ask how the equipment handles extended vacancy and how regeneration should be set for the household’s use. Share the number of occupants and expected water demand during busy periods. Those details can change programming and help avoid selecting a system based on a single quiet-season estimate."
+      ],
+      [
+        "droplets",
+        "Use Results to Choose Treatment",
+        "If well water leaves orange staining, obtain test results and ask which measured condition a proposed treatment addresses. Iron treatment may require staged equipment, while a softener addresses a different set of water characteristics. Confirm the intended treatment, maintenance needs, and operating limits before choosing a system or promising a particular result."
+      ],
+      [
+        "shield",
+        "Check Utility-Room Fit",
+        "Before comparing equipment, measure the available floor and wall space and locate a drain, electrical outlet, and existing plumbing connections. Ask how the softener or filtration equipment, overflow, and service access will fit. A compact utility area can affect system size and routing, especially if storage or seasonal equipment shares the same space."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Tank died the morning guests arrived. New one in that afternoon, and the rental week was saved.", "Cottage Owner", "Grand Bend"],
-  ["Every August the kitchen drain quit. They jetted it clean and scoped it. Third summer now with zero problems.", "Cottage Owner", "Thedford"],
-  ["Repiped the old canal cottage off poly-B. Pressure is unbelievable now, and the paperwork helped with the sale.", "Cottage Owner", "Grand Bend"],
-  ["Outdoor shower with a frost-free valve and a real drain. The sandy-feet ritual finally has plumbing.", "Resident", "Port Franks"],
-  ["Found the leak behind the wall of our vacant cottage and winterized everything in the fall. No spring surprise this year.", "Homeowner", "Northville"],
-  ["Battery backup saved the crawl space through the March storm when the power was out all night.", "Cottage Owner", "Ravenswood"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Peak-season capacity, rental-speed failure response, and freeze-safe installation for beach-area homes.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Snaking and jetting for drains carrying full-house summer load, with scoping for repeat clogs.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "PEX and copper replacement for cottages, chalets, and conversions from seasonal to year-round.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Rental-grade kitchens and baths, beach-path outdoor showers, and addition rough-ins that pass.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and pressure location of leaks in occupied and vacant properties, plus freeze repairs.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Water-table-sized pumps, storm-outage battery backup, and opening-and-closing service.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Seasonally programmed softening for beach homes and inland cottage wells.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless capacity, fuel, venting, and vacancy precautions for a Grand Bend property with seasonal or year-round hot-water demand.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Compare snaking and hydro-jetting for the pipe’s condition, and consider camera inspection when blockages repeatedly return.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Plan PEX or copper replacement around existing pipe materials, tight crawlspaces, pump rooms, and any seasonal-to-year-round conversion.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Scope toilets, faucets, outdoor showers, or addition rough-ins by checking connections, drainage, frost exposure, and project stage.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Document moisture and access conditions when comparing acoustic or pressure-isolation investigation and possible freeze-damage repairs.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare pump capacity, pit and discharge conditions, battery backup, and seasonal inspection needs for the property.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use water-source details and test results to compare softening or filtration, with occupancy and utility-room fit in mind.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed for plumbing work in Grand Bend?", "Yes, licensed and insured, with permits filed and inspections passed on every job that requires them, including rental properties and new construction."],
-  ["Do you handle emergencies in the beach strip?", "Yes. Floods, burst lines, backups, and no-water calls get urgent response along the strip and through Lambton Shores, including attendance for off-site owners."],
-  ["Rental check-in is Friday and the tank is leaking. Now what?", "Call immediately and shut the supply at the tank. We treat in-season failures as priorities, and most Grand Bend swaps complete within a day."],
-  ["The cottage has poly-B. Replace before we convert to year-round?", "Yes, that is the right order. Year-round living makes freeze failures more likely, and modern PEX removes the pipe from the risk list entirely."],
-  ["Our well water needs attention. Can you help?", "We test it and treat it, iron, hardness, and the rest, with equipment sized to the results and to the swing between empty and full weekends."],
-  ["Is pipeline water here soft enough to skip treatment?", "It runs harder than fixtures like, and cottages see it as white film fast. A properly sized softener, programmed for seasonal use, handles it."],
-  ["How does pricing work?", "Free written quotes, itemized before work starts, holding unless the scope changes with your approval. Emergency triage is explained up front, not discovered on the invoice."],
-  ["What area do you cover from Grand Bend?", "Grand Bend and the beach strip, Port Franks, Thedford, Northville, Forest, Parkhill, and Bayfield, plus the Lambton Shores countryside."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/grandbendplumbing.ca-water-heaters.jpg", "Water heater installation in Grand Bend, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/grandbendplumbing.ca-drain-cleaning.jpg", "Drain cleaning and hydro-jetting in Grand Bend, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/grandbendplumbing.ca-repiping.jpg", "Whole-home repiping in Grand Bend, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/grandbendplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Grand Bend, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/grandbendplumbing.ca-leak-detection.jpg", "Leak detection and repair in Grand Bend, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/grandbendplumbing.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Grand Bend, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/grandbendplumbing.ca-water-softeners.jpg", "Water softener and filtration installation in Grand Bend, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/grandbendplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Grand Bend, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/grandbendplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning and hydro-jetting in Grand Bend, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/grandbendplumbing.ca-repiping.jpg",
+    "Whole-home repiping in Grand Bend, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/grandbendplumbing.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Grand Bend, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/grandbendplumbing.ca-leak-detection.jpg",
+    "Leak detection and repair in Grand Bend, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/grandbendplumbing.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Grand Bend, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/grandbendplumbing.ca-water-softeners.jpg",
+    "Water softener and filtration installation in Grand Bend, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "port-franks": {
-    name: "Port Franks",
-    intro: "Port Franks sits where the river meets Lake Huron south of Grand Bend, a community of cottages, year-round homes, and forest-fringed streets that fills to bursting every summer. Grand Bend Plumbing serves Port Franks with water heaters, drain cleaning, repipes, leak detection, and sump systems, on a seasonal schedule that respects the rental and cottage calendar.",
-    meta: "Plumber in Port Franks, Ontario. Water heaters, drains, repiping, and sump systems for cottage and year-round homes from a licensed Lambton Shores team. Free quotes.",
-    nearby: ["Grand Bend", "Thedford", "Forest", "Arkona"],
-    faq: [
-      ["Do you install water heaters in Port Franks cottages?", "Yes. We size units for weekend crowds or full-time living and protect them with proper shut-down procedures for the vacant months."],
-      ["Can you repipe an older Port Franks cottage?", "Yes. Galvanized and polybutylene come out in favour of PEX routed through tight crawlspace runs, tested and inspected."],
-      ["Do you respond to emergencies in Port Franks?", "Yes, including attendance for owners who live away, with a straight report and photos after the visit."],
-      ["Do you service sump systems in Port Franks?", "Yes. We install water-table-sized pumps with battery backup and check them at spring opening and fall closing."]
+    "name": "Port Franks",
+    "intro": "For a plumbing project in Port Franks, first identify whether the property is a cottage, rental, or year-round home and whether it will be vacant for part of the year. That context can affect water-heater capacity, winter shut-down planning, access, and the timing of repairs. If considering repiping, photograph visible pipe and crawlspace conditions. For a sump system, note pit dimensions, pump details, and discharge routing. These records help explain the project scope when requesting and comparing quotes.",
+    "meta": "Planning plumbing work in Port Franks? Compare water heaters, drains, repiping, leak detection, and sump system scopes.",
+    "nearby": [
+      "Grand Bend",
+      "Thedford",
+      "Forest",
+      "Arkona"
     ],
+    "faq": [
+      [
+        "What should I compare for a cottage water heater in Port Franks?",
+        "Note the busiest expected hot-water use, current heater details, fuel, venting, and vacancy plans. Compare tank and tankless options against those requirements, and ask what freeze precautions apply to the specific installation."
+      ],
+      [
+        "What information helps scope repiping an older cottage?",
+        "Photograph accessible pipe markings, crawlspaces, additions, and pump rooms. If galvanized or polybutylene pipe is present, ask how its condition and access affect a proposed PEX or copper route, testing, and any required inspection steps."
+      ],
+      [
+        "How can an off-site owner plan a leak investigation?",
+        "Provide access instructions, the date the property was last checked, and photos of the damage or meter if available. Ask what findings and repair costs will be documented before authorizing work beyond the investigation."
+      ],
+      [
+        "What should be checked when comparing sump systems?",
+        "Record pit dimensions, the pump label, power arrangements, and the discharge outlet. Ask how observed water flow affects pump selection and whether battery backup or seasonal checks suit the property."
+      ]
+    ]
   },
   "thedford": {
-    name: "Thedford",
-    intro: "Thedford serves the farm country just inland from Lake Huron, a quiet Lambton Shores community where well water, long service lines, and hard-working household plumbing are simply the norm. Grand Bend Plumbing serves Thedford with water heaters, drain cleaning, fixture installs, water treatment, and everything a home on a private well needs through four honest seasons.",
-    meta: "Plumber in Thedford, Ontario. Water heaters, drains, fixtures, and well-water treatment for homes across Lambton Shores from a licensed local team. Free quotes.",
-    nearby: ["Grand Bend", "Port Franks", "Forest", "Arkona"],
-    faq: [
-      ["Do you replace water heaters in Thedford?", "Yes. We size tank and tankless units to the household and carry common sizes for fast swaps on failure."],
-      ["Can you clear recurring drains in Thedford?", "Yes. We snake and hydro-jet the line, and camera it when the same drain keeps plugging, so the fix matches the cause."],
-      ["Do you treat Thedford well water?", "Yes. We test first, then install softeners, iron filters, and UV treatment sized to the results and the household."],
-      ["Do you offer emergency service in Thedford?", "Yes. Burst pipes, backups, and no-water calls across Thedford and Lambton Shores get urgent response."]
+    "name": "Thedford",
+    "intro": "When planning plumbing work in Thedford, confirm the property’s water source before comparing treatment or plumbing options. If it uses a private well, recent test results can help identify whether a softener or another treatment type is relevant. Note the household’s hot-water demand, visible pipe materials, and any recurring drain symptoms. For long supply runs or a fixture project, photos and measurements can help clarify access and routing. These details support a more useful discussion of scope for year-round household use.",
+    "meta": "Plan plumbing work in Thedford with water-source details, well test results, and equipment-specific project information.",
+    "nearby": [
+      "Grand Bend",
+      "Port Franks",
+      "Forest",
+      "Arkona"
     ],
-  },
+    "faq": [
+      [
+        "What should I provide when comparing water heater options?",
+        "Share the current unit’s label, fuel, venting, and household hot-water demand. Ask how tank and tankless options differ for the property and what installation details affect the quote."
+      ],
+      [
+        "How should I prepare for a recurring drain assessment?",
+        "List the affected fixtures, how often the clog returns, and any changes in nearby drains. Ask whether the line’s condition permits hydro-jetting and whether camera inspection could help identify the cause."
+      ],
+      [
+        "What information is useful before choosing well-water treatment?",
+        "Confirm that the property uses a private well and obtain current test results. Ask which measured conditions a proposed softener, iron filter, or other treatment is intended to address, along with its maintenance needs."
+      ],
+      [
+        "What should I do before requesting urgent plumbing help?",
+        "Describe the issue, affected fixtures, water shutoff status, and any visible damage. Provide the property location and access details, then confirm the scope and timing directly rather than assuming availability."
+      ]
+    ]
+  }
 };

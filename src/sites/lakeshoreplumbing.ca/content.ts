@@ -1,198 +1,404 @@
-// Per-site content for lakeshoreplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Lakeshore, Essex County, the chain of
-// Lake St. Clair communities from Belle River through Comber and Stoney Point.
-// Local angle: genuine cottage country on the lake (seasonal winterization and
-// spring reopenings, freeze splits, holding tanks and septic on low sandy
-// ground), lake-level water tables pressing on basements, farm-belt wells in
-// the interior with iron and hardness, Belle River's municipal core, and
-// commuter-growth subdivisions between the 401 and the shore.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Lakeshore, Ontario",
-    h1: "Water Heater Installation From a Local Essex Plumbing Team",
-    intro: "Lakeshore heats water for two different calendars, and Lakeshore Plumbing serves both. Year-round homes around Belle River and the newer commuter builds want capacity for busy mornings, while the seasonal places out toward the point need heaters that survive being shut down every October. We install tanks and tankless units across the municipality, with drain-downs arranged for the cottages and demand sizing for the households that never leave.",
-    meta: "Water heater installation in Lakeshore, Ontario. Tanks and tankless units for year-round homes and seasonal cottages from Belle River east.",
-    problem_h: "Hot water on the calendar your house keeps",
-    problem_p: "We install water heaters across Lakeshore sized to the household, with proper seasonal drain-downs for cottage properties that shut down each fall.",
-    features: [
-      ["flame", "Sized to the Real Calendar", "A cottage that runs from May to Thanksgiving and a family home in Belle River have nothing in common on paper. We size the unit to how the place is actually lived in."],
-      ["clock", "Priority for Failed Units", "A tank on a floor is a same-day push, and our Lakeshore route keeps the common sizes aboard so the swap usually finishes in one visit."],
-      ["shield", "Shutdown-Proof for Cottages", "Seasonal heaters get installed with the drain points, shutoffs, and access a proper fall shutdown needs, so spring reopening is a valve job, not a flood."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Lakeshore, Ontario",
+    "h1": "Water Heater Installation for Lakeshore Homes and Cottages",
+    "intro": "Choosing a water heater starts with how the property is used, not just its address. For a year-round household, compare the unit’s recovery rate with the number of people and simultaneous hot-water uses. For a seasonal cottage, check how it can be drained, where shutoffs are located, and whether the installation can be reopened safely after a long idle period. Before requesting an estimate in Lakeshore, photograph the existing heater’s label, connections, venting, and surrounding access to help clarify the scope.",
+    "meta": "Water heater installation in Lakeshore, Ontario. Compare tank and tankless options for year-round homes and seasonal properties.",
+    "problem_h": "Will the water heater suit the way you use the property?",
+    "problem_p": "A replacement may involve more than choosing tank or tankless. Household demand, fuel and venting, access, and seasonal shutdown needs can all affect the equipment and installation scope.",
+    "features": [
+      [
+        "flame",
+        "Compare Capacity with Household Demand",
+        "Record how many people use hot water and which fixtures may run together. Compare that pattern with the existing heater’s capacity and recovery information. For a seasonal property, include peak-use weekends rather than an average weekday. This gives an estimator a practical basis for discussing capacity and whether a tank or tankless unit suits the property."
+      ],
+      [
+        "clock",
+        "Check the Existing Connections and Access",
+        "Photograph the heater’s rating plate, fuel or electrical connections, vent, water lines, drain, and the route to the installation area. These details help identify possible changes to venting, piping, or access before comparing quotes. If the current unit has failed, describe any water around it and ask what safe temporary steps are appropriate."
+      ],
+      [
+        "shield",
+        "Plan for Seasonal Drain-Down",
+        "If the property will be closed during freezing weather, ask how the heater and connected plumbing are intended to be drained and isolated. Check that shutoffs, drain points, and service access will remain reachable after installation. The layout matters because inaccessible low points or trapped water can change the work needed for a reliable seasonal shutdown and spring reopening."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Lakeshore, Ontario",
-    h1: "Drain Cleaning From a Local Essex Plumbing Team",
-    intro: "Lake country drains face a lineup nobody else gets: seasonal lines packed with a winter of still air, kitchen grease from cook-shack summers, and the root pressure that comes with big waterfront trees and old farm windbreaks. Lakeshore Plumbing clears them all. We cable the fixtures, jet the mains back to clean wall, and camera anything that keeps returning, with special care where the line feeds a holding tank or septic bed.",
-    meta: "Drain cleaning in Lakeshore, Ontario. Cabling, hydro-jetting, and camera inspection for cottage, lakefront, and farm-belt lines.",
-    problem_h: "Opened the cottage and the drains said no",
-    problem_p: "We clear seasonal and year-round drain lines across Lakeshore, and camera the repeaters so the same clog stops coming back every spring.",
-    features: [
-      ["refresh", "Season-Opening Clearouts", "Lines that sat dry all winter collect scale, nests, and settled solids. A thorough cable-and-jet at spring opening starts the season with drains that keep up with the crowd."],
-      ["droplets", "Camera the Chronic Cloggers", "When the same line backs up every July long weekend, the camera explains why. Roots, a settled section, or an undersized cottage drain, we show you and quote accordingly."],
-      ["shield", "Respect for Tanks and Beds", "Plenty of Lakeshore properties run on holding tanks and septic beds. We clean lines with that equipment downstream, choosing methods that protect it."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Lakeshore, Ontario",
+    "h1": "Drain Cleaning and Inspection in Lakeshore",
+    "intro": "A slow or recurring drain can call for different work depending on where the blockage is and what serves the property. Note which fixtures are affected, when the problem occurs, and whether it returns after clearing. For a seasonal home, record what happens at opening after the plumbing has been idle. If the line may lead to a septic system or holding tank, identify that equipment before work is scoped. In Lakeshore, photographs of cleanouts and access points can help compare cabling, hydro-jetting, or camera inspection.",
+    "meta": "Drain cleaning in Lakeshore, Ontario. Compare cabling, hydro-jetting, and camera inspection for recurring or seasonal drain problems.",
+    "problem_h": "Does the same drain problem keep returning?",
+    "problem_p": "A blockage may be limited to one fixture or involve a larger line. The affected drains, cleanout access, repeat history, and any downstream septic or holding equipment help determine an appropriate inspection and clearing method.",
+    "features": [
+      [
+        "refresh",
+        "Describe What Happens at Seasonal Opening",
+        "If drains have sat unused through winter, note which fixtures drain slowly, gurgle, or back up when the property reopens. Photograph accessible cleanouts and describe whether the problem affects one fixture or several. That pattern helps distinguish a local blockage from a concern farther along the line and informs whether cabling or additional inspection is worth comparing."
+      ],
+      [
+        "droplets",
+        "Use a Camera for Recurring Blockages",
+        "If the same line blocks repeatedly, ask whether a camera inspection can help identify the cause after the line is accessible. Roots, a settled section, or a line that may be undersized are different findings and can lead to different next steps. Ask to review the footage or findings and how they relate to the proposed work before deciding on a repair."
+      ],
+      [
+        "shield",
+        "Identify Septic or Holding Equipment",
+        "Before clearing a line, confirm whether it connects to a septic bed or holding tank and show where relevant access points are located. Ask how the proposed method will account for that downstream equipment. This information can affect the suitable approach and scope; do not assume that every line can be treated the same way as a connection to a municipal system."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Lakeshore, Ontario",
-    h1: "Repiping From a Local Essex Plumbing Team",
-    intro: "A lakeshore cottage that has been in the family fifty years has usually been plumbed by four different people with three different philosophies, none of them winter in mind, and the farmhouses inland carry galvanized that predates the barn. Lakeshore Plumbing straightens it all out. We replace mixed-era and corroded pipe with clean PEX or copper, routed for drainage and shutoff access, and permitted properly whether the property is year-round or seasonal.",
-    meta: "Repiping in Lakeshore, Ontario. Cottage pipe-patchwork replacement, farmhouse galvanized removal, and four-season PEX or copper repipes.",
-    problem_h: "Fifty years of pipe decisions, all hiding in the walls",
-    problem_p: "We replace the patchwork plumbing in Lakeshore cottages and farmhouses with clean systems built for the property's real season.",
-    features: [
-      ["wrench", "One Clean System", "Mixed pipe eras leak on their own schedule and hide the next failure. Consolidating to PEX or copper makes the whole Lakeshore building behave predictably."],
-      ["home", "Winter-Delivery Routing", "Repipes here are routed through heated space with drain points at the low ends, so a cold snap or a closed-up month cannot ambush a vulnerable run."],
-      ["shield", "Permitted, Tested, Recorded", "Every repipe is filed, pressure-tested before cover, and inspected, with paperwork that matters for insurance on seasonal and year-round properties alike."]
+    "icon": "wrench",
+    "kicker": "Repiping in Lakeshore, Ontario",
+    "h1": "Repiping for Lakeshore Homes and Cottages",
+    "intro": "When plumbing has been altered over many years, a repipe may involve more than replacing one visible section. Photograph exposed pipe, note known materials and leak locations, and ask which areas a proposed scope includes. If the property is seasonal, check how vulnerable lines can be drained and whether shutoffs and low-point drain access will remain reachable. Compare PEX and copper proposals by routing, connection details, access openings, and testing before walls close. These details help clarify the work for a Lakeshore home or cottage.",
+    "meta": "Repiping in Lakeshore, Ontario. Compare PEX and copper proposals for aging, corroded, or mixed-material plumbing.",
+    "problem_h": "Are repeated repairs pointing to a larger piping issue?",
+    "problem_p": "Corrosion, mixed pipe materials, or leaks in several areas may call for a broader assessment. Existing materials, concealed routes, access, seasonal use, and the proposed test and restoration scope all affect the estimate.",
+    "features": [
+      [
+        "wrench",
+        "Map the Materials and Proposed Scope",
+        "Photograph accessible pipe and fittings, and note any known repairs or recurring leaks. Ask which materials will be replaced, which will remain, and where the transition points are planned. Consolidating mixed-era piping into a PEX or copper system may require different access and routing than a localized repair, so a clear scope makes proposals easier to compare."
+      ],
+      [
+        "home",
+        "Review Routing for Cold-Weather Closure",
+        "If the building is seasonal or parts of it may be unheated, ask how the proposed routes account for winter shutdown. Check whether pipes pass through heated areas and whether low points can be drained through accessible valves. Routing and drain access can change the scope, especially where concealed runs may retain water while the property is closed."
+      ],
+      [
+        "shield",
+        "Ask About Testing and Inspections",
+        "Before approving a repipe, ask what pressure testing is planned and when it will happen in relation to covering walls or ceilings. Confirm how access openings and any required approvals or inspections are addressed in the proposal. These details help you understand what will be checked before the piping is concealed and what documentation will be available afterward."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Lakeshore, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Essex Plumbing Team",
-    intro: "Lakeshore's fixture work runs from boathouse-adjacent mudroom showers to the fully updated baths of Belle River family homes, and Lakeshore Plumbing installs across the whole spread. We set toilets that stay solid on cottage floors, faucets and trim that survive hard water, and full fixture packages for the new commuter builds, with rough-ins landed correctly before the drywall closes the walls.",
-    meta: "Fixture and toilet installation in Lakeshore, Ontario. Cottage upgrades, mudroom and outdoor showers, and full packages for new family homes.",
-    problem_h: "Fixtures for the cottage, the farmhouse, or the new build",
-    problem_p: "We install faucets, toilets, sinks, and showers across Lakeshore, chosen for the local water and set to survive hard seasonal use.",
-    features: [
-      ["home", "Built for Heavy Summers", "The weekend crowd is hard on a cottage bathroom. We install fixtures rated for the traffic, with shutoffs and connections you can actually reach when something needs a wrench."],
-      ["check", "Outdoor and Mudroom Showers", "Lakeshore living sends sandy feet and lake gear through the house. We rough in outdoor showers and mudroom stations that keep the mess at the door."],
-      ["shield", "New-Build Packages", "For the homes going up between the 401 and the shore, we carry full fixture packages installed to builder timelines, inspected clean the first time."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Lakeshore, Ontario",
+    "h1": "Fixture and Toilet Installation in Lakeshore",
+    "intro": "Replacing a toilet, faucet, sink, or shower can involve connection and access details that are easy to miss in a product listing. Photograph the existing fixture, shutoffs, supply connections, and any visible rough-in measurements. For a cottage or mudroom shower, consider how the area is used and whether plumbing needs to be isolated during the off-season. For new construction or renovation, compare fixture specifications with the planned rough-ins before walls close. These checks help define the installation scope for a Lakeshore property.",
+    "meta": "Fixture and toilet installation in Lakeshore, Ontario. Plan replacements, shower rough-ins, and fixture packages around site conditions.",
+    "problem_h": "Will the selected fixture fit the existing plumbing?",
+    "problem_p": "Fixture dimensions, rough-in locations, shutoff access, and seasonal use can affect what is involved in a replacement or new installation. Check these details before comparing products or estimates.",
+    "features": [
+      [
+        "home",
+        "Choose Fixtures for the Expected Use",
+        "Consider how often a bathroom is used and who will use it, then compare fixture specifications and maintenance access. Photograph the existing connections and shutoffs, and ask whether they can remain accessible after installation. For a busy seasonal property, these details help identify whether the selected fixture and connection layout suit the expected use and future servicing."
+      ],
+      [
+        "check",
+        "Plan Outdoor and Mudroom Shower Rough-Ins",
+        "If a shower is planned near an entry or outdoors, document the proposed location, nearby plumbing, drainage plan, and how the area will be isolated in cold weather. Ask what is included in the rough-in and what must be ready before finishes are installed. Those conditions affect routing, drainage, and the work needed to make the installation usable."
+      ],
+      [
+        "shield",
+        "Coordinate Fixtures with New-Build Rough-Ins",
+        "For a new build or renovation, compare each fixture’s specifications with the drawings and rough-in locations before drywall closes the walls. Confirm dimensions, supply locations, drainage, and access to shutoffs with the people coordinating the project. A mismatch found early can be easier to resolve than one discovered after finishes are complete, so clarify responsibilities and timing in the proposed scope."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Lakeshore, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Essex Plumbing Team",
-    intro: "The most expensive leaks in Lakeshore are the ones that start the week after everyone drives home in October and announce themselves at May reopening. Lakeshore Plumbing finds them both seasons. Acoustic listening and pressure testing locate active leaks behind walls and under floors during the year, and our spring startup pressure checks catch the freeze splits before the water is even turned back on.",
-    meta: "Leak detection and repair in Lakeshore, Ontario. Acoustic location, pressure testing, and spring startup checks for seasonal and year-round homes.",
-    problem_h: "Something let go while the cottage sat empty",
-    problem_p: "We pressure-test seasonal systems at reopening and locate active leaks year-round across Lakeshore, repairing through one planned opening.",
-    features: [
-      ["droplets", "Spring Startup Testing", "Before the main valve opens wide, we bring the system up on gauge and watch it. A winter's worth of freeze splits shows itself at the gauge instead of on the ceiling."],
-      ["shield", "Active Leaks Located Quietly", "Year-round Lakeshore homes get acoustic and pressure-based location, so a hidden drip is found and fixed through a single planned access."],
-      ["check", "Well and Yard Runs Checked", "Farm-belt properties lose water in long buried runs. We isolate sections between house and wellhead to find the stretch that is costing you."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Lakeshore, Ontario",
+    "h1": "Leak Detection and Repair in Lakeshore",
+    "intro": "A water leak can be concealed in a wall, below a floor, or along a buried supply line. Note when the problem began, whether water use changes the symptoms, and which areas are affected. If a seasonal system has been shut down, record what happens during reopening and whether pressure falls before fixtures are used. Photograph visible moisture and accessible valves without opening finished surfaces. In Lakeshore, these observations can help determine whether pressure testing, acoustic location, or section-by-section isolation is appropriate.",
+    "meta": "Leak detection and repair in Lakeshore, Ontario. Learn what to document before pressure testing, acoustic location, or well-line checks.",
+    "problem_h": "Where is the water escaping, and how much access may be needed?",
+    "problem_p": "Symptoms alone may not reveal the leak’s location. Water-use patterns, pressure changes, visible moisture, and whether the line is buried or concealed help guide testing and limit unnecessary openings.",
+    "features": [
+      [
+        "droplets",
+        "Check Pressure During Seasonal Reopening",
+        "If a property has been closed for winter, ask about testing the plumbing under controlled pressure before fully reopening the system. Record gauge readings or any pressure loss and note when the change occurs. A test can help identify a problem before normal use begins, while the system’s layout and accessible isolation valves affect how sections can be checked."
+      ],
+      [
+        "shield",
+        "Locate Concealed Leaks Before Opening Finishes",
+        "For a suspected leak behind a wall or under a floor, photograph staining and note when it appears, such as during fixture use or continuously. Ask whether acoustic listening or pressure-based testing may narrow the location before an access opening is made. The suspected pipe route and the test findings help plan the size and position of any opening."
+      ],
+      [
+        "check",
+        "Isolate Buried Well-Supply Runs",
+        "If a property has a well and a long buried line to the building, note where the wellhead, shutoffs, and indoor entry point are located. Ask whether the run can be isolated in sections to help identify the affected stretch. The availability of valves and access points changes how the line can be tested and whether investigation may require excavation."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Lakeshore, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Essex Plumbing Team",
-    intro: "Everything about Lakeshore's ground points one direction, toward the lake, and in a high-water year the water table arrives with it. Lakeshore Plumbing installs the protection that answers. Pumps sized to sustained spring inflow rather than a single storm, floats set for clean cycling, battery backup for the outages that lake weather brings, and permitted backwater valves where a surging street main would otherwise visit your basement.",
-    meta: "Sump pump installation in Lakeshore, Ontario. Pumps sized to lake-level years, battery backup, and backwater valves for low ground.",
-    problem_h: "High water on the lake means high water under it",
-    problem_p: "We install sump and backwater protection sized to Lakeshore's lake-driven water table, so wet years stay in the ground and out of the house.",
-    features: [
-      ["shield", "Sized for Sustained Inflow", "Lake-side ground does not drain fast, so the pump runs for weeks, not hours. We size pump and basin to that sustained load so the system is not overwhelmed in April."],
-      ["zap", "Backup for Storm Nights", "The weather that raises the water is the weather that drops branches on lines. Battery-backed pumping keeps working through both at once."],
-      ["check", "Discharge Routed and Buried", "Pumping water onto saturated lakeside ground just recycles it. We route and grade discharge well away, deep enough to stay clear of frost."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Lakeshore, Ontario",
+    "h1": "Sump Pump and Backwater Planning in Lakeshore",
+    "intro": "Sump and backwater protection should be assessed against the water paths and equipment at a specific property. Note where water has entered, how long a pump runs during wet periods, and whether the problem coincides with a power outage or a plumbing backup. Photograph the pit, pump label, discharge route, and any accessible valve. If the home experiences sustained spring inflow, ask how pump and basin capacity will be compared with that pattern. These observations help shape a Lakeshore installation or upgrade proposal.",
+    "meta": "Sump pump and backwater planning in Lakeshore, Ontario. Compare pump capacity, backup power, discharge routing, and valve needs.",
+    "problem_h": "What protection fits the water problem at your property?",
+    "problem_p": "Groundwater entering a sump and water backing up through a drain are different problems. Identify the entry point, existing equipment, discharge path, and any backup history before comparing pump or valve options.",
+    "features": [
+      [
+        "shield",
+        "Compare Pump Capacity with Inflow",
+        "If water enters the pit over an extended wet period, record how often the pump runs and how long each cycle lasts. Photograph the pump label and basin dimensions, then ask how a proposal accounts for sustained inflow rather than a brief storm alone. Those observations help assess whether the existing equipment and basin suit the conditions at the property."
+      ],
+      [
+        "zap",
+        "Plan for Pump Operation During an Outage",
+        "If the pump is relied on during wet weather, check whether it has backup power and how its operation would be monitored. Ask what a proposed battery backup can support and what maintenance or testing it requires. Considering the pump and power arrangement together is important because an outage can affect whether the system continues to remove water."
+      ],
+      [
+        "check",
+        "Inspect the Discharge Route and Backwater Need",
+        "Follow the pump discharge route and photograph where water exits, noting whether it may return toward the building. Ask how the proposed routing, grading, and protection from freezing will be handled. If the concern is water returning through a drain, ask whether a backwater valve is relevant and what access and approval requirements may affect its installation."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Lakeshore, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Essex Plumbing Team",
-    intro: "Lakeshore's water depends entirely on which side of the concession road you sit. Belle River's municipal core runs treated lake-adjacent supply, while the farm belt inland pulls private wells heavy with hardness and often iron. Lakeshore Plumbing treats what you actually have. We test, then size softeners and filtration to the source, with UV protection on well systems where the results ask for it.",
-    meta: "Water softeners and filtration in Lakeshore, Ontario. Softeners for Belle River supply and staged iron, sulphur, and UV treatment for farm-belt wells.",
-    problem_h: "Two sides of the road, two kinds of water",
-    problem_p: "We test Lakeshore's municipal and well water separately and install treatment sized to each, because the concession road really does split the aquifer.",
-    features: [
-      ["gauge", "Tested, Never Guessed", "Hardness swings sharply between the shore and the interior here. The softener follows the test result and the household size, never a regional average."],
-      ["droplets", "Farm-Belt Well Treatment", "Inland wells bring iron staining and sulphur odour along for the ride. We install the staged filters that handle both before the water reaches the softener."],
-      ["shield", "Seasonal-Proof Setups", "Treatment on a cottage has to tolerate sitting unused. We configure softeners and filters, so shutdown and reopening do not turn them into science projects."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Lakeshore, Ontario",
+    "h1": "Water Softener and Filtration Planning in Lakeshore",
+    "intro": "Water treatment should follow test results from the property’s actual supply. First identify whether the home uses municipal water or a private well, then gather any recent test results and note concerns such as scale, staining, or odour. For a well, ask whether iron, hardness, sulphur, or other measured results call for separate treatment stages. If the property is seasonal, include shutdown and reopening needs in the discussion. These checks help compare treatment equipment and avoid selecting a system based on assumptions about a location.",
+    "meta": "Water softeners and filtration in Lakeshore, Ontario. Compare treatment options using property-specific municipal or well-water results.",
+    "problem_h": "What do the water test results say the system needs?",
+    "problem_p": "Municipal and private well supplies may require different equipment. Source, measured hardness and other results, household demand, and seasonal operation all help define a suitable treatment proposal.",
+    "features": [
+      [
+        "gauge",
+        "Start with a Water Test",
+        "Identify the water source and gather available test results before comparing softeners. Ask which measurements support the proposed equipment and how household size and use affect capacity. Hardness can vary between individual supplies, so a property-specific result is more useful than assuming a regional average when planning treatment."
+      ],
+      [
+        "droplets",
+        "Separate Well-Water Treatment Stages",
+        "If a private well has staining or odour, arrange testing and ask which results indicate iron, sulphur, or another concern. Compare the proposed filtration stages and their sequence, including how they work with a softener. Identifying the measured issue first matters because different results may call for different equipment rather than a single all-purpose filter."
+      ],
+      [
+        "shield",
+        "Include Seasonal Shutdown and Reopening",
+        "If a treatment system will sit unused during part of the year, ask how the softener, filters, and any related equipment should be isolated, drained, or restarted. Confirm that service access remains clear and that the proposed arrangement suits the property’s shutdown routine. Seasonal requirements can affect equipment selection and the installation layout, so include them in the scope before comparing estimates."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Spring startup found two freeze splits from a hard January. They pressure-tested first, marked the spots, and had both repaired before the weekend crowd arrived.", "Cottage Owner", "Stoney Point"],
-  ["The cottage plumbing was four generations of weekend engineering. They repiped it clean with drain points everywhere, and closing up each fall takes an hour now.", "Cottage Owner", "Comber"],
-  ["Pump could not keep up with the wet spring, simple as that. New properly sized unit with battery backup, and the basement floor stayed dry all season.", "Homeowner", "Belle River"],
-  ["Farm well stained the laundry orange for years. Tested, staged the iron filter ahead of the softener, and the whites came back within a month.", "Farmer", "Woodslee"],
-  ["Mudroom shower and an outside boot station roughed in before spring break. Clean work, passed inspection, and the sand finally stays at the door.", "Resident", "Emeryville"],
-  ["Drain at the cook shack backed up every long weekend without fail. Camera showed the roots, jetting cleared them, and we have gone two full summers clean.", "Cottage Owner", "Ruscomb"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Installs sized to the calendar, year-round households or seasonal cottages, with shutdown-proof arrangements included.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Season-opening clearouts, jetting, and camera work for cottage, lakefront, and farm-belt lines across Lakeshore.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Patchwork cottage pipe and farmhouse galvanized replaced with clean, four-season PEX or copper systems.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Cottage-grade and family-home fixtures, mudroom and outdoor showers, and new-build packages.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Spring startup pressure checks, acoustic location of active leaks, and well-line isolation.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Pumps and backwater valves sized to lake-driven water tables, with battery backup for storm outages.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Treatment sized to municipal or well supply, staged for iron and sulphur, with UV where needed.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless options using household demand, fuel and venting details, access, and seasonal drain-down needs for cottages that close in winter.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Assess which fixtures are affected and whether a line serves septic or holding equipment before comparing cabling, hydro-jetting, or camera inspection for repeat blockages.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Plan PEX or copper replacement by documenting existing pipe materials, leak history, concealed routes, seasonal drain access, and the proposed testing scope.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Compare fixture dimensions and connections, and coordinate toilet, shower, faucet, or sink choices with rough-ins, shutoff access, and seasonal use.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Document pressure changes and visible moisture to help compare pressure testing, acoustic location, and section-by-section checks of buried well lines.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Review pump run patterns, backup power, discharge routing, and whether the concern involves groundwater or a drain backup before selecting protection.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use property-specific results to compare softeners and filtration stages for municipal or well water, including seasonal shutdown requirements.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed for plumbing work in Lakeshore?", "Yes. Lakeshore Plumbing holds its licence for work across Essex County, is fully insured, and pulls permits for every job the Ontario Building Code requires them for."],
-  ["Do you answer emergencies across Lakeshore?", "Yes. Flooded basements, burst lines, backups, and total loss of water take priority, and our route along the shore from Belle River through Stoney Point keeps response times short."],
-  ["Can you replace our water heater quickly?", "Usually same day or next morning, stocked tank sizes permitting. Cottage properties get drain-down and reopening provisions as part of the install rather than an afterthought."],
-  ["Our cottage pipes are a patchwork. Full repipe needed?", "If it has been plumbed in stages over decades, a clean repipe in PEX or copper usually costs less than the string of repairs it prevents, and it winterizes far more reliably."],
-  ["Do you work on wells and septic in the Lakeshore farm belt?", "Yes. Well lines, pressure systems, holding tanks, and septic-adjacent drains are steady work here, along with staged iron, sulphur, and UV treatment for private wells."],
-  ["Do Lakeshore homes need water treatment?", "Most do. Municipal supply in Belle River runs hard enough to scale, and the inland wells run harder still with iron aboard. We test both and size treatment to the result."],
-  ["How does pricing work?", "A full quote lands before any work begins and it holds. Seasonal quirks and access surprises get flagged in the estimate, so the invoice matches the conversation."],
-  ["Which communities do you cover in Lakeshore?", "The whole municipality and neighbours: Belle River, Comber, Stoney Point, Ruscomb, Woodslee, Puce, plus Tecumseh and Windsor inland."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/lakeshoreplumbing.ca-water-heaters.jpg", "Water heater installation in Lakeshore, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/lakeshoreplumbing.ca-drain-cleaning.jpg", "Drain cleaning in Lakeshore, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/lakeshoreplumbing.ca-repiping.jpg", "Whole-home repiping in Lakeshore, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/lakeshoreplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Lakeshore, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/lakeshoreplumbing.ca-leak-detection.jpg", "Leak detection and repair in Lakeshore, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/lakeshoreplumbing.ca-sump-pumps.jpg", "Sump pump installation in Lakeshore, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/lakeshoreplumbing.ca-water-softeners.jpg", "Water softener installation in Lakeshore, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/lakeshoreplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Lakeshore, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/lakeshoreplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning in Lakeshore, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/lakeshoreplumbing.ca-repiping.jpg",
+    "Whole-home repiping in Lakeshore, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/lakeshoreplumbing.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Lakeshore, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/lakeshoreplumbing.ca-leak-detection.jpg",
+    "Leak detection and repair in Lakeshore, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/lakeshoreplumbing.ca-sump-pumps.jpg",
+    "Sump pump installation in Lakeshore, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/lakeshoreplumbing.ca-water-softeners.jpg",
+    "Water softener installation in Lakeshore, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "comber": {
-    name: "Comber",
-    intro: "Comber sits where Lakeshore's farm country meets its small-town roots, a community of country homes, farmsteads, and commuter builds where the wells run mineral-heavy and the lots run long. Lakeshore Plumbing serves Comber with water heaters, drain cleaning, repipes, well treatment, and sump protection, on a route that passes through weekly.",
-    meta: "Plumber in Comber, Ontario. Water heaters, drain cleaning, repipes, and well water treatment from a licensed Essex County team. Free quotes.",
-    nearby: ["Belle River", "Woodslee", "Stoney Point", "Essex"],
-    faq: [
-      ["Do you service homes on wells in Comber?", "Yes. Wells are the norm here, so well lines, pressure tanks, and staged treatment for iron and hardness are everyday Comber work for us."],
-      ["Can you repipe an older Comber farmhouse?", "Yes. We replace aging galvanized and pieced-together runs with clean PEX or copper under permit, routing for winter reliability."],
-      ["How fast can you get to Comber for an emergency?", "Quickly. Comber sits on our regular Lakeshore route, and flooding, no-water, and burst-line calls are prioritized."],
-      ["Do Comber basements need sump protection?", "The flat ground and seasonal saturation make it worthwhile. We size pumps and basins to the sustained spring load, with battery backup where outages are common."]
+    "name": "Comber",
+    "intro": "For a plumbing project in Comber, start by identifying the property’s water source and the equipment already in place. If it uses a private well, gather available test results and photograph the pressure tank, treatment equipment, and accessible supply lines. For an older farmhouse, note exposed pipe materials and any recurring leaks. If a basement takes on water, record pump run patterns and the discharge route. These details help clarify whether the work involves a heater, drain, repipe, treatment system, or sump equipment.",
+    "meta": "Plumbing project planning in Comber, Ontario. Document well equipment, piping, drains, and sump conditions before comparing work.",
+    "nearby": [
+      "Belle River",
+      "Woodslee",
+      "Stoney Point",
+      "Essex"
     ],
+    "faq": [
+      [
+        "What should I prepare for a well-system estimate in Comber?",
+        "If the property has a well, note the pressure tank location, accessible shutoffs, and any changes in pressure or supply. Gather available water test results before discussing treatment. These details can help distinguish a supply or pressure concern from a filtration need."
+      ],
+      [
+        "What should I document before repiping an older farmhouse?",
+        "Photograph accessible pipes and fittings, note known materials and recurring leaks, and identify areas where plumbing is concealed. Ask which sections a proposal includes and what testing will occur before walls are covered. This helps make the scope easier to compare."
+      ],
+      [
+        "How can I assess sump protection for my property?",
+        "If water enters a sump, record how often the pump runs, photograph its label and the basin, and trace where discharge goes. Ask how a proposed system accounts for the observed inflow and whether backup power is relevant at the property."
+      ]
+    ]
   },
   "stoney-point": {
-    name: "Stoney Point",
-    intro: "Stoney Point reaches up along Lake St. Clair's western shore, a mix of seasonal cottages, converted year-round homes, and small farms where the lake sets the water table and the calendar. Lakeshore Plumbing serves Stoney Point with winterization and reopening, water heaters, drain cleaning, and the leak work that seasonal properties eventually need.",
-    meta: "Plumber in Stoney Point, Ontario. Cottage winterization, spring reopenings, water heaters, and drain cleaning near Lake St. Clair. Free quotes.",
-    nearby: ["Belle River", "Comber", "Ruscomb", "Tecumseh"],
-    faq: [
-      ["Do you winterize Stoney Point cottages?", "Yes. Proper drain-downs, trap protection, and marked shutoffs before the cold settles in, paired with a full pressure-test reopening in spring."],
-      ["Can you replace a water heater at a seasonal property?", "Yes. We size for the household and install with the drain points and access a fall shutdown needs, so the unit survives the off-season."],
-      ["What about drains that clog every reopening?", "Lines that sat dry all winter behave differently. We clear them thoroughly at startup and camera the ones that clog on a schedule every year."],
-      ["Is Stoney Point within your emergency range?", "Yes. Shore properties from Belle River through Stoney Point are priority territory for flooding, freeze breaks, and no-water calls."]
+    "name": "Stoney Point",
+    "intro": "For work at a Stoney Point property, first consider whether it operates year-round or is closed seasonally. If the plumbing is shut down for winter, photograph the main shutoff, drains, traps, and heater connections, then note what happens during reopening. If a drain repeatedly blocks after a period of disuse, record which fixtures are affected and whether the line connects to septic or holding equipment. These details help establish a useful scope for winterization, heater work, drain clearing, or leak investigation.",
+    "meta": "Plumbing project planning in Stoney Point, Ontario. Prepare for seasonal shutdowns, spring reopening, water heaters, drains, and leaks.",
+    "nearby": [
+      "Belle River",
+      "Comber",
+      "Ruscomb",
+      "Tecumseh"
     ],
+    "faq": [
+      [
+        "What should I check before closing a seasonal cottage?",
+        "If the property will be unheated, identify the main shutoff, heater drain, plumbing low points, and traps that may retain water. Ask what equipment needs isolation or protection and whether the layout has accessible drain points. The property’s actual plumbing arrangement determines the appropriate shutdown steps."
+      ],
+      [
+        "What information helps plan a water-heater replacement at a seasonal property?",
+        "Photograph the heater label, connections, venting, and nearby shutoffs. Explain how long the property is closed and ask how the proposed installation can be drained and reopened. Access to drain points and the heater’s specifications can affect the work."
+      ],
+      [
+        "How should I investigate drains that clog after winter?",
+        "Record which fixtures are affected and whether the problem happens each spring. Identify accessible cleanouts and any septic or holding equipment downstream. For repeat problems, ask whether camera inspection after clearing could help distinguish a recurring obstruction from another line condition."
+      ],
+      [
+        "What should I document when reopening the plumbing?",
+        "Note pressure changes, visible moisture, and which fixtures are affected as the system is brought back into use. Photograph accessible valves and any water marks. These observations can help determine whether pressure testing, leak location, or drain work is relevant."
+      ]
+    ]
   },
   "ruscomb": {
-    name: "Ruscomb",
-    intro: "Ruscomb is a quiet farm-belt pocket of Lakeshore north of the 401, where properties spread out, wells supply the water, and the plumbing has to be right because help is a drive. Lakeshore Plumbing serves Ruscomb homes and farmsteads with water heaters, drain cleaning, repiping, well treatment, and honest repair work.",
-    meta: "Plumber in Ruscomb, Ontario. Water heaters, drain cleaning, repiping, and well treatment for farm-belt properties. Free quotes.",
-    nearby: ["Stoney Point", "Comber", "Belle River", "Windsor"],
-    faq: [
-      ["Do you handle well systems in Ruscomb?", "Yes. From pressure tanks to long supply runs, well work is standard here, along with treatment sized to what the local water tests show."],
-      ["Can you clear recurring drain problems at a Ruscomb property?", "Yes. We cable and jet the line, and where the same drain keeps backing up we camera it to find the roots, sag, or scale causing it."],
-      ["Do you repipe older Ruscomb homes and farmhouses?", "Yes. Galvanized removal and mixed-era pipe consolidation in PEX or copper, permitted, tested, and documented for insurance."],
-      ["How do you schedule work out to Ruscomb?", "We group Ruscomb calls onto regular route days for planned work, and emergencies move to the front of the board regardless of address."]
+    "name": "Ruscomb",
+    "intro": "When planning plumbing work in Ruscomb, record the property’s water source and how far key equipment is from the building. If the home uses a well, photograph the pressure tank, wellhead, shutoffs, and any visible treatment equipment; available water tests can help explain treatment needs. For an older home or farmstead, note exposed pipe materials and repeated leaks. If drains back up more than once, identify cleanouts and any septic equipment. This information can help compare proposals for well lines, drains, repiping, or water treatment.",
+    "meta": "Plumbing project planning in Ruscomb, Ontario. Document well equipment, buried supply lines, drains, and older piping.",
+    "nearby": [
+      "Stoney Point",
+      "Comber",
+      "Belle River",
+      "Windsor"
     ],
-  },
+    "faq": [
+      [
+        "What details help assess a well system in Ruscomb?",
+        "If the property uses a well, note where the wellhead, pressure tank, and accessible shutoffs are located. Gather any recent water test results and describe pressure or supply changes. For a suspected buried-line problem, identify the route as far as you can."
+      ],
+      [
+        "What can I do before asking about a recurring drain problem?",
+        "List the affected fixtures, note how often the blockage returns, and photograph accessible cleanouts. Identify any septic or holding equipment connected to the line. This helps clarify whether a clearing method or additional inspection should be considered."
+      ],
+      [
+        "What should I compare in a repiping proposal?",
+        "Ask which materials and sections will be replaced, where new piping will run, and what testing is planned before the work is concealed. If the property may be closed in winter, ask how drain access and vulnerable runs are handled."
+      ],
+      [
+        "What information is useful when planning work at a rural property?",
+        "Describe the water source, distance to the well or other equipment, access to the work area, and any known shutoffs or cleanouts. Photos and test results can help clarify the scope before discussing a site-specific proposal."
+      ]
+    ]
+  }
 };

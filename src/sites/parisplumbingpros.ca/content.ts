@@ -1,186 +1,379 @@
-// Per-site content for parisplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Paris, where the Nith meets the Grand
-// in Brant County.
-// Local angle: a town built of plaster and cobblestone with river-flat streets
-// below and hillside homes above, heritage renovations where every pipe route
-// matters, low stretches along both rivers that take groundwater, aging
-// chimney-vented heaters awaiting conversion, and rural lots outside town on
-// wells.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Paris, Ontario",
-    h1: "Water Heater Installation From a Local Brant Plumbing Team",
-    intro: "Paris homes heat water in some of the least convenient corners in the county, low stone cellars, tucked closets, utility nooks under sloped stairs, and the old chimney vent often turns out to be the weak link. Paris Plumbing Pros replaces tanks and installs tankless systems with the venting brought to modern standards, the unit matched to the household, and the cramped access treated as routine rather than an obstacle. Hillside or river flat, the job finishes clean.",
-    meta: "Water heater installation in Paris, Ontario. Chimney vent conversions, tankless installs, and tight-space replacements for heritage homes.",
-    problem_h: "Tank in a stone cellar ready to retire?",
-    problem_p: "Paris installs get modern venting and honest sizing even where access is tight and the cellar is low.",
-    features: [
-      ["flame", "Chimney Vent Conversions", "Many Paris houses still vent into century chimneys that no longer meet code. We convert replacements to certified side-wall venting so the new heater is safe and approvable."],
-      ["clock", "Tight-Access Specialists", "Low ceilings, stone doorways, and switchback stairs are normal work here. We plan the removal path first so the old tank leaves and the new one lands without drama."],
-      ["shield", "Sized to the Household", "A couple in a hillside cottage and a family of six on Willow Street need different units. We quote the capacity the house actually demands."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Paris, Ontario",
+    "h1": "Water Heater Installation for Paris Homes",
+    "intro": "Planning a water heater replacement in Paris? The right equipment and installation details depend on the existing fuel, venting, household demand, and route into the mechanical space. If the current tank vents through a chimney, have its condition and the proposed replacement venting assessed before choosing a unit. For a low cellar, narrow doorway, or stair turn, measure and photograph the access path so removal and delivery can be included in the scope. Compare tank and tankless options against actual hot-water use.",
+    "meta": "Water heater replacement in Paris, Ontario, including venting and tight-access planning.",
+    "problem_h": "Is the old tank difficult to remove or vent?",
+    "problem_p": "Check the fuel, vent route, tank dimensions, and access before comparing replacements. These details affect equipment choice, installation scope, and whether venting changes are needed.",
+    "features": [
+      [
+        "flame",
+        "Review the Existing Vent Route",
+        "Photograph the heater label, vent connection, and the route to the chimney or exterior. If an older appliance shares a chimney, ask how the replacement will be vented and what work is required. The answer can change the equipment choice, wall or chimney work, and installation cost."
+      ],
+      [
+        "clock",
+        "Measure the Access Path",
+        "Record doorway widths, stair turns, ceiling height, and the route from the entrance to the heater. If a tank cannot pass through easily, ask how removal and delivery will be handled. Access details can affect labour, equipment dimensions, and whether any part of the route needs preparation."
+      ],
+      [
+        "shield",
+        "Match Capacity to Household Use",
+        "List the number of occupants, bathrooms, and periods of simultaneous hot-water use. Compare storage capacity and recovery rate for tank models, or flow capacity for tankless models. If several fixtures run together, ask how the proposed unit handles that demand rather than relying on household size alone."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Paris, Ontario",
-    h1: "Drain Cleaning From a Local Brant Plumbing Team",
-    intro: "Two rivers, mature willows and maples along their banks, and a downtown stock of clay laterals laid when the town was young, Paris drain lines fail in the ways old river towns do. Paris Plumbing Pros clears kitchen and bath drains, cuts the root masses out of aging laterals, and hydro-jets lines back to full bore, with the camera run to show you the pipe's true condition afterward. Clear once, know exactly why.",
-    meta: "Drain cleaning in Paris, Ontario. Root cutting, hydro-jetting, and camera inspection for clay laterals on river-flat streets.",
-    problem_h: "Basement drain gurgling when the river is high?",
-    problem_p: "Old laterals and river-side roots clog predictably. We clear Paris lines completely and camera the pipe to confirm.",
-    features: [
-      ["refresh", "Jetting Back to Full Bore", "Grease and silt narrow old Paris drains year by year. Hydro-jetting scours the walls clean again instead of punching a temporary channel."],
-      ["droplets", "Camera Confirmation Included", "After clearing, the camera goes down and the screen tells the story, roots, joints, sags, whatever is there. Paris homeowners decide next steps with facts."],
-      ["pin", "River-Flat Priority", "Homes on the low streets get fast scheduling when the water table rises and drains slow. That call should not wait a week."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Paris, Ontario",
+    "h1": "Drain Cleaning and Inspection in Paris",
+    "intro": "A recurring blockage can come from grease, scale, roots, a damaged joint, or a low section of pipe. For a drain-cleaning job in Paris, note which fixtures are affected, when the problem occurs, and whether previous clearing helped. If the line is older clay, has recurring root growth, or serves a basement fixture, ask whether a camera inspection is appropriate after clearing. The pipe material and condition help determine whether cleaning is sufficient or further repair should be considered.",
+    "meta": "Drain cleaning in Paris, Ontario, with guidance on clearing and camera inspection.",
+    "problem_h": "Does the same drain keep slowing or blocking?",
+    "problem_p": "Record affected fixtures and recurring symptoms, and ask what method suits the pipe material. A camera check can help distinguish a temporary blockage from a continuing pipe problem.",
+    "features": [
+      [
+        "refresh",
+        "Choose a Cleaning Method for the Line",
+        "Ask whether the obstruction is likely to be grease, silt, roots, or another material, and identify the pipe type if known. If buildup coats the line, hydro-jetting may clean more of the pipe wall than simply opening a narrow path. The method should reflect pipe condition and the blockage, not just the symptom."
+      ],
+      [
+        "droplets",
+        "Use a Camera to Check the Result",
+        "If the blockage returns or the pipe is older, ask whether a camera inspection can follow cleaning. Request an explanation of any visible roots, open joints, sags, or damage, and keep the recording if available. Those findings can help you compare another cleaning with a repair plan."
+      ],
+      [
+        "pin",
+        "Compare Symptoms Across Fixtures",
+        "Note whether one sink, several fixtures, or a basement drain is affected, and whether flushing or appliance use changes the symptoms. If more than one fixture backs up, the issue may be farther along a shared line. That distinction helps identify which section should be inspected and cleared."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Paris, Ontario",
-    h1: "Repiping From a Local Brant Plumbing Team",
-    intro: "Repiping a Paris heritage home is part plumbing and part surgery, plaster walls, lath beneath, cobblestone foundations, and not much tolerance for a careless access cut. Paris Plumbing Pros replaces galvanized and poly-B systems in PEX or copper, routing through the voids the old house offers and opening finishes only where the plan says to. Flow returns to upstairs fixtures the house has not seen in decades.",
-    meta: "Repiping in Paris, Ontario. Galvanized and poly-B replacement in heritage homes, routed with care for plaster and stone construction.",
-    problem_h: "Plaster tired of hiding bad pipe?",
-    problem_p: "We repipe Paris heritage homes with minimal openings, restoring pressure while respecting what is original.",
-    features: [
-      ["wrench", "Heritage-Safe Access Planning", "Every opening is chosen before a tool comes out. Flexible PEX runs through framing voids the original builders left, keeping patching to a handful of small, tidy repairs."],
-      ["home", "Phased for Occupied Homes", "Most Paris families stay in the house through the repipe. We work floor by floor so showers and the kitchen keep working every evening."],
-      ["shield", "Permitted, Tested, Recorded", "The city paperwork is filed, the system is pressure-proven, and the inspection record stays with the house. Buyers ask, and you will have it."]
+    "icon": "wrench",
+    "kicker": "Repiping in Paris, Ontario",
+    "h1": "Repiping Options for Paris Homes",
+    "intro": "A repipe can involve replacing galvanized or poly-B water lines, choosing new materials, and deciding how to reach pipes behind finished walls. For a Paris home with plaster, lath, or stone construction, photograph visible pipe, access points, and finishes that need protection. Ask for a route plan showing proposed openings and how the work will be sequenced. The pipe material, building layout, fixture locations, and whether the home remains occupied all affect the scope and the amount of finish repair to plan.",
+    "meta": "Repiping in Paris, Ontario, with planning for pipe materials, access, and occupied homes.",
+    "problem_h": "Are aging water lines affecting pressure or repairs?",
+    "problem_p": "Identify visible pipe material and note where pressure changes occur. A route and access plan helps compare replacement options and anticipate openings and finish repairs.",
+    "features": [
+      [
+        "wrench",
+        "Plan Access Before Opening Finishes",
+        "Ask for a proposed route and mark plaster, tile, or other finishes that need particular care. If framing voids provide a path, flexible PEX may reduce the number or size of openings; copper may suit a different layout. Material choice and access planning influence both installation and patching scope."
+      ],
+      [
+        "home",
+        "Set a Sequence for an Occupied Home",
+        "List the fixtures the household needs each day and ask how water interruptions will be sequenced by floor or area. If the home stays occupied during work, a clear schedule helps you plan around periods when a bathroom or kitchen may be unavailable. Confirm what must be moved or protected."
+      ],
+      [
+        "shield",
+        "Ask About Testing and Records",
+        "Request details of the planned pressure test, any required inspection, and the records you will receive when the work is complete. Verify who is responsible for arranging any applicable permit or inspection rather than assuming it is included. Clear documentation helps you understand what was changed and retain information for future maintenance."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Paris, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Brant Plumbing Team",
-    intro: "Paris renovates with an eye on the town's character, period-styled taps on a modern shower valve, a classic pedestal where the laundry used to slop, a basement bathroom carved into space the 1890s never planned for. Paris Plumbing Pros does the plumbing behind those upgrades, roughing in before tile and trimming out after, setting every fixture dead level and sealed for good. Modern function, heritage looks.",
-    meta: "Fixture and toilet installation in Paris, Ontario. Period-styled renovations, modern valve installs, and basement bathrooms in heritage homes.",
-    problem_h: "Renovating around original character?",
-    problem_p: "We plumb Paris renovations so the modern hardware behind the wall matches the period styling in front of it.",
-    features: [
-      ["home", "Period Look, Modern Valve", "The trim can be 1920s in style while the pressure-balanced valve behind it is fully current. We make both halves of a Paris bathroom work together."],
-      ["check", "Basement Bathroom Planning", "Carving a three-piece below an old Paris house takes drain strategy first. We plan the route and pumping decision before anyone budgets tile."],
-      ["dollar", "Fix or Replace, Straight Answer", "Sometimes a quality fixture just needs a rebuild kit. We tell Paris customers when a repair wins and quote the swap honestly when it does not."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Paris, Ontario",
+    "h1": "Fixture and Toilet Installation in Paris",
+    "intro": "Fixture updates can combine period-inspired trim with modern valves, or add a bathroom where an older home was not originally designed to have one. For a project in Paris, identify the fixtures, finishes, and plumbing already in place before selecting replacements. If a basement bathroom is planned, check the drain location, elevation, and route before setting a tile budget; a pump may be relevant depending on the layout. Confirming these details early helps define rough-in, installation, and finishing work.",
+    "meta": "Fixture and toilet installation in Paris, Ontario, including renovation and basement planning.",
+    "problem_h": "Planning a fixture update or another bathroom?",
+    "problem_p": "Photograph existing connections and note the fixture models and room layout. Drain position and elevation can change the plan for a basement bathroom or renovation.",
+    "features": [
+      [
+        "home",
+        "Coordinate Style and Valve Requirements",
+        "Choose the visible trim and identify the compatible valve behind the wall before construction begins. If a period-styled shower trim is desired, ask how it pairs with a current pressure-balanced valve. Checking compatibility before tile work can prevent changes to the rough-in or finished wall."
+      ],
+      [
+        "check",
+        "Check Basement Drain Elevation",
+        "Before budgeting a below-grade bathroom, locate the nearest drain and compare its elevation with the proposed fixtures. If gravity drainage is not possible, ask whether a pumping arrangement is needed and where it could fit. The route and equipment choice can affect floor work, access, and the renovation plan."
+      ],
+      [
+        "dollar",
+        "Compare Repair and Replacement",
+        "For a working fixture with a specific fault, record its make and model and describe the symptoms. Ask whether a compatible rebuild kit or another repair is practical, then compare that scope with replacement. The condition of the fixture and availability of matching parts help determine which option makes sense."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Paris, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Brant Plumbing Team",
-    intro: "Damp in a Paris house is ambiguous by nature, river-flat groundwater seeping through old stone, or a pinholed supply line quietly feeding the wall, and treating the wrong one wastes real money. Paris Plumbing Pros isolates the plumbing under pressure and listens with acoustic gear before anyone opens anything, so the repair targets the pipe when it is a pipe and the drainage when it is not. Then we fix it through one small, planned access.",
-    meta: "Leak detection and repair in Paris, Ontario. Pressure isolation and acoustic location that separate groundwater from plumbing leaks.",
-    problem_h: "Damp wall on the cellar side?",
-    problem_p: "In Paris it could be the stone or the pipe. We prove which before the first hole gets cut.",
-    features: [
-      ["droplets", "Isolation Before Demolition", "Pressure-testing sections tells us whether the plumbing holds. If it does, the fix is drainage, and you just saved a ripped-open wall."],
-      ["shield", "Stone-Foundation Judgment", "Decades of river-adjacent seepage patterns get read properly. We know which Paris conditions point at the foundation and which point at the pipe."],
-      ["check", "Single-Access Repairs", "When the leak is plumbing, acoustic location puts one opening exactly at the failure. The patch stays small enough to hide."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Paris, Ontario",
+    "h1": "Leak Detection and Repair in Paris",
+    "intro": "Dampness near a wall or cellar floor does not by itself identify a plumbing leak. For a Paris property, note when moisture appears, whether it changes with rain, and whether nearby plumbing is in use. Photograph the affected area and any visible supply lines or drains. If the source is unclear, ask whether pressure isolation can test plumbing sections before finishes are opened; acoustic locating may help narrow a confirmed leak. The findings distinguish pipe repairs from drainage or foundation investigations.",
+    "meta": "Leak detection and repair in Paris, Ontario, with plumbing isolation and source assessment.",
+    "problem_h": "Is moisture appearing near a cellar wall?",
+    "problem_p": "Track when dampness appears and photograph the area. Testing plumbing sections before opening a wall can help separate a pipe leak from another moisture source.",
+    "features": [
+      [
+        "droplets",
+        "Test Sections Before Demolition",
+        "Ask whether the water supply can be isolated and pressure-tested in sections. If a section holds pressure, that result may direct attention away from its pipes and toward drainage or another source. Testing first can prevent unnecessary openings and helps define which trade or investigation is relevant."
+      ],
+      [
+        "shield",
+        "Compare Plumbing and Water Entry",
+        "Note whether moisture follows rainfall, changes when fixtures run, or appears independently of plumbing use. If the building has a stone foundation, photograph cracks, joints, and damp areas for assessment. These observations are clues, not a diagnosis, and help determine whether plumbing tests or a separate drainage review is warranted."
+      ],
+      [
+        "check",
+        "Narrow the Repair Location",
+        "If testing indicates a plumbing leak, ask whether acoustic equipment or another locating method can narrow its position before access is cut. Confirm which wall or floor area is expected to be opened and what remains uncertain. A more precise location can reduce exploratory work and make the repair scope easier to compare."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Paris, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Brant Plumbing Team",
-    intro: "Where the Nith and the Grand run high, the low streets of Paris run wet, and every finished basement on the flat is one power outage away from learning what its sump pump is worth. Paris Plumbing Pros installs pumps and basins sized to the yard's real inflow, routes discharge where it cannot loop back against the foundation, and fits backwater valves on the streets where the municipal main surcharges. River towns are won on drainage details.",
-    meta: "Sump pump and backwater valve installation in Paris, Ontario. River-level groundwater protection for finished basements on the flats.",
-    problem_h: "Nervous every time the rivers rise?",
-    problem_p: "Low-street Paris basements need pumping and backwater protection sized for river events, and we build exactly that.",
-    features: [
-      ["shield", "Inflow-Matched Pumping", "We size from how the yard actually behaves in a melt or a storm, not from a generic chart. Paris pits cycle in healthy rhythms or they do not last."],
-      ["zap", "Backup for the Outage Hour", "River events and power failures arrive together. A battery stage keeps the pit empty through the dark hours when the main pump is offline."],
-      ["refresh", "Discharge Routed to Leave", "Pumping water into the low swale beside the footing just recycles it. We run Paris discharges clear and grade the outlet to survive winter."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Paris, Ontario",
+    "h1": "Sump Pump and Backwater Planning in Paris",
+    "intro": "A sump pump and backwater valve address different water-entry risks, so start by recording where water appears and how the existing system behaves. For a Paris property, photograph the pit, pump label, discharge route, and any floor drain or backwater valve. If water enters during a storm or outage, note the timing and depth. Ask how inflow, backup power, discharge location, and municipal connection affect the proposed setup; those site details determine equipment and installation scope.",
+    "meta": "Sump pump and backwater planning in Paris, Ontario, including backup and discharge considerations.",
+    "problem_h": "Does the basement need better water-entry protection?",
+    "problem_p": "Inspect the pump, pit, power supply, and discharge outlet. The source and timing of water help determine whether pumping, backup power, or a backwater valve is relevant.",
+    "features": [
+      [
+        "shield",
+        "Size Pumping to Observed Inflow",
+        "Record how often the pump runs during wet weather and whether the pit fills quickly. Ask how that observed inflow and the pit dimensions inform pump capacity. A generic selection may not suit the site, and the duty cycle affects how the system performs over time."
+      ],
+      [
+        "zap",
+        "Compare Backup Options",
+        "Check whether the pump has a dedicated power source, an alarm, or any backup arrangement, and note how long outages have lasted. If backup power is being considered, ask what it can operate and for how long. Those details help compare battery capacity and set realistic expectations during an outage."
+      ],
+      [
+        "refresh",
+        "Trace the Discharge Route",
+        "Follow the discharge pipe to its outlet and photograph nearby grading, low areas, and the foundation. If water could return toward the building or freeze at the outlet, ask how routing and winter conditions should be handled. The outlet location and site layout affect whether pumping removes water effectively."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Paris, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Brant Plumbing Team",
-    intro: "Paris draws reasonably hard municipal water, and the rural lots just past the town boundaries pull from wells that add iron and the occasional sulphur note to the mix. Paris Plumbing Pros installs softeners and filtration sized from a test of your actual water, with a proper bypass and drain so the equipment can be serviced without shutting the house down. Kettles, glass, and heaters all last longer when the water behaves.",
-    meta: "Water softeners and filtration in Paris, Ontario. Test-based softener installs and rural well treatment for properties outside town.",
-    problem_h: "Spots on everything the dishwasher touches?",
-    problem_p: "Hard town water or iron-rich wells, either way we test first and size treatment to the result.",
-    features: [
-      ["gauge", "Capacity From the Test", "Paris hardness sits in a known range in town and varies sharply on the outskirts. Sizing follows the numbers, so the unit regenerates on demand, not on a hunch."],
-      ["droplets", "Rural Iron and Sulphur Staging", "Wells toward Glen Morris and beyond bring iron staining and odour. We stage oxidation and filtration to those exact levels."],
-      ["dollar", "Protection That Pays Slowly", "Softened water stretches the life of the heater, the dishwasher, and every finish. It adds up to real money kept."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Paris, Ontario",
+    "h1": "Water Softening and Filtration in Paris",
+    "intro": "Treatment equipment should be selected from a test of the water serving the property, not from appearance or assumptions about location. For a Paris home, first establish whether the supply is municipal or a private well, then test the relevant characteristics before comparing a softener or filters. If a well sample shows iron or odour concerns, ask what treatment stages address the measured results. Check space, drain access, and bypass arrangements too, since these affect installation and future servicing.",
+    "meta": "Water softeners and filtration in Paris, Ontario, selected using property water tests.",
+    "problem_h": "Are spots, scale, staining, or odour concerns recurring?",
+    "problem_p": "Confirm the water source and obtain a suitable test before choosing equipment. Results determine whether softening, filtration, or another treatment stage is appropriate.",
+    "features": [
+      [
+        "gauge",
+        "Size Equipment From Test Results",
+        "Ask for test results that support the proposed softener capacity and settings. If hardness varies or household demand is high, the numbers and expected use affect regeneration frequency and equipment size. Comparing proposals against the same test makes it easier to understand what each system is intended to treat."
+      ],
+      [
+        "droplets",
+        "Assess Iron and Odour Separately",
+        "For a private well, note staining, odour, and any existing test results. Ask whether iron, sulphur-related odour, or other measured conditions require separate treatment stages, such as oxidation followed by filtration. The sequence and equipment depend on the actual levels; one general-purpose filter may not address every result."
+      ],
+      [
+        "dollar",
+        "Review Bypass and Service Needs",
+        "Check whether the proposed location allows access to a bypass, drain connection, and the controls or media that may need maintenance. Ask how the household can keep water available if treatment equipment is isolated for service. These layout details affect installation and the practical cost of maintaining the system."
+      ]
     ],
-    rev: [4, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Chimney vent was the reason nobody would touch our tank job. They converted it properly and the new unit fits the old cellar fine.", "Homeowner", "Paris"],
-  ["Main line roots, cleared and camera-verified the same afternoon. They marked the exact joint on screen before we talked repair.", "Resident", "Paris"],
-  ["Repiped our plaster house over two weeks while we lived in it. Access cuts were few and small, and the patching was neat.", "Homeowner", "Paris"],
-  ["Damp cellar wall turned out to be a pinhole, not the stone. Pressure test proved it, one small patch, problem gone.", "Resident", "Glen Morris"],
-  ["New sump with battery backup and a discharge that finally leaves the yard. The spring the river ran high, the floor stayed dry.", "Homeowner", "St. George"],
-  ["Well water was turning the tub orange. Test-based iron treatment stopped it inside a month, and they set it up serviceable.", "Farmer", "Mount Pleasant"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Chimney vent conversions and tight-access replacements for Paris homes from the flats to the hill.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Root cutting, jetting, and camera confirmation for the clay laterals under old river-town streets.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Heritage-safe galvanized and poly-B replacement, phased so the household keeps water every day.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Period-styled renovations and basement bathrooms plumbed for modern function behind the look.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Pressure isolation that tells groundwater from pipe leaks before anything gets opened.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "River-level protection with inflow-matched pumping, backup power, and honest discharge routing.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Softeners sized from real tests, with iron and sulphur staging for rural wells.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless options using household demand, existing fuel and venting, and the measured route through a cellar or stairway.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Describe affected fixtures and recurring symptoms. Pipe material and camera findings can help distinguish a blockage suitable for cleaning from a damaged section.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Compare replacement materials and access routes for galvanized or poly-B lines, including planned openings and the sequence for an occupied home.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan fixture compatibility, rough-in locations, and basement drain elevation before choosing finishes or setting a renovation budget.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Record when and where moisture appears. Pressure testing and locating methods can help distinguish a plumbing leak from another source.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Review pump capacity, power backup, discharge routing, and the separate role a backwater valve may play at the property.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use a water test to compare softener capacity and any filtration stages needed for measured well-water concerns.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed to work on Paris homes?", "Yes, licensed and insured, with permits pulled through the city for any Paris job that requires one and inspections passed before completion."],
-  ["Can you get here fast if the basement is flooding?", "Yes. Floods, backups, and burst lines in Paris and the immediate Brant roads get priority scheduling, evenings included where needed."],
-  ["Our tank is in a stone cellar with a low ceiling. Take the job?", "Happily. Cramped access and awkward exits describe half the water heaters in Paris. The plan accounts for the space before anything moves."],
-  ["Would you repipe a heritage house or patch the leaks?", "When leaks repeat and pressure fades, patching has stopped paying. We repipe with minimal access cuts and keep the original finishes as untouched as the job allows."],
-  ["Does living near the rivers change basement plumbing?", "It does. High water and surcharging mains put low-street basements at risk, so properly sized sump systems and backwater valves are worth real money here."],
-  ["Is Paris water hard?", "Moderately, and the wells outside town run harder with iron sometimes along for the ride. A test tells us which, and the treatment follows the result."],
-  ["What does a quote cost and how firm is it?", "Quotes are free and the written figure is the figure. You approve it before work starts and nothing gets added at the end."],
-  ["Do you travel beyond Paris itself?", "Yes, St. George, Glen Morris, Mount Pleasant, Ayr, and Brantford sit inside the regular service radius."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/parisplumbingpros.ca-water-heaters.jpg", "Water heater replacement in Paris, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/parisplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning in Paris, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/parisplumbingpros.ca-repiping.jpg", "Heritage home repipe in Paris, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/parisplumbingpros.ca-fixtures-toilets.jpg", "Bathroom fixture installation in Paris, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/parisplumbingpros.ca-leak-detection.jpg", "Leak detection in a Paris heritage home", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/parisplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Paris, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/parisplumbingpros.ca-water-softeners.jpg", "Water softener installation in Paris, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/parisplumbingpros.ca-water-heaters.jpg",
+    "Water heater replacement in Paris, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/parisplumbingpros.ca-drain-cleaning.jpg",
+    "Drain cleaning in Paris, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/parisplumbingpros.ca-repiping.jpg",
+    "Heritage home repipe in Paris, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/parisplumbingpros.ca-fixtures-toilets.jpg",
+    "Bathroom fixture installation in Paris, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/parisplumbingpros.ca-leak-detection.jpg",
+    "Leak detection in a Paris heritage home",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/parisplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump installation in Paris, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/parisplumbingpros.ca-water-softeners.jpg",
+    "Water softener installation in Paris, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "glen-morris": {
-    name: "Glen Morris",
-    intro: "Glen Morris hides in the river valley north of Paris, a hamlet of stone houses and rural lots where the well is the water supply and the roads dip toward the water. Paris Plumbing Pros serves Glen Morris with well treatment, water heater replacement, sump protection for the valley ground, and careful plumbing for the older homes. Small place, full-standard work.",
-    meta: "Plumber in Glen Morris, Ontario. Well water treatment, water heaters, and valley drainage work north of Paris.",
-    nearby: ["Paris", "St. George", "Ayr", "Brantford"],
-    faq: [
-      ["Do you treat Glen Morris well water?", "Yes. Valley wells run their own iron and hardness profile, and treatment gets staged from your test results."],
-      ["Can you replace a water heater in Glen Morris?", "Yes. The hamlet sits minutes from our Paris base and stocked sizes usually finish the job same visit."],
-      ["Our Glen Morris basement takes valley water in spring. Advice?", "We check the pumping and discharge setup first and size protection to how the yard actually behaves."],
-      ["Are emergencies covered in Glen Morris?", "Yes. Flood and no-water calls in the hamlet get the same priority response as Paris itself."]
+    "name": "Glen Morris",
+    "intro": "For a plumbing project in Glen Morris, begin with the property’s water source, building layout, and the symptoms you can observe. If the home uses a private well, arrange a water test before comparing softeners or filters; iron and hardness treatment depend on the results. If a basement takes on water, photograph the sump pit, pump, and discharge route and note when the issue occurs. Older pipe materials, heater access, and available drain connections can also change the work to plan.",
+    "meta": "Plumbing project planning in Glen Morris, Ontario, including well-water treatment and basement drainage.",
+    "nearby": [
+      "Paris",
+      "St. George",
+      "Ayr",
+      "Brantford"
     ],
+    "faq": [
+      [
+        "What should I check before choosing well-water treatment?",
+        "Confirm that the property uses a private well and obtain a suitable water test. Compare proposed equipment with the measured results, since softening, iron treatment, and filtration address different conditions."
+      ],
+      [
+        "What information helps plan a water heater replacement?",
+        "Photograph the heater label and vent connection, and measure the route through doors, stairs, and the mechanical space. Fuel, venting, capacity, and access all affect the replacement scope."
+      ],
+      [
+        "What should I document if a basement takes on water?",
+        "Note when water appears and photograph the sump pit, pump label, power supply, and discharge outlet. The observations help assess whether pump capacity, backup power, or discharge routing needs attention."
+      ],
+      [
+        "What helps assess recurring slow drains?",
+        "List the affected fixtures and note whether the problem returns after clearing. If the line is older or symptoms recur, ask whether a camera inspection could clarify pipe condition."
+      ]
+    ]
   },
   "mount-pleasant": {
-    name: "Mount Pleasant",
-    intro: "Mount Pleasant sits south of Brantford in Brant County, where the city's growing south end presses out against old farm lots and estate properties, a short drive south of Paris through open country. Paris Plumbing Pros covers Mount Pleasant for water heaters, softener and iron filter installs, drain clearing, and repipes on the older homes. New subdivision streets and original concession roads both get the same standard of work.",
-    meta: "Plumber in Mount Pleasant, Ontario. Water heaters, well treatment, drains, and repiping in Brant County south of Brantford near Paris.",
-    nearby: ["Paris", "Brantford", "Scotland", "Cainsville"],
-    faq: [
-      ["Do you cover the new subdivisions around Mount Pleasant?", "Yes. Builds on the Brantford fringe and the older homes around the village core are both regular stops on our county routes."],
-      ["Can a Mount Pleasant property on a well get proper water treatment?", "Yes. We start with a test of the actual supply, then size softening, iron, or UV treatment to what the sample shows."],
-      ["Our older Mount Pleasant house has slow drains. Can you help?", "Yes. We clear the line first and camera it if the trouble keeps returning, so you know whether it is buildup or a joint problem."],
-      ["How do we arrange a Mount Pleasant visit?", "Call or email and we will fit you into the Brant routes that run past Mount Pleasant through the week."]
+    "name": "Mount Pleasant",
+    "intro": "For a plumbing job in Mount Pleasant, collect details about the home’s age, water supply, fixtures, and the symptoms prompting the work. If the property uses a private well, test the water before comparing softening, iron treatment, or other filtration. For recurring slow drains, record which fixtures are affected and whether clearing has helped; an inspection may be useful if the issue returns. If older supply lines are visible, photograph their material and locations so a repiping discussion can account for access and finishes.",
+    "meta": "Plumbing project planning in Mount Pleasant, Ontario, including well-water tests, drains, and repiping.",
+    "nearby": [
+      "Paris",
+      "Brantford",
+      "Scotland",
+      "Cainsville"
     ],
-  },
+    "faq": [
+      [
+        "What information is useful for a project in a newer subdivision?",
+        "Describe the issue, identify the affected fixtures, and provide photographs of accessible plumbing or equipment labels. The home layout and existing connections help clarify the requested scope."
+      ],
+      [
+        "How should a property owner compare well-water treatment?",
+        "Start with a test of the actual supply. Compare proposed softening or filtration with the measured results, and ask whether any iron or other concern requires a separate treatment stage."
+      ],
+      [
+        "What should I note about recurring slow drains?",
+        "Record which fixtures are slow, when the problem occurs, and whether it returns after cleaning. If several fixtures are affected or the blockage recurs, ask whether the shared line should be inspected."
+      ],
+      [
+        "What details help plan a repipe in an older home?",
+        "Photograph visible pipes and note their material, affected fixtures, and finished surfaces near likely routes. Ask how the proposed access plan may affect walls, floors, and the household’s water use during work."
+      ]
+    ]
+  }
 };

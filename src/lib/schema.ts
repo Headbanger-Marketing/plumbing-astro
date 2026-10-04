@@ -28,6 +28,7 @@ export function schemaLocalbusiness(s: SiteConfig): string {
   const areaServed = s.serviceAreas.map((a) => q(`${a}, ON`)).join(',');
   const bizType = verticalCopy(s).businessType;
   const citationPhone = s.citationPhone ?? s.phone;
+  const telephone = s.hidePhone ? '' : `"telephone":${q(citationPhone.display)},`;
   // Per-site logo for structured data — the same mark the header/favicon
   // serve. A .svg primary (Recraft-wave sites) swaps to its rasterised .png
   // twin (replace on a .png name is a no-op), which rich-results parsers
@@ -51,10 +52,9 @@ export function schemaLocalbusiness(s: SiteConfig): string {
   ].filter(Boolean).join(',');
   return `<script type="application/ld+json">
 {"@context":"https://schema.org","@type":${q(bizType)},"@id":${q(s.url + '/#business')},
-"name":${q(plain(s.brand))},"url":${q(s.url)},"telephone":${q(citationPhone.display)},"email":${q(s.email)},"image":${q(s.url + '/assets/img/og-default.png')},"logo":${q(logoUrl)},
+"name":${q(plain(s.brand))},"url":${q(s.url)},${telephone}"email":${q(s.email)},"image":${q(s.url + '/assets/img/og-default.png')},"logo":${q(logoUrl)},
 "priceRange":"$$","areaServed":[${areaServed}],
-"address":{"@type":"PostalAddress",${addr}}${geoLine},
-"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"}}
+"address":{"@type":"PostalAddress",${addr}}${geoLine}}
 </script>`;
 }
 
@@ -77,10 +77,11 @@ export function schemaService(
   const n = plain(name);
   const d = plain(desc);
   const citationPhone = s.citationPhone ?? s.phone;
+  const telephone = s.hidePhone ? '' : `"telephone":${q(citationPhone.display)},`;
   return `<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Service","serviceType":${q(n)},"name":${q(n)},
 "description":${q(d)},"url":${q(s.url + url)},"areaServed":{"@type":"City","name":${q(s.city)}},
-"provider":{"@type":${q(verticalCopy(s).businessType)},"name":${q(plain(s.brand))},"telephone":${q(citationPhone.display)},"url":${q(s.url)}}}
+"provider":{"@type":${q(verticalCopy(s).businessType)},"name":${q(plain(s.brand))},${telephone}"url":${q(s.url)}}}
 </script>`;
 }
 

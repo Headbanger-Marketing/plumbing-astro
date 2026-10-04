@@ -1,160 +1,320 @@
-// Per-site content for nanticokeplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Nanticoke, Haldimand County, on the
-// north shore of Lake Erie.
-// Local angle: a working waterfront where the residential community is small
-// and self-reliant, surrounded by heavy industry's shift-work schedules,
-// lakeshore cottages, and farm land. Practically nothing here is on municipal
-// water: wells with serious hardness, iron, and sulphur, septic systems
-// everywhere, seasonal places needing winterizing, and Lake Erie storms that
-// cut power and test sump pumps at the same moment.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Nanticoke, Ontario",
-    h1: "Water Heater Installation From a Local Haldimand Plumbing Team",
-    intro: "Around Nanticoke, a water heater leads a harder life than most, fed by well water packed with mineral and asked to serve households that keep shift-work hours. Nanticoke Plumbing installs tanks and tankless units chosen for that reality, sets them up with the flushing habit that actually extends life here, and sizes recovery to households whose mornings start at five or at noon depending on the rotation.",
-    meta: "Water heater installation in Nanticoke, Ontario. Well-water-ready tanks, tankless options, and fast swaps by licensed Haldimand plumbers.",
-    problem_h: "Hot water gone, or the tank rumbling like it knows?",
-    problem_p: "We install water heaters around Nanticoke that are built for lake-country well water, not showroom demos.",
-    features: [
-      ["flame", "Water That Ruins Tanks, Planned For", "Well mineral collects in tanks fast around here. We spec anode configuration and flushing access so the unit you buy lasts instead of silently filling with rock."],
-      ["clock", "Shift-Friendly Scheduling", "Days, afternoons, or midnights, your hot water demand is not nine to five and neither is our booking. Early and late appointments are normal requests in this community."],
-      ["shield", "Permits and Pressure Done Right", "Relief lines, pans where needed, expansion control on well systems with pressure tanks, and the county permit, all part of the job rather than extras."]
+    "icon": "flame",
+    "kicker": "Water Heater Installation in Nanticoke, Ontario",
+    "h1": "Plan a Water Heater Installation in Nanticoke",
+    "intro": "For a water heater replacement in Nanticoke, start by checking the existing unit’s fuel, capacity, age, venting and connection details. If the property uses well water, ask whether a water test or maintenance plan is relevant before comparing tank and tankless options. Household demand also matters: note how many people use hot water and when peak use occurs. Photos of the rating plate, nearby piping and the installation space help clarify what may need to change.",
+    "meta": "Compare tank and tankless water heater options for a Nanticoke property, including capacity, fuel, venting and well-water considerations.",
+    "problem_h": "Is the heater noisy, leaking or struggling to supply hot water?",
+    "problem_p": "Record when the problem occurs, check the unit’s rating plate and photograph its connections. Those details help distinguish a sizing issue from a failing component or an installation change.",
+    "features": [
+      [
+        "flame",
+        "Check water conditions and maintenance access",
+        "If the property has mineral-rich well water, ask what maintenance the selected model requires and how anode inspection or flushing would be performed. Check that the proposed setup leaves practical access to service points. Water testing and equipment requirements can affect the model choice, connection layout and expected maintenance, so avoid assuming nearby properties have the same water."
+      ],
+      [
+        "clock",
+        "Compare capacity with household demand",
+        "Write down the number of occupants, fixtures used together and periods of peak demand. For a tank, compare storage capacity and recovery rate; for a tankless unit, ask how simultaneous fixtures and incoming water temperature affect output. If household use follows shift work or seasonal occupancy, include those patterns in the estimate rather than relying on a standard household assumption."
+      ],
+      [
+        "shield",
+        "Verify installation and safety details",
+        "Ask for a written scope covering fuel or electrical connections, venting, drainage, temperature and pressure relief discharge, and any required expansion control. If the home has a well pressure tank or a confined installation area, ask how those conditions affect the design. Confirm who determines whether permits or inspections apply, and request documentation for the completed work where required."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Nanticoke, Ontario",
-    h1: "Drain Cleaning From a Local Haldimand Plumbing Team",
-    intro: "Nearly every drain line in Nanticoke country ends at a septic bed, and those long private runs through farm soil give roots years of opportunity between cleanings. Nanticoke Plumbing clears branch lines, mains, and septic runs with machines and jetting sized for the job, then cameras the line so you know whether you are dealing with a clog or a deteriorating pipe heading somewhere expensive.",
-    meta: "Drain cleaning in Nanticoke, Ontario. Main line clearing, septic run maintenance, root cutting, and camera inspection by licensed plumbers.",
-    problem_h: "Slow drains across the whole house at once?",
-    problem_p: "From kitchen lines to long septic runs, we clear Nanticoke-area pipes properly and scope the cause.",
-    features: [
-      ["refresh", "Long Runs, Fully Cleared", "A rural line to a tank may run a hundred feet or more, and half-cleared is not cleared. Our jetting restores the full run, not just the first easy stretch."],
-      ["droplets", "Camera Down the Line", "Roots, settled sections, and aging material each need a different answer. The camera shows which one you have, and you watch the same footage we do."],
-      ["shield", "Septic-Safe Practice", "Harsh chemicals and a septic tank are enemies. We clear lines mechanically, respect the bed, and tell you plainly when the problem belongs to the tank rather than the pipe."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Nanticoke, Ontario",
+    "h1": "Plan Drain Cleaning for a Nanticoke Property",
+    "intro": "When drains slow or back up in Nanticoke, first note which fixtures are affected and whether the problem returns after clearing. If the property has a septic system, identify the tank location and any known private line route; a long run may require different equipment from a short branch drain. Photos of cleanouts and a record of recent symptoms can help establish access and scope. Ask whether mechanical cleaning, jetting or camera inspection is appropriate for the pipe involved.",
+    "meta": "Drain cleaning options in Nanticoke, including branch drains, main lines, septic runs, root cutting and camera inspection.",
+    "problem_h": "Are several fixtures draining slowly or backing up?",
+    "problem_p": "Note which drains are affected and whether the issue follows water use. If the home has a septic system, share the known line route and cleanout locations to help plan the inspection.",
+    "features": [
+      [
+        "refresh",
+        "Match equipment to the full line",
+        "If the blockage is in a long private run, ask how the proposed machine or jetting setup can reach the full distance from the cleanout. Confirm the access point and the pipe route before work begins. A partial clearing may leave material farther along the line, so the required reach and method can change both the scope and how success is assessed."
+      ],
+      [
+        "droplets",
+        "Use camera footage to identify the cause",
+        "If symptoms return or the line may have roots, settled sections or aging material, ask whether a camera can inspect the affected pipe after clearing. Confirm which direction the camera will travel and request a chance to review relevant footage. Seeing the pipe condition can help distinguish a temporary obstruction from a repair issue and inform the next step."
+      ],
+      [
+        "shield",
+        "Consider the septic system when choosing a method",
+        "If a drain connects to a septic tank or bed, ask how the cleaning method and discharge are managed to avoid unnecessary impacts to the system. Mechanical clearing and jetting may suit different pipe conditions, so discuss the line material and blockage first. If evidence points to a tank or system issue rather than a pipe obstruction, ask what inspection should follow."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Nanticoke, Ontario",
-    h1: "Repiping From a Local Haldimand Plumbing Team",
-    intro: "Country homes around Nanticoke hold their pipes a long time, and plenty of them are holding galvanized or patched-together sections well past the point of sense, with well water's mineral load hurrying the decline along. Nanticoke Plumbing replaces those systems in PEX or copper, coordinated around farm and shift schedules, pressure-tested with the inspector watching, and left permitted and papered for the day you need proof.",
-    meta: "Repiping in Nanticoke, Ontario. Galvanized replacement, farmhouse and cottage re-plumbing, and whole-home PEX repipes by licensed plumbers.",
-    problem_h: "Fixtures staining and pressure fading year over year?",
-    problem_p: "We pull tired galvanized and patched pipe from Nanticoke-area homes and land clean, permitted replacement systems.",
-    features: [
-      ["wrench", "Old Steel and Patched Lines Out", "Galvanized closes with scale and the repair history on some country plumbing reads like a patch quilt. We replace it whole with material chosen for your water."],
-      ["home", "Worked Around Your Schedule", "Milking, shifts, seasonal openings, the calendar out here is not standard. We stage the repipe so water is live each night and the household never stops functioning."],
-      ["shield", "Proof for Insurers and Buyers", "Permit, pressure test, and inspection records go to you at closing, which settles questions later from anyone with a clipboard and a stake in the property."]
+    "icon": "wrench",
+    "kicker": "Repiping in Nanticoke, Ontario",
+    "h1": "Plan a Repiping Project in Nanticoke",
+    "intro": "A repiping estimate for a Nanticoke home should begin with a review of the existing materials, repairs and symptoms, not just the visible pipe. If sections are galvanized, corroded or patched, photograph accessible runs and note where pressure or flow changes. Ask whether the proposed replacement is PEX, copper or another suitable material, and how it will connect to existing fixtures. Household access, water shutoffs and any required inspections can all affect the sequence and scope.",
+    "meta": "Plan a Nanticoke repiping project by comparing existing pipe condition, replacement materials, access, testing and inspection requirements.",
+    "problem_h": "Are recurring repairs, staining or low flow prompting a larger review?",
+    "problem_p": "Document affected fixtures and visible pipe materials. A room-by-room review helps establish whether the work is limited to sections or calls for a broader replacement plan.",
+    "features": [
+      [
+        "wrench",
+        "Map existing materials and repairs",
+        "If accessible piping is galvanized or includes multiple patched sections, photograph the runs and record repeated repair locations. Ask how the proposed scope accounts for concealed piping, connections and fixture branches. The condition and layout determine whether a section-by-section repair is reasonable or whether a broader replacement should be compared, as well as which materials suit the project."
+      ],
+      [
+        "home",
+        "Plan access and water interruptions",
+        "List household schedule constraints and identify areas that must remain accessible during work. Ask when water will be shut off, how the work will be staged, and whether any temporary arrangements are included or need separate planning. If the property is seasonal or has unusual access, mention that early. These details shape the work sequence and expectations for restoring service."
+      ],
+      [
+        "shield",
+        "Clarify testing and project records",
+        "Ask what pressure testing will be performed and whether inspection or permits apply to the proposed work. Confirm who is responsible for arranging any required steps, and request copies of relevant records when the project is complete. If you may later need to explain the work to an insurer or buyer, keeping the scope, test results and inspection documents together makes the history easier to verify."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Nanticoke, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Haldimand Plumbing Team",
-    intro: "Well water with iron and hardness is brutal on cheap fixtures, and the lakeshore cottages and farmhouses around Nanticoke deserve hardware that survives it. Nanticoke Plumbing installs toilets, faucets, and pumps-adjacent fixtures chosen for this water, adapts new units to older plumbing wherever the geometry fights, and handles the full rough-in when a renovation or an addition calls for it.",
-    meta: "Fixture and toilet installation in Nanticoke, Ontario. Well-water-durable fixtures, cottage installs, and renovation rough-ins by licensed plumbers.",
-    problem_h: "Replacing rusted-out fixtures or gearing up for a reno?",
-    problem_p: "Fixtures installed around Nanticoke are chosen to survive this water and set to stay dry underneath.",
-    features: [
-      ["home", "Built to Survive the Water", "Iron-heavy wells destroy bargain cartridges and finishes. We recommend hardware with the track record to last here, and install it with fresh supplies throughout."],
-      ["check", "Cottage Openings and Closings", "Seasonal places need fixture swaps timed to opening weekend and drains right for winter. We book around the lake calendar instead of fighting it."],
-      ["shield", "Rough-Ins for Any Addition", "Garage apartments, bunkies, second bathrooms, all of it needs drains, vents, and supplies placed to code, and we run that work from break to trim."]
+    "icon": "home",
+    "kicker": "Fixtures and Toilets in Nanticoke, Ontario",
+    "h1": "Plan Fixture and Toilet Work in Nanticoke",
+    "intro": "For fixture or toilet work in Nanticoke, identify the fixture, its age and the reason for replacement before comparing options. If the property uses well water and has visible staining or scale, ask whether the water conditions affect material or maintenance choices rather than assuming every fixture is suitable. Older plumbing can have different connection dimensions from new products, so photograph shutoffs, supplies and the surrounding area. Renovations or additions may also require planning for drains, vents and supplies.",
+    "meta": "Compare fixture, toilet and renovation rough-in options for a Nanticoke property, including existing plumbing and well-water considerations.",
+    "problem_h": "Replacing a worn fixture or planning a bathroom addition?",
+    "problem_p": "Photograph the current connections and note the fixture model if available. For renovation work, a sketch of the proposed layout helps identify rough-in questions early.",
+    "features": [
+      [
+        "home",
+        "Compare fixtures with water conditions",
+        "If testing or visible evidence indicates iron, hardness or other water concerns, ask how those conditions may affect finishes, cartridges and maintenance. Compare product specifications and replacement-part availability rather than relying on a general claim about durability. The water and the existing connections can influence the fixture choice, supply lines and future service needs."
+      ],
+      [
+        "check",
+        "Plan seasonal fixture work carefully",
+        "If the property is opened and closed seasonally, list which fixtures need installation, draining or preparation for winter. Ask how shutoffs and traps will be handled, and verify which steps are part of the proposed scope. Timing and winterization requirements can differ by fixture and plumbing layout, so share opening or closing dates when comparing plans."
+      ],
+      [
+        "shield",
+        "Review rough-ins before an addition",
+        "For a new bathroom, bunkie or other addition, bring a layout showing fixture locations and ask how drains, vents and water supplies would be routed. Confirm what existing plumbing can support and whether permits or inspections apply. Rough-in decisions affect framing, fixture placement and later access, so coordinate them before walls are closed or finish selections are final."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Nanticoke, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Haldimand Plumbing Team",
-    intro: "On a well system, a hidden leak bills you twice, in water you never use and in a pump that runs itself to death feeding it. Nanticoke Plumbing isolates your system section by section, listens through floors and soil with acoustic gear, and traces warmth with thermal imaging until the failure point is marked and the repair is a decision instead of an excavation project.",
-    meta: "Leak detection and repair in Nanticoke, Ontario. Well system isolation, acoustic and thermal location, and targeted pipe repair by licensed plumbers.",
-    problem_h: "Pump cycling at night with every tap shut?",
-    problem_p: "We pinpoint hidden leaks around Nanticoke before opening anything, protecting the pump as well as the pipe.",
-    features: [
-      ["droplets", "Isolation Finds the Run", "Pressure testing one section at a time narrows a whole property to one failing line, which keeps floors, lawns, and crawl spaces mostly untouched."],
-      ["pin", "Heard and Traced to the Inch", "Acoustic sensors catch the hiss of an escape through slab and soil, and thermal follows warm lines to the break. The mark goes down before the tools come out."],
-      ["check", "Pump-Sparing Repairs", "Closing a leak promptly stops the overtime that kills well pumps, so the repair protects the most expensive piece of equipment on the property."]
+    "icon": "droplets",
+    "kicker": "Leak Detection and Repair in Nanticoke, Ontario",
+    "h1": "Plan Leak Detection and Repair in Nanticoke",
+    "intro": "A suspected hidden leak in a Nanticoke property needs a careful scope before floors, walls or soil are opened. If the home has a well system, note whether the pump cycles when fixtures are off and record any pressure changes. Identify the water source and affected area, then photograph visible moisture or meter readings if safe to do so. Depending on the pipe and access, pressure isolation, acoustic equipment or thermal imaging may help narrow the search before repair options are compared.",
+    "meta": "Plan hidden-leak investigation in Nanticoke using system isolation and, where suitable, acoustic or thermal locating methods.",
+    "problem_h": "Does the well pump run when every fixture is off?",
+    "problem_p": "Record pump behaviour and note any damp areas or changes in pressure. This information helps determine which parts of the system may need isolation or further investigation.",
+    "features": [
+      [
+        "droplets",
+        "Narrow the search through isolation",
+        "If several water lines or zones could be involved, ask whether sections can be pressure-tested separately. A test plan should explain which valves or fixtures are isolated and how results are interpreted. Narrowing the suspect run before opening surfaces can reduce unnecessary disruption, while the system layout and access determine how precise that process can be."
+      ],
+      [
+        "pin",
+        "Choose locating tools for the conditions",
+        "Acoustic equipment may help detect escaping water through some floors or soil, while thermal imaging can assist with tracing warm-water lines. Ask which method suits the suspected pipe and what its limits are before relying on a marked location. The material, depth, temperature and surrounding conditions affect results, so a non-invasive indication may still need confirmation before repair."
+      ],
+      [
+        "check",
+        "Consider the effect on a well pump",
+        "If a well pump is cycling unusually, explain how often it runs and whether pressure changes when the suspected leak is isolated. A leak can increase pump operation, but other system faults may produce similar symptoms. Ask what evidence supports the proposed repair and whether pump or pressure-system checks are also needed, so the scope reflects the cause rather than the symptom alone."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Nanticoke, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Haldimand Plumbing Team",
-    intro: "Lake Erie weather does not negotiate, and when a November gale meets a spring melt or a saturated summer downpour, low-lying places around Nanticoke find out what their pump is made of. Nanticoke Plumbing installs sump systems sized to genuine worst weeks, backs them with batteries for the outages that arrive with the weather, and protects lakeshore and low properties with properly permitted backwater valves.",
-    meta: "Sump pump and backwater valve installation in Nanticoke, Ontario. Battery backup systems and lakeshore flood protection by licensed plumbers.",
-    problem_h: "Storm on the lake and power flickering already?",
-    problem_p: "Lakeshore and low-lying Nanticoke properties get pumps, backups, and valves rated for the real weather.",
-    features: [
-      ["shield", "Worst-Week Sizing", "Average rainfall sells pumps that fail in the exception. We size to the worst stretch your property has lived through, then add margin for the stretch it has not."],
-      ["zap", "Batteries for the Dark Hours", "Erie storms and hydro outages travel together. Battery-backed pumping with an alarm keeps the pit empty through the exact hours no one can help you."],
-      ["refresh", "Backwater Valves, Permitted", "Where a street or shared main has pushed back before, a backwater valve through a county permit is permanent peace of mind, installed and inspected properly."]
+    "icon": "shield",
+    "kicker": "Sump Pumps and Backwater Valves in Nanticoke, Ontario",
+    "h1": "Plan Sump Pump and Backwater Protection in Nanticoke",
+    "intro": "To plan sump or backwater work for a Nanticoke property, document where water has entered, how high it reached and what equipment was operating. If the property has a sump, photograph the pit, pump label, discharge route and any backup equipment. Ask how pump capacity is compared with observed inflow and whether a battery backup or alarm suits the risks identified. A backwater valve is a separate option to assess where sewer backup is a concern, subject to site conditions and applicable requirements.",
+    "meta": "Compare sump pump, battery backup and backwater valve options for a Nanticoke property based on site conditions and project requirements.",
+    "problem_h": "Has water entered the basement or is the pump running often?",
+    "problem_p": "Record water levels, pump operation and any outage history. Photos of the pit and discharge route help clarify whether the concern involves pumping, backup power or sewer backflow.",
+    "features": [
+      [
+        "shield",
+        "Size pumping around observed conditions",
+        "If the property has experienced water entry, record the timing, duration and approximate level, and note whether the pump ran continuously. Ask how the proposed pump capacity relates to the pit, discharge route and observed inflow. Past events help define the design scenario, but site conditions should be checked rather than assuming a worst-case capacity from rainfall alone."
+      ],
+      [
+        "zap",
+        "Check backup power and alarms",
+        "If outages could occur while the pump is needed, compare battery backup options and ask what the system can run, for how long, and how it signals a fault or low battery. Confirm battery location, maintenance and testing requirements. The existing pump, electrical setup and expected runtime affect the appropriate backup arrangement and the ongoing checks a homeowner should plan."
+      ],
+      [
+        "refresh",
+        "Assess backwater valve suitability",
+        "If sewer or shared-main backflow is a concern, ask whether the plumbing layout can accept a backwater valve and what access is needed for inspection and cleaning. Confirm which permits or inspections may apply and who determines that requirement. A valve needs correct placement and maintenance access, so pipe configuration and local approval requirements can change the scope."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Nanticoke, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Haldimand Plumbing Team",
-    intro: "Almost nobody around Nanticoke drinks treated city water, so the softener, the iron filter, and the UV lamp are household infrastructure here rather than optional extras, and every well in the neighborhood behaves a little differently. Nanticoke Plumbing draws a real sample from your tap, sends it for proper testing, and builds the treatment sequence your water demands, sized to the household it serves.",
-    meta: "Water softeners and filtration in Nanticoke, Ontario. Well water softeners, iron and sulphur treatment, UV systems, and reverse osmosis.",
-    problem_h: "Stains in every bowl and a smell at the tap?",
-    problem_p: "Treatment designed from your well's own test results, installed to run clean for years.",
-    features: [
-      ["gauge", "Designed From the Sample", "Two wells a concession apart can test worlds apart. We treat your water, not the neighborhood's average, which means right-sized equipment and efficient cycles."],
-      ["droplets", "Iron, Sulphur, and Bacteria Covered", "Oxidizing filtration for iron, proper media for sulphur, and UV where bacteria testing calls for it, staged in the order that makes each stage work."],
-      ["shield", "Drinking Water Worth the Glass", "Under-sink reverse osmosis at the kitchen tap gives cooking and coffee water that tastes of nothing at all, which around here is the compliment."]
+    "icon": "gauge",
+    "kicker": "Water Softeners and Filtration in Nanticoke, Ontario",
+    "h1": "Plan Water Treatment for a Nanticoke Property",
+    "intro": "Water treatment for a Nanticoke property should be based on the water being treated, not assumptions about nearby homes. If the source is a private well, arrange appropriate testing and keep the results available when comparing softeners, iron or sulphur treatment, UV and reverse osmosis. Note household size, peak water use, existing equipment and available drain or electrical connections. Those details affect treatment order, capacity, maintenance and whether a proposed system fits the actual water chemistry.",
+    "meta": "Plan Nanticoke water treatment using test results to compare softening, iron or sulphur filtration, UV and reverse osmosis.",
+    "problem_h": "Noticing stains, odour or scale at taps and fixtures?",
+    "problem_p": "Record the symptoms, water source and any existing test results. A current sample helps distinguish treatment needs and avoid choosing equipment by appearance alone.",
+    "features": [
+      [
+        "gauge",
+        "Start with a representative water sample",
+        "If the property uses a well, ask how and where to collect a sample and which tests are relevant to the symptoms. Compare proposed equipment with the actual results, not a neighbour’s system or an assumed local average. Water chemistry and household demand can change capacity, treatment stages and maintenance needs, making the sample a key part of the scope."
+      ],
+      [
+        "droplets",
+        "Match treatment stages to test results",
+        "If results indicate iron, sulphur or bacteria concerns, ask which treatment method addresses each result and why the stages are arranged in that order. Confirm any required pre-treatment and ongoing maintenance. Oxidizing filtration, specific media and UV serve different purposes, so the test findings and equipment specifications should support each component rather than relying on a generic package."
+      ],
+      [
+        "shield",
+        "Compare drinking-water options separately",
+        "If you are considering under-sink reverse osmosis, ask which water it treats, what the system removes according to its specifications, and what filters and maintenance it requires. Compare this with any whole-house treatment plan rather than assuming the systems do the same job. Available space, drainage and the intended use of the treated water affect whether this option fits."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Tank filled with scale and quit in November. They set the new one up with flushing access and walked me through the maintenance myself.", "Homeowner", "Nanticoke"],
-  ["Our line to the septic bed was slow for two summers. Jetted clear and the camera showed us the roots they cut. Straight talk, no upsell.", "Farmer", "Selkirk"],
-  ["Cottage opening week and the softener had died over the winter. Replaced and reprogrammed before the first guests arrived.", "Cottage Owner", "Jarvis"],
-  ["Well pump kept kicking on at night. They isolated the system and found the leak under the crawl space in a single visit. Pump went quiet same day.", "Homeowner", "Fisherville"],
-  ["Repiped the farmhouse off galvanized. They worked around chores and had water back every evening. Pressure at the barn is better than ever.", "Farmer", "Canfield"],
-  ["New sump with battery backup after the January storm taught us a lesson. It has cycled twice since and the alarm tells us it works.", "Resident", "Townsend"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Well-water-ready tank and tankless installs with shift-friendly scheduling across Nanticoke country.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Long rural runs, septic lines, and roots cleared fully and camera-verified by a local crew.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized and patched-line replacement for farmhouses and cottages, staged around your schedule.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Iron-water-tough fixtures, cottage opening installs, and rough-ins for additions and bunkies.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Well-system isolation with acoustic and thermal tracing, sparing your pump and your floors.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Lakeshore-rated pumps, battery backups for storm outages, and permitted backwater valves.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Sample-designed softeners, iron and sulphur systems, UV, and reverse osmosis for well country.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless capacity, fuel, venting and connections. If the property uses well water, check test results and maintenance access before selecting equipment.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Scope branch drains, main lines or septic runs by checking affected fixtures, cleanout access and pipe length. Ask whether mechanical clearing, jetting or camera inspection fits the line.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Review visible pipe materials, repair history and access before comparing PEX or copper replacement. Clarify shutoff sequencing, pressure testing and any inspection requirements.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures and Toilets",
+    "Compare fixture connections and specifications with existing plumbing. If the project involves seasonal use or an addition, plan winterization or drain, vent and supply rough-ins.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection and Repair",
+    "Document pump cycling, pressure changes and damp areas. Ask whether section-by-section isolation, acoustic equipment or thermal imaging suits the suspected pipe and access.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps and Backwater Valves",
+    "Compare pump capacity with observed water entry and discharge conditions. If outages are a concern, review battery backup and alarms; assess backwater valves separately for site suitability.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners and Filtration",
+    "Use water test results to compare softening, iron or sulphur treatment, UV and reverse osmosis. Household demand, equipment access and maintenance needs affect the system scope.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed and insured around Nanticoke?", "Yes, licensed and insured across Haldimand County, with permits pulled and inspected under the Ontario Building Code for every job that requires one. Documentation goes home with you on completion."],
-  ["What happens if something bursts on a Sunday?", "Call. Flooded basements, no-water, and sewer backups get emergency response around Nanticoke, Jarvis, and Selkirk, and shift-work hours mean we are used to odd-hour arrangements."],
-  ["How fast can a water heater be swapped out here?", "Common sizes are stocked and most swaps near Nanticoke happen within a day or two, scheduled around your shifts rather than ours."],
-  ["Half our plumbing is patched old pipe. Full repipe or keep patching?", "When stains spread, pressure sags, and repairs repeat, patching is the expensive path. We inspect and quote the repipe staged so water stays on every night, and we will say if you are not there yet."],
-  ["Everything here is well and septic. Is that a problem?", "That is our normal. Pressure tanks, well-side plumbing, iron and sulphur treatment, UV, septic runs, we handle the full water side of rural Haldimand properties weekly."],
-  ["Our well water is rough. Can you actually fix it?", "Test first, build second. Between softening, iron and sulphur filtration, and reverse osmosis at the sink, the well's worst habits are treatable, and the sample tells us which ones need addressing."],
-  ["Do you charge by the hour with surprise fees?", "No. Written quotes before work, options explained when alternatives exist, and rural drives are built into the quote rather than appearing afterward."],
-  ["How far do you travel from Nanticoke?", "The lakeshore and inland both: Nanticoke, Hagersville, Cayuga, Jarvis, Fisherville, Dunnville, and over toward Port Dover. Concession-road addresses welcome, just have the lot or nearest intersection handy."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/nanticokeplumbing.ca-water-heaters.jpg", "Water heater installation in Nanticoke, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/nanticokeplumbing.ca-drain-cleaning.jpg", "Drain cleaning and septic run service in Nanticoke, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/nanticokeplumbing.ca-repiping.jpg", "Whole-home repipe in Nanticoke, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/nanticokeplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Nanticoke, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/nanticokeplumbing.ca-leak-detection.jpg", "Leak detection and repair in Nanticoke, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/nanticokeplumbing.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Nanticoke, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/nanticokeplumbing.ca-water-softeners.jpg", "Water softener and well treatment installation in Nanticoke, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/nanticokeplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Nanticoke, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/nanticokeplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning and septic run service in Nanticoke, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/nanticokeplumbing.ca-repiping.jpg",
+    "Whole-home repipe in Nanticoke, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/nanticokeplumbing.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Nanticoke, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/nanticokeplumbing.ca-leak-detection.jpg",
+    "Leak detection and repair in Nanticoke, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/nanticokeplumbing.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Nanticoke, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/nanticokeplumbing.ca-water-softeners.jpg",
+    "Water softener and well treatment installation in Nanticoke, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

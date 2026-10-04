@@ -1,159 +1,320 @@
-// Per-site content for ancasterplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Ancaster, on the Niagara Escarpment west
-// of Hamilton.
-// Local angle: an old village core surrounded by seventies-through-nineties
-// subdivisions and newer estate builds, upscale bathroom renovations, heavy
-// escarpment clay that funnels groundwater at finished basements, poly-B and
-// galvanized stock in the mid-century streets, and estate properties on the
-// outskirts still running private wells.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Ancaster, Ontario",
-    h1: "Water Heater Installation From a Local Ancaster Plumbing Team",
-    intro: "Ancaster homes tend to be generous with bathrooms, laundry, and in-floor manifolds, which means a water heater that was marginal downtown is simply undersized here. Ancaster Plumbing Pros installs tank and tankless systems matched to that demand, whether the house is a seventies split backing onto a ravine or a new estate build on the outskirts. We handle the gas sizing, the venting path, and the permit, then commission the unit before we leave.",
-    meta: "Water heater installation in Ancaster, Ontario. Tankless systems and high-capacity tanks for multi-bathroom homes, with same-day swap-outs.",
-    problem_h: "Running out of hot water on the third shower?",
-    problem_p: "Undersized and aging tanks are common in Ancaster. We fit replacements to real household demand and swap them fast.",
-    features: [
-      ["flame", "Tankless for Big Households", "Back-to-back showers plus a laundry load plus a dishwasher will empty a tank. Ancaster families looking for endless recovery get an honestly sized tankless install, gas line and venting included."],
-      ["clock", "Swap-Outs Without the Wait", "When a tank fails we move quickly, because nobody in a house this size wants cold water for a week. Stocked units and a coordinated schedule mean most Ancaster replacements happen next day or sooner."],
-      ["shield", "Permits Handled In House", "Water heater replacements in Ancaster need proper paperwork. We file it, meet the inspection, and hand you the completed record for your own file."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Ancaster, Ontario",
+    "h1": "Water Heater Installation in Ancaster",
+    "intro": "Planning a water heater replacement in Ancaster? Start by listing the number of bathrooms, showers, laundry loads and other simultaneous hot-water demands, then compare those needs with the existing unit’s capacity. A high-demand household may need a larger storage tank or a tankless system, but the choice also depends on fuel supply, venting, available space and the home’s plumbing. Before work is scoped, photograph the unit label and connections, and ask what gas, venting and inspection requirements apply to the proposed installation.",
+    "meta": "Compare tank and tankless water heater options for your Ancaster home, including capacity, fuel, venting and installation requirements.",
+    "problem_h": "Does hot water run short during busy periods?",
+    "problem_p": "Record when the supply runs out and which fixtures are in use. Those details help distinguish an undersized tank from a recovery, fuel or equipment issue and guide the replacement scope.",
+    "features": [
+      [
+        "flame",
+        "Compare Tank and Tankless Capacity",
+        "Count the showers, tubs, appliances and other uses that may overlap, then compare that demand with the proposed system’s rated output or storage capacity. Ask how a tankless model’s flow changes when several fixtures run together. Photograph the existing equipment label and note fuel type, so the assessment can account for the home’s actual setup."
+      ],
+      [
+        "clock",
+        "Check the Replacement Requirements",
+        "Before comparing proposals, ask whether the existing gas line, electrical supply, vent route, drain and clearances suit the replacement model. A change in equipment type can alter this work and the installation scope. Request a written list of included connections and any inspection steps, and verify the expected scheduling only after the required equipment and site conditions are confirmed."
+      ],
+      [
+        "shield",
+        "Confirm Permits and Inspection Steps",
+        "Permit and inspection requirements depend on the project and applicable rules. Ask who is responsible for checking current requirements, arranging any required inspection and providing the resulting documentation. Compare the proposed scope for gas sizing, venting, condensate drainage where applicable, and commissioning checks. Keeping the model information and paperwork with the home records makes later servicing and replacement planning easier."
+      ]
     ],
-    rev: [1, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Ancaster, Ontario",
-    h1: "Drain Cleaning From a Local Ancaster Plumbing Team",
-    intro: "Escarpment clay does not drain, mature cedar hedges drink from every sewer lateral in sight, and the older village streets still carry clay pipe that roots find without fail. Ancaster Plumbing Pros clears kitchen lines, bathroom stacks, and main sewers with cutting heads and hydro-jetting, and we always offer the camera pass afterward so the next backup is a scheduled repair instead of a surprise. One call should mean one fix.",
-    meta: "Drain cleaning in Ancaster, Ontario. Sewer snaking, hydro-jetting, and root cutting with camera inspection for lasting results.",
-    problem_h: "Gurgling drains or a slow main line?",
-    problem_p: "Clay soil and mature landscaping make Ancaster laterals root-prone. We clear them fully and camera the line to confirm it.",
-    features: [
-      ["refresh", "Root Cutting Done Properly", "Roots that are punched through come back in a season. We cut them back along the full joint face and follow with jetting, which leaves the lateral clean enough to see on camera."],
-      ["droplets", "Post-Clear Camera Verification", "Every Ancaster main line clearing we do can be verified on screen. You see the state of the pipe yourself, which takes the guesswork out of any repair decision."],
-      ["shield", "Maintenance Before Emergency", "Homes with recurring root intrusion benefit from a planned annual clearing. We set the interval based on what the camera shows, not a calendar in a brochure."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Ancaster, Ontario",
+    "h1": "Drain Cleaning and Sewer Line Assessment in Ancaster",
+    "intro": "For a slow drain or recurring sewer backup in Ancaster, note which fixtures are affected, when symptoms occur and whether there has been recent plumbing work. Those observations help distinguish a local blockage from a restriction farther along the main line. If a property has older clay pipe, nearby mature roots or repeated stoppages, ask whether cutting, hydro-jetting or a camera inspection is appropriate. A camera view can help show whether cleaning has cleared the line or whether a separate repair assessment is needed.",
+    "meta": "Explore drain clearing options in Ancaster, including snaking, hydro-jetting and camera inspection when appropriate.",
+    "problem_h": "Are several drains slow, gurgling or backing up?",
+    "problem_p": "List the affected fixtures and photograph any accessible cleanout or visible damage. The pattern can help determine whether the issue is local or involves the building drain or sewer lateral.",
+    "features": [
+      [
+        "refresh",
+        "Match the Clearing Method to the Blockage",
+        "Ask what evidence supports snaking, a cutting head or hydro-jetting before work begins. If roots are visible in an older pipe, confirm whether the proposed cutting method is suitable for its material and condition. Clearing may restore flow without correcting a damaged joint or recurring entry point, so the expected result and any limits should be explained before the line is worked on."
+      ],
+      [
+        "droplets",
+        "Use Camera Inspection to Check the Line",
+        "Where access and pipe condition allow, a camera pass can document the pipe after clearing and help locate remaining deposits, roots or visible defects. Ask for the recording or images, the camera’s path and a clear explanation of what can and cannot be seen. This evidence helps you compare a maintenance clearing with a separate repair assessment, rather than assuming cleaning has resolved every underlying issue."
+      ],
+      [
+        "shield",
+        "Plan Maintenance From Observed Conditions",
+        "If a line has recurring stoppages, ask whether inspection findings support scheduled cleaning and what interval they suggest. A camera view showing repeated root entry or buildup can inform that decision; a calendar alone cannot establish the need. Keep dates, symptoms and inspection records together, and compare future visits against the earlier findings to see whether the pipe’s condition or blockage pattern has changed."
+      ]
     ],
-    rev: [0, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Ancaster, Ontario",
-    h1: "Repiping From a Local Ancaster Plumbing Team",
-    intro: "A large share of Ancaster housing went up between the late sixties and the nineties, exactly the era when polybutylene was the material of choice, and those fittings do not improve with age. Ancaster Plumbing Pros replaces poly-B and galvanized systems with PEX or copper, planned room by room so a family can stay in the house while the work happens. Drywall openings are kept small, dust is contained, and pressure is tested before anything gets closed up.",
-    meta: "Repiping in Ancaster, Ontario. Poly-B and galvanized replacement planned room by room so the household keeps running during the work.",
-    problem_h: "Poly-B pipes making insurers nervous?",
-    problem_p: "Ancaster's building boom coincided with polybutylene, and replacing it removes the leak risk along with the insurance headache.",
-    features: [
-      ["wrench", "Poly-B Replacement Specialists", "We have pulled polybutylene out of Ancaster splits, sidesplits, and two-stories for years. The replacement is routed to keep fixtures live where possible, so the family keeps showers through the project."],
-      ["home", "Phased, Livable Repipes", "Not every budget stretches to a whole-house week. We can sequence the repipe by floor or wing, keeping water on everywhere except the section under the knife that day."],
-      ["shield", "Inspection-Ready Finish", "Permits, pressure tests, and the municipal inspection all come standard. Ancaster homeowners get documented proof the system is modern from the manifold out."]
+    "icon": "wrench",
+    "kicker": "Repiping in Ancaster, Ontario",
+    "h1": "Whole-Home and Phased Repiping in Ancaster",
+    "intro": "If you are considering repiping in Ancaster, first identify the existing pipe material and where it is accessible. Polybutylene and galvanized systems require different assessments, and visible material alone may not show the condition of concealed fittings or branches. Photograph exposed pipe, note leaks or pressure changes, and gather any prior repair records. Ask for a room-by-room scope that identifies proposed PEX or copper routes, access openings, pressure testing and any required approvals. A phased plan may reduce disruption, but the sequence affects which fixtures can remain in use.",
+    "meta": "Review polybutylene and galvanized repiping options in Ancaster, including phased work, access and testing.",
+    "problem_h": "Are aging pipes or repeated leaks prompting a repipe assessment?",
+    "problem_p": "Photograph exposed pipe and record leak locations, repairs and pressure concerns. The material, layout and accessibility help determine whether targeted work or a broader replacement should be compared.",
+    "features": [
+      [
+        "wrench",
+        "Identify Pipe Material and Route",
+        "Photograph accessible pipe markings, fittings and transitions, and ask how concealed sections will be assessed before the scope is set. A polybutylene system, galvanized branches and later repairs may require different routing decisions. Compare proposals for the replacement material, connection points and fixture coverage, rather than relying on a general description of the home’s age or style."
+      ],
+      [
+        "home",
+        "Compare Phased Work Plans",
+        "Ask which floor, wing or group of fixtures would be completed at each stage, and exactly when water must be shut off. A phased approach may keep other areas usable, but access, pipe routing and the layout can limit that option. Request a sequence showing temporary service arrangements, expected openings and how completed sections will be tested before moving to the next area."
+      ],
+      [
+        "shield",
+        "Verify Testing and Approval Requirements",
+        "Ask what pressure tests will be performed, when they occur and whether any required permit or inspection applies to the project. Clarify how test results and changes to the pipe layout will be documented before walls are closed. Compare proposals for the number of access points, restoration responsibilities and records provided, since those details affect both the disruption and the evidence available for future maintenance."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Ancaster, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Ancaster Plumbing Team",
-    intro: "Ancaster renovates at a serious level, freestanding soaker tubs, rainfall showers, pot fillers, heated floors under tiled ensuites, and every one of those upgrades depends on supply and drain work done right the first time. Ancaster Plumbing Pros roughs in and trims out high-end bathrooms and kitchens, sets fixtures the tile contractor will thank us for, and stands behind every connection behind the wall. Beautiful rooms need boring plumbing.",
-    meta: "Fixture and toilet installation in Ancaster, Ontario. High-end bathroom rough-ins, fixture trim-out, and kitchen plumbing for renovation homes.",
-    problem_h: "Renovating an ensuite or kitchen?",
-    problem_p: "Premium finishes deserve precise rough-in work. We set every Ancaster fixture plumb, level, and dead dry.",
-    features: [
-      ["home", "Renovation-Grade Rough-Ins", "Rain heads, body sprays, and freestanding tubs all live or die on valve placement. We coordinate layout with your tile setter before a single board goes up."],
-      ["check", "Fixture Supply and Setting", "Choose from quality lines or have us source exactly what your designer specified. We set Ancaster installations to manufacturer spec so warranties hold."],
-      ["shield", "Quiet, Solid Trim Work", "Nothing betrays a rushed renovation like a wobbling toilet or a dripping tub spout. Our trim-out is torqued, sealed, and tested before we hand the room back."]
+    "icon": "home",
+    "kicker": "Fixtures and Toilets in Ancaster, Ontario",
+    "h1": "Fixture Installation for Ancaster Renovations",
+    "intro": "Planning a bathroom or kitchen renovation in Ancaster? Confirm fixture models, rough-in dimensions and finished wall or floor heights before plumbing work is set. Rain heads, body sprays, freestanding tubs and pot fillers can require specific valve locations, supply routes or drain arrangements. Share the product specifications and the designer’s layout with the installer and tile contractor, then ask what must be verified before surfaces are closed. For toilets and trim, compare installation details with manufacturer instructions and make sure connections can be tested once the fixtures are in place.",
+    "meta": "Plan fixture and toilet installation in Ancaster with attention to layouts, product specifications and rough-in details.",
+    "problem_h": "Are new fixtures part of your bathroom or kitchen renovation?",
+    "problem_p": "Gather fixture specifications, rough-in dimensions and finished-surface plans before work is scheduled. These details affect valve placement, supply connections and access after installation.",
+    "features": [
+      [
+        "home",
+        "Coordinate Rough-Ins Before Finishing",
+        "Provide the exact valve, showerhead, tub and drain specifications, then confirm their positions against the tile and cabinetry plans. Rain heads, body sprays and freestanding tubs can require different plumbing routes and clearances. Photograph or mark the agreed layout before walls are closed. Early coordination can prevent a misplaced valve or connection from requiring finished surfaces to be reopened."
+      ],
+      [
+        "check",
+        "Verify Fixtures Against the Specification",
+        "Compare the proposed fixture model and rough-in requirements with the designer’s selections before ordering or installation. Ask who is responsible for confirming compatibility, required parts and supplied connections. If you are sourcing fixtures yourself, keep the product sheets and packaging available. Model-specific dimensions and installation instructions affect what can be fitted and help avoid substitutions that alter the planned layout."
+      ],
+      [
+        "shield",
+        "Inspect and Test the Finished Connections",
+        "After installation, check that toilets are stable, faucets and spouts operate correctly, and visible joints remain dry during testing. Ask which manufacturer instructions govern sealing, fastening and connection torque, and confirm that the work is tested before the room is returned to other trades. Record model numbers and any care instructions so future adjustments or replacement parts can be matched to the installed fixture."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Ancaster, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Ancaster Plumbing Team",
-    intro: "When an Ancaster basement is finished with custom cabinetry and engineered hardwood, the last thing you want is a plumber opening the ceiling on a hunch. Ancaster Plumbing Pros locates hidden leaks with acoustic sensors and thermal imaging first, marks the exact spot, and cuts once. Escarpment groundwater complicating the picture gets separated from true plumbing leaks before anyone starts demolition, which saves finishes and money.",
-    meta: "Leak detection and repair in Ancaster, Ontario. Acoustic and thermal location that separates groundwater from plumbing leaks before demolition.",
-    problem_h: "Damp finishes with no visible source?",
-    problem_p: "In finished Ancaster basements we find the leak before opening anything, so the teardown stays surgical.",
-    features: [
-      ["droplets", "Find It Before You Cut It", "Thermal imaging and acoustic listening narrow a leak to a stud bay or a single tile row. The opening becomes a repair access, not an exploratory trench."],
-      ["shield", "Groundwater Versus Plumbing", "Escarpment-side homes see real seepage. We isolate the plumbing system under pressure and prove whether the moisture is a pipe or the hillside before you pay for the wrong fix."],
-      ["check", "Repaired and Documented", "The repair, retest, and a written summary all happen in one engagement. Ancaster homeowners keep the record for warranty and resale purposes."]
+    "icon": "droplets",
+    "kicker": "Leak Detection and Repair in Ancaster, Ontario",
+    "h1": "Leak Detection and Plumbing Repair in Ancaster",
+    "intro": "When a wall, ceiling or finished basement becomes damp in Ancaster, document where moisture first appeared, how it changes and whether nearby plumbing has been used. Photographs and dates can help guide a non-invasive assessment before an opening is made. Acoustic listening and thermal imaging may help narrow a suspected plumbing leak, but neither replaces testing or confirms every source. If groundwater or exterior seepage is also possible, ask how the plumbing system will be isolated and checked before deciding where to open finishes or what repair is required.",
+    "meta": "Learn how acoustic tools, thermal imaging and plumbing tests can help assess suspected leaks in Ancaster.",
+    "problem_h": "Is moisture appearing without an obvious plumbing source?",
+    "problem_p": "Photograph the affected area and note timing, weather and nearby fixture use. These details help compare plumbing leakage with other possible sources before finishes are opened.",
+    "features": [
+      [
+        "droplets",
+        "Narrow the Search Before Opening Finishes",
+        "Ask whether acoustic listening or thermal imaging is suitable for the suspected pipe and what the results can establish. Share photographs, moisture locations and a floor plan if available. These tools may help focus an access point, but concealed materials and conditions can limit accuracy. Agree on how findings will be confirmed before cutting into a wall, ceiling or finished floor."
+      ],
+      [
+        "shield",
+        "Separate Plumbing Leaks From Seepage",
+        "If moisture could come from groundwater or exterior seepage, ask how the plumbing will be isolated and tested under pressure. The test results, moisture pattern and surrounding conditions help distinguish a pressurized pipe leak from water entering elsewhere. This comparison matters because opening plumbing or repairing a pipe may not resolve seepage. Request an explanation of the evidence before approving demolition or a repair scope."
+      ],
+      [
+        "check",
+        "Document the Repair and Retest",
+        "Before work begins, ask what access will be needed, what repair is proposed and how the system will be retested afterward. Compare the test results with the original symptoms and keep photographs of the access and completed work. A written summary can record the suspected source, repair location and retest outcome, giving you useful information for future maintenance without implying that every possible moisture source was ruled out."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Ancaster, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Ancaster Plumbing Team",
-    intro: "The escarpment sheds water downhill through Ancaster's clay soil straight toward finished basements, and the spring melt plus summer cloudbursts put that water under every slab on the slope. Ancaster Plumbing Pros installs correctly sized sump systems with proper basin drainage and discharge routing, adds battery or water-powered backup where outages are common, and fits backwater valves on homes where the municipal main surcharges. Dry basements are engineered, not lucky.",
-    meta: "Sump pump and backwater valve installation in Ancaster, Ontario. Escarpment groundwater protection, battery backup, and surge-rated discharge routing.",
-    problem_h: "Water finding your finished basement?",
-    problem_p: "Slope and clay push meltwater at Ancaster slabs. We engineer the pumping and drainage to keep the space dry.",
-    features: [
-      ["shield", "Discharge Routed Away From Clay", "A pump that empties into saturated clay beside the footing recycles the same water. We route Ancaster discharges clear of the foundation and grade the outlet to stay open in winter."],
-      ["zap", "Backup Pumping for Outages", "When the storm kills the power, a battery-backed secondary keeps the basin down. We size backup runtime to the property's typical inflow, not a generic package."],
-      ["check", "Backwater Valve Retrofits", "Where the street main surcharges in heavy rain, a retrofit backwater valve protects the lower level. We handle the permit and the inspection schedule with the city."]
+    "icon": "shield",
+    "kicker": "Sump Pumps and Backwater Valves in Ancaster, Ontario",
+    "h1": "Sump Pump and Backwater Valve Planning in Ancaster",
+    "intro": "For a sump pump or backwater valve project in Ancaster, start by recording where water enters, how high it has reached and whether the pump or power supply failed. Photograph the basin, pump label, discharge route and any visible valve access. If the property has a basement drainage system, ask how basin size, expected inflow and discharge location affect equipment selection. Battery backup, water-powered backup and a backwater valve address different risks, so compare the conditions each option is intended to manage and verify applicable installation requirements.",
+    "meta": "Plan sump pump, backup and backwater valve options in Ancaster, including discharge routing and installation requirements.",
+    "problem_h": "Has water entered the basement or is the sump system unreliable?",
+    "problem_p": "Record water levels, pump operation and power interruptions, and photograph the discharge route. Those details help assess capacity, backup needs and possible causes of failure.",
+    "features": [
+      [
+        "shield",
+        "Check the Discharge Route",
+        "Trace where the pump outlet carries water and photograph its endpoint, grade and any visible obstruction. Ask whether the proposed route discharges clear of the foundation and can remain open in winter. If water exits into saturated ground near the footing, it may return toward the foundation. The site layout and local requirements determine what discharge options are appropriate, so confirm the route before installation."
+      ],
+      [
+        "zap",
+        "Compare Backup Options and Runtime",
+        "A battery-backed pump and a water-powered backup rely on different supplies and operating conditions. Ask what each proposed option needs to function, how its capacity compares with the expected inflow and what runtime or limits apply. Check the pump and backup labels, power supply and basin dimensions, then compare those details with the recommendation. This prevents treating a generic backup package as proof that the system suits the property."
+      ],
+      [
+        "check",
+        "Assess Backwater Valve Suitability",
+        "A backwater valve may be considered where sewer surcharge is a concern, but suitability depends on the building drain, access and applicable requirements. Ask where the valve would be installed, how it can be inspected and maintained, and whether permits or inspections apply. Photograph existing cleanouts and drain access before assessment. Compare the proposed valve scope with the plumbing layout and understand which fixtures may be affected during a surcharge."
+      ]
     ],
-    rev: [4, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Ancaster, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Ancaster Plumbing Team",
-    intro: "Ancaster's municipal supply carries enough hardness to etch glass shower enclosures within a year, and the estate properties along the outer roads draw well water with iron and sulphur profiles all their own. Ancaster Plumbing Pros installs softeners and filtration chosen from an actual water test, plumbed with proper bypass and drainage so servicing never means a flood. Heated floors and high-end fixtures last longer when the water feeding them behaves.",
-    meta: "Water softeners and filtration in Ancaster, Ontario. Softener sizing from real water tests, plus iron and sulphur treatment for estate wells.",
-    problem_h: "Shower glass fogging white no matter what?",
-    problem_p: "Hardness and iron are the usual causes around Ancaster. We test first, then install treatment that actually fits the water.",
-    features: [
-      ["gauge", "Sizing From Your Test Results", "We measure hardness, iron, and flow before recommending anything. Ancaster households get a softener that regenerates on real consumption rather than a factory default guess."],
-      ["droplets", "Estate Well Treatment", "Outlying Ancaster properties run wells with iron staining and sulphur odour. We build the treatment chain to the test: oxidation, filtration, and UV where the results call for it."],
-      ["award", "Finish Protection", "Brushed nickel and polished fixtures keep their look when scale never forms. Homeowners tell us the glass alone justifies the install."]
+    "icon": "gauge",
+    "kicker": "Water Softeners and Filtration in Ancaster, Ontario",
+    "h1": "Water Treatment Options for Ancaster Properties",
+    "intro": "Before choosing a softener or filtration system for an Ancaster property, identify whether the supply is municipal or from a private well and obtain suitable water test results. Hardness, iron, sulphur and other measured characteristics can call for different treatment stages; a general product recommendation cannot replace test-based selection. Note the household’s flow needs and available space, and check for a drain, bypass access and service clearance. Ask how the proposed system’s capacity and regeneration settings relate to the test results and actual water use.",
+    "meta": "Compare water softener and filtration choices in Ancaster using water test results, supply type and household demand.",
+    "problem_h": "Are scale, staining or odour prompting a water treatment review?",
+    "problem_p": "Record the symptoms, supply type and any existing test results. Testing and household flow help identify which treatment, if any, suits the measured water conditions.",
+    "features": [
+      [
+        "gauge",
+        "Use Test Results to Select Capacity",
+        "Ask which water characteristics were measured, when the sample was taken and how the results affect the proposed equipment. Hardness, iron and household flow can influence system capacity and regeneration settings. Compare those figures with the unit’s specifications rather than relying on a general size recommendation. Keep a copy of the test so future adjustments or equipment changes can be based on measured conditions."
+      ],
+      [
+        "droplets",
+        "Build Treatment for the Water Source",
+        "Private well water may require assessment for iron, sulphur or other measured concerns, while municipal supply has a different profile. If testing indicates a need, ask how oxidation, filtration or ultraviolet treatment fits the results and what maintenance each stage requires. Confirm the sequence, flow capacity and replacement intervals in writing. Do not assume that a particular treatment stage is needed without supporting test results."
+      ],
+      [
+        "award",
+        "Check Bypass, Drainage and Service Access",
+        "Before installation, verify that the proposed layout includes an accessible bypass, appropriate drainage for regeneration or treatment discharge, and room to service the unit. Ask how the equipment will be isolated if maintenance is required and what connections must be protected from leaks. Compare the installation drawing with the actual utility space. These practical details affect servicing and help prevent an otherwise suitable treatment unit from being difficult to maintain."
+      ]
     ],
-    rev: [5, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Tankless install in a four-bathroom house. They upsized the gas line properly and the third shower stays hot now. Clean commissioning paperwork too.", "Homeowner", "Ancaster"],
-  ["Poly-B replacement across the whole main floor while we lived in the house. Crew contained the dust and kept water on in the bathrooms each night.", "Resident", "Ancaster"],
-  ["Main line rooted again after another outfit snaked it. These guys jetted it and put the camera on it. Two years clear since.", "Homeowner", "Dundas"],
-  ["Found a pinhole leak behind the ensuite wall with thermal imaging and cut one small access instead of tearing the tile out. Genuinely impressive.", "Resident", "Waterdown"],
-  ["Sump kept up through the March melt with the new battery backup. They rerouted the discharge away from the clay like they promised.", "Homeowner", "Carlisle"],
-  ["Well water was staining everything orange. They tested, installed the right iron chain, and the staining stopped inside a month.", "Farmer", "Copetown"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tankless and high-capacity tank installs matched to multi-bathroom Ancaster homes, with permits handled.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Root cutting, jetting, and camera verification for Ancaster's clay laterals and mature landscapes.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Poly-B and galvanized replacement, phased so the household keeps running through the whole project.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Renovation-grade rough-ins and trim-out for Ancaster ensuites, kitchens, and laundry rooms.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and thermal location that keeps finished-basement demolition to a single access.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Escarpment groundwater control with proper discharge routing, backup pumping, and surge valves.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Treatment sized from real test results, for municipal supply and estate wells alike.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless capacity for your household’s simultaneous hot-water use, then verify fuel, venting and connection requirements for the selected equipment.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Review snaking, root cutting or hydro-jetting options for the blockage, and consider camera inspection where pipe access and condition allow.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Assess exposed polybutylene or galvanized pipe, then compare PEX or copper routes, access needs, testing and possible phased work.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures and Toilets",
+    "Coordinate fixture specifications and rough-in dimensions with renovation plans, then verify connections and operation after installation.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection and Repair",
+    "Use moisture observations and suitable acoustic or thermal tools to help locate suspected plumbing leaks before choosing an access point.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps and Backwater",
+    "Compare sump capacity, discharge routing and backup options; assess backwater valve suitability against the building drain and applicable requirements.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners and Filtration",
+    "Use water test results, supply type and household flow to compare softening or filtration equipment, including bypass and drainage needs.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed for plumbing work in Ancaster?", "Yes, licensed and insured, and every Ancaster job that calls for a permit has one filed with the city, with the inspection passed before we close up."],
-  ["Do you take after-hours emergency calls in Ancaster?", "We do. Burst supply lines, sewer backups, and total no-water situations get an emergency response across Ancaster and the surrounding roads, day or evening."],
-  ["Our tank died and we have houseguests Friday. Help?", "That is exactly the call we plan for. Ancaster sits on our core routes, and stocked tank sizes usually mean the replacement is done inside a day."],
-  ["Is the poly-B in our nineties house worth replacing yet?", "If it is original, plan for it. The fittings weaken with age and insurers increasingly ask about it. A phased repipe spreads the cost while removing the risk."],
-  ["Why does our Ancaster basement get damp in March?", "Escarpment meltwater presses through clay toward every slab on the slope. A correctly sized sump system, sound discharge routing, and a backwater valve where the main surcharges solve it."],
-  ["Do you test water before selling a softener?", "Always. Hardness and iron vary sharply between Ancaster streets and wells, so the recommendation follows the test, never the other way round."],
-  ["How does your pricing work?", "We quote the scope in writing after seeing the job, and that number holds. You approve it before work starts, and there are no hourly surprises after the fact."],
-  ["Do you work outside Ancaster itself?", "Yes. We cover Dundas, Hamilton, Waterdown, Carlisle, Copetown, and the rural roads between, in addition to every Ancaster subdivision."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/ancasterplumbingpros.ca-water-heaters.jpg", "Tankless water heater installation in Ancaster, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/ancasterplumbingpros.ca-drain-cleaning.jpg", "Sewer jetting and camera inspection in Ancaster, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/ancasterplumbingpros.ca-repiping.jpg", "Poly-B repipe in an Ancaster home", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/ancasterplumbingpros.ca-fixtures-toilets.jpg", "Bathroom fixture installation in Ancaster, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/ancasterplumbingpros.ca-leak-detection.jpg", "Thermal leak detection in Ancaster, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/ancasterplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Ancaster, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/ancasterplumbingpros.ca-water-softeners.jpg", "Water softener installation in Ancaster, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/ancasterplumbingpros.ca-water-heaters.jpg",
+    "Tankless water heater installation in Ancaster, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/ancasterplumbingpros.ca-drain-cleaning.jpg",
+    "Sewer jetting and camera inspection in Ancaster, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/ancasterplumbingpros.ca-repiping.jpg",
+    "Poly-B repipe in an Ancaster home",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/ancasterplumbingpros.ca-fixtures-toilets.jpg",
+    "Bathroom fixture installation in Ancaster, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/ancasterplumbingpros.ca-leak-detection.jpg",
+    "Thermal leak detection in Ancaster, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/ancasterplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump installation in Ancaster, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/ancasterplumbingpros.ca-water-softeners.jpg",
+    "Water softener installation in Ancaster, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

@@ -1,157 +1,320 @@
-// Per-site content for ridgetownplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Ridgetown, Chatham-Kent, the farm and
-// college town on the ridge between Chatham and Lake Erie.
-// Local angle: century farmhouses and in-town heritage homes, private wells
-// heavy with iron and sulphur, farm families that run laundry and showers
-// hard, and flat clay country where melt water and roots both find the
-// drains. NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Ridgetown, Ontario",
-    h1: "Water Heater Installation From a Local Chatham-Kent Plumbing Team",
-    intro: "Farm households and in-town families around Ridgetown run hot water hard, morning showers after chores, laundry in the evening, and the second dishwasher load at ten, and a tired tank gives up under exactly that rhythm. Ridgetown Plumbing supplies and installs water heaters built for the demand: owned high-recovery tanks that retire the rental bill, and tankless units that simply never empty. On properties fed by a well, we confirm the pump and pressure system can feed the unit properly before it goes in.",
-    meta: "Water heater installation in Ridgetown, Ontario. High-recovery tanks, tankless installs, rental replacements, and well system checks by licensed Chatham-Kent plumbers.",
-    problem_h: "Third shower of the morning going cold?",
-    problem_p: "Ridgetown homes get water heaters sized to real household demand, with rental tank replacements and same-week installation.",
-    features: [
-      ["flame", "Recovery That Keeps Up", "When the calendar says chores, hockey, and two loads of laundry, a slow tank ruins the day. We install high-recovery and tankless options around Ridgetown that hold their own against busy households."],
-      ["clock", "Rental Swaps Without Drama", "Ending a water heater rental should not feel like breaking a contract. We handle the changeover cleanly so Ridgetown homeowners own their hot water outright."],
-      ["shield", "Well and Pressure Checks Included", "Country systems feed the heater, so we verify pump output and pressure tank behaviour while installing. A new tank deserves a water supply that keeps its promise."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Ridgetown, Ontario",
+    "h1": "Plan a Water Heater Replacement in Ridgetown",
+    "intro": "When planning a water heater installation in Ridgetown, compare the household’s peak hot-water use with the recovery rate and capacity of each option. A high-recovery tank may suit a home with several closely spaced demands; a tankless unit has different flow and fuel requirements and should be checked against simultaneous fixture use. For a property supplied by a well, ask whether pump output, pressure-tank operation, and supply pressure are appropriate for the proposed equipment. Review fuel, venting, connections, and ownership terms before choosing a replacement.",
+    "meta": "Compare tank and tankless water heater options in Ridgetown, including household demand, fuel, venting, and well-system checks.",
+    "problem_h": "Does hot water run short during busy mornings?",
+    "problem_p": "Compare recovery rate, capacity, and simultaneous demand before choosing a replacement. If the home uses a well, include pump and pressure checks in the project scope.",
+    "features": [
+      [
+        "flame",
+        "Match recovery to household demand",
+        "List the fixtures and appliances likely to run together, and note when hot-water demand peaks. Compare that pattern with the recovery rate and usable capacity of a tank, or the flow rate of a tankless unit. This helps identify whether a higher-recovery tank or another equipment type fits the actual use rather than relying on household size alone."
+      ],
+      [
+        "clock",
+        "Compare ownership and replacement terms",
+        "If replacing a rented heater, gather the rental agreement and ask what the contract requires for removal, return, or cancellation. Compare those terms with the purchase, installation, and future maintenance scope for an owned unit. Confirm which existing connections or venting may need changes so the comparison reflects the complete project, not just the equipment price."
+      ],
+      [
+        "shield",
+        "Check the well and pressure system",
+        "For a well-supplied property, photograph the pump and pressure-tank labels and note any pressure changes during heavy water use. Ask for pump output and pressure-tank behaviour to be considered alongside the heater’s supply requirements. Those checks can affect equipment selection and reveal whether the water system needs attention before a new heater is connected."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Ridgetown, Ontario",
-    h1: "Drain Cleaning From a Local Chatham-Kent Plumbing Team",
-    intro: "Between the shade trees lining the older residential streets and the roots that work into every clay lateral in the county, Ridgetown drains earn their clogs honestly. Ridgetown Plumbing clears them the thorough way: cable through the blockage, hydro-jet through the buildup, and a camera pass when the same line keeps plugging year after year. Homes on septic appreciate that we clean mechanically rather than pouring chemistry into a field that depends on bacteria.",
-    meta: "Drain cleaning in Ridgetown, Ontario. Root cutting, hydro-jetting, septic-safe clearing, and camera inspection of repeat-offender laterals by licensed plumbers.",
-    problem_h: "The same drain backing up every season?",
-    problem_p: "We clear Ridgetown drains properly and put a camera on the repeat offenders so the fix is permanent, not annual.",
-    features: [
-      ["refresh", "Cleared and Then Cleaned", "Opening the clog is step one. Jetting strips the grease and scale that clog next month's passage, and we finish most Ridgetown lines in a single visit."],
-      ["droplets", "Roots Found on Camera", "County maples send feeder roots through clay joints for half the year. The camera shows exactly where, and the cleaning blade or repair follows the footage."],
-      ["check", "Kind to Septic Fields", "Out around Ridgetown, plenty of homes drain to a field. Mechanical cleaning keeps harsh chemistry out of the system that has to keep digesting."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Ridgetown, Ontario",
+    "h1": "Plan Drain Cleaning and Inspection in Ridgetown",
+    "intro": "For a drain-cleaning project in Ridgetown, note which fixtures are slow, whether more than one drain is affected, and how often the problem returns. A cable may open a localized blockage, while hydro-jetting can remove suitable buildup along a line; the right approach depends on pipe condition and the obstruction. If a line repeatedly plugs, ask whether a camera inspection can locate the cause before further work is chosen. For septic properties, discuss mechanical cleaning methods and how debris will be managed.",
+    "meta": "Plan drain clearing in Ridgetown with the right method for the blockage, pipe condition, repeat clogs, and septic system.",
+    "problem_h": "Does the same drain keep backing up?",
+    "problem_p": "Record which fixtures are affected and how often the blockage returns. A camera inspection may help distinguish recurring buildup from a pipe defect that changes the repair scope.",
+    "features": [
+      [
+        "refresh",
+        "Choose a clearing method for the line",
+        "Describe the affected fixtures and ask which method suits the pipe material, access, and suspected blockage. A cable can break through an obstruction; hydro-jetting may remove suitable grease or scale along more of the pipe. These methods are not interchangeable for every line, so pipe condition and the location of the blockage should guide the plan."
+      ],
+      [
+        "droplets",
+        "Use camera footage to assess repeat clogs",
+        "If the same line blocks again, ask whether a camera pass can show the obstruction’s location and the condition of the pipe. Save the footage or request a clear explanation of what it shows. Roots at a joint, for example, call for different planning than loose debris or buildup, and the finding can inform whether cleaning or a repair merits consideration."
+      ],
+      [
+        "check",
+        "Consider the septic system",
+        "If the property drains to a septic system, identify the cleanout and ask how the proposed mechanical clearing method relates to the line and system. Avoid assuming that a chemical product is suitable for the system. The access point, blockage location, and destination of removed material can affect the work plan and help keep the project focused on the affected drain."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Ridgetown, Ontario",
-    h1: "Repiping From a Local Chatham-Kent Plumbing Team",
-    intro: "A century farmhouse outside Ridgetown often holds its original galvanized backbone with repairs layered on across eighty years, and the symptoms read like a checklist: an orange tinge in the cold tap, a shower that whispers when the washer fills, a damp patch on a plaster wall that keeps returning. Ridgetown Plumbing replaces those tired systems with PEX or copper planned around the household, keeping one bathroom live while the next section is switched over, and pressure-testing each stage before the work disappears behind finishes.",
-    meta: "Repiping in Ridgetown, Ontario. Galvanized backbone replacement, staged whole-home repipes, and pressure-tested work under permit by licensed Chatham-Kent plumbers.",
-    problem_h: "Orange water and a shower that whispers?",
-    problem_p: "We replace the aging galvanized backbone in Ridgetown farmhouses and village homes, bringing honest pressure back to every fixture.",
-    features: [
-      ["wrench", "The Backbone Replaced", "Original galvanized narrows itself shut over decades. Installing right-sized PEX or copper through Ridgetown homes restores the pressure the house started with."],
-      ["home", "One Bathroom Always Live", "Repiping in stages keeps farm family life functioning, because chores and school mornings do not pause for plumbing. We hand over the plan before opening a single wall."],
-      ["shield", "Permit and Test Every Stage", "Pressure testing with the permit active, on every phase, means the inspection finds nothing and the paperwork stands behind the walls forever."]
+    "icon": "wrench",
+    "kicker": "Repiping in Ridgetown, Ontario",
+    "h1": "Plan a Home Repiping Project in Ridgetown",
+    "intro": "When considering repiping in Ridgetown, document symptoms such as discoloured water, reduced flow at several fixtures, or recurring leaks, and identify which pipes are accessible. Older galvanized pipe can narrow internally over time, but symptoms alone do not establish the cause or prove that every line needs replacement. Ask for a proposed route and material, such as PEX or copper, and a clear sequence for isolating sections. Confirm how pressure testing, inspections where applicable, wall access, and restoration are handled before finishes are opened.",
+    "meta": "Plan Ridgetown repiping by comparing pipe materials, access, work sequence, pressure testing, and applicable inspections.",
+    "problem_h": "Are discoloured water or low flow recurring?",
+    "problem_p": "Photograph affected fixtures and note when pressure changes. An assessment of pipe condition and access can clarify whether a section or broader repipe is appropriate.",
+    "features": [
+      [
+        "wrench",
+        "Assess the existing pipe backbone",
+        "Photograph visible pipe markings, corrosion, and any prior repairs, and note which fixtures have low flow or discoloured water. Ask whether the proposed scope replaces only affected sections or the home’s broader galvanized backbone. Comparing the pipe route, material, and access helps establish why a PEX or copper layout is proposed and what walls or ceilings may be opened."
+      ],
+      [
+        "home",
+        "Agree on a workable sequence",
+        "Before work begins, ask which water services will be shut off, how long each phase may affect the household, and whether any bathroom or kitchen can remain usable between stages. A written sequence makes it easier to plan around daily needs and helps clarify access, temporary arrangements, and which surfaces may need to be opened as each section is replaced."
+      ],
+      [
+        "shield",
+        "Confirm testing and inspection steps",
+        "Ask how each completed section will be pressure-tested and what documentation will be provided. Confirm which inspections or permits apply to the specific scope and who is responsible for arranging them, rather than assuming those steps are included. These details affect the schedule and help ensure concealed pipework is checked before walls, ceilings, or other finishes are closed."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Ridgetown, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Chatham-Kent Plumbing Team",
-    intro: "Whether it is a mudroom utility sink that takes the worst a farm day can throw at it or a main bathroom finally getting the renovation it has waited twenty years for, fixture work around Ridgetown has to survive real use. Ridgetown Plumbing sets toilets, faucets, tubs, and laundry boxes with fresh seals and shut-offs that still turn in five years, roughs in new bathrooms and kitchen layouts to code, and recommends finishes that stand up to the iron and hardness in local water instead of surrendering to it.",
-    meta: "Fixture and toilet installation in Ridgetown, Ontario. Faucets, toilets, laundry hookups, tubs, and renovation rough-ins built for hard local water. Free quotes.",
-    problem_h: "Bathroom renovation coming, or a toilet that runs all night?",
-    problem_p: "From mudroom laundry boxes to full bathroom rough-ins, Ridgetown fixture installs are set to last in water that is hard on hardware.",
-    features: [
-      ["home", "Built for Farmhouse Life", "Utility sinks, laundry boxes, and hose-ready mudroom taps installed to survive boots, coveralls, and constant use, the way Ridgetown entries actually get treated."],
-      ["check", "Rough-Ins Marked With You", "Before tile or cabinetry closes anything, the drain and supply locations go in where you want them, confirmed on site, because moving a toilet later costs more than deciding properly once."],
-      ["shield", "Finishes That Fight Iron", "Well water with iron and hardness destroys cheap fixtures. We recommend and install hardware proven to hold up in exactly this water."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Ridgetown, Ontario",
+    "h1": "Plan Fixture and Toilet Installation in Ridgetown",
+    "intro": "For fixture or toilet work in Ridgetown, identify what is being replaced and whether the project changes the room layout. Photograph existing shut-offs, drain locations, and available space, then compare the chosen fixture’s dimensions and connection requirements with the rough-in. A renovation may need supply and drain locations confirmed before tile or cabinetry is installed. If the property has well water with iron or hardness, ask how those measured conditions may affect finish selection and maintenance; do not assume a particular fixture will suit without checking its specifications.",
+    "meta": "Plan fixture and toilet installation in Ridgetown with verified dimensions, rough-in locations, connections, and water conditions.",
+    "problem_h": "Planning a renovation or replacing a running toilet?",
+    "problem_p": "Check fixture dimensions, shut-offs, and drain locations before ordering or closing walls. If the property uses a well, test water conditions before comparing finishes.",
+    "features": [
+      [
+        "home",
+        "Check fixtures for the intended use",
+        "For a utility sink, laundry box, or mudroom tap, note how the space will be used and photograph the available connections. Compare the fixture’s dimensions, material, and installation requirements with the room and expected use. This can reveal whether a selected model fits the location and whether supply, drain, or shut-off changes should be included before installation is planned."
+      ],
+      [
+        "check",
+        "Confirm rough-in locations before finishes",
+        "Before tile or cabinetry closes the walls, mark the intended toilet, sink, and appliance locations with the people using the room. Compare those marks with fixture dimensions and the required drain and supply positions. Confirming the layout early can identify clearance or connection conflicts while adjustments remain accessible, rather than after finished surfaces make changes more involved."
+      ],
+      [
+        "shield",
+        "Use water test results when comparing finishes",
+        "If a property has well water and there are concerns about iron or hardness, arrange appropriate testing and keep the results for the fixture discussion. Compare manufacturers’ material and maintenance guidance with the measured conditions rather than relying on a general claim about local water. The results can help narrow finish choices and set realistic expectations for cleaning and upkeep."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Ridgetown, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Chatham-Kent Plumbing Team",
-    intro: "On a Ridgetown area property with a well, an underground leak is more than a wet spot: every drip runs the pump, and a pump that cycles all night for months gives up early and takes the budget with it. Ridgetown Plumbing locates hidden leaks using acoustic listening and pressure testing, traces the long line from well head to house, and distinguishes a genuine pipe failure from the general dampness clay ground lends every basement. Repairs open the smallest window the job allows.",
-    meta: "Leak detection and repair in Ridgetown, Ontario. Acoustic location, pressure testing, well line tracing, and pump-saving repairs by licensed Chatham-Kent plumbers.",
-    problem_h: "Well pump running when nothing is on?",
-    problem_p: "Hidden leaks make Ridgetown wells and water bills misbehave. We locate them precisely and repair through minimal openings.",
-    features: [
-      ["droplets", "Heard, Located, Confirmed", "Acoustic gear narrows the escape point to a stretch of pipe, so one small opening fixes the problem instead of exploratory demolition across a ceiling."],
-      ["shield", "Well Lines Traced End to End", "The buried run feeding the house hides leaks for months on country properties. We test it, find the failure, and repair only the damaged length."],
-      ["check", "Pump Life Protected", "Every night a leak runs silently, the well pump wears. Finding and fixing it promptly around Ridgetown saves the equipment, not just the water."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Ridgetown, Ontario",
+    "h1": "Plan Leak Detection and Repair in Ridgetown",
+    "intro": "When investigating a possible leak in Ridgetown, record where moisture appears, when it occurs, and whether the water meter or well pump behaves differently when fixtures are off. Those observations help distinguish a supply-line leak from condensation, drainage, or other moisture sources. Acoustic listening and pressure testing may help narrow a concealed leak’s location, while a buried well line may require separate testing along its route. Ask what evidence supports the suspected location and how the proposed access and repair can be limited to the confirmed problem area.",
+    "meta": "Plan leak investigation in Ridgetown with symptom records, acoustic or pressure testing, well-line checks, and targeted access.",
+    "problem_h": "Does the well pump run when water is not being used?",
+    "problem_p": "Note pump cycles, meter movement, and where moisture appears. Testing can help separate a supply leak from other causes and guide the repair opening.",
+    "features": [
+      [
+        "droplets",
+        "Narrow down a concealed leak",
+        "Photograph damp areas and note when they appear, then share whether nearby fixtures or appliances were in use. Ask whether acoustic listening or pressure testing is appropriate and what each test can confirm. A likely location supported by testing can help plan a focused opening, while uncertain findings may call for more investigation before finishes are removed."
+      ],
+      [
+        "shield",
+        "Test a buried well supply line",
+        "If the property has a well, note the route from the wellhead to the house and record unusual pump cycling or pressure changes. Ask how the buried line will be isolated and tested, and how the suspected failure length will be identified. The test results can distinguish a well-line problem from an issue elsewhere and help define whether excavation or another access method is needed."
+      ],
+      [
+        "check",
+        "Consider the effect on the pump",
+        "A leak on a well-fed system may cause the pump to run more often, so record cycling when no taps are open and share the pattern during assessment. Ask whether pressure readings support a leak diagnosis and what repair would stop the unwanted demand. This information can help prioritize investigation and clarify whether the pump also needs separate evaluation."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Ridgetown, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Chatham-Kent Plumbing Team",
-    intro: "Spring on the flat clay around Ridgetown means melt water with nowhere to hurry, and finished basements pay the price when the sump system was sized by guesswork or installed before the rec room went in. Ridgetown Plumbing installs pumps and basins matched to what your foundation actually collects, adds battery backup for the storm nights when hydro drops, and fits backwater valves under permit where the street sewer has ever knocked on the floor drain. We also service and test existing units before every spring.",
-    meta: "Sump pump installation in Ridgetown, Ontario. Matched pumps and basins, battery backups, spring checkovers, and permitted backwater valves by licensed plumbers.",
-    problem_h: "Rec room damp every April?",
-    problem_p: "Ridgetown basements stay dry through melt and storms with pumps sized to the foundation and backups that outlive the outage.",
-    features: [
-      ["shield", "Sized to the Clay", "Slow-draining clay changes how a basin fills, and the pump has to match that behaviour. Ridgetown installs get chosen for the ground they sit in."],
-      ["zap", "Battery Backup Standard", "Storms take branches and hydro with them precisely when the pit fills fastest. A battery-backed pump keeps the floor dry through the blackout."],
-      ["calendar", "Spring Checkovers", "Existing systems get tested, cleaned, and exercised before melt season, because finding a dead pump in April is the expensive way to learn."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Ridgetown, Ontario",
+    "h1": "Plan Sump Pump and Backwater Protection in Ridgetown",
+    "intro": "For a sump or backwater project in Ridgetown, note when water enters the basin, how quickly the level rises, and whether past outages or sewer backups have affected the property. Pump selection depends on the basin, discharge route, and water inflow, so ask how those conditions were assessed rather than choosing by label alone. If backup power is being considered, compare its runtime and the pump’s electrical demand. A backwater valve is a separate measure; confirm the drain connection, access, and applicable permit or inspection requirements for the proposed work.",
+    "meta": "Plan Ridgetown sump pump and backwater work by checking basin, discharge, backup power, sewer connection, and approvals.",
+    "problem_h": "Does the sump basin fill during heavy rain or snowmelt?",
+    "problem_p": "Record water levels, pump operation, and any outage or backup history. Those details help compare pump capacity, discharge, and backup options for the property.",
+    "features": [
+      [
+        "shield",
+        "Match the pump to basin and inflow",
+        "Photograph the basin, pump label, discharge route, and any water-level marks after wet weather. Ask how basin size, inflow, and discharge conditions inform the proposed pump capacity. The surrounding ground should not be assumed to determine the answer by itself; measured site conditions help explain the equipment choice and whether changes to the basin or discharge need consideration."
+      ],
+      [
+        "zap",
+        "Compare backup power requirements",
+        "If considering battery backup, check the primary pump’s power demand and ask how the backup system will perform during an outage. Compare the proposed battery capacity, expected runtime, charging arrangement, and maintenance requirements. The details matter because a backup that does not match the pump or expected outage period may not provide the protection the household expects."
+      ],
+      [
+        "calendar",
+        "Test existing equipment before wet seasons",
+        "Before a period when the sump may be needed, check whether the float moves freely, the pump starts, and the discharge route is clear. Ask how a full system test will be performed and whether the check includes any backup unit. Recording the results and pump age helps identify maintenance or replacement questions before a failure occurs during high water."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Ridgetown, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Chatham-Kent Plumbing Team",
-    intro: "Water is the whole story around Ridgetown: town supply runs hard, and the wells scattered through the surrounding fields pull iron that stains bathtubs rust-orange and sulphur that announces itself every time a tap opens. Ridgetown Plumbing designs treatment from a proper test, pairing a softener sized to the household with an iron filter where the test demands one, adding ultraviolet for wells that need the reassurance, and finishing with reverse osmosis at the kitchen sink for drinking water people brag about.",
-    meta: "Water softeners and filtration in Ridgetown, Ontario. Softener sizing, iron and sulphur filtration, UV treatment, and reverse osmosis by licensed Chatham-Kent plumbers.",
-    problem_h: "Bathtub orange and taps smelling of sulphur?",
-    problem_p: "Ridgetown water, town or well, gets treated with equipment chosen from testing, sized to the household, and built to be serviced.",
-    features: [
-      ["gauge", "Sized From the Test", "Grain capacity follows hardness, iron level, and household count, nothing else. The softener your Ridgetown neighbour runs may be wrong for your well, and testing sorts that out."],
-      ["droplets", "Iron and Sulphur Handled", "An iron filter ahead of the softener keeps resin alive and tubs white; sulphur treatment clears the smell that greets guests. Staging matters on county wells."],
-      ["shield", "Serviceable by Design", "Bypass valves, clear labelling, and sensible placement mean future maintenance takes minutes. We build Ridgetown treatment systems to be looked after, not just installed."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Ridgetown, Ontario",
+    "h1": "Plan Water Treatment in Ridgetown",
+    "intro": "For water-treatment planning in Ridgetown, first establish whether the supply is municipal or from a well, then obtain suitable test results for the concerns being investigated. Hardness, iron, and sulphur require different treatment decisions; a softener should not be assumed to address every issue. Compare equipment capacity with measured results and household use, and ask how filters will be staged and maintained. If considering ultraviolet treatment for a well or reverse osmosis at a kitchen tap, confirm what each system is designed to treat and what testing, pre-treatment, or ongoing service it requires.",
+    "meta": "Plan Ridgetown water treatment from test results, household use, equipment requirements, and maintenance needs.",
+    "problem_h": "Are stains, odours, or scale prompting a water-treatment review?",
+    "problem_p": "Identify the supply source and obtain relevant test results before choosing equipment. Hardness, iron, and sulphur can require different treatment and maintenance plans.",
+    "features": [
+      [
+        "gauge",
+        "Size equipment from test results",
+        "Keep recent water-test results and note the number of people in the household and typical water use. Ask how measured hardness, iron, and daily demand affect softener capacity and regeneration settings. A system selected only by household size or a neighbour’s equipment may not match the supply, so the test and usage information should be part of the sizing discussion."
+      ],
+      [
+        "droplets",
+        "Plan treatment for iron and sulphur",
+        "If tests or observations indicate iron staining or a sulphur odour, ask which treatment addresses the specific finding and whether pre-treatment is needed before a softener. The sequence of equipment can affect performance and maintenance. Compare the proposed stages with the test results and request an explanation of what each filter is intended to remove, rather than assuming one device handles every concern."
+      ],
+      [
+        "shield",
+        "Check access and ongoing maintenance",
+        "Before selecting equipment, confirm available space, drain and electrical needs, bypass access, and the manufacturer’s service requirements. Ask how filters, valves, and controls will be labelled and reached for routine maintenance. If considering ultraviolet treatment or reverse osmosis, verify its intended use, required pre-treatment, and replacement schedule. Those details affect both installation scope and the effort needed to keep the system operating as specified."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Morning chores, two teens, and one tired tank meant daily cold showers. The new high-recovery unit keeps up and the rental bill is gone.", "Farmer", "Highgate"],
-  ["Camera found roots where three plumbers before them only snaked. Cut clean, jetted, and the line has not backed up since harvest.", "Homeowner", "Morpeth"],
-  ["They traced our well line, found the split that was running the pump nights, and dug exactly where the gear said. Pump has been quiet since.", "Farmer", "Kent Bridge"],
-  ["Staged the farmhouse repipe around calving so we kept a bathroom the whole time. Pressure upstairs is unrecognizable, in the best way.", "Farmer", "Shrewsbury"],
-  ["Iron filter first, softener second, exactly as the test said. First white bathtub we have had in this house in thirty years.", "Homeowner", "Port Victoria"],
-  ["Sump was rebuilt and tested before spring, with a battery backup added. The April storm knocked power out for a day and the floor stayed dry.", "Resident", "Ridgetown"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "High-recovery tanks and tankless units sized for busy Ridgetown households, with well and pressure checks included.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Root cutting, jetting, and camera passes on repeat offenders, done septic-safe for properties around Ridgetown.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Staged PEX and copper repipes that retire the galvanized backbone in Ridgetown farmhouses and village homes.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Toilets, faucets, laundry boxes, and mudroom hardware installed to survive farm use and local water.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and pressure-based leak location, well line tracing, and repairs that protect the pump.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Pumps matched to clay ground, battery backups, spring checkovers, and permitted backwater valves.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Test-driven softener and iron filter systems for Ridgetown town water and sulphur-heavy rural wells.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare high-recovery tanks and tankless units against peak household use, fuel, venting, and, for well-fed homes, pump and pressure-system requirements.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Choose cable clearing or suitable hydro-jetting based on the blockage and pipe condition; recurring clogs may warrant a camera inspection, including on septic-connected lines.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Compare PEX and copper routes for replacing galvanized pipe, and confirm access, work sequence, pressure testing, and any applicable inspection steps.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Check fixture dimensions, shut-offs, and rough-in locations for toilets, faucets, laundry boxes, and utility sinks before ordering or closing walls.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Use symptom records and suitable acoustic or pressure tests to investigate concealed leaks; well-line testing can help define the repair area.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare pump capacity with basin and discharge conditions, review battery runtime, and check access and approvals for a backwater valve.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use test results to compare softener capacity, iron or sulphur treatment, and any proposed ultraviolet or reverse-osmosis equipment.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you a licensed plumbing outfit?", "Fully. Ridgetown Plumbing operates under an Ontario plumbing licence with insurance in place, and permitted jobs are filed and inspected to the Ontario Building Code before we consider them finished."],
-  ["Can you get here fast for an emergency?", "Ridgetown and the surrounding concessions are our home territory, so burst lines, floods, and no-water calls get a same-day response, and we stock the truck for the drive before it starts."],
-  ["Our tank is fourteen years old and groaning. Replace now?", "That age has nothing left to promise. We size the replacement to the household's real demand and verify the well system can feed it, because a great tank on a tired pump is half a solution."],
-  ["Should a Ridgetown farmhouse repipe happen all at once?", "Only if the walls are open anyway. Normally we stage it, replacing the failing branches first while keeping a bathroom live, and finishing the rest on a schedule the farm can absorb."],
-  ["What will a softener do about our orange well water?", "The orange is iron, and a softener alone struggles with heavy iron. Our tests determine the staging, typically an iron filter ahead of the softener, which is why the test comes before any quote."],
-  ["Do you look after wells and septic plumbing?", "Yes. Well lines, pressure systems, septic-connected drains, and treatment equipment are daily work out here, and we clear lines mechanically to protect fields that rely on bacteria."],
-  ["How do you price jobs?", "The quote is written, explained, and approved before work begins, and it does not move afterward. No fuel surprises for concession-road drives, no hourly creep."],
-  ["Which communities do you cover from Ridgetown?", "Ridgetown itself, plus Highgate, Morpeth, Kent Bridge, Shrewsbury, and the farm properties between them, along with runs into Chatham, Blenheim, and Wheatley."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/ridgetownplumbing.ca-water-heaters.jpg", "Water heater installation in Ridgetown, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/ridgetownplumbing.ca-drain-cleaning.jpg", "Drain cleaning in Ridgetown, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/ridgetownplumbing.ca-repiping.jpg", "Farmhouse repipe in Ridgetown, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/ridgetownplumbing.ca-fixtures-toilets.jpg", "Fixture installation in Ridgetown, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/ridgetownplumbing.ca-leak-detection.jpg", "Leak detection in Ridgetown, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/ridgetownplumbing.ca-sump-pumps.jpg", "Sump pump installation in Ridgetown, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/ridgetownplumbing.ca-water-softeners.jpg", "Iron filter and softener installation in Ridgetown, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/ridgetownplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Ridgetown, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/ridgetownplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning in Ridgetown, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/ridgetownplumbing.ca-repiping.jpg",
+    "Farmhouse repipe in Ridgetown, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/ridgetownplumbing.ca-fixtures-toilets.jpg",
+    "Fixture installation in Ridgetown, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/ridgetownplumbing.ca-leak-detection.jpg",
+    "Leak detection in Ridgetown, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/ridgetownplumbing.ca-sump-pumps.jpg",
+    "Sump pump installation in Ridgetown, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/ridgetownplumbing.ca-water-softeners.jpg",
+    "Iron filter and softener installation in Ridgetown, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

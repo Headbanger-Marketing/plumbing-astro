@@ -1,185 +1,379 @@
-// Per-site content for owensoundplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Owen Sound, Grey County, at the base of
-// the Niagara Escarpment on Georgian Bay.
-// Local angle: one of the oldest housing stocks in Ontario, stone and brick
-// century homes with cast-iron drain stacks and lath-and-plaster walls, ledge
-// rock under half the backyards in town, low harbour streets on aging sewers,
-// basement rental suites, and bay storms that test everything at once.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Owen Sound, Ontario",
-    h1: "Water Heater Installation From a Local Grey Plumbing Team",
-    intro: "Tanks in this city live hard lives, wedged into stone basements with a foot of clearance, feeding two suites, and running flat out through a Georgian Bay winter. Owen Sound Plumbing Pros handles that world daily. We measure the stair, the headroom, and the household before recommending anything, then install tank and tankless units across Owen Sound that fit the space and pass inspection the first time.",
-    meta: "Water heater installation in Owen Sound, Ontario. Tank and tankless units for century homes, multi-suite houses, and tight stone basements. Licensed Grey County plumbers.",
-    problem_h: "Tank dead in a stone basement nobody wants to carry it out of?",
-    problem_p: "We plan the route, size the replacement to the suites and the space, and finish most Owen Sound swaps inside one working day.",
-    features: [
-      ["flame", "Fit for the House You Actually Have", "Century stairways and low beams rule out the cookie-cutter install. We confirm clearances and venting paths up front, then bring the unit that fits your Owen Sound home, not the easiest one to load."],
-      ["home", "Multi-Suite Households Covered", "Two suites under one roof means overlapping shower schedules and a recovery rate that has to keep up. We size for the real load so the basement tenant is not rinsing in cold."],
-      ["clock", "One-Day Swaps, Planned That Way", "Hot water is not optional in February here. The old tank comes out, the new one goes in, and the cleanup happens before we go, usually inside a single visit."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Owen Sound, Ontario",
+    "h1": "Plan a Water Heater Installation in Owen Sound",
+    "intro": "Choosing a replacement water heater involves more than matching the old tank. For a job in Owen Sound, check the route from the entrance to the installation area, including stair width, turns, ceiling height and working clearance. Note how many bathrooms or suites draw hot water, and photograph the existing unit’s labels, connections and venting. Those details help compare tank and tankless options, confirm what may fit, and identify whether changes to venting or connections belong in the project scope.",
+    "meta": "Compare tank and tankless water heater installation options in Owen Sound, including fit, capacity, access and venting considerations.",
+    "problem_h": "What should you check before replacing a water heater?",
+    "problem_p": "Measure the access route and installation space, then record the existing unit’s type, capacity and venting. Household demand and site constraints help determine which replacement options are appropriate.",
+    "features": [
+      [
+        "flame",
+        "Check Access and Installation Clearances",
+        "Measure doorways, stair turns, ceiling height and the space around the existing heater. Photograph tight points and the current vent route. This information helps establish whether a tank can be moved through the home, whether another configuration should be considered, and whether venting or connection changes affect the proposed scope."
+      ],
+      [
+        "home",
+        "Compare Capacity With Household Demand",
+        "List how many people, bathrooms and separate suites rely on hot water, and note when demand overlaps. Compare this pattern with the proposed heater’s capacity and recovery information. A system selected for one household may not suit a property with multiple suites, so clarify how the sizing assumptions were made."
+      ],
+      [
+        "clock",
+        "Confirm Replacement Work and Testing",
+        "Ask what the quote includes for disconnecting the old heater, removing it from the property, connecting the replacement and handling venting or other required changes. Request details of the checks planned after installation and any inspection requirements that apply to the project. Clear inclusions help distinguish a straightforward swap from additional work."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Owen Sound, Ontario",
-    h1: "Drain Cleaning From a Local Grey Plumbing Team",
-    intro: "Cast iron was the material of choice when most of this city was built, and a hundred years of bay-city water has scaled those stacks and split their bellies in every second basement we open. Owen Sound Plumbing Pros clears what can be cleared, cameras what cannot, and tells you honestly which sections of your Owen Sound drainage have reached retirement. What stays and what goes gets decided on screen, together.",
-    meta: "Drain cleaning in Owen Sound, Ontario. Cast-iron stack clearing, main line jetting, root cutting, and camera inspection by licensed Grey County plumbers.",
-    problem_h: "Stack rumbling, or a main line that backs up every rainstorm?",
-    problem_p: "We clear the line, camera the stack, and lay out exactly what is salvageable and what needs replacing in your Owen Sound home.",
-    features: [
-      ["refresh", "Jetting and Machine Clearing", "Scaled cast iron responds to a proper scouring, not a bottle of chemicals. We match the machine to the pipe, from a hand line in the lavatory to a jet down the Owen Sound main building drain."],
-      ["droplets", "Camera Verdicts on Old Stacks", "Internal rust bells and hairline splits hide inside century drainage. The camera shows them plainly, so the decision to patch a section or replace a stack is made on evidence, not hope."],
-      ["shield", "Storm-Backup Diagnosis", "When drains back up on rainy nights near the low harbour streets, the cause is usually downstream. We trace it, clear what we can reach, and quote the fix that keeps the next storm outside where it belongs."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Owen Sound, Ontario",
+    "h1": "Drain Cleaning and Camera Inspection in Owen Sound",
+    "intro": "A recurring blockage may involve a local fixture, a building drain or an older stack, and each calls for a different investigation. For a job in Owen Sound, note which fixtures are affected, when the problem occurs and whether backups follow heavy rain. Photograph accessible cleanouts and any visible pipe material or damage. Ask whether machine clearing, jetting or a camera inspection is proposed, and request the findings before deciding whether a section can remain or needs further work.",
+    "meta": "Drain cleaning and inspection in Owen Sound, with scope considerations for machine clearing, jetting and camera assessment.",
+    "problem_h": "Are several drains slow, or does one line keep backing up?",
+    "problem_p": "Record which fixtures are affected and when symptoms occur. Ask what clearing method suits the suspected pipe and whether a camera inspection can help determine the next step.",
+    "features": [
+      [
+        "refresh",
+        "Match Clearing Method to the Pipe",
+        "Ask which method is proposed and why: a hand machine may suit a small fixture branch, while equipment for a main building drain has a different reach and purpose. If jetting is considered, clarify how pipe material and condition will be assessed first. Matching the method to the line helps avoid treating every blockage alike."
+      ],
+      [
+        "droplets",
+        "Use Camera Findings to Compare Options",
+        "A camera inspection may reveal internal corrosion, scale buildup, roots or a crack that clearing alone cannot resolve. Ask to review the footage or a written description, including the location and extent of any concern. That evidence helps compare another cleaning with a targeted repair or replacement, rather than relying on symptoms alone."
+      ],
+      [
+        "shield",
+        "Investigate Recurring Backups Systematically",
+        "If backups coincide with rain, note their timing, affected fixtures and whether water returns through a particular drain. Ask whether the suspected restriction is within the building drain or farther downstream, and what evidence supports that conclusion. The location changes which sections can be inspected and what follow-up work should be considered."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Owen Sound, Ontario",
-    h1: "Repiping From a Local Grey Plumbing Team",
-    intro: "Original galvanized supply pipe behind lath and plaster is standard issue in this city's older quarters, and it fails the same way everywhere, pressure that fades floor by floor and rust that no filter fixes. Owen Sound Plumbing Pros repipes these homes for a living, protecting plaster while we work, sequencing each level, and leaving behind pipe that will outlast the mortgage. The work is dusty but predictable, and the schedule holds.",
-    meta: "Repiping in Owen Sound, Ontario. Galvanized replacement in century homes, staged whole-home repipes, PEX and copper installed by licensed Grey plumbers.",
-    problem_h: "Third-floor pressure down to a dribble?",
-    problem_p: "We replace faded galvanized with PEX or copper, floor by floor, keeping the plaster intact and the household running.",
-    features: [
-      ["wrench", "Plaster-Safe Access Planning", "Every opening is measured against joist runs and stud bays before a blade touches anything. Fewer, smaller cuts mean your Owen Sound walls patch flat and the original woodwork stays put."],
-      ["home", "Staged Floor by Floor", "A century home can be repiped without emptying it. We work one level at a time, restore water each evening, and keep the disruption confined to the room we are in."],
-      ["check", "Permitted, Tested, Recorded", "The new system holds on the pressure gauge, passes its City inspection, and leaves a paper trail. When the house sells, that record is worth having."]
+    "icon": "wrench",
+    "kicker": "Repiping in Owen Sound, Ontario",
+    "h1": "Repiping Planning for Owen Sound Homes",
+    "intro": "Low pressure at one fixture does not automatically mean the whole supply system needs replacement. For a repiping project in Owen Sound, record which floors and taps are affected, photograph any visible pipe labels or corrosion, and note previous repairs. If walls have plaster, wood lath or original trim, identify areas where access may be difficult. These details help compare a localized repair with staged replacement, select between proposed pipe materials and understand how water access may be managed during the work.",
+    "meta": "Repiping planning in Owen Sound, including galvanized pipe assessment, staged access, and PEX or copper comparisons.",
+    "problem_h": "Does water pressure drop at particular fixtures or floors?",
+    "problem_p": "Map the affected taps and floors, photograph visible pipework and note past repairs. This helps assess whether a local fault or broader repiping scope deserves investigation.",
+    "features": [
+      [
+        "wrench",
+        "Plan Access Around Existing Walls",
+        "Photograph plaster, wood lath, trim and visible joist or pipe routes before work is scoped. Ask where openings may be needed and how their positions were selected. The available stud bays and joist direction can affect access, repair size and the finish work required, so a specific access plan is more useful than a general promise to protect walls."
+      ],
+      [
+        "home",
+        "Compare a Staged Work Sequence",
+        "For an occupied multi-storey home, ask whether replacement can be divided by floor or area, and when water service would be interrupted and restored. Compare the proposed sequence with household routines and access to each room. A clear plan identifies which areas are affected each day and whether temporary arrangements are needed."
+      ],
+      [
+        "check",
+        "Clarify Testing and Inspection Requirements",
+        "Ask which pipe material is proposed, what pressure or leak checks will follow, and whether inspections or permits apply to the described scope. Request a record of completed work and test results when the project is finished. These details help you compare proposals and retain useful documentation without assuming every job follows the same process."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Owen Sound, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Grey Plumbing Team",
-    intro: "There is a particular satisfaction in a century bathroom that keeps its clawfoot character while gaining hardware that actually works, and that intersection is our home turf. Owen Sound Plumbing Pros sets toilets and faucets, rebuilds shower valves, and roughs in basement suites across the city, installing pieces chosen to survive the water and the winters here. Suites, showers, and everything between, one clean install at a time.",
-    meta: "Fixture and toilet installation in Owen Sound, Ontario. Period-appropriate fixtures, basement suite rough-ins, and dependable everyday installs by Grey County plumbers.",
-    problem_h: "Renovating a century bathroom, or adding a basement suite?",
-    problem_p: "From clawfoot-preserving updates to legal second-suite rough-ins, we install fixtures across Owen Sound that fit the house and pass inspection.",
-    features: [
-      ["home", "Character Kept, Hardware Upgraded", "Modern internals can live inside period styling. We source fixtures that respect an Owen Sound century home while flushing like current standards and sealing like new work."],
-      ["check", "Basement Suite Rough-Ins", "Second suites need proper backflow protection, separate shut-offs, and permitted drains. We rough in basement apartments to the requirements that inspectors and future landlords both expect."],
-      ["shield", "Chosen for Local Water", "Grey County water treats cheap fixtures roughly. The brands we install earn their place by lasting, and every connection is set dry and tight underneath."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Owen Sound, Ontario",
+    "h1": "Fixture and Toilet Installation Planning in Owen Sound",
+    "intro": "Fixture work can range from replacing a toilet or faucet to changing a shower valve or preparing plumbing for a basement bathroom. For a project in Owen Sound, photograph the existing fixture, supply connections, drain position and any visible labels. If preserving a clawfoot tub or period styling matters, include those details before comparing products. For a new bathroom or suite, ask how drainage, shut-offs and backflow protection affect the layout and what inspection requirements may apply.",
+    "meta": "Plan fixture, toilet, shower valve and bathroom rough-in work in Owen Sound, with attention to existing connections and project scope.",
+    "problem_h": "Replacing a fixture, updating a period bathroom or planning a new suite?",
+    "problem_p": "Photograph the existing connections and measure the fixture space. For a new bathroom, compare the proposed drain, shut-off and protection details with the intended layout.",
+    "features": [
+      [
+        "home",
+        "Keep Period Details in the Fixture Choice",
+        "If a clawfoot tub or period appearance is important, photograph the existing fittings and note what must remain. Compare fixture dimensions, mounting style and replacement internals before choosing a product. Those details help establish whether modern components can work with the existing arrangement or whether additional changes are needed."
+      ],
+      [
+        "check",
+        "Review Basement Bathroom Rough-Ins",
+        "For a proposed basement suite, ask how the fixture locations relate to drains, supply lines, shut-offs and any required backflow protection. Request clarification about inspection or permit requirements for the specific work. The existing layout and planned use affect what must be included, so confirm the rough-in scope before finishes conceal the plumbing."
+      ],
+      [
+        "shield",
+        "Compare Materials and Connection Details",
+        "Before choosing a replacement faucet, toilet or shower valve, check its dimensions and connection requirements against the existing plumbing. Ask what parts are included and how the completed connections will be checked for leaks. If water testing suggests a treatment concern, assess that separately rather than assuming a particular fixture or brand is suitable."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Owen Sound, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Grey Plumbing Team",
-    intro: "In a city built on ledge rock, a slab leak behaves badly, water travels along the rock instead of straight up, and surfaces the wrong room away from the source. Owen Sound Plumbing Pros accounts for exactly that. We combine acoustic listening with thermal tracing to pin Owen Sound leaks in plaster walls and over rock, then open the smallest possible hole to end them.",
-    meta: "Leak detection and repair in Owen Sound, Ontario. Acoustic and thermal location of leaks in century walls, over ledge rock, and under slabs. Licensed plumbers.",
-    problem_h: "Stain spreading where no pipe should be?",
-    problem_p: "Ledge rock moves water sideways, so we trace thermally and acoustically before cutting, and repair the true source in your Owen Sound home.",
-    features: [
-      ["droplets", "Tracing That Respects the Rock", "Water sliding along bedrock surfaces in odd places. Thermal imaging follows the warmth and the acoustic rig confirms the pipe position, which together keep the repair small and correct."],
-      ["pin", "Century Wall Intelligence", "Plaster, wood lath, and balloon framing hide runs that no blueprint recorded. We read the building before opening it, so the Owen Sound wall comes apart once, at the right spot."],
-      ["check", "Repairs Finished Same Visit", "Copper patch, PEX rerun, or valve swap, the common fixes travel on the truck. Most leaks we locate in Owen Sound are also repaired before we leave."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Owen Sound, Ontario",
+    "h1": "Leak Detection and Repair Planning in Owen Sound",
+    "intro": "A stain or damp patch does not always mark the point where water escaped. For a leak investigation in Owen Sound, photograph the affected surface, note when it appears and check whether it changes after plumbing use or rainfall. If the property has a slab, ledge rock, plaster walls or older framing, mention that before access is planned. Acoustic listening and thermal imaging may help narrow the search, while targeted opening and repair depend on the pipe and evidence found.",
+    "meta": "Leak detection planning in Owen Sound, including acoustic and thermal tracing for concealed pipes and repair scope considerations.",
+    "problem_h": "Is a stain spreading far from the visible plumbing?",
+    "problem_p": "Photograph the stain and note when it changes. Ask whether acoustic listening or thermal tracing suits the suspected pipe and what evidence would guide an opening.",
+    "features": [
+      [
+        "droplets",
+        "Consider Acoustic and Thermal Tracing",
+        "Ask whether acoustic listening, thermal imaging or both are appropriate for the suspected leak. If a slab or ledge rock is present, explain that water may travel away from its source before appearing at the surface. The tracing method and site conditions affect how confidently the source can be narrowed before opening a floor or wall."
+      ],
+      [
+        "pin",
+        "Inspect Wall Construction Before Opening",
+        "Photograph the affected area and note any known plaster, wood lath or balloon framing. Older wall construction may conceal pipe routes that are not shown on plans. Ask how the likely route will be assessed and where a small exploratory opening would provide useful evidence; this can reduce unnecessary disturbance and help target repair access."
+      ],
+      [
+        "check",
+        "Define the Repair After the Source Is Located",
+        "Once the leak is traced, ask what failed and compare the proposed repair, such as a copper patch, PEX rerun or valve replacement, with the evidence. Confirm which opening, materials, testing and finish work are included. Having repair parts available cannot be assumed, so clarify whether another visit or additional materials may be needed."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Owen Sound, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Grey Plumbing Team",
-    intro: "Escarpment water moves downhill fast, and in this city downhill means somebody's basement, especially on the low streets above the harbour where the sewer network has seen a century of service. Owen Sound Plumbing Pros installs pump systems sized to that reality, plus backwater valves that keep a saturated main from pushing back into your Owen Sound basement. Low streets and hillside lots get different plans, each built for its own water.",
-    meta: "Sump pump and backwater valve installation in Owen Sound, Ontario. Storm-ready pumps, battery backup, and backwater protection for low-lying city streets.",
-    problem_h: "Basement wet every time the bay kicks up a storm?",
-    problem_p: "We install pumps and backwater valves built for escarpment runoff and the harbour-side low streets that catch it all.",
-    features: [
-      ["shield", "Runoff-Sized Equipment", "Hillsides deliver water in bursts, so we choose pump capacity for peak flow, not average weather. The basin gets sized to match, so the motor cycles sanely instead of burning young."],
-      ["check", "Backwater Valve Protection", "On streets where storm peaks swamp the main, a code-installed backwater valve is the difference between a wet floor and a ruined one. We permit the install and set it where it actually works."],
-      ["zap", "Backup Through the Outage", "The storms that load the basin also drop the power. Battery-backed pumping keeps the lowest level of your Owen Sound home dry straight through the outage."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Owen Sound, Ontario",
+    "h1": "Sump Pump and Backwater Valve Planning in Owen Sound",
+    "intro": "Basement water protection depends on where water enters, how quickly it collects and whether the sewer line presents a separate backup risk. For a property in Owen Sound, record where water appears, how often the pump runs and whether problems coincide with rainfall or a power outage. Photograph the basin, discharge route and nearby drain access. If the property has a hillside or low-lying location, describe it as a site factor to assess, not as proof of a particular drainage problem.",
+    "meta": "Plan sump pump, backup power and backwater valve work in Owen Sound by assessing water entry, basin and drainage layout.",
+    "problem_h": "Does water enter the basement or return through a drain?",
+    "problem_p": "Record when water appears, inspect the basin and photograph the discharge route. Distinguishing groundwater from sewer backup changes which equipment should be assessed.",
+    "features": [
+      [
+        "shield",
+        "Size the Pump and Basin to the Site",
+        "Ask how the proposed pump capacity and basin size relate to observed inflow, collection area and discharge route. If runoff arrives in bursts on a hillside property, describe what happens during those periods and ask how peak flow is considered. Matching the equipment to measured or observed conditions is more useful than choosing solely by average operation."
+      ],
+      [
+        "check",
+        "Assess Backwater Valve Suitability",
+        "A backwater valve addresses sewer flow returning through a connected drain; it does not pump groundwater from a basin. Ask whether the symptoms and building drain layout support considering one, and what access, installation and inspection requirements apply. Keeping the two water-entry scenarios distinct helps avoid selecting equipment that cannot address the observed source."
+      ],
+      [
+        "zap",
+        "Consider Backup Power and Discharge",
+        "If the pump is important during outages, compare battery backup options, expected operation and how the discharge line is arranged. Ask what maintenance and testing the backup requires. The storm or outage scenario, pump load and equipment configuration affect what protection can reasonably be planned, so clarify limits as well as included components."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Owen Sound, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Grey Plumbing Team",
-    intro: "Water in Owen Sound splits into two very different stories, in-town supply that is manageable for most fixtures, and inland Grey-Bruce wells that come out of the ground mineral-heavy and proud of it. Owen Sound Plumbing Pros tests before recommending anything, then installs softeners, iron filters, and UV systems matched to the supply you actually have. City supply, shore well, or farm well, the equipment follows the test.",
-    meta: "Water softeners and filtration in Owen Sound, Ontario. Right-sized softeners, iron filters, and UV treatment for city supply and inland Grey-Bruce wells.",
-    problem_h: "Scale rings on everything, or a well that stains?",
-    problem_p: "We test your actual supply, city or well, and install treatment sized to the results rather than to a sales target.",
-    features: [
-      ["gauge", "Tested, Then Treated", "City water and inland wells live on different planets, and treatment priced for one fails on the other. A quick test at your Owen Sound property settles which equipment, if any, earns its spot."],
-      ["droplets", "Well Systems Done Properly", "Rural Grey wells often need iron removal ahead of any softener, and UV where bacteria test results call for it. Sequencing that equipment correctly is what makes it all work together."],
-      ["settings", "Set Up for the Household", "Regeneration schedules matched to real usage, a bypass that makes service simple, and settings explained in plain words before we leave your Owen Sound basement."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Owen Sound, Ontario",
+    "h1": "Water Treatment Planning in Owen Sound",
+    "intro": "Water treatment should follow test results, not assumptions about whether a property uses municipal supply or a well. For a job in Owen Sound, identify the source, collect any recent test results and describe visible scale, staining, odour or other concerns. A well may call for testing that distinguishes hardness from iron or bacterial findings before equipment is selected. Compare proposed treatment stages, operating needs and maintenance so the equipment matches the measured issue and household demand.",
+    "meta": "Water treatment planning in Owen Sound, including test-led softener, iron filter and UV system considerations.",
+    "problem_h": "Are you seeing scale, staining or another change in your water?",
+    "problem_p": "Identify the water source and gather recent test results. Compare treatment proposals with measured conditions rather than choosing equipment from symptoms alone.",
+    "features": [
+      [
+        "gauge",
+        "Test Before Selecting Equipment",
+        "Confirm whether the property uses municipal supply or a private well, and gather relevant test results before comparing treatment options. Hardness, iron and other findings call for different responses. Testing can show whether a softener, filter or no added treatment is appropriate, and helps explain why one proposal may differ from another."
+      ],
+      [
+        "droplets",
+        "Sequence Well Treatment From Results",
+        "If a well test indicates iron or bacterial concerns, ask what equipment is proposed and why its order matters. Iron removal may need to precede softening, while UV treatment is relevant only when test results and the water system support it. Request the findings and proposed treatment sequence so each stage has a clear purpose."
+      ],
+      [
+        "settings",
+        "Review Operation and Maintenance",
+        "Compare the proposed system’s regeneration settings with household water use, and ask how a bypass supports service or maintenance. Request a plain-language explanation of normal operation, upkeep and what supplies may need replacement. These details affect ongoing costs and help determine whether the chosen equipment is practical for the property."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Two-suite house near the east hill, one tank feeding everything. They sized a proper replacement, navigated the stone stairwell, and had it running same day.", "Homeowner", "Owen Sound"],
-  ["Camera down our cast-iron stack showed exactly what we were dealing with. They cleared what could be saved and replaced the rest. No drama, straight talk.", "Resident", "Owen Sound"],
-  ["Leak showed up in the dining room ceiling, nowhere near any pipe. They traced it along the bedrock and fixed the real line under the floor. Impressive work.", "Homeowner", "Shallow Lake"],
-  ["Every heavy rain our main backed up. Backwater valve installed, permitted, inspected, and we have slept through every storm since.", "Homeowner", "Annan"],
-  ["Repiped our 1900s place floor by floor. Water every night, plaster patched clean, and the third-floor shower finally has pressure.", "Resident", "Owen Sound"],
-  ["Fixed the basement suite plumbing to pass inspection for the rental licence. Knew the requirements cold, which saved me a second round of corrections.", "Business Owner", "Owen Sound"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless installs sized for century homes, two-suite houses, and tight Owen Sound basements.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Cast-iron stack clearing, jetting, and camera verdicts on the century drainage under Owen Sound homes.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized replacement behind lath and plaster, staged floor by floor with the household kept running.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Period-appropriate fixture installs, shower valve rebuilds, and legal basement suite rough-ins.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and thermal tracing that finds leaks traveling sideways along ledge rock.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Storm-ready pumps and code-installed backwater valves for the low harbour-side streets.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Test-first treatment for city supply and the mineral-heavy inland wells of Grey-Bruce.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless options using household demand, installation clearances, access route and existing venting. The right scope depends on the space and connections at the Owen Sound property.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Assess whether a fixture branch or main building drain needs machine clearing or jetting. Camera inspection can help distinguish a blockage from damaged or deteriorated pipe that needs a different plan.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Compare localized repairs with staged galvanized pipe replacement. Wall construction, pipe routes, proposed PEX or copper and the plan for water interruptions all affect the work.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan toilet, faucet and shower valve replacement around existing connections and fixture dimensions. New bathroom rough-ins require separate review of drain layout, shut-offs and protection.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Use symptom timing and site details to assess acoustic or thermal tracing. A slab, ledge rock or concealed older wall construction can affect the search and repair access.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Distinguish groundwater collected in a sump from sewer backup through a drain. Basin, discharge, outage and building drain details determine which pump or valve options to assess.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Identify the water source and test results before comparing softeners, iron filters or UV treatment. Findings and household use determine the appropriate equipment and maintenance plan.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed for plumbing work in Owen Sound?", "Fully licensed and insured, and permitted jobs in the city are filed and inspected as the Ontario Building Code requires. Older homes throw enough surprises without adding paperwork problems to the list."],
-  ["Do you handle after-hours emergencies in Owen Sound?", "Yes. Burst pipes, main backups, and flooding get answered day or night across the city and the immediate Grey townships, with a crew that knows which hill streets close first in a storm."],
-  ["Can you replace a water heater in an old stone basement?", "That is our normal week. Tight stairways and low clearances just mean we plan the rigging first. We measure, stage the new unit, and most replacements finish in one day."],
-  ["Should we repipe our century home all at once?", "Not always. We assess whether a full repipe pays off or whether replacing the worst branches now and staging the rest fits better. You get an honest read either way, in writing."],
-  ["Our drain stack is original cast iron. What are the options?", "Cast iron scales and splits from the inside over a century. We camera the stack, clear what can be cleared, and quote replacement of the sections that cannot be saved."],
-  ["Is city water here hard enough to need a softener?", "In town, usually borderline. Out on the Grey-Bruce wells it is another story entirely. We test before recommending anything, because a softener you do not need is money wasted."],
-  ["How do you handle pricing?", "Upfront and itemized. A small repair gets the same written clarity as a full repipe, and nothing proceeds until you have approved the number in front of you."],
-  ["What areas around Owen Sound do you cover?", "The city itself plus Meaford, Chatsworth, Wiarton, Hanover, and the rural routes between. Shoreline and escarpment calls are regular work for us."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/owensoundplumbingpros.ca-water-heaters.jpg", "Water heater installation in Owen Sound, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/owensoundplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning and camera inspection in Owen Sound, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/owensoundplumbingpros.ca-repiping.jpg", "Century home repiping in Owen Sound, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/owensoundplumbingpros.ca-fixtures-toilets.jpg", "Fixture installation in Owen Sound, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/owensoundplumbingpros.ca-leak-detection.jpg", "Leak detection and repair in Owen Sound, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/owensoundplumbingpros.ca-sump-pumps.jpg", "Sump pump and backwater valve installation in Owen Sound, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/owensoundplumbingpros.ca-water-softeners.jpg", "Water softener installation in Owen Sound, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/owensoundplumbingpros.ca-water-heaters.jpg",
+    "Water heater installation in Owen Sound, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/owensoundplumbingpros.ca-drain-cleaning.jpg",
+    "Drain cleaning and camera inspection in Owen Sound, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/owensoundplumbingpros.ca-repiping.jpg",
+    "Century home repiping in Owen Sound, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/owensoundplumbingpros.ca-fixtures-toilets.jpg",
+    "Fixture installation in Owen Sound, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/owensoundplumbingpros.ca-leak-detection.jpg",
+    "Leak detection and repair in Owen Sound, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/owensoundplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump and backwater valve installation in Owen Sound, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/owensoundplumbingpros.ca-water-softeners.jpg",
+    "Water softener installation in Owen Sound, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "shallow-lake": {
-    name: "Shallow Lake",
-    intro: "Shallow Lake sits northeast of the city on the way toward Wiarton, a small community where wells rule, septic is standard, and the escarpment sits close beneath the yards. Owen Sound Plumbing Pros serves Shallow Lake homes with well water treatment, sump systems, water heaters, and full repipes, with the parts drawer stocked for rural Grey work.",
-    meta: "Plumber in Shallow Lake, Ontario. Well water treatment, sump pumps, water heaters, and repiping from a licensed Grey County team. Free quotes.",
-    nearby: ["Owen Sound", "Wiarton", "Chatsworth", "Meaford"],
-    faq: [
-      ["Do you treat hard well water in Shallow Lake?", "Yes. We test the well first and install softener or iron equipment matched to the results, which is the only way treatment actually works."],
-      ["Can you service Shallow Lake without a long wait?", "Shallow Lake is on our regular route out of the city, so booked work is scheduled within days and emergencies get answered promptly."],
-      ["Do you install sump pumps near the escarpment?", "Yes. Rock-close water moves in bursts, and we size pumps and basins for peak spring flow rather than average conditions."],
-      ["Can you replace a water heater at a Shallow Lake property?", "Yes, usually same day from truck stock, with the unit sized to the household and the well system behind it."]
+    "name": "Shallow Lake",
+    "intro": "For a plumbing project in Shallow Lake, begin by noting whether the property uses a private well, a septic system or another arrangement, then gather available records and test results. For well treatment, results can distinguish hardness from iron or bacterial concerns before equipment is considered. If planning a sump pump, photograph the basin and discharge route and record when water appears. Water heater or repiping proposals also depend on access, existing connections and household demand, so provide those details when comparing scope.",
+    "meta": "Plumbing project planning in Shallow Lake, including well treatment, sump pumps, water heaters and repiping.",
+    "nearby": [
+      "Owen Sound",
+      "Wiarton",
+      "Chatsworth",
+      "Meaford"
     ],
+    "faq": [
+      [
+        "How should I assess hard well water in Shallow Lake?",
+        "Start with a water test and confirm the property’s supply source. Compare results for hardness, iron and other relevant findings before considering a softener or filter; test results determine which equipment, if any, suits the water."
+      ],
+      [
+        "How can I plan a plumbing project in Shallow Lake?",
+        "Share the project details, property access, available records and any relevant photographs when requesting information. Scheduling and response times depend on the project and should be confirmed directly rather than assumed from location."
+      ],
+      [
+        "What should I check before considering a sump pump?",
+        "Record where water enters, when it occurs and how quickly the basin fills. Photograph the basin and discharge route. If the property’s slope or runoff pattern may affect inflow, describe what you observe so pump and basin sizing can be assessed for the site."
+      ],
+      [
+        "What information helps scope a water heater replacement?",
+        "Photograph the existing unit label, venting and connections, and measure the route into the installation area. Note the number of people and bathrooms using hot water. Those details help compare capacity and installation requirements without assuming a particular unit is available."
+      ]
+    ]
   },
   "annan": {
-    name: "Annan",
-    intro: "Annan is a quiet rural crossroads south of Shallow Lake, ringed by farm properties and homes that handle their own water and waste entirely. Owen Sound Plumbing Pros looks after Annan with leak detection along long service lines, fixture and toilet installs, drain work, and treatment for the wells that feed it all.",
-    meta: "Plumber in Annan, Ontario. Leak detection, fixture installs, drain cleaning, and well water systems for rural Grey County homes. Free quotes.",
-    nearby: ["Owen Sound", "Shallow Lake", "Leith", "Meaford"],
-    faq: [
-      ["Do you find leaks on rural Annan service lines?", "Yes. We isolate and pressure-test the run section by section, locate the failure, and repair it in the same visit."],
-      ["Can you rough in a bathroom renovation in Annan?", "We handle complete rough-ins for rural renovations, permitted and inspected, ready for the trades that follow."],
-      ["Do you clear drains out to septic around Annan?", "Yes, with the bed protected during clearing, and honest guidance when an issue belongs with a septic contractor."],
-      ["Is emergency service available to Annan?", "Yes. Flooding and no-water calls reach us day or night across the rural routes around Annan."]
+    "name": "Annan",
+    "intro": "For plumbing work in Annan, first clarify how the property receives water and manages wastewater, then gather any available plans, test results or repair records. If investigating a leak on a long service line, note where water loss appears and whether pressure changes along the run; those details help plan isolation and testing. Bathroom renovations should be compared against the existing drain and fixture layout. For drain concerns, record which fixtures are affected and ask whether the issue may involve building plumbing or a separate septic system.",
+    "meta": "Plumbing project planning in Annan, including rural service-line leak investigation, fixtures, drains and well water systems.",
+    "nearby": [
+      "Owen Sound",
+      "Shallow Lake",
+      "Leith",
+      "Meaford"
     ],
-  },
+    "faq": [
+      [
+        "How can a leak on an Annan service line be investigated?",
+        "Record pressure changes, visible wet areas and when symptoms occur. Ask how the line could be isolated and tested in sections, and what evidence would locate a failure. The length and accessibility of the run affect the investigation and repair scope."
+      ],
+      [
+        "What should I prepare for a bathroom renovation?",
+        "Photograph existing fixtures, supply connections and drain locations, and share any available plans. Ask how the proposed layout affects rough-in work, shut-offs and inspection requirements. The existing arrangement helps clarify which plumbing changes belong in the project."
+      ],
+      [
+        "How should I distinguish a drain problem from a septic concern?",
+        "Note which fixtures are affected and whether the issue is limited to one branch or occurs throughout the building. Share available septic records and ask what evidence points to building drainage versus the septic system. A septic contractor may be needed if investigation indicates the concern lies beyond the building plumbing."
+      ],
+      [
+        "How do I confirm service timing for Annan?",
+        "Describe the problem, its urgency, the property location and any access constraints when making an inquiry. Confirm scheduling and response arrangements directly; availability should not be inferred from the route or the nature of the call."
+      ]
+    ]
+  }
 };

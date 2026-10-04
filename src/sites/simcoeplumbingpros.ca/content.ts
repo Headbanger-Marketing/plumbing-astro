@@ -1,186 +1,379 @@
-// Per-site content for simcoeplumbingpros.ca
-// Plumbing lead-gen (plumbing-astro). Simcoe, the largest town in Norfolk
-// County, inland from the Lake Erie shore.
-// Local angle: a county-seat town grid of century and mid-century homes mixed
-// with commuter subdivisions, ringed by farm country and Lake Erie lowland
-// with a high water table, iron-heavy private wells on the outskirts, septic
-// systems beyond the town limits, and a steady stream of Port Dover cottage
-// and shoreline work just south.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Simcoe, Ontario",
-    h1: "Water Heater Installation From a Local Norfolk Plumbing Team",
-    intro: "Simcoe households range from century homes near the downtown grid with tanks wedged into coal-room corners to farm families outside town who need hot water for mudroom showers and canning season alike. Simcoe Plumbing Pros installs and replaces water heaters across all of it, sizing the unit to the household rather than the shelf, converting venting where an old chimney no longer qualifies, and stocking the common sizes so a failed tank rarely costs you more than a day.",
-    meta: "Water heater installation in Simcoe, Ontario. Tank and tankless replacement for town homes and farm properties across Norfolk County.",
-    problem_h: "Old tank groaning, or gone quiet and cold?",
-    problem_p: "We replace water heaters across Simcoe and the surrounding Norfolk concessions, sized right and usually same visit.",
-    features: [
-      ["flame", "Tanks and Tankless, Honestly Compared", "Big farm households and in-law suites often justify tankless, while a modest town house may never recover the premium. We lay out both numbers for Simcoe customers and let the math pick."],
-      ["clock", "Coal-Room Conversions", "Venting through a crumbling century chimney is no longer acceptable practice. We convert Simcoe installs to certified side-wall venting as part of the replacement."],
-      ["shield", "Rural Stops on the Same Schedule", "Concession lots outside Simcoe get the same stocked-truck service as Queen Street. Distance changes the drive, not the standard."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Simcoe, Ontario",
+    "h1": "Water Heater Installation and Replacement in Simcoe",
+    "intro": "For a water heater project in Simcoe, first compare the existing tank’s capacity, fuel, venting route and available installation space with the household’s hot-water needs. A tankless unit is not automatically a better fit: simultaneous showers, laundry and other peak uses affect the sizing and whether the added cost makes sense. If an older chimney serves the heater, have its condition and compatibility checked before choosing a replacement. These details shape equipment selection, venting work and the installation scope.",
+    "meta": "Water heater installation and replacement in Simcoe, Ontario. Compare tank and tankless sizing, fuel and venting requirements.",
+    "problem_h": "Is your water heater struggling to keep up?",
+    "problem_p": "Note the heater’s age, fuel, capacity and vent type, and record when hot water runs short. Those details help clarify whether the project involves a like-for-like replacement, a capacity change or venting updates.",
+    "features": [
+      [
+        "flame",
+        "Compare tank and tankless capacity",
+        "List the fixtures and appliances that may use hot water at the same time, then compare that peak demand with each proposed unit’s rated output. A larger household or separate suite may need a different configuration than a home with limited simultaneous use. Ask for equipment, installation and operating-cost assumptions separately so the comparison reflects the actual project."
+      ],
+      [
+        "clock",
+        "Check the existing vent route",
+        "Photograph the heater label, vent connection and the full visible route to its termination. If the unit vents through an older chimney, ask whether the chimney and proposed appliance are compatible, or whether a listed side-wall vent is required. Venting changes can affect clearances, penetrations and materials, so they should be included in the scope before work begins."
+      ],
+      [
+        "shield",
+        "Confirm access and rural-site details",
+        "Measure doorways and the route from the entrance to the heater, and photograph tight turns or stairs. For a property outside the built-up area, provide the job address and note any access limits, existing fuel connections and water-heater location. These details help clarify delivery logistics and whether the replacement can use existing connections or needs additional work."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Simcoe, Ontario",
-    h1: "Drain Cleaning From a Local Norfolk Plumbing Team",
-    intro: "Lowland water tables, mature shade trees on the older Simcoe streets, and kitchen lines that have served decades of preserving-season cleanup make for stubborn, recurring blockages. Simcoe Plumbing Pros clears them with sectional machines and jetting, cuts the root masses that invade older laterals, and scopes the line on camera so the next decision is made on facts. Rural homes on septic get extra care with what can and cannot run down those lines.",
-    meta: "Drain cleaning in Simcoe, Ontario. Root cutting, hydro-jetting, and camera inspection for town drains and rural septic connections.",
-    problem_h: "Sink backing up during canning season?",
-    problem_p: "Simcoe kitchens and old laterals clog hard. We clear them completely and scope the line to keep it from coming back.",
-    features: [
-      ["refresh", "Jetting for Grease and Starch", "Harvest kitchens send grease and starch down the line for generations. Hydro-jetting strips that buildup off the pipe wall instead of poking a channel through it."],
-      ["droplets", "Root Removal and Scoping", "Lowland roots find every joint in an older Simcoe lateral. We cut them back fully and put the camera down afterward so you see what remains."],
-      ["shield", "Septic-Safe Practices", "For homes outside town we clear lines with the septic bed in mind, using methods and equipment that protect the leaching bed you depend on."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Simcoe, Ontario",
+    "h1": "Drain Cleaning and Camera Inspection in Simcoe",
+    "intro": "For drain cleaning in Simcoe, identify which fixtures are affected, when the blockage returns and whether other drains make gurgling sounds or back up. A kitchen restriction may call for different equipment than roots or a damaged section in a building drain or lateral. If a property uses septic, confirm which line is being cleaned and ask how the selected method relates to the system. Camera inspection can help distinguish remaining debris from a structural problem and inform the next step.",
+    "meta": "Drain cleaning in Simcoe, Ontario, with guidance on mechanical clearing, hydro-jetting and camera inspection.",
+    "problem_h": "Does the same drain keep slowing down?",
+    "problem_p": "Record which fixtures are affected, how quickly water drains and how often the problem returns. If accessible, photograph cleanouts and note whether the property connects to municipal sewer or septic, since these details affect equipment and inspection planning.",
+    "features": [
+      [
+        "refresh",
+        "Choose jetting for suitable buildup",
+        "Grease and starch can coat a drain wall, while a basic cable may open only a narrow path through the obstruction. Ask whether the pipe material and condition are suitable for hydro-jetting, and compare that option with sectional mechanical cleaning. Knowing the blockage location and pipe size helps determine which method is appropriate and whether a post-cleaning inspection is useful."
+      ],
+      [
+        "droplets",
+        "Check roots and inspect the line",
+        "If a camera or prior repair shows roots entering an older lateral, ask where they enter and whether cutting them is expected to restore flow or reveal a damaged joint. A camera inspection after cleaning can show what remains and help distinguish recurring root growth from a broken or displaced section. Save the recording or findings to compare if symptoms return."
+      ],
+      [
+        "shield",
+        "Account for septic connections",
+        "For a property on septic, identify the cleanout and the line section involved before selecting a cleaning method. Ask how the equipment will be used and whether the work is confined to the building drain or extends toward the tank. Knowing the system layout helps keep the scope focused and informs whether a separate septic-system assessment is needed."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Simcoe, Ontario",
-    h1: "Repiping From a Local Norfolk Plumbing Team",
-    intro: "Between the century streets near the court house and the postwar rings around them, Simcoe holds miles of galvanized supply line that has narrowed down to a trickle, and a fair share of poly-B in the later subdivisions. Simcoe Plumbing Pros replaces both in PEX or copper, planning the routes so farm schedules and town households alike keep running water through the job. Permits, pressure tests, and inspections come standard on every one.",
-    meta: "Repiping in Simcoe, Ontario. Galvanized and poly-B replacement for century streets and postwar rings, permitted and pressure-tested.",
-    problem_h: "Pressure fading upstairs year after year?",
-    problem_p: "Original galvanized narrows with rust until fixtures barely trickle. We repipe Simcoe homes end to end and bring the flow back.",
-    features: [
-      ["wrench", "Century-Grid Repipes", "Lath walls, plaster medallions, and coal-room chases need a careful hand. We open minimal access and route PEX through framing the old house never anticipated."],
-      ["home", "Farmhouse Scheduling", "Chores do not pause for plumbing. Around Simcoe we sequence repipes so the house keeps a working bathroom and kitchen at every stage."],
-      ["shield", "Tested Before Covered", "Nothing closes up until the new system holds pressure and the paperwork is filed. Norfolk homeowners keep the inspection record for resale."]
+    "icon": "wrench",
+    "kicker": "Repiping in Simcoe, Ontario",
+    "h1": "Repiping and Supply-Line Replacement in Simcoe",
+    "intro": "A repiping project in Simcoe starts with identifying the supply-pipe material, visible corrosion or leaks, and which fixtures have weak flow. Galvanized steel can narrow internally as it ages, while poly-B systems call for a different replacement plan; confirm the material rather than relying on the home’s age alone. Photograph accessible pipe runs and note finished walls, ceilings and important fixtures. Route choices, access openings and any applicable inspection requirements all affect the project scope and schedule.",
+    "meta": "Repiping in Simcoe, Ontario. Compare replacement options for galvanized and poly-B water-supply piping.",
+    "problem_h": "Has water pressure gradually fallen in several rooms?",
+    "problem_p": "Check whether low flow affects hot water, cold water or both, and photograph any visible pipe labels or corrosion. These clues help separate a localized fixture issue from a broader supply-piping concern and guide the inspection plan.",
+    "features": [
+      [
+        "wrench",
+        "Plan routes through finished walls",
+        "In an older home, note plaster, lath, decorative finishes and existing chases before discussing pipe routes. Ask where access openings may be needed and whether PEX or copper is proposed for each run. A route through framing can reduce disruption, but the building layout and finish details determine what is practical and what patching may be required."
+      ],
+      [
+        "home",
+        "Keep essential fixtures in the plan",
+        "List household routines and identify which bathroom and kitchen fixtures need to remain usable during the work. If the property has farm or other daily operating needs, include those constraints when comparing the proposed sequence. The route and number of connections affect how sections can be isolated, so a clear staging plan helps set realistic expectations for water interruptions."
+      ],
+      [
+        "shield",
+        "Verify testing and inspection details",
+        "Ask what pressure test will be performed, when it will happen and what records will be provided. Confirm whether permits or inspections apply to the specific work, who is responsible for arranging them and when concealed piping may be covered. Keeping test results and any inspection documentation with home records helps explain the work during future repairs or a sale."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Simcoe, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Norfolk Plumbing Team",
-    intro: "Simcoe renovates in the practical Norfolk way, a bathroom modernized before a wedding, a basement three-piece for the grandkids, a laundry room finally moved upstairs. Simcoe Plumbing Pros does the fixture work behind all of it, setting toilets and faucets that seal properly the first time, roughing in basement bathrooms with real drain planning, and choosing hardware that survives well water. Farm-strong does not have to mean farm-ugly.",
-    meta: "Fixture and toilet installation in Simcoe, Ontario. Practical bathroom renovations, basement rough-ins, and laundry moves done right.",
-    problem_h: "Bathroom due for a proper update?",
-    problem_p: "From a single stubborn toilet to a full basement three-piece, Simcoe fixture work is done tight, level, and dry.",
-    features: [
-      ["home", "Basement Three-Piece Rough-Ins", "Adding a bathroom below grade around Simcoe means pumping or gravity decisions made honestly before concrete gets cut. We plan the drain side first."],
-      ["check", "Hardware That Handles Well Water", "Hard, iron-bearing water ruins cheap trim fast. We point Simcoe customers toward finishes and cartridges that hold up under Norfolk's water."],
-      ["dollar", "Renovation Sequencing That Fits", "We work around your household, not the reverse. Fixture swaps get batched with rough-in visits so the disruption stays short."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Simcoe, Ontario",
+    "h1": "Fixture and Toilet Installation in Simcoe",
+    "intro": "For fixture work in Simcoe, decide whether the project is a direct replacement, a bathroom renovation, a basement bathroom or a laundry-room relocation. Photograph existing connections, fixture locations and nearby finished surfaces, and note any changes planned for the room. A below-grade bathroom needs drain planning before concrete is cut, including whether gravity drainage is possible or a pump may be needed. If water quality has affected existing trim, identify the symptoms and compare suitable materials and replacement parts.",
+    "meta": "Fixture and toilet installation in Simcoe, Ontario. Plan replacements, basement bathroom rough-ins and laundry moves.",
+    "problem_h": "Planning a bathroom update or replacing a faulty fixture?",
+    "problem_p": "Photograph the fixture, shutoffs, drain location and surrounding finishes. For a basement addition or room relocation, share a simple floor plan and note the proposed fixture positions before comparing rough-in options.",
+    "features": [
+      [
+        "home",
+        "Plan basement drainage before finishes",
+        "Before adding a below-grade three-piece bathroom, locate the existing drain and establish its elevation relative to the proposed fixtures. Ask whether gravity drainage is feasible or whether a sewage ejector or other pumping arrangement needs consideration. This decision affects floor cutting, equipment, venting and maintenance access, so settle the drain approach before choosing finishes or fixing fixture locations."
+      ],
+      [
+        "check",
+        "Compare finishes and replaceable parts",
+        "If existing faucets or toilet components show staining, scale or premature wear, photograph the affected parts and note how often cleaning is needed. Ask about finish durability, cartridge availability and compatibility with the water conditions confirmed for the property. Comparing these details can help avoid choosing trim that is difficult to maintain or replacement parts that do not match the installed fixture."
+      ],
+      [
+        "dollar",
+        "Sequence renovation visits clearly",
+        "Group fixture replacements with rough-in work where the project layout allows, and list which rooms must remain usable. Confirm when water will be shut off and whether the floor, wall or cabinet work must happen before plumbing connections. Coordinating these steps can reduce repeated disruption and clarify which trades need access before fixtures are set and tested."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Simcoe, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Norfolk Plumbing Team",
-    intro: "A high water table around Simcoe means damp basements are common enough that homeowners blame the ground when the real culprit is a pinholed supply line, and well owners get a second symptom, a pump that cycles when nothing is running. Simcoe Plumbing Pros separates the two with acoustic listening and pressure isolation, finds the actual failure, and repairs it through the smallest workable opening. Municipally metered or privately pumped, we test until the evidence is conclusive.",
-    meta: "Leak detection and repair in Simcoe, Ontario. Acoustic location, pressure isolation, and well pump cycling diagnosis for lowland homes.",
-    problem_h: "Well pump running at three in the morning?",
-    problem_p: "Mystery cycling usually means a hidden leak on the line. We isolate the system and find it before it floods anything.",
-    features: [
-      ["droplets", "Pump Cycling Diagnostics", "When a Simcoe well pump runs with every tap closed, something is leaking or a check valve has failed. We isolate sections and prove which, then repair it."],
-      ["shield", "Ground Damp Versus Pipe Leak", "We pressure-isolate the plumbing before anyone blames the water table. If the system holds, the fix is drainage, and we say so plainly."],
-      ["check", "One Opening, One Repair", "Acoustic location puts the access exactly at the failure. Simcoe floors and walls stay as intact as the repair allows."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Simcoe, Ontario",
+    "h1": "Leak Detection and Repair in Simcoe",
+    "intro": "A damp basement in Simcoe does not by itself show whether water is coming from plumbing, seepage or another source. Record when the area becomes wet, whether the water meter moves when fixtures are off, and whether a private well pump cycles without water use. Photographs and a simple timeline can help guide pressure isolation or acoustic locating. Testing the plumbing system before opening walls or floors can narrow the cause and help distinguish a pipe leak from a drainage concern.",
+    "meta": "Leak detection and repair in Simcoe, Ontario. Plan pressure isolation and acoustic locating for plumbing leaks.",
+    "problem_h": "Is a well pump cycling when no water is being used?",
+    "problem_p": "Note when the pump starts, whether all taps are closed and whether the pressure gauge changes. For a metered property, record meter movement during a period with no water use. These observations help determine which parts of the system to test.",
+    "features": [
+      [
+        "droplets",
+        "Investigate pump cycling methodically",
+        "If a well pump starts with taps closed, possible causes include a leak or a failed check valve. Ask for sections of the system to be isolated and tested so the cause is established before parts are replaced. Record the pump’s cycling pattern and pressure readings; they can help compare the system’s behaviour before and after the repair."
+      ],
+      [
+        "shield",
+        "Separate plumbing leaks from dampness",
+        "Photograph the damp area and note rainfall, snowmelt, water use and any visible plumbing nearby. Pressure isolation can help determine whether the plumbing system is losing water; if it holds pressure, other sources such as drainage may need investigation. This distinction matters because opening a wall or floor for a pipe repair will not resolve water entering from elsewhere."
+      ],
+      [
+        "check",
+        "Limit access work with verified locating",
+        "Ask what evidence supports the proposed leak location and whether acoustic listening or pressure testing can narrow the access point. Photograph the wall or floor before work and identify wiring, finished surfaces or other obstacles where known. Confirm the repair will be tested afterward; careful locating can reduce unnecessary openings, although the final access needed depends on the failure."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Simcoe, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Norfolk Plumbing Team",
-    intro: "Lake Erie lowland is flat, wet underneath, and slow to shed spring melt, so the sump pit in a Simcoe basement works harder than most homeowners ever realize until the night it stops. Simcoe Plumbing Pros installs pumps and basins sized to the actual inflow, fits battery backup for the storm-outage overlap, and adds backwater valves where the town main surcharges. Out on the concessions, we protect the farmhouse the same way.",
-    meta: "Sump pump and backwater valve installation in Simcoe, Ontario. Lowland water table protection with battery backup for storm outages.",
-    problem_h: "Sump pit running non-stop in April?",
-    problem_p: "Lowland water tables keep Simcoe pumps working overtime. We size and install systems that keep up all season.",
-    features: [
-      ["shield", "Capacity for the Lowland Table", "Undersized pumps on flat, wet ground cycle themselves to death. We match Simcoe installs to real inflow so the pump runs in healthy cycles, not a marathon."],
-      ["zap", "Backup for the Outage Window", "Storms take power exactly when melt fills the pit. A battery stage carries the household through that window without a flooded rec room."],
-      ["refresh", "Seasonal Check-Ups", "We test Simcoe systems before spring and again before freeze-up, catching worn switches and frozen discharge lines before they matter."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Simcoe, Ontario",
+    "h1": "Sump Pumps and Backwater Valves in Simcoe",
+    "intro": "For a sump-pump or backwater project in Simcoe, inspect the pit, pump label, discharge route and any signs of frequent cycling or water entry. If a pump runs continuously, record how long it runs and whether the discharge line is clear; this helps distinguish high inflow from a pump or switch problem. A backup system depends on power needs and expected runtime. A backwater valve is a separate measure, so confirm whether the concern is groundwater or sewer surcharge before defining the work.",
+    "meta": "Sump pump and backwater valve planning in Simcoe, Ontario. Compare capacity, backup power and discharge details.",
+    "problem_h": "Is the sump pump running often or losing power during storms?",
+    "problem_p": "Photograph the pit, pump label, float switch and visible discharge pipe. Note cycling frequency and any alarm or backup equipment, since these details help assess capacity, controls and the likely scope of replacement or upgrades.",
+    "features": [
+      [
+        "shield",
+        "Match capacity to observed inflow",
+        "Record how quickly water enters the pit and how often the pump cycles, especially during wet periods. Compare those observations with the pump’s capacity and discharge arrangement rather than choosing a unit by horsepower alone. Pit size, lift height and pipe routing all affect performance, while short cycling may point to a control or basin issue as well as pump sizing."
+      ],
+      [
+        "zap",
+        "Check backup power and runtime",
+        "List any existing battery, alarm or secondary pump equipment and note its age and test results. Ask what loads the backup will support and how long it is expected to operate under the planned conditions. Storm-related outages can coincide with water entering the pit, so the battery arrangement, charging and discharge path should be considered together."
+      ],
+      [
+        "refresh",
+        "Inspect the system before seasonal changes",
+        "Before periods when freezing or heavy water entry may be a concern, test the float switch, alarm and backup according to their instructions. Inspect the visible discharge for blockage or a section that could freeze, and record any unusual cycling. These checks can reveal maintenance needs, but a qualified assessment may be needed if the pump fails, the pit fills quickly or water backs up."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Simcoe, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Norfolk Plumbing Team",
-    intro: "Norfolk water runs hard, and out on the Simcoe concessions the wells add iron that stains laundry orange and sulphur that announces itself at every tap. Simcoe Plumbing Pros builds treatment around a proper water test, softeners sized to grain capacity, iron staged out with the right oxidation and filtration, UV where bacteria results call for it. Shoreline cottage owners toward Port Dover get setups that also survive a season of vacancy.",
-    meta: "Water softeners and filtration in Simcoe, Ontario. Iron and sulphur treatment for Norfolk wells, sized from proper water testing.",
-    problem_h: "Orange stains and rotten-egg taps?",
-    problem_p: "Iron and sulphur define Norfolk well water. We test, then build the treatment chain your specific water needs.",
-    features: [
-      ["gauge", "Softeners Sized by Grain", "Hardness around Simcoe varies street to street and well to well. Capacity gets matched to the test and the household so regeneration is efficient."],
-      ["droplets", "Iron and Sulphur Staged Out", "Staining and odour each need their own stage. We build the chain in the right order and set it to the actual levels in your water."],
-      ["leaf", "Cottage-Friendly Setups", "Systems toward the shore get configured for easy drain-down and restart, so a vacant Port Dover season does not wreck the treatment."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Simcoe, Ontario",
+    "h1": "Water Softening and Filtration in Simcoe",
+    "intro": "Water treatment for a Simcoe property should begin with a current water test, particularly when the supply comes from a private well. Hardness, iron, sulphur and bacteria results call for different treatment choices, and equipment should not be selected from taste, staining or odour alone. Keep test results and note where symptoms appear, such as laundry, hot-water fixtures or every tap. The household’s daily use and any seasonal vacancy also affect capacity, regeneration and system restart planning.",
+    "meta": "Water softeners and filtration in Simcoe, Ontario. Use water-test results to compare hardness, iron and odour treatment.",
+    "problem_h": "Seeing staining or noticing an unusual taste or odour?",
+    "problem_p": "Record which taps are affected, when symptoms occur and whether the property uses a well. Arrange appropriate water testing and keep the results available, since treatment stages and equipment capacity depend on measured conditions.",
+    "features": [
+      [
+        "gauge",
+        "Size softeners from test results",
+        "Use a water test to confirm hardness, then compare the result with household use and the softener’s rated grain capacity. A system that is too small may regenerate more often than expected, while an oversized unit can be an unsuitable match. Ask how the proposed settings relate to the test and how salt use and regeneration frequency will be checked."
+      ],
+      [
+        "droplets",
+        "Select treatment stages for measured contaminants",
+        "Iron staining and sulphur odour can require different treatment steps, and the right sequence depends on the measured levels and form of the contaminants. Ask which test results each stage is intended to address and whether pre-treatment or filtration is needed before the softener. This makes it easier to compare proposals and avoid relying on a single device for unrelated water problems."
+      ],
+      [
+        "leaf",
+        "Plan for seasonal vacancy and restart",
+        "If a property will be vacant for part of the year, document the treatment system’s bypass, drain-down and restart instructions before leaving. Ask which components must remain protected from freezing and how settings should be checked when water use resumes. A seasonal plan can affect equipment placement, drain connections and maintenance needs, particularly for a property that is not occupied continuously."
+      ]
     ],
-    rev: [4, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Coal-room tank finally let go. They converted the venting properly and had hot water back before supper the next day.", "Homeowner", "Simcoe"],
-  ["Canning season killed the kitchen drain every year. They jetted it properly and it has run clear through two harvests since.", "Resident", "Simcoe"],
-  ["Repiped our century place near the court house. Kept a working bathroom the whole time and the plaster patching was minimal.", "Homeowner", "Simcoe"],
-  ["Well pump kept cycling overnight. They found a pinhole on the yard line, fixed it, and the pump finally rests.", "Farmer", "Courtland"],
-  ["April melt used to beat the old sump every year. New properly sized pit and pump, and this spring the floor stayed dry.", "Homeowner", "Delhi"],
-  ["Sulphur smell is gone. They tested first, staged the treatment right, and even set it up for our winter shutdown at the cottage.", "Cottage Owner", "Port Ryerse"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless installs with venting conversions for century Simcoe homes and farm properties alike.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Root cutting, jetting, and septic-safe clearing for Simcoe kitchens, laterals, and rural lines.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized and poly-B replacement across Simcoe's century grid and postwar rings, permitted and tested.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Practical bathroom renovations, basement three-piece rough-ins, and well-water-tough hardware.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic location and well pump cycling diagnostics that find the real failure fast.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Lowland water table protection with properly sized pits, pumps, and storm backup.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Iron, sulphur, and hardness treatment built from actual water tests, cottage-safe where needed.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless capacity, fuel connections and venting before replacing a heater. Older chimney routes may require a compatibility check or a different venting plan.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Mechanical clearing, hydro-jetting and camera inspection suit different blockages. Identify the affected line and septic connection before choosing equipment or a cleaning method.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Plan replacement piping for galvanized or poly-B supply lines by checking visible materials, fixture symptoms, access routes and any applicable testing or inspection requirements.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Plan fixture replacements, bathroom renovations and laundry moves around existing drains and connections. Basement bathrooms need a gravity-drainage or pumping assessment before concrete work.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Use symptoms, meter or pump behaviour and pressure isolation to investigate plumbing leaks. Acoustic locating may help narrow access, while dampness can have other causes.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Compare sump capacity, pit conditions, discharge routing and battery backup. Assess a backwater valve separately when sewer surcharge, rather than groundwater, is the concern.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Base softener and filtration choices on water-test results, household use and seasonal occupancy. Hardness, iron, sulphur and bacteria require distinct treatment decisions.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Are you licensed for plumbing work around Simcoe?", "Yes, licensed and fully insured, and any Simcoe or Norfolk job requiring a permit is filed and inspected under the Ontario Building Code."],
-  ["Do you answer emergency calls in Simcoe at night?", "Yes. Burst lines, sewer backups, and no-water calls across Simcoe and the nearby concessions get priority response whatever the hour."],
-  ["My water heater is leaking today. When can you realistically come?", "Call now. Standard tank sizes ride on the truck, so most Simcoe-area replacements finish the same day or early the next."],
-  ["Should a century home near downtown be repiped?", "If it still runs its original galvanized, plan on it. We can sequence the work so the house keeps working water throughout."],
-  ["We are on a well and septic outside Simcoe. Is that a problem?", "Not at all, it is most of our week. We treat iron and sulphur wells, clear lines septic-safely, and diagnose pump cycling issues."],
-  ["Is Norfolk water really that hard?", "The town runs hard and many wells run harder, with iron on top. A test-based softener and filtration chain handles all three."],
-  ["How do you handle pricing?", "Written quote after seeing the job, approved by you before work starts, and honoured exactly at the end. No meter running, no surprises."],
-  ["What area do you serve from Simcoe?", "Simcoe itself plus Port Dover, Delhi, Waterford, Jarvis, Courtland, Vittoria, and the Norfolk roads between, cottages included."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/simcoeplumbingpros.ca-water-heaters.jpg", "Water heater installation in Simcoe, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/simcoeplumbingpros.ca-drain-cleaning.jpg", "Drain cleaning in Simcoe, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/simcoeplumbingpros.ca-repiping.jpg", "Century home repipe in Simcoe, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/simcoeplumbingpros.ca-fixtures-toilets.jpg", "Fixture installation in Simcoe, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/simcoeplumbingpros.ca-leak-detection.jpg", "Well line leak detection near Simcoe, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/simcoeplumbingpros.ca-sump-pumps.jpg", "Sump pump installation in Simcoe, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/simcoeplumbingpros.ca-water-softeners.jpg", "Iron filter installation near Simcoe, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/simcoeplumbingpros.ca-water-heaters.jpg",
+    "Water heater installation in Simcoe, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/simcoeplumbingpros.ca-drain-cleaning.jpg",
+    "Drain cleaning in Simcoe, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/simcoeplumbingpros.ca-repiping.jpg",
+    "Century home repipe in Simcoe, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/simcoeplumbingpros.ca-fixtures-toilets.jpg",
+    "Fixture installation in Simcoe, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/simcoeplumbingpros.ca-leak-detection.jpg",
+    "Well line leak detection near Simcoe, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/simcoeplumbingpros.ca-sump-pumps.jpg",
+    "Sump pump installation in Simcoe, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/simcoeplumbingpros.ca-water-softeners.jpg",
+    "Iron filter installation near Simcoe, Ontario",
+    1800,
+    1200
+  ]
 };
 
 export const LOCATIONS = {
   "delhi": {
-    name: "Delhi",
-    intro: "Delhi sits northwest of Simcoe in the heart of the old tobacco belt, a working town with postwar housing, a handful of newer subdivisions, and farm properties fanning out on sandy soils. Simcoe Plumbing Pros serves Delhi with water heater replacement, drain cleaning, repiping, and well water treatment. The sandy ground drains differently than Simcoe clay, and we plan drainage and pumping work here with that in mind.",
-    meta: "Plumber in Delhi, Ontario. Water heaters, drains, repipes, and well water treatment for a Norfolk tobacco-belt town.",
-    nearby: ["Simcoe", "Courtland", "Waterford", "Langton"],
-    faq: [
-      ["Do you replace water heaters in Delhi?", "Yes, with stocked sizes and most swaps finished in a single visit on our regular Norfolk routes."],
-      ["Can you treat Delhi well water?", "Yes. The sandy aquifer around Delhi has its own iron and hardness profile, and we test before sizing any treatment."],
-      ["Do you clear roots from Delhi sewer lines?", "Yes. We cut roots, jet the line clean, and scope it on camera so the result is verified."],
-      ["Is Delhi within your emergency area?", "Yes. Delhi calls for floods and no-water get the same priority response as Simcoe itself."]
+    "name": "Delhi",
+    "intro": "Planning a plumbing project in Delhi starts with the property and its water source, not assumptions about the area. For a private well, arrange testing before comparing softeners or filters, since hardness, iron and other results affect equipment choice. If the property has a drain blockage, identify whether the line serves a fixture, building drain or sewer lateral, and whether the home uses septic. For a water heater or repipe, photographs of labels, visible pipe and access routes help establish the scope for the requested job in Delhi.",
+    "meta": "Plumbing project planning in Delhi, Ontario, including water heaters, drains, repiping and well-water treatment.",
+    "nearby": [
+      "Simcoe",
+      "Courtland",
+      "Waterford",
+      "Langton"
     ],
+    "faq": [
+      [
+        "What information helps plan a water heater replacement in Delhi?",
+        "Photograph the heater label, fuel connection and vent route, and note the current capacity and any hot-water shortage. This helps compare a like-for-like replacement with a change in capacity or venting."
+      ],
+      [
+        "What should I check before choosing well-water treatment?",
+        "Arrange a water test and keep the results. Hardness, iron and other measured conditions affect whether a softener, filtration stage or another treatment approach is suitable."
+      ],
+      [
+        "What should I know before clearing roots from a drain line?",
+        "Identify the cleanout and the affected line, and share any earlier camera findings if available. Ask whether camera inspection after cleaning would help distinguish remaining roots from pipe damage."
+      ],
+      [
+        "What details matter for an urgent leak or loss of water?",
+        "Describe which fixtures or areas are affected, when the problem began and whether the property uses a meter or well pump. Photos of visible water and equipment can help clarify what needs assessment."
+      ]
+    ]
   },
   "waterford": {
-    name: "Waterford",
-    intro: "Waterford sits north of Simcoe at the head of the pond, a heritage village with a restored mill district, streets of older homes, and new builds spreading along the north edge. Simcoe Plumbing Pros serves Waterford homeowners with fixture installation, water heater swaps, drain cleaning, and sump protection for the low ground around the old mill pond. Heritage homes here get the careful-wall treatment they deserve.",
-    meta: "Plumber in Waterford, Ontario. Heritage-home plumbing, water heaters, drains, and sump protection around the old mill pond.",
-    nearby: ["Simcoe", "Delhi", "Jarvis", "Scotland"],
-    faq: [
-      ["Can you plumb an older Waterford home carefully?", "Yes. Heritage walls and original finishes around the pond district get minimal-access work with tidy patching."],
-      ["Do you install sump pumps in Waterford?", "Yes. The low ground near the pond and creek makes proper pumping and drainage a real consideration here."],
-      ["Do you handle fixture renos in Waterford?", "Yes, from a bathroom modernization to a basement three-piece, roughed and trimmed properly."],
-      ["How do we book a Waterford visit?", "Call or email. We route Norfolk trips weekly and Waterford sits on the regular loop."]
+    "name": "Waterford",
+    "intro": "For a plumbing job in Waterford, document the existing fixtures, pipe routes and finished surfaces before comparing options. If the home has older plaster or decorative finishes, photograph them and discuss where access openings might be needed. A sump-pump decision depends on the actual pit, inflow and discharge route; assess those details rather than assuming every property has the same water conditions. For a bathroom renovation, confirm the drain location and, below grade, whether gravity drainage or pumping is required before choosing fixture positions.",
+    "meta": "Plumbing project planning in Waterford, Ontario, including older-home fixtures, water heaters, drains and sump pumps.",
+    "nearby": [
+      "Simcoe",
+      "Delhi",
+      "Jarvis",
+      "Scotland"
     ],
-  },
+    "faq": [
+      [
+        "How can I plan plumbing work in an older Waterford home?",
+        "Photograph original finishes, visible pipe routes and areas where access may be difficult. Discuss possible opening locations and patching expectations before work begins, since the house layout affects the practical route."
+      ],
+      [
+        "What should I check before installing or replacing a sump pump?",
+        "Record the pit dimensions, pump label, cycling pattern and discharge route. Those details help assess capacity, float controls and whether backup power or discharge changes should be included."
+      ],
+      [
+        "What information is useful for a fixture renovation?",
+        "Share a room plan with proposed fixture locations, current drain positions and any finish changes. For a basement bathroom, confirm the drainage approach before concrete cutting or finalizing the layout."
+      ],
+      [
+        "How should I prepare for a plumbing visit in Waterford?",
+        "Provide the job address, a description of the symptoms or planned work, and clear photos of relevant equipment and access routes. This helps clarify the likely scope and what further assessment may be needed."
+      ]
+    ]
+  }
 };

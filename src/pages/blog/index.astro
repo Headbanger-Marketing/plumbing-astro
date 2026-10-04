@@ -4,7 +4,6 @@ import SiteLayout from '../../layouts/SiteLayout.astro';
 import { schemaLocalbusiness, schemaBreadcrumb } from '../../lib/schema';
 import { crumbs, ctaBand, blogCards } from '../../lib/utils';
 import { loadSite } from '../../lib/load-site';
-import { pick } from '../../lib/variants';
 
 const { site, content } = await loadSite();
 
@@ -13,39 +12,12 @@ if (site.vertical && site.vertical !== 'hvac') {
   return Astro.redirect('/');
 }
 
-const SITE_NAME_T = site.brand;
-
 const cards = blogCards(content.BLOG, content.BLOG.length);
-const title = pick(site.domain, 'blog/title', [
-  `Plumbing Tips & Home Water Blog | ${SITE_NAME_T}`,
-  `Plumbing Advice From Your ${site.city} Plumbers | ${SITE_NAME_T}`,
-  `Home Plumbing Help & Maintenance Tips | ${SITE_NAME_T}`,
-]);
-const desc = pick(site.domain, 'blog/desc', [
-  `Practical plumbing advice for ${site.city}, Ontario homeowners, maintenance schedules, water heater warning signs, drain tips and more.`,
-  `Straight plumbing talk for ${site.city} homeowners: seasonal maintenance, warning signs, and when to call a pro.`,
-  `Plumbing tips and answers for ${site.city}, Ontario homes, written by the local crew that does the work.`,
-]);
-const heroH1 = pick(site.domain, 'blog/h1', [
-  `News &amp; Home Comfort Tips`,
-  `Plumbing Know-How, Plainly Put`,
-  `Notes From the ${site.city} Plumbing Route`,
-  `Tips Every Homeowner Can Use`,
-  `Plumbing Answers, No Jargon`,
-  `From the Cab of the Truck`,
-  `Water, Drains, and Straight Answers`,
-  `The Homeowner's Field Guide to Plumbing`,
-]);
-const heroP = pick(site.domain, 'blog/lead', [
-  `Straightforward advice to help you get the most out of your home's plumbing system in ${site.city}'s climate.`,
-  `What we have learned keeping ${site.city} homes flowing, written down so you can stay ahead of the failures.`,
-  `Seasonal reminders, early warning signs, and honest answers for the plumbing questions ${site.city} homeowners actually ask.`,
-  `Short, practical notes on water, drains, and the parts of your home nobody thinks about until they leak.`,
-  `Maintaining, spotting, and preventing, the plumbing habits that save ${site.city} households real money.`,
-  `Everything we find ourselves explaining on the phone, written down once.`,
-  `Simple checks each season that keep the water where it belongs and the bills where you expect them.`,
-  `The maintenance notes we leave on the counter, collected in one place.`,
-]);
+const title = `${site.city} Service Planning Guides | ${site.brand}`;
+const desc = `Read the service scopes for ${site.city} projects and prepare questions for an itemized quote.`;
+const heroH1 = content.BLOG.length ? 'Project Planning Articles' : 'Service Planning Guides';
+const heroP = content.BLOG.length ? 'Browse the articles below, then confirm the details for your own property.' : 'No articles are published here yet. The service guides below explain the work to discuss with a provider.';
+
 ---
 
 <SiteLayout
@@ -64,13 +36,13 @@ const heroP = pick(site.domain, 'blog/lead', [
 <section class="page-hero">
   <div class="container">
     <Fragment set:html={crumbs([['Home', '/'], ['Blog', '']])} />
-    <span class="eyebrow on-dark">Our Blog</span>
+    <span class="eyebrow on-dark">Planning resources</span>
     <h1>{heroH1}</h1>
     <p>{heroP}</p>
   </div>
 </section>
 <section class="section">
-  <div class="container"><div class="post-grid" set:html={cards}></div></div>
+  <div class="container">{content.BLOG.length ? <div class="post-grid" set:html={cards}></div> : <ul>{content.HOME_SERVICES.map(([,name,,url])=><li><a href={url} set:html={name}></a></li>)}</ul>}</div>
 </section>
 <Fragment set:html={ctaBand(site)} />
 </SiteLayout>

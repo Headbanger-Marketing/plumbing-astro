@@ -1,160 +1,320 @@
-// Per-site content for mountbrydgesplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Mount Brydges, Strathroy-Caradoc,
-// Middlesex County, on the 402 between Komoka and Strathroy.
-// Local angle: a quiet village of century homes, wartime bungalows, and new
-// infill lots where the greenhouse and cash-crop belt meets commuter country,
-// properties split between village water and old private wells, clay-flats
-// wet ground that keeps sump pumps honest, septic service on the farm roads
-// toward Melbourne and Appin, and Middlesex hard water working on every
-// fixture in the postal code.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Mount Brydges, Ontario",
-    h1: "Water Heater Installation From a Local Middlesex Plumbing Team",
-    intro: "Mount Brydges households heat water in every decade of housing stock, from a century home's corner tank to a new infill's high-efficiency unit, and each generation fails in its own way. Mount Brydges Plumbing works across all of it. We drain out the dead unit, right-size the replacement for the people actually living there now, and pay attention to the chimney questions older village homes always raise when a new venting pattern takes over.",
-    meta: "Water heater installation in Mount Brydges, Ontario. Tank and tankless replacements for village homes and rural Strathroy-Caradoc properties.",
-    problem_h: "Tank on the basement floor instead of in it?",
-    problem_p: "Mount Brydges Plumbing replaces failed water heaters promptly and resolves the venting questions older village homes bring.",
-    features: [
-      ["flame", "Every Era of Equipment", "Electric, power-vented, conventional, and tankless all live in this village. Whichever generation your Mount Brydges house runs, we service and replace it."],
-      ["clock", "Prompt Turnaround", "Truck-stocked sizes cover the common village replacements in a single visit, and the old tank leaves with us the same day."],
-      ["shield", "Chimney and Venting Settled", "Swapping an old natural-draft unit changes what the chimney does. We verify the flue situation as part of the job, not as a later surprise."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Mount Brydges, Ontario",
+    "h1": "Water Heater Installation for Mount Brydges Homes",
+    "intro": "When planning a water heater replacement in Mount Brydges, first identify the existing fuel, tank capacity, vent type and available space. A conventional natural-draft unit, a power-vented tank, an electric model and a tankless system each have different connection and venting requirements. If a replacement changes how exhaust is handled, check whether the existing chimney or vent can serve the proposed equipment. Comparing household hot-water use with the system’s rated capacity helps clarify sizing before work is scoped.",
+    "meta": "Water heater replacement planning in Mount Brydges, Ontario, including tank, tankless and venting considerations.",
+    "problem_h": "Is the tank leaking, or is hot water running out too soon?",
+    "problem_p": "Note the heater’s model, fuel, capacity and vent arrangement, and photograph its connections and surrounding area. These details help distinguish a like-for-like replacement from work that may involve revised venting, drainage or access.",
+    "features": [
+      [
+        "flame",
+        "Compare the Existing and Proposed Equipment",
+        "Photograph the rating plate and record whether the unit is electric, conventional natural draft, power vented or tankless. Compare fuel, capacity and connection requirements with the proposed replacement. If the new equipment uses a different venting pattern, ask how the existing chimney or vent will be assessed before the scope is confirmed."
+      ],
+      [
+        "clock",
+        "Check Access and Removal Requirements",
+        "Measure doorways, stair turns and clearance around the tank, then photograph any tight route from the unit to the exterior. Ask whether the work includes draining and removing the old heater, and how the replacement’s dimensions affect access. These checks help identify handling and installation requirements before the job is planned."
+      ],
+      [
+        "shield",
+        "Verify the Chimney and Vent Plan",
+        "If the existing heater vents into a chimney, ask what inspection or compatibility checks are needed when changing to another natural-draft, power-vented or tankless model. Compare the proposed exhaust route with the current one and request a clear explanation of any changes. Venting affects equipment selection and the installation scope, so it should be settled in advance."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Mount Brydges, Ontario",
-    h1: "Drain Cleaning From a Local Middlesex Plumbing Team",
-    intro: "The established streets of Mount Brydges drain through cast iron and clay that have been collecting grease and roots since the village had one stoplight, and the farm properties around it push long runs out toward septic beds in heavy clay. Mount Brydges Plumbing handles both with the same standard. We cable the blockage, jet the line back to clean wall, and film the pipe whenever a backup keeps coming back to explain itself.",
-    meta: "Drain cleaning in Mount Brydges, Ontario. Village drain cleaning, jetting, septic line service, and camera inspection in Strathroy-Caradoc.",
-    problem_h: "Backup number two in six months?",
-    problem_p: "Mount Brydges Plumbing clears drains across the village and farm roads, and cameras the repeat offenders to end the pattern.",
-    features: [
-      ["refresh", "Jetting Back to Clean Wall", "The cable makes a path, the jetter scrubs the pipe round again. Village lines that ran slow for years come back to full bore."],
-      ["droplets", "Roots at Every Clay Joint", "Mature maples along the older Mount Brydges streets find every joint in the old tile. We cut the roots back and show you the footage of what remains."],
-      ["shield", "Septic Runs Kept Kind", "Out toward Melbourne and Appin, cleaning means respecting the bed at the end of the line. Methods stay mechanical and the field stays healthy."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Mount Brydges, Ontario",
+    "h1": "Drain Cleaning and Inspection for Mount Brydges Properties",
+    "intro": "A recurring blockage needs a different investigation from a single slow fixture. Before arranging drain work in Mount Brydges, note which drains are affected, how often the problem returns and whether a cleanout is accessible. If the building has older cast-iron or clay piping, ask whether a camera inspection is appropriate after clearing the line. For a property with a septic system, identify the route to the tank and field so the proposed cleaning method accounts for the system at the end of the pipe.",
+    "meta": "Drain clearing and inspection planning in Mount Brydges, Ontario, including cameras, jetting and septic-line considerations.",
+    "problem_h": "Has the same drain backed up more than once?",
+    "problem_p": "Photograph accessible cleanouts and note which fixtures back up together, when the problem occurs and any previous clearing. That information helps determine whether a cable, jetting or camera inspection should be considered.",
+    "features": [
+      [
+        "refresh",
+        "Choose Clearing and Inspection by the Symptoms",
+        "Record whether the blockage affects one fixture or several, and whether it returns soon after clearing. Ask what method is proposed: a cable can open a path, while jetting may clean more of the pipe wall. If the problem recurs, ask whether camera footage can help show the pipe’s condition and inform the next step."
+      ],
+      [
+        "droplets",
+        "Check Older Pipe and Root Concerns",
+        "If the property has clay or cast-iron drain sections, note their approximate location and any history of repeat blockages. Ask whether inspection footage can show joints, roots or remaining obstructions after clearing. The findings help distinguish a temporary blockage from a pipe condition that may affect future maintenance or repair planning."
+      ],
+      [
+        "shield",
+        "Account for a Septic System",
+        "If the drain line serves a septic system, identify the tank, cleanouts and route toward the field before selecting a cleaning approach. Ask how the method will be kept appropriate for the system and where removed material will go. Knowing the downstream arrangement changes the scope and helps avoid treating the building drain as an isolated pipe."
+      ]
     ],
-    rev: [1, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Mount Brydges, Ontario",
-    h1: "Repiping From a Local Middlesex Plumbing Team",
-    intro: "Open a wall in an older Mount Brydges home and the plumbing inside tells the village's whole history, galvanized from the early decades, a poly-B chapter in the later ones, copper repairs threaded through both. Mount Brydges Plumbing writes the final chapter in PEX and copper. Houses stay occupied while the work moves room to room, water returns each evening, and the shower stops grading pressure by floor.",
-    meta: "Repiping in Mount Brydges, Ontario. Galvanized and poly-B replacement across the village and rural Strathroy-Caradoc properties.",
-    problem_h: "Upstairs shower down to a drizzle?",
-    problem_p: "Mount Brydges Plumbing replaces layered old supply piping with clean lines that deliver the same pressure on every floor.",
-    features: [
-      ["wrench", "History in the Walls, Planned For", "Mixed-material plumbing needs mapping before cutting starts. We chart what is actually there, then replace it in a logical sequence."],
-      ["home", "Occupied-House Scheduling", "Families stay home during the work. Zones finish, water restores overnight, and the household routine barely bends."],
-      ["shield", "Permits and Provable Pressure", "Work files under permit, passes the gauge before cover-up, and leaves documentation that simplifies every future sale of the house."]
+    "icon": "wrench",
+    "kicker": "Repiping in Mount Brydges, Ontario",
+    "h1": "Repiping Planning for Mount Brydges Homes",
+    "intro": "Before planning repiping in Mount Brydges, establish which supply materials are present and where previous repairs were made. Older galvanized piping, poly-B sections and copper alterations can coexist, so visible pipe in one room may not represent the whole system. Photograph accessible runs, note low pressure by fixture and floor, and ask how concealed sections will be identified. A room-by-room plan should explain water interruptions, pressure checks and how the work will be coordinated with finishes and household routines.",
+    "meta": "Repiping planning in Mount Brydges, Ontario, including galvanized, poly-B and mixed-material supply systems.",
+    "problem_h": "Does an upstairs shower lose pressure when another tap runs?",
+    "problem_p": "Record affected fixtures, floors and pipe materials where visible, and photograph previous repairs. This helps scope investigation of a mixed-material system and compare a localized repair with a broader replacement plan.",
+    "features": [
+      [
+        "wrench",
+        "Map the Materials Before Cutting",
+        "Photograph accessible supply piping and mark where galvanized, poly-B or copper is visible. Ask how concealed sections and past repairs will be traced before openings are made. A material map helps define which runs need replacement, where access may be required and how the work can proceed in a logical sequence."
+      ],
+      [
+        "home",
+        "Plan Work Around an Occupied Home",
+        "Ask for a room-by-room sequence showing when water will be interrupted, what areas need access and how each completed zone will be left. Confirm when service is expected to be restored and what household routines may need adjustment. These details let you compare plans and prepare without assuming every home can follow the same schedule."
+      ],
+      [
+        "shield",
+        "Confirm Testing and Required Documentation",
+        "Before work is covered, ask what pressure test will be performed and how the result will be recorded. Check whether permits or inspections apply to the specific scope and who is responsible for confirming them. A clear record of the completed piping and test results can help with future maintenance and with documenting the work when the property changes hands."
+      ]
     ],
-    rev: [2, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Mount Brydges, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Middlesex Plumbing Team",
-    intro: "Middlesex water ages fixtures early, and between the century bathrooms on the village's oldest streets and the new ensuites going into infill builds, Mount Brydges runs the full range of installation work. Mount Brydges Plumbing does it carefully. Toilets get set level on fresh seals, faucets go in with cartridges that stand up to hard water, and renovation rough-ins land where the tile plan says they must, because moving a drain after waterproofing is nobody's idea of a good afternoon.",
-    meta: "Fixture and toilet installation in Mount Brydges, Ontario. Hard-water-ready fixtures, renovation rough-ins, and careful setting work.",
-    problem_h: "Renovation tile ordered, plumbing unverified?",
-    problem_p: "Mount Brydges Plumbing sets fixtures for village renovations and new builds with drains and valves exactly where the plan needs them.",
-    features: [
-      ["home", "Set Level, Sealed Right", "A toilet that rocks breaks its seal and rots its floor. Ours go on solid, level, and watertight, and the taps arrive with washers that survive this water."],
-      ["check", "Rough-Ins Before the Tile", "Renovation drains and shower valves get placed against the actual cabinet and tile layout, measured twice, before anything waterproofed gets covered."],
-      ["shield", "Hardware Chosen for the Water", "Hardness here eats soft seats and cheap finishes. The fixtures we recommend are the ones that hold up in Middlesex conditions."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Mount Brydges, Ontario",
+    "h1": "Fixture and Toilet Installation Planning in Mount Brydges",
+    "intro": "Fixture work in Mount Brydges can range from replacing a toilet or faucet to coordinating rough-ins during a bathroom renovation. Before choosing products, measure the existing connections and compare them with the cabinet, tile and fixture plans. If walls or floors will be opened, confirm drain and valve locations before waterproofing or finishing. For a toilet, check the floor around the base and note any movement or staining. These details help distinguish a straightforward replacement from work that needs layout adjustments.",
+    "meta": "Fixture and toilet installation planning in Mount Brydges, Ontario, including renovation rough-ins and product fit.",
+    "problem_h": "Are tile and fixtures selected before the rough-ins are checked?",
+    "problem_p": "Photograph existing drains, valves and fixture connections, then compare their locations with the renovation drawings and product specifications. This can reveal fit or layout changes while access is still available.",
+    "features": [
+      [
+        "home",
+        "Check the Toilet Base and Connections",
+        "Before replacing a toilet, note whether it rocks, whether there is staining around the base and whether the floor feels soft. Photograph the water connection and measure the available space. A stable, level base and sound sealing matter to the installation scope; signs of movement or damage may require investigation beyond simply changing the fixture."
+      ],
+      [
+        "check",
+        "Match Rough-Ins to the Finish Plan",
+        "Compare drain and shower-valve locations with the actual cabinet, tile and fixture drawings before waterproofing or covering walls. Measure from finished surfaces, not just framing, and confirm product specifications. A mismatch discovered after tile is installed can require rework, so documenting dimensions early helps coordinate plumbing with the renovation sequence."
+      ],
+      [
+        "shield",
+        "Compare Fixture Materials and Service Parts",
+        "Review the proposed fixture’s finish, cartridge or washer availability and compatibility with the existing connections. If water hardness is a concern at the property, ask how the selected parts and finish are expected to be maintained rather than assuming every product performs alike. The product choice affects fit, future servicing and the installation details to confirm before ordering."
+      ]
     ],
-    rev: [3, 0, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Mount Brydges, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Middlesex Plumbing Team",
-    intro: "A slow hidden leak in a Mount Brydges home announces itself as a water bill that climbed, a floor that went cold underfoot, or a well pump that runs when the house sleeps. Mount Brydges Plumbing tracks all three down. Acoustic gear hears the loss through finished surfaces, thermal imaging maps the wet, and section isolation proves which run is letting go, whether it sits in a village wall or under a farm yard on the way to Appin.",
-    meta: "Leak detection and repair in Mount Brydges, Ontario. Acoustic and thermal location of hidden leaks in village homes and rural properties.",
-    problem_h: "Bill up, floor cold, pump suspicious?",
-    problem_p: "Mount Brydges Plumbing pinpoints hidden leaks with listening and thermal gear, then repairs the single run at fault.",
-    features: [
-      ["droplets", "Heard Through the Finish", "Listening equipment finds the hiss behind plaster and drywall, so access gets cut once, at the right spot, in the smallest workable size."],
-      ["shield", "Village Main or Farm Well", "The diagnosis differs by source, meter draw on village supply, pump cycles on a private system. We read whichever signal your property gives."],
-      ["check", "Yard Runs Traced Whole", "The buried feed toward the barn or greenhouse gets traced end to end before anyone lifts a shovel, and the dig lands on the leak."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Mount Brydges, Ontario",
+    "h1": "Leak Detection and Repair Planning in Mount Brydges",
+    "intro": "A hidden leak can show up as an unexplained bill change, a damp or cool floor, staining, or a pump that runs more often than expected. Before leak investigation in Mount Brydges, record when the signs occur and photograph any visible moisture or damage. The diagnostic approach depends on the water source and pipe route: acoustic listening, thermal imaging and section isolation can each help narrow the search. If a buried feed serves an outbuilding, mark its route and endpoints before excavation is considered.",
+    "meta": "Hidden leak investigation in Mount Brydges, Ontario, with acoustic, thermal and isolation methods considered by the symptoms.",
+    "problem_h": "Has the water bill changed, or is a pump cycling unexpectedly?",
+    "problem_p": "Note the timing of the symptoms, photograph damp areas and record meter movement or pump cycles if observable. This evidence helps compare likely water sources and determine whether non-invasive testing or targeted access is appropriate.",
+    "features": [
+      [
+        "droplets",
+        "Use Listening and Thermal Clues Carefully",
+        "Photograph the affected wall, ceiling or floor and note whether the area changes over time. Ask whether acoustic listening or thermal imaging is suitable for the suspected pipe and what each method can establish. These tools may narrow the search, while confirming a leak and selecting an access point can require additional checks."
+      ],
+      [
+        "shield",
+        "Distinguish Metered Supply from a Private System",
+        "For a metered supply, record whether the meter moves when fixtures are off; for a private well, note pump cycling and any pressure changes. Share those observations before testing begins. The source changes the diagnostic steps, so comparing the appropriate signal helps narrow whether the issue may involve indoor plumbing, a service line or another system."
+      ],
+      [
+        "check",
+        "Trace Buried Feeds Before Digging",
+        "If a buried line runs toward a barn, greenhouse or other outbuilding, sketch its route and mark known entry and exit points. Ask how the line will be traced and how a suspected leak location will be verified before excavation. Mapping the full run can reduce uncertainty about where access is needed and help define the repair area."
+      ]
     ],
-    rev: [0, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Mount Brydges, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Middlesex Plumbing Team",
-    intro: "The flats around Mount Brydges hold water stubbornly, and thaw plus a good spring rain puts it right against every foundation on the low streets. Mount Brydges Plumbing answers with sump systems built for that steady siege. Deep-set basins, cast-iron pumps that pace themselves instead of panic-cycling, battery backup for the outage that rides in with the weather, and discharge lines that carry the water genuinely away from the stone it came from.",
-    meta: "Sump pump and backwater valve installation in Mount Brydges, Ontario. Thaw-ready sump systems and backup power for wet clay flats.",
-    problem_h: "Every thaw, the same wet corner?",
-    problem_p: "Mount Brydges Plumbing installs sump systems that hold the line through thaw and storm seasons on the village's wet ground.",
-    features: [
-      ["shield", "Basins Deep Enough to Wait", "A shallow pit fills instantly and cycles the pump to death. Depth and diameter get matched to the ground so the system runs in a sane rhythm."],
-      ["zap", "Backup for the Dark Hours", "The storm that loads the pit is the storm that drops the wires. Battery backup keeps the floor dry on exactly the nights it matters."],
-      ["check", "Carried Clear of the Stone", "Discharge gets routed out past the foundation and away from the weepers, with the freeze details that let it work in March, not just June."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Mount Brydges, Ontario",
+    "h1": "Sump Pump and Backwater Planning in Mount Brydges",
+    "intro": "If a basement becomes wet during thaw or heavy rain, document where water appears, how quickly the sump basin fills and whether the pump discharges normally. For a Mount Brydges property, review the basin dimensions, pump type, power supply and discharge route before comparing equipment. A battery backup may be relevant if the pump must operate during an outage. Check where discharge water goes and whether the line could freeze or return toward the foundation; these details shape the system design and installation scope.",
+    "meta": "Sump pump and backwater planning in Mount Brydges, Ontario, including basin sizing, backup power and discharge routing.",
+    "problem_h": "Does the same basement area get wet during thaw or heavy rain?",
+    "problem_p": "Photograph the basin, pump label, discharge outlet and affected area, and note when the pump cycles. This helps assess capacity, backup needs and whether discharge routing should be part of the work.",
+    "features": [
+      [
+        "shield",
+        "Compare Basin Size and Pump Cycling",
+        "Measure the basin and note how often the pump starts during wet weather, along with the pump model if visible. Ask how basin depth and diameter relate to inflow and the proposed pump’s duty. A shallow or undersized setup may cycle differently from a larger basin, so these observations help explain equipment selection."
+      ],
+      [
+        "zap",
+        "Assess Backup Power Against the Risk",
+        "Check whether the pump has a battery backup, where it is connected and whether any alarm or test indicator is visible. Ask what backup operation is intended to cover and how the battery will be checked and maintained. Because storms can coincide with power interruptions, backup needs should be compared with the property’s observed water inflow and outage concerns."
+      ],
+      [
+        "check",
+        "Trace the Discharge Route and Freeze Points",
+        "Photograph the discharge line from the pump outlet to where water leaves the property, noting slopes, extensions and exposed sections. Ask how the route will carry water away from the foundation and avoid a return toward the weeping system. If exposed pipe may freeze, confirm what cold-weather details are included so the route is considered year-round."
+      ]
     ],
-    rev: [5, 0, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Mount Brydges, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Middlesex Plumbing Team",
-    intro: "Village supply arrives hard, and the private wells scattered through Strathroy-Caradoc add iron and the occasional sulphur note to the deal, which is why so many laundry rooms around Mount Brydges already hold a softener of some vintage. Mount Brydges Plumbing installs the current generation properly. Sizing comes from household numbers and a water test, the plumbing goes in with a bypass you can operate, and older units that flood or over-regenerate get rebuilt or replaced rather than endured.",
-    meta: "Water softeners and filtration in Mount Brydges, Ontario. Softener installation, well filtration, and service for village and rural water.",
-    problem_h: "Softener flooding its corner or stuck cycling?",
-    problem_p: "Mount Brydges Plumbing installs and repairs water treatment sized to your household and your actual water test.",
-    features: [
-      ["gauge", "Sized From Your Numbers", "Household count and fixture load set the capacity, and the test sets the settings. The result regenerates when it needs to, and not a gallon sooner."],
-      ["droplets", "Well Filtration Layers", "Iron removal, sulphur handling, and sediment stages get sequenced for properties on private wells around the village, in the order that works."],
-      ["shield", "Old Units Made Honest", "A softener stuck in a regeneration loop wastes salt and water. We rebuild, reprogram, or replace based on what the unit still has left in it."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Mount Brydges, Ontario",
+    "h1": "Water Softener and Filtration Planning in Mount Brydges",
+    "intro": "Water treatment choices depend on test results and the source serving the property, not just on an existing softener’s settings. Before selecting equipment in Mount Brydges, identify whether water is municipal or from a private well, obtain a current water test and record household size and fixture use. If well testing shows iron, sulphur or sediment concerns, ask how treatment stages should be sequenced. Photograph the installed unit, bypass and drain connection to help determine whether repair, reprogramming or replacement is worth comparing.",
+    "meta": "Water softener and filtration planning in Mount Brydges, Ontario, based on water testing and household use.",
+    "problem_h": "Is the softener flooding, or does it keep regenerating?",
+    "problem_p": "Photograph the model label, bypass, drain connection and control display, and note the water source and recent test results. These details help assess whether adjustment, repair or replacement is appropriate.",
+    "features": [
+      [
+        "gauge",
+        "Size Treatment Using Test Results and Use",
+        "Gather a current water test, household size and information about peak fixture use before comparing softeners. Ask how capacity and regeneration settings are calculated from those details. Correct sizing affects how often a unit regenerates and whether it can meet household demand; a generic setting may not reflect the actual water or usage."
+      ],
+      [
+        "droplets",
+        "Sequence Well Filtration for the Water",
+        "If the property uses a private well, test for the specific concerns being considered, such as iron, sulphur or sediment, rather than choosing stages by assumption. Ask how each proposed filter or treatment step works with the test results and in what order equipment should be installed. The water profile changes both the equipment selection and maintenance plan."
+      ],
+      [
+        "shield",
+        "Decide Whether an Older Unit Can Be Repaired",
+        "Photograph the control display, model plate, bypass and drain line, and note whether the unit leaks or remains in a regeneration cycle. Ask whether the cause is a setting, a serviceable component or an end-of-life issue. Comparing repair, reprogramming and replacement against the unit’s condition helps avoid choosing equipment before the fault is understood."
+      ]
     ],
-    rev: [4, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Century home with a chimney that stopped drawing after the old tank came out. They sorted the venting properly on the new unit instead of shrugging at it.", "Homeowner", "Mount Brydges"],
-  ["Village main line backed up each spring like clockwork. Jetted and camera-ed, roots at two joints, both sections cut and cleared. The clock finally stopped.", "Resident", "Mount Brydges"],
-  ["They repiped our wartime bungalow room by room with the family in it. Water on every evening, pressure even on both floors, walls patched invisibly.", "Homeowner", "Melbourne"],
-  ["Well pump was short-cycling and we feared the worst. Their isolation testing found a weeping yard line to the greenhouse, one dig, repaired right.", "Farmer", "Appin"],
-  ["New deep basin and cast-iron pump before second thaw in this house. The old setup used to lose the race every April, this one has not blinked.", "Resident", "Delaware"],
-  ["Inherited a softener that regenerated at all hours and flooded once. They rebuilt it with settings from an actual water test, salt use way down, floor dry.", "Homeowner", "Mount Brydges"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless replacements across every era of Mount Brydges housing, with venting questions settled properly.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Cabling, jetting, and camera inspection for village clay and cast iron, and septic runs on the farm roads.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized and poly-B replaced room by room with the household in residence and pressure evened floor to floor.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Level, sealed fixture setting and renovation rough-ins placed to the tile plan, with hardware rated for Middlesex water.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and thermal location of hidden leaks, from village walls to buried yard runs toward the greenhouse.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "Thaw-ready basins, duty-rated pumps, battery backup, and discharge carried clear of the foundation.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Softeners and well filtration sized from real tests, plus honest rebuilding of the tired units already in place.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank or tankless equipment, fuel, capacity and vent route before replacement. If a new unit changes the exhaust arrangement, include chimney or vent compatibility in the scope.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "The affected fixtures and blockage history help determine whether cable clearing, jetting or camera inspection should be considered. If the line serves a septic system, identify the route and downstream equipment.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Map visible galvanized, poly-B and copper sections before comparing repair and replacement plans. A room-by-room scope should explain access, water interruptions and pressure testing before piping is concealed.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Compare fixture connections and toilet condition with product specifications. For renovations, check drain and valve locations against cabinet and tile plans before waterproofing or finishing.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Record symptoms and water source to help assess acoustic listening, thermal imaging or section isolation. For a buried feed, map the full route before excavation is considered.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Review basin size, pump cycling, backup power and discharge routing. If water returns near the foundation or exposed pipe may freeze, include those conditions in the system plan.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Compare equipment with a current water test, household use and the property’s water source. For private wells, test specific concerns before selecting or sequencing treatment stages.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Is Mount Brydges Plumbing licensed?", "Yes, and permits go through the proper Strathroy-Caradoc and Middlesex channels for work that requires them, keeping everything insurable and resale-clean."],
-  ["Do you answer emergencies in the village?", "Same-day priority response covers bursts, sewer backups, and no-water calls across Mount Brydges and out toward Melbourne, Delaware, and Appin."],
-  ["How fast can a leaking water heater be swapped?", "Commonly the same visit, since the frequent sizes ride on the truck. The wet tank drains out and the new one lights before we leave."],
-  ["Mixed old piping in our house. Repipe everything at once?", "Not necessarily. We map the galvanized, poly-B, and copper first, then quote the whole-house job or a staged plan that respects the budget."],
-  ["We are on a septic system. Any special care needed?", "Drain cleaning here stays mechanical and bed-friendly, and fixture choices can ease the load on the field. The septic side always enters the plan."],
-  ["Does the water here justify a softener?", "Village supply runs hard enough to scale, and area wells often add iron. Tested water tells us the size and settings, and the fixtures stop paying the mineral tax."],
-  ["What can we expect on pricing?", "A written figure before work begins, with the diagnosis explained in plain language. When repair and replacement both make sense, both get quoted."],
-  ["Which communities do you serve from Mount Brydges?", "The village itself plus Strathroy, Melbourne, Delaware, Komoka, Glencoe, and the London side of the county."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/mountbrydgesplumbing.ca-water-heaters.jpg", "Water heater installation in Mount Brydges, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/mountbrydgesplumbing.ca-drain-cleaning.jpg", "Drain cleaning in Mount Brydges, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/mountbrydgesplumbing.ca-repiping.jpg", "Repiping in Mount Brydges, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/mountbrydgesplumbing.ca-fixtures-toilets.jpg", "Fixture installation in Mount Brydges, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/mountbrydgesplumbing.ca-leak-detection.jpg", "Leak detection in Mount Brydges, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/mountbrydgesplumbing.ca-sump-pumps.jpg", "Sump pump installation in Mount Brydges, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/mountbrydgesplumbing.ca-water-softeners.jpg", "Water softener installation in Mount Brydges, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/mountbrydgesplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Mount Brydges, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/mountbrydgesplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning in Mount Brydges, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/mountbrydgesplumbing.ca-repiping.jpg",
+    "Repiping in Mount Brydges, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/mountbrydgesplumbing.ca-fixtures-toilets.jpg",
+    "Fixture installation in Mount Brydges, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/mountbrydgesplumbing.ca-leak-detection.jpg",
+    "Leak detection in Mount Brydges, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/mountbrydgesplumbing.ca-sump-pumps.jpg",
+    "Sump pump installation in Mount Brydges, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/mountbrydgesplumbing.ca-water-softeners.jpg",
+    "Water softener installation in Mount Brydges, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};

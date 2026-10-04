@@ -1,158 +1,320 @@
-// Per-site content for ingersollplumbing.ca
-// Plumbing lead-gen (plumbing-astro). Ingersoll, Oxford County, on the Thames
-// between Woodstock and London.
-// Local angle: commuter town with cheese-boom brick homes and postwar
-// cottages, river-adjacent low streets, mature street trees rooting old
-// laterals, hard town water plus iron-heavy concession-line wells, and
-// tenants and renovators cycling through the housing stock.
-// NO em-dashes; & -> &amp; in HTML fields; meta is plain text.
-
+// Per-city service scenarios rewritten as homeowner project guidance.
+// Local conditions and provider availability must be established at inspection.
 export const SVC = {
   "water-heaters": {
-    icon: "flame",
-    kicker: "Water Heaters in Ingersoll, Ontario",
-    h1: "Water Heater Installation From a Local Oxford Plumbing Team",
-    intro: "Ingersoll runs on a simple schedule, work, family, and the drive to somewhere bigger when needed, and hot water has to keep up with it. Ingersoll Plumbing installs tank and tankless water heaters for the town's century brick homes, postwar bungalows, and the new streets filling in around the edges. Rental conversions, same-week installs, and honest sizing from a local crew that drives these roads daily.",
-    meta: "Water heater installation in Ingersoll, Ontario. Tank and tankless units, rental conversions, and fast local swaps for town homes by licensed Oxford plumbers with permits filed.",
-    problem_h: "Hot water rationed one shower at a time?",
-    problem_p: "We install and swap water heaters across Ingersoll with sizing based on the home and the people in it.",
-    features: [
-      ["flame", "Sized Around Real Life", "Brick two-storeys, bungalows, and the new builds each take a different unit. We match the tank or tankless choice to the Ingersoll household it serves."],
-      ["clock", "Local Crew, Quick Turn", "We drive these streets daily, so a failed Ingersoll tank usually gets replaced within the day, not scheduled into next week."],
-      ["shield", "Rental Conversion Handled", "Ending a rental agreement and owning outright comes with paperwork. We handle the swap and the filing in one clean visit."]
+    "icon": "flame",
+    "kicker": "Water Heaters in Ingersoll, Ontario",
+    "h1": "Plan a Water Heater Installation in Ingersoll",
+    "intro": "Planning a water heater replacement in Ingersoll starts with the household’s hot-water use, the existing equipment, and the space available for a new unit. A tank and a tankless system have different sizing, venting, and installation requirements. If the home is a rental or the heater is under a rental agreement, check the contract and ask what steps are needed before changing ownership. Photos of the data plate, connections, and installation area can help define the scope.",
+    "meta": "Compare tank and tankless water heater installation requirements in Ingersoll, including sizing, rental agreements, and existing connections.",
+    "problem_h": "Does hot water run short during busy periods?",
+    "problem_p": "Compare household demand with the existing heater’s capacity and recovery rate. The equipment type, fuel, venting, and available space all affect replacement options.",
+    "features": [
+      [
+        "flame",
+        "Compare Capacity and Household Demand",
+        "Record the heater’s model, capacity, fuel, and age, then note how many people use hot water and when demand peaks. Tank and tankless units serve demand differently, so these details help compare suitable sizes and identify whether existing service connections can support a proposed replacement."
+      ],
+      [
+        "clock",
+        "Check the Existing Installation",
+        "Photograph the data plate, vent, piping, shutoff, and surrounding clearance. These details help establish whether a replacement can use the existing layout or whether venting, fuel connections, drainage, or access may need additional work. Ask for the proposed scope and any expected interruption to hot-water service."
+      ],
+      [
+        "shield",
+        "Review Rental Terms Before Changing Equipment",
+        "If the heater is rented, check the agreement for ownership, cancellation, return, or buyout requirements before arranging a replacement. Ask what documents or confirmations are needed and compare those terms with the proposed equipment and installation scope. This can prevent confusion about who owns the old unit and what happens to the contract."
+      ]
     ],
-    rev: [0, 1, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "drain-cleaning": {
-    icon: "refresh",
-    kicker: "Drain Cleaning in Ingersoll, Ontario",
-    h1: "Drain Cleaning From a Local Oxford Plumbing Team",
-    intro: "The Thames bends through Ingersoll on its way somewhere slower, and the town's older drains seem to take their mood from it. Ingersoll Plumbing clears them for good, snaking the immediate stoppage, jetting the accumulated years off the pipe wall, and putting a camera through any line that keeps relapsing. Mature street trees, old connections, and busy kitchens are the usual suspects, in that order.",
-    meta: "Drain cleaning in Ingersoll, Ontario. Snaking, hydro-jetting, and camera inspection for tree-rooted laterals, old connections, and recurring clogs by licensed Oxford plumbers with same-day dispatch.",
-    problem_h: "Same drain, third backup this year?",
-    problem_p: "We clear Ingersoll drains fully and camera the repeat offenders so the pattern stops.",
-    features: [
-      ["refresh", "Jetting the Years Off", "Pressure water strips root hair and grease the way a cable never will, returning old Ingersoll laterals to something like their original bore."],
-      ["droplets", "Camera Ends the Guessing", "A relapsing line gets filmed, and the footage names the cause. You approve the fix knowing exactly what is down there."],
-      ["calendar", "Tree-Lined Street Reality", "The mature maples that make King Street lovely also reach every clay joint nearby. We plan maintenance around that fact of Ingersoll life."]
+    "icon": "refresh",
+    "kicker": "Drain Cleaning in Ingersoll, Ontario",
+    "h1": "Plan Drain Cleaning and Inspection in Ingersoll",
+    "intro": "A slow drain may need a different approach from a line that repeatedly backs up. In Ingersoll, compare the symptoms, affected fixtures, and any previous clearing before deciding whether cable snaking, hydro-jetting, or a camera inspection is appropriate. If roots, grease, or an older connection may be involved, ask what evidence would confirm the cause. Photos or video of accessible cleanouts and a record of repeat blockages can help clarify the work and its limits.",
+    "meta": "Compare drain snaking, hydro-jetting, and camera inspection for blocked or recurring drains in Ingersoll.",
+    "problem_h": "Does the same drain keep backing up?",
+    "problem_p": "The right method depends on the blockage and pipe condition. Ask whether clearing alone is suitable or whether camera inspection is warranted for a recurring problem.",
+    "features": [
+      [
+        "refresh",
+        "Compare Cable Clearing and Hydro-Jetting",
+        "Ask whether the line needs a cable to open a localized stoppage or hydro-jetting to remove accumulated material from the pipe wall. Jetting uses pressurized water and may suit some buildup, but pipe condition matters. An inspection or discussion of the line’s material and history can help determine whether that method is appropriate."
+      ],
+      [
+        "droplets",
+        "Use Camera Inspection to Investigate Repeat Clogs",
+        "If a line blocks repeatedly, ask whether a camera can identify roots, deposits, damage, or a connection problem. Request to review the relevant footage and findings before comparing repair options. The observed cause can change the scope from clearing a blockage to further investigation or work on a particular section of pipe."
+      ],
+      [
+        "calendar",
+        "Check Tree Roots and Older Connections Conditionally",
+        "If the property has mature trees near a buried lateral or an older clay connection, ask whether root intrusion is a possible cause and how it would be confirmed. Keep records of where and when backups occur. Location and pipe condition affect whether periodic clearing, camera inspection, or a more lasting repair should be considered."
+      ]
     ],
-    rev: [1, 1, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "repiping": {
-    icon: "wrench",
-    kicker: "Repiping in Ingersoll, Ontario",
-    h1: "Repiping From a Local Oxford Plumbing Team",
-    intro: "Ingersoll's housing tells the town's whole story, brick facades from the cheese-boom years, war-era cottages, and seventies family homes, and a fair share of all three still run on pipe that belongs in a museum. Ingersoll Plumbing repipes them in PEX and copper, working around the plaster and trim that make these houses worth keeping, pressure-testing as we go, and closing out with permit and inspection.",
-    meta: "Repiping in Ingersoll, Ontario. Galvanized and poly-B replacement for cheese-boom brick homes and postwar cottages in PEX and copper by licensed Oxford plumbers under plumbing permit.",
-    problem_h: "Pipes older than the family photos on the wall?",
-    problem_p: "We repipe Ingersoll homes respectfully, keeping the character while retiring the corroded steel beneath it.",
-    features: [
-      ["wrench", "Era by Era, Room by Room", "Different decades left different materials, and we map them all before quoting. The Ingersoll repipe covers everything the inspection needs it to."],
-      ["home", "Plaster Considered Precious", "Access points respect the finishes that survived the last century. Cuts are planned, minimal, and patched properly at the end."],
-      ["shield", "Permit Closed Properly", "Testing and inspection complete the job, and the paperwork stays with the house for the next sale."]
+    "icon": "wrench",
+    "kicker": "Repiping in Ingersoll, Ontario",
+    "h1": "Plan a Home Repiping Project in Ingersoll",
+    "intro": "Repiping in Ingersoll can involve replacing galvanized steel, poly-B, or other aging water lines with PEX or copper, depending on the property and project requirements. Before comparing estimates, identify visible pipe materials, recurring leaks, water-pressure concerns, and areas where access may be difficult. In older homes, plaster and trim can affect where openings are made. Ask how pressure testing, permits, inspection requirements, and documentation are handled for the proposed scope.",
+    "meta": "Plan repiping in Ingersoll with guidance on galvanized or poly-B replacement, access, testing, permits, and inspections.",
+    "problem_h": "Are aging pipes causing repeated concerns?",
+    "problem_p": "Map visible pipe materials and symptoms before comparing repiping scopes. Access, chosen material, testing, and inspection requirements can change the work.",
+    "features": [
+      [
+        "wrench",
+        "Map Pipe Materials Before Comparing Quotes",
+        "Photograph accessible pipes and note where leaks, corrosion, or pressure changes occur. If the home contains galvanized steel or poly-B, ask which sections the proposed scope replaces and what material is planned. Different pipe materials and layouts affect access, connections, and the amount of work needed to provide a complete repipe."
+      ],
+      [
+        "home",
+        "Plan Access Around Plaster and Trim",
+        "Point out plaster, finished ceilings, cabinetry, and trim that may be affected. Ask where access openings are expected, how their locations are chosen, and whether patching or finish restoration is included or excluded. Older finishes can influence routing and the sequence of work, so clear scope boundaries help avoid mismatched expectations."
+      ],
+      [
+        "shield",
+        "Verify Testing and Inspection Requirements",
+        "Ask how the new piping will be pressure-tested and what permit or inspection requirements apply to the specific project. Confirm who is responsible for arranging any required inspection and what records will be provided. Testing and documentation help establish what was installed and can be useful for future maintenance or a property sale."
+      ]
     ],
-    rev: [2, 0, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "fixtures-toilets": {
-    icon: "home",
-    kicker: "Fixtures &amp; Toilets in Ingersoll, Ontario",
-    h1: "Fixtures &amp; Toilets From a Local Oxford Plumbing Team",
-    intro: "A new faucet should not turn into a weekend project with three hardware store trips, and with Ingersoll Plumbing it never does. We install toilets, faucets, sinks, tubs, and shower packages across town, from quick refreshes between tenants to full renovations of the bathrooms in older homes. Fixtures get chosen for the water here, set level, sealed properly, and guaranteed against the wobble. Landlords and renovators book us by name, which says the rest.",
-    meta: "Fixture and toilet installation in Ingersoll, Ontario. Toilets, faucets, tubs, and shower packages with renovation rough-ins by licensed Oxford plumbers for homes and rentals chosen for local water.",
-    problem_h: "Weekend project already gone sideways?",
-    problem_p: "We set Ingersoll fixtures level and sealed the first time, with rough-ins for the bigger jobs.",
-    features: [
-      ["home", "Wobble-Free Sets", "Every toilet lands on a checked flange with a fresh seal, and every faucet gets even torque and new supplies. Done once, done here."],
-      ["check", "Reno Rough-Ins Included", "Bathroom renovations get drains, vents, and valve placement designed to code before the tile arrives, keeping Ingersoll projects on schedule."],
-      ["award", "Water-Hardiness Built In", "We install fixtures with replaceable cartridges and solid bodies, because Ingersoll water defeats plastic quickly."]
+    "icon": "home",
+    "kicker": "Fixtures &amp; Toilets in Ingersoll, Ontario",
+    "h1": "Plan Fixture and Toilet Installation in Ingersoll",
+    "intro": "Fixture installation in Ingersoll may be a straightforward toilet or faucet replacement, or part of a larger bathroom renovation involving new drains, vents, and valve locations. Before choosing products, record the fixture dimensions, existing connections, and any signs of leaks or movement. If tile or cabinetry is changing, confirm rough-in locations before finishes are installed. Comparing product specifications and installation requirements can reveal whether existing plumbing will work or needs adjustment.",
+    "meta": "Plan toilet, faucet, sink, tub, and shower installation in Ingersoll, including renovation rough-ins and existing connections.",
+    "problem_h": "Has a fixture replacement become more complicated?",
+    "problem_p": "Check fixture dimensions, connections, and rough-in locations before purchasing. Renovation plans and existing plumbing determine whether extra changes are needed.",
+    "features": [
+      [
+        "home",
+        "Check Toilet and Faucet Connections",
+        "For a toilet, photograph the base, shutoff, and visible flange area if accessible, and note any rocking or leakage. For faucets, record the number of mounting holes and supply connections. These checks help compare compatible fixtures and identify whether a worn flange, supply line, or other connection may need attention."
+      ],
+      [
+        "check",
+        "Confirm Rough-Ins Before Finishing the Room",
+        "For a bathroom renovation, compare the planned drain, vent, and valve locations with the selected tub, shower, and fixtures before tile or cabinetry is installed. Ask which rough-ins are included and what must be completed before finishing work begins. Changes made after finishes are in place can increase disruption and alter the project scope."
+      ],
+      [
+        "award",
+        "Compare Materials and Replacement Parts",
+        "Review fixture specifications, body materials, and whether cartridges or other service parts are replaceable. If water treatment or mineral buildup is a concern at the property, ask how the selected fixture should be maintained and whether parts are available. Product construction and serviceability can affect future repairs, but local water conditions should be verified rather than assumed."
+      ]
     ],
-    rev: [1, 3, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "leak-detection": {
-    icon: "droplets",
-    kicker: "Leak Detection &amp; Repair in Ingersoll, Ontario",
-    h1: "Leak Detection &amp; Repair From a Local Oxford Plumbing Team",
-    intro: "Ingersoll homes are built close and solid, which is wonderful until something leaks inside a wall, where solidity hides it. Ingersoll Plumbing uncovers the truth with acoustic listening, thermal imaging, and systematic isolation, mapping the wet path before the first opening gets cut. Whether it lives behind bathroom tile, under the basement floor, or along the run out to the street, the leak gets one accurate repair.",
-    meta: "Leak detection and repair in Ingersoll, Ontario. Acoustic and thermal location, isolation testing, and one-opening repairs behind tile, under floors, and to the street by licensed plumbers.",
-    problem_h: "Ceiling stain with no story to explain it?",
-    problem_p: "We map Ingersoll leaks with instruments before opening anything, then repair through one deliberate cut.",
-    features: [
-      ["droplets", "Instruments Over Instinct", "Acoustic sensors and thermal cameras follow the water to its source. Solid Ingersoll construction stays solid, minus one careful opening."],
-      ["pin", "Under Floors and Out to the Street", "Sub-slab leaks and service-line failures are located from above ground first, so any digging is short and targeted."],
-      ["check", "Claim-Ready Closeout", "Findings, photos, and the finished repair are documented for the insurer, closing the file without a dispute."]
+    "icon": "droplets",
+    "kicker": "Leak Detection &amp; Repair in Ingersoll, Ontario",
+    "h1": "Plan Leak Detection and Repair in Ingersoll",
+    "intro": "A ceiling stain, unexplained moisture, or a change in water use can have several possible causes. For a leak investigation in Ingersoll, note when the symptom appears, which fixtures are nearby, and whether the area changes after rain or water use. Acoustic listening, thermal imaging, and systematic isolation can help narrow a suspected leak, but access and the source determine the repair scope. Photographing visible damage before work begins can also preserve a useful record.",
+    "meta": "Plan leak detection in Ingersoll using acoustic or thermal methods, isolation testing, and targeted access where appropriate.",
+    "problem_h": "Is there a damp spot with no clear source?",
+    "problem_p": "Record when moisture appears and what water is being used. Testing and targeted inspection can help locate the source before deciding where access is needed.",
+    "features": [
+      [
+        "droplets",
+        "Use Instruments to Narrow the Search",
+        "Ask whether acoustic listening, thermal imaging, or isolation testing suits the suspected leak. Share photos and note when the area becomes wet or changes. The tools can help narrow a search behind tile or within a wall, but findings should guide the location of any opening rather than promise a particular result."
+      ],
+      [
+        "pin",
+        "Investigate Slabs and Service Lines Carefully",
+        "If a leak may be under a basement floor or along a buried service line, ask what tests can narrow its location before considering access or excavation. Confirm which section is suspected and how the location was determined. Targeted investigation can help define the repair area, while the actual route and construction affect the work required."
+      ],
+      [
+        "check",
+        "Keep a Clear Record of Findings",
+        "Photograph visible moisture and damage before repairs, then ask for a written description of the suspected source, tests performed, and work completed. If an insurer is involved, check what documentation it requires and share that guidance in advance. A clear record can support communication, but coverage and claim decisions are made by the insurer."
+      ]
     ],
-    rev: [0, 2, 5],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "sump-pumps": {
-    icon: "shield",
-    kicker: "Sump Pumps &amp; Backwater in Ingersoll, Ontario",
-    h1: "Sump Pumps &amp; Backwater From a Local Oxford Plumbing Team",
-    intro: "Living beside the Thames means the river sets some of the rules, and the low streets near it know exactly which ones. Ingersoll Plumbing installs sump pumps matched to those rules, basins that collect what the yard sends, battery backup for the storms that switch the lights off, and backwater valves under permit where the sewer allows surging. A five-minute pump test in March saves a March Break you would rather not remember.",
-    meta: "Sump pump and backwater valve installation in Ingersoll, Ontario. River-street pump sizing, battery backup for outage storms, and permitted sewer protection by licensed Oxford plumbers.",
-    problem_h: "Low street, high water, one old pump?",
-    problem_p: "We install Ingersoll sump systems with backup power and valves sized to the river's moods.",
-    features: [
-      ["shield", "Sized to the Street", "Properties near the Thames and low pockets in town collect differently. The pump, basin, and discharge get matched to your actual yard."],
-      ["zap", "Lights Out, Pump On", "Storm outages and rising water arrive together. Battery backup carries the Ingersoll basement through the dark hours."],
-      ["refresh", "Permitted Backwater Valves", "Where the sewer can surge back, the valve that closes against it is installed to code, permitted, and rebate-checked."]
+    "icon": "shield",
+    "kicker": "Sump Pumps &amp; Backwater in Ingersoll, Ontario",
+    "h1": "Plan Sump Pump and Backwater Protection in Ingersoll",
+    "intro": "A sump pump or backwater valve project in Ingersoll should be planned around the property’s drainage, existing equipment, and sewer connection. If a basement has a sump basin, photograph the pump label, discharge route, and any backup system, and note when water enters the pit. Battery backup, basin changes, and discharge arrangements affect scope. Ask whether a backwater valve is suitable for the connection and what permit or inspection requirements apply.",
+    "meta": "Plan sump pump, battery backup, and backwater valve work in Ingersoll based on existing drainage and sewer connections.",
+    "problem_h": "Would the basement stay protected during an outage?",
+    "problem_p": "Inspect the pump, basin, discharge, and backup power. A proposed system should match the property’s drainage and the applicable sewer connection requirements.",
+    "features": [
+      [
+        "shield",
+        "Assess the Basin, Pump, and Discharge",
+        "Record the pump model, basin dimensions, discharge route, and any signs of cycling or water accumulation. If the property has a low area or receives runoff, describe where water enters and when. These observations help compare pump capacity, basin changes, and discharge requirements without assuming every property has the same drainage conditions."
+      ],
+      [
+        "zap",
+        "Compare Backup Power Options",
+        "If a power outage could coincide with water entering the sump, ask how the proposed battery backup works with the pump and how its condition is checked. Compare battery capacity, maintenance needs, and alarm features where applicable. Existing pump demand and the expected outage scenario affect which backup arrangement is suitable."
+      ],
+      [
+        "refresh",
+        "Check Backwater Valve Suitability and Requirements",
+        "If sewer backup is a concern, ask whether the property’s sewer connection and layout allow a backwater valve. Confirm the proposed location, access for maintenance, and any applicable permit or inspection requirements. A valve is not suitable for every configuration, so connection details and local requirements should be reviewed before the scope is set."
+      ]
     ],
-    rev: [4, 1, 3],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   },
   "water-softeners": {
-    icon: "gauge",
-    kicker: "Water Softeners &amp; Filtration in Ingersoll, Ontario",
-    h1: "Water Softeners &amp; Filtration From a Local Oxford Plumbing Team",
-    intro: "In town the water runs typically Oxford hard, and out along the concession lines the wells add iron and attitude. Ingersoll Plumbing handles both, testing before recommending anything and sizing equipment to what the sample actually says. Softeners tuned to the household, iron and sulphur treatment where the well demands it, and drinking water polished at the kitchen sink with reverse osmosis. Chlorine taste in town and sulphur smell in the country both have specific fixes.",
-    meta: "Water softeners and filtration in Ingersoll, Ontario. Hard-water softeners, rural iron and sulphur treatment, and reverse osmosis by licensed Oxford plumbers sized from an actual test.",
-    problem_h: "Kettle scaled and laundry grey?",
-    problem_p: "We test Ingersoll water, town or well, and install treatment the results justify.",
-    features: [
-      ["gauge", "Test Before Equipment", "Hardness in town and iron in the country take different machines. The sample your Ingersoll property produces decides what gets installed."],
-      ["droplets", "Country Well Programs", "Concession-line wells get softeners, iron and sulphur systems, and UV where history warrants, planned from a current sample."],
-      ["dollar", "Slow the Replacement Cycle", "Softened water stretches the life of tanks, appliances, and finishes. The treatment bill is smaller than the failures it prevents."]
+    "icon": "gauge",
+    "kicker": "Water Softeners &amp; Filtration in Ingersoll, Ontario",
+    "h1": "Plan Water Softening and Filtration in Ingersoll",
+    "intro": "Water treatment in Ingersoll should start with a current test, not an assumption about whether the property uses municipal water or a well. If a test shows hardness, iron, sulphur, or another issue, compare equipment designed for that result and the household’s demand. A softener, iron treatment, UV system, or reverse-osmosis unit serves a different purpose. Keep the test report and ask how equipment size, maintenance, and treated-water location affect the proposal.",
+    "meta": "Compare water softeners, iron and sulphur treatment, UV, and reverse osmosis in Ingersoll using current water test results.",
+    "problem_h": "Is scale or an unusual taste affecting your water?",
+    "problem_p": "Test the water source first and match treatment to the results. The source, measured issue, and household demand determine which equipment is relevant.",
+    "features": [
+      [
+        "gauge",
+        "Test Before Selecting Equipment",
+        "Arrange a current water test and keep the results, including the sample location and date. Hardness, iron, and other measured characteristics call for different treatment approaches. Ask how the proposed equipment responds to the results and household demand; test data helps avoid selecting a system that does not match the property’s water."
+      ],
+      [
+        "droplets",
+        "Choose Well Treatment From the Sample",
+        "If the property uses a private well, check whether the sample indicates iron, sulphur, bacteria, or another concern before comparing treatment. A softener does not replace every treatment process, and UV is relevant only where testing and circumstances support it. Ask about pretreatment, maintenance, and sampling requirements for the specific system."
+      ],
+      [
+        "dollar",
+        "Compare Operating and Maintenance Needs",
+        "Compare purchase scope alongside salt or filter replacement, cleaning, servicing, and expected water use. If considering reverse osmosis, ask which tap or outlets it will serve and what maintenance the membrane and filters require. These details help compare long-term costs and clarify what the equipment will and will not treat."
+      ]
     ],
-    rev: [3, 2, 4],
+    "rev": [
+      0,
+      0,
+      0
+    ]
   }
 };
 
 export const BLOG = [];
 
-export const REVIEW_POOL = [
-  ["Tank went on a Sunday night and they had a new one in before the kids' bedtime Monday. Old rental taken away, no nonsense about it.", "Homeowner", "Ingersoll"],
-  ["Third backup in a year prompted the camera. Roots, obviously. Jetted clean and a maintenance plan, and we have not seen the mop since.", "Resident", "Beachville"],
-  ["Our cottage-era house had steel pipe behind original plaster. Repipe done carefully, patched invisibly, pressure unbelievable.", "Homeowner", "Burgessville"],
-  ["Damp corner in the basement turned out to be a service-line leak. Found it without trenching the whole yard, repaired in a morning.", "Farmer", "Mount Elgin"],
-  ["Two rental units refreshed between tenants, new toilets and faucets, one visit, fair bill. Tenants notice new bathrooms and stay.", "Business Owner", "Thamesford"],
-  ["Sump kept up through the April storm but the power did not. The battery backup they installed last fall carried it, basement dry.", "Resident", "Norwich"]
-];
+// No customer provenance was supplied for the old quotations.
+export const REVIEW_POOL = [];
 
 export const HOME_SERVICES = [
-  ["flame", "Water Heaters", "Tank and tankless installs, rental conversions, and quick local swaps for Ingersoll brick homes and bungalows.", "/services/water-heaters/"],
-  ["refresh", "Drain Cleaning", "Snaking, jetting, and camera inspection for tree-rooted laterals and relapsing lines across town.", "/services/drain-cleaning/"],
-  ["wrench", "Repiping", "Galvanized and poly-B replacement in PEX and copper, with plaster and trim treated as treasures.", "/services/repiping/"],
-  ["home", "Fixtures &amp; Toilets", "Toilets, faucets, tubs, and shower packages set wobble-free, with renovation rough-ins under permit.", "/services/fixtures-toilets/"],
-  ["droplets", "Leak Detection &amp; Repair", "Acoustic and thermal mapping, isolation testing, and one-opening repairs behind tile and under floors.", "/services/leak-detection/"],
-  ["shield", "Sump Pumps &amp; Backwater", "River-street pump sizing, battery backup, and permitted backwater valves for low-lying Ingersoll homes.", "/services/sump-pumps/"],
-  ["gauge", "Water Softeners &amp; Filtration", "Test-first softener sizing, rural iron and sulphur systems, and reverse osmosis drinking water.", "/services/water-softeners/"]
+  [
+    "flame",
+    "Water Heaters",
+    "Compare tank and tankless options using household demand, fuel, venting, installation space, and any existing rental agreement.",
+    "/services/water-heaters/"
+  ],
+  [
+    "refresh",
+    "Drain Cleaning",
+    "Consider snaking for a stoppage, hydro-jetting for suitable buildup, or camera inspection when a line keeps recurring.",
+    "/services/drain-cleaning/"
+  ],
+  [
+    "wrench",
+    "Repiping",
+    "Review visible galvanized or poly-B piping, access through finished areas, proposed PEX or copper, and testing requirements.",
+    "/services/repiping/"
+  ],
+  [
+    "home",
+    "Fixtures &amp; Toilets",
+    "Check fixture dimensions and connections; renovation plans may also require drain, vent, and valve rough-ins before finishes.",
+    "/services/fixtures-toilets/"
+  ],
+  [
+    "droplets",
+    "Leak Detection &amp; Repair",
+    "Record leak symptoms and compare acoustic, thermal, and isolation methods before deciding on targeted access or repair.",
+    "/services/leak-detection/"
+  ],
+  [
+    "shield",
+    "Sump Pumps &amp; Backwater",
+    "Review the sump basin, pump, discharge, and backup power; confirm whether a backwater valve suits the sewer connection.",
+    "/services/sump-pumps/"
+  ],
+  [
+    "gauge",
+    "Water Softeners &amp; Filtration",
+    "Use current test results to compare softening, well-water treatment, UV, or reverse osmosis and their maintenance needs.",
+    "/services/water-softeners/"
+  ]
 ];
 
-export const HOME_FAQ = [
-  ["Is Ingersoll Plumbing licensed and insured?", "Yes on both counts, with permits taken out for the work that requires them and inspections passed under the Ontario Building Code as standard practice."],
-  ["Do you take after-hours calls in Ingersoll?", "Yes. Floods, bursts, sewer backups, and no-water situations are answered promptly across town, and the trucks carry the parts that finish most jobs in one stop."],
-  ["Can you replace a dead water heater quickly?", "Usually same day, since common sizes are stocked locally and Ingersoll is home territory for our crews."],
-  ["Would you recommend repiping our older house?", "When the water discolours and pressure weakens as fixtures open, the original piping has reached the end. We assess what is actually in the walls and quote the honest scope."],
-  ["Do you work on wells and septic around Ingersoll?", "Regularly. Rural Oxford properties get well treatment, pressure tanks, buried line repairs, and septic building-drain service from plumbers used to the concession roads."],
-  ["Does Ingersoll water need softening?", "Town water runs hard and the wells run harder with iron. A proper test settles the equipment question quickly, and we size to the result."],
-  ["What can I expect to pay?", "A written, no-obligation quote before work begins, and the number you approve is the number you are invoiced, from repairs to full repipes."],
-  ["Do you travel outside Ingersoll?", "Woodstock, Tillsonburg, Beachville, Thamesford, Norwich, Burgessville, and the Oxford countryside in between."]
-];
+export const HOME_FAQ = [];
 
 export const SVC_PHOTO = {
-  "water-heaters": ["/assets/img/wp/ingersollplumbing.ca-water-heaters.jpg", "Water heater installation in Ingersoll, Ontario", 1800, 1200],
-  "drain-cleaning": ["/assets/img/wp/ingersollplumbing.ca-drain-cleaning.jpg", "Drain cleaning in Ingersoll, Ontario", 1800, 1200],
-  "repiping": ["/assets/img/wp/ingersollplumbing.ca-repiping.jpg", "Repiping an older home in Ingersoll, Ontario", 1800, 1200],
-  "fixtures-toilets": ["/assets/img/wp/ingersollplumbing.ca-fixtures-toilets.jpg", "Fixture and toilet installation in Ingersoll, Ontario", 1800, 1200],
-  "leak-detection": ["/assets/img/wp/ingersollplumbing.ca-leak-detection.jpg", "Leak detection in Ingersoll, Ontario", 1800, 1200],
-  "sump-pumps": ["/assets/img/wp/ingersollplumbing.ca-sump-pumps.jpg", "Sump pump installation in Ingersoll, Ontario", 1800, 1200],
-  "water-softeners": ["/assets/img/wp/ingersollplumbing.ca-water-softeners.jpg", "Water softener installation in Ingersoll, Ontario", 1800, 1200]
+  "water-heaters": [
+    "/assets/img/wp/ingersollplumbing.ca-water-heaters.jpg",
+    "Water heater installation in Ingersoll, Ontario",
+    1800,
+    1200
+  ],
+  "drain-cleaning": [
+    "/assets/img/wp/ingersollplumbing.ca-drain-cleaning.jpg",
+    "Drain cleaning in Ingersoll, Ontario",
+    1800,
+    1200
+  ],
+  "repiping": [
+    "/assets/img/wp/ingersollplumbing.ca-repiping.jpg",
+    "Repiping an older home in Ingersoll, Ontario",
+    1800,
+    1200
+  ],
+  "fixtures-toilets": [
+    "/assets/img/wp/ingersollplumbing.ca-fixtures-toilets.jpg",
+    "Fixture and toilet installation in Ingersoll, Ontario",
+    1800,
+    1200
+  ],
+  "leak-detection": [
+    "/assets/img/wp/ingersollplumbing.ca-leak-detection.jpg",
+    "Leak detection in Ingersoll, Ontario",
+    1800,
+    1200
+  ],
+  "sump-pumps": [
+    "/assets/img/wp/ingersollplumbing.ca-sump-pumps.jpg",
+    "Sump pump installation in Ingersoll, Ontario",
+    1800,
+    1200
+  ],
+  "water-softeners": [
+    "/assets/img/wp/ingersollplumbing.ca-water-softeners.jpg",
+    "Water softener installation in Ingersoll, Ontario",
+    1800,
+    1200
+  ]
 };
+
+export const LOCATIONS = {};
