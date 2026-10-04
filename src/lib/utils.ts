@@ -18,9 +18,8 @@ export function linkBrandHome(html: string, s: SiteConfig): string {
 }
 
 // Per-vertical copy fragments for the location/service-area template.
-// HVAC returns the original hardcoded strings so existing pages render
-// byte-identically; the other verticals swap in trade-correct wording so
-// generator/solar/geothermal location pages stop saying "HVAC / furnace / AC".
+// These describe project inquiries and planning, with provider details confirmed
+// directly before any work is agreed.
 export interface VerticalCopy {
   serviceName: string;       // "HVAC Service" | "Generator Service" | ...
   heroH1: (loc: string) => string;          // page-hero <h1>
@@ -46,18 +45,18 @@ export function verticalCopy(site: SiteConfig): VerticalCopy {
         heroH1: (loc) => `Standby Generator Service in ${loc}, Ontario`,
         bodyEyebrow: 'Local Generator Service',
         bodyLead: (loc, county, _city, _brand) =>
-          `As part of our ${county} service area, we provide dependable standby generator installation, repair, and replacement to ${loc}. Whether you need a new Generac standby unit installed, a transfer switch upgraded, or annual maintenance on an existing generator, our technicians reach ${loc} quickly and get the job done right.`,
+          `For a generator inquiry in ${loc}, identify the existing unit, fuel supply, transfer switch and work requested. Include property access and any proposed equipment. The responding provider must confirm the design, qualifications, permits, scope and availability before work is agreed.`,
         faqHeading: (loc) => `${loc} Generator Questions`,
         titleSlug: (loc) => `${loc} Generator Service`,
         quoteHeading: 'Request a Generator Quote',
-        ctaText: (loc) => `Whether you need a Generac standby generator installed today or are planning a replacement ahead of storm season, our team is ready to serve your ${loc} home or farm with honest, dependable generator service.`,
+        ctaText: (loc) => `Describe the generator project at your ${loc} property. Ask the responding provider to confirm equipment compatibility, installation requirements, coverage and scheduling.`,
         // HomeAndConstructionBusiness is the schema.org trades parent that HVACBusiness
         // specializes; a standby-generator installer does fuel lines, transfer switches,
         // permits, and pad pours, which is construction work, not electrical service calls.
         // (schema.org has no generator-specific type.)
         businessType: 'HomeAndConstructionBusiness',
-        tagline: (city, county) => `Honest, dependable standby generator installation, repair, and replacement for ${city}, Ontario and the surrounding ${county} communities. Send an online request to confirm service scope and availability.`,
-        emergency: '24/7 Emergency Generator Service',
+        tagline: (city, county) => `Generator project guidance and online inquiries for ${city}, Ontario and ${county}. Confirm provider qualifications, scope, coverage and scheduling before booking.`,
+        emergency: 'Online Generator Inquiries',
         hasServicesNav: false,
         hasBlog: false,
       };
@@ -67,14 +66,14 @@ export function verticalCopy(site: SiteConfig): VerticalCopy {
         heroH1: (loc) => `Solar Panel Installation in ${loc}, Ontario`,
         bodyEyebrow: 'Local Solar Service',
         bodyLead: (loc, county, _city, _brand) =>
-          `As part of our ${county} service area, we design and install rooftop and ground-mount solar systems for ${loc} homes and farms. From a free usage assessment and net-metering setup to panel installation and monitoring, our crew handles every step and keeps your system producing for years.`,
+          `For a solar inquiry in ${loc}, describe the proposed rooftop or ground-mounted system, electricity use and property access. Ask the responding provider to review site suitability, utility requirements, equipment, permits, total cost and scheduling before you agree to an installation.`,
         faqHeading: (loc) => `${loc} Solar Questions`,
         titleSlug: (loc) => `${loc} Solar Installation`,
         quoteHeading: 'Request a Solar Quote',
-        ctaText: (loc) => `Whether you want to offset your hydro bill with solar today or are planning a ground-mount array for your ${loc} property, our team is ready to design, install, and monitor your system with honest, dependable service.`,
+        ctaText: (loc) => `Include the roof or ground-mount proposal and electricity-use details with your ${loc} inquiry. Confirm the design, utility process, scope, coverage and installation schedule with the provider.`,
         businessType: 'SolarEnergyContractor',
-        tagline: (city, county) => `Honest, dependable rooftop and ground-mount solar installation for ${city}, Ontario and the surrounding ${county} communities. Send an online request to confirm service scope and availability.`,
-        emergency: '24/7 Emergency Solar Service',
+        tagline: (city, county) => `Solar project guidance and online inquiries for ${city}, Ontario and ${county}. Confirm site suitability, provider qualifications, scope and scheduling before booking.`,
+        emergency: 'Online Solar Inquiries',
         hasServicesNav: false,
         hasBlog: false,
       };
@@ -84,31 +83,31 @@ export function verticalCopy(site: SiteConfig): VerticalCopy {
         heroH1: (loc) => `Geothermal Installation in ${loc}, Ontario`,
         bodyEyebrow: 'Local Geothermal Service',
         bodyLead: (loc, county, _city, _brand) =>
-          `As part of our ${county} service area, we design and install ground-source geothermal heat pump systems for ${loc} homes. From loop-field sizing and drilling to heat-pump installation and commissioning, our team delivers efficient, low-cost heating and cooling that lasts for decades.`,
+          `For a ground-source heat pump inquiry in ${loc}, describe the existing heating system and proposed loop location. A site assessment, heating design, drilling or excavation scope and equipment match need review. Ask the responding provider to confirm qualifications, permits, restoration costs and scheduling.`,
         faqHeading: (loc) => `${loc} Geothermal Questions`,
         titleSlug: (loc) => `${loc} Geothermal Installation`,
         quoteHeading: 'Request a Geothermal Quote',
-        ctaText: (loc) => `Whether you are ready to install a ground-source heat pump or want a free assessment for your ${loc} property, our team is ready to deliver efficient, dependable geothermal heating and cooling.`,
+        ctaText: (loc) => `Share the heating-system details and proposed ground loop for your ${loc} property. Confirm site assessment, design, scope, coverage and scheduling with the responding provider.`,
         businessType: 'HVACBusiness',
-        tagline: (city, county) => `Honest, dependable ground-source geothermal installation for ${city}, Ontario and the surrounding ${county} communities. Send an online request to confirm service scope and availability.`,
-        emergency: '24/7 Emergency Geothermal Service',
+        tagline: (city, county) => `Ground-source heat pump guidance and online inquiries for ${city}, Ontario and ${county}. Confirm design, provider qualifications, scope and scheduling before booking.`,
+        emergency: 'Online Geothermal Inquiries',
         hasServicesNav: false,
         hasBlog: false,
       };
     default: // plumbing
       return {
         serviceName: 'Plumbing Service',
-        heroH1: (loc) => `Licensed Plumber in ${loc}, Ontario`,
-        bodyEyebrow: 'Local Plumbing Service',
+        heroH1: (loc) => `Plumbing Requests in ${loc}, Ontario`,
+        bodyEyebrow: 'Plan a Plumbing Request',
         bodyLead: (loc, county, _city, brand) =>
-          `As part of our ${county} service area, ${brand} brings the same dependable plumbing work to ${loc} that our ${_city} customers rely on. Whether you need a water heater replaced, a drain cleared, a leak repaired, or a full repipe, our licensed plumbers reach ${loc} quickly and get the job done right.`,
+          `Use this site to describe plumbing work at a ${loc} property. Note the affected fixtures, pipe or equipment, the symptoms and access conditions. The responding provider must confirm qualifications, coverage, the proposed scope, pricing and scheduling before any work is agreed.`,
         faqHeading: (loc) => `${loc} Plumbing Questions`,
         titleSlug: (loc) => `${loc} Plumber`,
         quoteHeading: 'Request a Plumbing Quote',
-        ctaText: (loc) => `Whether it is a repair today or a planned upgrade, our licensed plumbers are ready to serve your ${loc} home or business with honest, dependable work.`,
+        ctaText: (loc) => `Describe the plumbing issue or planned upgrade at your ${loc} property. Include equipment, symptoms and access details so the responding provider can confirm the scope and availability.`,
         businessType: 'Plumber',
-        tagline: (city, county) => `Honest, dependable licensed plumbing for ${city === county ? `${county}, Ontario` : `${city}, Ontario and the surrounding ${county} communities`}. Send an online request to confirm service scope and availability.`,
-        emergency: '24/7 Emergency Plumbing Service',
+        tagline: (city, county) => `Plumbing project guides and online inquiries for ${city === county ? `${county}, Ontario` : `${city}, Ontario and ${county}`}. Confirm provider qualifications, coverage, scope and scheduling before booking.`,
+        emergency: 'Online Plumbing Inquiries',
         hasServicesNav: true,
         hasBlog: true,
       };
@@ -154,21 +153,20 @@ export function crumbs(items: [name: string, url: string][]): string {
   return `<nav class="crumbs" aria-label="Breadcrumb">${parts.join('')}</nav>`;
 }
 
-// build.py::cta_band — default title/text vary per domain so the same band
-// copy isn't rendered identically across the estate (dist-dupe).
+// Shared CTA prompts collect project details for provider confirmation.
 const CTA_TITLES = [
-  'Ready to Solve Your Plumbing Problem?',
-  'One Call Away From Hot Water and Clear Drains',
-  "Let's Take a Look Before It Gets Worse",
-  'Get It Fixed Right, Starting Today',
-  'Your Free Quote Is One Call Away',
+  "Describe the Plumbing Work",
+  "Request a Plumbing Quote",
+  "Prepare for a Plumbing Visit",
+  "Plan a Repair or Replacement",
+  "Confirm the Scope Before Booking"
 ];
 const CTA_TEXTS = [
-  'Whatever your plumbing need, our licensed plumbers are ready to help, fast. Get your free, no-obligation quote today.',
-  'Licensed plumbers, upfront pricing, and work that holds up. Tell us what is going on and we will tell you what it costs, free.',
-  'Whether it is a tank, a drain, or a whole repipe, the answer starts with a quick conversation. Reach out and get a straight quote.',
-  'No pressure and no surprises. Describe the problem, get an honest price, and decide from there.',
-  'Fast response, tidy work, and a guarantee in writing. The first step is free, so make the call.',
+  "Include the fixture or equipment, symptoms and property access in your request. The responding provider must confirm scope, pricing, coverage and scheduling before work is agreed.",
+  "For a replacement, share the existing model and connections, plus any proposed equipment. Ask the provider which work is included and what needs inspection before quoting.",
+  "Describe which fixtures are affected and when the problem occurs. Photos and previous repair details can help the responding provider clarify the assessment needed.",
+  "If the job is part of a renovation, include the finish schedule and fixture specifications. Confirm access, exclusions, qualifications and timing directly with the provider.",
+  "Use the form to explain the requested work and property location. Review the estimate, scope and any warranty terms with the responding provider before booking."
 ];
 export function ctaBand(
   s: SiteConfig,
@@ -186,7 +184,7 @@ export function ctaBand(
           <p>${x}</p>
         </div>
         <div style="display:flex;gap:14px;flex-wrap:wrap">
-          <a class="btn btn-primary btn-lg" href="/contact/#quote">Get a Free Quote</a>
+          <a class="btn btn-primary btn-lg" href="/contact/#quote">Request a Quote</a>
         </div>
       </div>
     </div>
@@ -196,21 +194,20 @@ export function ctaBand(
 
 // build.py::areas_section
 // Now accepts optional location slugs so chips link to location pages when they exist.
-// Heading/intro vary per domain (dist-dupe): one pick per site, consistent
-// across that site's pages.
+// A listed location is a guide or inquiry route; provider coverage must be confirmed.
 const AREA_H2S = [
-  'Serving {city} &amp; Surrounding Communities',
-  'Proudly Covering {city} and the {county} Back Roads',
-  'Local to {city}, Wherever You Are in {county}',
-  'Our Trucks Run All Through {county}',
-  'Where We Work Around {city}',
+  "Locations Listed Around {city}",
+  "Planning Work in {county}",
+  "Confirm Your Property Location",
+  "Location Guides Near {city}",
+  "Address Details for a {city} Request"
 ];
 const AREA_PS = [
-  'We provide fast, reliable {svc} throughout {scope}. If you don\'t see your town listed, give us a call, chances are we cover it.',
-  '{svc} calls take us across {scope} every week. Your town not on the list? Call anyway, the route likely passes your door.',
-  'The list below is the short version. If you are within a reasonable drive of {city}, consider yourself covered.',
-  'From {city} itself to the concessions beyond, if a pipe needs attention we will find a way to get there.',
-  'Chances are we were in one of these towns this morning. Call and ask how soon we can be at your place.',
+  "Use the listed places to find a guide or start an inquiry. Include your property address or postal code so the provider can confirm coverage and scheduling.",
+  "For a property in {scope}, describe the work and access details in the form. The listed locations do not confirm a provider's travel range or availability.",
+  "A location guide explains project questions. Before booking {svc}, ask the responding provider to confirm service at your exact address and the proposed visit window.",
+  "If your location is not listed, include its postal code with the requested work. Coverage, travel arrangements and scheduling must be confirmed directly with the provider.",
+  "Select a listed location for guidance or use the inquiry form. Provide the property location, equipment and access details so the provider can review the request."
 ];
 export function areasSection(s: SiteConfig, locationSlugs?: Record<string, string>): string {
   const slugify = (name: string) =>
@@ -218,8 +215,8 @@ export function areasSection(s: SiteConfig, locationSlugs?: Record<string, strin
   const chips = s.serviceAreas
     .map((a) => {
       const slug = slugify(a);
-      const hasLocPage = locationSlugs && (locationSlugs[slug] || Object.keys(locationSlugs).some(k => k === slug || locationSlugs[k] === a));
-      const href = hasLocPage ? `/locations/${slug}/` : '/contact/';
+      const locationKey = locationSlugs && Object.keys(locationSlugs).find(k => k === slug || locationSlugs[k] === a);
+      const href = locationKey ? `/locations/${locationKey}/` : '/contact/';
       return `<li><a href="${href}">${icon('pin', '', 15)} ${a}</a></li>`;
     })
     .join('');

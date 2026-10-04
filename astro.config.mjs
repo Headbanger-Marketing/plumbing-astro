@@ -38,6 +38,9 @@ export default defineConfig({
   integrations: [
     sitemap({
       filter: (page) => {
+        // The common inquiry privacy notice remains accessible, outside search results.
+        if (page.includes('/privacy-policy/')) return false;
+        if (page.includes('/contact/')) return false;
         if (isVertical) {
           // Exclude /services/ and /blog/ for vertical sites
           if (page.includes('/services/') || page.includes('/blog/')) return false;

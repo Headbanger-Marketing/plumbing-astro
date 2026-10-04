@@ -9,7 +9,7 @@ const service = verticalCopy(site).serviceName;
 const title = `Contact ${site.brand} | ${site.city}, ON`;
 const desc = `Request ${service.toLowerCase()} in ${site.city}, Ontario. Share the property location, equipment and work needed to confirm scope and availability.`;
 ---
-<SiteLayout title={title} desc={desc} path="/contact/" active="contact" schemaBlocks={[
+<SiteLayout title={title} desc={desc} path="/contact/" active="contact" robots="noindex, follow" schemaBlocks={[
   schemaLocalbusiness(site), schemaBreadcrumb([['Home', '/'], ['Contact', '/contact/']], site)
 ]}>
   <section class="page-hero">
