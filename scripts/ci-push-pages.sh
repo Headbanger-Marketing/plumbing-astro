@@ -19,7 +19,16 @@ if [ ! -d "$DIST" ]; then
 fi
 
 TMP="$(mktemp -d)"
-cleanup() { rm -rf "$TMP"; }
+cleanup() {
+  local original_status="$?"
+  # Git maintenance may still be releasing files after the successful push.
+  for attempt in 1 2 3; do
+    if rm -rf "$TMP"; then return "$original_status"; fi
+    sleep 1
+  done
+  echo "::warning::Temporary checkout cleanup was incomplete; preserving publication exit status." >&2
+  return "$original_status"
+}
 trap cleanup EXIT
 
 echo "[ci-push] clone Headbanger-Marketing/$SITE"
