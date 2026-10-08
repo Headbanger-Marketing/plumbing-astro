@@ -1,0 +1,70 @@
+{
+  "domain": "northyorkplumbingpros.ca",
+  "brand": "North York Plumbing Pros",
+  "market": "North York",
+  "trade": "Plumbing",
+  "owner": "Headbanger Marketing",
+  "publication": "indexable_after_independent_source_and_intake_review",
+  "coverage": [
+    "North York"
+  ],
+  "physical_address": null,
+  "phone": null,
+  "provider": null,
+  "editorial_angle": "Identifying suite-level versus shared-system responsibility",
+  "property_assertions": "All property situations are conditional. No town-wide housing, water or contamination claims.",
+  "scopes": {
+    "water-heaters": {
+      "intro": "North York Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. Establish whether hot water comes from equipment inside the property or a shared building system before requesting a heater replacement.",
+      "problem": "A unit supplied from common equipment may need management assessment rather than its own heater installation.",
+      "assessment_follow_through": "Ask the respondent to establish which equipment serves the affected outlets and what the occupant can authorize. If a unit-owned appliance is involved, compare its condition and connection scope separately. Any common-system shutdown or repair should identify the responsible building contact before it is treated as part of an individual request.",
+      "comparison": "Ask what equipment is actually within your authority to repair and how management would be involved in any common-system assessment or shutdown.",
+      "scope_outcome": "Where assessment identifies common hot-water equipment, the useful outcome is a building-authorized scope rather than an assumed appliance replacement inside the unit. If the unit has its own heater, compare that supported option with actual connections and access. Keep management coordination distinct from the equipment price. The completed record should identify which system was assessed or changed so a later occupant does not infer that unit work included a common building installation."
+    },
+    "drain-cleaning": {
+      "intro": "North York Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. Note whether only your fixture drains slowly or whether the event appears to involve another unit, a stack or multiple building drains.",
+      "problem": "A blockage affecting one suite needs a defined pipe section and a clear authority for access.",
+      "assessment_follow_through": "Ask the respondent what can be reached from the proposed unit access and whether observations suggest a common route requires assessment. A suite-level clearing result should not imply that the building stack has been inspected. Establish management involvement before access or work extends into services outside the requesting occupant’s control.",
+      "comparison": "Ask where the relevant access point is and who can authorize use of it. A suite-level cleaning proposal should specify the segment it covers.",
+      "scope_outcome": "Compare a suite branch task with any further common-route investigation by the segment reached and authority required. A clearing result in the unit should name its limit, while a supported stack concern should be referred to the responsible contact before further access is approved. Retain the findings with that boundary. The occupant can then understand what was completed in the suite without treating an individual invoice as proof about the condition of the whole building drain."
+    },
+    "repiping": {
+      "intro": "North York Plumbing Pros collects repiping inquiries for Headbanger Marketing review. For pipe work inside a unit, mark the intended boundary and any connection to a common riser or shared wall.",
+      "problem": "A branch change should identify its connection to a retained riser before the work boundary is agreed.",
+      "assessment_follow_through": "Ask the respondent to show the proposed route and explain the isolation and building approval it depends on. Compare access openings and restoration in the unit with any separate common-system work. The scope should make clear which section is priced rather than treat permission to renovate a room as permission to alter building pipe.",
+      "comparison": "Compare a local branch change with the building work it could require. Water isolation, restoration and approval responsibilities need to be agreed before the scope expands.",
+      "scope_outcome": "An agreed branch option should identify the retained common connection, the unit sections changed and any authorized shutdown or access it relies on. Compare restoration in the unit with separate common-property work rather than treat them as one assumed responsibility. Keep the final route and materials record for the occupant and relevant building contact. A future renovation should be able to distinguish approved unit work from a riser alteration that was not included."
+    },
+    "fixtures-toilets": {
+      "intro": "North York Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. For a fixture replacement, provide the product specification and existing connection photographs with any building alteration requirements you have received.",
+      "problem": "Technical fit and building permission are separate questions for a fixture replacement.",
+      "assessment_follow_through": "Ask the respondent to compare the chosen product with actual supply, waste and mounting positions, then identify any connection changes needed. Keep management requirements and delivery access visible in the plan without assuming they confirm suitability. The written scope should assign supply of parts, installation and finish restoration before the fixture is ordered or the visit is agreed.",
+      "comparison": "Ask whether the proposed fixture fits the available space and connections. Keep management permission separate from confirmation of technical fit and installation scope.",
+      "scope_outcome": "If technical fit and approvals are confirmed, compare the fixture installation by the final product, connection changes, removal and supplied components. If another model is selected, ask for its compatibility to be assessed before treating it as an equivalent substitution. Keep delivery and building access dependencies visible. The completed information should record the actual model and scope rather than imply that permission to change a fixture confirmed the suitability of every proposed product."
+    },
+    "leak-detection": {
+      "intro": "North York Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Record the location and timing of stains, including whether moisture appears when neighbouring or own fixtures are used, if that is observable.",
+      "problem": "An occupant may observe moisture without controlling access to the suspected source.",
+      "assessment_follow_through": "Ask the respondent how the investigation would distinguish unit connections from another suite or a common pipe, and who must authorize each area. Request the findings before attributing responsibility or pricing a repair. Any opening and restoration boundary should be agreed with the correct contact, particularly if the evidence takes the investigation beyond the visible stain.",
+      "comparison": "Ask how the source can be established with appropriate access and authorization. A ceiling stain does not establish which unit or shared pipe is responsible.",
+      "scope_outcome": "A supported source should be related to the authorized area investigated, with findings identifying whether unit or common-system follow-up is needed. Compare the correction with the access and restoration required before attributing cost or responsibility. If the source remains uncertain beyond available access, record that limit and the relevant contact. A stain inside the suite should not become a completed record claiming a neighbour or common pipe was responsible without the supporting assessment."
+    },
+    "sump-pumps": {
+      "intro": "North York Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Describe a basement or ground-level pump request with its actual pit and discharge details; identify building-managed systems separately.",
+      "problem": "A common pump or backwater system is a building responsibility to identify, not a unit fixture to replace by assumption.",
+      "assessment_follow_through": "Ask the respondent which drainage function and equipment the request concerns and who can approve its assessment. A basement-house inquiry should instead provide the actual pit, discharge and observations. Compare only the supported scope for that system, with groundwater removal and sewer-backflow questions kept distinct.",
+      "comparison": "Ask who controls the drainage and equipment that would be assessed. A suite inquiry should not assume that a building-level backwater or pump installation is within scope.",
+      "scope_outcome": "For a managed drainage system, compare follow-up only within the authority of the responsible owner or manager, using the function and equipment actually assessed. For an individual house system, record its pit, discharge and supported equipment option instead. Keep those cases distinct in the request and result. A unit occupant should not receive a proposal suggesting authority over common pump or valve installation merely because their property is located in the same building."
+    },
+    "water-softeners": {
+      "intro": "North York Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. State whether the proposal concerns one drinking-water fixture, a unit supply or a building-wide treatment system.",
+      "problem": "The outlet boundary matters when a unit occupant requests water treatment.",
+      "assessment_follow_through": "Ask the respondent to identify whether the proposal affects one fixture, the suite supply or common equipment, and what authority applies. Compare relevant evidence, device maintenance and connection space within that boundary. A filter under one sink should not be presented as treating a whole building, and a common-system proposal needs the responsible owner’s assessment and approval.",
+      "comparison": "Compare the desired treatment boundary with available space, relevant test results and ownership authority. A unit-level filter does not establish a need for whole-building treatment.",
+      "scope_outcome": "Compare a unit-level device by the outlets it would treat and the connection or maintenance work within the occupant’s control. A common-supply proposal needs a separate building decision and supporting assessment. Keep relevant water evidence and device information with the actual treatment boundary. A later occupant should be able to tell whether one drinking-water outlet was fitted or a wider system changed, without assuming the whole building receives treatment from a unit invoice."
+    }
+  },
+  "sources": [
+    "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/floods/flood-risk/prevent-flood-damage/sump-pumps.html"
+  ]
+}

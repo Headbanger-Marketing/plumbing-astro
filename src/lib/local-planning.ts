@@ -3,6 +3,10 @@ import type { SiteContent } from '../data/content';
 
 /** Reuse authored local service scope, never a pool of invented business stories. */
 export function localPlanning(site: SiteConfig, content: SiteContent) {
+  if (content.HOME) return {
+    heading: content.HOME.heading, intro: content.HOME.planningIntro,
+    checklist: content.HOME.checklist, faqs: content.HOME_FAQ || [], cta: content.HOME.cta,
+  };
   const details = Object.values(content.SVC);
   const namedAreas = site.serviceAreas.filter(a => a !== site.city).slice(0, 4);
   const areaText = namedAreas.length ? namedAreas.join(', ') : site.county;

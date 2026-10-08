@@ -12,29 +12,38 @@ const plan = localPlanning(site, content);
 const services = Object.entries(content.SVC);
 const featured = services.slice(0, 2);
 const title = `${site.brand} | Plumbing in ${site.city}, ON`;
-const desc = `${site.city} Plumbing requests: ${content.HOME_SERVICES.map(s => s[1].replace(/&amp;/g, '&')).slice(0, 3).join(', ')}. Describe the job and request a quote online.`;
+const desc = content.HOME?.meta || `${site.city} Plumbing requests: ${content.HOME_SERVICES.map(s => s[1].replace(/&amp;/g, '&')).slice(0, 3).join(', ')}. Describe the job and request a quote online.`;
 const faqs = plan.faqs;
 ---
 <SiteLayout title={title} desc={desc} path="/" active="home" schemaBlocks={[schemaLocalbusiness(site), schemaFaq(faqs)]}>
 <section class="hero has-bg" style={`--hero-bg-url: url('/assets/img/${site.media?.heroImage || 'hero.webp'}')`}>
   <div class="container hero__grid">
-    <div class="hero__copy"><span class="eyebrow on-dark">{site.city}, Ontario</span><h1>Plumbing for {site.city} Homes</h1>
-      <p class="hero__sub" set:html={featured[0]?.[1].intro}></p>
+    <div class="hero__copy"><span class="eyebrow on-dark">{site.city}, Ontario</span><h1>{content.HOME?.h1 || `Plumbing for ${site.city} Homes`}</h1>
+      <p class="hero__sub" set:html={content.HOME?.intro || featured[0]?.[1].intro.split(/(?<=[.!?])\s+/).slice(0,2).join(' ')}></p>
       <a class="btn btn-primary btn-lg" href="#quote">Request a Quote <Fragment set:html={icon('arrow-right', '', 18)} /></a>
     </div>
     <div class="hero__form"><QuoteForm site={site} /></div>
   </div>
 </section>
 <section class="section"><div class="container">
-  <div class="section-head"><span class="eyebrow">Choose the job</span><h2>Plumbing Services in {site.city}</h2></div>
+  <div class="section-head"><span class="eyebrow">Choose the job</span><h2>Plumbing {site.enquirySite ? 'Guides' : 'Services'} in {site.city}</h2></div>
   <div class="svc-grid">{content.HOME_SERVICES.map(([ic, name, text, url]) => <a class="svc-card" href={url}><span class="svc-card__ic"><Fragment set:html={icon(ic, '', 28)} /></span><h3 set:html={name}></h3><p>{text}</p><span class="svc-card__link">View scope <Fragment set:html={icon('arrow-right', '', 16)} /></span></a>)}</div>
 </div></section>
 <section class="section bg-soft"><div class="container"><div class="split">
   <div><span class="eyebrow">Plan the request</span><h2>{plan.heading}</h2><p set:html={plan.intro}></p>
-    <ul class="feature-list">{plan.checklist.map(([label, body]) => <li><strong>{label}</strong><p>{body}</p></li>)}</ul>
+    <ul class="feature-list">{plan.checklist.map(([label, body]) => <li><span class="fi"><Fragment set:html={icon('check', '', 22)} /></span><div><h4>{label}</h4><p>{body}</p></div></li>)}</ul>
     <a href="/about/">How this site handles inquiries</a>
-  </div><div>{featured[1] && <><h3 set:html={featured[1][1].problem_h}></h3><p set:html={featured[1][1].intro}></p><a href={`/services/${featured[1][0]}/`}>Explore this service</a></>}</div>
+  </div><div class="split__media"><figure><img class="svc-photo" src={`/assets/img/wp/${site.media?.technicianPhoto || 'default-technician.jpg'}`} alt="Illustrative trade equipment and project planning" width="1200" height="800" loading="lazy" decoding="async" /><figcaption>Illustrative photograph. It does not show a site employee or a completed local project.</figcaption></figure>{featured[1] && <><h3 set:html={featured[1][1].problem_h}></h3><p set:html={featured[1][1].intro}></p><a href={`/services/${featured[1][0]}/`}>Explore this service</a></>}</div>
 </div></div></section>
+<section class="section"><div class="container">
+  <div class="section-head"><span class="eyebrow">How a request works</span><h2>From Job Details to a Confirmed Scope</h2></div>
+  <div class="steps">
+    <article class="step"><span class="step__num" aria-hidden="true"></span><h3>Describe the property</h3><p>Send the location, symptoms, equipment and access details. State whether the work is a repair, replacement or planned project.</p></article>
+    <article class="step"><span class="step__num" aria-hidden="true"></span><h3>Review the inquiry</h3><p>{site.enquirySite ? 'Headbanger Marketing reviews the request. A provider must be identified and must confirm that the work and location fit their service scope.' : 'The request is reviewed so the responding provider can clarify the work, property access and service coverage.'}</p></article>
+    <article class="step"><span class="step__num" aria-hidden="true"></span><h3>Confirm before booking</h3><p>Agree the provider identity, qualifications, written scope, pricing and visit window directly. Sending a form does not confirm an appointment.</p></article>
+  </div>
+  <p style="margin-top:24px"><a class="btn btn-primary" href="/contact/#quote">Send Your Job Details</a></p>
+</div></section>
 <section class="section"><div class="container"><div class="section-head"><span class="eyebrow">Before you book</span><h2>Questions About Your {site.city} Request</h2></div><div class="faq">{faqs.map(([q,a]) => <details class="faq__item"><summary class="faq__q">{q}<span class="pm"><Fragment set:html={icon('chev-down', '', 18)} /></span></summary><div class="faq__a"><p>{a}</p></div></details>)}</div></div></section>
 <Fragment set:html={ctaBand(site, `Describe Your ${site.city} Plumbing Job`, plan.cta)} />
 <Fragment set:html={areasSection(site, content.LOCATIONS ? Object.fromEntries(Object.entries(content.LOCATIONS).map(([k,v])=>[k,v.name])) : undefined)} />

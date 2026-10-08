@@ -2,6 +2,8 @@
 // Each src/sites/<domain>.ts exports an object satisfying this shape.
 
 export interface SiteConfig {
+  // An owned inquiry website, with no represented local contractor or storefront.
+  enquirySite?: boolean;
   domain: string;
   url: string;
   brand: string; // raw brand, e.g. "London Heating & Cooling"

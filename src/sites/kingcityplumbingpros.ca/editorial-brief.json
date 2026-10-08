@@ -1,0 +1,70 @@
+{
+  "domain": "kingcityplumbingpros.ca",
+  "brand": "King City Plumbing Pros",
+  "market": "King City",
+  "trade": "Plumbing",
+  "owner": "Headbanger Marketing",
+  "publication": "indexable_after_independent_source_and_intake_review",
+  "coverage": [
+    "King City"
+  ],
+  "physical_address": null,
+  "phone": null,
+  "provider": null,
+  "editorial_angle": "Planning work where equipment and fixtures are spread across separate spaces",
+  "property_assertions": "All property situations are conditional. No town-wide housing, water or contamination claims.",
+  "scopes": {
+    "water-heaters": {
+      "intro": "King City Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. List the rooms experiencing hot-water problems and whether they are supplied by one heater or separate units, if known.",
+      "problem": "A hot-water complaint in one space should not automatically define a problem with every heater on the property.",
+      "assessment_follow_through": "Ask the respondent to map the known equipment and the affected outlets, with uncertain connections identified. The assessment can then explain whether it concerns equipment performance or a distribution branch. Compare any proposed heater change with the related connection and access work required in that particular service space.",
+      "comparison": "Ask how pipe route, equipment capacity and observed symptoms would be compared before deciding between heater work and changes to a distribution branch.",
+      "scope_outcome": "Compare a heater option for each confirmed system with the rooms it actually serves, rather than applying the same replacement to all equipment on the property. If the issue relates to distribution instead, identify that assessment or repair as a different scope. Access and connection work should be described for the relevant equipment space. Keep the completed record specific enough to distinguish the changed unit from separate heaters and branches that remain as they were."
+    },
+    "drain-cleaning": {
+      "intro": "King City Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. State whether slow drainage occurs in the main house, another building or both, and identify accessible cleanouts without assuming a common line.",
+      "problem": "Separate buildings or rooms can have independent drain routes even when symptoms appear at similar times.",
+      "assessment_follow_through": "Ask the respondent to identify the segment assessed from each available access point and explain how the evidence relates to the reported fixtures. A wider cleaning or camera proposal should name the additional route, not merely the property boundary. Keep access limitations and any separate wastewater assessment explicit when the options are compared.",
+      "comparison": "Ask which segment would be cleaned or inspected and whether separate routes need separate assessment. A single access point may not reveal the full system.",
+      "scope_outcome": "An assessment covering one building route should identify that result without implying the other routes were inspected. Compare any further work by the fixtures and sections it would reach, with access limitations clearly stated. If evidence supports a repair, relate its boundary to the confirmed route. Retain recordings or findings by system so later work in a separate building is not based on a cleaning result that concerned only the main-house line."
+    },
+    "repiping": {
+      "intro": "King City Plumbing Pros collects repiping inquiries for Headbanger Marketing review. Mark the run being considered for replacement, including any long path through finished rooms or between separate service spaces.",
+      "problem": "A long run through finished areas can make routing and isolation central to the replacement proposal.",
+      "assessment_follow_through": "Ask the respondent to show the section being changed and the connections that remain, including any route to another service space. Compare the openings and restoration needed for each option. A broader material recommendation should have supporting observations rather than rely on the size of the property or the distance between fixtures.",
+      "comparison": "Compare route options and sectional isolation before choosing materials. Ask which work is inside the estimate and which buried or remote section needs further investigation.",
+      "scope_outcome": "Compare routes by the sections confirmed for replacement and the practical openings needed across the relevant rooms or service spaces. An option that reduces one finish opening can change access somewhere else. Keep retained runs and remote connections clear in the estimate, with further investigation priced separately where their condition is uncertain. The completed route record should explain the actual boundary of replacement instead of treat a large property project as a complete renewal of every supply."
+    },
+    "fixtures-toilets": {
+      "intro": "King City Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. For a fixture in a separate room or building, identify the available connections and how that space is used.",
+      "problem": "A fixture in a separate space needs more than a product choice.",
+      "assessment_follow_through": "Ask the respondent to identify the supply and waste connections it would use, then show any branch changes or assessment still required. Compare that work with the way the room or building will be occupied. Service access and future isolation should be considered in the written scope rather than treating the entire project as simply mounting the fixture.",
+      "comparison": "Ask whether the proposed fixture requires a new branch, altered drainage or additional service access. An installation proposal should distinguish those changes from fitting the fixture itself.",
+      "scope_outcome": "An agreed fixture option should state its actual supply and drainage route, the product fitted and any additional branch work. Compare maintenance access and isolation for the relevant room or building as part of that scope. If the route is still uncertain, identify the investigation required before installation can be confirmed. Keep the final arrangement in the property records so later work in another space does not assume it shares the same connection design."
+    },
+    "leak-detection": {
+      "intro": "King City Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Record moisture observations in each affected space and the times they occur. Separate visible water from assumptions about a connecting pipe.",
+      "problem": "When moisture is observed in different rooms, the assessment should establish whether the observations share a source.",
+      "assessment_follow_through": "Ask the respondent how it will compare the timing, known pipe routes and accessible evidence before proposing several repairs or a wider opening. The investigation boundary should expand only with supported findings. Identify authorization and restoration for each space, including any outdoor section if the suspected connection leaves the house.",
+      "comparison": "Ask how the suspected route would be tested before opening finishes or ground. Evidence from one room should not automatically set the repair boundary elsewhere.",
+      "scope_outcome": "If the observations share a verified source, compare the supported repair with the access it requires across the affected spaces. If they do not, keep the separate findings and proposed work distinct rather than combine unrelated corrections. Discuss who handles restoration in each room or outdoor section. A useful completed record identifies what was located and repaired, with untested routes left uncertain rather than attributed to the same source by proximity or timing alone."
+    },
+    "sump-pumps": {
+      "intro": "King City Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Describe whether the pump protects the main basement or another lower space, and where its discharge can be observed safely.",
+      "problem": "A pump serving one lower space may experience different conditions from equipment elsewhere on the property.",
+      "assessment_follow_through": "Ask the respondent to identify the pit and discharge being assessed and explain the observations behind the proposed capacity or backup option. Compare alarm access and maintenance for each location. A single broad proposal should still distinguish the function and scope of individual systems rather than give every pit the same assumptions.",
+      "comparison": "Compare measured conditions for each pit instead of applying one pump size to all. Ask how alarms and maintenance access would work across the spaces.",
+      "scope_outcome": "Compare each proposed pump or protective component with the pit or drainage section it serves and the observations supporting that choice. The scope should identify the alarm and maintenance arrangements for that location, especially where the equipment is not easily heard or seen from occupied rooms. Keep model and service information by system. A general property invoice should not make it difficult to distinguish which lower space received the equipment or what function was addressed."
+    },
+    "water-softeners": {
+      "intro": "King City Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. Identify which outlets receive treated water and whether another building uses the same supply or has separate equipment.",
+      "problem": "The treatment boundary should follow confirmed connections, particularly where more than one building or service branch is involved.",
+      "assessment_follow_through": "Ask the respondent which outlets would be affected and which would remain on the existing supply. Compare relevant evidence, maintenance and access for the proposed configuration. A device located in the main house should not be described as treating an outbuilding unless the connection arrangement has actually been established.",
+      "comparison": "Ask whether the desired treatment should serve all outlets or a selected branch, with the assessment supported by relevant tests and a clear maintenance arrangement.",
+      "scope_outcome": "A treatment option should identify the outlets and buildings reached by the confirmed configuration, alongside maintenance and relevant supporting evidence. Compare a selected branch device with a broader system only where the connections are established. Keep any separate supply or outlet outside the proposal explicit. The owner’s record should state the actual treatment boundary so later fixtures or buildings are not assumed to receive treated water merely because equipment is located at the main service space."
+    }
+  },
+  "sources": [
+    "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/floods/flood-risk/prevent-flood-damage/sump-pumps.html"
+  ]
+}

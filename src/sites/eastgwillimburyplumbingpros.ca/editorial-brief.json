@@ -1,0 +1,70 @@
+{
+  "domain": "eastgwillimburyplumbingpros.ca",
+  "brand": "East Gwillimbury Plumbing Pros",
+  "market": "East Gwillimbury",
+  "trade": "Plumbing",
+  "owner": "Headbanger Marketing",
+  "publication": "indexable_after_independent_source_and_intake_review",
+  "coverage": [
+    "East Gwillimbury"
+  ],
+  "physical_address": null,
+  "phone": null,
+  "provider": null,
+  "editorial_angle": "Assessing changes where existing equipment and new rooms meet",
+  "property_assertions": "All property situations are conditional. No town-wide housing, water or contamination claims.",
+  "scopes": {
+    "water-heaters": {
+      "intro": "East Gwillimbury Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. If a new bathroom or appliance changes expected demand, send its specifications together with the current heater label and symptom history.",
+      "problem": "An added fixture can create a demand question while the existing heater has a separate fault.",
+      "assessment_follow_through": "Ask the respondent to distinguish those issues and explain what information supports the equipment option. Compare the proposed household use, current unit and actual supply arrangement together. Any installation change should identify access and connections at the property, rather than selecting a new model solely from the number of rooms in the addition.",
+      "comparison": "Ask how the additional use would be evaluated against the existing equipment and supplies. Keep a capacity question separate from an unrelated heater fault.",
+      "scope_outcome": "Compare the heater options against the same addition plan and actual existing equipment. If the fixture selection changes, ask the provider to confirm whether it alters the assessment or selected scope. Keep a repair item separate from demand planning so the owner understands what each cost addresses. The completed equipment record should identify any connection changes and the final model, without implying that a new room automatically required replacing every related supply component."
+    },
+    "drain-cleaning": {
+      "intro": "East Gwillimbury Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. Explain whether the request is for a blocked existing drain or a proposed new branch serving added fixtures.",
+      "problem": "A new fixture branch requires a connection assessment even when the existing drain has recently been cleared.",
+      "assessment_follow_through": "Ask the respondent to explain which section the cleaning or inspection result covers and what still needs verification for the proposed layout. Compare the new route and maintenance access before finishes are fixed. Keep the cost of resolving the existing symptom separate from constructing a connection for the added fixture.",
+      "comparison": "Ask what assessment of the connection is needed before the added fixtures are installed. Clearing a blockage does not confirm the design of the new work.",
+      "scope_outcome": "An agreed new branch should identify the actual route, retained connection and access needed before finishes close. Compare any existing drain cleaning as a separate item with its own reached section and result. If the connection remains uncertain, the scope should explain which assessment resolves it before the new layout is approved. Keep findings with the final fixture plan rather than assume the result from an earlier route applies after fixtures or positions change."
+    },
+    "repiping": {
+      "intro": "East Gwillimbury Plumbing Pros collects repiping inquiries for Headbanger Marketing review. Identify pipe runs that the new room layout would cross or conceal and distinguish those from sections showing an actual defect.",
+      "problem": "An addition may offer access to pipe that does not otherwise need replacement.",
+      "assessment_follow_through": "Ask the respondent to distinguish a layout conflict from a verified material or condition concern, with each proposed run marked. Compare retained and changed routes by their stated purpose and restoration needs. A wider proposal should explain the additional evidence behind it rather than treat the room project as approval to replace unrelated branches.",
+      "comparison": "Compare selective rerouting with condition-driven replacement. Ask which access openings and restoration work follow from each option before expanding the project boundary.",
+      "scope_outcome": "Compare any selective rerouting with a wider replacement by the confirmed purpose and work boundary. If the new room plan changes, check which runs and openings are affected before the estimate is treated as current. Keep retained materials and uncertain concealed sections clear in the completed description. A later provider should be able to tell which branches were changed for the addition and which existing parts were deliberately kept after assessment."
+    },
+    "fixtures-toilets": {
+      "intro": "East Gwillimbury Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. Show the proposed appliance or bathroom position and the nearest known supply and waste connections.",
+      "problem": "A nearby supply or rough-in does not establish that the chosen appliance can connect without further work.",
+      "assessment_follow_through": "Ask the respondent to compare product requirements with the actual positions and route available. If cabinetry or flooring is already fixed, identify the restrictions it creates before ordering. The scope should say which connections are confirmed, which need assessment and who coordinates any necessary changes with the other trades.",
+      "comparison": "Ask what must be verified about the rough-in, connection route and product fit before it is treated as installation-ready. Include cabinetry or finish dimensions already fixed.",
+      "scope_outcome": "If assessment supports the new product at the proposed position, compare the required connections with the installation and finish sequence already planned. Where a rough-in or route is unsuitable, identify its correction as a separate decision before ordering or fitting the appliance. Keep the final model and connection positions in the completed record. A substitution during the project should be checked against that assessed arrangement rather than assumed to fit because its advertised purpose is similar."
+    },
+    "leak-detection": {
+      "intro": "East Gwillimbury Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. For dampness near a new connection, record the sequence of work and the fixtures used before the moisture appears.",
+      "problem": "Moisture following new work provides a sequence to investigate, not a final attribution of responsibility.",
+      "assessment_follow_through": "Ask the respondent how the added connection, retained pipe and nearby non-plumbing sources will be distinguished. Request the evidence supporting the source before widening a repair. The investigation proposal should identify access to the new and existing sections and make clear who authorizes and restores any finishes that must be disturbed.",
+      "comparison": "Ask how tests would distinguish the added connection from old concealed piping or a non-plumbing source. The most recent work is a lead, not a diagnosis.",
+      "scope_outcome": "A supported repair should identify whether the defect lies in the added connection or retained system, and what evidence established that result. If the source is still uncertain, compare the next investigation rather than approve repeated work on the newest fixture by default. Assign access and restoration for the relevant surfaces. The project record should distinguish the confirmed correction from construction events that were considered during investigation but were not established as the cause."
+    },
+    "sump-pumps": {
+      "intro": "East Gwillimbury Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Mention whether an addition or changed basement layout affects access to an existing pit, discharge line or backwater inspection opening.",
+      "problem": "A changed basement layout can affect maintenance access even if the existing equipment remains in place.",
+      "assessment_follow_through": "Ask the respondent to identify the openings and working space needed for the proposed pump or valve work, and compare them with the room plan. If a drainage change is recommended, request its specific purpose and supporting observations. The addition should not conceal equipment that will still need inspection and service.",
+      "comparison": "Ask whether the planned finishes preserve maintenance access and whether the proposed change affects the drainage system. A new room should not hide essential inspection points.",
+      "scope_outcome": "An agreed drainage equipment scope should be compared with the final layout and the service openings it will preserve. If the room changes, check that it does not obstruct the equipment or inspection point identified during assessment. Keep model, drainage function and maintenance information with the room record. Any separate water-entry or drainage uncertainty should remain stated rather than be described as resolved merely because equipment was installed during the addition."
+    },
+    "water-softeners": {
+      "intro": "East Gwillimbury Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. If a new appliance calls for a particular water specification, provide its installation instructions and any current test results.",
+      "problem": "An appliance water specification can frame a treatment question without establishing that the whole house needs the same device.",
+      "assessment_follow_through": "Ask the respondent to identify the relevant evidence and connected branch, then compare treatment at that appliance with a broader configuration. Discuss maintenance, access and any drain arrangement for each option. The written scope should relate the selected device to the actual concern rather than to a generic upgrade package.",
+      "comparison": "Compare treatment for that appliance with treatment for the entire house. Clarify the connected branch, maintenance needs and the basis for equipment selection.",
+      "scope_outcome": "Compare a device for the added appliance with broader treatment using the same supporting evidence and outlet requirements. Identify connection changes, ongoing consumables and maintenance access in each option rather than treat the treatment cabinet as the entire project. If the appliance model changes, confirm whether the water specification or selected configuration also changes. Keep the final device and appliance information together so future servicing can understand the purpose of that connected branch."
+    }
+  },
+  "sources": [
+    "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/floods/flood-risk/prevent-flood-damage/sump-pumps.html"
+  ]
+}

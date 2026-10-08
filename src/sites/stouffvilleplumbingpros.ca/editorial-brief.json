@@ -1,0 +1,70 @@
+{
+  "domain": "stouffvilleplumbingpros.ca",
+  "brand": "Stouffville Plumbing Pros",
+  "market": "Stouffville",
+  "trade": "Plumbing",
+  "owner": "Headbanger Marketing",
+  "publication": "indexable_after_independent_source_and_intake_review",
+  "coverage": [
+    "Stouffville"
+  ],
+  "physical_address": null,
+  "phone": null,
+  "provider": null,
+  "editorial_angle": "Recording equipment handover information in a recently occupied property",
+  "property_assertions": "All property situations are conditional. No town-wide housing, water or contamination claims.",
+  "scopes": {
+    "water-heaters": {
+      "intro": "Stouffville Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. Use the heater label and ownership paperwork to establish what is installed, including whether a rental agreement may still apply.",
+      "problem": "Heater ownership can change what work the homeowner is able to authorize.",
+      "assessment_follow_through": "Ask the respondent to distinguish equipment supplied by an owner from equipment still subject to rental or other terms, using the papers available. The technical assessment should then address the current symptom rather than only the handover date. Keep removal, replacement connections and any separate warranty inquiry explicit when the options are compared.",
+      "comparison": "Compare maintenance or warranty questions with the actual symptom requiring inspection. Confirm equipment ownership before arranging removal or authorizing a replacement.",
+      "scope_outcome": "If ownership and assessment support replacement, compare the named equipment with removal, connections and any contractual dependency involving the old heater. If a current fault can be repaired, request its supported scope rather than treat move-in as a reason to replace a functioning unit. Keep warranty inquiries distinct from the technical option. The final equipment record should add reliable information to the property handover instead of repeat an assumed installation date."
+    },
+    "drain-cleaning": {
+      "intro": "Stouffville Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. If a drain was slow when you moved in, record the affected fixtures and any inspection or cleaning notes provided by the previous owner.",
+      "problem": "An old drain receipt may describe a different symptom or a section that is no longer the one in question.",
+      "assessment_follow_through": "Ask the respondent to relate any earlier cleaning or inspection finding to the present fixtures and access points. Request the current evidence before choosing another method or repair. The estimate should identify what can be assessed now and what remains uncertain if the earlier route or recording cannot be matched.",
+      "comparison": "Ask whether the current evidence warrants clearing, camera inspection or checking a recently altered connection. Previous paperwork does not prove the present line condition.",
+      "scope_outcome": "Compare a current cleaning or inspection proposal with the specific uncertainty left by the earlier record. If the old recording cannot be matched to the present section, state that limit rather than use it as proof of damage. A repair option should identify the supported finding and access needed. Keep new results with the fixture and route description so a future owner can relate them to the same section without reconstructing the history from a generic invoice."
+    },
+    "repiping": {
+      "intro": "Stouffville Plumbing Pros collects repiping inquiries for Headbanger Marketing review. Document known renovations and visible pipe materials rather than assigning an age to all plumbing from the age of the house.",
+      "problem": "The house age is not a reliable map of every pipe installed after previous renovations.",
+      "assessment_follow_through": "Ask the respondent to use visible markings and available records to identify the runs being considered, with concealed sections still marked for assessment. Compare any selective or wider replacement by its purpose and access. Keep the material, route and finish-restoration boundaries in the written proposal so the handover record can be improved afterward.",
+      "comparison": "Ask how concealed runs would be identified and how a proposed replacement boundary relates to verified condition. Keep finish restoration explicit in the written scope.",
+      "scope_outcome": "An agreed replacement should identify its actual materials and route, with old sections deliberately retained and uncertain concealed runs kept distinct. Compare access and restoration on that same boundary between proposals. Request the provider’s completed-work and testing information where applicable, with the final configuration rather than only the requested material recorded. The handover history should not suggest a whole-house replacement if the assessment and work covered selected branches."
+    },
+    "fixtures-toilets": {
+      "intro": "Stouffville Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. For an unfamiliar shutoff or fixture, identify the product and describe the issue rather than ordering a replacement from appearance alone.",
+      "problem": "An unfamiliar fixture may need a repair component rather than a complete replacement, but its identity and connections must be established first.",
+      "assessment_follow_through": "Ask the respondent what product information supports the options and which connection changes each would require. Compare future access as well as fitting the product now. If past installation work is undocumented, identify what remains uncertain rather than treating the existing arrangement as a confirmed direct-swap specification.",
+      "comparison": "Ask whether repair parts, a direct fixture swap or connection changes are under consideration. Compare the product specification with the existing installation before choosing.",
+      "scope_outcome": "Compare a supported repair component with replacement using the confirmed product identity and connection arrangement. If another model is fitted, the completed information should name it and any altered connections or access. The owner can then use the correct maintenance and parts information rather than rely on appearance. Keep unresolved questions about an undocumented earlier installation explicit until the provider has assessed them, instead of treating a successful component change as proof about concealed work."
+    },
+    "leak-detection": {
+      "intro": "Stouffville Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Keep a short record of when stains, unusual water use or dripping sounds appeared after occupation, and where they were observed.",
+      "problem": "Move-in can mark when a symptom was noticed without showing when it began.",
+      "assessment_follow_through": "Ask the respondent to distinguish those dates and use the observed pattern to plan the investigation. Any previous inspection note should be treated as context for the current source checks. Request the finding that supports a repair and identify which surfaces would need access, particularly where the visible stain may be distant from the affected connection.",
+      "comparison": "Ask what findings would confirm a plumbing leak and how the investigation would use any earlier inspection notes without treating them as current proof.",
+      "scope_outcome": "If the current source is established, compare the supported correction with the access and finish work it needs. If it remains uncertain, the next proposal should name the investigation that could resolve it rather than attribute the condition to move-in or an old inspection note. Preserve the dated findings and the observed location. That record can distinguish the confirmed repair from symptoms that were noticed at the same time but may have a separate explanation."
+    },
+    "sump-pumps": {
+      "intro": "Stouffville Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. If the property includes a sump or backwater valve, locate its records and describe any visible alarm, lid and accessible maintenance opening.",
+      "problem": "An inherited pump or valve should be identified before its condition or replacement needs are assumed.",
+      "assessment_follow_through": "Ask the respondent to explain what can be checked at the existing equipment and what access its maintenance requires. Compare documented observations with any proposed upgrade, including alarm or backup additions. A property transfer does not by itself justify replacing the system, and a previous service note does not verify its present operation.",
+      "comparison": "Ask how the existing equipment condition and service needs can be assessed before replacement is recommended. Ownership change alone does not establish that an upgrade is necessary.",
+      "scope_outcome": "A supported equipment option should identify what was assessed now, not simply repeat the age or maintenance statement in a previous owner’s papers. Compare any replacement, backup or alarm addition by its actual role and the access it requires. Keep the installed model and service information with the property record. An unresolved discharge or drainage question should stay visible, so the handover does not overstate what the pump or valve work established."
+    },
+    "water-softeners": {
+      "intro": "Stouffville Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. Identify the treatment equipment left with the house, its stated purpose and any available service or water-test history.",
+      "problem": "A treatment appliance handed over with a property may have incomplete records about its purpose, settings or service.",
+      "assessment_follow_through": "Ask the respondent which current information is needed to assess it, with relevant water testing separated from the equipment label. Compare maintenance of the existing unit with a supported replacement proposal. Clarify the connected outlets and the ongoing tasks the owner will need to understand after the assessment.",
+      "comparison": "Ask what current information is needed before reusing the previous settings or choosing replacement media. A handover label does not establish present water quality.",
+      "scope_outcome": "Where assessment supports keeping the inherited device, compare its service needs with a replacement proposal based on the same water concern and outlet boundary. If configuration changes, identify the purpose and owner maintenance it requires. Record the actual installed equipment and any follow-up assessment recommended. A future consumable choice should be tied to that configuration rather than to undocumented settings or assumptions passed from the previous occupant."
+    }
+  },
+  "sources": [
+    "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/floods/flood-risk/prevent-flood-damage/sump-pumps.html"
+  ]
+}

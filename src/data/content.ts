@@ -66,7 +66,18 @@ export interface LocationDetail {
   faq: [q: string, a: string][]; // 2-4 location-specific Q/A pairs
 }
 
+export interface HomeContent {
+  h1: string;
+  intro: string;
+  meta: string;
+  heading: string;
+  planningIntro: string;
+  checklist: [string, string][];
+  cta: string;
+}
+
 export interface SiteContent {
+  HOME?: HomeContent;
   SVC: Record<string, ServiceDetail>;
   BLOG: BlogPost[];
   REVIEW_POOL: [text: string, name: string, place: string][];

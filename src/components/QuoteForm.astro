@@ -13,13 +13,13 @@ interface Props {
 
 const {
   site,
-  heading = 'Get a Free Quote',
-  sub = 'A callback will confirm scope and appointment availability.',
+  heading = site.enquirySite ? 'Send a Service Inquiry' : 'Get a Free Quote',
+  sub = site.enquirySite ? 'Headbanger Marketing reviews your request. A provider and appointment are not confirmed by submission.' : 'A callback will confirm scope and appointment availability.',
   idSuffix = 'hero',
 } = Astro.props;
 ---
 
-<form class="quote-card" data-quote-form {...(site.thankYouRedirect ? { 'data-redirect-on-success': site.thankYouRedirect } : {})} novalidate aria-label="Request a free quote">
+<form class:list={['quote-card', { 'quote-card--enquiry': site.enquirySite }]} data-quote-form data-enquiry-site={site.enquirySite ? 'true' : undefined} {...(site.thankYouRedirect ? { 'data-redirect-on-success': site.thankYouRedirect } : {})} novalidate aria-label={site.enquirySite ? 'Send a service inquiry' : 'Request a free quote'}>
   <div class="quote-card__head">
     <span class="badge"><Fragment set:html={icon('headset', '', 24)} /></span>
     <div><p id="quote" class="quote-card__title" style="font-size:1.15rem;font-weight:700;margin:0;line-height:1.2;color:var(--ink)">{heading}</p></div>
@@ -63,6 +63,6 @@ const {
       <textarea class="input" id={`msg-${idSuffix}`} name="message" placeholder="e.g. Water heater leaking or drain backed up…" required></textarea>
       <span class="error-text">Tell us briefly what's going on.</span>
     </div>
-    <button class="btn btn-primary btn-lg btn-block" type="submit"><Fragment set:html={icon('send', '', 18)} /> Request My Free Quote</button>
+    <button class="btn btn-primary btn-lg btn-block" type="submit"><Fragment set:html={icon('send', '', 18)} /> {site.enquirySite ? 'Submit My Inquiry' : 'Request My Free Quote'}</button>
   </div>
 </form>

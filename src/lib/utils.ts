@@ -210,6 +210,7 @@ const AREA_PS = [
   "Select a listed location for guidance or use the inquiry form. Provide the property location, equipment and access details so the provider can review the request."
 ];
 export function areasSection(s: SiteConfig, locationSlugs?: Record<string, string>): string {
+  if (s.enquirySite) return `<section class="section bg-soft" id="coverage"><div class="container"><h2>Requests for ${s.city} Properties</h2><p>This site collects inquiries for ${s.city}. Include the property postal code and access details. Provider travel, coverage and appointment availability require direct confirmation.</p><ul class="areas"><li><a href="/contact/">${icon('pin', '', 15)} ${s.city}</a></li></ul></div></section>`;
   const slugify = (name: string) =>
     name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   const chips = s.serviceAreas

@@ -80,7 +80,7 @@ export function phoneVisibility(site: SiteConfig): SiteConfig {
     const digits = value.replace(/\D/g, '');
     return '+' + (digits.length === 10 ? '1' + digits : digits);
   };
-  const hidePhone = site.hidePhone === true || HIDDEN_NUMBERS.has(normalized(site.phone.tel))
+  const hidePhone = !site.phone.tel || site.hidePhone === true || HIDDEN_NUMBERS.has(normalized(site.phone.tel))
     || (!!site.citationPhone && HIDDEN_NUMBERS.has(normalized(site.citationPhone.tel)));
   return { ...site, hidePhone };
 }

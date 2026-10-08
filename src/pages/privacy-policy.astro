@@ -10,10 +10,11 @@ const desc = `How inquiries through ${site.brand} are received and routed, what 
 <SiteLayout title={title} desc={desc} path="/privacy-policy/" robots="noindex, follow" schemaBlocks={[schemaBreadcrumb([['Home','/'],['Privacy Policy','/privacy-policy/']],site)]}>
 <section class="page-hero"><div class="container">
   <Fragment set:html={crumbs([['Home','/'],['Privacy Policy','']])} />
-  <span class="eyebrow on-dark">Privacy</span><h1>Privacy Policy</h1><p>Last updated: October 4, 2026</p>
+  <span class="eyebrow on-dark">Privacy</span><h1>Privacy Policy</h1><p>Last updated: {site.enquirySite ? 'October 8, 2026' : 'October 4, 2026'}</p>
 </div></section>
 <section class="section"><div class="container"><article class="article">
   <p class="lead">{site.brand} is a service inquiry website in Headbanger Marketing's portfolio. This page explains how information submitted through this website or its email address is used in the inquiry process.</p>
+  {site.enquirySite && <p>Headbanger Marketing owns and operates this website and reviews incoming inquiries. The site does not represent a confirmed local service provider.</p>}
   <h2>Information Included in an Inquiry</h2>
   <p>The form collects the contact details, property location, and project description you enter. An inquiry also includes its originating page and submission time. Email inquiries include the sender details and message you provide. Include only the information needed to review the request.</p>
   <h2>Routing and Follow-Up</h2>

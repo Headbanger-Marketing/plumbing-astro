@@ -20,7 +20,7 @@ const vc = verticalCopy(site);
 // "Heating & Cooling", or "Chatham-Kent" / "Generator Pros"). Match the
 // descriptor by its known leading words so hyphenated regions stay intact.
 const DESCRIPTORS = ['Heating & Cooling', 'HVAC Pros', 'HVAC Pro', 'AC Repair',
-  'Furnace Repair', 'Generator Pros', 'Solar Pros', 'Geothermal'];
+  'Furnace Repair', 'Generator Pros', 'Solar Pros', 'Geothermal', 'Plumbing Pros', 'Duct Cleaning Pros', 'Duct Cleaning'];
 let brandLine1 = site.brand;
 let brandLine2 = '';
 for (const d of DESCRIPTORS) {
@@ -46,7 +46,7 @@ const navHtml = `
       ${servicesNav}
       <a class="nav__link" href="/contact/"${cur('contact')}>Contact</a>
       <div class="nav__cta">
-        <a class="btn btn-primary" href="/contact/#quote">Get a Free Quote</a>
+        <a class="btn btn-primary" href="/contact/#quote">${site.enquirySite ? 'Send an Inquiry' : 'Get a Free Quote'}</a>
       </div>`;
 ---
 
@@ -55,9 +55,9 @@ const navHtml = `
   <div class="container">
     <div class="topbar__left">
       <span class="topbar__item"><Fragment set:html={icon('clock', '', 15)} /> Online Service Requests</span>
-      <span class="topbar__item topbar__item--areas"><Fragment set:html={icon('pin', '', 15)} /> Serving {site.city} &amp; {site.county}</span>
+      <span class="topbar__item topbar__item--areas"><Fragment set:html={icon('pin', '', 15)} /> {site.enquirySite ? `Requests for ${site.city}` : `Serving ${site.city} & ${site.county}`}</span>
     </div>
-    <a class="topbar__right" href="/contact/"><Fragment set:html={icon('check-sm', '', 15)} /> Free, No-Obligation Quotes</a>
+    <a class="topbar__right" href="/contact/"><Fragment set:html={icon('check-sm', '', 15)} /> {site.enquirySite ? 'Headbanger Marketing inquiry site' : 'Free, No-Obligation Quotes'}</a>
   </div>
 </div>
 <header class="site-header">

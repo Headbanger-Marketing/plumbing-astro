@@ -22,6 +22,7 @@ export async function loadSite(): Promise<LoadedSite> {
   const site: SiteConfig = phoneVisibility((await import(`../sites/${siteName}.ts`)).site);
   const c = await import(`../sites/${siteName}/content.ts`);
   const content: SiteContent = {
+    HOME: c.HOME,
     SVC: c.SVC,
     BLOG: c.BLOG,
     REVIEW_POOL: [],

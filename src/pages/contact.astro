@@ -17,7 +17,7 @@ const desc = `Request ${service.toLowerCase()} in ${site.city}, Ontario. Share t
       <Fragment set:html={crumbs([['Home', '/'], ['Contact', '']])} />
       <span class="eyebrow on-dark">{site.city}, Ontario</span>
       <h1>Request {service}</h1>
-      <p>Share what you need at your property. A callback will confirm service scope, coverage and appointment availability.</p>
+      <p>{site.enquirySite ? 'Send your job details to Headbanger Marketing for review. A provider must be identified and must confirm coverage and availability before a visit can be arranged.' : 'Share what you need at your property. A callback will confirm service scope, coverage and appointment availability.'}</p>
     </div>
   </section>
   <section class="section">
@@ -31,7 +31,7 @@ const desc = `Request ${service.toLowerCase()} in ${site.city}, Ontario. Share t
         {!site.hidePhone && <p>Phone: <a href={`tel:${site.phone.tel}`}>{site.phone.display}</a></p>}
       </div>
       <div class="split__media">
-        <QuoteForm site={site} heading="Request a Quote" sub="A callback will confirm scope and availability." idSuffix="contact" placeholder="Describe the issue or planned work." />
+        <QuoteForm site={site} heading="Request a Quote" sub={site.enquirySite ? 'Your request goes to Headbanger Marketing for review. Submission does not book a visit.' : 'A callback will confirm scope and availability.'} idSuffix="contact" placeholder="Describe the issue or planned work." />
       </div>
     </div>
   </section>

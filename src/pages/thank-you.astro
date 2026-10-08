@@ -18,7 +18,9 @@ import { loadSite } from '../lib/load-site';
 const { site } = await loadSite();
 
 const title = `Thank You | ${site.brand}`;
-const desc = `Your request has been submitted for ${site.city}. A callback will confirm scope and appointment availability.`;
+const desc = site.enquirySite
+  ? `Headbanger Marketing has received your ${site.city} inquiry for review. A provider and appointment are not confirmed.`
+  : `Your request has been submitted for ${site.city}. A callback will confirm scope and appointment availability.`;
 
 const partner = site.partner;
 const partnerUrl = partner?.url;
@@ -51,7 +53,7 @@ const partnerLogo = partnerSlug ? `/assets/img/partners/${partnerSlug}.png` : ''
       )}
       {partner?.tagline && <p class="ty__partner-line">{partner.tagline}</p>}
 
-      <p class="ty__lede">Your request about the {site.city} property has been accepted. A callback will confirm the details and appointment availability.</p>
+      <p class="ty__lede">{site.enquirySite ? `Headbanger Marketing has received your ${site.city} inquiry for review. Provider identity, service coverage, pricing and appointment availability still need confirmation.` : `Your request about the ${site.city} property has been accepted. A callback will confirm the details and appointment availability.`}</p>
 
       <div class="ty__warn">
         <span class="ty__warn-ic"><Fragment set:html={icon('phone', '', 20)} /></span>
@@ -67,7 +69,7 @@ const partnerLogo = partnerSlug ? `/assets/img/partners/${partnerSlug}.png` : ''
         {partner?.name ? (
           <>Serviced by <strong>{partner.name}</strong>{partnerUrl && <> &middot; <a href={partnerUrl} rel="nofollow noopener" target="_blank">learn more</a></>}</>
         ) : (
-          <>Serviced by <strong set:html={site.brandHtml} /></>
+          <>{site.enquirySite ? 'Reviewed by Headbanger Marketing' : <>Serviced by <strong set:html={site.brandHtml} /></>}</>
         )}
       </p>
     </div>

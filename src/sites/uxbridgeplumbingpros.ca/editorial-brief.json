@@ -1,0 +1,70 @@
+{
+  "domain": "uxbridgeplumbingpros.ca",
+  "brand": "Uxbridge Plumbing Pros",
+  "market": "Uxbridge",
+  "trade": "Plumbing",
+  "owner": "Headbanger Marketing",
+  "publication": "indexable_after_independent_source_and_intake_review",
+  "coverage": [
+    "Uxbridge"
+  ],
+  "physical_address": null,
+  "phone": null,
+  "provider": null,
+  "editorial_angle": "Defining indoor work separately from private supply or outdoor connections",
+  "property_assertions": "All property situations are conditional. No town-wide housing, water or contamination claims.",
+  "scopes": {
+    "water-heaters": {
+      "intro": "Uxbridge Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. Compare hot-water-only symptoms with changes that also affect cold outlets, and identify the current heater and connected treatment if present.",
+      "problem": "Comparing hot and cold outlet observations can help frame the investigation without establishing its result.",
+      "assessment_follow_through": "Ask the respondent whether the current evidence supports heater work or a wider supply assessment, and what checks are still needed. The proposed replacement should be compared with that finding, including actual equipment ownership, fuel and connections. A separate upstream issue should not disappear into an undefined heater installation estimate.",
+      "comparison": "Ask whether the first assessment should focus on the heater or an upstream supply issue. Equipment selection should follow that distinction rather than replace a tank by assumption.",
+      "scope_outcome": "If the finding supports heater work, compare the selected option with actual equipment, fuel and connection requirements. If an upstream supply concern remains, that assessment should be named separately instead of priced as an unexplained heater extra. Keep each completed correction and unresolved question in the record. A later provider should be able to distinguish the heater installation from private-supply or distribution work without assuming the hot-water complaint required changing every connected system."
+    },
+    "drain-cleaning": {
+      "intro": "Uxbridge Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. Describe whether a blockage affects one indoor fixture, multiple building drains or an on-site wastewater system, if present.",
+      "problem": "A building drain assessment has a defined reach.",
+      "assessment_follow_through": "Ask the respondent which route can be inspected from current access and how the reported fixtures relate to that route. If an on-site wastewater system is present and may be implicated, clarify the specialist and separate assessment before work is agreed. Cleaning a fixture branch should not be presented as confirmation that the complete wastewater arrangement is functioning or suitable for a new project.",
+      "comparison": "Ask which sections can be inspected from available access and when a separate wastewater assessment would be appropriate. A cleared fixture branch does not verify an entire system.",
+      "scope_outcome": "Compare a building-line correction with any separate wastewater assessment by their actual boundaries and findings. If current access cannot establish the external system condition, leave that uncertainty explicit and identify the relevant specialist. Keep recordings or written results associated with the reached segment. A successful fixture clearing result can document that task without being presented as confirmation of the whole property’s wastewater function or permission to connect additional fixtures."
+    },
+    "repiping": {
+      "intro": "Uxbridge Plumbing Pros collects repiping inquiries for Headbanger Marketing review. Separate the proposed indoor pipe replacement from a line continuing outdoors or toward supply equipment, and mark uncertain routes.",
+      "problem": "An indoor replacement can be priced more clearly when its boundary at an outdoor connection is identified.",
+      "assessment_follow_through": "Ask the respondent to mark known pipe and any route still requiring investigation, then compare isolation and access for each section. Groundwork and room restoration may need different contractors or agreements. The scope should name those dependencies before treating an uncertain buried section as included in a routine interior repiping project.",
+      "comparison": "Compare access and testing for each section before accepting one combined scope. Ground disturbance and finished-room restoration may need different arrangements.",
+      "scope_outcome": "An agreed pipe option should separate the indoor run from any assessed outdoor section and state what remains unknown. Compare access and restoration for each area on that same boundary rather than bundle uncertain ground work with room replacement. Retain the final route and materials description. A future investigation should be able to identify which section was actually renewed, including any connection deliberately retained at the indoor-to-outdoor transition."
+    },
+    "fixtures-toilets": {
+      "intro": "Uxbridge Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. For a utility or outdoor-connected fixture, identify its actual supply and drain destination as far as you can confirm.",
+      "problem": "A utility fixture may depend on an outdoor or less familiar connection whose purpose is not obvious from its location.",
+      "assessment_follow_through": "Ask the respondent to establish where the proposed supply and drainage would connect and whether the chosen product suits that arrangement. Compare required branch changes with fitting the fixture itself. Any route that remains uncertain should be assessed before the project is treated as a direct installation at the nearest pipe.",
+      "comparison": "Ask which connection details and product requirements need verification. A convenient pipe nearby does not establish that the proposed fixture has an appropriate route.",
+      "scope_outcome": "If assessment supports the proposed utility fixture, compare fitting the product with establishing any new supply or drain branch it needs. If the nearby connection is unsuitable, the alternative should explain its route and work before installation is agreed. Keep the actual fitted product and final connection arrangement in the record. The completed description should not imply that other outdoor or utility fixtures share that configuration unless their routes were also confirmed."
+    },
+    "leak-detection": {
+      "intro": "Uxbridge Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Note whether the suspected leak is based on visible indoor moisture, unexplained supply use or water observed near an outdoor connection.",
+      "problem": "Indoor moisture and apparent supply loss outside the house should be compared as separate observations until a connection is established.",
+      "assessment_follow_through": "Ask the respondent how the investigation would define and test the suspected sections, with the evidence for any opening or excavation explained first. Clarify who can authorize work on remote equipment. A wider repair boundary should follow the findings rather than the assumption that every symptom shares one buried source.",
+      "comparison": "Ask how those possibilities would be tested separately before repairs are proposed. Clarify access and restoration responsibilities for any investigation outside the house.",
+      "scope_outcome": "A supported leak repair should identify the section and the evidence for opening it, with ground or finish restoration assigned. If the suspected route is not confirmed, compare further investigation as a defined step rather than excavate the assumed line. Keep indoor and outdoor findings distinct until their relationship is established. The final record should make clear what was located and corrected, leaving other observations unresolved if they were outside the assessed boundary."
+    },
+    "sump-pumps": {
+      "intro": "Uxbridge Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Photograph the accessible pit and discharge termination, and describe any observed water entry without assigning it to a presumed high water table.",
+      "problem": "A wet basement observation should be related to actual entry and discharge conditions rather than a presumed cause based on the address.",
+      "assessment_follow_through": "Ask the respondent what measurements and equipment observations support the pump proposal and which other drainage questions remain outside it. Compare backup, alarm and access options within that defined function. A system for groundwater removal should not be described as resolving every possible water or sewage entry route.",
+      "comparison": "Ask what measurements support the proposed pump and discharge work. Groundwater removal, surface drainage and sewer backflow are different issues to assess.",
+      "scope_outcome": "Compare the pump proposal with the observed drainage role, discharge and access that the provider assessed. If the source of water entry remains uncertain, keep that separate from equipment selection and identify the next relevant assessment. Request the model and maintenance information for any installation, along with its actual function. A homeowner should not have to infer from a general flood-protection description whether the work addressed groundwater pumping, surface drainage or sewer-backflow concerns."
+    },
+    "water-softeners": {
+      "intro": "Uxbridge Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. Provide relevant water-test results, source information and existing treatment labels if a private supply is part of the property.",
+      "problem": "Private-supply treatment requires the concern and evidence to be identified before a device is selected.",
+      "assessment_follow_through": "Ask the respondent to relate each proposed stage to relevant testing and the outlets it would serve. Compare maintenance of existing equipment with replacement or added treatment, including the owner’s ongoing tasks. A water-safety conclusion should come from appropriate testing and qualified assessment rather than the presence of a softener or a visible cartridge.",
+      "comparison": "Ask what each proposed treatment stage is intended to address and who will assess suitability. Maintenance and follow-up testing should be discussed with the qualified provider.",
+      "scope_outcome": "Where suitable evidence supports a treatment change, compare its intended purpose and connected outlets with ongoing service and follow-up responsibilities. If a current test or qualified assessment is missing, obtaining that evidence may be more useful than choosing equipment from a symptom description. Retain the installed configuration with the relevant water records. Equipment installation and water-safety assessment should remain distinguishable so later servicing does not rely on a device label as proof of the supply’s condition."
+    }
+  },
+  "sources": [
+    "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/floods/flood-risk/prevent-flood-damage/sump-pumps.html"
+  ]
+}

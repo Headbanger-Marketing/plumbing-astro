@@ -1,0 +1,70 @@
+{
+  "domain": "bowmanvilleplumbingpros.ca",
+  "brand": "Bowmanville Plumbing Pros",
+  "market": "Bowmanville",
+  "trade": "Plumbing",
+  "owner": "Headbanger Marketing",
+  "publication": "indexable_after_independent_source_and_intake_review",
+  "coverage": [
+    "Bowmanville"
+  ],
+  "physical_address": null,
+  "phone": null,
+  "provider": null,
+  "editorial_angle": "Investigating recurring symptoms before choosing a larger repair",
+  "property_assertions": "All property situations are conditional. No town-wide housing, water or contamination claims.",
+  "scopes": {
+    "water-heaters": {
+      "intro": "Bowmanville Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. If hot-water performance has declined more than once, record earlier parts or maintenance work and the demand when the problem returns.",
+      "problem": "A recurring performance issue should be assessed alongside the results of previous work, not simply attributed to equipment age.",
+      "assessment_follow_through": "Ask the respondent what observation or measurement would distinguish an unresolved fault from a change in hot-water use. Compare repair and replacement against that finding. An estimate should identify which prior components would remain, what connection work changes and what the proposed option is intended to address.",
+      "comparison": "Ask which measurements or observations would support repair versus replacement. An intermittent symptom should be explained before equipment age alone determines the recommendation.",
+      "scope_outcome": "Compare repair and replacement against the current finding and the documented effect of earlier work. If the provider cannot establish the source of an intermittent complaint during assessment, ask what further evidence would resolve it before choosing equipment. Keep the proposed option’s purpose explicit, with connection and access work named. The final record should describe what was actually corrected rather than imply that buying another heater necessarily explains every prior performance event."
+    },
+    "drain-cleaning": {
+      "intro": "Bowmanville Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. List each blockage event, the fixtures involved and the method used to clear it, including any available camera recording.",
+      "problem": "A useful follow-up to a recurring blockage explains both where the restriction is found and what the earlier cleaning achieved.",
+      "assessment_follow_through": "Ask the respondent to relate any new recording or observation to the same fixture history and access point. Request the evidence behind a repair recommendation before treating recurrence as proof of damaged pipe. The estimate should distinguish another clearing attempt, further inspection and any supported structural work.",
+      "comparison": "Ask whether follow-up inspection can establish why the blockage returns and where it occurs. Repeating the same cleaning method is a choice to justify with evidence.",
+      "scope_outcome": "If inspection establishes a repeated restriction at a particular section, compare the supported correction with another cleaning attempt and its likely investigation limits. A visible finding should be related to the route and fixtures in the request, not merely described as a reason to replace an entire line. Keep recordings and written findings with the agreed repair boundary. If the cause remains uncertain, the next useful scope should say what further assessment is needed."
+    },
+    "repiping": {
+      "intro": "Bowmanville Plumbing Pros collects repiping inquiries for Headbanger Marketing review. If leaks have occurred in more than one place, map the verified repairs and identify materials only where visible or documented.",
+      "problem": "Several documented leaks can support a broader assessment without proving that every run needs replacement.",
+      "assessment_follow_through": "Ask the respondent to map the verified events and the materials associated with them, noting concealed sections that remain unknown. Compare a sectional repair with wider work by evidence, access and restoration. A replacement boundary should be explained in relation to the connected pipe, not only the count of previous repairs.",
+      "comparison": "Compare a local repair with replacement of connected runs, including the evidence for widening the scope and the access openings each option needs.",
+      "scope_outcome": "A wider replacement estimate should connect its boundary to the verified leak and material history, with retained or uncertain runs stated. Compare it with sectional repair using the same openings and restoration assumptions. Request a completed description of the sections changed and any checks the provider performs. Later work should be able to distinguish that project from earlier isolated repairs rather than assume several invoices together establish that the entire house was repiped."
+    },
+    "fixtures-toilets": {
+      "intro": "Bowmanville Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. For a toilet or faucet that has been repaired repeatedly, name the parts changed and describe the current symptom.",
+      "problem": "Repeated part changes are useful only if their effect on the symptom is recorded.",
+      "assessment_follow_through": "Ask the respondent to distinguish a failed fixture component from a connection or system condition that a new product might leave unresolved. Compare the supported repair with a replacement and the connection changes it would need. The scope should explain the purpose of the proposed option rather than assume the latest symptom requires another identical part.",
+      "comparison": "Ask whether the issue relates to the fixture, its connection or another part of the system. A product replacement should be compared with a supported repair scope.",
+      "scope_outcome": "If a fixture defect is supported, compare repair and replacement by the actual component, connections and work included. If the cause lies elsewhere, the proposal should explain why another product would not address that finding. Retain the fitted model and the description of any altered connection after work. The history should show which correction resolved the supported defect, avoiding a cycle of buying the same part or fixture without recording what each attempt established."
+    },
+    "leak-detection": {
+      "intro": "Bowmanville Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Record the pattern of recurring stains, meter changes or moisture, including weather or fixture use observed at the same time.",
+      "problem": "A returning stain can follow an unresolved source, a second source or another moisture condition.",
+      "assessment_follow_through": "Ask the respondent how the history of previous openings and repairs will inform the current investigation. The finding should explain which observation establishes a plumbing defect and where it is located. Compare the access and restoration for the supported repair before accepting a proposal to reopen every previously affected surface.",
+      "comparison": "Ask what tests would establish a plumbing source and how earlier repair results will inform the investigation. A returning stain may have more than one explanation.",
+      "scope_outcome": "Compare a supported repair with any further source assessment that remains necessary for recurrent moisture. The scope should name the located defect, openings and restoration rather than repeat the complete earlier repair boundary without explanation. Keep the investigation findings and current observations together. If another source is suspected but unconfirmed, record it as a separate unresolved question so later service does not treat all returning stains as proof that the same pipe failed again."
+    },
+    "sump-pumps": {
+      "intro": "Bowmanville Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. If an alarm or pump problem has returned, document the equipment label, prior work and circumstances around each event.",
+      "problem": "The timing of a recurrent pump or alarm problem can help define what needs assessment without selecting replacement equipment by itself.",
+      "assessment_follow_through": "Ask the respondent to compare pit behaviour, discharge and power observations with the earlier repair record. A new pump, backup or alarm proposal should explain its role and limitations in that actual system. Keep any separate sewer-backflow investigation explicit rather than bundle it with the recurring pump issue.",
+      "comparison": "Ask how pit behaviour, discharge and power conditions would be assessed before choosing another pump or backup component. Keep sewage-backflow concerns as a separate assessment.",
+      "scope_outcome": "An equipment option should state the recurrent condition it addresses and the evidence behind selection. Compare pump replacement, backup and alarm work as distinct functions, with access and any discharge change explained. Keep unresolved power, drainage or entry-route questions separate rather than suggest one component resolves them all. The completed record should identify the installed model and configuration so a later alarm event can be assessed against the actual work performed."
+    },
+    "water-softeners": {
+      "intro": "Bowmanville Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. Note repeated scale, taste or equipment issues alongside actual water-test and maintenance records, if you have them.",
+      "problem": "Repeated deposits or appliance complaints should be considered alongside actual water and maintenance information.",
+      "assessment_follow_through": "Ask the respondent whether the installed device is matched to a measured concern and whether its service condition has been assessed. Compare correction of the existing configuration with any added treatment, including ongoing consumables and access. A recurring visual symptom alone should not be treated as a water-quality conclusion or proof that another appliance is needed.",
+      "comparison": "Ask whether the installed treatment is maintained and matched to the measured concern before adding another appliance. Symptoms alone do not establish water composition.",
+      "scope_outcome": "Compare servicing the existing treatment with changing the configuration using the same measured concern and equipment findings. If additional assessment is needed, identify it before selecting another device. Keep the installed model, settings information supplied by the provider and maintenance responsibilities with the relevant water records. A future recurrence should be compared with those records rather than interpreted as proof that every treatment appliance needs replacement or that the original concern was never assessed."
+    }
+  },
+  "sources": [
+    "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/floods/flood-risk/prevent-flood-damage/sump-pumps.html"
+  ]
+}

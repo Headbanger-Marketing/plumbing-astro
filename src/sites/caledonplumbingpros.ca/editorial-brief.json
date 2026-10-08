@@ -1,0 +1,70 @@
+{
+  "domain": "caledonplumbingpros.ca",
+  "brand": "Caledon Plumbing Pros",
+  "market": "Caledon",
+  "trade": "Plumbing",
+  "owner": "Headbanger Marketing",
+  "publication": "indexable_after_independent_source_and_intake_review",
+  "coverage": [
+    "Caledon"
+  ],
+  "physical_address": null,
+  "phone": null,
+  "provider": null,
+  "editorial_angle": "Establishing the actual water supply and wastewater arrangement",
+  "property_assertions": "All property situations are conditional. No town-wide housing, water or contamination claims.",
+  "scopes": {
+    "water-heaters": {
+      "intro": "Caledon Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. Identify the heater fuel and any treatment equipment upstream of it, plus the actual symptoms and the existing model label.",
+      "problem": "The water source and any upstream treatment are context for the heater assessment, not a diagnosis of the heater symptom.",
+      "assessment_follow_through": "Ask the respondent to establish fuel, model and observed performance at the equipment before proposing replacement. If maintenance or supply work is also recommended, request its evidence and price separately. The estimate should describe the existing connections and any change needed for the selected equipment, without assuming a particular property arrangement.",
+      "comparison": "Ask whether the proposed replacement scope includes existing connection or maintenance issues. A private supply does not by itself establish a need for different heater equipment.",
+      "scope_outcome": "A heater option should relate to the current unit and observations at this property, with any supply or treatment issue identified separately. Compare replacement with its fuel, connections and actual access rather than assume a standard municipal-service arrangement. If another system needs investigation first, the estimate should state that dependency. Retain the equipment and related-work description so later maintenance can distinguish the heater installation from changes to private-supply or treatment equipment."
+    },
+    "drain-cleaning": {
+      "intro": "Caledon Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. Describe the affected fixtures and whether the property drains to municipal sewer or an on-site system, if that is known.",
+      "problem": "A blockage in building pipe and a concern about an on-site wastewater system have different investigation boundaries.",
+      "assessment_follow_through": "Ask the respondent to identify the part reached from the proposed access and explain what its findings can establish. If the issue may lie beyond the building drainage, clarify the relevant specialist and assessment before authorizing broader work. A cleaning result inside the house should not be presented as confirmation of the complete wastewater system.",
+      "comparison": "Ask which part of the drainage can be inspected from the building. A septic system assessment should not be presented as ordinary fixture drain cleaning.",
+      "scope_outcome": "If the building line can be cleared or inspected, request a result naming the section reached and the finding established. If evidence suggests an on-site wastewater concern, obtain a separate scope from the relevant specialist rather than assume another cleaning pass will resolve it. Compare further investigation with a structural repair only after the provider explains the supporting evidence. Keep the building result separate from any record covering the external wastewater system."
+    },
+    "repiping": {
+      "intro": "Caledon Plumbing Pros collects repiping inquiries for Headbanger Marketing review. Separate indoor supply runs from a line serving an outbuilding, and identify accessible pipe markings and previous leak locations.",
+      "problem": "An indoor pipe proposal should state where it ends if the line continues to an outbuilding or underground.",
+      "assessment_follow_through": "Ask the respondent to identify confirmed and uncertain sections on the route, then compare the access needed for each. A remote connection may require further assessment before it can be priced alongside indoor replacement. Keep ground disturbance and finish restoration explicit, with responsibilities assigned for the areas outside ordinary plumbing access.",
+      "comparison": "Compare the routing and access involved in each proposed replacement section. Buried or remote connections may require separate investigation before the indoor scope is quoted.",
+      "scope_outcome": "Compare an indoor replacement option with any remote or buried section as distinct work boundaries, including the access and restoration each would require. If the outdoor route is not confirmed, identify the assessment still needed before it becomes part of a price. The completed description should name retained and changed sections across those boundaries. A future provider should be able to tell what was actually replaced instead of assuming the entire property supply was renewed."
+    },
+    "fixtures-toilets": {
+      "intro": "Caledon Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. Provide fixture specifications and the existing supply arrangement when planning a bathroom, laundry or utility sink away from the main service room.",
+      "problem": "A utility fixture away from the main service room may be convenient without having a suitable existing supply or waste route.",
+      "assessment_follow_through": "Ask the respondent to confirm how the proposed connection would work and which observations remain uncertain. Compare those changes with the fixture specification and service access. The written scope should separate fitting the product from establishing a new branch or other connection that the location requires.",
+      "comparison": "Ask whether the proposed location affects drainage, available supply and maintenance access. Do not assume a fixture can connect because there is a nearby pipe.",
+      "scope_outcome": "If assessment supports the proposed remote fixture, compare its product fitting with the branch and drainage work needed at that space. If a connection is unsuitable or unknown, the next step should define the alternative route or further investigation rather than promise a direct hookup. Keep access and maintenance requirements visible in the proposal. The final record should show the actual connection arrangement, especially where it differs from the nearest pipe identified in the original request."
+    },
+    "leak-detection": {
+      "intro": "Caledon Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Note whether unexplained water use is observed at the house meter or private supply equipment, and distinguish that observation from a visible stain.",
+      "problem": "Unexpected supply use and visible indoor moisture can point to different sections of the property.",
+      "assessment_follow_through": "Ask how the respondent would distinguish indoor branches from any connected outdoor run without assuming the leak location. Request a description of the evidence before excavation or room openings are proposed. Identify who can authorize access to remote equipment, and how the investigation boundary changes if the initially suspected section is not supported.",
+      "comparison": "Ask how indoor branches and any outbuilding line would be isolated for assessment. The investigation should establish a source before excavation or room openings are proposed.",
+      "scope_outcome": "The investigation outcome should identify a supported indoor or outdoor section, or explain what access is still needed to locate the loss. Compare any repair with the proposed opening, excavation and restoration at that section. If another specialist controls the equipment or supply, establish that handoff before work expands. Retain the findings and route information without presenting an untested assumption about a buried line as a confirmed leak location."
+    },
+    "sump-pumps": {
+      "intro": "Caledon Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Describe the pit, pump and exterior discharge termination, and mention any seasonal access restriction at the property.",
+      "problem": "A location described as rural does not provide the measurements needed to select a pump.",
+      "assessment_follow_through": "Ask the respondent what actual pit behaviour and discharge observations inform the proposed work, and how backup or alarm options would be evaluated. If water entry has another apparent route, keep that assessment separate. Access, discharge and maintenance should be documented for the property’s real arrangement rather than inferred from the community name.",
+      "comparison": "Ask whether measured inflow, discharge routing and backup power need review. A rural address alone does not establish flood risk or the capacity a pump needs.",
+      "scope_outcome": "Compare the proposed pump and backup equipment with the observations the provider used to select them, alongside discharge and service access. If another entry route remains unresolved, that concern should stay explicit rather than disappear into a general flood-protection description. Request the installed model and maintenance information after work. A later assessment should be able to understand which drainage function was addressed and which separate property questions were not included."
+    },
+    "water-softeners": {
+      "intro": "Caledon Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. For private water, provide any current test results and the existing treatment equipment labels before discussing replacement cartridges or a new system.",
+      "problem": "Treatment choices for a private supply should be related to actual source information and suitable test results.",
+      "assessment_follow_through": "Ask the respondent to identify the concern addressed by each proposed stage and where it would connect. Clarify the maintenance and follow-up assessment the owner must arrange. An existing device label or a neighbour’s system can help frame a question but does not establish what this property’s water requires.",
+      "comparison": "Ask which measured concern each treatment stage would address and how maintenance would be recorded. Water safety conclusions require appropriate testing and qualified assessment.",
+      "scope_outcome": "A treatment proposal should identify the evidence and intended purpose of each stage, with maintenance and suitable follow-up assessment explained by the qualified provider. Compare those ongoing obligations with the existing configuration before choosing replacement or added equipment. If relevant testing is missing, obtaining it may be the useful next scope. Keep device information and water-assessment records together without treating equipment installation alone as proof of water safety."
+    }
+  },
+  "sources": [
+    "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/floods/flood-risk/prevent-flood-damage/sump-pumps.html"
+  ]
+}

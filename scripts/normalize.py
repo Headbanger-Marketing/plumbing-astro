@@ -168,6 +168,7 @@ def main() -> None:
     # Generate root files for AIO/SEO
     generate_robots(SITE)
     generate_llms_txt(SITE)
+    (DIST / "CNAME").write_text(SITE + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

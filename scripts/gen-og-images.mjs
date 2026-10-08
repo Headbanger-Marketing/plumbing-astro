@@ -48,6 +48,8 @@ function domainHash(s) {
 
 async function buildOG(cfg, outPath, barWidth) {
   const W = 1200, H = 630;
+  const xml = (value) => String(value || "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll('"', "&quot;");
+  const label = cfg.enquirySite ? `<text x="600" y="505" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="42" font-weight="700">${xml(cfg.brand)}</text><text x="600" y="552" text-anchor="middle" fill="#cad9e6" font-family="Arial,sans-serif" font-size="24">Headbanger Marketing inquiry site</text>` : "";
   const c = hex2rgb(cfg.navy);
   const darker = { r: Math.max(0, c.r - 14), g: Math.max(0, c.g - 14), b: Math.max(0, c.b - 14) };
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}">
@@ -58,6 +60,7 @@ async function buildOG(cfg, outPath, barWidth) {
     </linearGradient>
   </defs>
   <rect width="${W}" height="${H}" fill="url(#bg)"/>
+  ${label}
   <rect x="0" y="${H - 14}" width="${barWidth}" height="14" fill="${cfg.accent}" opacity="0.92"/>
 </svg>`;
   const base = `${outPath}.base.png`;
@@ -71,12 +74,12 @@ async function buildOG(cfg, outPath, barWidth) {
     : existsSync(`${LOGO_DIR}-trans/${cfg.logo}`) ? `${LOGO_DIR}-trans/${cfg.logo}` : `${LOGO_DIR}/${cfg.logo}`;
   const logoPre = `${outPath}.logo.png`;
   await sharp(logoSrc)
-    .resize(380, 380, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
+    .resize(cfg.enquirySite ? 280 : 380, cfg.enquirySite ? 280 : 380, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
     .png().toFile(logoPre);
 
   const logoMeta = await sharp(logoPre).metadata();
   const left = Math.round((W - logoMeta.width) / 2);
-  const top = Math.round((H - logoMeta.height) / 2);
+  const top = cfg.enquirySite ? 110 : Math.round((H - logoMeta.height) / 2);
   await sharp(base).composite([{ input: logoPre, left, top }]).png().toFile(outPath);
 
   // Clean up scratch files.
@@ -95,7 +98,7 @@ const domains = targets.length ? targets : allDomains;
 // Build a single ESM script that imports every site and dumps logo + navy.
 const imports = allDomains.map((d, i) => `import { site as s${i} } from "${SITES_DIR}/${d}.ts";`).join('\n');
 const rows = allDomains.map((d, i) =>
-  `{ domain: s${i}.domain, logo: (s${i}.media && s${i}.media.logo) || "01-flame-snowflake-badge.png", navy: (s${i}.palette && s${i}.palette.navy) || "#0f2544", accent: (s${i}.palette && s${i}.palette.accent) || "#d4a843" }`
+  `{ domain: s${i}.domain, brand: s${i}.brand, enquirySite: !!s${i}.enquirySite, logo: (s${i}.media && s${i}.media.logo) || "01-flame-snowflake-badge.png", navy: (s${i}.palette && s${i}.palette.navy) || "#0f2544", accent: (s${i}.palette && s${i}.palette.accent) || "#d4a843" }`
 ).join(', ');
 const extractor = `${imports}\nconsole.log(JSON.stringify([\n${rows}\n]));`;
 const tmpExtract = `${ROOT}scripts/.gen-og-extract.mjs`;

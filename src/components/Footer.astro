@@ -25,19 +25,19 @@ const areas = site.serviceAreas.map((a) => `<li>${a}</li>`).join('');
         <a class="brand footer-brand" href="/">
           <img class="brand__logo" width="64" height="64" src={site.media?.logo ? `/assets/img/logos/${site.media.logo}` : '/assets/img/logo.png'} alt={site.brand} loading="eager" decoding="async">
         </a>
-        <p class="footer-about">{vc.tagline(site.city, site.county)}</p>
+        <p class="footer-about">{site.enquirySite ? `Headbanger Marketing owns this ${site.city} inquiry website. Submit a request for review. Provider identity, coverage and appointment availability require confirmation.` : vc.tagline(site.city, site.county)}</p>
       </div>
       <div>
         <h2>Company</h2>
         <div class="footer-links">
           <a href="/">Home</a><a href="/about/">About</a>
-          {vc.hasBlog && <a href="/blog/">Blog</a>}
+          {vc.hasBlog && !site.enquirySite && <a href="/blog/">Blog</a>}
           <a href="/contact/">Contact</a><a href="/privacy-policy/">Privacy Policy</a>
         </div>
       </div>
       {vc.hasServicesNav && (
         <div>
-          <h2>Our Services</h2>
+          <h2>{site.enquirySite ? 'Service Guides' : 'Our Services'}</h2>
           <div class="footer-links" set:html={svc}></div>
         </div>
       )}
@@ -52,7 +52,7 @@ const areas = site.serviceAreas.map((a) => `<li>${a}</li>`).join('');
       </div>
     </div>
     <div class="footer-areas">
-      <span class="footer-areas__label">Service Areas</span>
+      <span class="footer-areas__label">{site.enquirySite ? 'Request location' : 'Service Areas'}</span>
       <ul class="footer-areas__list" set:html={areas}></ul>
     </div>
     <div class="footer-bottom">
@@ -62,10 +62,10 @@ const areas = site.serviceAreas.map((a) => `<li>${a}</li>`).join('');
   </div>
 </footer>
 <div class="mobile-bar mobile-bar--single">
-  <a class="btn btn-primary" href="/contact/#quote"><Fragment set:html={icon('send', '', 18)} /> Get a Free Quote</a>
+  <a class="btn btn-primary" href="/contact/#quote"><Fragment set:html={icon('send', '', 18)} /> {site.enquirySite ? 'Send an Inquiry' : 'Get a Free Quote'}</a>
 </div>
 <script src="/assets/js/main.js" defer></script>
 <!-- Chat widget (n8n workflow; zero-config, skinned from
      theme-color meta, brand from og:site_name). Disable per-site with
      <meta name="hc-chat" content="off"> in the page head. -->
-<script src="/assets/js/chat-widget.js" defer></script>
+{!site.enquirySite && <script src="/assets/js/chat-widget.js" defer></script>}

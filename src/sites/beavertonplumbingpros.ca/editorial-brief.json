@@ -1,0 +1,70 @@
+{
+  "domain": "beavertonplumbingpros.ca",
+  "brand": "Beaverton Plumbing Pros",
+  "market": "Beaverton",
+  "trade": "Plumbing",
+  "owner": "Headbanger Marketing",
+  "publication": "indexable_after_independent_source_and_intake_review",
+  "coverage": [
+    "Beaverton"
+  ],
+  "physical_address": null,
+  "phone": null,
+  "provider": null,
+  "editorial_angle": "Making the investigation and equipment access explicit in a small project",
+  "property_assertions": "All property situations are conditional. No town-wide housing, water or contamination claims.",
+  "scopes": {
+    "water-heaters": {
+      "intro": "Beaverton Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. Describe the heater symptom and the door or stair route needed to reach it, with the label and surrounding connections if visible.",
+      "problem": "A tight equipment room can affect removal and connection work even when the proposed heater resembles the existing model.",
+      "assessment_follow_through": "Ask the respondent to establish the actual access route and space before comparing repair and replacement. The supported technical option and practical installation scope should be described together. Identify delivery, old-equipment removal and any altered connection as explicit items rather than assume they are included in the product price.",
+      "comparison": "Compare a supported repair with replacement, including removal and installation access. A compact room can change the work even when the replacement tank looks similar.",
+      "scope_outcome": "If a repair is supported, compare its access and component work with a replacement that includes moving the equipment through the actual route. If a different model is selected, identify connection and space changes explicitly. Keep removal and finish responsibilities in the estimate so the scope is more than a product price. The completed record should name what was fitted or repaired, with other unassessed supply concerns left separate from the small heater request."
+    },
+    "drain-cleaning": {
+      "intro": "Beaverton Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. Identify the slow fixture and whether its trap or a relevant cleanout is accessible without removing cabinetry or finishes.",
+      "problem": "The access behind a sink or at a cleanout determines which part of a drain can be assessed.",
+      "assessment_follow_through": "Ask the respondent to identify that reach and explain what a result there can establish about the reported blockage. Compare a local clearing task with further investigation only where findings support it. If cabinetry or finishes must be disturbed for another access point, discuss authorization and restoration before the small request expands.",
+      "comparison": "Ask what the proposed method can reach from that access point and what is excluded. A small fixture clog and a concealed branch problem may require different work.",
+      "scope_outcome": "Compare a local clearing task with any further access proposed for a concealed branch, including what evidence supports that next step. A result from one reachable segment should identify its limit instead of suggest every drain has been inspected. If cabinetry or finishes must be opened, assign restoration before work expands. Retain the findings and reached route so future service can distinguish the completed small task from an unresolved issue farther along the line."
+    },
+    "repiping": {
+      "intro": "Beaverton Plumbing Pros collects repiping inquiries for Headbanger Marketing review. Mark the specific pipe section at issue and whether both ends can be accessed for a supported repair or replacement.",
+      "problem": "A sectional pipe repair should identify accessible connection points and the material transitions around the defect.",
+      "assessment_follow_through": "Ask the respondent to compare the supported repair with any wider replacement and explain the access each needs. The route may affect which finishes are opened even when the pipe length is small. Keep investigation and restoration explicit so a proposal for one visible section does not imply access to every concealed branch.",
+      "comparison": "Compare the openings and routing required for a section repair with wider repiping. Ask how existing finishes and material transitions would be handled.",
+      "scope_outcome": "An agreed sectional repair should identify the actual material and connection points changed, with retained pipe and any concealed section left clear in the record. Compare a wider option by the additional evidence, access and restoration it needs. The owner should be able to understand why the boundary expands beyond the visible defect. After work, the description should not imply the whole system was repiped if only a supported accessible section was replaced."
+    },
+    "fixtures-toilets": {
+      "intro": "Beaverton Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. Send the fixture model and photographs showing its mounting space, shutoffs and visible drain connection.",
+      "problem": "A fixture can be simple to describe yet difficult to remove through cramped access or fixed finishes.",
+      "assessment_follow_through": "Ask the respondent to review the model and actual connection positions before selecting a repair component or new product. Compare any connection alterations and working-space requirements with the installation itself. The estimate should identify which parts are supplied and which finish changes remain separate, rather than treat the fixture box as a complete scope.",
+      "comparison": "Ask whether a repair component is available or a replacement would need connection changes. Include any cramped access that affects removal and future maintenance.",
+      "scope_outcome": "Compare a supported fixture repair with replacement using the confirmed product and connection arrangement, including any work needed to remove it through the available space. If a substitute is fitted, record the actual model and altered connections. Keep finish repairs and supplied parts clear in the proposal. A later parts purchase should be based on the completed installation, not the fixture originally pictured or requested before access and fit were assessed."
+    },
+    "leak-detection": {
+      "intro": "Beaverton Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Describe the first visible wet area and what is accessible behind or below it, without opening finishes merely to locate the source.",
+      "problem": "A wet spot does not establish that the nearest concealed pipe is the source.",
+      "assessment_follow_through": "Ask the respondent what accessible observations can narrow the investigation and what finding would justify an opening. Compare the proposed access with other plausible sources at the room, without opening finishes on an unsupported assumption. Agree how investigation and restoration are handled if the first suspected section does not contain the defect.",
+      "comparison": "Ask how the suspected section can be assessed and what evidence would justify an opening. Agree the investigation boundary and restoration responsibility before work proceeds.",
+      "scope_outcome": "If the investigation identifies a source, compare the supported correction with its opening and restoration rather than expand to every nearby concealed pipe. If the source remains uncertain, the next useful proposal should state what additional observation or access could resolve it. Keep the findings from the initial area, even if they exclude the first suspected connection. The final record should distinguish the located defect from assumptions made before the wall or ceiling was assessed."
+    },
+    "sump-pumps": {
+      "intro": "Beaverton Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Show the pit lid, pump and available access, noting anything that prevents ordinary inspection or equipment removal.",
+      "problem": "A restricted pit opening can change service access without determining which pump or valve is technically suitable.",
+      "assessment_follow_through": "Ask the respondent to explain how the existing equipment and discharge would be assessed through current access and whether changes are required. Compare those practical dependencies with the supported equipment option. The scope should identify inspection, removal and maintenance access rather than promise a quick replacement from the label alone.",
+      "comparison": "Ask whether the proposed work can be completed through that opening and how the discharge or backup components would be reached. The access plan belongs in the scope.",
+      "scope_outcome": "Compare equipment work with any access change needed for inspection, removal and future service through the pit opening. The selected option should identify the drainage function and evidence behind it rather than promise a quick swap solely from a model label. Retain the installed equipment and maintenance information. If another discharge or drainage concern remains, state it separately so a small equipment task is not presented as complete resolution of the property’s water-entry risk."
+    },
+    "water-softeners": {
+      "intro": "Beaverton Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. For a filter or softener in a confined area, describe the cartridge or tank model and room for servicing the existing connections.",
+      "problem": "A confined treatment location may limit servicing even when a new device physically fits.",
+      "assessment_follow_through": "Ask the respondent to identify consumable access, bypass and any drain requirement before selecting equipment. Compare the actual measured or documented concern with repair of the present unit and a supported replacement option. The written scope should distinguish the treatment purpose from cabinetry or connection changes needed to make routine maintenance practical.",
+      "comparison": "Compare repair or consumable replacement with a new unit, supported by the actual concern. Bypass, drain and maintenance clearance should be identified before equipment is ordered.",
+      "scope_outcome": "A treatment option should be compared by its purpose, actual connections and practical maintenance in the confined space. If a different unit is selected, identify bypass, drain and consumable access changes rather than confirm fit from cabinet dimensions alone. Keep the supporting assessment with the fitted model and owner tasks. The completed record should distinguish service or installation from any separate water-quality testing that informed the equipment choice."
+    }
+  },
+  "sources": [
+    "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/floods/flood-risk/prevent-flood-damage/sump-pumps.html"
+  ]
+}

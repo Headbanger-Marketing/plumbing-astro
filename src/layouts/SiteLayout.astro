@@ -42,7 +42,7 @@ const img = ogImage || site.ogImage;
 // original 74) fall back to the shared favicon.ico / favicon.svg / apple-touch.
 const logoHref = site.media?.logo ? `/assets/img/logos/${site.media.logo}` : null;
 const FAVICON = logoHref
-  ? `<link rel="icon" type="image/png" href="${logoHref}"><link rel="apple-touch-icon" href="${logoHref}">`
+  ? `<link rel="icon" type="${logoHref.endsWith('.svg') ? 'image/svg+xml' : 'image/png'}" href="${logoHref}"><link rel="apple-touch-icon" href="${logoHref}">`
   : `<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">`;
 const GOOGLE_FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap">`;
 ---
@@ -58,6 +58,7 @@ const GOOGLE_FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"
 <link rel="canonical" href={canonical}>
 <meta name="robots" content={robotsVal}>
 <meta name="theme-color" content={site.palette.themeColor}>
+{site.enquirySite && <meta name="hc-chat" content="off" />}
 {/* DEV ONLY: point the chat widget at the REAL n8n "HVAC Chat" brain (auto.sdagents.ai).
     Stripped from production builds by import.meta.env.DEV, so prod also hits the real
     n8n /webhook/hvac-chat (this meta is just explicit during dev). To A/B against the
@@ -77,6 +78,7 @@ const GOOGLE_FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"
 <Fragment set:html={FAVICON} />
 <Fragment set:html={GOOGLE_FONTS} />
 <link rel="stylesheet" href="/assets/css/styles.css">
+{site.enquirySite && <style is:inline set:html={`:root { --navy: ${site.palette.navy}; --accent: ${site.palette.accent}; --accent2: ${site.palette.accent2}; }`} />}
 {/* Opt-in per-site hero background (config media.heroImage): same-specificity
     rule AFTER the stylesheet, so it wins the cascade over the shared hero.webp
     on both the home hero and location page-heroes. String concat — no nested

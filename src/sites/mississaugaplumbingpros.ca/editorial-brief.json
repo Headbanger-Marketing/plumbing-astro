@@ -1,0 +1,70 @@
+{
+  "domain": "mississaugaplumbingpros.ca",
+  "brand": "Mississauga Plumbing Pros",
+  "market": "Mississauga",
+  "trade": "Plumbing",
+  "owner": "Headbanger Marketing",
+  "publication": "indexable_after_independent_source_and_intake_review",
+  "coverage": [
+    "Mississauga"
+  ],
+  "physical_address": null,
+  "phone": null,
+  "provider": null,
+  "editorial_angle": "Defining a replacement project before ordering fixtures or equipment",
+  "property_assertions": "All property situations are conditional. No town-wide housing, water or contamination claims.",
+  "scopes": {
+    "water-heaters": {
+      "intro": "Mississauga Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. Compare the current tank label with the intended replacement, including fuel, dimensions and the available space around its connections.",
+      "problem": "An apparently similar replacement can differ in physical size, connection positions and installation requirements.",
+      "assessment_follow_through": "Ask the respondent to describe the fit at your actual equipment space before a product is ordered. If moving from a tank to tankless, compare that proposal as a conversion with its own supply and ventilation work, rather than only comparing purchase prices. Identify who handles the old equipment and which connection changes are included.",
+      "comparison": "If a tankless unit is proposed, ask what supply and vent changes are required rather than assuming the new heater replaces the tank without other work.",
+      "scope_outcome": "An estimate for replacing a tank in place should identify the model and connection work included, while a conversion should explain its added design and installation scope. Compare removal and disposal with delivery and any alterations to the actual equipment space. If the selected product is unsuitable, resolving that choice before the visit is more useful than treating every connection change as an unforeseen extra. Retain the equipment specification and final connection description together for future maintenance."
+    },
+    "drain-cleaning": {
+      "intro": "Mississauga Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. Note whether the slow drain appeared after a sink or appliance replacement and whether a visible trap or branch connection was changed.",
+      "problem": "If the drain became slow after an appliance or sink was changed, preserve the sequence of work in the request.",
+      "assessment_follow_through": "Ask how the respondent would assess the altered connection before treating the issue as a deposit farther down the pipe. The proposed cleaning access should be identified, along with what remains outside its reach. A result at one fixture needs to be interpreted alongside the behaviour of the other connected drains.",
+      "comparison": "Ask how the assessment will distinguish a local connection issue from a blockage farther along the line before choosing a cleaning method.",
+      "scope_outcome": "If the altered fixture connection explains the problem, compare correcting that connection with cleaning an unrelated section. If assessment supports a blockage farther along the pipe, the estimate should identify the access and method proposed for that section. Ask for the observed result and any remaining uncertainty to be recorded. A homeowner can then understand whether the next decision is a local adjustment, another inspection or a supported pipe repair rather than automatically repeating the original cleaning request."
+    },
+    "repiping": {
+      "intro": "Mississauga Plumbing Pros collects repiping inquiries for Headbanger Marketing review. List plumbing altered during earlier renovations and photograph accessible material transitions. The visible pipe may not represent concealed branches.",
+      "problem": "Photographs of exposed pipe transitions can help define questions, but they do not establish the route inside every wall.",
+      "assessment_follow_through": "Ask how the respondent will confirm the sections being priced and distinguish old retained runs from previous replacement work. Compare the access openings required by each proposed route, including any affected cabinetry or tile. The estimate should make clear whether restoration is included or will be arranged separately.",
+      "comparison": "Request a marked scope showing which runs would change, where walls would be opened and which finishes remain outside the plumbing estimate.",
+      "scope_outcome": "Compare repiping proposals on the same set of confirmed runs, not only the length or chosen material. A route that avoids one finished wall may affect another room or require a different isolation arrangement. The estimate should explain those tradeoffs and identify work that remains uncertain until access is obtained. Keep the documented retained sections alongside the replacement description so future work does not assume that every visible and concealed pipe was changed in the project."
+    },
+    "fixtures-toilets": {
+      "intro": "Mississauga Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. Send the installation sheet for the new faucet, toilet or shower component with photographs of the current mounting and connections.",
+      "problem": "A fixture box can omit compatible connection parts or assume an installation condition that differs from the room.",
+      "assessment_follow_through": "Give the respondent the full model specification and ask which supplied and additional components are required. Distinguish connection changes from removing the old fixture and installing the new one. If a product has already been purchased, discuss any identified mismatch before finishes or mounting positions make another choice harder.",
+      "comparison": "Confirm clearances and connection positions before purchase. A fixture package should identify who supplies components and who repairs any disturbed finishes.",
+      "scope_outcome": "If the specification and existing connection support a direct swap, compare removal, supplied fittings and installation checks as one defined task. Where the product needs a changed mounting or route, identify that work before treating two installation prices as equivalent. Include any owner-supplied component and finish responsibility in the record. A provider should confirm the final fitted model, since a substitute made during installation can affect the parts and maintenance information the owner needs afterward."
+    },
+    "leak-detection": {
+      "intro": "Mississauga Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. For moisture that appeared after equipment replacement, record the installation date and where water is first visible without disturbing the connection.",
+      "problem": "An installation date can focus the inquiry without proving that the new equipment caused the moisture.",
+      "assessment_follow_through": "Ask what observations or tests would distinguish its connection from the nearby drain and retained supply piping. Request a description of the source established by the investigation before accepting a wider repair. Keep responsibility for the product, the installation and any opening or finish repair clear rather than assuming they share one warranty.",
+      "comparison": "Ask whether the new connection, neighbouring pipe or drain needs inspection. Keep product warranty questions separate from investigation of a concealed leak.",
+      "scope_outcome": "Where the assessment identifies the new connection as the source, compare the supported correction with any access or restoration required around it. If another source is found, the outcome should explain why the recent installation is not the whole repair boundary. Keep investigation findings separate from a product-warranty decision. That separation helps the owner understand which party is being asked to inspect or correct which work, without assuming a stain automatically assigns responsibility to the latest installer."
+    },
+    "sump-pumps": {
+      "intro": "Mississauga Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Photograph the current pump label and pit opening before selecting a replacement. A different unit may affect float clearance or discharge connections.",
+      "problem": "Pump dimensions and float movement should be considered together with the existing pit and connections.",
+      "assessment_follow_through": "Ask the respondent what measurements support a direct replacement and whether a backup proposal changes the space or discharge arrangement. An additional alarm is another item to define, including how it will be reached and checked. Compare those options by their complete scope rather than selecting a pump from horsepower or cabinet dimensions alone.",
+      "comparison": "Compare a pump-only change with proposed backup or alarm additions, including what access and electrical coordination the broader option would require.",
+      "scope_outcome": "A pump-only option should explain its match to the pit and discharge, while backup and alarm additions should identify their separate equipment and access. Compare all components included rather than assuming a larger package fits because the main pump does. Request the model and maintenance information after work, with any unresolved power or discharge concern stated. A later service visit should be able to identify the actual installed arrangement instead of relying on the original replacement request."
+    },
+    "water-softeners": {
+      "intro": "Mississauga Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. Identify the treatment appliance and the space available for bypass, drain and service access before choosing a replacement cabinet size.",
+      "problem": "A new treatment cabinet should be compared with the way the existing appliance is connected and maintained.",
+      "assessment_follow_through": "Ask where the bypass, drain and consumable access would be after installation, and what evidence supports the proposed treatment purpose. Clarify whether old connections can be retained or require alteration. The written scope should distinguish equipment price, connection work and the ongoing consumables that the owner will be responsible for.",
+      "comparison": "Ask which test result or equipment specification supports the choice. Consumables, settings and maintenance access belong in the comparison alongside purchase price.",
+      "scope_outcome": "Where existing treatment remains suitable, compare its required service with the complete cost and purpose of replacement. If a different device is proposed, ask what changes in the connected outlets, bypass, drain and consumables. The estimate should explain the evidence for that change rather than treat cabinet size as the selection criterion. Retain the installed model and maintenance information, with the specific water concern it was intended to address and any follow-up assessment still required."
+    }
+  },
+  "sources": [
+    "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/floods/flood-risk/prevent-flood-damage/sump-pumps.html"
+  ]
+}

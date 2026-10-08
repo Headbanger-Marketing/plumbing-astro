@@ -1,0 +1,70 @@
+{
+  "domain": "torontoplumbingpros.ca",
+  "brand": "Toronto Plumbing Pros",
+  "market": "Toronto",
+  "trade": "Plumbing",
+  "owner": "Headbanger Marketing",
+  "publication": "indexable_after_independent_source_and_intake_review",
+  "coverage": [
+    "Toronto"
+  ],
+  "physical_address": null,
+  "phone": null,
+  "provider": null,
+  "editorial_angle": "Coordinating work in a home with shared building systems",
+  "property_assertions": "All property situations are conditional. No town-wide housing, water or contamination claims.",
+  "scopes": {
+    "water-heaters": {
+      "intro": "Toronto Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. If the heater is inside a suite or a common mechanical room, establish who owns it and who can approve its replacement.",
+      "problem": "A heater inquiry in a managed building should separate appliance ownership from control of the supplies that serve it.",
+      "assessment_follow_through": "The respondent should identify whether the estimate concerns your own unit or common equipment, and what authorization is needed for isolation. An elevator reservation or mechanical-room key is a practical dependency, not evidence that a proposed tank or tankless model will fit. Ask for the proposed equipment and building coordination to appear as distinct items.",
+      "comparison": "Ask how removal, delivery and water isolation would be organized around the building access window. A room location does not confirm equipment compatibility.",
+      "scope_outcome": "If assessment supports a unit-owned replacement, compare the named appliance with removal, delivery and the connection work at that unit. If common equipment is implicated, the next useful outcome is a defined building assessment rather than a tank quotation. Record who coordinates water isolation and management access in either case. The owner should be able to tell which costs concern the equipment and which arise from the access arrangements, without relying on an assumed building-wide service agreement."
+    },
+    "drain-cleaning": {
+      "intro": "Toronto Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. Distinguish a single slow sink from several fixtures backing up, and note whether neighbouring units have reported a similar event.",
+      "problem": "When more than one unit may be affected, the investigation boundary matters as much as the cleaning method.",
+      "assessment_follow_through": "Ask the respondent to name the pipe section reached from the proposed access point and explain what that assessment can establish. A cleared suite branch does not demonstrate the condition of a shared stack. If the apparent problem lies outside your authority, establish the management contact before approving further work on the common route.",
+      "comparison": "Ask where a suitable access point exists and which section a camera would actually inspect. A shared stack problem needs an authorized building contact.",
+      "scope_outcome": "A proposal can be useful even when it stops at the boundary of the accessible suite branch. It should state what was cleared or observed and whether common-system investigation is still needed. Compare a further camera assessment with a repair only after the provider explains the finding it would resolve. Keep the inspection recording or written result associated with the named section so later building work can distinguish that result from assumptions about the shared stack."
+    },
+    "repiping": {
+      "intro": "Toronto Plumbing Pros collects repiping inquiries for Headbanger Marketing review. For a suite renovation, mark the proposed work boundary and identify any pipe that crosses into a shared wall or building riser.",
+      "problem": "Changing a branch within a suite can require coordination at the point where it connects to common pipe.",
+      "assessment_follow_through": "Request a route sketch that distinguishes retained riser connections from the sections being replaced, and ask how isolation will be authorized. The estimate should also identify which wall faces or ceilings would be opened. A plumbing scope and a building shutdown arrangement can have different approvals, costs and timing.",
+      "comparison": "Compare a local branch replacement with a broader project before finishes are opened. Clarify restoration and the arrangements for a shared water shutdown.",
+      "scope_outcome": "Where inspection supports replacing only a branch, compare the new route with retained building connections and the finishes it crosses. If a broader common-pipe concern is identified, obtain the responsible owner’s involvement before expanding the unit project. The written proposal should show how each option changes access, shutdown coordination and restoration. A homeowner can then compare the same work boundary between estimates instead of treating a shorter pipe description as a cheaper equivalent to a larger building project."
+    },
+    "fixtures-toilets": {
+      "intro": "Toronto Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. Provide the chosen fixture specifications alongside the existing drain position and available access behind the vanity or shower wall.",
+      "problem": "The product supplied by the owner and the connection work supplied by the provider need to meet at a verified installation detail.",
+      "assessment_follow_through": "Ask the respondent to compare the fixture specification with the actual mounting, supply and waste positions before treating it as a replacement in place. If management approval applies, establish who will obtain it. Delivery access should not be mistaken for confirmation that the fixture is technically suitable.",
+      "comparison": "For a replacement in a managed property, confirm the approval process and delivery arrangements before treating the job as a direct swap.",
+      "scope_outcome": "A direct replacement option should identify the selected fixture, compatible connections and removal work. If its fit requires a changed supply, waste or wall detail, compare those additions explicitly rather than hiding them in an installation price. In a managed building, keep approvals and visit access as named dependencies. Retain the product specification with the completed work record so a later repair can identify the installed component without assuming it is the model originally requested."
+    },
+    "leak-detection": {
+      "intro": "Toronto Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Record the first appearance of a stain and whether it changes when your own fixtures are used. A neighbouring source may need investigation.",
+      "problem": "A stain inside your room may be evidence of a problem without identifying the responsible connection.",
+      "assessment_follow_through": "Ask how the investigation would use the pattern of moisture and controlled access to distinguish your fixture, another suite and a common pipe. Request the findings before agreeing to repair the presumed source. Any opening should have an authorizing contact and an agreed restoration boundary, especially where finishes or services are shared.",
+      "comparison": "Ask how observations would separate a fixture connection from shared piping or another moisture source before anyone opens a wall or ceiling.",
+      "scope_outcome": "The investigation result should identify a supported source or explain what could not be established from authorized access. If the evidence points beyond your room, coordinate the relevant contact before a repair is approved. Compare the proposed correction with the opening and restoration it needs, with responsibility for each item stated. Preserve photos and written findings from the assessment; they are more useful for a later handover than attributing the source to a unit simply because a stain appeared there."
+    },
+    "sump-pumps": {
+      "intro": "Toronto Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Describe a ground-level or basement system separately from a high-rise unit, including any existing pit, alarm and previous water entry.",
+      "problem": "For a basement system, identify what the pump or proposed valve would actually protect.",
+      "assessment_follow_through": "Ask the respondent to separate groundwater removal from a sewer-backflow proposal and state the observations supporting each recommendation. For common building drainage, the assessment and authorization belong with the responsible owner or manager. A request submitted by one occupant should not imply that work on the common system has been approved.",
+      "comparison": "Ask whether the request concerns groundwater removal or sewage backup. Shared building drainage should be reviewed with management before a unit-level solution is proposed.",
+      "scope_outcome": "For an individual basement system, compare equipment work with the measured or observed drainage function it addresses. If a common building system is involved, the scope should identify who receives the assessment and can approve follow-up. Do not compare a sump-pump proposal with a sewer-backflow proposal as though they provide the same protection. The owner’s record should name the installed equipment, inspection access and any maintenance information supplied, with unresolved drainage questions left explicit."
+    },
+    "water-softeners": {
+      "intro": "Toronto Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. For a point-of-use filter, identify the sink, cupboard space and water supply arrangement. A whole-building system needs a different owner and scope.",
+      "problem": "One drinking-water outlet can be a much narrower project than treatment on a shared building supply.",
+      "assessment_follow_through": "Ask where the proposed device would connect and which outlets would remain unaffected. If the stated goal depends on a water-quality concern, identify the relevant evidence rather than extrapolating from another unit or location. The estimate should explain consumables and service access for the selected device, with any common-system proposal referred to the responsible owner.",
+      "comparison": "Compare the proposed equipment with the concern you want addressed and any actual test results. Do not infer water hardness or contamination from location alone.",
+      "scope_outcome": "Compare a point-of-use device by the outlets it treats, its connection work and the ongoing tasks the occupant can actually perform. A common-supply proposal needs a separate decision from the building owner and an assessment of that wider configuration. Where a concern is not supported by suitable evidence, obtaining the relevant assessment may be the next step rather than buying a device. Keep any stated treatment purpose separate from assumptions about other suites or the whole building."
+    }
+  },
+  "sources": [
+    "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/floods/flood-risk/prevent-flood-damage/sump-pumps.html"
+  ]
+}

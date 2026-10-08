@@ -25,6 +25,11 @@ function q(s: string): string {
 }
 
 export function schemaLocalbusiness(s: SiteConfig): string {
+  if (s.enquirySite) return `<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org", "@type": "WebSite", "@id": s.url + "/#website",
+    name: s.brand, url: s.url, inLanguage: "en-CA",
+    publisher: { "@type": "Organization", name: "Headbanger Marketing", url: "https://headbangermarketing.com" },
+  })}</script>`;
   const areaServed = s.serviceAreas.map((a) => q(`${a}, ON`)).join(',');
   const bizType = verticalCopy(s).businessType;
   const citationPhone = s.citationPhone ?? s.phone;
@@ -74,6 +79,11 @@ export function schemaService(
   url: string,
   s: SiteConfig
 ): string {
+  if (s.enquirySite) return `<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org", "@type": "WebPage", name: plain(name), description: plain(desc),
+    url: s.url + url, about: { "@type": "Thing", name: plain(name) },
+    isPartOf: { "@id": s.url + "/#website" },
+  })}</script>`;
   const n = plain(name);
   const d = plain(desc);
   const citationPhone = s.citationPhone ?? s.phone;

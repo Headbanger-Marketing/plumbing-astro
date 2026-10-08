@@ -1,0 +1,70 @@
+{
+  "domain": "portperryplumbingpros.ca",
+  "brand": "Port Perry Plumbing Pros",
+  "market": "Port Perry",
+  "trade": "Plumbing",
+  "owner": "Headbanger Marketing",
+  "publication": "indexable_after_independent_source_and_intake_review",
+  "coverage": [
+    "Port Perry"
+  ],
+  "physical_address": null,
+  "phone": null,
+  "provider": null,
+  "editorial_angle": "Planning plumbing work around limited use or an extended absence",
+  "property_assertions": "All property situations are conditional. No town-wide housing, water or contamination claims.",
+  "scopes": {
+    "water-heaters": {
+      "intro": "Port Perry Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. If a heater has been unused, provide its model, known maintenance and the reason for the request rather than assuming it only needs restarting.",
+      "problem": "An unused period can leave uncertainty about equipment condition and maintenance without indicating a specific fault.",
+      "assessment_follow_through": "Ask the respondent which observations and records are needed before ordinary use or replacement is considered. Compare the actual purpose of any recommended heater work with separate supply or connection issues. Access arrangements should identify someone able to discuss the system and approve work if the property cannot be occupied throughout the assessment.",
+      "comparison": "Ask which condition checks are needed before normal use or replacement is considered. Fuel, ownership and connection details should be established at the property.",
+      "scope_outcome": "Compare any heater service or replacement with the present assessment and the known unused period, without filling gaps in history by assumption. The option should identify equipment ownership, access and connection work, with separate condition questions kept explicit. Retain the final model and service information if work proceeds. Someone arranging later occupation should be able to understand what was assessed or changed rather than assume that a cleaning or replacement visit established every connected system’s readiness."
+    },
+    "drain-cleaning": {
+      "intro": "Port Perry Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. Record whether the drain problem appeared after an absence or only when several fixtures were used again.",
+      "problem": "A drain symptom discovered after an absence needs a present assessment rather than a guessed history.",
+      "assessment_follow_through": "Ask the respondent to compare the affected fixtures, known route and any documented shutdown or altered connection. The proposed method should identify the section it can reach and what remains uncertain. Keep checks on a little-used fixture separate from a wider wastewater concern, especially where the system arrangement has not yet been established.",
+      "comparison": "Ask how the assessment would distinguish a blockage from another issue in a little-used fixture. Include any known changes to traps, connections or wastewater arrangements.",
+      "scope_outcome": "If assessment supports clearing a particular drain section, the result should name that reached route and any remaining uncertainty. Compare further investigation with repair only where the findings support it. An absence-related discovery does not establish the age of the blockage or the condition of every connected drain. Keep the present observations and completed-work description together so a future visit can distinguish what was actually assessed from assumptions about the period when the property was unused."
+    },
+    "repiping": {
+      "intro": "Port Perry Plumbing Pros collects repiping inquiries for Headbanger Marketing review. If exposed or rarely used pipe is being considered for replacement, describe its route and the actual defect or project goal.",
+      "problem": "Limited use can frame an access or maintenance question without proving that the supply pipe has failed.",
+      "assessment_follow_through": "Ask the respondent to identify the actual defect or project objective behind replacement and distinguish it from unknown concealed condition. Compare a sectional option with a wider route by its stated purpose, isolation and restoration needs. Any recommendation should identify what evidence is available now and which sections still require assessment.",
+      "comparison": "Compare the documented condition with proposed materials and access work. Limited use alone does not justify replacing every branch or identify the pipe inside finished walls.",
+      "scope_outcome": "Compare sectional repair with wider replacement using the confirmed defect or project goal, with concealed condition left uncertain where it has not been assessed. An option should identify the isolation, openings and restoration needed, especially if the owner cannot be present for every step. Keep the actual changed route and retained sections in the record. Limited use should remain context rather than become an unsupported reason to describe all pipe as requiring replacement."
+    },
+    "fixtures-toilets": {
+      "intro": "Port Perry Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. For a little-used bathroom or utility fixture, record the symptom and any visible product or connection details before selecting a replacement.",
+      "problem": "A rarely used fixture can have incomplete history about its parts and connections.",
+      "assessment_follow_through": "Ask the respondent to establish the present symptom and product identity before choosing repair or replacement. Compare any supported option with the available working space and connection changes it requires. If the property is occupied intermittently, access and authorization should be arranged around the assessment rather than assume the owner can approve unexpected work remotely.",
+      "comparison": "Ask whether the request calls for fixture repair, connection assessment or a layout change. Establish access arrangements when the property cannot be occupied throughout the work.",
+      "scope_outcome": "An agreed fixture option should identify the product, connection changes and working access actually assessed, along with who can approve unexpected findings when the property is unoccupied. Compare repair with replacement on that defined basis. Retain the completed model and connection description for later use or servicing. A successful product change should not imply that unrelated little-used fixtures or concealed plumbing were inspected during the same task."
+    },
+    "leak-detection": {
+      "intro": "Port Perry Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. When moisture is discovered on return, record where it was found and the known last use of nearby fixtures without guessing when the leak began.",
+      "problem": "Finding moisture on return provides a starting observation but not its date or source.",
+      "assessment_follow_through": "Ask the respondent how accessible evidence, known fixture use and any previous records will guide the investigation. Request the finding that supports opening a particular area before authorizing a repair. The proposal should distinguish investigation, plumbing correction and restoration, especially when the condition could extend beyond the room where the moisture was first seen.",
+      "comparison": "Ask how supply, waste and non-plumbing sources would be assessed. Photos taken before cleanup can help preserve observations but do not establish the source.",
+      "scope_outcome": "If a source is established, compare its correction with the access and restoration required at that section. If more investigation is needed, identify the observations or authorized opening that could resolve it before treating the visible area as the repair site. Preserve the dated findings from return to the property. The owner’s record should distinguish confirmed plumbing work from other moisture concerns that were considered but remained outside the investigation or were not established as causes."
+    },
+    "sump-pumps": {
+      "intro": "Port Perry Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Describe any alarm or pump observation during the absence and the condition found on return, with equipment records if available.",
+      "problem": "An absence can leave gaps in the history of alarms and pump operation.",
+      "assessment_follow_through": "Ask the respondent to assess the equipment found on return and explain what can actually be established about its present condition. Compare any replacement or backup recommendation with that finding and the accessible discharge. A lack of recorded alarms should not be treated as confirmation that the system was functioning throughout the unused period.",
+      "comparison": "Ask how operation, discharge and backup arrangements would be checked. A lack of reported alarms does not establish that protection was functioning while the property was unused.",
+      "scope_outcome": "Compare any pump, alarm or backup work with the equipment condition actually found, the accessible discharge and the intended drainage function. Keep uncertainty about operation during the absence explicit rather than infer protection from a lack of reported events. Retain installed model and maintenance information if work proceeds. Someone checking the property later should be able to identify the system’s service access and the scope addressed without interpreting a general equipment invoice as proof about past performance."
+    },
+    "water-softeners": {
+      "intro": "Port Perry Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. List treatment equipment and any service performed before the property was left unused, together with relevant water-test records.",
+      "problem": "Treatment equipment that has been idle needs its purpose and condition understood before normal use or another device is proposed.",
+      "assessment_follow_through": "Ask the respondent what records, equipment instructions and relevant water information inform the assessment. Compare service of the installed configuration with a supported change. The owner’s maintenance and follow-up responsibilities should be clear, with unknown shutdown or service dates left uncertain rather than filled in by assumption.",
+      "comparison": "Ask what condition and maintenance checks are needed before reuse. Treatment settings and cartridge replacement should follow equipment instructions and an assessment of the current concern.",
+      "scope_outcome": "Where assessment supports servicing the idle treatment, compare that scope with replacement using the same intended concern and outlet boundary. If relevant water information or equipment history is missing, identify what must be established before choosing a new configuration. Keep device instructions and owner responsibilities with the completed record. A later occupant should be able to distinguish maintenance performed from any separate test or qualified assessment of the water supply."
+    }
+  },
+  "sources": [
+    "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/floods/flood-risk/prevent-flood-damage/sump-pumps.html"
+  ]
+}

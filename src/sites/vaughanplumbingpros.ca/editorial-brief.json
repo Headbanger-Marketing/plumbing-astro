@@ -1,0 +1,70 @@
+{
+  "domain": "vaughanplumbingpros.ca",
+  "brand": "Vaughan Plumbing Pros",
+  "market": "Vaughan",
+  "trade": "Plumbing",
+  "owner": "Headbanger Marketing",
+  "publication": "indexable_after_independent_source_and_intake_review",
+  "coverage": [
+    "Vaughan"
+  ],
+  "physical_address": null,
+  "phone": null,
+  "provider": null,
+  "editorial_angle": "Coordinating fixture upgrades with a planned kitchen or bathroom layout",
+  "property_assertions": "All property situations are conditional. No town-wide housing, water or contamination claims.",
+  "scopes": {
+    "water-heaters": {
+      "intro": "Vaughan Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. If a remodel adds a larger tub or more hot-water outlets, document the proposed fixtures and the current heater rather than guessing a larger tank is required.",
+      "problem": "A selected tub or shower can make demand planning more specific than a simple bathroom count.",
+      "assessment_follow_through": "Ask the respondent how the fixture use is evaluated against the present heater and supplies, with any measured or design assumptions stated. Compare a functioning heater capacity question with a repair question separately. The installation scope should identify any supply, space or vent change needed for the actual equipment selected.",
+      "comparison": "Ask how simultaneous demand, fuel supply and available space would be assessed before the equipment and related installation work are selected.",
+      "scope_outcome": "Compare heater options against the same selected fixture use and property connections. If a repair is proposed alongside capacity planning, each purpose should remain clear in the estimate. A different appliance can require related installation work even when its output appears similar, so the provider should describe what changes at the equipment space. Keep the final fixture and heater specifications together; a later substitution in the renovation can alter the assumptions behind the original option."
+    },
+    "drain-cleaning": {
+      "intro": "Vaughan Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. For an island or relocated sink, identify whether the request concerns a new drainage route or an existing line that repeatedly blocks.",
+      "problem": "Moving a sink can involve route design even when the old drain also needs cleaning.",
+      "assessment_follow_through": "Ask the respondent to name the existing section being assessed and show how the new branch would connect. The cleaning result should not be treated as approval of the proposed island or room layout. Keep access for future maintenance in the route discussion and identify the work needed before cabinetry or a floor finish conceals it.",
+      "comparison": "Ask for the proposed connection and access arrangement. Clearing an old line and designing a new fixture branch are separate scopes to compare.",
+      "scope_outcome": "An agreed relocation should show the new sink route and any retained drain section, with access that remains available after cabinetry is installed. If clearing the existing line is also needed, compare it as a separate task with its own result. Ask what inspections or approvals the provider has established for the proposed work and who handles them. A written scope should relate to the final layout rather than the position of the sink in an early sketch."
+    },
+    "repiping": {
+      "intro": "Vaughan Plumbing Pros collects repiping inquiries for Headbanger Marketing review. Describe supply pipe that conflicts with new cabinetry, walls or a proposed open ceiling, and mark the affected rooms.",
+      "problem": "A pipe can obstruct the new layout while remaining serviceable.",
+      "assessment_follow_through": "Ask the respondent to explain whether a run is being moved for access or replaced because its condition supports that recommendation. Compare the retained and new routes on a marked plan, including which rooms need openings and isolation. A wider repiping proposal should identify the additional evidence and restoration involved rather than expand automatically with the renovation.",
+      "comparison": "Ask whether rerouting selected branches is sufficient or whether verified pipe condition supports wider replacement. A whole-house estimate needs a clear reason and boundary.",
+      "scope_outcome": "Compare a routing change needed by the renovation with replacement supported by pipe condition as separate purposes. Each option should identify retained branches, new connections and openings through finished rooms. If assessment reveals uncertainty in a concealed section, the proposal should state what further access would resolve it. Keep the completed route description with the renovation record so future trades can distinguish the replaced sections from older runs that were intentionally left in place."
+    },
+    "fixtures-toilets": {
+      "intro": "Vaughan Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. Send the shower valve, tub or sink installation requirements before wall depths, cabinetry and finished surfaces are fixed.",
+      "problem": "Once stone, tile or cabinetry is fixed, correcting an unsuitable fixture position can involve another trade.",
+      "assessment_follow_through": "Ask the respondent to review the selected product details and proposed rough-in locations while those choices remain adjustable. Identify who coordinates wall depth, waterproofing interfaces and service access. A written installation scope should distinguish plumbing connections from finishing responsibilities, particularly for concealed valves and fixtures that require later maintenance access.",
+      "comparison": "Confirm the proposed rough-in locations and access for future repair. Ask who coordinates the plumbing with waterproofing and who checks final fixture fit.",
+      "scope_outcome": "An agreed fixture installation should identify the final product, rough-in positions and interfaces that other trades must follow. Compare owner-supplied and provider-supplied parts explicitly, including any component that remains to be selected. If a specification changes before fitting, ask the provider to confirm its effect on connections and access. The completed-work record should use the actual fitted model, helping later service avoid reliance on a design drawing that no longer matches the room."
+    },
+    "leak-detection": {
+      "intro": "Vaughan Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Record wet areas around the renovation and identify temporary connections or fixtures that changed before the symptoms appeared.",
+      "problem": "The newest change in a renovation is useful context but may not be the leak source.",
+      "assessment_follow_through": "Ask how the respondent will test the connection or route implicated by the observation and account for nearby retained pipe. Request the findings that support the proposed opening before finishes are disturbed. If the investigation boundary changes, discuss authorization and restoration before it becomes a broader repair project.",
+      "comparison": "Ask which source will be tested first and how finished surfaces will be protected during investigation. An apparent room location may differ from the leak source.",
+      "scope_outcome": "The supported repair should be compared with the access it requires, not with every wet surface observed during the renovation. If the assessment leaves more than one possible source, the next useful scope may be further investigation rather than opening all newly finished areas. Record which source was established and which observations remain unresolved. Assign restoration separately where another trade handles the disturbed tile, cabinetry or wall finish."
+    },
+    "sump-pumps": {
+      "intro": "Vaughan Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. If storage or a new room surrounds the sump or valve access, show the proposed access opening and current discharge route.",
+      "problem": "New storage or room walls can hide drainage equipment without changing the plumbing symptom that prompted the request.",
+      "assessment_follow_through": "Ask the respondent to identify the access needed for inspection, equipment removal and ordinary maintenance. Compare a pump or valve proposal with the final room layout. Keep groundwater pumping, sewer-backflow work and exterior waterproofing as separate functions so the estimate makes clear what the proposed work actually addresses.",
+      "comparison": "Ask whether the installation and maintenance space remain adequate. Waterproofing, groundwater drainage and sewer-backflow work should each be defined rather than bundled without explanation.",
+      "scope_outcome": "Once the layout and drainage function are established, compare the pump or valve work with the final maintenance openings and any needed access changes. Ask which equipment information and service instructions will be supplied, and retain them with the room plan. A future renovation should be able to identify those access points. Keep any unrelated waterproofing recommendation outside the equipment scope unless the provider has explained its distinct purpose and the responsible trade."
+    },
+    "water-softeners": {
+      "intro": "Vaughan Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. For a kitchen filter or larger treatment system, specify the desired water use and the fixtures that would be connected.",
+      "problem": "A drinking-water outlet and a system serving every fixture can require very different connections and maintenance.",
+      "assessment_follow_through": "Ask the respondent to identify which outlets the proposed treatment would affect and what evidence supports that goal. Compare space, consumables and servicing for each option, including any drain arrangement. Selecting equipment alongside new cabinetry should follow the confirmed treatment boundary rather than only the available cupboard size.",
+      "comparison": "Compare a drinking-water outlet with treatment serving the whole house, including cupboard or mechanical-room space, consumables and any drain connection required.",
+      "scope_outcome": "Compare a single drinking-water device with broader treatment by its measured purpose, affected outlets and maintenance needs. If the proposal changes cupboard or service-room layout, identify that work and its responsibility before cabinetry is fixed. The estimate should separate consumables and future tasks from installation cost. Keep the selected device information with the supporting water assessment so a later cartridge or equipment choice can be checked against the original concern."
+    }
+  },
+  "sources": [
+    "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/floods/flood-risk/prevent-flood-damage/sump-pumps.html"
+  ]
+}
