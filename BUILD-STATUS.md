@@ -1,7 +1,7 @@
 # Plumbing Build Status — 2026-08-19
 
 > ### Fully remote 2026-08-25
-> Same model as HVAC. Source: `github.com/Headbanger-Marketing/plumbing-astro`. Live HTML: `github.com/Headbanger-Marketing/<domain>` GitHub Pages. Local `hvac-network/sites/` is empty on purpose. Shared photos stay in `public/assets/img/` (in this repo). Ship with `scripts/deploy-site.sh <domain>` (depth-1 clone, push, delete clone + `dist/<domain>`). Do not keep `dist/` on disk.
+> Same model as HVAC. Source: `github.com/Headbanger-Marketing/plumbing-astro`. Live HTML: `github.com/Headbanger-Marketing/<domain>` GitHub Pages. Prefer `gh workflow run "Deploy site" -R Headbanger-Marketing/plumbing-astro -f site=<domain>` (build on GitHub). Local fallback: `scripts/deploy-site.sh <domain>`. Do not keep `dist/` or city clones on disk.
 
 **68 / 68 sites built + verified** in this repo (`plumbing-astro`, forked from `hvac-astro` as a single-trade plumbing lead-gen template). 2 pilots (`strathroyplumbing.ca`, `stthomasplumbing.ca`, committed 2026-08-07) + 66 new sites authored and built 2026-08-19.
 

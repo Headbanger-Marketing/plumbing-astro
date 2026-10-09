@@ -1,97 +1,184 @@
 #!/usr/bin/env python3
-"""Make the solid background of each logo PNG transparent.
+"""Make transparent footer twins of the white-background PNG logos.
 
-Each per-site logo in public/assets/img/logos/ is an opaque RGBA PNG whose
-background is a near-uniform off-white. We flood-fill that background to
-fully transparent, starting from the four corners, with a permissive RGB
-tolerance so anti-aliased halo pixels around the mark are caught too.
+For every logo in public/assets/img/logos/*.png whose border is opaque
+near-white, flood-fills the white background to alpha (border-connected only,
+so enclosed whites inside the mark survive), erodes 1px to kill the halo, and
+writes public/assets/img/logos-trans/<same-name>.png (max 512px, footer
+renders at 64px). Skips already-transparent, colored-badge, .bak, and .svg
+files. Footer.astro prefers the logos-trans twin; the header, favicon, and
+schema.org markup keep the white original untouched.
 
-Originals are kept as <name>.bak.png alongside the converted file so the
-change is reversible. Re-running is idempotent (skips files that already
-have transparent corners).
+Usage (from a repo root, e.g. hvac-astro/):
+  python3 scripts/make-logos-transparent.py [--force] [--dry-run]
+
+Idempotent: existing twins are skipped unless --force. Exits 1 if any
+converted file fails its navy-composite validation.
 """
-from PIL import Image, ImageDraw
-import os, glob
+from __future__ import annotations
 
-DIR = os.path.join(os.path.dirname(__file__), "..", "public", "assets", "img", "logos")
-TOL = 38  # per-channel RGB tolerance band around the sampled background
+import argparse
+import sys
+from collections import deque
+from pathlib import Path
+
+from PIL import Image, ImageFilter
+
+SRC_DIR = Path("public/assets/img/logos")
+OUT_DIR = Path("public/assets/img/logos-trans")
+NAVY = (15, 37, 68)  # --navy in styles.css; the footer the twin must sit on
+WHITE_MIN = 140     # channel >= this counts as background (white/dirty white)
+WHITE_SAT = 48      # max channel spread for a background pixel
+FUZZ = 38           # per-channel distance from the ring's median bg color
+TRIM = 3            # px shaved off each edge first: kills 1-2px frames
+MAX_SIZE = 512
+ERODE = ImageFilter.MinFilter(3)  # 1px alpha erosion: removes white fringe
 
 
-def corner_is_transparent(px, w, h):
-    for (x, y) in [(0, 0), (w - 1, 0), (0, h - 1), (w - 1, h - 1)]:
-        if px[x, y][3] != 0:
+def ring_base(im: Image.Image) -> tuple[int, int, int] | None:
+    """Median color of the border ring, or None if it isn't a uniform
+    near-white/gray opaque background (colored badges are left alone)."""
+    if im.mode != "RGBA":
+        im = im.convert("RGBA")
+    w, h = im.size
+    px = im.load()
+    pts: list[tuple[int, int, int]] = []
+    for x in range(0, w, max(1, w // 32)):
+        for y in (0, h - 1):
+            r, g, b, a = px[x, y]
+            if a != 255 or min(r, g, b) < WHITE_MIN or max(r, g, b) - min(r, g, b) > WHITE_SAT:
+                return None
+            pts.append((r, g, b))
+    for y in range(0, h, max(1, h // 32)):
+        for x in (0, w - 1):
+            r, g, b, a = px[x, y]
+            if a != 255 or min(r, g, b) < WHITE_MIN or max(r, g, b) - min(r, g, b) > WHITE_SAT:
+                return None
+            pts.append((r, g, b))
+    pts.sort()
+    return pts[len(pts) // 2]
+
+
+def flood_bg_to_alpha(im: Image.Image, base: tuple[int, int, int]) -> Image.Image:
+    """Zero the alpha of background-colored pixels connected to the border ring."""
+    im = im.copy()
+    w, h = im.size
+    px = im.load()
+    br, bg_, bb = base
+    seen = bytearray(w * h)
+    q: deque[tuple[int, int]] = deque()
+
+    def push(x: int, y: int) -> None:
+        i = y * w + x
+        if seen[i]:
+            return
+        seen[i] = 1
+        r, g, b, a = px[x, y]
+        if (
+            a != 0
+            and min(r, g, b) >= WHITE_MIN
+            and max(r, g, b) - min(r, g, b) <= WHITE_SAT
+            and abs(r - br) <= FUZZ
+            and abs(g - bg_) <= FUZZ
+            and abs(b - bb) <= FUZZ
+        ):
+            px[x, y] = (r, g, b, 0)
+            q.append((x, y))
+
+    for x in range(w):
+        push(x, 0)
+        push(x, h - 1)
+    for y in range(h):
+        push(0, y)
+        push(w - 1, y)
+    while q:
+        x, y = q.popleft()
+        if x > 0:
+            push(x - 1, y)
+        if x < w - 1:
+            push(x + 1, y)
+        if y > 0:
+            push(x, y - 1)
+        if y < h - 1:
+            push(x, y + 1)
+    return im
+
+
+def validate(twin_path: Path) -> bool:
+    """Corner of the twin composited on navy must read back as navy."""
+    im = Image.open(twin_path).convert("RGBA")
+    bg = Image.new("RGBA", im.size, NAVY + (255,))
+    bg.alpha_composite(im)
+    px = bg.convert("RGB").load()
+    w, h = bg.size
+    for x, y in [(2, 2), (w - 3, 2), (2, h - 3), (w - 3, h - 3)]:
+        r, g, b = px[x, y]
+        if abs(r - NAVY[0]) > 4 or abs(g - NAVY[1]) > 4 or abs(b - NAVY[2]) > 4:
             return False
     return True
 
 
-def bg_color(px, w, h):
-    # sample the average of the four corners
-    samples = [px[x, y] for (x, y) in [(0, 0), (w - 1, 0), (0, h - 1), (w - 1, h - 1)]]
-    r = sum(s[0] for s in samples) // 4
-    g = sum(s[1] for s in samples) // 4
-    b = sum(s[2] for s in samples) // 4
-    return (r, g, b)
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--force", action="store_true", help="rebuild existing twins")
+    ap.add_argument("--dry-run", action="store_true", help="report only, write nothing")
+    args = ap.parse_args()
 
+    if not SRC_DIR.is_dir():
+        print(f"no logo dir at {SRC_DIR} — run from a repo root", file=sys.stderr)
+        return 2
 
-def make_transparent(path):
-    im = Image.open(path).convert("RGBA")
-    w, h = im.size
-    px = im.load()
-    if corner_is_transparent(px, w, h):
-        return f"skip (already transparent)"
-    bg = bg_color(px, w, h)
-
-    # BFS flood-fill from every border pixel whose colour is within tolerance
-    # of the sampled background. Marks hit pixels transparent.
-    visited = bytearray(w * h)
-    stack = []
-    for x in range(w):
-        for y in (0, h - 1):
-            stack.append((x, y))
-    for y in range(h):
-        for x in (0, w - 1):
-            stack.append((x, y))
-
-    def near_bg(c):
-        return (abs(c[0] - bg[0]) <= TOL and
-                abs(c[1] - bg[1]) <= TOL and
-                abs(c[2] - bg[2]) <= TOL)
-
-    cleared = 0
-    while stack:
-        x, y = stack.pop()
-        i = y * w + x
-        if visited[i]:
+    converted = skipped = failed = 0
+    failures: list[str] = []
+    for src in sorted(SRC_DIR.glob("*.png")):
+        if ".bak." in src.name:
             continue
-        visited[i] = 1
-        c = px[x, y]
-        if c[3] == 0 or not near_bg(c):
+        out = OUT_DIR / src.name
+        if out.exists() and not args.force:
+            converted += 1
             continue
-        px[x, y] = (c[0], c[1], c[2], 0)
-        cleared += 1
-        if x > 0:
-            stack.append((x - 1, y))
-        if x < w - 1:
-            stack.append((x + 1, y))
-        if y > 0:
-            stack.append((x, y - 1))
-        if y < h - 1:
-            stack.append((x, y + 1))
-
-    # backup original, then save the converted image
-    bak = path.replace(".png", ".bak.png")
-    if not os.path.exists(bak):
-        Image.open(path).save(bak)
-    im.save(path)
-    return f"cleared {cleared} px (bg ~{bg})"
-
-
-def main():
-    for f in sorted(glob.glob(os.path.join(DIR, "*.png"))):
-        if f.endswith(".bak.png"):
+        im = Image.open(src)
+        if min(im.size) <= 2 * TRIM + 8:
+            skipped += 1
             continue
-        print(f"{os.path.basename(f):40s} {make_transparent(f)}")
+        im = im.crop((TRIM, TRIM, im.width - TRIM, im.height - TRIM)).convert("RGBA")
+        base = ring_base(im)
+        if base is None:
+            skipped += 1
+            continue
+        if args.dry_run:
+            print(f"would convert {src.name}")
+            converted += 1
+            continue
+
+        if max(im.size) > MAX_SIZE:
+            im = im.resize(
+                (MAX_SIZE, round(im.height * MAX_SIZE / im.width))
+                if im.width >= im.height
+                else (round(im.width * MAX_SIZE / im.height), MAX_SIZE),
+                Image.LANCZOS,
+            )
+        im = flood_bg_to_alpha(im, base)
+        r, g, b, a = im.split()
+        im = Image.merge("RGBA", (r, g, b, a.filter(ERODE)))
+
+        OUT_DIR.mkdir(parents=True, exist_ok=True)
+        im.save(out, optimize=True)
+        if validate(out):
+            converted += 1
+        else:
+            failed += 1
+            failures.append(src.name)
+            out.unlink(missing_ok=True)
+
+    print(
+        f"done: {converted} transparent twins in {OUT_DIR}, "
+        f"{skipped} skipped (transparent/badge/svg), {failed} failed"
+    )
+    for name in failures:
+        print(f"  FAILED: {name}", file=sys.stderr)
+    return 1 if failed else 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

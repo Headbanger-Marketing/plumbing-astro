@@ -1,5 +1,6 @@
 ---
 // build.py::footer() + the mobile-bar + the main.js script tag.
+import { existsSync } from 'node:fs';
 import { icon } from '../lib/icons';
 import { SERVICES } from '../data/content';
 import { verticalCopy } from '../lib/utils';
@@ -10,6 +11,19 @@ interface Props {
   svcKeys?: string[]; // filter nav to services this site actually renders
 }
 const { site, svcKeys } = Astro.props;
+
+// The footer sits on navy: prefer the transparent twin (logos-trans/, made by
+// scripts/make-logos-transparent.py) over the white-background original.
+// Header, favicon, and schema.org keep the white original. SVG logos and
+// already-transparent PNGs have no twin and keep their original path.
+const footerLogo = (() => {
+  const name = site.media?.logo;
+  if (!name) return '/assets/img/logo.png';
+  if (name.endsWith('.svg')) return `/assets/img/logos/${name}`;
+  return existsSync(`public/assets/img/logos-trans/${name}`)
+    ? `/assets/img/logos-trans/${name}`
+    : `/assets/img/logos/${name}`;
+})();
 
 const vc = verticalCopy(site);
 const svc = vc.hasServicesNav
@@ -23,7 +37,7 @@ const areas = site.serviceAreas.map((a) => `<li>${a}</li>`).join('');
     <div class="footer-grid">
       <div>
         <a class="brand footer-brand" href="/">
-          <img class="brand__logo" width="64" height="64" src={site.media?.logo ? `/assets/img/logos/${site.media.logo}` : '/assets/img/logo.png'} alt={site.brand} loading="eager" decoding="async">
+          <img class="brand__logo" width="64" height="64" src={footerLogo} alt={site.brand} loading="eager" decoding="async">
         </a>
         <p class="footer-about">{site.enquirySite ? `Headbanger Marketing owns this ${site.city} inquiry website. Submit a request for review. Provider identity, coverage and appointment availability require confirmation.` : vc.tagline(site.city, site.county)}</p>
       </div>
