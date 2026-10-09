@@ -16,7 +16,8 @@ for arg in "$@"; do [ "$arg" = "--no-verify" ] && NO_VERIFY=1; done
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-HVAC_WORKSPACE="${HVAC_WORKSPACE:-$HOME/Projects/hvac}"
+# shellcheck disable=SC1091
+source "$(cd "$(dirname "$0")" && pwd)/hvac-workspace.sh"
 DEPLOY="${HVAC_SITES_DIR:-$HVAC_WORKSPACE/scratch/sites}/$DOMAIN"
 
 if [ ! -d "$DEPLOY" ]; then

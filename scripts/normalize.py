@@ -20,6 +20,8 @@ and handles the hero class injection (if the deploy repo has hero.webp).
 Usage:
     HVAC_SITE=londonheatingcooling.ca python3 scripts/normalize.py
 """
+from __future__ import annotations
+
 import os
 import sys
 from pathlib import Path

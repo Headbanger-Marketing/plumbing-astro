@@ -33,7 +33,8 @@ DRY_RUN=0
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 DIST="$ROOT/dist/$DOMAIN"
-HVAC_WORKSPACE="${HVAC_WORKSPACE:-$HOME/Projects/hvac}"
+# shellcheck disable=SC1091
+source "$(cd "$(dirname "$0")" && pwd)/hvac-workspace.sh"
 DEPLOY="${HVAC_SITES_DIR:-$HVAC_WORKSPACE/scratch/sites}/$DOMAIN"
 
 if [ ! -d "$DIST" ]; then

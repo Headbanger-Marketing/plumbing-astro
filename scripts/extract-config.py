@@ -15,7 +15,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-NETWORK = Path.home() / "Projects" / "hvac" / "scratch" / "sites"
+from hvac_workspace import deploy_sites_dir
+NETWORK = deploy_sites_dir()
 
 PILOTS_DONE = {
     "londonheatingcooling.ca",

@@ -43,7 +43,8 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
-NETWORK = Path.home() / "Projects" / "hvac" / "scratch" / "sites"
+from hvac_workspace import deploy_sites_dir
+NETWORK = deploy_sites_dir()
 
 EMDASH_CHARS = ['\u2014', '\u2013', '&mdash;', '&ndash;', '&#8212;', '&#8211;']
 EMDASH_REGEX = re.compile('[' + re.escape('\u2014\u2013') + ']|&mdash;|&ndash;|&#8212;|&#8211;')
