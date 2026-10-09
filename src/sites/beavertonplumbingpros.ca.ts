@@ -10,7 +10,7 @@ export const site: SiteConfig = {
   address: { street: "", locality: "Beaverton", region: "ON", postal: "" },
   serviceAreas: ["Beaverton"],
   palette: { navy: "#343c45", accent: "#476682", accent2: "#343c45", themeColor: "#343c45" },
-  ogImage: "https://beavertonplumbingpros.ca/assets/img/og-default.png",
+  ogImage: "https://beavertonplumbingpros.ca/assets/wordmarks/beavertonplumbingpros.ca-og.png",
   tracking: { webhookUrl: "https://auto.sdagents.ai/webhook/hvac-sites" },
   media: { logo: "beavertonplumbingpros.ca.svg", technicianPhoto: "markhamplumbingpros.ca-home-tech.jpg", heroImage: "wp/markhamplumbingpros.ca-home-tech.jpg" },
   noindex: false,

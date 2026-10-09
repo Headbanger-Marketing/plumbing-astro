@@ -10,7 +10,7 @@ export const site: SiteConfig = {
   address: { street: "", locality: "East Gwillimbury", region: "ON", postal: "" },
   serviceAreas: ["East Gwillimbury"],
   palette: { navy: "#34394c", accent: "#565aac", accent2: "#34394c", themeColor: "#34394c" },
-  ogImage: "https://eastgwillimburyplumbingpros.ca/assets/img/og-default.png",
+  ogImage: "https://eastgwillimburyplumbingpros.ca/assets/wordmarks/eastgwillimburyplumbingpros.ca-og.png",
   tracking: { webhookUrl: "https://auto.sdagents.ai/webhook/hvac-sites" },
   media: { logo: "eastgwillimburyplumbingpros.ca.svg", technicianPhoto: "markhamplumbingpros.ca-home-tech.jpg", heroImage: "wp/markhamplumbingpros.ca-home-tech.jpg" },
   noindex: false,

@@ -10,7 +10,7 @@ export const site: SiteConfig = {
   address: { street: "", locality: "Mississauga", region: "ON", postal: "" },
   serviceAreas: ["Mississauga"],
   palette: { navy: "#183643", accent: "#006d77", accent2: "#183643", themeColor: "#183643" },
-  ogImage: "https://mississaugaplumbingpros.ca/assets/img/og-default.png",
+  ogImage: "https://mississaugaplumbingpros.ca/assets/wordmarks/mississaugaplumbingpros.ca-og.png",
   tracking: { webhookUrl: "https://auto.sdagents.ai/webhook/hvac-sites" },
   media: { logo: "mississaugaplumbingpros.ca.svg", technicianPhoto: "markhamplumbingpros.ca-home-tech.jpg", heroImage: "wp/markhamplumbingpros.ca-home-tech.jpg" },
   noindex: false,

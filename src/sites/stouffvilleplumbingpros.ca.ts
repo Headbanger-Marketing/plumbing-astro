@@ -10,7 +10,7 @@ export const site: SiteConfig = {
   address: { street: "", locality: "Stouffville", region: "ON", postal: "" },
   serviceAreas: ["Stouffville"],
   palette: { navy: "#263247", accent: "#3b5cb0", accent2: "#263247", themeColor: "#263247" },
-  ogImage: "https://stouffvilleplumbingpros.ca/assets/img/og-default.png",
+  ogImage: "https://stouffvilleplumbingpros.ca/assets/wordmarks/stouffvilleplumbingpros.ca-og.png",
   tracking: { webhookUrl: "https://auto.sdagents.ai/webhook/hvac-sites" },
   media: { logo: "stouffvilleplumbingpros.ca.svg", technicianPhoto: "markhamplumbingpros.ca-home-tech.jpg", heroImage: "wp/markhamplumbingpros.ca-home-tech.jpg" },
   noindex: false,

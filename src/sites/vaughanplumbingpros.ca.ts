@@ -10,7 +10,7 @@ export const site: SiteConfig = {
   address: { street: "", locality: "Vaughan", region: "ON", postal: "" },
   serviceAreas: ["Vaughan"],
   palette: { navy: "#25394a", accent: "#156c9c", accent2: "#25394a", themeColor: "#25394a" },
-  ogImage: "https://vaughanplumbingpros.ca/assets/img/og-default.png",
+  ogImage: "https://vaughanplumbingpros.ca/assets/wordmarks/vaughanplumbingpros.ca-og.png",
   tracking: { webhookUrl: "https://auto.sdagents.ai/webhook/hvac-sites" },
   media: { logo: "vaughanplumbingpros.ca.svg", technicianPhoto: "markhamplumbingpros.ca-home-tech.jpg", heroImage: "wp/markhamplumbingpros.ca-home-tech.jpg" },
   noindex: false,

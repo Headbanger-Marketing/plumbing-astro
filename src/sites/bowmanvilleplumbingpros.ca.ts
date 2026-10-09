@@ -10,7 +10,7 @@ export const site: SiteConfig = {
   address: { street: "", locality: "Bowmanville", region: "ON", postal: "" },
   serviceAreas: ["Bowmanville"],
   palette: { navy: "#153f46", accent: "#007a83", accent2: "#153f46", themeColor: "#153f46" },
-  ogImage: "https://bowmanvilleplumbingpros.ca/assets/img/og-default.png",
+  ogImage: "https://bowmanvilleplumbingpros.ca/assets/wordmarks/bowmanvilleplumbingpros.ca-og.png",
   tracking: { webhookUrl: "https://auto.sdagents.ai/webhook/hvac-sites" },
   media: { logo: "bowmanvilleplumbingpros.ca.svg", technicianPhoto: "markhamplumbingpros.ca-home-tech.jpg", heroImage: "wp/markhamplumbingpros.ca-home-tech.jpg" },
   noindex: false,

@@ -10,7 +10,7 @@ export const site: SiteConfig = {
   address: { street: "", locality: "North York", region: "ON", postal: "" },
   serviceAreas: ["North York"],
   palette: { navy: "#202e4b", accent: "#3949ab", accent2: "#202e4b", themeColor: "#202e4b" },
-  ogImage: "https://northyorkplumbingpros.ca/assets/img/og-default.png",
+  ogImage: "https://northyorkplumbingpros.ca/assets/wordmarks/northyorkplumbingpros.ca-og.png",
   tracking: { webhookUrl: "https://auto.sdagents.ai/webhook/hvac-sites" },
   media: { logo: "northyorkplumbingpros.ca.svg", technicianPhoto: "markhamplumbingpros.ca-home-tech.jpg", heroImage: "wp/markhamplumbingpros.ca-home-tech.jpg" },
   noindex: false,

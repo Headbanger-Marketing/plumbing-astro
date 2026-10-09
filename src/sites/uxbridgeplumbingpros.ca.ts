@@ -10,7 +10,7 @@ export const site: SiteConfig = {
   address: { street: "", locality: "Uxbridge", region: "ON", postal: "" },
   serviceAreas: ["Uxbridge"],
   palette: { navy: "#31423b", accent: "#476c51", accent2: "#31423b", themeColor: "#31423b" },
-  ogImage: "https://uxbridgeplumbingpros.ca/assets/img/og-default.png",
+  ogImage: "https://uxbridgeplumbingpros.ca/assets/wordmarks/uxbridgeplumbingpros.ca-og.png",
   tracking: { webhookUrl: "https://auto.sdagents.ai/webhook/hvac-sites" },
   media: { logo: "uxbridgeplumbingpros.ca.svg", technicianPhoto: "markhamplumbingpros.ca-home-tech.jpg", heroImage: "wp/markhamplumbingpros.ca-home-tech.jpg" },
   noindex: false,

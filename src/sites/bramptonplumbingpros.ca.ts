@@ -10,7 +10,7 @@ export const site: SiteConfig = {
   address: { street: "", locality: "Brampton", region: "ON", postal: "" },
   serviceAreas: ["Brampton"],
   palette: { navy: "#232f4d", accent: "#2956a3", accent2: "#232f4d", themeColor: "#232f4d" },
-  ogImage: "https://bramptonplumbingpros.ca/assets/img/og-default.png",
+  ogImage: "https://bramptonplumbingpros.ca/assets/wordmarks/bramptonplumbingpros.ca-og.png",
   tracking: { webhookUrl: "https://auto.sdagents.ai/webhook/hvac-sites" },
   media: { logo: "bramptonplumbingpros.ca.svg", technicianPhoto: "markhamplumbingpros.ca-home-tech.jpg", heroImage: "wp/markhamplumbingpros.ca-home-tech.jpg" },
   noindex: false,

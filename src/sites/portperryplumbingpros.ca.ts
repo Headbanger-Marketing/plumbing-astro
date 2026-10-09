@@ -10,7 +10,7 @@ export const site: SiteConfig = {
   address: { street: "", locality: "Port Perry", region: "ON", postal: "" },
   serviceAreas: ["Port Perry"],
   palette: { navy: "#263b55", accent: "#23669d", accent2: "#263b55", themeColor: "#263b55" },
-  ogImage: "https://portperryplumbingpros.ca/assets/img/og-default.png",
+  ogImage: "https://portperryplumbingpros.ca/assets/wordmarks/portperryplumbingpros.ca-og.png",
   tracking: { webhookUrl: "https://auto.sdagents.ai/webhook/hvac-sites" },
   media: { logo: "portperryplumbingpros.ca.svg", technicianPhoto: "markhamplumbingpros.ca-home-tech.jpg", heroImage: "wp/markhamplumbingpros.ca-home-tech.jpg" },
   noindex: false,

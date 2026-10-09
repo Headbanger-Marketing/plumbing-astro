@@ -10,7 +10,7 @@ export const site: SiteConfig = {
   address: { street: "", locality: "Toronto", region: "ON", postal: "" },
   serviceAreas: ["Toronto"],
   palette: { navy: "#17314b", accent: "#007ea7", accent2: "#17314b", themeColor: "#17314b" },
-  ogImage: "https://torontoplumbingpros.ca/assets/img/og-default.png",
+  ogImage: "https://torontoplumbingpros.ca/assets/wordmarks/torontoplumbingpros.ca-og.png",
   tracking: { webhookUrl: "https://auto.sdagents.ai/webhook/hvac-sites" },
   media: { logo: "torontoplumbingpros.ca.svg", technicianPhoto: "markhamplumbingpros.ca-home-tech.jpg", heroImage: "wp/markhamplumbingpros.ca-home-tech.jpg" },
   noindex: false,

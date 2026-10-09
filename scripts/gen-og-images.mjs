@@ -22,7 +22,7 @@
 // Usage:
 //   node scripts/gen-og-images.mjs                 # all sites with src/sites/*.ts
 //   node scripts/gen-og-images.mjs londonheatingcooling.ca   # one site
-import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync, mkdirSync, copyFileSync } from 'node:fs';
 import { execSync } from 'node:child_process';
 import sharp from 'sharp';
 
@@ -47,9 +47,16 @@ function domainHash(s) {
 }
 
 async function buildOG(cfg, outPath, barWidth) {
+  if (cfg.enquirySite) {
+    const wordmarkCard = `${ROOT}public/assets/wordmarks/${cfg.domain}-og.png`;
+    if (!existsSync(wordmarkCard)) throw new Error('Missing per-domain wordmark sharing image');
+    copyFileSync(wordmarkCard, outPath);
+    return;
+  }
+
   const W = 1200, H = 630;
   const xml = (value) => String(value || "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll('"', "&quot;");
-  const label = cfg.enquirySite ? `<text x="600" y="505" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="42" font-weight="700">${xml(cfg.brand)}</text><text x="600" y="552" text-anchor="middle" fill="#cad9e6" font-family="Arial,sans-serif" font-size="24">Headbanger Marketing inquiry site</text>` : "";
+  const label = "";
   const c = hex2rgb(cfg.navy);
   const darker = { r: Math.max(0, c.r - 14), g: Math.max(0, c.g - 14), b: Math.max(0, c.b - 14) };
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}">
@@ -68,7 +75,6 @@ async function buildOG(cfg, outPath, barWidth) {
 
   // Prefer the transparent footer twin (logos-trans/) — the white-background
   // original composited on navy showed as a white box (same bug as the footer).
-  const { existsSync } = await import('node:fs');
   const logoSrc = cfg.logo.endsWith('.svg')
     ? `${LOGO_DIR}/${cfg.logo}`
     : existsSync(`${LOGO_DIR}-trans/${cfg.logo}`) ? `${LOGO_DIR}-trans/${cfg.logo}` : `${LOGO_DIR}/${cfg.logo}`;
@@ -124,7 +130,7 @@ let ok = 0, fail = 0;
 for (const cfg of configs) {
   if (!domains.includes(cfg.domain)) continue;
   const logoPath = `${LOGO_DIR}/${cfg.logo}`;
-  if (!existsSync(logoPath)) { console.error(`[${cfg.domain}] MISSING logo ${cfg.logo}`); fail++; continue; }
+  if (!cfg.enquirySite && !existsSync(logoPath)) { console.error(`[${cfg.domain}] MISSING logo ${cfg.logo}`); fail++; continue; }
   const outDir = `${DIST}/${cfg.domain}/assets/img`;
   if (!existsSync(outDir)) mkdirSync(outDir, { recursive: true });
   const outPath = `${outDir}/og-default.png`;

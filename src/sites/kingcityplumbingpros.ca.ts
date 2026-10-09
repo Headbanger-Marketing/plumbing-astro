@@ -10,7 +10,7 @@ export const site: SiteConfig = {
   address: { street: "", locality: "King City", region: "ON", postal: "" },
   serviceAreas: ["King City"],
   palette: { navy: "#263c40", accent: "#006b70", accent2: "#263c40", themeColor: "#263c40" },
-  ogImage: "https://kingcityplumbingpros.ca/assets/img/og-default.png",
+  ogImage: "https://kingcityplumbingpros.ca/assets/wordmarks/kingcityplumbingpros.ca-og.png",
   tracking: { webhookUrl: "https://auto.sdagents.ai/webhook/hvac-sites" },
   media: { logo: "kingcityplumbingpros.ca.svg", technicianPhoto: "markhamplumbingpros.ca-home-tech.jpg", heroImage: "wp/markhamplumbingpros.ca-home-tech.jpg" },
   noindex: false,

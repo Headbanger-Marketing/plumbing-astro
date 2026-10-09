@@ -10,7 +10,7 @@ export const site: SiteConfig = {
   address: { street: "", locality: "Caledon", region: "ON", postal: "" },
   serviceAreas: ["Caledon"],
   palette: { navy: "#293e32", accent: "#387044", accent2: "#293e32", themeColor: "#293e32" },
-  ogImage: "https://caledonplumbingpros.ca/assets/img/og-default.png",
+  ogImage: "https://caledonplumbingpros.ca/assets/wordmarks/caledonplumbingpros.ca-og.png",
   tracking: { webhookUrl: "https://auto.sdagents.ai/webhook/hvac-sites" },
   media: { logo: "caledonplumbingpros.ca.svg", technicianPhoto: "markhamplumbingpros.ca-home-tech.jpg", heroImage: "wp/markhamplumbingpros.ca-home-tech.jpg" },
   noindex: false,

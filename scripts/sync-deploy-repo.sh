@@ -86,6 +86,8 @@ rsync $RSYNC_FLAGS \
   --include="/assets/wordmarks/$DOMAIN.svg" \
   --include="/assets/wordmarks/$DOMAIN-inverse.svg" \
   --include="/assets/wordmarks/$DOMAIN-favicon.svg" \
+  --include="/assets/wordmarks/$DOMAIN-og.svg" \
+  --include="/assets/wordmarks/$DOMAIN-og.png" \
   --exclude='*' \
   "$DIST/" "$DEPLOY/"
 
