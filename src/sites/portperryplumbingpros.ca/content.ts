@@ -348,43 +348,43 @@ export const HOME_FAQ = [
 export const SVC_PHOTO = {
   "water-heaters": [
     "/assets/img/wp/markhamplumbingpros.ca-water-heaters.jpg",
-    "Illustrative water heaters photograph, not a completed local project",
+    "Water heater with plumbing connections",
     1200,
     800
   ],
   "drain-cleaning": [
     "/assets/img/wp/markhamplumbingpros.ca-drain-cleaning.jpg",
-    "Illustrative drain cleaning photograph, not a completed local project",
+    "Floor drain grate",
     1200,
     800
   ],
   "repiping": [
     "/assets/img/wp/markhamplumbingpros.ca-repiping.jpg",
-    "Illustrative repiping photograph, not a completed local project",
+    "Copper taps with flowing water",
     1200,
     800
   ],
   "fixtures-toilets": [
     "/assets/img/wp/markhamplumbingpros.ca-fixtures-toilets.jpg",
-    "Illustrative fixtures and toilets photograph, not a completed local project",
+    "Bathroom bidet and toilet",
     1200,
     800
   ],
   "leak-detection": [
     "/assets/img/wp/markhamplumbingpros.ca-leak-detection.jpg",
-    "Illustrative leak detection and repair photograph, not a completed local project",
+    "Outdoor water tap",
     1200,
     800
   ],
   "sump-pumps": [
     "/assets/img/wp/markhamplumbingpros.ca-sump-pumps.jpg",
-    "Illustrative sump pumps and backwater photograph, not a completed local project",
+    "Basement with exposed pipework",
     1200,
     800
   ],
   "water-softeners": [
     "/assets/img/wp/markhamplumbingpros.ca-water-softeners.jpg",
-    "Illustrative water softeners and filtration photograph, not a completed local project",
+    "Bathroom bidet and toilet",
     1200,
     800
   ]

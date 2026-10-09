@@ -33,7 +33,7 @@ const faqs = plan.faqs;
   <div><span class="eyebrow">Plan the request</span><h2>{plan.heading}</h2><p set:html={plan.intro}></p>
     <ul class="feature-list">{plan.checklist.map(([label, body]) => <li><span class="fi"><Fragment set:html={icon('check', '', 22)} /></span><div><h4>{label}</h4><p>{body}</p></div></li>)}</ul>
     <a href="/about/">How this site handles inquiries</a>
-  </div><div class="split__media"><figure><img class="svc-photo" src={`/assets/img/wp/${site.media?.technicianPhoto || 'default-technician.jpg'}`} alt="Illustrative trade equipment and project planning" width="1200" height="800" loading="lazy" decoding="async" /><figcaption>Illustrative photograph. It does not show a site employee or a completed local project.</figcaption></figure>{featured[1] && <><h3 set:html={featured[1][1].problem_h}></h3><p set:html={featured[1][1].intro}></p><a href={`/services/${featured[1][0]}/`}>Explore this service</a></>}</div>
+  </div><div class="split__media"><figure><img class="svc-photo" src={`/assets/img/wp/${site.media?.technicianPhoto || 'default-technician.jpg'}`} alt="Plumbing tools and equipment" width="1200" height="800" loading="lazy" decoding="async" /></figure>{featured[1] && <><h3 set:html={featured[1][1].problem_h}></h3><p set:html={featured[1][1].intro}></p><a href={`/services/${featured[1][0]}/`}>Explore this service</a></>}</div>
 </div></div></section>
 <section class="section"><div class="container">
   <div class="section-head"><span class="eyebrow">How a request works</span><h2>From Job Details to a Confirmed Scope</h2></div>
