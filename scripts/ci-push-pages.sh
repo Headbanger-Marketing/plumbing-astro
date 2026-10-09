@@ -44,7 +44,21 @@ rsync -a \
   --include='/robots.txt' --include='/llms.txt' --include='/favicon.ico' --include='/CNAME' \
   --include='/assets/' --include='/assets/css/' --include='/assets/css/**' \
   --include='/assets/js/' --include='/assets/js/**' \
+  --include='/assets/wordmarks/' \
+  --include="/assets/wordmarks/$SITE.svg" \
+  --include="/assets/wordmarks/$SITE-inverse.svg" \
+  --include="/assets/wordmarks/$SITE-favicon.svg" \
   --exclude='*' "$DIST/" "$TMP/"
+
+# Fail before publication if a referenced wordmark was omitted by the asset rules.
+if grep -q '/assets/wordmarks/' "$DIST/index.html"; then
+  for suffix in "" "-inverse" "-favicon"; do
+    test -s "$TMP/assets/wordmarks/${SITE}${suffix}.svg" || {
+      echo "ERROR: missing published wordmark ${SITE}${suffix}.svg" >&2
+      exit 1
+    }
+  done
+fi
 
 mkdir -p "$TMP/assets/img"
 if [ -d "$DIST/assets/img" ]; then
