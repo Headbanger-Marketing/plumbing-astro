@@ -94,7 +94,7 @@ const otherLocs = Object.entries(LOCATIONS)
     <h1 set:html={vc.heroH1(locName)}></h1>
     <p set:html={intro}></p>
     <div class="page-hero__cta">
-      <a class="btn btn-primary btn-lg" href="#quote">Request a Quote</a>
+      <a class="btn btn-primary btn-lg" href="#quote">Get A Free Quote</a>
     </div>
   </div>
 </section>
@@ -114,7 +114,7 @@ const otherLocs = Object.entries(LOCATIONS)
         )}
       </div>
       <div class="split__media">
-        <div style="position:sticky;top:96px"><QuoteForm site={site} heading={vc.quoteHeading} sub={`Describe the job at your ${locName} property so scope and availability can be confirmed.`} idSuffix={`loc-${slug}`} /></div>
+        <div style="position:sticky;top:96px"><QuoteForm site={site} heading="Get A Free Quote" sub={`Describe the job at your ${locName} property so scope and availability can be confirmed.`} idSuffix={`loc-${slug}`} /></div>
       </div>
     </div>
   </div>
