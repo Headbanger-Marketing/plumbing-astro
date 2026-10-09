@@ -1,8 +1,8 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
   "h1": "Beaverton Plumbing Inquiry Guides",
-  "intro": "A small repair still needs a clear symptom and an accessible work area. Describe the affected fixture, equipment or pipe and any limits on access. Headbanger Marketing reviews Beaverton requests before coverage, provider identity and scheduling are agreed.",
-  "meta": "A small repair still needs a clear symptom and an accessible work area. Send your Beaverton inquiry to Headbanger Marketing for review.",
+  "intro": "A small repair still needs a clear symptom and an accessible work area. Describe the affected fixture, equipment or pipe and any limits on access. Our enquiry team reviews Beaverton requests before coverage, provider identity and scheduling are agreed.",
+  "meta": "A small repair still needs a clear symptom and an accessible work area. Send your Beaverton inquiry for review.",
   "heading": "Making the investigation and equipment access explicit in a small project",
   "planningIntro": "A request described as a quick fix can expand when the connection or pipe is concealed. For a Beaverton property, explain what can actually be reached and what finishes would need to be disturbed. Keep the desired repair separate from unverified assumptions about the cause. An initial assessment can then establish whether the work is a small component change or a broader access and repair project.",
   "checklist": [
@@ -19,7 +19,7 @@ export const HOME = {
       "Ask which investigation and restoration are included before assuming the job is a single-part replacement."
     ]
   ],
-  "cta": "Describe the plumbing work at your Beaverton property, including visible versus hidden. Headbanger Marketing reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
+  "cta": "Describe the plumbing work at your Beaverton property, including visible versus hidden. Our enquiry team reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
 };
 
 export const SVC = {
@@ -27,7 +27,7 @@ export const SVC = {
     "icon": "flame",
     "kicker": "Water Heaters enquiries in Beaverton",
     "h1": "Water Heaters Requests in Beaverton",
-    "intro": "Beaverton Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. Describe the heater symptom and the door or stair route needed to reach it, with the label and surrounding connections if visible.",
+    "intro": "Beaverton Plumbing Pros collects water heaters inquiries for review. Describe the heater symptom and the door or stair route needed to reach it, with the label and surrounding connections if visible.",
     "meta": "Water Heaters enquiries in Beaverton. Review the water heaters scope, access and evidence before agreeing to work.",
     "problem_h": "Can the heater be reached for repair or removal?",
     "problem_p": "A tight equipment room can affect removal and connection work even when the proposed heater resembles the existing model.",
@@ -63,7 +63,7 @@ export const SVC = {
     "icon": "refresh",
     "kicker": "Drain Cleaning enquiries in Beaverton",
     "h1": "Drain Cleaning Requests in Beaverton",
-    "intro": "Beaverton Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. Identify the slow fixture and whether its trap or a relevant cleanout is accessible without removing cabinetry or finishes.",
+    "intro": "Beaverton Plumbing Pros collects drain cleaning inquiries for review. Identify the slow fixture and whether its trap or a relevant cleanout is accessible without removing cabinetry or finishes.",
     "meta": "Drain Cleaning enquiries in Beaverton. Review the drain cleaning scope, access and evidence before agreeing to work.",
     "problem_h": "What can be reached from the current drain access?",
     "problem_p": "The access behind a sink or at a cleanout determines which part of a drain can be assessed.",
@@ -99,7 +99,7 @@ export const SVC = {
     "icon": "wrench",
     "kicker": "Repiping enquiries in Beaverton",
     "h1": "Repiping Requests in Beaverton",
-    "intro": "Beaverton Plumbing Pros collects repiping inquiries for Headbanger Marketing review. Mark the specific pipe section at issue and whether both ends can be accessed for a supported repair or replacement.",
+    "intro": "Beaverton Plumbing Pros collects repiping inquiries for review. Mark the specific pipe section at issue and whether both ends can be accessed for a supported repair or replacement.",
     "meta": "Repiping enquiries in Beaverton. Review the repiping scope, access and evidence before agreeing to work.",
     "problem_h": "Are both ends of the pipe section accessible?",
     "problem_p": "A sectional pipe repair should identify accessible connection points and the material transitions around the defect.",
@@ -135,7 +135,7 @@ export const SVC = {
     "icon": "home",
     "kicker": "Fixtures &amp; Toilets enquiries in Beaverton",
     "h1": "Fixtures and Toilets Requests in Beaverton",
-    "intro": "Beaverton Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. Send the fixture model and photographs showing its mounting space, shutoffs and visible drain connection.",
+    "intro": "Beaverton Plumbing Pros collects fixtures and toilets inquiries for review. Send the fixture model and photographs showing its mounting space, shutoffs and visible drain connection.",
     "meta": "Fixtures and Toilets enquiries in Beaverton. Review the fixtures toilets scope, access and evidence before agreeing to work.",
     "problem_h": "Does the repair space allow fixture removal?",
     "problem_p": "A fixture can be simple to describe yet difficult to remove through cramped access or fixed finishes.",
@@ -171,7 +171,7 @@ export const SVC = {
     "icon": "droplets",
     "kicker": "Leak Detection &amp; Repair enquiries in Beaverton",
     "h1": "Leak Detection and Repair Requests in Beaverton",
-    "intro": "Beaverton Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Describe the first visible wet area and what is accessible behind or below it, without opening finishes merely to locate the source.",
+    "intro": "Beaverton Plumbing Pros collects leak detection and repair inquiries for review. Describe the first visible wet area and what is accessible behind or below it, without opening finishes merely to locate the source.",
     "meta": "Leak Detection and Repair enquiries in Beaverton. Review the leak detection scope, access and evidence before agreeing to work.",
     "problem_h": "What evidence justifies opening the concealed section?",
     "problem_p": "A wet spot does not establish that the nearest concealed pipe is the source.",
@@ -207,7 +207,7 @@ export const SVC = {
     "icon": "shield",
     "kicker": "Sump Pumps &amp; Backwater enquiries in Beaverton",
     "h1": "Sump Pumps and Backwater Requests in Beaverton",
-    "intro": "Beaverton Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Show the pit lid, pump and available access, noting anything that prevents ordinary inspection or equipment removal.",
+    "intro": "Beaverton Plumbing Pros collects sump pumps and backwater inquiries for review. Show the pit lid, pump and available access, noting anything that prevents ordinary inspection or equipment removal.",
     "meta": "Sump Pumps and Backwater enquiries in Beaverton. Review the sump pumps scope, access and evidence before agreeing to work.",
     "problem_h": "Can the pump be serviced through the present opening?",
     "problem_p": "A restricted pit opening can change service access without determining which pump or valve is technically suitable.",
@@ -243,7 +243,7 @@ export const SVC = {
     "icon": "gauge",
     "kicker": "Water Softeners &amp; Filtration enquiries in Beaverton",
     "h1": "Water Softeners and Filtration Requests in Beaverton",
-    "intro": "Beaverton Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. For a filter or softener in a confined area, describe the cartridge or tank model and room for servicing the existing connections.",
+    "intro": "Beaverton Plumbing Pros collects water softeners and filtration inquiries for review. For a filter or softener in a confined area, describe the cartridge or tank model and room for servicing the existing connections.",
     "meta": "Water Softeners and Filtration enquiries in Beaverton. Review the water softeners scope, access and evidence before agreeing to work.",
     "problem_h": "Does the confined treatment space allow maintenance?",
     "problem_p": "A confined treatment location may limit servicing even when a new device physically fits.",
@@ -329,7 +329,7 @@ export const HOME_SERVICES = [
 export const HOME_FAQ = [
   [
     "Who operates Beaverton Plumbing Pros?",
-    "Headbanger Marketing owns and operates this inquiry website. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
+    "This is an inquiry website for the named market. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
   ],
   [
     "What should I include in a Beaverton request?",

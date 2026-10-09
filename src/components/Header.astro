@@ -57,17 +57,19 @@ const navHtml = `
       <span class="topbar__item"><Fragment set:html={icon('clock', '', 15)} /> Online Service Requests</span>
       <span class="topbar__item topbar__item--areas"><Fragment set:html={icon('pin', '', 15)} /> {site.enquirySite ? `Requests for ${site.city}` : `Serving ${site.city} & ${site.county}`}</span>
     </div>
-    <a class="topbar__right" href="/contact/"><Fragment set:html={icon('check-sm', '', 15)} /> {site.enquirySite ? 'Headbanger Marketing inquiry site' : 'Free, No-Obligation Quotes'}</a>
+    <a class="topbar__right" href="/contact/"><Fragment set:html={icon('check-sm', '', 15)} /> {site.enquirySite ? 'Describe Your Project' : 'Free, No-Obligation Quotes'}</a>
   </div>
 </div>
 <header class="site-header">
   <div class="container navbar">
     <a class="brand" href="/">
+      {site.enquirySite ? <img class="site-wordmark" src={`/assets/wordmarks/${site.domain}.svg`} alt={site.brand} width="260" height="48" loading="eager" decoding="async" /> : <>
       <img class="brand__logo" width="48" height="48" src={site.media?.logo ? `/assets/img/logos/${site.media.logo}` : '/assets/img/logo.png'} alt={site.brand} loading="eager" decoding="async">
       <span class="brand__text">
         <span class="brand__name">{brandLine1}</span>
         {brandLine2 && <span class="brand__tag">{brandLine2}</span>}
       </span>
+      </>}
     </a>
     {/* Scrim lives INSIDE the header's stacking context (z 100): at root level
         it would rank above the whole header and cover the drawer (z 120 only

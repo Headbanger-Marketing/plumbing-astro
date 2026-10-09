@@ -1,8 +1,8 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
   "h1": "Port Perry Plumbing Project Inquiries",
-  "intro": "If a property has been unused or a fixture sees occasional use, mention that history with the present symptom. Share the equipment details and access arrangements you know. Headbanger Marketing reviews Port Perry inquiries before any service provider or visit is confirmed.",
-  "meta": "If a property has been unused or a fixture sees occasional use, mention that history with the present symptom. Send your Port Perry inquiry to Headbanger Marketing for review.",
+  "intro": "If a property has been unused or a fixture sees occasional use, mention that history with the present symptom. Share the equipment details and access arrangements you know. Our enquiry team reviews Port Perry inquiries before any service provider or visit is confirmed.",
+  "meta": "If a property has been unused or a fixture sees occasional use, mention that history with the present symptom. Send your Port Perry inquiry for review.",
   "heading": "Planning plumbing work around limited use or an extended absence",
   "planningIntro": "An extended absence or occasional-use room can leave gaps in the symptom history. For a Port Perry request, state when the property or fixture was last used normally and what was observed on return. Identify known shutdown or maintenance work without assuming the system is ready to recommission. The assessment should distinguish current defects from checks needed because the equipment history is uncertain.",
   "checklist": [
@@ -19,7 +19,7 @@ export const HOME = {
       "Identify how access will be arranged and who can discuss the equipment and authorize work."
     ]
   ],
-  "cta": "Describe the plumbing work at your Port Perry property, including use history. Headbanger Marketing reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
+  "cta": "Describe the plumbing work at your Port Perry property, including use history. Our enquiry team reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
 };
 
 export const SVC = {
@@ -27,7 +27,7 @@ export const SVC = {
     "icon": "flame",
     "kicker": "Water Heaters enquiries in Port Perry",
     "h1": "Water Heaters Requests in Port Perry",
-    "intro": "Port Perry Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. If a heater has been unused, provide its model, known maintenance and the reason for the request rather than assuming it only needs restarting.",
+    "intro": "Port Perry Plumbing Pros collects water heaters inquiries for review. If a heater has been unused, provide its model, known maintenance and the reason for the request rather than assuming it only needs restarting.",
     "meta": "Water Heaters enquiries in Port Perry. Review the water heaters scope, access and evidence before agreeing to work.",
     "problem_h": "What checks follow the heater’s unused period?",
     "problem_p": "An unused period can leave uncertainty about equipment condition and maintenance without indicating a specific fault.",
@@ -63,7 +63,7 @@ export const SVC = {
     "icon": "refresh",
     "kicker": "Drain Cleaning enquiries in Port Perry",
     "h1": "Drain Cleaning Requests in Port Perry",
-    "intro": "Port Perry Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. Record whether the drain problem appeared after an absence or only when several fixtures were used again.",
+    "intro": "Port Perry Plumbing Pros collects drain cleaning inquiries for review. Record whether the drain problem appeared after an absence or only when several fixtures were used again.",
     "meta": "Drain Cleaning enquiries in Port Perry. Review the drain cleaning scope, access and evidence before agreeing to work.",
     "problem_h": "Did the drain issue appear when use resumed?",
     "problem_p": "A drain symptom discovered after an absence needs a present assessment rather than a guessed history.",
@@ -99,7 +99,7 @@ export const SVC = {
     "icon": "wrench",
     "kicker": "Repiping enquiries in Port Perry",
     "h1": "Repiping Requests in Port Perry",
-    "intro": "Port Perry Plumbing Pros collects repiping inquiries for Headbanger Marketing review. If exposed or rarely used pipe is being considered for replacement, describe its route and the actual defect or project goal.",
+    "intro": "Port Perry Plumbing Pros collects repiping inquiries for review. If exposed or rarely used pipe is being considered for replacement, describe its route and the actual defect or project goal.",
     "meta": "Repiping enquiries in Port Perry. Review the repiping scope, access and evidence before agreeing to work.",
     "problem_h": "Is replacement supported by a defect or a project goal?",
     "problem_p": "Limited use can frame an access or maintenance question without proving that the supply pipe has failed.",
@@ -135,7 +135,7 @@ export const SVC = {
     "icon": "home",
     "kicker": "Fixtures &amp; Toilets enquiries in Port Perry",
     "h1": "Fixtures and Toilets Requests in Port Perry",
-    "intro": "Port Perry Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. For a little-used bathroom or utility fixture, record the symptom and any visible product or connection details before selecting a replacement.",
+    "intro": "Port Perry Plumbing Pros collects fixtures and toilets inquiries for review. For a little-used bathroom or utility fixture, record the symptom and any visible product or connection details before selecting a replacement.",
     "meta": "Fixtures and Toilets enquiries in Port Perry. Review the fixtures toilets scope, access and evidence before agreeing to work.",
     "problem_h": "What changed in the little-used bathroom?",
     "problem_p": "A rarely used fixture can have incomplete history about its parts and connections.",
@@ -171,7 +171,7 @@ export const SVC = {
     "icon": "droplets",
     "kicker": "Leak Detection &amp; Repair enquiries in Port Perry",
     "h1": "Leak Detection and Repair Requests in Port Perry",
-    "intro": "Port Perry Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. When moisture is discovered on return, record where it was found and the known last use of nearby fixtures without guessing when the leak began.",
+    "intro": "Port Perry Plumbing Pros collects leak detection and repair inquiries for review. When moisture is discovered on return, record where it was found and the known last use of nearby fixtures without guessing when the leak began.",
     "meta": "Leak Detection and Repair enquiries in Port Perry. Review the leak detection scope, access and evidence before agreeing to work.",
     "problem_h": "What was observed when the property was reopened?",
     "problem_p": "Finding moisture on return provides a starting observation but not its date or source.",
@@ -207,7 +207,7 @@ export const SVC = {
     "icon": "shield",
     "kicker": "Sump Pumps &amp; Backwater enquiries in Port Perry",
     "h1": "Sump Pumps and Backwater Requests in Port Perry",
-    "intro": "Port Perry Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Describe any alarm or pump observation during the absence and the condition found on return, with equipment records if available.",
+    "intro": "Port Perry Plumbing Pros collects sump pumps and backwater inquiries for review. Describe any alarm or pump observation during the absence and the condition found on return, with equipment records if available.",
     "meta": "Sump Pumps and Backwater enquiries in Port Perry. Review the sump pumps scope, access and evidence before agreeing to work.",
     "problem_h": "What pump condition was found after the absence?",
     "problem_p": "An absence can leave gaps in the history of alarms and pump operation.",
@@ -243,7 +243,7 @@ export const SVC = {
     "icon": "gauge",
     "kicker": "Water Softeners &amp; Filtration enquiries in Port Perry",
     "h1": "Water Softeners and Filtration Requests in Port Perry",
-    "intro": "Port Perry Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. List treatment equipment and any service performed before the property was left unused, together with relevant water-test records.",
+    "intro": "Port Perry Plumbing Pros collects water softeners and filtration inquiries for review. List treatment equipment and any service performed before the property was left unused, together with relevant water-test records.",
     "meta": "Water Softeners and Filtration enquiries in Port Perry. Review the water softeners scope, access and evidence before agreeing to work.",
     "problem_h": "What is known about treatment maintenance before reuse?",
     "problem_p": "Treatment equipment that has been idle needs its purpose and condition understood before normal use or another device is proposed.",
@@ -329,7 +329,7 @@ export const HOME_SERVICES = [
 export const HOME_FAQ = [
   [
     "Who operates Port Perry Plumbing Pros?",
-    "Headbanger Marketing owns and operates this inquiry website. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
+    "This is an inquiry website for the named market. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
   ],
   [
     "What should I include in a Port Perry request?",

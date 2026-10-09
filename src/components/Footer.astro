@@ -37,9 +37,9 @@ const areas = site.serviceAreas.map((a) => `<li>${a}</li>`).join('');
     <div class="footer-grid">
       <div>
         <a class="brand footer-brand" href="/">
-          <img class="brand__logo" width="64" height="64" src={footerLogo} alt={site.brand} loading="eager" decoding="async">
+          {site.enquirySite ? <img class="site-wordmark" src={`/assets/wordmarks/${site.domain}-inverse.svg`} alt={site.brand} width="260" height="54" loading="lazy" decoding="async" /> : <img class="brand__logo" width="64" height="64" src={footerLogo} alt={site.brand} loading="eager" decoding="async">}
         </a>
-        <p class="footer-about">{site.enquirySite ? `Headbanger Marketing owns this ${site.city} inquiry website. Submit a request for review. Provider identity, coverage and appointment availability require confirmation.` : vc.tagline(site.city, site.county)}</p>
+        <p class="footer-about">{site.enquirySite ? `An inquiry website for ${site.city}. Submit a request for review. Provider identity, coverage and appointment availability require confirmation.` : vc.tagline(site.city, site.county)}</p>
       </div>
       <div>
         <h2>Company</h2>

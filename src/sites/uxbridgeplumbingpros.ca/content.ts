@@ -1,8 +1,8 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
   "h1": "Uxbridge Plumbing Requests and Planning",
-  "intro": "A leak at a fixture, a supply problem and an outdoor line concern need different assessments. Tell us which part of the property is affected and what systems you can identify. Headbanger Marketing reviews Uxbridge requests without assigning an unconfirmed provider.",
-  "meta": "A leak at a fixture, a supply problem and an outdoor line concern need different assessments. Send your Uxbridge inquiry to Headbanger Marketing for review.",
+  "intro": "A leak at a fixture, a supply problem and an outdoor line concern need different assessments. Tell us which part of the property is affected and what systems you can identify. Our enquiry team reviews Uxbridge requests without assigning an unconfirmed provider.",
+  "meta": "A leak at a fixture, a supply problem and an outdoor line concern need different assessments. Send your Uxbridge inquiry for review.",
   "heading": "Defining indoor work separately from private supply or outdoor connections",
   "planningIntro": "The source of a water or drainage problem may sit outside the room where the symptom appears. For an Uxbridge inquiry, distinguish an indoor fixture request from a concern involving a private supply, on-site wastewater or an outdoor connection, if those systems are present. Include what is known and what is uncertain. The relevant work and specialist must be identified before a visit can be agreed.",
   "checklist": [
@@ -19,7 +19,7 @@ export const HOME = {
       "State which assessment you want and flag systems that may require a separate specialist."
     ]
   ],
-  "cta": "Describe the plumbing work at your Uxbridge property, including where the symptom appears. Headbanger Marketing reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
+  "cta": "Describe the plumbing work at your Uxbridge property, including where the symptom appears. Our enquiry team reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
 };
 
 export const SVC = {
@@ -27,7 +27,7 @@ export const SVC = {
     "icon": "flame",
     "kicker": "Water Heaters enquiries in Uxbridge",
     "h1": "Water Heaters Requests in Uxbridge",
-    "intro": "Uxbridge Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. Compare hot-water-only symptoms with changes that also affect cold outlets, and identify the current heater and connected treatment if present.",
+    "intro": "Uxbridge Plumbing Pros collects water heaters inquiries for review. Compare hot-water-only symptoms with changes that also affect cold outlets, and identify the current heater and connected treatment if present.",
     "meta": "Water Heaters enquiries in Uxbridge. Review the water heaters scope, access and evidence before agreeing to work.",
     "problem_h": "Is the symptom limited to hot-water outlets?",
     "problem_p": "Comparing hot and cold outlet observations can help frame the investigation without establishing its result.",
@@ -63,7 +63,7 @@ export const SVC = {
     "icon": "refresh",
     "kicker": "Drain Cleaning enquiries in Uxbridge",
     "h1": "Drain Cleaning Requests in Uxbridge",
-    "intro": "Uxbridge Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. Describe whether a blockage affects one indoor fixture, multiple building drains or an on-site wastewater system, if present.",
+    "intro": "Uxbridge Plumbing Pros collects drain cleaning inquiries for review. Describe whether a blockage affects one indoor fixture, multiple building drains or an on-site wastewater system, if present.",
     "meta": "Drain Cleaning enquiries in Uxbridge. Review the drain cleaning scope, access and evidence before agreeing to work.",
     "problem_h": "Does the concern extend into on-site wastewater?",
     "problem_p": "A building drain assessment has a defined reach.",
@@ -99,7 +99,7 @@ export const SVC = {
     "icon": "wrench",
     "kicker": "Repiping enquiries in Uxbridge",
     "h1": "Repiping Requests in Uxbridge",
-    "intro": "Uxbridge Plumbing Pros collects repiping inquiries for Headbanger Marketing review. Separate the proposed indoor pipe replacement from a line continuing outdoors or toward supply equipment, and mark uncertain routes.",
+    "intro": "Uxbridge Plumbing Pros collects repiping inquiries for review. Separate the proposed indoor pipe replacement from a line continuing outdoors or toward supply equipment, and mark uncertain routes.",
     "meta": "Repiping enquiries in Uxbridge. Review the repiping scope, access and evidence before agreeing to work.",
     "problem_h": "Where does indoor piping become an outdoor route?",
     "problem_p": "An indoor replacement can be priced more clearly when its boundary at an outdoor connection is identified.",
@@ -135,7 +135,7 @@ export const SVC = {
     "icon": "home",
     "kicker": "Fixtures &amp; Toilets enquiries in Uxbridge",
     "h1": "Fixtures and Toilets Requests in Uxbridge",
-    "intro": "Uxbridge Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. For a utility or outdoor-connected fixture, identify its actual supply and drain destination as far as you can confirm.",
+    "intro": "Uxbridge Plumbing Pros collects fixtures and toilets inquiries for review. For a utility or outdoor-connected fixture, identify its actual supply and drain destination as far as you can confirm.",
     "meta": "Fixtures and Toilets enquiries in Uxbridge. Review the fixtures toilets scope, access and evidence before agreeing to work.",
     "problem_h": "Where would the utility fixture discharge?",
     "problem_p": "A utility fixture may depend on an outdoor or less familiar connection whose purpose is not obvious from its location.",
@@ -171,7 +171,7 @@ export const SVC = {
     "icon": "droplets",
     "kicker": "Leak Detection &amp; Repair enquiries in Uxbridge",
     "h1": "Leak Detection and Repair Requests in Uxbridge",
-    "intro": "Uxbridge Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Note whether the suspected leak is based on visible indoor moisture, unexplained supply use or water observed near an outdoor connection.",
+    "intro": "Uxbridge Plumbing Pros collects leak detection and repair inquiries for review. Note whether the suspected leak is based on visible indoor moisture, unexplained supply use or water observed near an outdoor connection.",
     "meta": "Leak Detection and Repair enquiries in Uxbridge. Review the leak detection scope, access and evidence before agreeing to work.",
     "problem_h": "Is the suspected source inside the house?",
     "problem_p": "Indoor moisture and apparent supply loss outside the house should be compared as separate observations until a connection is established.",
@@ -207,7 +207,7 @@ export const SVC = {
     "icon": "shield",
     "kicker": "Sump Pumps &amp; Backwater enquiries in Uxbridge",
     "h1": "Sump Pumps and Backwater Requests in Uxbridge",
-    "intro": "Uxbridge Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Photograph the accessible pit and discharge termination, and describe any observed water entry without assigning it to a presumed high water table.",
+    "intro": "Uxbridge Plumbing Pros collects sump pumps and backwater inquiries for review. Photograph the accessible pit and discharge termination, and describe any observed water entry without assigning it to a presumed high water table.",
     "meta": "Sump Pumps and Backwater enquiries in Uxbridge. Review the sump pumps scope, access and evidence before agreeing to work.",
     "problem_h": "What distinguishes water entry from a guessed groundwater cause?",
     "problem_p": "A wet basement observation should be related to actual entry and discharge conditions rather than a presumed cause based on the address.",
@@ -243,7 +243,7 @@ export const SVC = {
     "icon": "gauge",
     "kicker": "Water Softeners &amp; Filtration enquiries in Uxbridge",
     "h1": "Water Softeners and Filtration Requests in Uxbridge",
-    "intro": "Uxbridge Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. Provide relevant water-test results, source information and existing treatment labels if a private supply is part of the property.",
+    "intro": "Uxbridge Plumbing Pros collects water softeners and filtration inquiries for review. Provide relevant water-test results, source information and existing treatment labels if a private supply is part of the property.",
     "meta": "Water Softeners and Filtration enquiries in Uxbridge. Review the water softeners scope, access and evidence before agreeing to work.",
     "problem_h": "Which treatment stage addresses each tested concern?",
     "problem_p": "Private-supply treatment requires the concern and evidence to be identified before a device is selected.",
@@ -329,7 +329,7 @@ export const HOME_SERVICES = [
 export const HOME_FAQ = [
   [
     "Who operates Uxbridge Plumbing Pros?",
-    "Headbanger Marketing owns and operates this inquiry website. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
+    "This is an inquiry website for the named market. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
   ],
   [
     "What should I include in a Uxbridge request?",

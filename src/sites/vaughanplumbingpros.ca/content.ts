@@ -1,8 +1,8 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
   "h1": "Plumbing Plans and Inquiries in Vaughan",
-  "intro": "A renovation quote needs more than a list of new fixtures. Share the intended layout, product specifications and what can be reached now. Headbanger Marketing reviews Vaughan plumbing inquiries, with the responding provider and appointment confirmed separately.",
-  "meta": "A renovation quote needs more than a list of new fixtures. Send your Vaughan inquiry to Headbanger Marketing for review.",
+  "intro": "A renovation quote needs more than a list of new fixtures. Share the intended layout, product specifications and what can be reached now. Our enquiry team reviews Vaughan plumbing inquiries, with the responding provider and appointment confirmed separately.",
+  "meta": "A renovation quote needs more than a list of new fixtures. Send your Vaughan inquiry for review.",
   "heading": "Coordinating fixture upgrades with a planned kitchen or bathroom layout",
   "planningIntro": "A new island sink, shower valve or relocated laundry connection can change supply and drainage routes. If your Vaughan request is part of a renovation, show both the existing layout and the proposed layout. Identify decisions already made by the designer or other trades. A provider can then explain the difference between replacing a fixture in place and relocating the plumbing that serves it.",
   "checklist": [
@@ -19,7 +19,7 @@ export const HOME = {
       "Mention cabinetry, stone, tile and waterproofing deadlines so connection work can be discussed in the right order."
     ]
   ],
-  "cta": "Describe the plumbing work at your Vaughan property, including two layouts. Headbanger Marketing reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
+  "cta": "Describe the plumbing work at your Vaughan property, including two layouts. Our enquiry team reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
 };
 
 export const SVC = {
@@ -27,7 +27,7 @@ export const SVC = {
     "icon": "flame",
     "kicker": "Water Heaters enquiries in Vaughan",
     "h1": "Water Heaters Requests in Vaughan",
-    "intro": "Vaughan Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. If a remodel adds a larger tub or more hot-water outlets, document the proposed fixtures and the current heater rather than guessing a larger tank is required.",
+    "intro": "Vaughan Plumbing Pros collects water heaters inquiries for review. If a remodel adds a larger tub or more hot-water outlets, document the proposed fixtures and the current heater rather than guessing a larger tank is required.",
     "meta": "Water Heaters enquiries in Vaughan. Review the water heaters scope, access and evidence before agreeing to work.",
     "problem_h": "What will the new fixtures require from the heater?",
     "problem_p": "A selected tub or shower can make demand planning more specific than a simple bathroom count.",
@@ -63,7 +63,7 @@ export const SVC = {
     "icon": "refresh",
     "kicker": "Drain Cleaning enquiries in Vaughan",
     "h1": "Drain Cleaning Requests in Vaughan",
-    "intro": "Vaughan Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. For an island or relocated sink, identify whether the request concerns a new drainage route or an existing line that repeatedly blocks.",
+    "intro": "Vaughan Plumbing Pros collects drain cleaning inquiries for review. For an island or relocated sink, identify whether the request concerns a new drainage route or an existing line that repeatedly blocks.",
     "meta": "Drain Cleaning enquiries in Vaughan. Review the drain cleaning scope, access and evidence before agreeing to work.",
     "problem_h": "Are you clearing a drain or relocating it?",
     "problem_p": "Moving a sink can involve route design even when the old drain also needs cleaning.",
@@ -99,7 +99,7 @@ export const SVC = {
     "icon": "wrench",
     "kicker": "Repiping enquiries in Vaughan",
     "h1": "Repiping Requests in Vaughan",
-    "intro": "Vaughan Plumbing Pros collects repiping inquiries for Headbanger Marketing review. Describe supply pipe that conflicts with new cabinetry, walls or a proposed open ceiling, and mark the affected rooms.",
+    "intro": "Vaughan Plumbing Pros collects repiping inquiries for review. Describe supply pipe that conflicts with new cabinetry, walls or a proposed open ceiling, and mark the affected rooms.",
     "meta": "Repiping enquiries in Vaughan. Review the repiping scope, access and evidence before agreeing to work.",
     "problem_h": "Which supply runs conflict with the new layout?",
     "problem_p": "A pipe can obstruct the new layout while remaining serviceable.",
@@ -135,7 +135,7 @@ export const SVC = {
     "icon": "home",
     "kicker": "Fixtures &amp; Toilets enquiries in Vaughan",
     "h1": "Fixtures and Toilets Requests in Vaughan",
-    "intro": "Vaughan Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. Send the shower valve, tub or sink installation requirements before wall depths, cabinetry and finished surfaces are fixed.",
+    "intro": "Vaughan Plumbing Pros collects fixtures and toilets inquiries for review. Send the shower valve, tub or sink installation requirements before wall depths, cabinetry and finished surfaces are fixed.",
     "meta": "Fixtures and Toilets enquiries in Vaughan. Review the fixtures toilets scope, access and evidence before agreeing to work.",
     "problem_h": "Are rough-in locations fixed before tile and cabinets?",
     "problem_p": "Once stone, tile or cabinetry is fixed, correcting an unsuitable fixture position can involve another trade.",
@@ -171,7 +171,7 @@ export const SVC = {
     "icon": "droplets",
     "kicker": "Leak Detection &amp; Repair enquiries in Vaughan",
     "h1": "Leak Detection and Repair Requests in Vaughan",
-    "intro": "Vaughan Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Record wet areas around the renovation and identify temporary connections or fixtures that changed before the symptoms appeared.",
+    "intro": "Vaughan Plumbing Pros collects leak detection and repair inquiries for review. Record wet areas around the renovation and identify temporary connections or fixtures that changed before the symptoms appeared.",
     "meta": "Leak Detection and Repair enquiries in Vaughan. Review the leak detection scope, access and evidence before agreeing to work.",
     "problem_h": "Which renovation change preceded the wet area?",
     "problem_p": "The newest change in a renovation is useful context but may not be the leak source.",
@@ -207,7 +207,7 @@ export const SVC = {
     "icon": "shield",
     "kicker": "Sump Pumps &amp; Backwater enquiries in Vaughan",
     "h1": "Sump Pumps and Backwater Requests in Vaughan",
-    "intro": "Vaughan Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. If storage or a new room surrounds the sump or valve access, show the proposed access opening and current discharge route.",
+    "intro": "Vaughan Plumbing Pros collects sump pumps and backwater inquiries for review. If storage or a new room surrounds the sump or valve access, show the proposed access opening and current discharge route.",
     "meta": "Sump Pumps and Backwater enquiries in Vaughan. Review the sump pumps scope, access and evidence before agreeing to work.",
     "problem_h": "Will the new room obstruct drainage maintenance?",
     "problem_p": "New storage or room walls can hide drainage equipment without changing the plumbing symptom that prompted the request.",
@@ -243,7 +243,7 @@ export const SVC = {
     "icon": "gauge",
     "kicker": "Water Softeners &amp; Filtration enquiries in Vaughan",
     "h1": "Water Softeners and Filtration Requests in Vaughan",
-    "intro": "Vaughan Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. For a kitchen filter or larger treatment system, specify the desired water use and the fixtures that would be connected.",
+    "intro": "Vaughan Plumbing Pros collects water softeners and filtration inquiries for review. For a kitchen filter or larger treatment system, specify the desired water use and the fixtures that would be connected.",
     "meta": "Water Softeners and Filtration enquiries in Vaughan. Review the water softeners scope, access and evidence before agreeing to work.",
     "problem_h": "Is treatment intended for a sink or the house?",
     "problem_p": "A drinking-water outlet and a system serving every fixture can require very different connections and maintenance.",
@@ -329,7 +329,7 @@ export const HOME_SERVICES = [
 export const HOME_FAQ = [
   [
     "Who operates Vaughan Plumbing Pros?",
-    "Headbanger Marketing owns and operates this inquiry website. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
+    "This is an inquiry website for the named market. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
   ],
   [
     "What should I include in a Vaughan request?",

@@ -1,8 +1,8 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
   "h1": "King City Plumbing Project Requests",
-  "intro": "The distance between equipment, fixtures and an accessible work area matters when defining a plumbing job. Describe the rooms involved and any separate building or unusual access. Headbanger Marketing reviews King City inquiries before provider coverage and scheduling are confirmed.",
-  "meta": "The distance between equipment, fixtures and an accessible work area matters when defining a plumbing job. Send your King City inquiry to Headbanger Marketing for review.",
+  "intro": "The distance between equipment, fixtures and an accessible work area matters when defining a plumbing job. Describe the rooms involved and any separate building or unusual access. Our enquiry team reviews King City inquiries before provider coverage and scheduling are confirmed.",
+  "meta": "The distance between equipment, fixtures and an accessible work area matters when defining a plumbing job. Send your King City inquiry for review.",
   "heading": "Planning work where equipment and fixtures are spread across separate spaces",
   "planningIntro": "A request can span more than one room or building without requiring the whole system to be replaced. For a King City property, identify each affected space and whether it shares water, drainage or treatment equipment with another part of the property. Explain access constraints separately from the symptom. The assessment should establish the connection between those spaces before a broad repair scope is proposed.",
   "checklist": [
@@ -19,7 +19,7 @@ export const HOME = {
       "Mention equipment moving paths, restricted doors, finished walls and other practical access limitations."
     ]
   ],
-  "cta": "Describe the plumbing work at your King City property, including separate spaces. Headbanger Marketing reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
+  "cta": "Describe the plumbing work at your King City property, including separate spaces. Our enquiry team reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
 };
 
 export const SVC = {
@@ -27,7 +27,7 @@ export const SVC = {
     "icon": "flame",
     "kicker": "Water Heaters enquiries in King City",
     "h1": "Water Heaters Requests in King City",
-    "intro": "King City Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. List the rooms experiencing hot-water problems and whether they are supplied by one heater or separate units, if known.",
+    "intro": "King City Plumbing Pros collects water heaters inquiries for review. List the rooms experiencing hot-water problems and whether they are supplied by one heater or separate units, if known.",
     "meta": "Water Heaters enquiries in King City. Review the water heaters scope, access and evidence before agreeing to work.",
     "problem_h": "Do affected rooms share the same water heater?",
     "problem_p": "A hot-water complaint in one space should not automatically define a problem with every heater on the property.",
@@ -63,7 +63,7 @@ export const SVC = {
     "icon": "refresh",
     "kicker": "Drain Cleaning enquiries in King City",
     "h1": "Drain Cleaning Requests in King City",
-    "intro": "King City Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. State whether slow drainage occurs in the main house, another building or both, and identify accessible cleanouts without assuming a common line.",
+    "intro": "King City Plumbing Pros collects drain cleaning inquiries for review. State whether slow drainage occurs in the main house, another building or both, and identify accessible cleanouts without assuming a common line.",
     "meta": "Drain Cleaning enquiries in King City. Review the drain cleaning scope, access and evidence before agreeing to work.",
     "problem_h": "Do separate buildings share the blocked route?",
     "problem_p": "Separate buildings or rooms can have independent drain routes even when symptoms appear at similar times.",
@@ -99,7 +99,7 @@ export const SVC = {
     "icon": "wrench",
     "kicker": "Repiping enquiries in King City",
     "h1": "Repiping Requests in King City",
-    "intro": "King City Plumbing Pros collects repiping inquiries for Headbanger Marketing review. Mark the run being considered for replacement, including any long path through finished rooms or between separate service spaces.",
+    "intro": "King City Plumbing Pros collects repiping inquiries for review. Mark the run being considered for replacement, including any long path through finished rooms or between separate service spaces.",
     "meta": "Repiping enquiries in King City. Review the repiping scope, access and evidence before agreeing to work.",
     "problem_h": "How would replacement cross separate service spaces?",
     "problem_p": "A long run through finished areas can make routing and isolation central to the replacement proposal.",
@@ -135,7 +135,7 @@ export const SVC = {
     "icon": "home",
     "kicker": "Fixtures &amp; Toilets enquiries in King City",
     "h1": "Fixtures and Toilets Requests in King City",
-    "intro": "King City Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. For a fixture in a separate room or building, identify the available connections and how that space is used.",
+    "intro": "King City Plumbing Pros collects fixtures and toilets inquiries for review. For a fixture in a separate room or building, identify the available connections and how that space is used.",
     "meta": "Fixtures and Toilets enquiries in King City. Review the fixtures toilets scope, access and evidence before agreeing to work.",
     "problem_h": "Can the additional fixture use the existing route?",
     "problem_p": "A fixture in a separate space needs more than a product choice.",
@@ -171,7 +171,7 @@ export const SVC = {
     "icon": "droplets",
     "kicker": "Leak Detection &amp; Repair enquiries in King City",
     "h1": "Leak Detection and Repair Requests in King City",
-    "intro": "King City Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Record moisture observations in each affected space and the times they occur. Separate visible water from assumptions about a connecting pipe.",
+    "intro": "King City Plumbing Pros collects leak detection and repair inquiries for review. Record moisture observations in each affected space and the times they occur. Separate visible water from assumptions about a connecting pipe.",
     "meta": "Leak Detection and Repair enquiries in King City. Review the leak detection scope, access and evidence before agreeing to work.",
     "problem_h": "What connects moisture observations in different rooms?",
     "problem_p": "When moisture is observed in different rooms, the assessment should establish whether the observations share a source.",
@@ -207,7 +207,7 @@ export const SVC = {
     "icon": "shield",
     "kicker": "Sump Pumps &amp; Backwater enquiries in King City",
     "h1": "Sump Pumps and Backwater Requests in King City",
-    "intro": "King City Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Describe whether the pump protects the main basement or another lower space, and where its discharge can be observed safely.",
+    "intro": "King City Plumbing Pros collects sump pumps and backwater inquiries for review. Describe whether the pump protects the main basement or another lower space, and where its discharge can be observed safely.",
     "meta": "Sump Pumps and Backwater enquiries in King City. Review the sump pumps scope, access and evidence before agreeing to work.",
     "problem_h": "Which lower space does each pump protect?",
     "problem_p": "A pump serving one lower space may experience different conditions from equipment elsewhere on the property.",
@@ -243,7 +243,7 @@ export const SVC = {
     "icon": "gauge",
     "kicker": "Water Softeners &amp; Filtration enquiries in King City",
     "h1": "Water Softeners and Filtration Requests in King City",
-    "intro": "King City Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. Identify which outlets receive treated water and whether another building uses the same supply or has separate equipment.",
+    "intro": "King City Plumbing Pros collects water softeners and filtration inquiries for review. Identify which outlets receive treated water and whether another building uses the same supply or has separate equipment.",
     "meta": "Water Softeners and Filtration enquiries in King City. Review the water softeners scope, access and evidence before agreeing to work.",
     "problem_h": "Which buildings or branches receive treated water?",
     "problem_p": "The treatment boundary should follow confirmed connections, particularly where more than one building or service branch is involved.",
@@ -329,7 +329,7 @@ export const HOME_SERVICES = [
 export const HOME_FAQ = [
   [
     "Who operates King City Plumbing Pros?",
-    "Headbanger Marketing owns and operates this inquiry website. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
+    "This is an inquiry website for the named market. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
   ],
   [
     "What should I include in a King City request?",

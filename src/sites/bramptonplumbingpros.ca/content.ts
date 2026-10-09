@@ -1,8 +1,8 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
   "h1": "Describe Your Brampton Plumbing Project",
-  "intro": "An existing drain problem and a planned basement bathroom need different information. Tell us what is already installed, what will change and which spaces are finished. Your Brampton inquiry goes to Headbanger Marketing for review before a provider is identified.",
-  "meta": "An existing drain problem and a planned basement bathroom need different information. Send your Brampton inquiry to Headbanger Marketing for review.",
+  "intro": "An existing drain problem and a planned basement bathroom need different information. Tell us what is already installed, what will change and which spaces are finished. Your Brampton inquiry goes for review before a provider is identified.",
+  "meta": "An existing drain problem and a planned basement bathroom need different information. Send your Brampton inquiry for review.",
   "heading": "Separating basement renovation plumbing from repairs to existing fixtures",
   "planningIntro": "Before a basement renovation advances, plumbing routes, fixture locations and access need to be understood together. If your Brampton project adds living space, describe the proposed layout without assuming that an existing rough-in is ready to use. For a repair, give the symptom history rather than renovation specifications. This distinction helps keep the request focused on work that can be assessed at the property.",
   "checklist": [
@@ -19,7 +19,7 @@ export const HOME = {
       "Identify work affecting framing, waterproofing, electrical connections or equipment ventilation, if relevant."
     ]
   ],
-  "cta": "Describe the plumbing work at your Brampton property, including existing versus proposed. Headbanger Marketing reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
+  "cta": "Describe the plumbing work at your Brampton property, including existing versus proposed. Our enquiry team reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
 };
 
 export const SVC = {
@@ -27,7 +27,7 @@ export const SVC = {
     "icon": "flame",
     "kicker": "Water Heaters enquiries in Brampton",
     "h1": "Water Heaters Requests in Brampton",
-    "intro": "Brampton Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. Describe the number of bathrooms and proposed fixtures if a renovation will change hot-water demand, alongside the existing heater model.",
+    "intro": "Brampton Plumbing Pros collects water heaters inquiries for review. Describe the number of bathrooms and proposed fixtures if a renovation will change hot-water demand, alongside the existing heater model.",
     "meta": "Water Heaters enquiries in Brampton. Review the water heaters scope, access and evidence before agreeing to work.",
     "problem_h": "Will the planned bathroom change hot-water use?",
     "problem_p": "The proposed bathroom can change the use profile even if the existing heater is still functioning.",
@@ -63,7 +63,7 @@ export const SVC = {
     "icon": "refresh",
     "kicker": "Drain Cleaning enquiries in Brampton",
     "h1": "Drain Cleaning Requests in Brampton",
-    "intro": "Brampton Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. If a basement drain has never been used, distinguish testing a rough-in from clearing a drain with a known history of blockage.",
+    "intro": "Brampton Plumbing Pros collects drain cleaning inquiries for review. If a basement drain has never been used, distinguish testing a rough-in from clearing a drain with a known history of blockage.",
     "meta": "Drain Cleaning enquiries in Brampton. Review the drain cleaning scope, access and evidence before agreeing to work.",
     "problem_h": "Is the rough-in verified or the line blocked?",
     "problem_p": "A visible rough-in is a starting point for assessment, not proof that the planned fixtures can use it.",
@@ -99,7 +99,7 @@ export const SVC = {
     "icon": "wrench",
     "kicker": "Repiping enquiries in Brampton",
     "h1": "Repiping Requests in Brampton",
-    "intro": "Brampton Plumbing Pros collects repiping inquiries for Headbanger Marketing review. Mark supply runs that cross the proposed basement ceiling and note which are accessible before drywall or sound insulation is installed.",
+    "intro": "Brampton Plumbing Pros collects repiping inquiries for review. Mark supply runs that cross the proposed basement ceiling and note which are accessible before drywall or sound insulation is installed.",
     "meta": "Repiping enquiries in Brampton. Review the repiping scope, access and evidence before agreeing to work.",
     "problem_h": "Which runs will the finished ceiling conceal?",
     "problem_p": "The period before a ceiling closes may offer access, but access alone is not a reason to replace all exposed pipe.",
@@ -135,7 +135,7 @@ export const SVC = {
     "icon": "home",
     "kicker": "Fixtures &amp; Toilets enquiries in Brampton",
     "h1": "Fixtures and Toilets Requests in Brampton",
-    "intro": "Brampton Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. Supply a basement bathroom layout showing the toilet, basin and shower positions relative to the visible rough-in.",
+    "intro": "Brampton Plumbing Pros collects fixtures and toilets inquiries for review. Supply a basement bathroom layout showing the toilet, basin and shower positions relative to the visible rough-in.",
     "meta": "Fixtures and Toilets enquiries in Brampton. Review the fixtures toilets scope, access and evidence before agreeing to work.",
     "problem_h": "Does the basement layout match available drainage?",
     "problem_p": "A basement fixture plan needs to relate product positions to the actual drain arrangement rather than the rough-in labels alone.",
@@ -171,7 +171,7 @@ export const SVC = {
     "icon": "droplets",
     "kicker": "Leak Detection &amp; Repair enquiries in Brampton",
     "h1": "Leak Detection and Repair Requests in Brampton",
-    "intro": "Brampton Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Record whether the moisture began before construction or after a new connection, and note which fixtures were used immediately beforehand.",
+    "intro": "Brampton Plumbing Pros collects leak detection and repair inquiries for review. Record whether the moisture began before construction or after a new connection, and note which fixtures were used immediately beforehand.",
     "meta": "Leak Detection and Repair enquiries in Brampton. Review the leak detection scope, access and evidence before agreeing to work.",
     "problem_h": "Did moisture begin before or during construction?",
     "problem_p": "Construction can create several possible moisture sources near the same wall.",
@@ -207,7 +207,7 @@ export const SVC = {
     "icon": "shield",
     "kicker": "Sump Pumps &amp; Backwater enquiries in Brampton",
     "h1": "Sump Pumps and Backwater Requests in Brampton",
-    "intro": "Brampton Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Show how the sump lid, alarm and discharge access fit into the proposed room layout. A finished room still needs practical service access.",
+    "intro": "Brampton Plumbing Pros collects sump pumps and backwater inquiries for review. Show how the sump lid, alarm and discharge access fit into the proposed room layout. A finished room still needs practical service access.",
     "meta": "Sump Pumps and Backwater enquiries in Brampton. Review the sump pumps scope, access and evidence before agreeing to work.",
     "problem_h": "Will finished rooms preserve pump and valve access?",
     "problem_p": "A finished room must still allow the pump or valve to be inspected and maintained.",
@@ -243,7 +243,7 @@ export const SVC = {
     "icon": "gauge",
     "kicker": "Water Softeners &amp; Filtration enquiries in Brampton",
     "h1": "Water Softeners and Filtration Requests in Brampton",
-    "intro": "Brampton Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. Note any treatment appliance that will be enclosed by the new basement layout, including its salt loading and bypass access.",
+    "intro": "Brampton Plumbing Pros collects water softeners and filtration inquiries for review. Note any treatment appliance that will be enclosed by the new basement layout, including its salt loading and bypass access.",
     "meta": "Water Softeners and Filtration enquiries in Brampton. Review the water softeners scope, access and evidence before agreeing to work.",
     "problem_h": "Can treatment equipment be maintained after finishing?",
     "problem_p": "Enclosing treatment equipment can change routine tasks even when the appliance remains in the same position.",
@@ -329,7 +329,7 @@ export const HOME_SERVICES = [
 export const HOME_FAQ = [
   [
     "Who operates Brampton Plumbing Pros?",
-    "Headbanger Marketing owns and operates this inquiry website. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
+    "This is an inquiry website for the named market. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
   ],
   [
     "What should I include in a Brampton request?",

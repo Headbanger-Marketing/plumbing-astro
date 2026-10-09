@@ -1,8 +1,8 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
   "h1": "Plan Your Mississauga Plumbing Request",
-  "intro": "Replacing a tank, faucet or toilet starts with the connections already at the property. Share model labels, photographs and access details with your Mississauga inquiry. Headbanger Marketing reviews the request, and provider identity and visit availability require confirmation.",
-  "meta": "Replacing a tank, faucet or toilet starts with the connections already at the property. Send your Mississauga inquiry to Headbanger Marketing for review.",
+  "intro": "Replacing a tank, faucet or toilet starts with the connections already at the property. Share model labels, photographs and access details with your Mississauga inquiry. Our enquiry team reviews the request, and provider identity and visit availability require confirmation.",
+  "meta": "Replacing a tank, faucet or toilet starts with the connections already at the property. Send your Mississauga inquiry for review.",
   "heading": "Defining a replacement project before ordering fixtures or equipment",
   "planningIntro": "An equipment purchase can create extra work when its size or connections differ from the existing installation. For your Mississauga request, identify the product you already own and whether it is installed, ordered or still under consideration. Separate the desired outcome from assumptions about what fits. A responding provider needs to review the actual property before a replacement scope is agreed.",
   "checklist": [
@@ -19,7 +19,7 @@ export const HOME = {
       "Ask about removal, delivery, connection changes and finish repairs when comparing an installation proposal."
     ]
   ],
-  "cta": "Describe the plumbing work at your Mississauga property, including product status. Headbanger Marketing reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
+  "cta": "Describe the plumbing work at your Mississauga property, including product status. Our enquiry team reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
 };
 
 export const SVC = {
@@ -27,7 +27,7 @@ export const SVC = {
     "icon": "flame",
     "kicker": "Water Heaters enquiries in Mississauga",
     "h1": "Water Heaters Requests in Mississauga",
-    "intro": "Mississauga Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. Compare the current tank label with the intended replacement, including fuel, dimensions and the available space around its connections.",
+    "intro": "Mississauga Plumbing Pros collects water heaters inquiries for review. Compare the current tank label with the intended replacement, including fuel, dimensions and the available space around its connections.",
     "meta": "Water Heaters enquiries in Mississauga. Review the water heaters scope, access and evidence before agreeing to work.",
     "problem_h": "Will the chosen heater fit existing connections?",
     "problem_p": "An apparently similar replacement can differ in physical size, connection positions and installation requirements.",
@@ -63,7 +63,7 @@ export const SVC = {
     "icon": "refresh",
     "kicker": "Drain Cleaning enquiries in Mississauga",
     "h1": "Drain Cleaning Requests in Mississauga",
-    "intro": "Mississauga Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. Note whether the slow drain appeared after a sink or appliance replacement and whether a visible trap or branch connection was changed.",
+    "intro": "Mississauga Plumbing Pros collects drain cleaning inquiries for review. Note whether the slow drain appeared after a sink or appliance replacement and whether a visible trap or branch connection was changed.",
     "meta": "Drain Cleaning enquiries in Mississauga. Review the drain cleaning scope, access and evidence before agreeing to work.",
     "problem_h": "Did drainage change after another installation?",
     "problem_p": "If the drain became slow after an appliance or sink was changed, preserve the sequence of work in the request.",
@@ -99,7 +99,7 @@ export const SVC = {
     "icon": "wrench",
     "kicker": "Repiping enquiries in Mississauga",
     "h1": "Repiping Requests in Mississauga",
-    "intro": "Mississauga Plumbing Pros collects repiping inquiries for Headbanger Marketing review. List plumbing altered during earlier renovations and photograph accessible material transitions. The visible pipe may not represent concealed branches.",
+    "intro": "Mississauga Plumbing Pros collects repiping inquiries for review. List plumbing altered during earlier renovations and photograph accessible material transitions. The visible pipe may not represent concealed branches.",
     "meta": "Repiping enquiries in Mississauga. Review the repiping scope, access and evidence before agreeing to work.",
     "problem_h": "Which earlier alterations need tracing?",
     "problem_p": "Photographs of exposed pipe transitions can help define questions, but they do not establish the route inside every wall.",
@@ -135,7 +135,7 @@ export const SVC = {
     "icon": "home",
     "kicker": "Fixtures &amp; Toilets enquiries in Mississauga",
     "h1": "Fixtures and Toilets Requests in Mississauga",
-    "intro": "Mississauga Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. Send the installation sheet for the new faucet, toilet or shower component with photographs of the current mounting and connections.",
+    "intro": "Mississauga Plumbing Pros collects fixtures and toilets inquiries for review. Send the installation sheet for the new faucet, toilet or shower component with photographs of the current mounting and connections.",
     "meta": "Fixtures and Toilets enquiries in Mississauga. Review the fixtures toilets scope, access and evidence before agreeing to work.",
     "problem_h": "Do you have the new fixture installation sheet?",
     "problem_p": "A fixture box can omit compatible connection parts or assume an installation condition that differs from the room.",
@@ -171,7 +171,7 @@ export const SVC = {
     "icon": "droplets",
     "kicker": "Leak Detection &amp; Repair enquiries in Mississauga",
     "h1": "Leak Detection and Repair Requests in Mississauga",
-    "intro": "Mississauga Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. For moisture that appeared after equipment replacement, record the installation date and where water is first visible without disturbing the connection.",
+    "intro": "Mississauga Plumbing Pros collects leak detection and repair inquiries for review. For moisture that appeared after equipment replacement, record the installation date and where water is first visible without disturbing the connection.",
     "meta": "Leak Detection and Repair enquiries in Mississauga. Review the leak detection scope, access and evidence before agreeing to work.",
     "problem_h": "Did moisture appear after equipment work?",
     "problem_p": "An installation date can focus the inquiry without proving that the new equipment caused the moisture.",
@@ -207,7 +207,7 @@ export const SVC = {
     "icon": "shield",
     "kicker": "Sump Pumps &amp; Backwater enquiries in Mississauga",
     "h1": "Sump Pumps and Backwater Requests in Mississauga",
-    "intro": "Mississauga Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Photograph the current pump label and pit opening before selecting a replacement. A different unit may affect float clearance or discharge connections.",
+    "intro": "Mississauga Plumbing Pros collects sump pumps and backwater inquiries for review. Photograph the current pump label and pit opening before selecting a replacement. A different unit may affect float clearance or discharge connections.",
     "meta": "Sump Pumps and Backwater enquiries in Mississauga. Review the sump pumps scope, access and evidence before agreeing to work.",
     "problem_h": "Can a replacement pump use the present pit?",
     "problem_p": "Pump dimensions and float movement should be considered together with the existing pit and connections.",
@@ -243,7 +243,7 @@ export const SVC = {
     "icon": "gauge",
     "kicker": "Water Softeners &amp; Filtration enquiries in Mississauga",
     "h1": "Water Softeners and Filtration Requests in Mississauga",
-    "intro": "Mississauga Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. Identify the treatment appliance and the space available for bypass, drain and service access before choosing a replacement cabinet size.",
+    "intro": "Mississauga Plumbing Pros collects water softeners and filtration inquiries for review. Identify the treatment appliance and the space available for bypass, drain and service access before choosing a replacement cabinet size.",
     "meta": "Water Softeners and Filtration enquiries in Mississauga. Review the water softeners scope, access and evidence before agreeing to work.",
     "problem_h": "Will the new treatment unit remain serviceable?",
     "problem_p": "A new treatment cabinet should be compared with the way the existing appliance is connected and maintained.",
@@ -329,7 +329,7 @@ export const HOME_SERVICES = [
 export const HOME_FAQ = [
   [
     "Who operates Mississauga Plumbing Pros?",
-    "Headbanger Marketing owns and operates this inquiry website. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
+    "This is an inquiry website for the named market. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
   ],
   [
     "What should I include in a Mississauga request?",

@@ -1,8 +1,8 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
   "h1": "Start a Stouffville Plumbing Inquiry",
-  "intro": "A recently occupied home may have equipment records, renovation notes or unresolved symptoms worth sharing. Describe the system you can identify and what changed after move-in. Headbanger Marketing reviews your Stouffville request before any provider is confirmed.",
-  "meta": "A recently occupied home may have equipment records, renovation notes or unresolved symptoms worth sharing. Send your Stouffville inquiry to Headbanger Marketing for review.",
+  "intro": "A recently occupied home may have equipment records, renovation notes or unresolved symptoms worth sharing. Describe the system you can identify and what changed after move-in. Our enquiry team reviews your Stouffville request before any provider is confirmed.",
+  "meta": "A recently occupied home may have equipment records, renovation notes or unresolved symptoms worth sharing. Send your Stouffville inquiry for review.",
   "heading": "Recording equipment handover information in a recently occupied property",
   "planningIntro": "Handover papers can help establish what is installed, but they do not replace an assessment of a new symptom. For a Stouffville property, gather equipment labels and any previous plumbing notes that relate to the request. If the installation date or material is unknown, say so. A clear distinction between documentation, observations and assumptions lets a responding provider decide what needs verification.",
   "checklist": [
@@ -19,7 +19,7 @@ export const HOME = {
       "Photograph the heater, treatment equipment or visible pipe markings without removing covers or altering connections."
     ]
   ],
-  "cta": "Describe the plumbing work at your Stouffville property, including handover records. Headbanger Marketing reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
+  "cta": "Describe the plumbing work at your Stouffville property, including handover records. Our enquiry team reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
 };
 
 export const SVC = {
@@ -27,7 +27,7 @@ export const SVC = {
     "icon": "flame",
     "kicker": "Water Heaters enquiries in Stouffville",
     "h1": "Water Heaters Requests in Stouffville",
-    "intro": "Stouffville Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. Use the heater label and ownership paperwork to establish what is installed, including whether a rental agreement may still apply.",
+    "intro": "Stouffville Plumbing Pros collects water heaters inquiries for review. Use the heater label and ownership paperwork to establish what is installed, including whether a rental agreement may still apply.",
     "meta": "Water Heaters enquiries in Stouffville. Review the water heaters scope, access and evidence before agreeing to work.",
     "problem_h": "Who owns the heater after the property handover?",
     "problem_p": "Heater ownership can change what work the homeowner is able to authorize.",
@@ -63,7 +63,7 @@ export const SVC = {
     "icon": "refresh",
     "kicker": "Drain Cleaning enquiries in Stouffville",
     "h1": "Drain Cleaning Requests in Stouffville",
-    "intro": "Stouffville Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. If a drain was slow when you moved in, record the affected fixtures and any inspection or cleaning notes provided by the previous owner.",
+    "intro": "Stouffville Plumbing Pros collects drain cleaning inquiries for review. If a drain was slow when you moved in, record the affected fixtures and any inspection or cleaning notes provided by the previous owner.",
     "meta": "Drain Cleaning enquiries in Stouffville. Review the drain cleaning scope, access and evidence before agreeing to work.",
     "problem_h": "What did the previous owner document about the drain?",
     "problem_p": "An old drain receipt may describe a different symptom or a section that is no longer the one in question.",
@@ -99,7 +99,7 @@ export const SVC = {
     "icon": "wrench",
     "kicker": "Repiping enquiries in Stouffville",
     "h1": "Repiping Requests in Stouffville",
-    "intro": "Stouffville Plumbing Pros collects repiping inquiries for Headbanger Marketing review. Document known renovations and visible pipe materials rather than assigning an age to all plumbing from the age of the house.",
+    "intro": "Stouffville Plumbing Pros collects repiping inquiries for review. Document known renovations and visible pipe materials rather than assigning an age to all plumbing from the age of the house.",
     "meta": "Repiping enquiries in Stouffville. Review the repiping scope, access and evidence before agreeing to work.",
     "problem_h": "Do renovation records identify all pipe materials?",
     "problem_p": "The house age is not a reliable map of every pipe installed after previous renovations.",
@@ -135,7 +135,7 @@ export const SVC = {
     "icon": "home",
     "kicker": "Fixtures &amp; Toilets enquiries in Stouffville",
     "h1": "Fixtures and Toilets Requests in Stouffville",
-    "intro": "Stouffville Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. For an unfamiliar shutoff or fixture, identify the product and describe the issue rather than ordering a replacement from appearance alone.",
+    "intro": "Stouffville Plumbing Pros collects fixtures and toilets inquiries for review. For an unfamiliar shutoff or fixture, identify the product and describe the issue rather than ordering a replacement from appearance alone.",
     "meta": "Fixtures and Toilets enquiries in Stouffville. Review the fixtures toilets scope, access and evidence before agreeing to work.",
     "problem_h": "Can the unfamiliar fixture be repaired in place?",
     "problem_p": "An unfamiliar fixture may need a repair component rather than a complete replacement, but its identity and connections must be established first.",
@@ -171,7 +171,7 @@ export const SVC = {
     "icon": "droplets",
     "kicker": "Leak Detection &amp; Repair enquiries in Stouffville",
     "h1": "Leak Detection and Repair Requests in Stouffville",
-    "intro": "Stouffville Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Keep a short record of when stains, unusual water use or dripping sounds appeared after occupation, and where they were observed.",
+    "intro": "Stouffville Plumbing Pros collects leak detection and repair inquiries for review. Keep a short record of when stains, unusual water use or dripping sounds appeared after occupation, and where they were observed.",
     "meta": "Leak Detection and Repair enquiries in Stouffville. Review the leak detection scope, access and evidence before agreeing to work.",
     "problem_h": "What changed after the property was occupied?",
     "problem_p": "Move-in can mark when a symptom was noticed without showing when it began.",
@@ -207,7 +207,7 @@ export const SVC = {
     "icon": "shield",
     "kicker": "Sump Pumps &amp; Backwater enquiries in Stouffville",
     "h1": "Sump Pumps and Backwater Requests in Stouffville",
-    "intro": "Stouffville Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. If the property includes a sump or backwater valve, locate its records and describe any visible alarm, lid and accessible maintenance opening.",
+    "intro": "Stouffville Plumbing Pros collects sump pumps and backwater inquiries for review. If the property includes a sump or backwater valve, locate its records and describe any visible alarm, lid and accessible maintenance opening.",
     "meta": "Sump Pumps and Backwater enquiries in Stouffville. Review the sump pumps scope, access and evidence before agreeing to work.",
     "problem_h": "What protection equipment came with the house?",
     "problem_p": "An inherited pump or valve should be identified before its condition or replacement needs are assumed.",
@@ -243,7 +243,7 @@ export const SVC = {
     "icon": "gauge",
     "kicker": "Water Softeners &amp; Filtration enquiries in Stouffville",
     "h1": "Water Softeners and Filtration Requests in Stouffville",
-    "intro": "Stouffville Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. Identify the treatment equipment left with the house, its stated purpose and any available service or water-test history.",
+    "intro": "Stouffville Plumbing Pros collects water softeners and filtration inquiries for review. Identify the treatment equipment left with the house, its stated purpose and any available service or water-test history.",
     "meta": "Water Softeners and Filtration enquiries in Stouffville. Review the water softeners scope, access and evidence before agreeing to work.",
     "problem_h": "Are inherited treatment settings supported by current evidence?",
     "problem_p": "A treatment appliance handed over with a property may have incomplete records about its purpose, settings or service.",
@@ -329,7 +329,7 @@ export const HOME_SERVICES = [
 export const HOME_FAQ = [
   [
     "Who operates Stouffville Plumbing Pros?",
-    "Headbanger Marketing owns and operates this inquiry website. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
+    "This is an inquiry website for the named market. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
   ],
   [
     "What should I include in a Stouffville request?",

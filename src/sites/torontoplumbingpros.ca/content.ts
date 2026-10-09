@@ -1,8 +1,8 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
   "h1": "Plumbing Inquiries for Toronto Properties",
-  "intro": "A plumbing request is easier to review when ownership and building access are clear. Describe the fixture, leak or replacement, and note any shared system or management approval. Headbanger Marketing reviews your inquiry before a provider is confirmed.",
-  "meta": "A plumbing request is easier to review when ownership and building access are clear. Send your Toronto inquiry to Headbanger Marketing for review.",
+  "intro": "A plumbing request is easier to review when ownership and building access are clear. Describe the fixture, leak or replacement, and note any shared system or management approval. Our enquiry team reviews your inquiry before a provider is confirmed.",
+  "meta": "A plumbing request is easier to review when ownership and building access are clear. Send your Toronto inquiry for review.",
   "heading": "Coordinating work in a home with shared building systems",
   "planningIntro": "A leak inside a suite and a blockage in a shared building drain can involve different responsibilities. If your Toronto property is managed or shares plumbing, identify the part you control and the person who can authorize isolation or access. A detached-home request should instead describe the affected branch and equipment. Neither a building type nor an address establishes the cause of a problem.",
   "checklist": [
@@ -19,7 +19,7 @@ export const HOME = {
       "Describe the equipment or fixture you want assessed. Keep a unit-level repair separate from a building-wide project."
     ]
   ],
-  "cta": "Describe the plumbing work at your Toronto property, including authority to arrange work. Headbanger Marketing reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
+  "cta": "Describe the plumbing work at your Toronto property, including authority to arrange work. Our enquiry team reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
 };
 
 export const SVC = {
@@ -27,7 +27,7 @@ export const SVC = {
     "icon": "flame",
     "kicker": "Water Heaters enquiries in Toronto",
     "h1": "Water Heaters Requests in Toronto",
-    "intro": "Toronto Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. If the heater is inside a suite or a common mechanical room, establish who owns it and who can approve its replacement.",
+    "intro": "Toronto Plumbing Pros collects water heaters inquiries for review. If the heater is inside a suite or a common mechanical room, establish who owns it and who can approve its replacement.",
     "meta": "Water Heaters enquiries in Toronto. Review the water heaters scope, access and evidence before agreeing to work.",
     "problem_h": "Who controls the heater and its delivery route?",
     "problem_p": "A heater inquiry in a managed building should separate appliance ownership from control of the supplies that serve it.",
@@ -63,7 +63,7 @@ export const SVC = {
     "icon": "refresh",
     "kicker": "Drain Cleaning enquiries in Toronto",
     "h1": "Drain Cleaning Requests in Toronto",
-    "intro": "Toronto Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. Distinguish a single slow sink from several fixtures backing up, and note whether neighbouring units have reported a similar event.",
+    "intro": "Toronto Plumbing Pros collects drain cleaning inquiries for review. Distinguish a single slow sink from several fixtures backing up, and note whether neighbouring units have reported a similar event.",
     "meta": "Drain Cleaning enquiries in Toronto. Review the drain cleaning scope, access and evidence before agreeing to work.",
     "problem_h": "Does the blockage involve a shared stack?",
     "problem_p": "When more than one unit may be affected, the investigation boundary matters as much as the cleaning method.",
@@ -99,7 +99,7 @@ export const SVC = {
     "icon": "wrench",
     "kicker": "Repiping enquiries in Toronto",
     "h1": "Repiping Requests in Toronto",
-    "intro": "Toronto Plumbing Pros collects repiping inquiries for Headbanger Marketing review. For a suite renovation, mark the proposed work boundary and identify any pipe that crosses into a shared wall or building riser.",
+    "intro": "Toronto Plumbing Pros collects repiping inquiries for review. For a suite renovation, mark the proposed work boundary and identify any pipe that crosses into a shared wall or building riser.",
     "meta": "Repiping enquiries in Toronto. Review the repiping scope, access and evidence before agreeing to work.",
     "problem_h": "Where does a suite branch meet building pipe?",
     "problem_p": "Changing a branch within a suite can require coordination at the point where it connects to common pipe.",
@@ -135,7 +135,7 @@ export const SVC = {
     "icon": "home",
     "kicker": "Fixtures &amp; Toilets enquiries in Toronto",
     "h1": "Fixtures and Toilets Requests in Toronto",
-    "intro": "Toronto Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. Provide the chosen fixture specifications alongside the existing drain position and available access behind the vanity or shower wall.",
+    "intro": "Toronto Plumbing Pros collects fixtures and toilets inquiries for review. Provide the chosen fixture specifications alongside the existing drain position and available access behind the vanity or shower wall.",
     "meta": "Fixtures and Toilets enquiries in Toronto. Review the fixtures toilets scope, access and evidence before agreeing to work.",
     "problem_h": "Will the selected fixture fit the managed space?",
     "problem_p": "The product supplied by the owner and the connection work supplied by the provider need to meet at a verified installation detail.",
@@ -171,7 +171,7 @@ export const SVC = {
     "icon": "droplets",
     "kicker": "Leak Detection &amp; Repair enquiries in Toronto",
     "h1": "Leak Detection and Repair Requests in Toronto",
-    "intro": "Toronto Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Record the first appearance of a stain and whether it changes when your own fixtures are used. A neighbouring source may need investigation.",
+    "intro": "Toronto Plumbing Pros collects leak detection and repair inquiries for review. Record the first appearance of a stain and whether it changes when your own fixtures are used. A neighbouring source may need investigation.",
     "meta": "Leak Detection and Repair enquiries in Toronto. Review the leak detection scope, access and evidence before agreeing to work.",
     "problem_h": "Could the moisture originate beyond your room?",
     "problem_p": "A stain inside your room may be evidence of a problem without identifying the responsible connection.",
@@ -207,7 +207,7 @@ export const SVC = {
     "icon": "shield",
     "kicker": "Sump Pumps &amp; Backwater enquiries in Toronto",
     "h1": "Sump Pumps and Backwater Requests in Toronto",
-    "intro": "Toronto Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Describe a ground-level or basement system separately from a high-rise unit, including any existing pit, alarm and previous water entry.",
+    "intro": "Toronto Plumbing Pros collects sump pumps and backwater inquiries for review. Describe a ground-level or basement system separately from a high-rise unit, including any existing pit, alarm and previous water entry.",
     "meta": "Sump Pumps and Backwater enquiries in Toronto. Review the sump pumps scope, access and evidence before agreeing to work.",
     "problem_h": "Is this unit work or building drainage work?",
     "problem_p": "For a basement system, identify what the pump or proposed valve would actually protect.",
@@ -243,7 +243,7 @@ export const SVC = {
     "icon": "gauge",
     "kicker": "Water Softeners &amp; Filtration enquiries in Toronto",
     "h1": "Water Softeners and Filtration Requests in Toronto",
-    "intro": "Toronto Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. For a point-of-use filter, identify the sink, cupboard space and water supply arrangement. A whole-building system needs a different owner and scope.",
+    "intro": "Toronto Plumbing Pros collects water softeners and filtration inquiries for review. For a point-of-use filter, identify the sink, cupboard space and water supply arrangement. A whole-building system needs a different owner and scope.",
     "meta": "Water Softeners and Filtration enquiries in Toronto. Review the water softeners scope, access and evidence before agreeing to work.",
     "problem_h": "Which outlets are within your treatment scope?",
     "problem_p": "One drinking-water outlet can be a much narrower project than treatment on a shared building supply.",
@@ -329,7 +329,7 @@ export const HOME_SERVICES = [
 export const HOME_FAQ = [
   [
     "Who operates Toronto Plumbing Pros?",
-    "Headbanger Marketing owns and operates this inquiry website. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
+    "This is an inquiry website for the named market. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
   ],
   [
     "What should I include in a Toronto request?",

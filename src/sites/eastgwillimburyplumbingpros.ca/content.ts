@@ -1,8 +1,8 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
   "h1": "East Gwillimbury Plumbing Inquiries",
-  "intro": "Adding a room, fixture or appliance can expose questions about existing plumbing capacity and routes. Explain what is installed now and what you plan to add. Headbanger Marketing reviews East Gwillimbury requests, with provider selection and any visit confirmed afterward.",
-  "meta": "Adding a room, fixture or appliance can expose questions about existing plumbing capacity and routes. Send your East Gwillimbury inquiry to Headbanger Marketing for review.",
+  "intro": "Adding a room, fixture or appliance can expose questions about existing plumbing capacity and routes. Explain what is installed now and what you plan to add. Our enquiry team reviews East Gwillimbury requests, with provider selection and any visit confirmed afterward.",
+  "meta": "Adding a room, fixture or appliance can expose questions about existing plumbing capacity and routes. Send your East Gwillimbury inquiry for review.",
   "heading": "Assessing changes where existing equipment and new rooms meet",
   "planningIntro": "A project that extends an existing system needs a clear boundary between old equipment and new work. For your East Gwillimbury inquiry, identify the new fixture or appliance and the existing connections it would depend on. Include any accessible labels and the proposed layout. A new room does not establish a need for wholesale replacement, and an existing rough-in does not confirm suitability.",
   "checklist": [
@@ -19,7 +19,7 @@ export const HOME = {
       "Ask which dimensions, supply or drainage details need verification before ordering products or closing finishes."
     ]
   ],
-  "cta": "Describe the plumbing work at your East Gwillimbury property, including the addition. Headbanger Marketing reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
+  "cta": "Describe the plumbing work at your East Gwillimbury property, including the addition. Our enquiry team reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
 };
 
 export const SVC = {
@@ -27,7 +27,7 @@ export const SVC = {
     "icon": "flame",
     "kicker": "Water Heaters enquiries in East Gwillimbury",
     "h1": "Water Heaters Requests in East Gwillimbury",
-    "intro": "East Gwillimbury Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. If a new bathroom or appliance changes expected demand, send its specifications together with the current heater label and symptom history.",
+    "intro": "East Gwillimbury Plumbing Pros collects water heaters inquiries for review. If a new bathroom or appliance changes expected demand, send its specifications together with the current heater label and symptom history.",
     "meta": "Water Heaters enquiries in East Gwillimbury. Review the water heaters scope, access and evidence before agreeing to work.",
     "problem_h": "How will added fixtures change existing heater demand?",
     "problem_p": "An added fixture can create a demand question while the existing heater has a separate fault.",
@@ -63,7 +63,7 @@ export const SVC = {
     "icon": "refresh",
     "kicker": "Drain Cleaning enquiries in East Gwillimbury",
     "h1": "Drain Cleaning Requests in East Gwillimbury",
-    "intro": "East Gwillimbury Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. Explain whether the request is for a blocked existing drain or a proposed new branch serving added fixtures.",
+    "intro": "East Gwillimbury Plumbing Pros collects drain cleaning inquiries for review. Explain whether the request is for a blocked existing drain or a proposed new branch serving added fixtures.",
     "meta": "Drain Cleaning enquiries in East Gwillimbury. Review the drain cleaning scope, access and evidence before agreeing to work.",
     "problem_h": "Is the added branch separate from the blockage?",
     "problem_p": "A new fixture branch requires a connection assessment even when the existing drain has recently been cleared.",
@@ -99,7 +99,7 @@ export const SVC = {
     "icon": "wrench",
     "kicker": "Repiping enquiries in East Gwillimbury",
     "h1": "Repiping Requests in East Gwillimbury",
-    "intro": "East Gwillimbury Plumbing Pros collects repiping inquiries for Headbanger Marketing review. Identify pipe runs that the new room layout would cross or conceal and distinguish those from sections showing an actual defect.",
+    "intro": "East Gwillimbury Plumbing Pros collects repiping inquiries for review. Identify pipe runs that the new room layout would cross or conceal and distinguish those from sections showing an actual defect.",
     "meta": "Repiping enquiries in East Gwillimbury. Review the repiping scope, access and evidence before agreeing to work.",
     "problem_h": "Which pipes will the new room cross or conceal?",
     "problem_p": "An addition may offer access to pipe that does not otherwise need replacement.",
@@ -135,7 +135,7 @@ export const SVC = {
     "icon": "home",
     "kicker": "Fixtures &amp; Toilets enquiries in East Gwillimbury",
     "h1": "Fixtures and Toilets Requests in East Gwillimbury",
-    "intro": "East Gwillimbury Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. Show the proposed appliance or bathroom position and the nearest known supply and waste connections.",
+    "intro": "East Gwillimbury Plumbing Pros collects fixtures and toilets inquiries for review. Show the proposed appliance or bathroom position and the nearest known supply and waste connections.",
     "meta": "Fixtures and Toilets enquiries in East Gwillimbury. Review the fixtures toilets scope, access and evidence before agreeing to work.",
     "problem_h": "Is the proposed rough-in ready for the new appliance?",
     "problem_p": "A nearby supply or rough-in does not establish that the chosen appliance can connect without further work.",
@@ -171,7 +171,7 @@ export const SVC = {
     "icon": "droplets",
     "kicker": "Leak Detection &amp; Repair enquiries in East Gwillimbury",
     "h1": "Leak Detection and Repair Requests in East Gwillimbury",
-    "intro": "East Gwillimbury Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. For dampness near a new connection, record the sequence of work and the fixtures used before the moisture appears.",
+    "intro": "East Gwillimbury Plumbing Pros collects leak detection and repair inquiries for review. For dampness near a new connection, record the sequence of work and the fixtures used before the moisture appears.",
     "meta": "Leak Detection and Repair enquiries in East Gwillimbury. Review the leak detection scope, access and evidence before agreeing to work.",
     "problem_h": "Does the new connection explain the moisture?",
     "problem_p": "Moisture following new work provides a sequence to investigate, not a final attribution of responsibility.",
@@ -207,7 +207,7 @@ export const SVC = {
     "icon": "shield",
     "kicker": "Sump Pumps &amp; Backwater enquiries in East Gwillimbury",
     "h1": "Sump Pumps and Backwater Requests in East Gwillimbury",
-    "intro": "East Gwillimbury Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Mention whether an addition or changed basement layout affects access to an existing pit, discharge line or backwater inspection opening.",
+    "intro": "East Gwillimbury Plumbing Pros collects sump pumps and backwater inquiries for review. Mention whether an addition or changed basement layout affects access to an existing pit, discharge line or backwater inspection opening.",
     "meta": "Sump Pumps and Backwater enquiries in East Gwillimbury. Review the sump pumps scope, access and evidence before agreeing to work.",
     "problem_h": "Does the changed layout leave drainage access open?",
     "problem_p": "A changed basement layout can affect maintenance access even if the existing equipment remains in place.",
@@ -243,7 +243,7 @@ export const SVC = {
     "icon": "gauge",
     "kicker": "Water Softeners &amp; Filtration enquiries in East Gwillimbury",
     "h1": "Water Softeners and Filtration Requests in East Gwillimbury",
-    "intro": "East Gwillimbury Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. If a new appliance calls for a particular water specification, provide its installation instructions and any current test results.",
+    "intro": "East Gwillimbury Plumbing Pros collects water softeners and filtration inquiries for review. If a new appliance calls for a particular water specification, provide its installation instructions and any current test results.",
     "meta": "Water Softeners and Filtration enquiries in East Gwillimbury. Review the water softeners scope, access and evidence before agreeing to work.",
     "problem_h": "What water specification does the new appliance require?",
     "problem_p": "An appliance water specification can frame a treatment question without establishing that the whole house needs the same device.",
@@ -329,7 +329,7 @@ export const HOME_SERVICES = [
 export const HOME_FAQ = [
   [
     "Who operates East Gwillimbury Plumbing Pros?",
-    "Headbanger Marketing owns and operates this inquiry website. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
+    "This is an inquiry website for the named market. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
   ],
   [
     "What should I include in a East Gwillimbury request?",

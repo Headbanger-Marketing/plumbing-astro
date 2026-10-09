@@ -1,8 +1,8 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
   "h1": "North York Plumbing Inquiries",
-  "intro": "Start with the affected fixture and who controls the connected plumbing. Mention a managed building, shared riser or access restriction when relevant. Headbanger Marketing reviews North York requests before a provider is identified or a visit can be arranged.",
-  "meta": "Start with the affected fixture and who controls the connected plumbing. Send your North York inquiry to Headbanger Marketing for review.",
+  "intro": "Start with the affected fixture and who controls the connected plumbing. Mention a managed building, shared riser or access restriction when relevant. Our enquiry team reviews North York requests before a provider is identified or a visit can be arranged.",
+  "meta": "Start with the affected fixture and who controls the connected plumbing. Send your North York inquiry for review.",
   "heading": "Identifying suite-level versus shared-system responsibility",
   "planningIntro": "Responsibility for a plumbing connection may differ between a suite, a common riser and a house renovation. For your North York request, identify what you own or can authorize and the part that needs assessment. A fixture visible inside a room can still connect to a shared system. State any management requirements and keep that coordination separate from the technical symptom.",
   "checklist": [
@@ -19,7 +19,7 @@ export const HOME = {
       "Mention resident, concierge or building-management coordination that would be needed for assessment."
     ]
   ],
-  "cta": "Describe the plumbing work at your North York property, including authorization. Headbanger Marketing reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
+  "cta": "Describe the plumbing work at your North York property, including authorization. Our enquiry team reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
 };
 
 export const SVC = {
@@ -27,7 +27,7 @@ export const SVC = {
     "icon": "flame",
     "kicker": "Water Heaters enquiries in North York",
     "h1": "Water Heaters Requests in North York",
-    "intro": "North York Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. Establish whether hot water comes from equipment inside the property or a shared building system before requesting a heater replacement.",
+    "intro": "North York Plumbing Pros collects water heaters inquiries for review. Establish whether hot water comes from equipment inside the property or a shared building system before requesting a heater replacement.",
     "meta": "Water Heaters enquiries in North York. Review the water heaters scope, access and evidence before agreeing to work.",
     "problem_h": "Does the unit have its own hot-water equipment?",
     "problem_p": "A unit supplied from common equipment may need management assessment rather than its own heater installation.",
@@ -63,7 +63,7 @@ export const SVC = {
     "icon": "refresh",
     "kicker": "Drain Cleaning enquiries in North York",
     "h1": "Drain Cleaning Requests in North York",
-    "intro": "North York Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. Note whether only your fixture drains slowly or whether the event appears to involve another unit, a stack or multiple building drains.",
+    "intro": "North York Plumbing Pros collects drain cleaning inquiries for review. Note whether only your fixture drains slowly or whether the event appears to involve another unit, a stack or multiple building drains.",
     "meta": "Drain Cleaning enquiries in North York. Review the drain cleaning scope, access and evidence before agreeing to work.",
     "problem_h": "Which drain segment is under your authority?",
     "problem_p": "A blockage affecting one suite needs a defined pipe section and a clear authority for access.",
@@ -99,7 +99,7 @@ export const SVC = {
     "icon": "wrench",
     "kicker": "Repiping enquiries in North York",
     "h1": "Repiping Requests in North York",
-    "intro": "North York Plumbing Pros collects repiping inquiries for Headbanger Marketing review. For pipe work inside a unit, mark the intended boundary and any connection to a common riser or shared wall.",
+    "intro": "North York Plumbing Pros collects repiping inquiries for review. For pipe work inside a unit, mark the intended boundary and any connection to a common riser or shared wall.",
     "meta": "Repiping enquiries in North York. Review the repiping scope, access and evidence before agreeing to work.",
     "problem_h": "Will branch work affect a common riser?",
     "problem_p": "A branch change should identify its connection to a retained riser before the work boundary is agreed.",
@@ -135,7 +135,7 @@ export const SVC = {
     "icon": "home",
     "kicker": "Fixtures &amp; Toilets enquiries in North York",
     "h1": "Fixtures and Toilets Requests in North York",
-    "intro": "North York Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. For a fixture replacement, provide the product specification and existing connection photographs with any building alteration requirements you have received.",
+    "intro": "North York Plumbing Pros collects fixtures and toilets inquiries for review. For a fixture replacement, provide the product specification and existing connection photographs with any building alteration requirements you have received.",
     "meta": "Fixtures and Toilets enquiries in North York. Review the fixtures toilets scope, access and evidence before agreeing to work.",
     "problem_h": "What building requirements apply to the chosen fixture?",
     "problem_p": "Technical fit and building permission are separate questions for a fixture replacement.",
@@ -171,7 +171,7 @@ export const SVC = {
     "icon": "droplets",
     "kicker": "Leak Detection &amp; Repair enquiries in North York",
     "h1": "Leak Detection and Repair Requests in North York",
-    "intro": "North York Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Record the location and timing of stains, including whether moisture appears when neighbouring or own fixtures are used, if that is observable.",
+    "intro": "North York Plumbing Pros collects leak detection and repair inquiries for review. Record the location and timing of stains, including whether moisture appears when neighbouring or own fixtures are used, if that is observable.",
     "meta": "Leak Detection and Repair enquiries in North York. Review the leak detection scope, access and evidence before agreeing to work.",
     "problem_h": "Who can authorize access to the suspected source?",
     "problem_p": "An occupant may observe moisture without controlling access to the suspected source.",
@@ -207,7 +207,7 @@ export const SVC = {
     "icon": "shield",
     "kicker": "Sump Pumps &amp; Backwater enquiries in North York",
     "h1": "Sump Pumps and Backwater Requests in North York",
-    "intro": "North York Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Describe a basement or ground-level pump request with its actual pit and discharge details; identify building-managed systems separately.",
+    "intro": "North York Plumbing Pros collects sump pumps and backwater inquiries for review. Describe a basement or ground-level pump request with its actual pit and discharge details; identify building-managed systems separately.",
     "meta": "Sump Pumps and Backwater enquiries in North York. Review the sump pumps scope, access and evidence before agreeing to work.",
     "problem_h": "Is the pump system controlled by building management?",
     "problem_p": "A common pump or backwater system is a building responsibility to identify, not a unit fixture to replace by assumption.",
@@ -243,7 +243,7 @@ export const SVC = {
     "icon": "gauge",
     "kicker": "Water Softeners &amp; Filtration enquiries in North York",
     "h1": "Water Softeners and Filtration Requests in North York",
-    "intro": "North York Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. State whether the proposal concerns one drinking-water fixture, a unit supply or a building-wide treatment system.",
+    "intro": "North York Plumbing Pros collects water softeners and filtration inquiries for review. State whether the proposal concerns one drinking-water fixture, a unit supply or a building-wide treatment system.",
     "meta": "Water Softeners and Filtration enquiries in North York. Review the water softeners scope, access and evidence before agreeing to work.",
     "problem_h": "Does the proposal treat one unit or a whole building?",
     "problem_p": "The outlet boundary matters when a unit occupant requests water treatment.",
@@ -329,7 +329,7 @@ export const HOME_SERVICES = [
 export const HOME_FAQ = [
   [
     "Who operates North York Plumbing Pros?",
-    "Headbanger Marketing owns and operates this inquiry website. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
+    "This is an inquiry website for the named market. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
   ],
   [
     "What should I include in a North York request?",

@@ -1,8 +1,8 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
   "h1": "Bowmanville Plumbing Repair Inquiries",
-  "intro": "When the same plumbing symptom returns, its history can be as useful as the latest photograph. Describe previous repairs, the fixtures affected and when the issue recurs. Headbanger Marketing reviews Bowmanville inquiries before a provider or appointment is confirmed.",
-  "meta": "When the same plumbing symptom returns, its history can be as useful as the latest photograph. Send your Bowmanville inquiry to Headbanger Marketing for review.",
+  "intro": "When the same plumbing symptom returns, its history can be as useful as the latest photograph. Describe previous repairs, the fixtures affected and when the issue recurs. Our enquiry team reviews Bowmanville inquiries before a provider or appointment is confirmed.",
+  "meta": "When the same plumbing symptom returns, its history can be as useful as the latest photograph. Send your Bowmanville inquiry for review.",
   "heading": "Investigating recurring symptoms before choosing a larger repair",
   "planningIntro": "Repeated cleaning or part replacement may leave the underlying cause unresolved, but recurrence alone does not identify that cause. For a Bowmanville property, create a short sequence of symptoms and past work, including what improved and for how long. Keep invoices or inspection findings if available. That history helps a provider decide what evidence is needed before proposing a larger repair or replacement.",
   "checklist": [
@@ -19,7 +19,7 @@ export const HOME = {
       "Mention camera footage, equipment labels or written findings that may help avoid repeating an incomplete assessment."
     ]
   ],
-  "cta": "Describe the plumbing work at your Bowmanville property, including a dated history. Headbanger Marketing reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
+  "cta": "Describe the plumbing work at your Bowmanville property, including a dated history. Our enquiry team reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
 };
 
 export const SVC = {
@@ -27,7 +27,7 @@ export const SVC = {
     "icon": "flame",
     "kicker": "Water Heaters enquiries in Bowmanville",
     "h1": "Water Heaters Requests in Bowmanville",
-    "intro": "Bowmanville Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. If hot-water performance has declined more than once, record earlier parts or maintenance work and the demand when the problem returns.",
+    "intro": "Bowmanville Plumbing Pros collects water heaters inquiries for review. If hot-water performance has declined more than once, record earlier parts or maintenance work and the demand when the problem returns.",
     "meta": "Water Heaters enquiries in Bowmanville. Review the water heaters scope, access and evidence before agreeing to work.",
     "problem_h": "What happened after the earlier heater repair?",
     "problem_p": "A recurring performance issue should be assessed alongside the results of previous work, not simply attributed to equipment age.",
@@ -63,7 +63,7 @@ export const SVC = {
     "icon": "refresh",
     "kicker": "Drain Cleaning enquiries in Bowmanville",
     "h1": "Drain Cleaning Requests in Bowmanville",
-    "intro": "Bowmanville Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. List each blockage event, the fixtures involved and the method used to clear it, including any available camera recording.",
+    "intro": "Bowmanville Plumbing Pros collects drain cleaning inquiries for review. List each blockage event, the fixtures involved and the method used to clear it, including any available camera recording.",
     "meta": "Drain Cleaning enquiries in Bowmanville. Review the drain cleaning scope, access and evidence before agreeing to work.",
     "problem_h": "Why has the same drain symptom returned?",
     "problem_p": "A useful follow-up to a recurring blockage explains both where the restriction is found and what the earlier cleaning achieved.",
@@ -99,7 +99,7 @@ export const SVC = {
     "icon": "wrench",
     "kicker": "Repiping enquiries in Bowmanville",
     "h1": "Repiping Requests in Bowmanville",
-    "intro": "Bowmanville Plumbing Pros collects repiping inquiries for Headbanger Marketing review. If leaks have occurred in more than one place, map the verified repairs and identify materials only where visible or documented.",
+    "intro": "Bowmanville Plumbing Pros collects repiping inquiries for review. If leaks have occurred in more than one place, map the verified repairs and identify materials only where visible or documented.",
     "meta": "Repiping enquiries in Bowmanville. Review the repiping scope, access and evidence before agreeing to work.",
     "problem_h": "Do documented leaks support a wider replacement?",
     "problem_p": "Several documented leaks can support a broader assessment without proving that every run needs replacement.",
@@ -135,7 +135,7 @@ export const SVC = {
     "icon": "home",
     "kicker": "Fixtures &amp; Toilets enquiries in Bowmanville",
     "h1": "Fixtures and Toilets Requests in Bowmanville",
-    "intro": "Bowmanville Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. For a toilet or faucet that has been repaired repeatedly, name the parts changed and describe the current symptom.",
+    "intro": "Bowmanville Plumbing Pros collects fixtures and toilets inquiries for review. For a toilet or faucet that has been repaired repeatedly, name the parts changed and describe the current symptom.",
     "meta": "Fixtures and Toilets enquiries in Bowmanville. Review the fixtures toilets scope, access and evidence before agreeing to work.",
     "problem_h": "Which fixture parts have already been changed?",
     "problem_p": "Repeated part changes are useful only if their effect on the symptom is recorded.",
@@ -171,7 +171,7 @@ export const SVC = {
     "icon": "droplets",
     "kicker": "Leak Detection &amp; Repair enquiries in Bowmanville",
     "h1": "Leak Detection and Repair Requests in Bowmanville",
-    "intro": "Bowmanville Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Record the pattern of recurring stains, meter changes or moisture, including weather or fixture use observed at the same time.",
+    "intro": "Bowmanville Plumbing Pros collects leak detection and repair inquiries for review. Record the pattern of recurring stains, meter changes or moisture, including weather or fixture use observed at the same time.",
     "meta": "Leak Detection and Repair enquiries in Bowmanville. Review the leak detection scope, access and evidence before agreeing to work.",
     "problem_h": "What pattern connects the returning stains?",
     "problem_p": "A returning stain can follow an unresolved source, a second source or another moisture condition.",
@@ -207,7 +207,7 @@ export const SVC = {
     "icon": "shield",
     "kicker": "Sump Pumps &amp; Backwater enquiries in Bowmanville",
     "h1": "Sump Pumps and Backwater Requests in Bowmanville",
-    "intro": "Bowmanville Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. If an alarm or pump problem has returned, document the equipment label, prior work and circumstances around each event.",
+    "intro": "Bowmanville Plumbing Pros collects sump pumps and backwater inquiries for review. If an alarm or pump problem has returned, document the equipment label, prior work and circumstances around each event.",
     "meta": "Sump Pumps and Backwater enquiries in Bowmanville. Review the sump pumps scope, access and evidence before agreeing to work.",
     "problem_h": "Under what conditions did the pump issue recur?",
     "problem_p": "The timing of a recurrent pump or alarm problem can help define what needs assessment without selecting replacement equipment by itself.",
@@ -243,7 +243,7 @@ export const SVC = {
     "icon": "gauge",
     "kicker": "Water Softeners &amp; Filtration enquiries in Bowmanville",
     "h1": "Water Softeners and Filtration Requests in Bowmanville",
-    "intro": "Bowmanville Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. Note repeated scale, taste or equipment issues alongside actual water-test and maintenance records, if you have them.",
+    "intro": "Bowmanville Plumbing Pros collects water softeners and filtration inquiries for review. Note repeated scale, taste or equipment issues alongside actual water-test and maintenance records, if you have them.",
     "meta": "Water Softeners and Filtration enquiries in Bowmanville. Review the water softeners scope, access and evidence before agreeing to work.",
     "problem_h": "Does installed treatment match the recorded water concern?",
     "problem_p": "Repeated deposits or appliance complaints should be considered alongside actual water and maintenance information.",
@@ -329,7 +329,7 @@ export const HOME_SERVICES = [
 export const HOME_FAQ = [
   [
     "Who operates Bowmanville Plumbing Pros?",
-    "Headbanger Marketing owns and operates this inquiry website. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
+    "This is an inquiry website for the named market. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
   ],
   [
     "What should I include in a Bowmanville request?",

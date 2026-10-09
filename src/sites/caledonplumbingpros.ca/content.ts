@@ -1,8 +1,8 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
   "h1": "Plumbing Inquiries for Caledon Homes",
-  "intro": "Tell us whether your property uses municipal services, a private water supply or an on-site wastewater system. Include the equipment and symptom details you know. Headbanger Marketing reviews Caledon requests without assuming a provider or a particular property setup.",
-  "meta": "Tell us whether your property uses municipal services, a private water supply or an on-site wastewater system. Send your Caledon inquiry to Headbanger Marketing for review.",
+  "intro": "Tell us whether your property uses municipal services, a private water supply or an on-site wastewater system. Include the equipment and symptom details you know. Our enquiry team reviews Caledon requests without assuming a provider or a particular property setup.",
+  "meta": "Tell us whether your property uses municipal services, a private water supply or an on-site wastewater system. Send your Caledon inquiry for review.",
   "heading": "Establishing the actual water supply and wastewater arrangement",
   "planningIntro": "Property systems must be identified at the address, not inferred from the town name. For a Caledon inquiry, state the known water source and wastewater arrangement, and say when either is uncertain. Access to equipment in an outbuilding, crawl space or lower level can also change the assessment. A private supply or septic concern may require a different specialist from a fixture repair.",
   "checklist": [
@@ -19,7 +19,7 @@ export const HOME = {
       "Mention a crawl space or long equipment route, and include useful labels or previous system records."
     ]
   ],
-  "cta": "Describe the plumbing work at your Caledon property, including water and waste. Headbanger Marketing reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
+  "cta": "Describe the plumbing work at your Caledon property, including water and waste. Our enquiry team reviews your inquiry. Agree provider identity, coverage, written scope, pricing and scheduling before booking."
 };
 
 export const SVC = {
@@ -27,7 +27,7 @@ export const SVC = {
     "icon": "flame",
     "kicker": "Water Heaters enquiries in Caledon",
     "h1": "Water Heaters Requests in Caledon",
-    "intro": "Caledon Plumbing Pros collects water heaters inquiries for Headbanger Marketing review. Identify the heater fuel and any treatment equipment upstream of it, plus the actual symptoms and the existing model label.",
+    "intro": "Caledon Plumbing Pros collects water heaters inquiries for review. Identify the heater fuel and any treatment equipment upstream of it, plus the actual symptoms and the existing model label.",
     "meta": "Water Heaters enquiries in Caledon. Review the water heaters scope, access and evidence before agreeing to work.",
     "problem_h": "How does existing supply equipment connect to the heater?",
     "problem_p": "The water source and any upstream treatment are context for the heater assessment, not a diagnosis of the heater symptom.",
@@ -63,7 +63,7 @@ export const SVC = {
     "icon": "refresh",
     "kicker": "Drain Cleaning enquiries in Caledon",
     "h1": "Drain Cleaning Requests in Caledon",
-    "intro": "Caledon Plumbing Pros collects drain cleaning inquiries for Headbanger Marketing review. Describe the affected fixtures and whether the property drains to municipal sewer or an on-site system, if that is known.",
+    "intro": "Caledon Plumbing Pros collects drain cleaning inquiries for review. Describe the affected fixtures and whether the property drains to municipal sewer or an on-site system, if that is known.",
     "meta": "Drain Cleaning enquiries in Caledon. Review the drain cleaning scope, access and evidence before agreeing to work.",
     "problem_h": "Where does the building drain actually lead?",
     "problem_p": "A blockage in building pipe and a concern about an on-site wastewater system have different investigation boundaries.",
@@ -99,7 +99,7 @@ export const SVC = {
     "icon": "wrench",
     "kicker": "Repiping enquiries in Caledon",
     "h1": "Repiping Requests in Caledon",
-    "intro": "Caledon Plumbing Pros collects repiping inquiries for Headbanger Marketing review. Separate indoor supply runs from a line serving an outbuilding, and identify accessible pipe markings and previous leak locations.",
+    "intro": "Caledon Plumbing Pros collects repiping inquiries for review. Separate indoor supply runs from a line serving an outbuilding, and identify accessible pipe markings and previous leak locations.",
     "meta": "Repiping enquiries in Caledon. Review the repiping scope, access and evidence before agreeing to work.",
     "problem_h": "Does the proposed run extend beyond the house?",
     "problem_p": "An indoor pipe proposal should state where it ends if the line continues to an outbuilding or underground.",
@@ -135,7 +135,7 @@ export const SVC = {
     "icon": "home",
     "kicker": "Fixtures &amp; Toilets enquiries in Caledon",
     "h1": "Fixtures and Toilets Requests in Caledon",
-    "intro": "Caledon Plumbing Pros collects fixtures and toilets inquiries for Headbanger Marketing review. Provide fixture specifications and the existing supply arrangement when planning a bathroom, laundry or utility sink away from the main service room.",
+    "intro": "Caledon Plumbing Pros collects fixtures and toilets inquiries for review. Provide fixture specifications and the existing supply arrangement when planning a bathroom, laundry or utility sink away from the main service room.",
     "meta": "Fixtures and Toilets enquiries in Caledon. Review the fixtures toilets scope, access and evidence before agreeing to work.",
     "problem_h": "What serves the remote utility fixture?",
     "problem_p": "A utility fixture away from the main service room may be convenient without having a suitable existing supply or waste route.",
@@ -171,7 +171,7 @@ export const SVC = {
     "icon": "droplets",
     "kicker": "Leak Detection &amp; Repair enquiries in Caledon",
     "h1": "Leak Detection and Repair Requests in Caledon",
-    "intro": "Caledon Plumbing Pros collects leak detection and repair inquiries for Headbanger Marketing review. Note whether unexplained water use is observed at the house meter or private supply equipment, and distinguish that observation from a visible stain.",
+    "intro": "Caledon Plumbing Pros collects leak detection and repair inquiries for review. Note whether unexplained water use is observed at the house meter or private supply equipment, and distinguish that observation from a visible stain.",
     "meta": "Leak Detection and Repair enquiries in Caledon. Review the leak detection scope, access and evidence before agreeing to work.",
     "problem_h": "Is the suspected loss indoors or toward an outbuilding?",
     "problem_p": "Unexpected supply use and visible indoor moisture can point to different sections of the property.",
@@ -207,7 +207,7 @@ export const SVC = {
     "icon": "shield",
     "kicker": "Sump Pumps &amp; Backwater enquiries in Caledon",
     "h1": "Sump Pumps and Backwater Requests in Caledon",
-    "intro": "Caledon Plumbing Pros collects sump pumps and backwater inquiries for Headbanger Marketing review. Describe the pit, pump and exterior discharge termination, and mention any seasonal access restriction at the property.",
+    "intro": "Caledon Plumbing Pros collects sump pumps and backwater inquiries for review. Describe the pit, pump and exterior discharge termination, and mention any seasonal access restriction at the property.",
     "meta": "Sump Pumps and Backwater enquiries in Caledon. Review the sump pumps scope, access and evidence before agreeing to work.",
     "problem_h": "What discharge conditions can be confirmed on site?",
     "problem_p": "A location described as rural does not provide the measurements needed to select a pump.",
@@ -243,7 +243,7 @@ export const SVC = {
     "icon": "gauge",
     "kicker": "Water Softeners &amp; Filtration enquiries in Caledon",
     "h1": "Water Softeners and Filtration Requests in Caledon",
-    "intro": "Caledon Plumbing Pros collects water softeners and filtration inquiries for Headbanger Marketing review. For private water, provide any current test results and the existing treatment equipment labels before discussing replacement cartridges or a new system.",
+    "intro": "Caledon Plumbing Pros collects water softeners and filtration inquiries for review. For private water, provide any current test results and the existing treatment equipment labels before discussing replacement cartridges or a new system.",
     "meta": "Water Softeners and Filtration enquiries in Caledon. Review the water softeners scope, access and evidence before agreeing to work.",
     "problem_h": "Which tests support private-water treatment selection?",
     "problem_p": "Treatment choices for a private supply should be related to actual source information and suitable test results.",
@@ -329,7 +329,7 @@ export const HOME_SERVICES = [
 export const HOME_FAQ = [
   [
     "Who operates Caledon Plumbing Pros?",
-    "Headbanger Marketing owns and operates this inquiry website. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
+    "This is an inquiry website for the named market. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is identified; submission does not confirm a booking."
   ],
   [
     "What should I include in a Caledon request?",

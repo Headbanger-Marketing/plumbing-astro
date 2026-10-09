@@ -41,7 +41,9 @@ const img = ogImage || site.ogImage;
 // so the browser tab matches the in-page brand. Sites without media.logo (the
 // original 74) fall back to the shared favicon.ico / favicon.svg / apple-touch.
 const logoHref = site.media?.logo ? `/assets/img/logos/${site.media.logo}` : null;
-const FAVICON = logoHref
+const FAVICON = site.enquirySite
+  ? `<link rel="icon" href="/assets/wordmarks/${site.domain}-favicon.svg" type="image/svg+xml">`
+  : logoHref
   ? `<link rel="icon" type="${logoHref.endsWith('.svg') ? 'image/svg+xml' : 'image/png'}" href="${logoHref}"><link rel="apple-touch-icon" href="${logoHref}">`
   : `<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">`;
 const GOOGLE_FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap">`;
