@@ -13,9 +13,10 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const bundle = JSON.parse(readFileSync(join(__dirname, "../../../hvac-chat-context/sites.json"), "utf8"));
+const bundle = JSON.parse(readFileSync(join(__dirname, "../n8n/sites.json"), "utf8"));
 const SITES = bundle.sites || {};
-const DEFAULT_DOMAIN = "londonheatingcooling.ca";
+const DEFAULT_DOMAIN = "londonplumbingpros.ca";
+if (!SITES[DEFAULT_DOMAIN]) throw new Error("Missing preview context. Run npm run gen:chat-context first.");
 
 // index by domain + sourceUrl host (mirrors the Worker)
 const BY_HOST = {};
@@ -108,7 +109,7 @@ const server = createServer((req, res) => {
   });
 });
 
-const PORT = 8787;
+const PORT = Number(process.env.MOCK_CHAT_PORT || 8787);
 server.listen(PORT, "127.0.0.1", () => {
   console.log(`[mock-chat] listening on http://127.0.0.1:${PORT}/webhook/hvac-chat`);
   console.log(`[mock-chat] emulating site fallback = ${DEFAULT_DOMAIN} (when origin is localhost)`);

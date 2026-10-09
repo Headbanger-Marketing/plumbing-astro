@@ -11,9 +11,10 @@
     "build:all": "bash scripts/build-all.sh",
     "deploy:site": "bash scripts/deploy-site.sh",
     "preview": "astro preview",
-    "extract-configs": "node scripts/extract-config.mjs",
-    "verify-parity": "node scripts/verify-parity.mjs",
-    "gen:chat-context": "node scripts/gen-chat-context.mjs"
+    "extract-configs": "python3 scripts/extract-config.py",
+    "verify-parity": "python3 scripts/verify-site.py",
+    "gen:chat-context": "node scripts/gen-chat-context.mjs",
+    "test:chat-context": "python3 scripts/test-chat-context.py"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

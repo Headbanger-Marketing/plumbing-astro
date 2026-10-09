@@ -1,33 +1,28 @@
 {
-  "generatedAt": "2026-08-04T03:32:48.579Z",
-  "count": 110,
+  "generatedAt": "2026-10-09T17:49:54.542Z",
+  "count": 91,
   "byPortfolio": {
-    "network": 102,
-    "brand": 6,
+    "network": 81,
+    "brand": 8,
     "rebate": 2
   },
   "sites": {
-    "ajaxheatingcooling.ca": {
-      "domain": "ajaxheatingcooling.ca",
-      "brand": "Ajax Heating & Cooling",
+    "ajaxplumbingpros.ca": {
+      "domain": "ajaxplumbingpros.ca",
+      "brand": "Ajax Plumbing Pros",
       "portfolio": "network",
       "city": "Ajax",
       "regionAbbr": "ON",
-      "county": "Durham Region",
-      "trackingPhone": {
-        "display": "(905) 619-3742",
-        "tel": "+19056193742"
-      },
-      "email": "contact@ajaxheatingcooling.ca",
+      "county": "Durham",
+      "trackingPhone": null,
+      "email": "contact@ajaxplumbingpros.ca",
       "serviceAreas": [
         "Ajax",
         "Pickering",
         "Whitby",
-        "Oshawa",
-        "Bowmanville",
-        "Newcastle",
-        "Courtice",
-        "Port Hope"
+        "Greenwood",
+        "Brougham",
+        "Oshawa"
       ],
       "services": [
         "Furnace repair & installation",
@@ -41,30 +36,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://ajaxheatingcooling.ca",
+      "sourceUrl": "https://ajaxplumbingpros.ca",
       "leadShape": "A"
     },
-    "amherstburgheatingcooling.ca": {
-      "domain": "amherstburgheatingcooling.ca",
-      "brand": "Amherstburg Heating & Cooling",
+    "amherstburgplumbingpros.ca": {
+      "domain": "amherstburgplumbingpros.ca",
+      "brand": "Amherstburg Plumbing Pros",
       "portfolio": "network",
       "city": "Amherstburg",
       "regionAbbr": "ON",
-      "county": "Essex County",
-      "trackingPhone": {
-        "display": "(548) 918-5036",
-        "tel": "+15489185036"
-      },
-      "email": "contact@amherstburgheatingcooling.ca",
+      "county": "Essex",
+      "trackingPhone": null,
+      "email": "contact@amherstburgplumbingpros.ca",
       "serviceAreas": [
         "Amherstburg",
+        "McGregor",
+        "River Canard",
         "Windsor",
         "LaSalle",
-        "Tecumseh",
-        "Leamington",
-        "Lakeshore",
-        "Belle River",
-        "Essex"
+        "Essex",
+        "Harrow"
       ],
       "services": [
         "Furnace repair & installation",
@@ -78,29 +69,25 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://amherstburgheatingcooling.ca",
+      "sourceUrl": "https://amherstburgplumbingpros.ca",
       "leadShape": "A"
     },
-    "ancasterheatingcooling.ca": {
-      "domain": "ancasterheatingcooling.ca",
-      "brand": "Ancaster Heating & Cooling",
+    "ancasterplumbingpros.ca": {
+      "domain": "ancasterplumbingpros.ca",
+      "brand": "Ancaster Plumbing Pros",
       "portfolio": "network",
       "city": "Ancaster",
       "regionAbbr": "ON",
-      "county": "Hamilton-Wentworth",
-      "trackingPhone": {
-        "display": "(289) 204-2884",
-        "tel": "+12892042884"
-      },
-      "email": "contact@ancasterheatingcooling.ca",
+      "county": "Hamilton",
+      "trackingPhone": null,
+      "email": "contact@ancasterplumbingpros.ca",
       "serviceAreas": [
         "Ancaster",
-        "Hamilton",
-        "Stoney Creek",
         "Dundas",
+        "Hamilton",
         "Waterdown",
-        "Binbrook",
-        "Mount Hope"
+        "Carlisle",
+        "Copetown"
       ],
       "services": [
         "Furnace repair & installation",
@@ -114,30 +101,25 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://ancasterheatingcooling.ca",
+      "sourceUrl": "https://ancasterplumbingpros.ca",
       "leadShape": "A"
     },
-    "auroraheatingcooling.ca": {
-      "domain": "auroraheatingcooling.ca",
-      "brand": "Aurora Heating & Cooling",
+    "auroraplumbingpros.ca": {
+      "domain": "auroraplumbingpros.ca",
+      "brand": "Aurora Plumbing Pros",
       "portfolio": "network",
       "city": "Aurora",
       "regionAbbr": "ON",
-      "county": "York Region",
-      "trackingPhone": {
-        "display": "(905) 727-3184",
-        "tel": "+19057273184"
-      },
-      "email": "contact@auroraheatingcooling.ca",
+      "county": "York",
+      "trackingPhone": null,
+      "email": "contact@auroraplumbingpros.ca",
       "serviceAreas": [
         "Aurora",
-        "Markham",
-        "Richmond Hill",
         "Newmarket",
-        "Vaughan",
-        "Keswick",
-        "Stouffville",
-        "King City"
+        "Oak Ridges",
+        "King City",
+        "Sharon",
+        "Schomberg"
       ],
       "services": [
         "Furnace repair & installation",
@@ -151,68 +133,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://auroraheatingcooling.ca",
+      "sourceUrl": "https://auroraplumbingpros.ca",
       "leadShape": "A"
     },
-    "aurorahvacpros.ca": {
-      "domain": "aurorahvacpros.ca",
-      "brand": "Aurora HVAC Pros",
-      "portfolio": "network",
-      "city": "Aurora",
-      "regionAbbr": "ON",
-      "county": "York Region",
-      "trackingPhone": {
-        "display": "(905) 727-0491",
-        "tel": "+19057270491"
-      },
-      "email": "contact@aurorahvacpros.ca",
-      "serviceAreas": [
-        "Aurora",
-        "Markham",
-        "Richmond Hill",
-        "Newmarket",
-        "Vaughan",
-        "Keswick",
-        "Stouffville",
-        "King City"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://aurorahvacpros.ca",
-      "leadShape": "A"
-    },
-    "aylmerheatingcooling.ca": {
-      "domain": "aylmerheatingcooling.ca",
-      "brand": "Aylmer Heating & Cooling",
+    "aylmerplumbing.ca": {
+      "domain": "aylmerplumbing.ca",
+      "brand": "Aylmer Plumbing",
       "portfolio": "network",
       "city": "Aylmer",
       "regionAbbr": "ON",
-      "county": "Brant/Haldimand-Norfolk",
-      "trackingPhone": {
-        "display": "(519) 765-3092",
-        "tel": "+15197653092"
-      },
-      "email": "contact@aylmerheatingcooling.ca",
+      "county": "Elgin",
+      "trackingPhone": null,
+      "email": "contact@aylmerplumbing.ca",
       "serviceAreas": [
         "Aylmer",
-        "Brantford",
-        "Paris",
-        "Caledonia",
-        "Dunnville",
-        "Simcoe",
-        "Port Dover",
-        "Nanticoke",
-        "Ayr"
+        "Springfield",
+        "Port Burwell",
+        "Vienna",
+        "Malahide",
+        "Tillsonburg",
+        "St. Thomas"
       ],
       "services": [
         "Furnace repair & installation",
@@ -226,31 +166,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://aylmerheatingcooling.ca",
+      "sourceUrl": "https://aylmerplumbing.ca",
       "leadShape": "A"
     },
-    "ayrheatingcooling.ca": {
-      "domain": "ayrheatingcooling.ca",
-      "brand": "Ayr Heating & Cooling",
+    "ayrplumbing.ca": {
+      "domain": "ayrplumbing.ca",
+      "brand": "Ayr Plumbing",
       "portfolio": "network",
       "city": "Ayr",
       "regionAbbr": "ON",
-      "county": "Brant/Haldimand-Norfolk",
-      "trackingPhone": {
-        "display": "(519) 632-8174",
-        "tel": "+15196328174"
-      },
-      "email": "contact@ayrheatingcooling.ca",
+      "county": "Waterloo",
+      "trackingPhone": null,
+      "email": "contact@ayrplumbing.ca",
       "serviceAreas": [
         "Ayr",
-        "Brantford",
+        "New Hamburg",
+        "Baden",
+        "St. George",
         "Paris",
-        "Caledonia",
-        "Dunnville",
-        "Simcoe",
-        "Port Dover",
-        "Nanticoke",
-        "Aylmer"
+        "Cambridge",
+        "Kitchener"
       ],
       "services": [
         "Furnace repair & installation",
@@ -264,27 +199,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://ayrheatingcooling.ca",
+      "sourceUrl": "https://ayrplumbing.ca",
       "leadShape": "A"
     },
-    "bayfieldheatingcooling.ca": {
-      "domain": "bayfieldheatingcooling.ca",
-      "brand": "Bayfield Heating & Cooling",
+    "bayfieldplumbing.ca": {
+      "domain": "bayfieldplumbing.ca",
+      "brand": "Bayfield Plumbing",
       "portfolio": "network",
       "city": "Bayfield",
       "regionAbbr": "ON",
-      "county": "Huron County",
-      "trackingPhone": {
-        "display": "(519) 565-0204",
-        "tel": "+15195650204"
-      },
-      "email": "contact@bayfieldheatingcooling.ca",
+      "county": "Huron",
+      "trackingPhone": null,
+      "email": "contact@bayfieldplumbing.ca",
       "serviceAreas": [
         "Bayfield",
         "Goderich",
         "Clinton",
-        "Vanastra",
-        "Hensall"
+        "Zurich",
+        "Grand Bend",
+        "Egmondville",
+        "Kippen"
       ],
       "services": [
         "Furnace repair & installation",
@@ -298,27 +232,20 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://bayfieldheatingcooling.ca",
+      "sourceUrl": "https://bayfieldplumbing.ca",
       "leadShape": "A"
     },
-    "blythheatingcooling.ca": {
-      "domain": "blythheatingcooling.ca",
-      "brand": "Blyth Heating & Cooling",
+    "beavertonplumbingpros.ca": {
+      "domain": "beavertonplumbingpros.ca",
+      "brand": "Beaverton Plumbing Pros",
       "portfolio": "network",
-      "city": "Blyth",
+      "city": "Beaverton",
       "regionAbbr": "ON",
-      "county": "Huron County",
-      "trackingPhone": {
-        "display": "(519) 523-0144",
-        "tel": "+15195230144"
-      },
-      "email": "contact@blythheatingcooling.ca",
+      "county": "Durham Region",
+      "trackingPhone": null,
+      "email": "contact@beavertonplumbingpros.ca",
       "serviceAreas": [
-        "Blyth",
-        "Clinton",
-        "Goderich",
-        "Seaforth",
-        "Belgrave"
+        "Beaverton"
       ],
       "services": [
         "Furnace repair & installation",
@@ -332,31 +259,80 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://blythheatingcooling.ca",
+      "sourceUrl": "https://beavertonplumbingpros.ca",
       "leadShape": "A"
     },
-    "brantfordheatingcooling.ca": {
-      "domain": "brantfordheatingcooling.ca",
-      "brand": "Brantford Heating & Cooling",
+    "bowmanvilleplumbingpros.ca": {
+      "domain": "bowmanvilleplumbingpros.ca",
+      "brand": "Bowmanville Plumbing Pros",
+      "portfolio": "network",
+      "city": "Bowmanville",
+      "regionAbbr": "ON",
+      "county": "Durham Region",
+      "trackingPhone": null,
+      "email": "contact@bowmanvilleplumbingpros.ca",
+      "serviceAreas": [
+        "Bowmanville"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://bowmanvilleplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "bramptonplumbingpros.ca": {
+      "domain": "bramptonplumbingpros.ca",
+      "brand": "Brampton Plumbing Pros",
+      "portfolio": "network",
+      "city": "Brampton",
+      "regionAbbr": "ON",
+      "county": "Peel Region",
+      "trackingPhone": null,
+      "email": "contact@bramptonplumbingpros.ca",
+      "serviceAreas": [
+        "Brampton"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://bramptonplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "brantfordplumbingpros.ca": {
+      "domain": "brantfordplumbingpros.ca",
+      "brand": "Brantford Plumbing Pros",
       "portfolio": "network",
       "city": "Brantford",
       "regionAbbr": "ON",
-      "county": "Brant/Haldimand-Norfolk",
-      "trackingPhone": {
-        "display": "(519) 756-3142",
-        "tel": "+15197563142"
-      },
-      "email": "contact@brantfordheatingcooling.ca",
+      "county": "Brant",
+      "trackingPhone": null,
+      "email": "contact@brantfordplumbingpros.ca",
       "serviceAreas": [
         "Brantford",
         "Paris",
-        "Caledonia",
-        "Dunnville",
-        "Simcoe",
-        "Port Dover",
-        "Nanticoke",
-        "Ayr",
-        "Aylmer"
+        "St. George",
+        "Burford",
+        "Scotland",
+        "Mount Pleasant",
+        "Cainsville"
       ],
       "services": [
         "Furnace repair & installation",
@@ -370,68 +346,25 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://brantfordheatingcooling.ca",
+      "sourceUrl": "https://brantfordplumbingpros.ca",
       "leadShape": "A"
     },
-    "brantfordhvacpros.ca": {
-      "domain": "brantfordhvacpros.ca",
-      "brand": "Brantford HVAC Pros",
-      "portfolio": "network",
-      "city": "Brantford",
-      "regionAbbr": "ON",
-      "county": "Brant/Haldimand-Norfolk",
-      "trackingPhone": {
-        "display": "(519) 756-8024",
-        "tel": "+15197568024"
-      },
-      "email": "contact@brantfordhvacpros.ca",
-      "serviceAreas": [
-        "Brantford",
-        "Paris",
-        "Caledonia",
-        "Dunnville",
-        "Simcoe",
-        "Port Dover",
-        "Nanticoke",
-        "Ayr",
-        "Aylmer"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://brantfordhvacpros.ca",
-      "leadShape": "A"
-    },
-    "burlingtonhvacpros.ca": {
-      "domain": "burlingtonhvacpros.ca",
-      "brand": "Burlington HVAC Pros",
+    "burlingtonplumbingpros.ca": {
+      "domain": "burlingtonplumbingpros.ca",
+      "brand": "Burlington Plumbing Pros",
       "portfolio": "network",
       "city": "Burlington",
       "regionAbbr": "ON",
-      "county": "Halton Region",
-      "trackingPhone": {
-        "display": "(905) 637-4218",
-        "tel": "+19056374218"
-      },
-      "email": "contact@burlingtonhvacpros.ca",
+      "county": "Halton",
+      "trackingPhone": null,
+      "email": "contact@burlingtonplumbingpros.ca",
       "serviceAreas": [
         "Burlington",
         "Oakville",
-        "Milton",
-        "Georgetown",
-        "Acton",
-        "Ajax",
-        "Pickering",
-        "Whitby"
+        "Hamilton",
+        "Waterdown",
+        "Ancaster",
+        "Milton"
       ],
       "services": [
         "Furnace repair & installation",
@@ -445,31 +378,86 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://burlingtonhvacpros.ca",
+      "sourceUrl": "https://burlingtonplumbingpros.ca",
       "leadShape": "A"
     },
-    "caledoniaheatingcooling.ca": {
-      "domain": "caledoniaheatingcooling.ca",
-      "brand": "Caledonia Heating & Cooling",
+    "caledoniaplumbingpros.ca": {
+      "domain": "caledoniaplumbingpros.ca",
+      "brand": "Caledonia Plumbing Pros",
       "portfolio": "network",
       "city": "Caledonia",
       "regionAbbr": "ON",
-      "county": "Brant/Haldimand-Norfolk",
-      "trackingPhone": {
-        "display": "(905) 765-3418",
-        "tel": "+19057653418"
-      },
-      "email": "contact@caledoniaheatingcooling.ca",
+      "county": "Haldimand",
+      "trackingPhone": null,
+      "email": "contact@caledoniaplumbingpros.ca",
       "serviceAreas": [
         "Caledonia",
-        "Brantford",
-        "Paris",
+        "Hagersville",
         "Dunnville",
-        "Simcoe",
-        "Port Dover",
-        "Nanticoke",
+        "Cayuga",
+        "Fisherville",
+        "Jarvis",
+        "Townsend"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://caledoniaplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "caledonplumbingpros.ca": {
+      "domain": "caledonplumbingpros.ca",
+      "brand": "Caledon Plumbing Pros",
+      "portfolio": "network",
+      "city": "Caledon",
+      "regionAbbr": "ON",
+      "county": "Peel Region",
+      "trackingPhone": null,
+      "email": "contact@caledonplumbingpros.ca",
+      "serviceAreas": [
+        "Caledon"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://caledonplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "cambridgeplumbingpros.ca": {
+      "domain": "cambridgeplumbingpros.ca",
+      "brand": "Cambridge Plumbing Pros",
+      "portfolio": "network",
+      "city": "Cambridge",
+      "regionAbbr": "ON",
+      "county": "Waterloo",
+      "trackingPhone": null,
+      "email": "contact@cambridgeplumbingpros.ca",
+      "serviceAreas": [
+        "Cambridge",
+        "Kitchener",
         "Ayr",
-        "Aylmer"
+        "Paris",
+        "Brantford",
+        "Guelph",
+        "Waterloo"
       ],
       "services": [
         "Furnace repair & installation",
@@ -483,30 +471,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://caledoniaheatingcooling.ca",
+      "sourceUrl": "https://cambridgeplumbingpros.ca",
       "leadShape": "A"
     },
-    "cambridgehvacpro.ca": {
-      "domain": "cambridgehvacpro.ca",
-      "brand": "Cambridge HVAC Pro",
+    "chathamkentplumbing.ca": {
+      "domain": "chathamkentplumbing.ca",
+      "brand": "Chatham-Kent Plumbing",
       "portfolio": "network",
-      "city": "Cambridge",
+      "city": "Chatham-Kent",
       "regionAbbr": "ON",
-      "county": "Waterloo Region",
-      "trackingPhone": {
-        "display": "(548) 325-9317",
-        "tel": "+15483259317"
-      },
-      "email": "contact@cambridgehvacpro.ca",
+      "county": "Chatham-Kent",
+      "trackingPhone": null,
+      "email": "contact@chathamkentplumbing.ca",
       "serviceAreas": [
-        "Cambridge",
-        "Kitchener",
-        "Waterloo",
-        "Elmira",
-        "Listowel",
-        "New Hamburg",
-        "Baden",
-        "Breslau"
+        "Chatham-Kent",
+        "Chatham",
+        "Wallaceburg",
+        "Ridgetown",
+        "Blenheim",
+        "Tilbury",
+        "Wheatley"
       ],
       "services": [
         "Furnace repair & installation",
@@ -520,127 +504,25 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://cambridgehvacpro.ca",
+      "sourceUrl": "https://chathamkentplumbing.ca",
       "leadShape": "A"
     },
-    "cambridgehvacpros.ca": {
-      "domain": "cambridgehvacpros.ca",
-      "brand": "Cambridge HVAC Pros",
-      "portfolio": "network",
-      "city": "Cambridge",
-      "regionAbbr": "ON",
-      "county": "Waterloo Region",
-      "trackingPhone": {
-        "display": "(519) 623-1847",
-        "tel": "+15196231847"
-      },
-      "email": "contact@cambridgehvacpros.ca",
-      "serviceAreas": [
-        "Cambridge",
-        "Kitchener",
-        "Waterloo",
-        "Elmira",
-        "Listowel",
-        "New Hamburg",
-        "Baden",
-        "Breslau"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://cambridgehvacpros.ca",
-      "leadShape": "A"
-    },
-    "chathamgeneratorpros.ca": {
-      "domain": "chathamgeneratorpros.ca",
-      "brand": "Chatham-Kent Generator Pros",
+    "chathamplumbingpros.ca": {
+      "domain": "chathamplumbingpros.ca",
+      "brand": "Chatham Plumbing Pros",
       "portfolio": "network",
       "city": "Chatham",
       "regionAbbr": "ON",
       "county": "Chatham-Kent",
-      "trackingPhone": {
-        "display": "(548) 798-0035",
-        "tel": "+15487980035"
-      },
-      "email": "contact@chathamgeneratorpros.ca",
+      "trackingPhone": null,
+      "email": "contact@chathamplumbingpros.ca",
       "serviceAreas": [
         "Chatham",
+        "Chatham-Kent",
         "Wallaceburg",
         "Ridgetown",
-        "Tilbury",
-        "Dresden",
-        "Bothwell"
-      ],
-      "services": [
-        "Standby generator sales & installation",
-        "Generac service & maintenance",
-        "Transfer switches",
-        "Load management",
-        "Emergency power"
-      ],
-      "vertical": "generator",
-      "sourceUrl": "https://chathamgeneratorpros.ca",
-      "leadShape": "A"
-    },
-    "chathamgeothermal.ca": {
-      "domain": "chathamgeothermal.ca",
-      "brand": "Chatham Geothermal",
-      "portfolio": "network",
-      "city": "Chatham",
-      "regionAbbr": "ON",
-      "county": "Chatham",
-      "trackingPhone": {
-        "display": "(519) 351-0245",
-        "tel": "+15193510245"
-      },
-      "email": "contact@chathamgeothermal.ca",
-      "serviceAreas": [
-        "Chatham",
-        "Wallaceburg",
-        "Ridgetown",
-        "Tilbury",
-        "Dresden",
         "Blenheim",
-        "Bothwell"
-      ],
-      "services": [
-        "Geothermal heat pump installation",
-        "Geothermal service & repair",
-        "Loop field systems",
-        "Emergency service"
-      ],
-      "vertical": "geothermal",
-      "sourceUrl": "https://chathamgeothermal.ca",
-      "leadShape": "A"
-    },
-    "chathamheatingcooling.ca": {
-      "domain": "chathamheatingcooling.ca",
-      "brand": "Chatham Heating and Cooling",
-      "portfolio": "network",
-      "city": "Chatham",
-      "regionAbbr": "ON",
-      "county": "Chatham-Kent",
-      "trackingPhone": {
-        "display": "(548) 901-3519",
-        "tel": "+15489013519"
-      },
-      "email": "contact@chathamkentheatingcooling.ca",
-      "serviceAreas": [
-        "Chatham",
-        "Wallaceburg",
-        "Tilbury",
-        "Blenheim",
-        "Ridgetown",
-        "Dresden"
+        "Thamesville"
       ],
       "services": [
         "Furnace repair & installation",
@@ -654,94 +536,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://chathamheatingcooling.ca",
+      "sourceUrl": "https://chathamplumbingpros.ca",
       "leadShape": "A"
     },
-    "chathamhvacpros.ca": {
-      "domain": "chathamhvacpros.ca",
-      "brand": "Chatham HVAC Pros",
-      "portfolio": "network",
-      "city": "Chatham",
-      "regionAbbr": "ON",
-      "county": "Chatham-Kent",
-      "trackingPhone": {
-        "display": "(519) 352-4013",
-        "tel": "+15193524013"
-      },
-      "email": "contact@chathamhvacpros.ca",
-      "serviceAreas": [
-        "Chatham",
-        "Wallaceburg",
-        "Tilbury",
-        "Blenheim",
-        "Ridgetown",
-        "Dresden"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://chathamhvacpros.ca",
-      "leadShape": "A"
-    },
-    "chathamsolarpros.ca": {
-      "domain": "chathamsolarpros.ca",
-      "brand": "Chatham Solar Pros",
-      "portfolio": "network",
-      "city": "Chatham",
-      "regionAbbr": "ON",
-      "county": "Chatham",
-      "trackingPhone": {
-        "display": "(519) 351-0288",
-        "tel": "+15193510288"
-      },
-      "email": "contact@chathamsolarpros.ca",
-      "serviceAreas": [
-        "Chatham",
-        "Wallaceburg",
-        "Ridgetown",
-        "Tilbury",
-        "Dresden",
-        "Blenheim",
-        "Bothwell"
-      ],
-      "services": [
-        "Solar PV installation",
-        "Solar service",
-        "Battery storage",
-        "Emergency service"
-      ],
-      "vertical": "solar",
-      "sourceUrl": "https://chathamsolarpros.ca",
-      "leadShape": "A"
-    },
-    "clintonheatingcooling.ca": {
-      "domain": "clintonheatingcooling.ca",
-      "brand": "Clinton Heating & Cooling",
+    "clintonplumbing.ca": {
+      "domain": "clintonplumbing.ca",
+      "brand": "Clinton Plumbing",
       "portfolio": "network",
       "city": "Clinton",
       "regionAbbr": "ON",
-      "county": "Huron County",
-      "trackingPhone": {
-        "display": "(519) 482-0143",
-        "tel": "+15194820143"
-      },
-      "email": "contact@clintonheatingcooling.ca",
+      "county": "Huron",
+      "trackingPhone": null,
+      "email": "contact@clintonplumbing.ca",
       "serviceAreas": [
         "Clinton",
-        "Goderich",
         "Seaforth",
+        "Goderich",
         "Bayfield",
+        "Vanastra",
         "Holmesville",
-        "Hensall"
+        "Londesborough"
       ],
       "services": [
         "Furnace repair & installation",
@@ -755,27 +569,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://clintonheatingcooling.ca",
+      "sourceUrl": "https://clintonplumbing.ca",
       "leadShape": "A"
     },
-    "dorchesterheatingcooling.ca": {
-      "domain": "dorchesterheatingcooling.ca",
-      "brand": "Dorchester Heating & Cooling",
+    "dorchesterplumbing.ca": {
+      "domain": "dorchesterplumbing.ca",
+      "brand": "Dorchester Plumbing",
       "portfolio": "network",
       "city": "Dorchester",
       "regionAbbr": "ON",
-      "county": "Middlesex County",
-      "trackingPhone": {
-        "display": "(519) 268-0122",
-        "tel": "+15192680122"
-      },
-      "email": "contact@dorchesterheatingcooling.ca",
+      "county": "Middlesex",
+      "trackingPhone": null,
+      "email": "contact@dorchesterplumbing.ca",
       "serviceAreas": [
         "Dorchester",
-        "London",
         "Thorndale",
+        "Thamesford",
         "Belmont",
-        "Putnam"
+        "Putnam",
+        "London",
+        "Ingersoll"
       ],
       "services": [
         "Furnace repair & installation",
@@ -789,31 +602,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://dorchesterheatingcooling.ca",
+      "sourceUrl": "https://dorchesterplumbing.ca",
       "leadShape": "A"
     },
-    "dunnvilleheatingcooling.ca": {
-      "domain": "dunnvilleheatingcooling.ca",
-      "brand": "Dunnville Heating & Cooling",
+    "dunnvilleplumbingpros.ca": {
+      "domain": "dunnvilleplumbingpros.ca",
+      "brand": "Dunnville Plumbing Pros",
       "portfolio": "network",
       "city": "Dunnville",
       "regionAbbr": "ON",
-      "county": "Brant/Haldimand-Norfolk",
-      "trackingPhone": {
-        "display": "(000) 000-0000",
-        "tel": "+10000000000"
-      },
-      "email": "contact@dunnvilleheatingcooling.ca",
+      "county": "Haldimand",
+      "trackingPhone": null,
+      "email": "contact@dunnvilleplumbingpros.ca",
       "serviceAreas": [
         "Dunnville",
-        "Brantford",
-        "Paris",
+        "Cayuga",
+        "Hagersville",
         "Caledonia",
-        "Simcoe",
-        "Port Dover",
         "Nanticoke",
-        "Ayr",
-        "Aylmer"
+        "Port Dover",
+        "Simcoe"
       ],
       "services": [
         "Furnace repair & installation",
@@ -827,30 +635,53 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://dunnvilleheatingcooling.ca",
+      "sourceUrl": "https://dunnvilleplumbingpros.ca",
       "leadShape": "A"
     },
-    "elmiraheatingcooling.ca": {
-      "domain": "elmiraheatingcooling.ca",
-      "brand": "Elmira Heating & Cooling",
+    "eastgwillimburyplumbingpros.ca": {
+      "domain": "eastgwillimburyplumbingpros.ca",
+      "brand": "East Gwillimbury Plumbing Pros",
+      "portfolio": "network",
+      "city": "East Gwillimbury",
+      "regionAbbr": "ON",
+      "county": "York Region",
+      "trackingPhone": null,
+      "email": "contact@eastgwillimburyplumbingpros.ca",
+      "serviceAreas": [
+        "East Gwillimbury"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://eastgwillimburyplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "elmiraplumbing.ca": {
+      "domain": "elmiraplumbing.ca",
+      "brand": "Elmira Plumbing",
       "portfolio": "network",
       "city": "Elmira",
       "regionAbbr": "ON",
-      "county": "Waterloo Region",
-      "trackingPhone": {
-        "display": "(519) 669-4738",
-        "tel": "+15196694738"
-      },
-      "email": "contact@elmiraheatingcooling.ca",
+      "county": "Waterloo",
+      "trackingPhone": null,
+      "email": "contact@elmiraplumbing.ca",
       "serviceAreas": [
         "Elmira",
-        "Cambridge",
-        "Kitchener",
-        "Waterloo",
-        "Listowel",
-        "New Hamburg",
-        "Baden",
-        "Breslau"
+        "St. Jacobs",
+        "Conestogo",
+        "Bloomingdale",
+        "Winterbourne",
+        "Maryhill",
+        "Waterloo"
       ],
       "services": [
         "Furnace repair & installation",
@@ -864,27 +695,25 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://elmiraheatingcooling.ca",
+      "sourceUrl": "https://elmiraplumbing.ca",
       "leadShape": "A"
     },
-    "exeterheatingcooling.ca": {
-      "domain": "exeterheatingcooling.ca",
-      "brand": "Exeter Heating & Cooling",
+    "exeterplumbing.ca": {
+      "domain": "exeterplumbing.ca",
+      "brand": "Exeter Plumbing",
       "portfolio": "network",
       "city": "Exeter",
       "regionAbbr": "ON",
-      "county": "Huron County",
-      "trackingPhone": {
-        "display": "(548) 901-0020",
-        "tel": "+15489010020"
-      },
-      "email": "contact@exeterheatingcooling.ca",
+      "county": "Huron",
+      "trackingPhone": null,
+      "email": "contact@exeterplumbing.ca",
       "serviceAreas": [
         "Exeter",
+        "Grand Bend",
         "Seaforth",
-        "Crediton",
         "Dashwood",
-        "Brucefield",
+        "Crediton",
+        "Huron Park",
         "Centralia"
       ],
       "services": [
@@ -899,28 +728,25 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://exeterheatingcooling.ca",
+      "sourceUrl": "https://exeterplumbing.ca",
       "leadShape": "A"
     },
-    "forestheatingcooling.ca": {
-      "domain": "forestheatingcooling.ca",
-      "brand": "Forest Heating & Cooling",
+    "forestplumbing.ca": {
+      "domain": "forestplumbing.ca",
+      "brand": "Forest Plumbing",
       "portfolio": "network",
       "city": "Forest",
       "regionAbbr": "ON",
-      "county": "Lambton County",
-      "trackingPhone": {
-        "display": "(519) 786-0148",
-        "tel": "+15197860148"
-      },
-      "email": "contact@forestheatingcooling.ca",
+      "county": "Lambton",
+      "trackingPhone": null,
+      "email": "contact@forestplumbing.ca",
       "serviceAreas": [
         "Forest",
         "Thedford",
-        "Grand Bend",
         "Arkona",
-        "Parkhill",
-        "Watford"
+        "Grand Bend",
+        "Petrolia",
+        "Sarnia"
       ],
       "services": [
         "Furnace repair & installation",
@@ -934,29 +760,25 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://forestheatingcooling.ca",
+      "sourceUrl": "https://forestplumbing.ca",
       "leadShape": "A"
     },
-    "georgetownheatingcooling.ca": {
-      "domain": "georgetownheatingcooling.ca",
-      "brand": "Georgetown Heating & Cooling",
+    "georgetownplumbingpros.ca": {
+      "domain": "georgetownplumbingpros.ca",
+      "brand": "Georgetown Plumbing Pros",
       "portfolio": "network",
       "city": "Georgetown",
       "regionAbbr": "ON",
-      "county": "Wellington County",
-      "trackingPhone": {
-        "display": "(905) 877-5208",
-        "tel": "+19058775208"
-      },
-      "email": "contact@georgetownheatingcooling.ca",
+      "county": "Halton",
+      "trackingPhone": null,
+      "email": "contact@georgetownplumbingpros.ca",
       "serviceAreas": [
         "Georgetown",
-        "Guelph",
-        "Milton",
-        "Fergus",
-        "Elora",
         "Acton",
-        "Rockwood"
+        "Norval",
+        "Glen Williams",
+        "Milton",
+        "Erin"
       ],
       "services": [
         "Furnace repair & installation",
@@ -970,28 +792,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://georgetownheatingcooling.ca",
+      "sourceUrl": "https://georgetownplumbingpros.ca",
       "leadShape": "A"
     },
-    "glencoeheatingcooling.ca": {
-      "domain": "glencoeheatingcooling.ca",
-      "brand": "Glencoe Heating & Cooling",
+    "glencoeplumbing.ca": {
+      "domain": "glencoeplumbing.ca",
+      "brand": "Glencoe Plumbing",
       "portfolio": "network",
       "city": "Glencoe",
       "regionAbbr": "ON",
-      "county": "Middlesex County",
-      "trackingPhone": {
-        "display": "(548) 761-2123",
-        "tel": "+15487612123"
-      },
-      "email": "contact@glencoeheatingcooling.ca",
+      "county": "Middlesex",
+      "trackingPhone": null,
+      "email": "contact@glencoeplumbing.ca",
       "serviceAreas": [
         "Glencoe",
+        "Bothwell",
+        "Wardsville",
         "Newbury",
         "Mount Brydges",
-        "Wardsville",
-        "Melbourne",
-        "Appin"
+        "Strathroy",
+        "West Lorne"
       ],
       "services": [
         "Furnace repair & installation",
@@ -1005,27 +825,25 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://glencoeheatingcooling.ca",
+      "sourceUrl": "https://glencoeplumbing.ca",
       "leadShape": "A"
     },
-    "goderichheatingcooling.ca": {
-      "domain": "goderichheatingcooling.ca",
-      "brand": "Goderich Heating & Cooling",
+    "goderichplumbing.ca": {
+      "domain": "goderichplumbing.ca",
+      "brand": "Goderich Plumbing",
       "portfolio": "network",
       "city": "Goderich",
       "regionAbbr": "ON",
-      "county": "Huron County",
-      "trackingPhone": {
-        "display": "(548) 290-9633",
-        "tel": "+15482909633"
-      },
-      "email": "contact@goderichheatingcooling.ca",
+      "county": "Huron",
+      "trackingPhone": null,
+      "email": "contact@goderichplumbing.ca",
       "serviceAreas": [
         "Goderich",
         "Clinton",
-        "Blyth",
+        "Bayfield",
+        "Vanastra",
         "Holmesville",
-        "Port Albert",
+        "Blyth",
         "Auburn"
       ],
       "services": [
@@ -1040,27 +858,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://goderichheatingcooling.ca",
+      "sourceUrl": "https://goderichplumbing.ca",
       "leadShape": "A"
     },
-    "grandbendheatingcooling.ca": {
-      "domain": "grandbendheatingcooling.ca",
-      "brand": "Grand Bend Heating & Cooling",
+    "grandbendplumbing.ca": {
+      "domain": "grandbendplumbing.ca",
+      "brand": "Grand Bend Plumbing",
       "portfolio": "network",
       "city": "Grand Bend",
       "regionAbbr": "ON",
-      "county": "Lambton County",
-      "trackingPhone": {
-        "display": "(548) 554-3151",
-        "tel": "+15485543151"
-      },
-      "email": "contact@grandbendheatingcooling.ca",
+      "county": "Lambton",
+      "trackingPhone": null,
+      "email": "contact@grandbendplumbing.ca",
       "serviceAreas": [
         "Grand Bend",
-        "Port Franks",
+        "Bayfield",
+        "Forest",
         "Thedford",
+        "Port Franks",
         "Parkhill",
-        "Forest"
+        "Exeter"
       ],
       "services": [
         "Furnace repair & installation",
@@ -1074,29 +891,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://grandbendheatingcooling.ca",
+      "sourceUrl": "https://grandbendplumbing.ca",
       "leadShape": "A"
     },
-    "guelphacrepair.ca": {
-      "domain": "guelphacrepair.ca",
-      "brand": "Guelph AC Repair",
+    "guelphplumbingpros.ca": {
+      "domain": "guelphplumbingpros.ca",
+      "brand": "Guelph Plumbing Pros",
       "portfolio": "network",
       "city": "Guelph",
       "regionAbbr": "ON",
-      "county": "Wellington County",
-      "trackingPhone": {
-        "display": "(548) 554-4288",
-        "tel": "+15485544288"
-      },
-      "email": "contact@guelphacrepair.ca",
+      "county": "Wellington",
+      "trackingPhone": null,
+      "email": "contact@guelphplumbingpros.ca",
       "serviceAreas": [
         "Guelph",
-        "Georgetown",
-        "Milton",
+        "Rockwood",
         "Fergus",
         "Elora",
-        "Acton",
-        "Rockwood"
+        "Aberfoyle",
+        "Morriston",
+        "Ariss"
       ],
       "services": [
         "Furnace repair & installation",
@@ -1110,137 +924,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://guelphacrepair.ca",
+      "sourceUrl": "https://guelphplumbingpros.ca",
       "leadShape": "A"
     },
-    "guelphfurnacerepair.ca": {
-      "domain": "guelphfurnacerepair.ca",
-      "brand": "Guelph Furnace Repair",
-      "portfolio": "network",
-      "city": "Guelph",
-      "regionAbbr": "ON",
-      "county": "Wellington County",
-      "trackingPhone": {
-        "display": "(548) 901-0398",
-        "tel": "+15489010398"
-      },
-      "email": "contact@guelphfurnacerepair.ca",
-      "serviceAreas": [
-        "Guelph",
-        "Georgetown",
-        "Milton",
-        "Fergus",
-        "Elora",
-        "Acton",
-        "Rockwood"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://guelphfurnacerepair.ca",
-      "leadShape": "A"
-    },
-    "guelphhvacpro.ca": {
-      "domain": "guelphhvacpro.ca",
-      "brand": "Guelph HVAC Pro",
-      "portfolio": "network",
-      "city": "Guelph",
-      "regionAbbr": "ON",
-      "county": "Wellington County",
-      "trackingPhone": {
-        "display": "(548) 490-5216",
-        "tel": "+15484905216"
-      },
-      "email": "contact@guelphhvacpro.ca",
-      "serviceAreas": [
-        "Guelph",
-        "Georgetown",
-        "Milton",
-        "Fergus",
-        "Elora",
-        "Acton",
-        "Rockwood"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://guelphhvacpro.ca",
-      "leadShape": "A"
-    },
-    "guelphhvacpros.ca": {
-      "domain": "guelphhvacpros.ca",
-      "brand": "Guelph HVAC Pros",
-      "portfolio": "network",
-      "city": "Guelph",
-      "regionAbbr": "ON",
-      "county": "Wellington County",
-      "trackingPhone": {
-        "display": "(519) 837-4021",
-        "tel": "+15198374021"
-      },
-      "email": "contact@guelphhvacpros.ca",
-      "serviceAreas": [
-        "Guelph",
-        "Georgetown",
-        "Milton",
-        "Fergus",
-        "Elora",
-        "Acton",
-        "Rockwood"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://guelphhvacpros.ca",
-      "leadShape": "A"
-    },
-    "hamiltonhvacpros.ca": {
-      "domain": "hamiltonhvacpros.ca",
-      "brand": "Hamilton HVAC Pros",
+    "hamiltonplumbingpros.ca": {
+      "domain": "hamiltonplumbingpros.ca",
+      "brand": "Hamilton Plumbing Pros",
       "portfolio": "network",
       "city": "Hamilton",
       "regionAbbr": "ON",
-      "county": "Hamilton-Wentworth",
-      "trackingPhone": {
-        "display": "(905) 522-4817",
-        "tel": "+19055224817"
-      },
-      "email": "contact@hamiltonhvacpros.ca",
+      "county": "Hamilton",
+      "trackingPhone": null,
+      "email": "contact@hamiltonplumbingpros.ca",
       "serviceAreas": [
         "Hamilton",
-        "Ancaster",
         "Stoney Creek",
         "Dundas",
+        "Ancaster",
         "Waterdown",
         "Binbrook",
-        "Mount Hope"
+        "Winona"
       ],
       "services": [
         "Furnace repair & installation",
@@ -1254,97 +957,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://hamiltonhvacpros.ca",
+      "sourceUrl": "https://hamiltonplumbingpros.ca",
       "leadShape": "A"
     },
-    "huroncountyheatingcooling.ca": {
-      "domain": "huroncountyheatingcooling.ca",
-      "brand": "Huron County Heating & Cooling",
-      "portfolio": "network",
-      "city": "Huron County",
-      "regionAbbr": "ON",
-      "county": "Huron County",
-      "trackingPhone": {
-        "display": "(548) 708-6618",
-        "tel": "+15487086618"
-      },
-      "email": "contact@huroncountyheatingcooling.ca",
-      "serviceAreas": [
-        "Goderich",
-        "Clinton",
-        "Exeter",
-        "Seaforth",
-        "Wingham",
-        "Bayfield",
-        "Blyth",
-        "Hensall"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://huroncountyheatingcooling.ca",
-      "leadShape": "A"
-    },
-    "hurongeneratorpros.ca": {
-      "domain": "hurongeneratorpros.ca",
-      "brand": "Huron Generator Pros",
-      "portfolio": "network",
-      "city": "Huron County",
-      "regionAbbr": "ON",
-      "county": "Huron County",
-      "trackingPhone": {
-        "display": "(548) 761-8351",
-        "tel": "+15487618351"
-      },
-      "email": "contact@hurongeneratorpros.ca",
-      "serviceAreas": [
-        "Goderich",
-        "Clinton",
-        "Exeter",
-        "Seaforth",
-        "Wingham",
-        "Bayfield",
-        "Blyth"
-      ],
-      "services": [
-        "Standby generator sales & installation",
-        "Generac service & maintenance",
-        "Transfer switches",
-        "Load management",
-        "Emergency power"
-      ],
-      "vertical": "generator",
-      "sourceUrl": "https://hurongeneratorpros.ca",
-      "leadShape": "A"
-    },
-    "ildertonheatingcooling.ca": {
-      "domain": "ildertonheatingcooling.ca",
-      "brand": "Ilderton Heating & Cooling",
+    "ildertonplumbing.ca": {
+      "domain": "ildertonplumbing.ca",
+      "brand": "Ilderton Plumbing",
       "portfolio": "network",
       "city": "Ilderton",
       "regionAbbr": "ON",
-      "county": "Middlesex County",
-      "trackingPhone": {
-        "display": "(519) 666-0188",
-        "tel": "+15196660188"
-      },
-      "email": "contact@ildertonheatingcooling.ca",
+      "county": "Middlesex",
+      "trackingPhone": null,
+      "email": "contact@ildertonplumbing.ca",
       "serviceAreas": [
         "Ilderton",
-        "London",
         "Komoka",
-        "Kilworth",
         "Denfield",
-        "Arva"
+        "Arva",
+        "Granton",
+        "London",
+        "Strathroy"
       ],
       "services": [
         "Furnace repair & installation",
@@ -1358,28 +990,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://ildertonheatingcooling.ca",
+      "sourceUrl": "https://ildertonplumbing.ca",
       "leadShape": "A"
     },
-    "ingersollheatingcooling.ca": {
-      "domain": "ingersollheatingcooling.ca",
-      "brand": "Ingersoll Heating & Cooling",
+    "ingersollplumbing.ca": {
+      "domain": "ingersollplumbing.ca",
+      "brand": "Ingersoll Plumbing",
       "portfolio": "network",
       "city": "Ingersoll",
       "regionAbbr": "ON",
-      "county": "Oxford County",
-      "trackingPhone": {
-        "display": "(519) 485-2371",
-        "tel": "+15194852371"
-      },
-      "email": "contact@ingersollheatingcooling.ca",
+      "county": "Oxford",
+      "trackingPhone": null,
+      "email": "contact@ingersollplumbing.ca",
       "serviceAreas": [
         "Ingersoll",
         "Woodstock",
         "Tillsonburg",
-        "Norwich",
+        "Beachville",
         "Thamesford",
-        "Embro"
+        "Norwich",
+        "Burgessville"
       ],
       "services": [
         "Furnace repair & installation",
@@ -1393,29 +1023,51 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://ingersollheatingcooling.ca",
+      "sourceUrl": "https://ingersollplumbing.ca",
       "leadShape": "A"
     },
-    "keswickheatingcooling.ca": {
-      "domain": "keswickheatingcooling.ca",
-      "brand": "Keswick Heating & Cooling",
+    "keswickplumbingpros.ca": {
+      "domain": "keswickplumbingpros.ca",
+      "brand": "Keswick Plumbing Pros",
       "portfolio": "network",
       "city": "Keswick",
       "regionAbbr": "ON",
-      "county": "York Region",
-      "trackingPhone": {
-        "display": "(905) 476-8231",
-        "tel": "+19054768231"
-      },
-      "email": "contact@keswickheatingcooling.ca",
+      "county": "York",
+      "trackingPhone": null,
+      "email": "contact@keswickplumbingpros.ca",
       "serviceAreas": [
         "Keswick",
-        "Markham",
-        "Richmond Hill",
-        "Newmarket",
-        "Aurora",
-        "Vaughan",
-        "Stouffville",
+        "Sutton",
+        "Jackson's Point",
+        "Pefferlaw",
+        "Virginia",
+        "Mount Albert"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://keswickplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "kingcityplumbingpros.ca": {
+      "domain": "kingcityplumbingpros.ca",
+      "brand": "King City Plumbing Pros",
+      "portfolio": "network",
+      "city": "King City",
+      "regionAbbr": "ON",
+      "county": "York Region",
+      "trackingPhone": null,
+      "email": "contact@kingcityplumbingpros.ca",
+      "serviceAreas": [
         "King City"
       ],
       "services": [
@@ -1430,30 +1082,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://keswickheatingcooling.ca",
+      "sourceUrl": "https://kingcityplumbingpros.ca",
       "leadShape": "A"
     },
-    "kitcheneracrepair.ca": {
-      "domain": "kitcheneracrepair.ca",
-      "brand": "Kitchener AC Repair",
+    "kitchenerplumbingpros.ca": {
+      "domain": "kitchenerplumbingpros.ca",
+      "brand": "Kitchener Plumbing Pros",
       "portfolio": "network",
       "city": "Kitchener",
       "regionAbbr": "ON",
-      "county": "Waterloo Region",
-      "trackingPhone": {
-        "display": "(548) 761-7239",
-        "tel": "+15487617239"
-      },
-      "email": "contact@kitcheneracrepair.ca",
+      "county": "Waterloo",
+      "trackingPhone": null,
+      "email": "contact@kitchenerplumbingpros.ca",
       "serviceAreas": [
         "Kitchener",
-        "Cambridge",
         "Waterloo",
+        "Cambridge",
         "Elmira",
-        "Listowel",
+        "Ayr",
         "New Hamburg",
-        "Baden",
-        "Breslau"
+        "Baden"
       ],
       "services": [
         "Furnace repair & installation",
@@ -1467,139 +1115,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://kitcheneracrepair.ca",
+      "sourceUrl": "https://kitchenerplumbingpros.ca",
       "leadShape": "A"
     },
-    "kitchenerfurnacerepair.ca": {
-      "domain": "kitchenerfurnacerepair.ca",
-      "brand": "Kitchener Furnace Repair",
-      "portfolio": "network",
-      "city": "Kitchener",
-      "regionAbbr": "ON",
-      "county": "Waterloo Region",
-      "trackingPhone": {
-        "display": "(548) 918-0574",
-        "tel": "+15489180574"
-      },
-      "email": "contact@kitchenerfurnacerepair.ca",
-      "serviceAreas": [
-        "Kitchener",
-        "Cambridge",
-        "Waterloo",
-        "Elmira",
-        "Listowel",
-        "New Hamburg",
-        "Baden",
-        "Breslau"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://kitchenerfurnacerepair.ca",
-      "leadShape": "A"
-    },
-    "kitchenerheatingcooling.ca": {
-      "domain": "kitchenerheatingcooling.ca",
-      "brand": "Kitchener Heating & Cooling",
-      "portfolio": "network",
-      "city": "Kitchener",
-      "regionAbbr": "ON",
-      "county": "Waterloo Region",
-      "trackingPhone": {
-        "display": "(548) 457-1029",
-        "tel": "+15484571029"
-      },
-      "email": "contact@kitchenerheatingcooling.ca",
-      "serviceAreas": [
-        "Kitchener",
-        "Cambridge",
-        "Waterloo",
-        "Elmira",
-        "Listowel",
-        "New Hamburg",
-        "Baden",
-        "Breslau"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://kitchenerheatingcooling.ca",
-      "leadShape": "A"
-    },
-    "kitchenerhvacpros.ca": {
-      "domain": "kitchenerhvacpros.ca",
-      "brand": "Kitchener HVAC Pros",
-      "portfolio": "network",
-      "city": "Kitchener",
-      "regionAbbr": "ON",
-      "county": "Waterloo Region",
-      "trackingPhone": {
-        "display": "(519) 745-2083",
-        "tel": "+15197452083"
-      },
-      "email": "contact@kitchenerhvacpros.ca",
-      "serviceAreas": [
-        "Kitchener",
-        "Cambridge",
-        "Waterloo",
-        "Elmira",
-        "Listowel",
-        "New Hamburg",
-        "Baden",
-        "Breslau"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://kitchenerhvacpros.ca",
-      "leadShape": "A"
-    },
-    "komokaheatingcooling.ca": {
-      "domain": "komokaheatingcooling.ca",
-      "brand": "Komoka Heating & Cooling",
+    "komokaplumbing.ca": {
+      "domain": "komokaplumbing.ca",
+      "brand": "Komoka Plumbing",
       "portfolio": "network",
       "city": "Komoka",
       "regionAbbr": "ON",
-      "county": "Middlesex County",
-      "trackingPhone": {
-        "display": "(519) 657-0133",
-        "tel": "+15196570133"
-      },
-      "email": "contact@komokaheatingcooling.ca",
+      "county": "Middlesex",
+      "trackingPhone": null,
+      "email": "contact@komokaplumbing.ca",
       "serviceAreas": [
         "Komoka",
         "Kilworth",
-        "Ilderton",
+        "Delaware",
         "London",
-        "Mount Brydges",
-        "Delaware"
+        "Strathroy",
+        "Ilderton",
+        "Mount Brydges"
       ],
       "services": [
         "Furnace repair & installation",
@@ -1613,30 +1148,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://komokaheatingcooling.ca",
+      "sourceUrl": "https://komokaplumbing.ca",
       "leadShape": "A"
     },
-    "lakeshoreheatingcooling.ca": {
-      "domain": "lakeshoreheatingcooling.ca",
-      "brand": "Lakeshore Heating & Cooling",
+    "lakeshoreplumbing.ca": {
+      "domain": "lakeshoreplumbing.ca",
+      "brand": "Lakeshore Plumbing",
       "portfolio": "network",
       "city": "Lakeshore",
       "regionAbbr": "ON",
-      "county": "Essex County",
-      "trackingPhone": {
-        "display": "(548) 708-6805",
-        "tel": "+15487086805"
-      },
-      "email": "contact@lakeshoreheatingcooling.ca",
+      "county": "Essex",
+      "trackingPhone": null,
+      "email": "contact@lakeshoreplumbing.ca",
       "serviceAreas": [
         "Lakeshore",
-        "Windsor",
-        "LaSalle",
-        "Tecumseh",
-        "Amherstburg",
-        "Leamington",
         "Belle River",
-        "Essex"
+        "Stoney Point",
+        "Comber",
+        "Tecumseh",
+        "Windsor",
+        "Ruscomb"
       ],
       "services": [
         "Furnace repair & installation",
@@ -1650,30 +1181,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://lakeshoreheatingcooling.ca",
+      "sourceUrl": "https://lakeshoreplumbing.ca",
       "leadShape": "A"
     },
-    "lasalleheatingcooling.ca": {
-      "domain": "lasalleheatingcooling.ca",
-      "brand": "LaSalle Heating & Cooling",
+    "lasalleplumbing.ca": {
+      "domain": "lasalleplumbing.ca",
+      "brand": "LaSalle Plumbing",
       "portfolio": "network",
       "city": "LaSalle",
       "regionAbbr": "ON",
-      "county": "Essex County",
-      "trackingPhone": {
-        "display": "(548) 457-0509",
-        "tel": "+15484570509"
-      },
-      "email": "contact@lasalleheatingcooling.ca",
+      "county": "Essex",
+      "trackingPhone": null,
+      "email": "contact@lasalleplumbing.ca",
       "serviceAreas": [
         "LaSalle",
         "Windsor",
-        "Tecumseh",
         "Amherstburg",
-        "Leamington",
-        "Lakeshore",
-        "Belle River",
-        "Essex"
+        "Tecumseh",
+        "McGregor",
+        "Essex",
+        "Lakeshore"
       ],
       "services": [
         "Furnace repair & installation",
@@ -1687,30 +1214,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://lasalleheatingcooling.ca",
+      "sourceUrl": "https://lasalleplumbing.ca",
       "leadShape": "A"
     },
-    "leamingtonheatingcooling.ca": {
-      "domain": "leamingtonheatingcooling.ca",
-      "brand": "Leamington Heating & Cooling",
+    "leamingtonplumbingpros.ca": {
+      "domain": "leamingtonplumbingpros.ca",
+      "brand": "Leamington Plumbing Pros",
       "portfolio": "network",
       "city": "Leamington",
       "regionAbbr": "ON",
-      "county": "Essex County",
-      "trackingPhone": {
-        "display": "(548) 798-0609",
-        "tel": "+15487980609"
-      },
-      "email": "contact@leamingtonheatingcooling.ca",
+      "county": "Essex",
+      "trackingPhone": null,
+      "email": "contact@leamingtonplumbingpros.ca",
       "serviceAreas": [
         "Leamington",
-        "Windsor",
-        "LaSalle",
-        "Tecumseh",
+        "Kingsville",
+        "Essex",
+        "Wheatley",
+        "Harrow",
         "Amherstburg",
-        "Lakeshore",
-        "Belle River",
-        "Essex"
+        "Windsor"
       ],
       "services": [
         "Furnace repair & installation",
@@ -1724,30 +1247,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://leamingtonheatingcooling.ca",
+      "sourceUrl": "https://leamingtonplumbingpros.ca",
       "leadShape": "A"
     },
-    "listowelheatingcooling.ca": {
-      "domain": "listowelheatingcooling.ca",
-      "brand": "Listowel Heating & Cooling",
+    "listowelplumbing.ca": {
+      "domain": "listowelplumbing.ca",
+      "brand": "Listowel Plumbing",
       "portfolio": "network",
       "city": "Listowel",
       "regionAbbr": "ON",
-      "county": "Waterloo Region",
-      "trackingPhone": {
-        "display": "(519) 291-3562",
-        "tel": "+15192913562"
-      },
-      "email": "contact@listowelheatingcooling.ca",
+      "county": "Perth",
+      "trackingPhone": null,
+      "email": "contact@listowelplumbing.ca",
       "serviceAreas": [
         "Listowel",
-        "Cambridge",
-        "Kitchener",
-        "Waterloo",
-        "Elmira",
-        "New Hamburg",
-        "Baden",
-        "Breslau"
+        "Palmerston",
+        "Atwood",
+        "Monkton",
+        "Moorefield",
+        "Drayton",
+        "Harriston"
       ],
       "services": [
         "Furnace repair & installation",
@@ -1761,29 +1280,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://listowelheatingcooling.ca",
+      "sourceUrl": "https://listowelplumbing.ca",
       "leadShape": "A"
     },
-    "londonacrepair.ca": {
-      "domain": "londonacrepair.ca",
-      "brand": "London AC Repair",
+    "londonplumbingpros.ca": {
+      "domain": "londonplumbingpros.ca",
+      "brand": "London Plumbing Pros",
       "portfolio": "network",
       "city": "London",
       "regionAbbr": "ON",
-      "county": "Middlesex County",
-      "trackingPhone": {
-        "display": "(548) 290-9545",
-        "tel": "+15482909545"
-      },
-      "email": "contact@londonacrepair.ca",
+      "county": "Middlesex",
+      "trackingPhone": null,
+      "email": "contact@londonplumbingpros.ca",
       "serviceAreas": [
         "London",
-        "St. Thomas",
-        "Strathroy",
+        "Byron",
+        "Lambeth",
+        "Hyde Park",
+        "Masonville",
         "Dorchester",
-        "Komoka",
-        "Aylmer",
-        "Lucan"
+        "St. Thomas"
       ],
       "services": [
         "Furnace repair & installation",
@@ -1797,198 +1313,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://londonacrepair.ca",
+      "sourceUrl": "https://londonplumbingpros.ca",
       "leadShape": "A"
     },
-    "londonfurnacerepair.ca": {
-      "domain": "londonfurnacerepair.ca",
-      "brand": "London Furnace Repair",
-      "portfolio": "network",
-      "city": "London",
-      "regionAbbr": "ON",
-      "county": "Middlesex County",
-      "trackingPhone": {
-        "display": "(548) 457-2462",
-        "tel": "+15484572462"
-      },
-      "email": "contact@londonfurnacerepair.ca",
-      "serviceAreas": [
-        "London",
-        "St. Thomas",
-        "Strathroy",
-        "Dorchester",
-        "Komoka",
-        "Aylmer",
-        "Lucan"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://londonfurnacerepair.ca",
-      "leadShape": "A"
-    },
-    "londongeneratorpros.ca": {
-      "domain": "londongeneratorpros.ca",
-      "brand": "London Generator Pros",
-      "portfolio": "network",
-      "city": "London",
-      "regionAbbr": "ON",
-      "county": "Middlesex County",
-      "trackingPhone": {
-        "display": "(548) 457-1070",
-        "tel": "+15484571070"
-      },
-      "email": "contact@londongeneratorpros.ca",
-      "serviceAreas": [
-        "London",
-        "St. Thomas",
-        "Strathroy",
-        "Woodstock",
-        "Tillsonburg",
-        "Ingersoll"
-      ],
-      "services": [
-        "Standby generator sales & installation",
-        "Generac service & maintenance",
-        "Transfer switches",
-        "Load management",
-        "Emergency power"
-      ],
-      "vertical": "generator",
-      "sourceUrl": "https://londongeneratorpros.ca",
-      "leadShape": "A"
-    },
-    "londongeothermal.ca": {
-      "domain": "londongeothermal.ca",
-      "brand": "London Geothermal",
-      "portfolio": "network",
-      "city": "London",
-      "regionAbbr": "ON",
-      "county": "Middlesex County",
-      "trackingPhone": {
-        "display": "(548) 290-8577",
-        "tel": "+15482908577"
-      },
-      "email": "contact@londongeothermal.ca",
-      "serviceAreas": [
-        "London",
-        "Sarnia",
-        "Chatham-Kent",
-        "Goderich",
-        "Woodstock",
-        "St. Thomas",
-        "Windsor",
-        "Perth County"
-      ],
-      "services": [
-        "Geothermal heat pump installation",
-        "Geothermal service & repair",
-        "Loop field systems",
-        "Emergency service"
-      ],
-      "vertical": "geothermal",
-      "sourceUrl": "https://londongeothermal.ca",
-      "leadShape": "A"
-    },
-    "londonheatingcooling.ca": {
-      "domain": "londonheatingcooling.ca",
-      "brand": "London Heating & Cooling",
-      "portfolio": "network",
-      "city": "London",
-      "regionAbbr": "ON",
-      "county": "Middlesex County",
-      "trackingPhone": {
-        "display": "(548) 708-8216",
-        "tel": "+15487088216"
-      },
-      "email": "contact@londonheatingcooling.ca",
-      "serviceAreas": [
-        "London",
-        "St. Thomas",
-        "Strathroy",
-        "Dorchester",
-        "Komoka",
-        "Aylmer",
-        "Lucan"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://londonheatingcooling.ca",
-      "leadShape": "A"
-    },
-    "londonhvacpros.ca": {
-      "domain": "londonhvacpros.ca",
-      "brand": "London HVAC Pros",
-      "portfolio": "network",
-      "city": "London",
-      "regionAbbr": "ON",
-      "county": "Middlesex County",
-      "trackingPhone": {
-        "display": "(519) 679-4530",
-        "tel": "+15196794530"
-      },
-      "email": "contact@londonhvacpros.ca",
-      "serviceAreas": [
-        "London",
-        "St. Thomas",
-        "Strathroy",
-        "Dorchester",
-        "Komoka",
-        "Aylmer",
-        "Lucan"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://londonhvacpros.ca",
-      "leadShape": "A"
-    },
-    "lucanheatingcooling.ca": {
-      "domain": "lucanheatingcooling.ca",
-      "brand": "Lucan Heating & Cooling",
+    "lucanplumbing.ca": {
+      "domain": "lucanplumbing.ca",
+      "brand": "Lucan Plumbing",
       "portfolio": "network",
       "city": "Lucan",
       "regionAbbr": "ON",
-      "county": "Middlesex County",
-      "trackingPhone": {
-        "display": "(519) 227-4479",
-        "tel": "+15192274479"
-      },
-      "email": "contact@lucanheatingcooling.ca",
+      "county": "Middlesex",
+      "trackingPhone": null,
+      "email": "contact@lucanplumbing.ca",
       "serviceAreas": [
         "Lucan",
-        "Exeter",
-        "Granton",
+        "Parkhill",
         "Ailsa Craig",
-        "Ballymote"
+        "Granton",
+        "Denfield",
+        "Exeter",
+        "London"
       ],
       "services": [
         "Furnace repair & installation",
@@ -2002,30 +1346,24 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://lucanheatingcooling.ca",
+      "sourceUrl": "https://lucanplumbing.ca",
       "leadShape": "A"
     },
-    "markhamheatingcooling.ca": {
-      "domain": "markhamheatingcooling.ca",
-      "brand": "Markham Heating & Cooling",
+    "markhamplumbingpros.ca": {
+      "domain": "markhamplumbingpros.ca",
+      "brand": "Markham Plumbing Pros",
       "portfolio": "network",
       "city": "Markham",
       "regionAbbr": "ON",
-      "county": "York Region",
-      "trackingPhone": {
-        "display": "(905) 472-3610",
-        "tel": "+19054723610"
-      },
-      "email": "contact@markhamheatingcooling.ca",
+      "county": "York",
+      "trackingPhone": null,
+      "email": "contact@markhamplumbingpros.ca",
       "serviceAreas": [
         "Markham",
-        "Richmond Hill",
-        "Newmarket",
-        "Aurora",
-        "Vaughan",
-        "Keswick",
+        "Unionville",
+        "Thornhill",
         "Stouffville",
-        "King City"
+        "Richmond Hill"
       ],
       "services": [
         "Furnace repair & installation",
@@ -2039,66 +1377,25 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://markhamheatingcooling.ca",
+      "sourceUrl": "https://markhamplumbingpros.ca",
       "leadShape": "A"
     },
-    "markhamhvacpros.ca": {
-      "domain": "markhamhvacpros.ca",
-      "brand": "Markham HVAC Pros",
-      "portfolio": "network",
-      "city": "Markham",
-      "regionAbbr": "ON",
-      "county": "York Region",
-      "trackingPhone": {
-        "display": "(905) 472-8537",
-        "tel": "+19054728537"
-      },
-      "email": "contact@markhamhvacpros.ca",
-      "serviceAreas": [
-        "Markham",
-        "Richmond Hill",
-        "Newmarket",
-        "Aurora",
-        "Vaughan",
-        "Keswick",
-        "Stouffville",
-        "King City"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://markhamhvacpros.ca",
-      "leadShape": "A"
-    },
-    "miltonheatingcooling.ca": {
-      "domain": "miltonheatingcooling.ca",
-      "brand": "Milton Heating & Cooling",
+    "miltonplumbingpros.ca": {
+      "domain": "miltonplumbingpros.ca",
+      "brand": "Milton Plumbing Pros",
       "portfolio": "network",
       "city": "Milton",
       "regionAbbr": "ON",
-      "county": "Wellington County",
-      "trackingPhone": {
-        "display": "(905) 878-2164",
-        "tel": "+19058782164"
-      },
-      "email": "contact@miltonheatingcooling.ca",
+      "county": "Halton",
+      "trackingPhone": null,
+      "email": "contact@miltonplumbingpros.ca",
       "serviceAreas": [
         "Milton",
-        "Guelph",
+        "Campbellville",
         "Georgetown",
-        "Fergus",
-        "Elora",
-        "Acton",
-        "Rockwood"
+        "Burlington",
+        "Oakville",
+        "Acton"
       ],
       "services": [
         "Furnace repair & installation",
@@ -2112,29 +1409,53 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://miltonheatingcooling.ca",
+      "sourceUrl": "https://miltonplumbingpros.ca",
       "leadShape": "A"
     },
-    "mitchellheatingcooling.ca": {
-      "domain": "mitchellheatingcooling.ca",
-      "brand": "Mitchell Heating & Cooling",
+    "mississaugaplumbingpros.ca": {
+      "domain": "mississaugaplumbingpros.ca",
+      "brand": "Mississauga Plumbing Pros",
+      "portfolio": "network",
+      "city": "Mississauga",
+      "regionAbbr": "ON",
+      "county": "Peel Region",
+      "trackingPhone": null,
+      "email": "contact@mississaugaplumbingpros.ca",
+      "serviceAreas": [
+        "Mississauga"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://mississaugaplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "mitchellplumbingpros.ca": {
+      "domain": "mitchellplumbingpros.ca",
+      "brand": "Mitchell Plumbing Pros",
       "portfolio": "network",
       "city": "Mitchell",
       "regionAbbr": "ON",
-      "county": "Perth/Huron",
-      "trackingPhone": {
-        "display": "(519) 348-4027",
-        "tel": "+15193484027"
-      },
-      "email": "contact@mitchellheatingcooling.ca",
+      "county": "Perth",
+      "trackingPhone": null,
+      "email": "contact@mitchellplumbingpros.ca",
       "serviceAreas": [
         "Mitchell",
-        "Stratford",
-        "Seaforth",
-        "Goderich",
+        "Sebringville",
+        "Monkton",
         "Listowel",
-        "Clinton",
-        "Wingham"
+        "St. Marys",
+        "Stratford",
+        "Shakespeare"
       ],
       "services": [
         "Furnace repair & installation",
@@ -2148,28 +1469,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://mitchellheatingcooling.ca",
+      "sourceUrl": "https://mitchellplumbingpros.ca",
       "leadShape": "A"
     },
-    "mountbrydgesheatingcooling.ca": {
-      "domain": "mountbrydgesheatingcooling.ca",
-      "brand": "Mount Brydges Heating & Cooling",
+    "mountbrydgesplumbing.ca": {
+      "domain": "mountbrydgesplumbing.ca",
+      "brand": "Mount Brydges Plumbing",
       "portfolio": "network",
       "city": "Mount Brydges",
       "regionAbbr": "ON",
-      "county": "Middlesex County",
-      "trackingPhone": {
-        "display": "(548) 761-2072",
-        "tel": "+15487612072"
-      },
-      "email": "contact@mountbrydgesheatingcooling.ca",
+      "county": "Middlesex",
+      "trackingPhone": null,
+      "email": "contact@mountbrydgesplumbing.ca",
       "serviceAreas": [
         "Mount Brydges",
         "Strathroy",
-        "Glencoe",
+        "Melbourne",
         "Delaware",
-        "Appin",
-        "Melbourne"
+        "Komoka",
+        "Glencoe",
+        "London"
       ],
       "services": [
         "Furnace repair & installation",
@@ -2183,31 +1502,25 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://mountbrydgesheatingcooling.ca",
+      "sourceUrl": "https://mountbrydgesplumbing.ca",
       "leadShape": "A"
     },
-    "nanticokeheatingcooling.ca": {
-      "domain": "nanticokeheatingcooling.ca",
-      "brand": "Nanticoke Heating & Cooling",
+    "nanticokeplumbing.ca": {
+      "domain": "nanticokeplumbing.ca",
+      "brand": "Nanticoke Plumbing",
       "portfolio": "network",
       "city": "Nanticoke",
       "regionAbbr": "ON",
-      "county": "Brant/Haldimand-Norfolk",
-      "trackingPhone": {
-        "display": "(519) 587-3164",
-        "tel": "+15195873164"
-      },
-      "email": "contact@nanticokeheatingcooling.ca",
+      "county": "Haldimand",
+      "trackingPhone": null,
+      "email": "contact@nanticokeplumbing.ca",
       "serviceAreas": [
         "Nanticoke",
-        "Brantford",
-        "Paris",
-        "Caledonia",
+        "Hagersville",
+        "Cayuga",
         "Dunnville",
-        "Simcoe",
-        "Port Dover",
-        "Ayr",
-        "Aylmer"
+        "Jarvis",
+        "Port Dover"
       ],
       "services": [
         "Furnace repair & installation",
@@ -2221,30 +1534,25 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://nanticokeheatingcooling.ca",
+      "sourceUrl": "https://nanticokeplumbing.ca",
       "leadShape": "A"
     },
-    "newmarketheatingcooling.ca": {
-      "domain": "newmarketheatingcooling.ca",
-      "brand": "Newmarket Heating & Cooling",
+    "newmarketplumbingpros.ca": {
+      "domain": "newmarketplumbingpros.ca",
+      "brand": "Newmarket Plumbing Pros",
       "portfolio": "network",
       "city": "Newmarket",
       "regionAbbr": "ON",
-      "county": "York Region",
-      "trackingPhone": {
-        "display": "(905) 895-4172",
-        "tel": "+19058954172"
-      },
-      "email": "contact@newmarketheatingcooling.ca",
+      "county": "York",
+      "trackingPhone": null,
+      "email": "contact@newmarketplumbingpros.ca",
       "serviceAreas": [
         "Newmarket",
-        "Markham",
-        "Richmond Hill",
         "Aurora",
-        "Vaughan",
-        "Keswick",
-        "Stouffville",
-        "King City"
+        "Sharon",
+        "Queensville",
+        "Holland Landing",
+        "Bradford"
       ],
       "services": [
         "Furnace repair & installation",
@@ -2258,64 +1566,277 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://newmarketheatingcooling.ca",
+      "sourceUrl": "https://newmarketplumbingpros.ca",
       "leadShape": "A"
     },
-    "newmarkethvacpros.ca": {
-      "domain": "newmarkethvacpros.ca",
-      "brand": "Newmarket HVAC Pros",
-      "portfolio": "network",
-      "city": "Newmarket",
-      "regionAbbr": "ON",
-      "county": "York Region",
-      "trackingPhone": {
-        "display": "(905) 895-0638",
-        "tel": "+19058950638"
-      },
-      "email": "contact@newmarkethvacpros.ca",
-      "serviceAreas": [
-        "Newmarket",
-        "Markham",
-        "Richmond Hill",
-        "Aurora",
-        "Vaughan",
-        "Keswick",
-        "Stouffville",
-        "King City"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://newmarkethvacpros.ca",
-      "leadShape": "A"
-    },
-    "norfolkheatingcooling.ca": {
-      "domain": "norfolkheatingcooling.ca",
-      "brand": "Norfolk Heating & Cooling",
+    "norfolkplumbing.ca": {
+      "domain": "norfolkplumbing.ca",
+      "brand": "Norfolk Plumbing",
       "portfolio": "network",
       "city": "Norfolk",
       "regionAbbr": "ON",
-      "county": "Norfolk County",
-      "trackingPhone": {
-        "display": "(548) 708-8109",
-        "tel": "+15487088109"
-      },
-      "email": "contact@norfolkheatingcooling.ca",
+      "county": "Norfolk",
+      "trackingPhone": null,
+      "email": "contact@norfolkplumbing.ca",
       "serviceAreas": [
         "Norfolk",
         "Simcoe",
-        "Port Dover",
         "Delhi",
+        "Port Dover",
         "Waterford",
+        "Langton",
+        "Port Rowan"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://norfolkplumbing.ca",
+      "leadShape": "A"
+    },
+    "northyorkplumbingpros.ca": {
+      "domain": "northyorkplumbingpros.ca",
+      "brand": "North York Plumbing Pros",
+      "portfolio": "network",
+      "city": "North York",
+      "regionAbbr": "ON",
+      "county": "North York",
+      "trackingPhone": null,
+      "email": "contact@northyorkplumbingpros.ca",
+      "serviceAreas": [
+        "North York"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://northyorkplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "oakvilleplumbingpros.ca": {
+      "domain": "oakvilleplumbingpros.ca",
+      "brand": "Oakville Plumbing Pros",
+      "portfolio": "network",
+      "city": "Oakville",
+      "regionAbbr": "ON",
+      "county": "Halton",
+      "trackingPhone": null,
+      "email": "contact@oakvilleplumbingpros.ca",
+      "serviceAreas": [
+        "Oakville",
+        "Burlington",
+        "Mississauga",
+        "Milton",
+        "Georgetown",
+        "Campbellville"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://oakvilleplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "oshawaplumbingpros.ca": {
+      "domain": "oshawaplumbingpros.ca",
+      "brand": "Oshawa Plumbing Pros",
+      "portfolio": "network",
+      "city": "Oshawa",
+      "regionAbbr": "ON",
+      "county": "Durham",
+      "trackingPhone": null,
+      "email": "contact@oshawaplumbingpros.ca",
+      "serviceAreas": [
+        "Oshawa",
+        "Whitby",
+        "Courtice",
+        "Brooklin",
+        "Bowmanville",
+        "Newcastle"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://oshawaplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "owensoundplumbingpros.ca": {
+      "domain": "owensoundplumbingpros.ca",
+      "brand": "Owen Sound Plumbing Pros",
+      "portfolio": "network",
+      "city": "Owen Sound",
+      "regionAbbr": "ON",
+      "county": "Grey",
+      "trackingPhone": null,
+      "email": "contact@owensoundplumbingpros.ca",
+      "serviceAreas": [
+        "Owen Sound",
+        "Meaford",
+        "Chatsworth",
+        "Wiarton",
+        "Hanover",
+        "Durham",
+        "Saugeen Shores"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://owensoundplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "parisplumbingpros.ca": {
+      "domain": "parisplumbingpros.ca",
+      "brand": "Paris Plumbing Pros",
+      "portfolio": "network",
+      "city": "Paris",
+      "regionAbbr": "ON",
+      "county": "Brant",
+      "trackingPhone": null,
+      "email": "contact@parisplumbingpros.ca",
+      "serviceAreas": [
+        "Paris",
+        "St. George",
+        "Glen Morris",
+        "Mount Pleasant",
+        "Ayr",
+        "Brantford"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://parisplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "petroliaplumbing.ca": {
+      "domain": "petroliaplumbing.ca",
+      "brand": "Petrolia Plumbing",
+      "portfolio": "network",
+      "city": "Petrolia",
+      "regionAbbr": "ON",
+      "county": "Lambton",
+      "trackingPhone": null,
+      "email": "contact@petroliaplumbing.ca",
+      "serviceAreas": [
+        "Petrolia",
+        "Oil Springs",
+        "Wyoming",
+        "Forest",
+        "Sarnia",
+        "Courtright"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://petroliaplumbing.ca",
+      "leadShape": "A"
+    },
+    "pickeringplumbingpros.ca": {
+      "domain": "pickeringplumbingpros.ca",
+      "brand": "Pickering Plumbing Pros",
+      "portfolio": "network",
+      "city": "Pickering",
+      "regionAbbr": "ON",
+      "county": "Durham",
+      "trackingPhone": null,
+      "email": "contact@pickeringplumbingpros.ca",
+      "serviceAreas": [
+        "Pickering",
+        "Ajax",
+        "Whitevale",
+        "Brougham",
+        "Claremont",
+        "Greenwood",
+        "Whitby"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://pickeringplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "portdoverplumbing.ca": {
+      "domain": "portdoverplumbing.ca",
+      "brand": "Port Dover Plumbing",
+      "portfolio": "network",
+      "city": "Port Dover",
+      "regionAbbr": "ON",
+      "county": "Norfolk",
+      "trackingPhone": null,
+      "email": "contact@portdoverplumbing.ca",
+      "serviceAreas": [
+        "Port Dover",
+        "Simcoe",
+        "Waterford",
+        "Delhi",
         "Port Rowan",
         "Turkey Point"
       ],
@@ -2331,67 +1852,20 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://norfolkheatingcooling.ca",
+      "sourceUrl": "https://portdoverplumbing.ca",
       "leadShape": "A"
     },
-    "oakvillehvacpros.ca": {
-      "domain": "oakvillehvacpros.ca",
-      "brand": "Oakville HVAC Pros",
+    "portperryplumbingpros.ca": {
+      "domain": "portperryplumbingpros.ca",
+      "brand": "Port Perry Plumbing Pros",
       "portfolio": "network",
-      "city": "Oakville",
-      "regionAbbr": "ON",
-      "county": "Halton Region",
-      "trackingPhone": {
-        "display": "(905) 845-3072",
-        "tel": "+19058453072"
-      },
-      "email": "contact@oakvillehvacpros.ca",
-      "serviceAreas": [
-        "Oakville",
-        "Burlington",
-        "Milton",
-        "Georgetown",
-        "Acton",
-        "Ajax",
-        "Pickering",
-        "Whitby"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://oakvillehvacpros.ca",
-      "leadShape": "A"
-    },
-    "oshawaheatingcooling.ca": {
-      "domain": "oshawaheatingcooling.ca",
-      "brand": "Oshawa Heating & Cooling",
-      "portfolio": "network",
-      "city": "Oshawa",
+      "city": "Port Perry",
       "regionAbbr": "ON",
       "county": "Durham Region",
-      "trackingPhone": {
-        "display": "(905) 721-3485",
-        "tel": "+19057213485"
-      },
-      "email": "contact@oshawaheatingcooling.ca",
+      "trackingPhone": null,
+      "email": "contact@portperryplumbingpros.ca",
       "serviceAreas": [
-        "Oshawa",
-        "Ajax",
-        "Pickering",
-        "Whitby",
-        "Bowmanville",
-        "Newcastle",
-        "Courtice",
-        "Port Hope"
+        "Port Perry"
       ],
       "services": [
         "Furnace repair & installation",
@@ -2405,247 +1879,25 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://oshawaheatingcooling.ca",
+      "sourceUrl": "https://portperryplumbingpros.ca",
       "leadShape": "A"
     },
-    "owensoundheatingcooling.ca": {
-      "domain": "owensoundheatingcooling.ca",
-      "brand": "Owen Sound Heating & Cooling",
-      "portfolio": "network",
-      "city": "Owen Sound",
-      "regionAbbr": "ON",
-      "county": "Grey County",
-      "trackingPhone": {
-        "display": "(548) 409-5669",
-        "tel": "+15484095669"
-      },
-      "email": "contact@owensoundheatingcooling.ca",
-      "serviceAreas": [
-        "Owen Sound",
-        "Meaford",
-        "Markdale",
-        "Chatsworth",
-        "Sauble Beach",
-        "Tara"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://owensoundheatingcooling.ca",
-      "leadShape": "A"
-    },
-    "parisheatingcooling.ca": {
-      "domain": "parisheatingcooling.ca",
-      "brand": "Paris Heating & Cooling",
-      "portfolio": "network",
-      "city": "Paris",
-      "regionAbbr": "ON",
-      "county": "Brant/Haldimand-Norfolk",
-      "trackingPhone": {
-        "display": "(548) 901-0930",
-        "tel": "+15489010930"
-      },
-      "email": "contact@parisheatingcooling.ca",
-      "serviceAreas": [
-        "Paris",
-        "Brantford",
-        "Caledonia",
-        "Dunnville",
-        "Simcoe",
-        "Port Dover",
-        "Nanticoke",
-        "Ayr",
-        "Aylmer"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://parisheatingcooling.ca",
-      "leadShape": "A"
-    },
-    "parkhillheatingcooling.ca": {
-      "domain": "parkhillheatingcooling.ca",
-      "brand": "Parkhill Heating & Cooling",
-      "portfolio": "network",
-      "city": "Parkhill",
-      "regionAbbr": "ON",
-      "county": "Middlesex County",
-      "trackingPhone": {
-        "display": "(519) 294-0188",
-        "tel": "+15192940188"
-      },
-      "email": "contact@parkhillheatingcooling.ca",
-      "serviceAreas": [
-        "Parkhill",
-        "Ailsa Craig",
-        "Strathroy",
-        "Lucan",
-        "Denfield"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://parkhillheatingcooling.ca",
-      "leadShape": "A"
-    },
-    "petroliaheatingcooling.ca": {
-      "domain": "petroliaheatingcooling.ca",
-      "brand": "Petrolia Heating & Cooling",
-      "portfolio": "network",
-      "city": "Petrolia",
-      "regionAbbr": "ON",
-      "county": "Lambton County",
-      "trackingPhone": {
-        "display": "(519) 882-0159",
-        "tel": "+15198820159"
-      },
-      "email": "contact@petroliaheatingcooling.ca",
-      "serviceAreas": [
-        "Petrolia",
-        "Wyoming",
-        "Watford",
-        "Oil Springs",
-        "Brigden",
-        " Alvinston"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://petroliaheatingcooling.ca",
-      "leadShape": "A"
-    },
-    "pickeringheatingcooling.ca": {
-      "domain": "pickeringheatingcooling.ca",
-      "brand": "Pickering Heating & Cooling",
-      "portfolio": "network",
-      "city": "Pickering",
-      "regionAbbr": "ON",
-      "county": "Durham Region",
-      "trackingPhone": {
-        "display": "(905) 831-4059",
-        "tel": "+19058314059"
-      },
-      "email": "contact@pickeringheatingcooling.ca",
-      "serviceAreas": [
-        "Pickering",
-        "Ajax",
-        "Whitby",
-        "Oshawa",
-        "Bowmanville",
-        "Newcastle",
-        "Courtice",
-        "Port Hope"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://pickeringheatingcooling.ca",
-      "leadShape": "A"
-    },
-    "portdoverheatingcooling.ca": {
-      "domain": "portdoverheatingcooling.ca",
-      "brand": "Port Dover Heating & Cooling",
-      "portfolio": "network",
-      "city": "Port Dover",
-      "regionAbbr": "ON",
-      "county": "Brant/Haldimand-Norfolk",
-      "trackingPhone": {
-        "display": "(519) 583-0742",
-        "tel": "+15195830742"
-      },
-      "email": "contact@portdoverheatingcooling.ca",
-      "serviceAreas": [
-        "Port Dover",
-        "Brantford",
-        "Paris",
-        "Caledonia",
-        "Dunnville",
-        "Simcoe",
-        "Nanticoke",
-        "Ayr",
-        "Aylmer"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://portdoverheatingcooling.ca",
-      "leadShape": "A"
-    },
-    "richmondhillheatingcooling.ca": {
-      "domain": "richmondhillheatingcooling.ca",
-      "brand": "Richmond Hill Heating & Cooling",
+    "richmondhillplumbingpros.ca": {
+      "domain": "richmondhillplumbingpros.ca",
+      "brand": "Richmond Hill Plumbing Pros",
       "portfolio": "network",
       "city": "Richmond Hill",
       "regionAbbr": "ON",
-      "county": "York Region",
-      "trackingPhone": {
-        "display": "(905) 884-7163",
-        "tel": "+19058847163"
-      },
-      "email": "contact@richmondhillheatingcooling.ca",
+      "county": "York",
+      "trackingPhone": null,
+      "email": "contact@richmondhillplumbingpros.ca",
       "serviceAreas": [
         "Richmond Hill",
-        "Markham",
-        "Newmarket",
+        "Oak Ridges",
+        "Thornhill",
+        "King City",
         "Aurora",
-        "Vaughan",
-        "Keswick",
-        "Stouffville",
-        "King City"
+        "Maple"
       ],
       "services": [
         "Furnace repair & installation",
@@ -2659,64 +1911,25 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://richmondhillheatingcooling.ca",
+      "sourceUrl": "https://richmondhillplumbingpros.ca",
       "leadShape": "A"
     },
-    "richmondhillhvacpros.ca": {
-      "domain": "richmondhillhvacpros.ca",
-      "brand": "Richmond Hill HVAC Pros",
-      "portfolio": "network",
-      "city": "Richmond Hill",
-      "regionAbbr": "ON",
-      "county": "York Region",
-      "trackingPhone": {
-        "display": "(905) 884-2095",
-        "tel": "+19058842095"
-      },
-      "email": "contact@richmondhillhvacpros.ca",
-      "serviceAreas": [
-        "Richmond Hill",
-        "Markham",
-        "Newmarket",
-        "Aurora",
-        "Vaughan",
-        "Keswick",
-        "Stouffville",
-        "King City"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://richmondhillhvacpros.ca",
-      "leadShape": "A"
-    },
-    "ridgetownheatingcooling.ca": {
-      "domain": "ridgetownheatingcooling.ca",
-      "brand": "Ridgetown Heating & Cooling",
+    "ridgetownplumbing.ca": {
+      "domain": "ridgetownplumbing.ca",
+      "brand": "Ridgetown Plumbing",
       "portfolio": "network",
       "city": "Ridgetown",
       "regionAbbr": "ON",
       "county": "Chatham-Kent",
-      "trackingPhone": {
-        "display": "(548) 708-7251",
-        "tel": "+15487087251"
-      },
-      "email": "contact@ridgetownheatingcooling.ca",
+      "trackingPhone": null,
+      "email": "contact@ridgetownplumbing.ca",
       "serviceAreas": [
         "Ridgetown",
-        "Bothwell",
-        "Dresden",
+        "Chatham",
+        "Chatham-Kent",
+        "Blenheim",
         "Highgate",
-        "Wallaceburg"
+        "Wheatley"
       ],
       "services": [
         "Furnace repair & installation",
@@ -2730,58 +1943,23 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://ridgetownheatingcooling.ca",
+      "sourceUrl": "https://ridgetownplumbing.ca",
       "leadShape": "A"
     },
-    "sarniageneratorpros.ca": {
-      "domain": "sarniageneratorpros.ca",
-      "brand": "Sarnia Generator Pros",
+    "sarniaplumbing.ca": {
+      "domain": "sarniaplumbing.ca",
+      "brand": "Sarnia Plumbing",
       "portfolio": "network",
       "city": "Sarnia",
       "regionAbbr": "ON",
-      "county": "Lambton County",
-      "trackingPhone": {
-        "display": "(548) 409-5348",
-        "tel": "+15484095348"
-      },
-      "email": "contact@sarniageneratorpros.ca",
-      "serviceAreas": [
-        "Sarnia",
-        "Petrolia",
-        "Forest",
-        "Corunna",
-        "Point Edward",
-        "Grand Bend",
-        "Wyoming",
-        "Watford"
-      ],
-      "services": [
-        "Standby generator sales & installation",
-        "Generac service & maintenance",
-        "Transfer switches",
-        "Load management",
-        "Emergency power"
-      ],
-      "vertical": "generator",
-      "sourceUrl": "https://sarniageneratorpros.ca",
-      "leadShape": "A"
-    },
-    "sarniaheatingcooling.ca": {
-      "domain": "sarniaheatingcooling.ca",
-      "brand": "Sarnia Heating & Cooling",
-      "portfolio": "network",
-      "city": "Sarnia",
-      "regionAbbr": "ON",
-      "county": "Lambton County",
-      "trackingPhone": {
-        "display": "(226) 778-1469",
-        "tel": "+12267781469"
-      },
-      "email": "contact@sarniaheatingcooling.ca",
+      "county": "Lambton",
+      "trackingPhone": null,
+      "email": "contact@sarniaplumbing.ca",
       "serviceAreas": [
         "Sarnia",
         "Point Edward",
         "Corunna",
+        "Bright's Grove",
         "Petrolia",
         "Forest",
         "Wyoming"
@@ -2798,61 +1976,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://sarniaheatingcooling.ca",
+      "sourceUrl": "https://sarniaplumbing.ca",
       "leadShape": "A"
     },
-    "sarniahvacpros.ca": {
-      "domain": "sarniahvacpros.ca",
-      "brand": "Sarnia HVAC Pros",
+    "saugeenshoresplumbing.ca": {
+      "domain": "saugeenshoresplumbing.ca",
+      "brand": "Saugeen Shores Plumbing",
       "portfolio": "network",
-      "city": "Sarnia",
+      "city": "Saugeen Shores",
       "regionAbbr": "ON",
-      "county": "Lambton County",
-      "trackingPhone": {
-        "display": "(519) 337-2184",
-        "tel": "+15193372184"
-      },
-      "email": "contact@sarniahvacpros.ca",
+      "county": "Bruce",
+      "trackingPhone": null,
+      "email": "contact@saugeenshoresplumbing.ca",
       "serviceAreas": [
-        "Sarnia",
-        "Point Edward",
-        "Corunna",
-        "Petrolia",
-        "Forest",
-        "Wyoming"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://sarniahvacpros.ca",
-      "leadShape": "A"
-    },
-    "saugeenshoresheatingcooling.ca": {
-      "domain": "saugeenshoresheatingcooling.ca",
-      "brand": "Saugeen Shores Heating & Cooling",
-      "portfolio": "network",
-      "city": "Port Elgin",
-      "regionAbbr": "ON",
-      "county": "Bruce County",
-      "trackingPhone": {
-        "display": "(548) 290-8004",
-        "tel": "+15482908004"
-      },
-      "email": "contact@saugeenshoresheatingcooling.ca",
-      "serviceAreas": [
+        "Saugeen Shores",
         "Port Elgin",
         "Southampton",
-        "Kincardine",
-        "Port Clark"
+        "Inverhuron",
+        "Northport",
+        "Tara",
+        "Paisley"
       ],
       "services": [
         "Furnace repair & installation",
@@ -2866,29 +2009,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://saugeenshoresheatingcooling.ca",
+      "sourceUrl": "https://saugeenshoresplumbing.ca",
       "leadShape": "A"
     },
-    "seaforthheatingcooling.ca": {
-      "domain": "seaforthheatingcooling.ca",
-      "brand": "Seaforth Heating & Cooling",
+    "seaforthplumbing.ca": {
+      "domain": "seaforthplumbing.ca",
+      "brand": "Seaforth Plumbing",
       "portfolio": "network",
       "city": "Seaforth",
       "regionAbbr": "ON",
-      "county": "Perth/Huron",
-      "trackingPhone": {
-        "display": "(519) 527-1483",
-        "tel": "+15195271483"
-      },
-      "email": "contact@seaforthheatingcooling.ca",
+      "county": "Huron",
+      "trackingPhone": null,
+      "email": "contact@seaforthplumbing.ca",
       "serviceAreas": [
         "Seaforth",
-        "Stratford",
-        "Mitchell",
-        "Goderich",
-        "Listowel",
+        "Zurich",
         "Clinton",
-        "Wingham"
+        "Exeter",
+        "Bayfield",
+        "Goderich",
+        "Grand Bend"
       ],
       "services": [
         "Furnace repair & installation",
@@ -2902,31 +2042,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://seaforthheatingcooling.ca",
+      "sourceUrl": "https://seaforthplumbing.ca",
       "leadShape": "A"
     },
-    "simcoeheatingcooling.ca": {
-      "domain": "simcoeheatingcooling.ca",
-      "brand": "Simcoe Heating & Cooling",
+    "simcoeplumbingpros.ca": {
+      "domain": "simcoeplumbingpros.ca",
+      "brand": "Simcoe Plumbing Pros",
       "portfolio": "network",
       "city": "Simcoe",
       "regionAbbr": "ON",
-      "county": "Brant/Haldimand-Norfolk",
-      "trackingPhone": {
-        "display": "(548) 290-7597",
-        "tel": "+15482907597"
-      },
-      "email": "contact@simcoeheatingcooling.ca",
+      "county": "Norfolk",
+      "trackingPhone": null,
+      "email": "contact@simcoeplumbingpros.ca",
       "serviceAreas": [
         "Simcoe",
-        "Brantford",
-        "Paris",
-        "Caledonia",
-        "Dunnville",
         "Port Dover",
-        "Nanticoke",
-        "Ayr",
-        "Aylmer"
+        "Delhi",
+        "Waterford",
+        "Jarvis",
+        "Courtland",
+        "Vittoria"
       ],
       "services": [
         "Furnace repair & installation",
@@ -2940,27 +2075,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://simcoeheatingcooling.ca",
+      "sourceUrl": "https://simcoeplumbingpros.ca",
       "leadShape": "A"
     },
-    "stmarysheatingcooling.ca": {
-      "domain": "stmarysheatingcooling.ca",
-      "brand": "St. Marys Heating & Cooling",
+    "stmarysplumbing.ca": {
+      "domain": "stmarysplumbing.ca",
+      "brand": "St. Marys Plumbing",
       "portfolio": "network",
       "city": "St. Marys",
       "regionAbbr": "ON",
-      "county": "Perth County",
-      "trackingPhone": {
-        "display": "(519) 284-0161",
-        "tel": "+15192840161"
-      },
-      "email": "contact@stmarysheatingcooling.ca",
+      "county": "Perth",
+      "trackingPhone": null,
+      "email": "contact@stmarysplumbing.ca",
       "serviceAreas": [
         "St. Marys",
         "Stratford",
-        "Perth South",
-        "Wildwood",
-        "Embro"
+        "Kirkton",
+        "Thorndale",
+        "Embro",
+        "Thamesford",
+        "Sebringville"
       ],
       "services": [
         "Furnace repair & installation",
@@ -2974,29 +2108,53 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://stmarysheatingcooling.ca",
+      "sourceUrl": "https://stmarysplumbing.ca",
       "leadShape": "A"
     },
-    "stratfordheatingcooling.ca": {
-      "domain": "stratfordheatingcooling.ca",
-      "brand": "Stratford Heating & Cooling",
+    "stouffvilleplumbingpros.ca": {
+      "domain": "stouffvilleplumbingpros.ca",
+      "brand": "Stouffville Plumbing Pros",
+      "portfolio": "network",
+      "city": "Stouffville",
+      "regionAbbr": "ON",
+      "county": "York Region",
+      "trackingPhone": null,
+      "email": "contact@stouffvilleplumbingpros.ca",
+      "serviceAreas": [
+        "Stouffville"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://stouffvilleplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "stratfordplumbing.ca": {
+      "domain": "stratfordplumbing.ca",
+      "brand": "Stratford Plumbing",
       "portfolio": "network",
       "city": "Stratford",
       "regionAbbr": "ON",
-      "county": "Perth/Huron",
-      "trackingPhone": {
-        "display": "(548) 490-0267",
-        "tel": "+15484900267"
-      },
-      "email": "contact@stratfordheatingcooling.ca",
+      "county": "Perth",
+      "trackingPhone": null,
+      "email": "contact@stratfordplumbing.ca",
       "serviceAreas": [
         "Stratford",
+        "Sebringville",
+        "Shakespeare",
+        "Tavistock",
         "Mitchell",
-        "Seaforth",
-        "Goderich",
-        "Listowel",
-        "Clinton",
-        "Wingham"
+        "St. Marys",
+        "Kirkton"
       ],
       "services": [
         "Furnace repair & installation",
@@ -3010,65 +2168,25 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://stratfordheatingcooling.ca",
+      "sourceUrl": "https://stratfordplumbing.ca",
       "leadShape": "A"
     },
-    "stratfordhvacpros.ca": {
-      "domain": "stratfordhvacpros.ca",
-      "brand": "Stratford HVAC Pros",
-      "portfolio": "network",
-      "city": "Stratford",
-      "regionAbbr": "ON",
-      "county": "Perth/Huron",
-      "trackingPhone": {
-        "display": "(519) 271-5034",
-        "tel": "+15192715034"
-      },
-      "email": "contact@stratfordhvacpros.ca",
-      "serviceAreas": [
-        "Stratford",
-        "Mitchell",
-        "Seaforth",
-        "Goderich",
-        "Listowel",
-        "Clinton",
-        "Wingham"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://stratfordhvacpros.ca",
-      "leadShape": "A"
-    },
-    "strathroyheatingcooling.ca": {
-      "domain": "strathroyheatingcooling.ca",
-      "brand": "Strathroy Heating & Cooling",
+    "strathroyplumbing.ca": {
+      "domain": "strathroyplumbing.ca",
+      "brand": "Strathroy Plumbing",
       "portfolio": "network",
       "city": "Strathroy",
       "regionAbbr": "ON",
-      "county": "Middlesex County",
-      "trackingPhone": {
-        "display": "(548) 708-7117",
-        "tel": "+15487087117"
-      },
-      "email": "contact@strathroyheatingcooling.ca",
+      "county": "Middlesex",
+      "trackingPhone": null,
+      "email": "contact@strathroyplumbing.ca",
       "serviceAreas": [
         "Strathroy",
-        "London",
-        "St. Thomas",
-        "Dorchester",
+        "Mount Brydges",
         "Komoka",
-        "Aylmer",
-        "Lucan"
+        "Melbourne",
+        "Glencoe",
+        "Parkhill"
       ],
       "services": [
         "Furnace repair & installation",
@@ -3082,29 +2200,24 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://strathroyheatingcooling.ca",
+      "sourceUrl": "https://strathroyplumbing.ca",
       "leadShape": "A"
     },
-    "stthomasheatingcooling.ca": {
-      "domain": "stthomasheatingcooling.ca",
-      "brand": "St Thomas Heating & Cooling",
+    "stthomasplumbing.ca": {
+      "domain": "stthomasplumbing.ca",
+      "brand": "St. Thomas Plumbing",
       "portfolio": "network",
       "city": "St. Thomas",
       "regionAbbr": "ON",
-      "county": "Middlesex County",
-      "trackingPhone": {
-        "display": "(548) 457-2400",
-        "tel": "+15484572400"
-      },
-      "email": "contact@stthomasheatingcooling.ca",
+      "county": "Elgin",
+      "trackingPhone": null,
+      "email": "contact@stthomasplumbing.ca",
       "serviceAreas": [
         "St. Thomas",
         "London",
-        "Strathroy",
-        "Dorchester",
-        "Komoka",
         "Aylmer",
-        "Lucan"
+        "Belmont",
+        "Port Stanley"
       ],
       "services": [
         "Furnace repair & installation",
@@ -3118,64 +2231,24 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://stthomasheatingcooling.ca",
+      "sourceUrl": "https://stthomasplumbing.ca",
       "leadShape": "A"
     },
-    "stthomashvacpros.ca": {
-      "domain": "stthomashvacpros.ca",
-      "brand": "St. Thomas HVAC Pros",
-      "portfolio": "network",
-      "city": "St. Thomas",
-      "regionAbbr": "ON",
-      "county": "Middlesex County",
-      "trackingPhone": {
-        "display": "(519) 631-2480",
-        "tel": "+15196312480"
-      },
-      "email": "contact@stthomashvacpros.ca",
-      "serviceAreas": [
-        "St. Thomas",
-        "London",
-        "Strathroy",
-        "Dorchester",
-        "Komoka",
-        "Aylmer",
-        "Lucan"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://stthomashvacpros.ca",
-      "leadShape": "A"
-    },
-    "tecumsehheatingcooling.ca": {
-      "domain": "tecumsehheatingcooling.ca",
-      "brand": "Tecumseh Heating & Cooling",
+    "tecumsehplumbingpros.ca": {
+      "domain": "tecumsehplumbingpros.ca",
+      "brand": "Tecumseh Plumbing Pros",
       "portfolio": "network",
       "city": "Tecumseh",
       "regionAbbr": "ON",
-      "county": "Essex County",
-      "trackingPhone": {
-        "display": "(548) 457-1225",
-        "tel": "+15484571225"
-      },
-      "email": "contact@tecumsehheatingcooling.ca",
+      "county": "Essex",
+      "trackingPhone": null,
+      "email": "contact@tecumsehplumbingpros.ca",
       "serviceAreas": [
         "Tecumseh",
         "Windsor",
-        "LaSalle",
-        "Amherstburg",
-        "Leamington",
         "Lakeshore",
+        "LaSalle",
+        "Stoney Point",
         "Belle River",
         "Essex"
       ],
@@ -3191,28 +2264,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://tecumsehheatingcooling.ca",
+      "sourceUrl": "https://tecumsehplumbingpros.ca",
       "leadShape": "A"
     },
-    "tillsonburgheatingcooling.ca": {
-      "domain": "tillsonburgheatingcooling.ca",
-      "brand": "Tillsonburg Heating & Cooling",
+    "tillsonburgplumbingpros.ca": {
+      "domain": "tillsonburgplumbingpros.ca",
+      "brand": "Tillsonburg Plumbing Pros",
       "portfolio": "network",
       "city": "Tillsonburg",
       "regionAbbr": "ON",
-      "county": "Oxford County",
-      "trackingPhone": {
-        "display": "(548) 901-3425",
-        "tel": "+15489013425"
-      },
-      "email": "contact@tillsonburgheatingcooling.ca",
+      "county": "Oxford",
+      "trackingPhone": null,
+      "email": "contact@tillsonburgplumbingpros.ca",
       "serviceAreas": [
         "Tillsonburg",
-        "Woodstock",
-        "Ingersoll",
         "Norwich",
-        "Thamesford",
-        "Embro"
+        "Otterville",
+        "Courtland",
+        "Delhi",
+        "Simcoe",
+        "Langton"
       ],
       "services": [
         "Furnace repair & installation",
@@ -3226,28 +2297,106 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://tillsonburgheatingcooling.ca",
+      "sourceUrl": "https://tillsonburgplumbingpros.ca",
       "leadShape": "A"
     },
-    "wallaceburgheatingcooling.ca": {
-      "domain": "wallaceburgheatingcooling.ca",
-      "brand": "Wallaceburg Heating & Cooling",
+    "torontoplumbingpros.ca": {
+      "domain": "torontoplumbingpros.ca",
+      "brand": "Toronto Plumbing Pros",
+      "portfolio": "network",
+      "city": "Toronto",
+      "regionAbbr": "ON",
+      "county": "Toronto",
+      "trackingPhone": null,
+      "email": "contact@torontoplumbingpros.ca",
+      "serviceAreas": [
+        "Toronto"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://torontoplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "uxbridgeplumbingpros.ca": {
+      "domain": "uxbridgeplumbingpros.ca",
+      "brand": "Uxbridge Plumbing Pros",
+      "portfolio": "network",
+      "city": "Uxbridge",
+      "regionAbbr": "ON",
+      "county": "Durham Region",
+      "trackingPhone": null,
+      "email": "contact@uxbridgeplumbingpros.ca",
+      "serviceAreas": [
+        "Uxbridge"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://uxbridgeplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "vaughanplumbingpros.ca": {
+      "domain": "vaughanplumbingpros.ca",
+      "brand": "Vaughan Plumbing Pros",
+      "portfolio": "network",
+      "city": "Vaughan",
+      "regionAbbr": "ON",
+      "county": "York Region",
+      "trackingPhone": null,
+      "email": "contact@vaughanplumbingpros.ca",
+      "serviceAreas": [
+        "Vaughan"
+      ],
+      "services": [
+        "Furnace repair & installation",
+        "Air conditioner repair & installation",
+        "Heat pump installation",
+        "Maintenance & tune-ups",
+        "Indoor air quality",
+        "Ductless mini-splits",
+        "Water heaters",
+        "Smart thermostats",
+        "Emergency HVAC service"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://vaughanplumbingpros.ca",
+      "leadShape": "A"
+    },
+    "wallaceburgplumbing.ca": {
+      "domain": "wallaceburgplumbing.ca",
+      "brand": "Wallaceburg Plumbing",
       "portfolio": "network",
       "city": "Wallaceburg",
       "regionAbbr": "ON",
       "county": "Chatham-Kent",
-      "trackingPhone": {
-        "display": "(519) 627-4183",
-        "tel": "+15196274183"
-      },
-      "email": "contact@wallaceburgheatingcooling.ca",
+      "trackingPhone": null,
+      "email": "contact@wallaceburgplumbing.ca",
       "serviceAreas": [
         "Wallaceburg",
         "Chatham",
-        "Tilbury",
-        "Blenheim",
+        "Chatham-Kent",
         "Ridgetown",
-        "Dresden"
+        "Dresden",
+        "Port Lambton"
       ],
       "services": [
         "Furnace repair & installation",
@@ -3261,30 +2410,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://wallaceburgheatingcooling.ca",
+      "sourceUrl": "https://wallaceburgplumbing.ca",
       "leadShape": "A"
     },
-    "waterlooheatingcooling.ca": {
-      "domain": "waterlooheatingcooling.ca",
-      "brand": "Waterloo Heating & Cooling",
+    "waterlooplumbingpros.ca": {
+      "domain": "waterlooplumbingpros.ca",
+      "brand": "Waterloo Plumbing Pros",
       "portfolio": "network",
       "city": "Waterloo",
       "regionAbbr": "ON",
       "county": "Waterloo Region",
-      "trackingPhone": {
-        "display": "(548) 490-6741",
-        "tel": "+15484906741"
-      },
-      "email": "contact@waterlooheatingcooling.ca",
+      "trackingPhone": null,
+      "email": "contact@waterlooplumbingpros.ca",
       "serviceAreas": [
         "Waterloo",
-        "Cambridge",
         "Kitchener",
         "Elmira",
-        "Listowel",
-        "New Hamburg",
-        "Baden",
-        "Breslau"
+        "St. Jacobs",
+        "Conestogo",
+        "Cambridge",
+        "Ayr"
       ],
       "services": [
         "Furnace repair & installation",
@@ -3298,67 +2443,25 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://waterlooheatingcooling.ca",
+      "sourceUrl": "https://waterlooplumbingpros.ca",
       "leadShape": "A"
     },
-    "waterloohvacpros.ca": {
-      "domain": "waterloohvacpros.ca",
-      "brand": "Waterloo HVAC Pros",
-      "portfolio": "network",
-      "city": "Waterloo",
-      "regionAbbr": "ON",
-      "county": "Waterloo Region",
-      "trackingPhone": {
-        "display": "(519) 886-3204",
-        "tel": "+15198863204"
-      },
-      "email": "contact@waterloohvacpros.ca",
-      "serviceAreas": [
-        "Waterloo",
-        "Cambridge",
-        "Kitchener",
-        "Elmira",
-        "Listowel",
-        "New Hamburg",
-        "Baden",
-        "Breslau"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://waterloohvacpros.ca",
-      "leadShape": "A"
-    },
-    "whitbyheatingcooling.ca": {
-      "domain": "whitbyheatingcooling.ca",
-      "brand": "Whitby Heating & Cooling",
+    "whitbyplumbingpros.ca": {
+      "domain": "whitbyplumbingpros.ca",
+      "brand": "Whitby Plumbing Pros",
       "portfolio": "network",
       "city": "Whitby",
       "regionAbbr": "ON",
-      "county": "Durham Region",
-      "trackingPhone": {
-        "display": "(905) 668-7214",
-        "tel": "+19056687214"
-      },
-      "email": "contact@whitbyheatingcooling.ca",
+      "county": "Durham",
+      "trackingPhone": null,
+      "email": "contact@whitbyplumbingpros.ca",
       "serviceAreas": [
         "Whitby",
-        "Ajax",
-        "Pickering",
+        "Brooklin",
+        "Ashburn",
+        "Myrtle",
         "Oshawa",
-        "Bowmanville",
-        "Newcastle",
-        "Courtice",
-        "Port Hope"
+        "Ajax"
       ],
       "services": [
         "Furnace repair & installation",
@@ -3372,67 +2475,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://whitbyheatingcooling.ca",
+      "sourceUrl": "https://whitbyplumbingpros.ca",
       "leadShape": "A"
     },
-    "whitbyhvacpros.ca": {
-      "domain": "whitbyhvacpros.ca",
-      "brand": "Whitby HVAC Pros",
-      "portfolio": "network",
-      "city": "Whitby",
-      "regionAbbr": "ON",
-      "county": "Durham Region",
-      "trackingPhone": {
-        "display": "(905) 668-3590",
-        "tel": "+19056683590"
-      },
-      "email": "contact@whitbyhvacpros.ca",
-      "serviceAreas": [
-        "Whitby",
-        "Ajax",
-        "Pickering",
-        "Oshawa",
-        "Bowmanville",
-        "Newcastle",
-        "Courtice",
-        "Port Hope"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://whitbyhvacpros.ca",
-      "leadShape": "A"
-    },
-    "windsoracrepair.ca": {
-      "domain": "windsoracrepair.ca",
-      "brand": "Windsor AC Repair",
+    "windsorplumbing.ca": {
+      "domain": "windsorplumbing.ca",
+      "brand": "Windsor Plumbing",
       "portfolio": "network",
       "city": "Windsor",
       "regionAbbr": "ON",
-      "county": "Essex County",
-      "trackingPhone": {
-        "display": "(548) 290-9529",
-        "tel": "+15482909529"
-      },
-      "email": "contact@windsoracrepair.ca",
+      "county": "Essex",
+      "trackingPhone": null,
+      "email": "contact@windsorplumbing.ca",
       "serviceAreas": [
         "Windsor",
         "LaSalle",
         "Tecumseh",
         "Amherstburg",
-        "Leamington",
         "Lakeshore",
-        "Belle River",
-        "Essex"
+        "Essex",
+        "Leamington"
       ],
       "services": [
         "Furnace repair & installation",
@@ -3446,138 +2508,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://windsoracrepair.ca",
+      "sourceUrl": "https://windsorplumbing.ca",
       "leadShape": "A"
     },
-    "windsorfurnacerepair.ca": {
-      "domain": "windsorfurnacerepair.ca",
-      "brand": "Windsor Furnace Repair",
-      "portfolio": "network",
-      "city": "Windsor",
-      "regionAbbr": "ON",
-      "county": "Essex County",
-      "trackingPhone": {
-        "display": "(548) 708-8221",
-        "tel": "+15487088221"
-      },
-      "email": "contact@windsorfurnacerepair.ca",
-      "serviceAreas": [
-        "Windsor",
-        "LaSalle",
-        "Tecumseh",
-        "Amherstburg",
-        "Leamington",
-        "Lakeshore",
-        "Belle River",
-        "Essex"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://windsorfurnacerepair.ca",
-      "leadShape": "A"
-    },
-    "windsorhvacpro.ca": {
-      "domain": "windsorhvacpro.ca",
-      "brand": "Windsor HVAC Pro",
-      "portfolio": "network",
-      "city": "Windsor",
-      "regionAbbr": "ON",
-      "county": "Essex County",
-      "trackingPhone": {
-        "display": "(548) 708-7480",
-        "tel": "+15487087480"
-      },
-      "email": "contact@windsorhvacpro.ca",
-      "serviceAreas": [
-        "Windsor",
-        "LaSalle",
-        "Tecumseh",
-        "Amherstburg",
-        "Leamington",
-        "Lakeshore",
-        "Belle River",
-        "Essex"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://windsorhvacpro.ca",
-      "leadShape": "A"
-    },
-    "windsorhvacpros.ca": {
-      "domain": "windsorhvacpros.ca",
-      "brand": "Windsor HVAC Pros",
-      "portfolio": "network",
-      "city": "Windsor",
-      "regionAbbr": "ON",
-      "county": "Essex County",
-      "trackingPhone": {
-        "display": "(519) 258-3741",
-        "tel": "+15192583741"
-      },
-      "email": "contact@windsorhvacpros.ca",
-      "serviceAreas": [
-        "Windsor",
-        "LaSalle",
-        "Tecumseh",
-        "Amherstburg",
-        "Leamington",
-        "Lakeshore",
-        "Belle River",
-        "Essex"
-      ],
-      "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
-        "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
-      ],
-      "vertical": "hvac",
-      "sourceUrl": "https://windsorhvacpros.ca",
-      "leadShape": "A"
-    },
-    "winghamheatingcooling.ca": {
-      "domain": "winghamheatingcooling.ca",
-      "brand": "Wingham Heating & Cooling",
+    "winghamplumbing.ca": {
+      "domain": "winghamplumbing.ca",
+      "brand": "Wingham Plumbing",
       "portfolio": "network",
       "city": "Wingham",
       "regionAbbr": "ON",
-      "county": "Huron County",
-      "trackingPhone": {
-        "display": "(519) 357-0136",
-        "tel": "+15193570136"
-      },
-      "email": "contact@winghamheatingcooling.ca",
+      "county": "Huron",
+      "trackingPhone": null,
+      "email": "contact@winghamplumbing.ca",
       "serviceAreas": [
         "Wingham",
         "Blyth",
-        "Belgrave",
-        "Brussels",
-        "Lucknow"
+        "Lucknow",
+        "Teeswater",
+        "Clinton",
+        "Goderich",
+        "Listowel"
       ],
       "services": [
         "Furnace repair & installation",
@@ -3591,28 +2541,26 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://winghamheatingcooling.ca",
+      "sourceUrl": "https://winghamplumbing.ca",
       "leadShape": "A"
     },
-    "woodstockheatingcooling.ca": {
-      "domain": "woodstockheatingcooling.ca",
-      "brand": "Woodstock Heating & Cooling",
+    "woodstockplumbingpros.ca": {
+      "domain": "woodstockplumbingpros.ca",
+      "brand": "Woodstock Plumbing Pros",
       "portfolio": "network",
       "city": "Woodstock",
       "regionAbbr": "ON",
-      "county": "Oxford County",
-      "trackingPhone": {
-        "display": "(548) 554-3147",
-        "tel": "+15485543147"
-      },
-      "email": "contact@woodstockheatingcooling.ca",
+      "county": "Oxford",
+      "trackingPhone": null,
+      "email": "contact@woodstockplumbingpros.ca",
       "serviceAreas": [
         "Woodstock",
         "Ingersoll",
         "Tillsonburg",
-        "Norwich",
+        "Embro",
         "Thamesford",
-        "Embro"
+        "Norwich",
+        "Innerkip"
       ],
       "services": [
         "Furnace repair & installation",
@@ -3626,42 +2574,40 @@
         "Emergency HVAC service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://woodstockheatingcooling.ca",
+      "sourceUrl": "https://woodstockplumbingpros.ca",
       "leadShape": "A"
     },
-    "woodstockhvacpros.ca": {
-      "domain": "woodstockhvacpros.ca",
-      "brand": "Woodstock HVAC Pros",
-      "portfolio": "network",
-      "city": "Woodstock",
+    "allservicelondon.ca": {
+      "domain": "allservicelondon.ca",
+      "brand": "All Service London",
+      "portfolio": "brand",
+      "city": "London",
       "regionAbbr": "ON",
-      "county": "Oxford County",
-      "trackingPhone": {
-        "display": "(519) 539-4170",
-        "tel": "+15195394170"
-      },
-      "email": "contact@woodstockhvacpros.ca",
+      "county": "",
+      "trackingPhone": null,
+      "email": "info@allservicelondon.ca",
       "serviceAreas": [
-        "Woodstock",
+        "London",
+        "Dorchester",
+        "Thorndale",
         "Ingersoll",
-        "Tillsonburg",
-        "Norwich",
-        "Thamesford",
-        "Embro"
+        "Woodstock",
+        "Tillsonburg"
       ],
       "services": [
-        "Furnace repair & installation",
-        "Air conditioner repair & installation",
-        "Heat pump installation",
-        "Maintenance & tune-ups",
+        "Residential electrical",
+        "Commercial electrical",
+        "Panel and service upgrades",
+        "Standby and backup generators",
+        "EV charger installation",
+        "Furnace installation and repair",
+        "Air conditioning installation and repair",
+        "Heat pumps",
         "Indoor air quality",
-        "Ductless mini-splits",
-        "Water heaters",
-        "Smart thermostats",
-        "Emergency HVAC service"
+        "24-hour emergency service"
       ],
       "vertical": "hvac",
-      "sourceUrl": "https://woodstockhvacpros.ca",
+      "sourceUrl": "https://allservicelondon-demo.headbangermarketing.com",
       "leadShape": "A"
     },
     "bilckeelectric.ca": {
@@ -3744,6 +2690,51 @@
       "sourceUrl": "https://bobcase-demo.headbangermarketing.com",
       "leadShape": "A"
     },
+    "ferngullyhvac.com": {
+      "domain": "ferngullyhvac.com",
+      "brand": "Fern Gully Heating & Cooling",
+      "portfolio": "brand",
+      "city": "Bothwell",
+      "regionAbbr": "ON",
+      "county": "",
+      "trackingPhone": {
+        "display": "(519) 401-2099",
+        "tel": "+15194012099"
+      },
+      "email": "info@ferngullyhvac.com",
+      "serviceAreas": [
+        "Bothwell",
+        "Chatham",
+        "Chatham-Kent",
+        "Ridgetown",
+        "Dresden",
+        "Thamesville",
+        "Tilbury",
+        "Sarnia",
+        "Wallaceburg",
+        "Petrolia",
+        "London",
+        "St. Thomas",
+        "Strathroy",
+        "Woodstock",
+        "Ingersoll"
+      ],
+      "services": [
+        "Geothermal heat pump installation",
+        "Ground-source heat pumps",
+        "Geothermal loop design",
+        "In-floor radiant heating",
+        "Hydronic heating",
+        "Furnace repair and installation",
+        "Air conditioning repair and installation",
+        "Heat pump installation",
+        "Indoor air quality",
+        "HRV and ERV systems"
+      ],
+      "vertical": "hvac",
+      "sourceUrl": "https://ferngully-demo.headbangermarketing.com",
+      "leadShape": "A"
+    },
     "thehaytergroup.com": {
       "domain": "thehaytergroup.com",
       "brand": "The Hayter Group",
@@ -3751,10 +2742,7 @@
       "city": "Alvinston",
       "regionAbbr": "ON",
       "county": "",
-      "trackingPhone": {
-        "display": "(519) 237-4328",
-        "tel": "+15192374328"
-      },
+      "trackingPhone": null,
       "email": "info@thehaytergroup.com",
       "serviceAreas": [
         "Alvinston",
@@ -3796,10 +2784,7 @@
       "city": "Goderich",
       "regionAbbr": "ON",
       "county": "",
-      "trackingPhone": {
-        "display": "(519) 237-4328",
-        "tel": "+15192374328"
-      },
+      "trackingPhone": null,
       "email": "info@jaydensmechanical.com",
       "serviceAreas": [
         "Goderich",
@@ -3837,10 +2822,7 @@
       "city": "London",
       "regionAbbr": "ON",
       "county": "",
-      "trackingPhone": {
-        "display": "(519) 455-7330",
-        "tel": "+15194557330"
-      },
+      "trackingPhone": null,
       "email": "contact@poulsenheating.ca",
       "serviceAreas": [
         "London",
@@ -3920,8 +2902,8 @@
       "vertical": "rebate",
       "leadShape": "A"
     },
-    "ontariofurnace-rebates.ca": {
-      "domain": "ontariofurnace-rebates.ca",
+    "ontariofurnacerebates.ca": {
+      "domain": "ontariofurnacerebates.ca",
       "brand": "Ontario Furnace Rebates",
       "portfolio": "rebate",
       "city": "Ontario",
