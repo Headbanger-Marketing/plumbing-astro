@@ -60,7 +60,7 @@ const GOOGLE_FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"
 <link rel="canonical" href={canonical}>
 <meta name="robots" content={robotsVal}>
 <meta name="theme-color" content={site.palette.themeColor}>
-{site.enquirySite && <meta name="hc-chat" content="off" />}
+
 {/* DEV ONLY: point the chat widget at the REAL n8n "HVAC Chat" brain (auto.sdagents.ai).
     Stripped from production builds by import.meta.env.DEV, so prod also hits the real
     n8n /webhook/hvac-chat (this meta is just explicit during dev). To A/B against the

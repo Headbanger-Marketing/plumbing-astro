@@ -155,12 +155,32 @@ def remove_chat_tags(html):
     return SCRIPT_PATTERN.sub(lambda match: '' if chat_script(match.group()) else match.group(), html)
 
 
+CHAT_META_PATTERN = re.compile(r'<!--[\s\S]*?-->|<script\b[^>]*>[\s\S]*?</script\s*>|<meta\b[^>]*>', re.I)
+
+class ChatMeta(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.off = False
+    def handle_starttag(self, tag, attrs):
+        if tag.lower() == 'meta':
+            attrs = dict(attrs)
+            self.off = attrs.get('name', '').lower() == 'hc-chat' and attrs.get('content', '').lower() == 'off'
+
+def remove_chat_optout(html):
+    def replace(match):
+        parser = ChatMeta()
+        parser.feed(match.group())
+        return '' if parser.off else match.group()
+    return CHAT_META_PATTERN.sub(replace, html)
+
+
 def retained_markup(html):
     """Everything outside the two explicitly authorized additions, byte exact."""
-    return PRIVACY_PATTERN.sub('', remove_chat_tags(html))
+    return PRIVACY_PATTERN.sub('', remove_chat_tags(remove_chat_optout(html)))
 
 
 def transform(html, privacy=False):
+    html = remove_chat_optout(html)
     closes = list(BODY_CLOSE.finditer(html))
     if len(closes) != 1:
         raise RolloutError('Published HTML must contain exactly one closing body tag.')
