@@ -3,7 +3,8 @@
 
 City checkouts belong only on the GitHub Actions runner. This script uses exact
 byte-preserving replacements, validates every file before writing anything, and
-never modifies assets, styles, metadata or the existing conversion flow.
+only changes chat tags, the assistant notice and prior chat opt-out metadata.
+Assets, styles, other metadata and the existing conversion flow are preserved.
 """
 import argparse
 import json
