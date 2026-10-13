@@ -1,16 +1,5 @@
 ---
-// Post-submit thank-you / confirmation page.
-//
-// This is a TRANSACTIONAL page (the user just submitted a lead), not a
-// marketing page. Design rules:
-//   - One compact card, centered. No page-hero, no crumbs, no card grid,
-//     no closing CTA band. Those are marketing-page treatments that bury
-//     the only two things that matter: (1) we got your request, (2) answer
-//     the call from an unfamiliar number.
-//   - Critical info first, in reading order: confirmation -> the
-//     "unfamiliar number" warning (the #1 reason leads don't convert into
-//     actual calls) -> phone button -> who's calling -> partner footer.
-//   - Minimal copy. No filler ("Whatever your home comfort need…").
+// A direct visit stays neutral; a recent accepted receipt confirms the request.
 import SiteLayout from '../layouts/SiteLayout.astro';
 import { icon } from '../lib/icons';
 import { loadSite } from '../lib/load-site';
@@ -18,9 +7,7 @@ import { loadSite } from '../lib/load-site';
 const { site } = await loadSite();
 
 const title = `Thank You | ${site.brand}`;
-const desc = site.enquirySite
-  ? `Our enquiry team has received your ${site.city} inquiry for review. A provider and appointment are not confirmed.`
-  : `Your request has been submitted for ${site.city}. The team will follow up using your chosen contact method.`;
+const desc = `Follow-up information for a ${site.city} enquiry. Receipt and appointment confirmation are separate steps.`;
 
 const partner = site.partner;
 const partnerUrl = partner?.url;
@@ -43,8 +30,8 @@ const partnerLogo = partnerSlug ? `/assets/img/partners/${partnerSlug}.png` : ''
 >
   <section class="ty">
     <div class="container ty__card">
-      <span class="ty__check"><Fragment set:html={icon('check', '', 36)} /></span>
-      <h1>Request received</h1>
+      <span class="ty__check ty__check--neutral" data-receipt-badge><span data-status-icon="neutral"><Fragment set:html={icon('mail', '', 36)} /></span><span data-status-icon="received" hidden><Fragment set:html={icon('check', '', 36)} /></span></span>
+      <h1 data-receipt-heading>Request Follow-Up</h1>
 
       {partnerLogo && (
         <span class="ty__partner-badge">
@@ -53,7 +40,7 @@ const partnerLogo = partnerSlug ? `/assets/img/partners/${partnerSlug}.png` : ''
       )}
       {partner?.tagline && <p class="ty__partner-line">{partner.tagline}</p>}
 
-      <p class="ty__lede">{site.enquirySite ? `Our enquiry team has received your ${site.city} inquiry for review. Provider identity, service coverage, pricing and appointment availability still need confirmation.` : `Your request about the ${site.city} property has been accepted. The team will follow up using your chosen contact method to confirm the details and appointment availability.`}</p>
+      <p class="ty__lede" data-receipt-description>If you sent a request, use your chosen contact method for follow-up. Visiting this page does not confirm receipt or book an appointment.</p>
 
       <div class="ty__warn" data-contact-confirmation>
         <span class="ty__warn-ic"><Fragment set:html={icon('phone', '', 20)} /></span>
@@ -65,13 +52,7 @@ const partnerLogo = partnerSlug ? `/assets/img/partners/${partnerSlug}.png` : ''
       </a>}
       {!site.hidePhone && <span class="ty__call-sub">Prefer to talk now? Call us directly.</span>}
 
-      <p class="ty__who">
-        {partner?.name ? (
-          <>Serviced by <strong>{partner.name}</strong>{partnerUrl && <> &middot; <a href={partnerUrl} rel="nofollow noopener" target="_blank">learn more</a></>}</>
-        ) : (
-          <>{site.enquirySite ? 'Enquiry received for review' : <>Serviced by <strong set:html={site.brandHtml} /></>}</>
-        )}
-      </p>
+      <p class="ty__who">Enquiry review by <strong>Jayden's Mechanical</strong>{partnerUrl && <> &middot; <a href={partnerUrl} rel="nofollow noopener" target="_blank">learn more</a></>}</p>
     </div>
   </section>
 </SiteLayout>
@@ -104,6 +85,7 @@ const partnerLogo = partnerSlug ? `/assets/img/partners/${partnerSlug}.png` : ''
     box-shadow: 0 6px 18px rgba(22, 163, 74, .28);
     margin-bottom: 4px;
   }
+  .ty__check--neutral { background: var(--navy); box-shadow: none; }
   .ty__card h1 {
     margin: 0;
     font-size: clamp(1.7rem, 1.3rem + 1.4vw, 2.2rem);
@@ -202,5 +184,15 @@ const partnerLogo = partnerSlug ? `/assets/img/partners/${partnerSlug}.png` : ''
 </style>
 
 <script is:inline>
-try { const saved = JSON.parse(sessionStorage.getItem('quote-confirmation') || 'null'); if(saved && Date.now()-saved.time<3600000){const text=document.querySelector('[data-contact-confirmation] p');if(text)text.textContent=saved.channel==='phone'?'Watch for a phone call using the number you provided. It may come from an unfamiliar number. An appointment still requires confirmation.':'Check the email address you provided for follow-up. An appointment still requires confirmation.';}} catch (_) {}
+try {
+  const saved = JSON.parse(sessionStorage.getItem('quote-confirmation') || 'null');
+  if(saved && ['email','phone'].includes(saved.channel) && Date.now()-saved.time>=0 && Date.now()-saved.time<3600000){
+    document.querySelector('[data-receipt-heading]').textContent='Request received';
+    document.querySelector('[data-receipt-description]').textContent="Headbanger Marketing has received your request for Jayden's Mechanical to review. Coverage, pricing, availability and any appointment require separate confirmation.";
+    document.querySelector('[data-receipt-badge]').classList.remove('ty__check--neutral');
+    document.querySelectorAll('[data-status-icon]').forEach(icon=>icon.hidden=icon.dataset.statusIcon!=='received');
+    const text=document.querySelector('[data-contact-confirmation] p');
+    if(text)text.textContent=saved.channel==='phone'?'Watch for a phone call using the number you provided. It may come from an unfamiliar number. An appointment still requires confirmation.':'Check the email address you provided for follow-up. An appointment still requires confirmation.';
+  }
+} catch (_) {}
 </script>
