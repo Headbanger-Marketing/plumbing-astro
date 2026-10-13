@@ -43,7 +43,7 @@ const partnerLogo = partnerSlug ? `/assets/img/partners/${partnerSlug}.png` : ''
       <p class="ty__lede" data-receipt-description>If you sent a request, use your chosen contact method for follow-up. Visiting this page does not confirm receipt or book an appointment.</p>
 
       <div class="ty__warn" data-contact-confirmation>
-        <span class="ty__warn-ic"><Fragment set:html={icon('phone', '', 20)} /></span>
+        <span class="ty__warn-ic"><span data-followup-icon="neutral"><Fragment set:html={icon('headset', '', 20)} /></span><span data-followup-icon="email" hidden><Fragment set:html={icon('mail', '', 20)} /></span><span data-followup-icon="phone" hidden><Fragment set:html={icon('phone', '', 20)} /></span></span>
         <p><strong>Watch for follow-up.</strong> Check the email address or phone number you supplied. Sending a request does not book an appointment.</p>
       </div>
 
@@ -191,6 +191,7 @@ try {
     document.querySelector('[data-receipt-description]').textContent="Headbanger Marketing has received your request for Jayden's Mechanical to review. Coverage, pricing, availability and any appointment require separate confirmation.";
     document.querySelector('[data-receipt-badge]').classList.remove('ty__check--neutral');
     document.querySelectorAll('[data-status-icon]').forEach(icon=>icon.hidden=icon.dataset.statusIcon!=='received');
+    document.querySelectorAll('[data-followup-icon]').forEach(icon=>icon.hidden=icon.dataset.followupIcon!==saved.channel);
     const text=document.querySelector('[data-contact-confirmation] p');
     if(text)text.textContent=saved.channel==='phone'?'Watch for a phone call using the number you provided. It may come from an unfamiliar number. An appointment still requires confirmation.':'Check the email address you provided for follow-up. An appointment still requires confirmation.';
   }

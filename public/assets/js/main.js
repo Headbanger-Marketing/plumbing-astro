@@ -278,8 +278,7 @@
         busy = false;
         form.removeAttribute("aria-busy");
         if (button) button.disabled = received;
-        if (status && !form.dataset.redirectOnSuccess) status.focus({ preventScroll: true });
-        else if (status && !received) status.focus({ preventScroll: true });
+        if (status) status.focus({ preventScroll: true });
       }
     });
     form.dataset.leadSubmitBound = "true";
