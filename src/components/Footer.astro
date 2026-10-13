@@ -8,9 +8,10 @@ import type { SiteConfig } from '../lib/types';
 
 interface Props {
   site: SiteConfig;
+  showQuoteBar?: boolean;
   svcKeys?: string[]; // filter nav to services this site actually renders
 }
-const { site, svcKeys } = Astro.props;
+const { site, svcKeys, showQuoteBar = true } = Astro.props;
 
 // The footer sits on navy: prefer the transparent twin (logos-trans/, made by
 // scripts/make-logos-transparent.py) over the white-background original.
@@ -37,7 +38,7 @@ const areas = site.serviceAreas.map((a) => `<li>${a}</li>`).join('');
     <div class="footer-grid">
       <div>
         <a class="brand footer-brand" href="/">
-          {site.enquirySite ? <img class="site-wordmark" src={`/assets/wordmarks/${site.domain}-inverse.svg`} alt={site.brand} width="260" height="54" loading="lazy" decoding="async" /> : <img class="brand__logo" width="64" height="64" src={footerLogo} alt={site.brand} loading="eager" decoding="async">}
+          {site.enquirySite ? <img class="site-wordmark" src={`/assets/wordmarks/${site.domain}-inverse.svg`} alt={site.brand} width="260" height="54" loading="lazy" decoding="async" /> : <img class="brand__logo" width="64" height="64" src={footerLogo} alt={site.brand} loading="lazy" decoding="async">}
         </a>
         <p class="footer-about">{site.enquirySite ? `An inquiry website for ${site.city}. Submit a request for review. Provider identity, coverage and appointment availability require confirmation.` : vc.tagline(site.city, site.county)}</p>
       </div>
@@ -75,11 +76,11 @@ const areas = site.serviceAreas.map((a) => `<li>${a}</li>`).join('');
     </div>
   </div>
 </footer>
-<div class="mobile-bar mobile-bar--single">
+{showQuoteBar && <div class="mobile-bar mobile-bar--single">
   <a class="btn btn-primary" href="/contact/#quote"><Fragment set:html={icon('send', '', 18)} /> Get A Free Quote</a>
-</div>
-<script src="/assets/js/main.js?v=20261013-1" defer></script>
+</div>}
+<script src="/assets/js/main.js?v=20261013-audit2" defer></script>
 <!-- Chat widget (n8n workflow; zero-config, skinned from
      theme-color meta, brand from og:site_name). Disable per-site with
      <meta name="hc-chat" content="off"> in the page head. -->
-<script src="https://hvac-agent.headbangermarketing.com/assets/chat-widget.js?v=20261013-1" data-api="https://hvac-agent.headbangermarketing.com" data-privacy="/privacy-policy/" defer></script>
+<script src="https://hvac-agent.headbangermarketing.com/assets/chat-widget.js?v=20261013-audit2" data-api="https://hvac-agent.headbangermarketing.com" data-privacy="/privacy-policy/" defer></script>

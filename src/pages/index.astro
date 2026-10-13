@@ -19,7 +19,7 @@ const faqs = plan.faqs;
 <section class="hero has-bg" style={`--hero-bg-url: url('/assets/img/${site.media?.heroImage || 'hero.webp'}')`}>
   <div class="container hero__grid">
     <div class="hero__copy"><span class="eyebrow on-dark">{site.city}, Ontario</span><h1>{content.HOME?.h1 || `Plumbing for ${site.city} Homes`}</h1>
-      <p class="hero__sub" set:html={content.HOME?.intro || featured[0]?.[1].intro.split(/(?<=[.!?])\s+/).slice(0,2).join(' ')}></p>
+      <p class="hero__sub" set:html={content.HOME?.intro || `Describe the plumbing work you need and choose a relevant guide. Share the symptoms, property and access details for review.`}></p>
       <a class="btn btn-primary btn-lg" href="/contact/#quote">Get A Free Quote <Fragment set:html={icon('arrow-right', '', 18)} /></a>
     </div>
     <div class="hero__form"><QuoteForm site={site} /></div>

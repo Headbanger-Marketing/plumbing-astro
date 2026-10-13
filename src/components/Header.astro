@@ -36,8 +36,8 @@ for (const d of DESCRIPTORS) {
 const cur = (key: string) => (active === key ? ' aria-current="page"' : '');
 const servicesNav = vc.hasServicesNav
   ? `<div class="has-dropdown">
-        <a class="nav__link" href="#" aria-haspopup="true" aria-expanded="false">Services ${icon('chev-down', '', 15)}</a>
-        <div class="dropdown">${(svcKeys ? SERVICES.filter((s) => svcKeys.includes(s.slug)) : SERVICES).map((s) => `<a href="/services/${s.slug}/">${icon(s.icon, '', 18)}<span>${s.nav}</span></a>`).join('')}</div>
+        <button type="button" class="nav__link" aria-controls="service-menu" aria-expanded="false">Services ${icon('chev-down', '', 15)}</button>
+        <div class="dropdown" id="service-menu">${(svcKeys ? SERVICES.filter((s) => svcKeys.includes(s.slug)) : SERVICES).map((s) => `<a href="/services/${s.slug}/">${icon(s.icon, '', 18)}<span>${s.nav}</span></a>`).join('')}</div>
       </div>`
   : '';
 const navHtml = `

@@ -7,7 +7,7 @@
 
 import type { SiteConfig } from '../lib/types';
 import { verticalCopy } from './utils';
-import { CITY_GEO } from '../data/geo';
+
 
 // Decode HTML entities used in display strings before placing inside JSON-LD.
 function plain(s: string): string {
@@ -40,10 +40,8 @@ export function schemaLocalbusiness(s: SiteConfig): string {
   const logoUrl = s.media?.logo
     ? `${s.url}/assets/img/logos/${s.media.logo.replace(/\.svg$/, '.png')}`
     : `${s.url}/assets/img/favicon.svg`;
-  // City-center GeoCoordinates (verified map in src/data/geo.ts). Emit-on-match —
-  // strictly additive; a city not in the map gets none, so this never degrades a site.
-  const geo = CITY_GEO[s.city];
-  const geoLine = geo ? `,"geo":{"@type":"GeoCoordinates","latitude":${geo.lat},"longitude":${geo.lng}}` : '';
+  // A service area is not proof of business-premises coordinates.
+  const geoLine = '';
   // Emit address fields only when non-empty: a site without a signed-off
   // street/postal (Dunnville) ships locality/region only — an empty
   // "streetAddress":""/"postalCode":"" string is invalid structured data.
