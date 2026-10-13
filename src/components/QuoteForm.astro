@@ -1,6 +1,6 @@
 ---
 // build.py::quote_form
-// Lead-gen form. Posts to n8n webhook (handled by assets/js/main.js — never edit).
+// Lead-gen form. Posts to n8n webhook (handled by assets/js/main.js).
 import { icon } from '../lib/icons';
 import type { SiteConfig } from '../lib/types';
 
@@ -8,6 +8,7 @@ interface Props {
   site: SiteConfig;
   heading?: string;
   sub?: string;
+  placeholder?: string;
   idSuffix?: string;
 }
 
@@ -15,54 +16,57 @@ const {
   site,
   heading = 'Get A Free Quote',
   sub = site.enquirySite ? 'Our enquiry team reviews your request. A provider and appointment are not confirmed by submission.' : 'A callback will confirm scope and appointment availability.',
+  placeholder = "e.g. Water heater leaking or drain backed up.",
   idSuffix = 'hero',
 } = Astro.props;
 ---
 
-<form class:list={['quote-card', { 'quote-card--enquiry': site.enquirySite }]} data-quote-form data-enquiry-site={site.enquirySite ? 'true' : undefined} {...(site.thankYouRedirect ? { 'data-redirect-on-success': site.thankYouRedirect } : {})} novalidate aria-label="Get A Free Quote">
+<form id="quote" class:list={['quote-card', { 'quote-card--enquiry': site.enquirySite }]} data-quote-form data-domain={site.domain} data-enquiry-site={site.enquirySite ? 'true' : undefined} {...(site.thankYouRedirect ? { 'data-redirect-on-success': site.thankYouRedirect } : {})} novalidate aria-label="Get A Free Quote">
   <div class="quote-card__head">
     <span class="badge"><Fragment set:html={icon('headset', '', 24)} /></span>
-    <div><p id="quote" class="quote-card__title" style="font-size:1.15rem;font-weight:700;margin:0;line-height:1.2;color:var(--ink)">{heading}</p></div>
+    <div><p class="quote-card__title" style="font-size:1.15rem;font-weight:700;margin:0;line-height:1.2;color:var(--ink)">{heading}</p></div>
   </div>
   <p class="sub">{sub}</p>
-  <div class="form-status" role="status" aria-live="polite"></div>
+  <div class="form-status" role="status" aria-live="polite" tabindex="-1"></div>
   <div class="form-grid">
-    <div class="field">
+    <div class="field" data-field>
       <label for={`name-${idSuffix}`}>Full Name <span class="req">*</span></label>
-      <input class="input" id={`name-${idSuffix}`} name="name" type="text" autocomplete="name" placeholder="Jane Doe" required>
-      <span class="error-text">Please enter your name.</span>
+      <input class="input" id={`name-${idSuffix}`} name="name" type="text" autocomplete="name" placeholder="Jane Doe" required maxlength="100" aria-describedby={`name-error-${idSuffix}`}>
+      <span class="error-text" id={`name-error-${idSuffix}`}>Please enter your name.</span>
     </div>
-    <div class="field row">
-      <div>
-        <label for={`phone-${idSuffix}`}>Phone <span class="req">*</span></label>
-        <input class="input" id={`phone-${idSuffix}`} name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(905) 000-0000" required>
-        <span class="error-text">Enter a phone number.</span>
-      </div>
-      <div>
-        <label for={`email-${idSuffix}`}>Email <span class="req">*</span></label>
-        <input class="input" id={`email-${idSuffix}`} name="email" type="email" autocomplete="email" placeholder="you@email.com" required>
-        <span class="error-text">Enter a valid email.</span>
-      </div>
+    <div class="field" data-field>
+      <label for={`preferred-${idSuffix}`}>How should we contact you? <span class="req">*</span></label>
+      <select class="input" id={`preferred-${idSuffix}`} name="preferred_contact" required><option value="email">Email</option><option value="phone">Phone call</option></select>
     </div>
-    <div class="field">
-      <label for={`addr-${idSuffix}`}>Street Address</label>
-      <input class="input" id={`addr-${idSuffix}`} name="address" type="text" autocomplete="address-line1" placeholder="123 Main St">
+    <div class="field" data-field data-contact-field="email">
+      <label for={`email-${idSuffix}`}>Email <span class="req">*</span></label>
+      <input class="input" id={`email-${idSuffix}`} name="email" type="email" autocomplete="email" placeholder="you@email.com" required maxlength="254" aria-describedby={`email-error-${idSuffix}`}>
+      <span class="error-text" id={`email-error-${idSuffix}`}>Enter a valid email address.</span>
     </div>
-    <div class="field row">
-      <div>
-        <label for={`city-${idSuffix}`}>City</label>
-        <input class="input" id={`city-${idSuffix}`} name="city" type="text" autocomplete="address-level2" placeholder={site.city}>
-      </div>
-      <div>
-        <label for={`postal-${idSuffix}`}>Postal Code</label>
-        <input class="input" id={`postal-${idSuffix}`} name="postal" type="text" autocomplete="postal-code" placeholder="N1A 1A1">
-      </div>
+    <div class="field" data-field data-contact-field="phone" hidden>
+      <label for={`phone-${idSuffix}`}>Phone <span class="req">*</span></label>
+      <input class="input" id={`phone-${idSuffix}`} name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(905) 000-0000" maxlength="40" disabled aria-describedby={`phone-error-${idSuffix}`}>
+      <span class="error-text" id={`phone-error-${idSuffix}`}>Enter a valid phone number with at least 10 digits.</span>
     </div>
-    <div class="field">
-      <label for={`msg-${idSuffix}`}>Briefly describe your issue <span class="req">*</span></label>
-      <textarea class="input" id={`msg-${idSuffix}`} name="message" placeholder="e.g. Water heater leaking or drain backed up…" required></textarea>
-      <span class="error-text">Tell us briefly what's going on.</span>
+    <div class="field" data-field>
+      <label for={`city-${idSuffix}`}>City <span class="req">*</span></label>
+      <input class="input" id={`city-${idSuffix}`} name="city" type="text" autocomplete="address-level2" value={site.city} required maxlength="100" aria-describedby={`city-error-${idSuffix}`}>
+      <span class="error-text" id={`city-error-${idSuffix}`}>Enter the property city.</span>
     </div>
+    <div class="field" data-field>
+      <label for={`msg-${idSuffix}`}>Briefly describe your request <span class="req">*</span></label>
+      <textarea class="input" id={`msg-${idSuffix}`} name="message" placeholder={placeholder} required maxlength="6000" aria-describedby={`msg-error-${idSuffix}`}></textarea>
+      <span class="error-text" id={`msg-error-${idSuffix}`}>Tell us briefly what you need.</span>
+    </div>
+    <details class="optional-details"><summary>Add street address or postal code (optional)</summary><div class="field row">
+      <div data-field><label for={`addr-${idSuffix}`}>Street Address</label><input class="input" id={`addr-${idSuffix}`} name="address" type="text" autocomplete="address-line1" placeholder="123 Main St" maxlength="254"></div>
+      <div data-field><label for={`postal-${idSuffix}`}>Postal Code</label><input class="input" id={`postal-${idSuffix}`} name="postal" type="text" autocomplete="postal-code" placeholder="N1A 1A1" maxlength="7" aria-describedby={`postal-error-${idSuffix}`}><span class="error-text" id={`postal-error-${idSuffix}`}>Enter a valid Canadian postal code, or leave this blank.</span></div>
+    </div></details>
+    <p class="recipient-note">Headbanger Marketing receives your request and shares it with Jayden's Mechanical for assessment. Coverage and any appointment are confirmed separately.</p>
+    {site.enquirySite && <div class="field" data-field>
+      <label for={`consent-${idSuffix}`} class="quote-consent"><input id={`consent-${idSuffix}`} name="consent" type="checkbox" value="agreed" required aria-describedby={`consent-error-${idSuffix}`} /><span>I agree to share my enquiry and contact details with Headbanger Marketing and Jayden's Mechanical so the team can contact me about this request. The team will confirm service availability and any appointment. <a href="/privacy-policy/">Privacy notice</a>.</span></label>
+      <span class="error-text" id={`consent-error-${idSuffix}`}>Please agree before sending your enquiry.</span>
+    </div>}
     <button class="btn btn-primary btn-lg btn-block" type="submit"><Fragment set:html={icon('send', '', 18)} /> Get A Free Quote</button>
   </div>
 </form>

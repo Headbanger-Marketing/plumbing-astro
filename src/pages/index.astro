@@ -20,7 +20,7 @@ const faqs = plan.faqs;
   <div class="container hero__grid">
     <div class="hero__copy"><span class="eyebrow on-dark">{site.city}, Ontario</span><h1>{content.HOME?.h1 || `Plumbing for ${site.city} Homes`}</h1>
       <p class="hero__sub" set:html={content.HOME?.intro || featured[0]?.[1].intro.split(/(?<=[.!?])\s+/).slice(0,2).join(' ')}></p>
-      <a class="btn btn-primary btn-lg" href="#quote">Get A Free Quote <Fragment set:html={icon('arrow-right', '', 18)} /></a>
+      <a class="btn btn-primary btn-lg" href="/contact/#quote">Get A Free Quote <Fragment set:html={icon('arrow-right', '', 18)} /></a>
     </div>
     <div class="hero__form"><QuoteForm site={site} /></div>
   </div>

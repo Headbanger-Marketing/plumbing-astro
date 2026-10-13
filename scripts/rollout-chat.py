@@ -102,7 +102,7 @@ APPROVED_SITES = frozenset([
 ])
 # END APPROVED SITES
 
-CHAT_TAG = '<script src="https://hvac-agent.headbangermarketing.com/assets/chat-widget.js?v=20261012-1" data-api="https://hvac-agent.headbangermarketing.com" data-privacy="/privacy-policy/" defer></script>'
+CHAT_TAG = '<script src="https://hvac-agent.headbangermarketing.com/assets/chat-widget.js?v=20261013-1" data-api="https://hvac-agent.headbangermarketing.com" data-privacy="/privacy-policy/" defer></script>'
 PRIVACY_TEXT = (
     'Your chat messages are processed by Headbanger Marketing and Anthropic to provide automated answers. '
     'If you choose to submit an enquiry and agree to the consent notice, Headbanger Marketing records your '
