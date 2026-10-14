@@ -270,7 +270,20 @@ export const HOME_SERVICES = [
   ]
 ];
 
-export const HOME_FAQ = [];
+export const HOME_FAQ = [
+  [
+    "What details help with a Wingham quote?",
+    "Record the current fuel, tank capacity, household size, and hot-water demand at busy times. A tankless installation may require changes to gas or electrical supply, venting, or water connections, so compare the full scope rather than equipment price alone. Confirm where a new unit could be installed and whether it would remain accessible for maintenance. If the property has a well, arrange suitable water testing and share the results when comparing water heater options. Iron, sulphur, hardness, or other measured characteristics may affect maintenance considerations and equipment selection. Ask which test results support a recommendation, what routine upkeep is expected, and whether treatment equipment is a separate part of the proposed work."
+  ],
+  [
+    "Which job guide should I read first?",
+    "Compare tank and tankless options using fuel, household demand, space, venting, and water test results where a well supplies the property. Scope fixture or main-line clearing by affected drains, cleanout access, pipe condition, and whether recurring symptoms warrant camera inspection. Consider septic layout before choosing a method. Compare localized repairs with partial or whole-home PEX or copper replacement. Pipe material, access, water interruptions, testing, and required approvals shape the project plan. Check fixture dimensions, connections, and rough-in locations before replacing toilets, faucets, tubs, or laundry fixtures. Moving a fixture may change drain and supply work."
+  ],
+  [
+    "Can I request service near Wingham?",
+    "The listed service area includes Blyth, Lucknow, Teeswater, Clinton. Include your postal code and access details in the form so the responding provider can confirm travel and scheduling for your property."
+  ]
+];
 
 export const SVC_PHOTO = {
   "water-heaters": [
@@ -376,4 +389,28 @@ export const LOCATIONS = {
       ]
     ]
   }
+};
+
+// Exact-site homepage copy; existing planning checklist, FAQs and CTA are preserved.
+export const HOME = {
+  "h1": "Plumbing for Wingham Homes",
+  "intro": "For plumbing in Wingham, identify whether the request concerns a drain blockage, hidden leak, fixture, water heater or water treatment. If the property uses a well or septic system, include that detail. A responding provider must confirm coverage, the work and availability before a visit.",
+  "meta": "Plumbing requests in Wingham for drains, leaks, water heaters and fixtures. Include well or septic details where relevant; provider availability needs confirmation.",
+  "planningIntro": "For a <a href=\"/services/drain-cleaning/\">drain problem</a>, record the affected fixtures and whether the property uses a septic system. For <a href=\"/services/water-heaters/\">water heater work</a>, share the fuel, capacity and vent route. A <a href=\"/services/water-softeners/\">water treatment request</a> should include the actual supply type and test results. These details help separate the job scopes without assuming that every property has the same plumbing or water conditions.",
+  "heading": "Scope the Work Before Booking in Wingham",
+  "checklist": [
+    [
+      "The work you need",
+      "Compare tank and tankless options using fuel, household demand, space, venting, and water test results where a well supplies the property. Scope fixture or main-line clearing by affected drains, cleanout access, pipe condition, and whether recurring symptoms warrant camera inspection. Consider septic layout before choosing a method. Compare localized repairs with partial or whole-home PEX or copper replacement. Pipe material, access, water interruptions, testing, and required approvals shape the project plan."
+    ],
+    [
+      "The wider system",
+      "Check fixture dimensions, connections, and rough-in locations before replacing toilets, faucets, tubs, or laundry fixtures. Moving a fixture may change drain and supply work. Use symptom records, site photos, acoustic locating, or sectional pressure testing to plan investigation of hidden leaks in buildings and buried service lines."
+    ],
+    [
+      "Related work to mention",
+      "Compare pump capacity, basin, discharge route, battery runtime, and backwater valve location against the property’s water and outage history. Use water test results to compare softeners, iron treatment, and filtration. Confirm the target concern, system capacity, installation needs, and maintenance."
+    ]
+  ],
+  "cta": "Use the form to describe the property, the symptoms and the work requested. For Blyth, Lucknow, Teeswater, Clinton, include your postal code so local coverage can be checked."
 };

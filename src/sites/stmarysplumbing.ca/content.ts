@@ -270,7 +270,20 @@ export const HOME_SERVICES = [
   ]
 ];
 
-export const HOME_FAQ = [];
+export const HOME_FAQ = [
+  [
+    "What details help with a St. Marys quote?",
+    "List the people and fixtures that may draw hot water at the same time, such as showers, a soaking tub, or a double vanity. Compare that demand with the current unit’s capacity and recovery details. This can help distinguish a suitable replacement size from a change in equipment type. Measure doorways, stair turns, ceiling height, and clearance around the existing unit. Photograph nearby storage, pipes, and electrical or fuel connections. These details can affect which tank or tankless models can be brought in and installed without additional access or rearrangement work."
+  ],
+  [
+    "Which job guide should I read first?",
+    "Compare tank and tankless options using household demand, available installation space, vent routing, and the existing unit’s connections. Plan snaking, hydro-jetting, or camera inspection according to the affected drain, recurring symptoms, and known pipe material. Assess galvanized or polybutylene piping, then plan PEX or copper routes around access, stone, plaster, and renovation sequencing. Coordinate tub, shower, faucet, and toilet specifications with drain locations, supply sizing, valve heights, and tile plans."
+  ],
+  [
+    "Can I request service near St. Marys?",
+    "The listed service area includes Stratford, Kirkton, Thorndale, Embro. Include your postal code and access details in the form so the responding provider can confirm travel and scheduling for your property."
+  ]
+];
 
 export const SVC_PHOTO = {
   "water-heaters": [
@@ -318,3 +331,27 @@ export const SVC_PHOTO = {
 };
 
 export const LOCATIONS = {};
+
+// Exact-site homepage copy; existing planning checklist, FAQs and CTA are preserved.
+export const HOME = {
+  "h1": "Plumbing for St. Marys Homes",
+  "intro": "Planning plumbing work in St. Marys? Describe the leak, blocked drain, fixture change or water heater project, and note access or renovation constraints. Use the service guides to prepare a clear request; provider identity, qualifications, coverage and scheduling must be confirmed before booking.",
+  "meta": "Plumbing requests in St. Marys for leaks, drains, fixtures and water heaters. Share access and renovation details; confirm provider scope before booking.",
+  "planningIntro": "Use the <a href=\"/services/repiping/\">repiping guide</a> when comparing a branch repair with broader supply-pipe replacement. For a <a href=\"/services/fixtures-toilets/\">fixture or bathroom project</a>, share the intended layout and existing connections. If the source of moisture is uncertain, start with <a href=\"/services/leak-detection/\">leak investigation</a>. Where stone, plaster or finished rooms affect access, describe those constraints before requesting a written scope.",
+  "heading": "Scope the Work Before Booking in St. Marys",
+  "checklist": [
+    [
+      "The work you need",
+      "Compare tank and tankless options using household demand, available installation space, vent routing, and the existing unit’s connections. Plan snaking, hydro-jetting, or camera inspection according to the affected drain, recurring symptoms, and known pipe material. Assess galvanized or polybutylene piping, then plan PEX or copper routes around access, stone, plaster, and renovation sequencing."
+    ],
+    [
+      "The wider system",
+      "Coordinate tub, shower, faucet, and toilet specifications with drain locations, supply sizing, valve heights, and tile plans. Use symptoms, accessible valves, and piping plans to consider acoustic listening or pressure isolation for leaks in walls, slabs, and yard runs."
+    ],
+    [
+      "Related work to mention",
+      "Compare basin and pump capacity, outage backup, discharge routing, and backwater valve access for the property’s drainage setup. Use water test results and supply type to compare softening or filtration, including iron staging for a tested well-water concern."
+    ]
+  ],
+  "cta": "Use the form to describe the property, the symptoms and the work requested. For Stratford, Kirkton, Thorndale, Embro, include your postal code so local coverage can be checked."
+};
