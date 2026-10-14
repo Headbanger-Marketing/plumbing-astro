@@ -57,6 +57,7 @@ interface ServiceOverrideEntry {
   svc_photo_img?: string;
   cta_text?: string;
   h1?: string;
+  search_intent?: { title: string; h1: string; description: string; intro: string };
 }
 let svcOverrides: Record<string, ServiceOverrideEntry> = {};
 try {
@@ -82,7 +83,7 @@ const photoImgHtml = svcOverride.svc_photo_img ||
   `<img class="svc-photo" src="${photo.src}" alt="${photo.alt}" width="${photo.w}" height="${photo.h}" loading="lazy" decoding="async">`;
 const ctaText = svcOverride.cta_text ||
   `Describe your ${navLabelRaw.toLowerCase()} request and property in the form so the scope can be confirmed before scheduling.`;
-const h1Html = heroLine;
+const h1Html = svcOverride.search_intent?.h1 || heroLine;
 
 const breadcrumbItems: [string, string][] = [
   ['Home', '/'],
@@ -90,7 +91,7 @@ const breadcrumbItems: [string, string][] = [
 ];
 
 // brand-link-home: turn first prose occurrence of brand into a homepage link.
-let intro = introWithBrand;
+let intro = svcOverride.search_intent?.intro || introWithBrand;
 const linkBrandHome = (html: string): string => {
   for (const brand of [site.brandHtml, site.brand]) {
     const i = html.indexOf(brand);
@@ -102,8 +103,8 @@ intro = linkBrandHome(intro);
 ---
 
 <SiteLayout
-  title={title}
-  desc={`${site.brand}, ${data.meta}`}
+  title={svcOverride.search_intent?.title || title}
+  desc={svcOverride.search_intent?.description || `${site.brand}, ${data.meta}`}
   path={url}
   ogType="article"
   active="services"
