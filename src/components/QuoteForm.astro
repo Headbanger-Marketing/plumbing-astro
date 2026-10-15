@@ -16,7 +16,7 @@ interface Props {
 const {
   site,
   heading = 'Get A Free Quote',
-  sub = 'Choose email or a phone call for follow-up. Coverage and appointments require confirmation.',
+  sub = 'The team will contact you about your request. Coverage and appointments require confirmation.',
   placeholder = "e.g. Water heater leaking or drain backed up.",
   idSuffix = 'hero',
 } = Astro.props;
@@ -39,18 +39,14 @@ const interests = Object.entries(content.SVC).map(([slug, item]) => [slug, item.
       <input class="input" id={`name-${idSuffix}`} name="name" type="text" autocomplete="name" placeholder="Jane Doe" required maxlength="100" aria-describedby={`name-error-${idSuffix}`}>
       <span class="error-text" id={`name-error-${idSuffix}`}>Please enter your name.</span>
     </div>
-    <div class="field" data-field>
-      <label for={`preferred-${idSuffix}`}>How should we contact you? <span class="req">*</span></label>
-      <select class="input" id={`preferred-${idSuffix}`} name="preferred_contact" required><option value="email">Email</option><option value="phone">Phone call</option></select>
-    </div>
     <div class="field" data-field data-contact-field="email">
       <label for={`email-${idSuffix}`}>Email <span class="req">*</span></label>
       <input class="input" id={`email-${idSuffix}`} name="email" type="email" autocomplete="email" placeholder="you@email.com" required maxlength="254" aria-describedby={`email-error-${idSuffix}`}>
       <span class="error-text" id={`email-error-${idSuffix}`}>Enter a valid email address.</span>
     </div>
-    <div class="field" data-field data-contact-field="phone" hidden>
-      <label for={`phone-${idSuffix}`}>Phone <span class="req">*</span></label>
-      <input class="input" id={`phone-${idSuffix}`} name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(905) 000-0000" maxlength="40" disabled aria-describedby={`phone-error-${idSuffix}`}>
+    <div class="field" data-field data-contact-field="phone">
+      <label for={`phone-${idSuffix}`}>Phone (optional)</label>
+      <input class="input" id={`phone-${idSuffix}`} name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(905) 000-0000" maxlength="40" aria-describedby={`phone-error-${idSuffix}`}>
       <span class="error-text" id={`phone-error-${idSuffix}`}>Enter a valid phone number with at least 10 digits.</span>
     </div>
     <div class="field" data-field>
@@ -67,9 +63,8 @@ const interests = Object.entries(content.SVC).map(([slug, item]) => [slug, item.
       <div data-field><label for={`addr-${idSuffix}`}>Street Address</label><input class="input" id={`addr-${idSuffix}`} name="address" type="text" autocomplete="address-line1" placeholder="123 Main St" maxlength="254"></div>
       <div data-field><label for={`postal-${idSuffix}`}>Postal Code</label><input class="input" id={`postal-${idSuffix}`} name="postal" type="text" autocomplete="postal-code" placeholder="N1A 1A1" maxlength="7" aria-describedby={`postal-error-${idSuffix}`}><span class="error-text" id={`postal-error-${idSuffix}`}>Enter a valid Canadian postal code, or leave this blank.</span></div>
     </div></details>
-    <p class="recipient-note">Headbanger Marketing receives your request and shares it with Jayden's Mechanical for assessment. Coverage and any appointment are confirmed separately.</p>
     {site.enquirySite && <div class="field" data-field>
-      <label for={`consent-${idSuffix}`} class="quote-consent"><input id={`consent-${idSuffix}`} name="consent" type="checkbox" value="agreed" required aria-describedby={`consent-error-${idSuffix}`} /><span>I agree to share my enquiry and contact details with Headbanger Marketing and Jayden's Mechanical so the team can contact me about this request. The team will confirm service availability and any appointment. <a href="/privacy-policy/">Privacy notice</a>.</span></label>
+      <label for={`consent-${idSuffix}`} class="quote-consent"><input id={`consent-${idSuffix}`} name="consent" type="checkbox" value="agreed" required aria-describedby={`consent-error-${idSuffix}`} /><span>I agree to be contacted about my request. <a href="/privacy-policy/">Privacy notice</a>.</span></label>
       <span class="error-text" id={`consent-error-${idSuffix}`}>Please agree before sending your enquiry.</span>
     </div>}
     <button class="btn btn-primary btn-lg btn-block" type="submit" disabled><Fragment set:html={icon('send', '', 18)} /> Get A Free Quote</button>
