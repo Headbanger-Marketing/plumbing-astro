@@ -1,6 +1,6 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
-  "h1": "East Gwillimbury Plumbing Inquiries",
+  "h1": "East Gwillimbury Plumbing Pros",
   "intro": "Adding a room, fixture or appliance can expose questions about existing plumbing capacity and routes. Explain what is installed now and what you plan to add. Our enquiry team reviews East Gwillimbury requests, with provider selection and any visit confirmed afterward.",
   "meta": "Adding a room, fixture or appliance can expose questions about existing plumbing capacity and routes. Send your East Gwillimbury inquiry for review.",
   "heading": "Assessing changes where existing equipment and new rooms meet",

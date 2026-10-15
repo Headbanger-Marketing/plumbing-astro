@@ -1,6 +1,6 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
-  "h1": "Describe Your Brampton Plumbing Project",
+  "h1": "Brampton Plumbing Pros",
   "intro": "An existing drain problem and a planned basement bathroom need different information. Tell us what is already installed, what will change and which spaces are finished. Your Brampton inquiry goes for review before a provider is identified.",
   "meta": "An existing drain problem and a planned basement bathroom need different information. Send your Brampton inquiry for review.",
   "heading": "Separating basement renovation plumbing from repairs to existing fixtures",

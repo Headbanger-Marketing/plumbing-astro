@@ -1,6 +1,6 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
-  "h1": "Plumbing Plans and Inquiries in Vaughan",
+  "h1": "Vaughan Plumbing Pros",
   "intro": "A renovation quote needs more than a list of new fixtures. Share the intended layout, product specifications and what can be reached now. Our enquiry team reviews Vaughan plumbing inquiries, with the responding provider and appointment confirmed separately.",
   "meta": "A renovation quote needs more than a list of new fixtures. Send your Vaughan inquiry for review.",
   "heading": "Coordinating fixture upgrades with a planned kitchen or bathroom layout",

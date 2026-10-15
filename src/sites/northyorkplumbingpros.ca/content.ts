@@ -1,6 +1,6 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
-  "h1": "North York Plumbing Inquiries",
+  "h1": "North York Plumbing Pros",
   "intro": "Start with the affected fixture and who controls the connected plumbing. Mention a managed building, shared riser or access restriction when relevant. Our enquiry team reviews North York requests before a provider is identified or a visit can be arranged.",
   "meta": "Start with the affected fixture and who controls the connected plumbing. Send your North York inquiry for review.",
   "heading": "Identifying suite-level versus shared-system responsibility",

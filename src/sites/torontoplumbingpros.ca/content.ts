@@ -1,6 +1,6 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
-  "h1": "Plumbing Inquiries for Toronto Properties",
+  "h1": "Toronto Plumbing Pros",
   "intro": "A plumbing request is easier to review when ownership and building access are clear. Describe the fixture, leak or replacement, and note any shared system or management approval. Our enquiry team reviews your inquiry before a provider is confirmed.",
   "meta": "A plumbing request is easier to review when ownership and building access are clear. Send your Toronto inquiry for review.",
   "heading": "Coordinating work in a home with shared building systems",

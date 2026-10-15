@@ -1,6 +1,6 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
-  "h1": "Uxbridge Plumbing Requests and Planning",
+  "h1": "Uxbridge Plumbing Pros",
   "intro": "A leak at a fixture, a supply problem and an outdoor line concern need different assessments. Tell us which part of the property is affected and what systems you can identify. Our enquiry team reviews Uxbridge requests without assigning an unconfirmed provider.",
   "meta": "A leak at a fixture, a supply problem and an outdoor line concern need different assessments. Send your Uxbridge inquiry for review.",
   "heading": "Defining indoor work separately from private supply or outdoor connections",

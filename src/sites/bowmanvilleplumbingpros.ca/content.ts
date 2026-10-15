@@ -1,6 +1,6 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
-  "h1": "Bowmanville Plumbing Repair Inquiries",
+  "h1": "Bowmanville Plumbing Pros",
   "intro": "When the same plumbing symptom returns, its history can be as useful as the latest photograph. Describe previous repairs, the fixtures affected and when the issue recurs. Our enquiry team reviews Bowmanville inquiries before a provider or appointment is confirmed.",
   "meta": "When the same plumbing symptom returns, its history can be as useful as the latest photograph. Send your Bowmanville inquiry for review.",
   "heading": "Investigating recurring symptoms before choosing a larger repair",

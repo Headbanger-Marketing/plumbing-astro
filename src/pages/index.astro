@@ -18,8 +18,8 @@ const faqs = plan.faqs;
 <SiteLayout title={title} desc={desc} path="/" active="home" schemaBlocks={[schemaLocalbusiness(site), schemaFaq(faqs)]}>
 <section class="hero has-bg" style={`--hero-bg-url: url('/assets/img/${site.media?.heroImage || 'hero.webp'}')`}>
   <div class="container hero__grid">
-    <div class="hero__copy"><span class="eyebrow on-dark">{site.city}, Ontario</span><h1>{content.HOME?.h1 || `Plumbing for ${site.city} Homes`}</h1>
-      <p class="hero__sub" set:html={content.HOME?.intro || `Describe the plumbing work you need and choose the relevant service. Share the symptoms, property and access details for review.`}></p>
+    <div class="hero__copy"><h1>{site.brand}</h1><span class="eyebrow on-dark">Plumbing in {site.city} {site.regionAbbr}</span>
+      <p class="hero__sub" set:html={content.HOME?.intro || `Need plumbing help in ${site.city}? Tell us about the leak, blocked drain, fixture or water heater. A responding provider will confirm coverage and availability before booking.`}></p>
       <a class="btn btn-primary btn-lg" href="/contact/#quote">Get A Free Quote <Fragment set:html={icon('arrow-right', '', 18)} /></a>
     </div>
     <div class="hero__form"><QuoteForm site={site} /></div>

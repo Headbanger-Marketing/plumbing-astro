@@ -393,7 +393,7 @@ export const LOCATIONS = {
 
 // Exact-site homepage copy; existing planning checklist, FAQs and CTA are preserved.
 export const HOME = {
-  "h1": "Plumbing for Wingham Homes",
+  "h1": "Wingham Plumbing",
   "intro": "For plumbing in Wingham, identify whether the request concerns a drain blockage, hidden leak, fixture, water heater or water treatment. If the property uses a well or septic system, include that detail. A responding provider must confirm coverage, the work and availability before a visit.",
   "meta": "Plumbing requests in Wingham for drains, leaks, water heaters and fixtures. Include well or septic details where relevant; provider availability needs confirmation.",
   "planningIntro": "For a <a href=\"/services/drain-cleaning/\">drain problem</a>, record the affected fixtures and whether the property uses a septic system. For <a href=\"/services/water-heaters/\">water heater work</a>, share the fuel, capacity and vent route. A <a href=\"/services/water-softeners/\">water treatment request</a> should include the actual supply type and test results. These details help separate the job scopes without assuming that every property has the same plumbing or water conditions.",

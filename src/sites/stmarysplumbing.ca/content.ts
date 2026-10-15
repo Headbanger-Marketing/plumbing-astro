@@ -334,7 +334,7 @@ export const LOCATIONS = {};
 
 // Exact-site homepage copy; existing planning checklist, FAQs and CTA are preserved.
 export const HOME = {
-  "h1": "Plumbing for St. Marys Homes",
+  "h1": "St. Marys Plumbing",
   "intro": "Planning plumbing work in St. Marys? Describe the leak, blocked drain, fixture change or water heater project, and note access or renovation constraints. Use the service pages to prepare a clear request; provider identity, qualifications, coverage and scheduling must be confirmed before booking.",
   "meta": "Plumbing requests in St. Marys for leaks, drains, fixtures and water heaters. Share access and renovation details; confirm provider scope before booking.",
   "planningIntro": "Use the <a href=\"/services/repiping/\">repiping service</a> when comparing a branch repair with broader supply-pipe replacement. For a <a href=\"/services/fixtures-toilets/\">fixture or bathroom project</a>, share the intended layout and existing connections. If the source of moisture is uncertain, start with <a href=\"/services/leak-detection/\">leak investigation</a>. Where stone, plaster or finished rooms affect access, describe those constraints before requesting a written scope.",

@@ -1,6 +1,6 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
-  "h1": "Plumbing Inquiries for Caledon Homes",
+  "h1": "Caledon Plumbing Pros",
   "intro": "Tell us whether your property uses municipal services, a private water supply or an on-site wastewater system. Include the equipment and symptom details you know. Our enquiry team reviews Caledon requests without assuming a provider or a particular property setup.",
   "meta": "Tell us whether your property uses municipal services, a private water supply or an on-site wastewater system. Send your Caledon inquiry for review.",
   "heading": "Establishing the actual water supply and wastewater arrangement",

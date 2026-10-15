@@ -1,6 +1,6 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
-  "h1": "Start a Stouffville Plumbing Inquiry",
+  "h1": "Stouffville Plumbing Pros",
   "intro": "A recently occupied home may have equipment records, renovation notes or unresolved symptoms worth sharing. Describe the system you can identify and what changed after move-in. Our enquiry team reviews your Stouffville request before any provider is confirmed.",
   "meta": "A recently occupied home may have equipment records, renovation notes or unresolved symptoms worth sharing. Send your Stouffville inquiry for review.",
   "heading": "Recording equipment handover information in a recently occupied property",

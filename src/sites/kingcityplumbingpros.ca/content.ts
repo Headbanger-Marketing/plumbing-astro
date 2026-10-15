@@ -1,6 +1,6 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
-  "h1": "King City Plumbing Project Requests",
+  "h1": "King City Plumbing Pros",
   "intro": "The distance between equipment, fixtures and an accessible work area matters when defining a plumbing job. Describe the rooms involved and any separate building or unusual access. Our enquiry team reviews King City inquiries before provider coverage and scheduling are confirmed.",
   "meta": "The distance between equipment, fixtures and an accessible work area matters when defining a plumbing job. Send your King City inquiry for review.",
   "heading": "Planning work where equipment and fixtures are spread across separate spaces",

@@ -1,6 +1,6 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
-  "h1": "Port Perry Plumbing Project Inquiries",
+  "h1": "Port Perry Plumbing Pros",
   "intro": "If a property has been unused or a fixture sees occasional use, mention that history with the present symptom. Share the equipment details and access arrangements you know. Our enquiry team reviews Port Perry inquiries before any service provider or visit is confirmed.",
   "meta": "If a property has been unused or a fixture sees occasional use, mention that history with the present symptom. Send your Port Perry inquiry for review.",
   "heading": "Planning plumbing work around limited use or an extended absence",

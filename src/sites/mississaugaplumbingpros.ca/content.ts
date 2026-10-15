@@ -1,6 +1,6 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
-  "h1": "Plan Your Mississauga Plumbing Request",
+  "h1": "Mississauga Plumbing Pros",
   "intro": "Replacing a tank, faucet or toilet starts with the connections already at the property. Share model labels, photographs and access details with your Mississauga inquiry. Our enquiry team reviews the request, and provider identity and visit availability require confirmation.",
   "meta": "Replacing a tank, faucet or toilet starts with the connections already at the property. Send your Mississauga inquiry for review.",
   "heading": "Defining a replacement project before ordering fixtures or equipment",

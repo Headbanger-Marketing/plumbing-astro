@@ -1,6 +1,6 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
-  "h1": "Beaverton Plumbing Services",
+  "h1": "Beaverton Plumbing Pros",
   "intro": "A small repair still needs a clear symptom and an accessible work area. Describe the affected fixture, equipment or pipe and any limits on access. Our enquiry team reviews Beaverton requests before coverage, provider identity and scheduling are agreed.",
   "meta": "A small repair still needs a clear symptom and an accessible work area. Send your Beaverton inquiry for review.",
   "heading": "Making the investigation and equipment access explicit in a small project",

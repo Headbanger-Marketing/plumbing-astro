@@ -422,7 +422,7 @@ export const LOCATIONS = {
 
 // Exact-site homepage copy; existing planning checklist, FAQs and CTA are preserved.
 export const HOME = {
-  "h1": "Plumbing for Windsor Homes",
+  "h1": "Windsor Plumbing",
   "intro": "Looking for a Windsor plumber for a blocked drain, hidden leak, fixture replacement or water heater project? Describe the symptoms and access, then use the service details below to compare the work. The responding provider must confirm scope, coverage and appointment availability before booking.",
   "meta": "Looking for a Windsor plumber? Describe drain, leak, fixture or water heater work. Provider scope, coverage and scheduling require confirmation.",
   "planningIntro": "Review service details for <a href=\"/services/drain-cleaning/\">drain cleaning</a>, <a href=\"/services/leak-detection/\">leak investigation</a> or <a href=\"/services/water-heaters/\">water heater replacement</a> according to the problem. Note which fixtures are affected, whether it recurs and what equipment or cleanouts can be accessed. A blockage, damaged pipe and supply leak need different assessments; confirm the proposed investigation and written scope before work is arranged.",
