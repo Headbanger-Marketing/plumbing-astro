@@ -219,7 +219,7 @@ def output_files(dist, domain):
         name = path.relative_to(dist).as_posix()
         if not safe_path(name):
             raise ValueError('Unsafe built path: ' + name)
-        if name.startswith('assets/wordmarks/') and not Path(name).name.startswith(domain + '.') and not Path(name).name.startswith(domain + '-'):
+        if engine() != 'electrical-astro' and name.startswith('assets/wordmarks/') and not Path(name).name.startswith(domain + '.') and not Path(name).name.startswith(domain + '-'):
             continue
         if name.startswith('assets/brand-media/') and not Path(name).name.startswith(domain + '-'):
             continue
