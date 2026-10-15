@@ -202,6 +202,14 @@ class WorkerTests(unittest.TestCase):
         with patch.object(W,'mirror_head',return_value=(self.state/'mirror',A)):
             self.assertEqual(W.tick(self.state,retry=self.name)[0]['status'],'operator-hold')
         self.assertTrue(W.read(self.path)['operator_hold'])
+    def test_documentation_run_preserves_last_deployable_release(self):
+        record=W.read(self.path);record['last_release']='verified-production-release';W.save(self.path,record)
+        with patch.object(W,'mirror_head',return_value=(self.state/'mirror',B)),patch.object(W,'git',return_value=''),\
+             patch.object(W,'github_status'),patch.object(W,'clean_source'),\
+             patch.object(W.subprocess,'run',return_value=types.SimpleNamespace(returncode=0)):
+            self.assertEqual(W.tick(self.state)[0]['status'],'no-site-changes')
+        record=W.read(self.path);self.assertEqual(record['last_release'],'verified-production-release')
+        self.assertIn('last_run',record);self.assertEqual(record['last_processed_source'],B)
 
 class RollbackLockTests(unittest.TestCase):
     def setUp(self):

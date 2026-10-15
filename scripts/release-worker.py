@@ -142,7 +142,9 @@ def tick(state, *, retry=None, rehearsal=None, rehearsal_all=False, publish=True
             save(release/'worker-result.json',result)
             if result['status'] not in ('verified','no-site-changes','ready'):raise ValueError('Incomplete release')
             if not rehearsal and publish:
-                record.update(last_processed_source=sha,last_verified_source=sha,last_release=str(release),blocked=False)
+                record.update(last_processed_source=sha,last_verified_source=sha,last_run=str(release),blocked=False)
+                if any(read(release/domain/'receipt.json',{}).get('status')=='published' for domain in result['domains']):
+                    record['last_release']=str(release)
                 record.pop('pending',None);record.pop('error',None);save(record_path,record)
             elif rehearsal:
                 record['rehearsal']={'release':str(release),'status':result['status'],'source_commit':sha,'full_scope':rehearsal_all,'domains':len(result['domains'])}

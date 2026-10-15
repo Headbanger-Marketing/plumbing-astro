@@ -158,7 +158,9 @@ def run_release(release, base, allowed, *, publish=False, domains=None, require_
     require_no_changes = require_no_changes or operational_only(changes)
     selected=sorted(set(domains)) if domains else scope(changes,live,policy['canaries'])
     if any(d not in live for d in selected):raise ValueError('Unregistered or staged publication target')
-    if not selected:return {'status':'no-site-changes','source_commit':sha,'domains':[]}
+    if not selected:
+        result={'status':'no-site-changes','source_commit':sha,'base_commit':base,'builder':DEPLOY.engine(),'domains':[],'changed_paths':changes}
+        save(release/'release.json',result);return result
     manifest_path=release/'release.json'
     if manifest_path.exists():
         manifest=json.loads(manifest_path.read_text())
