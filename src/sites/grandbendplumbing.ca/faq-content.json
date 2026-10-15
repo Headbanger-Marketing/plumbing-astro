@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "For repiping in Grand Bend, how should I map difficult routes?",
+      "a": "If the property has low crawlspaces, later additions, or a separate pump room, document access and the locations of visible supply lines. These constraints can change routing, labor, and the areas that may need opening or repair. Ask for the proposed path of new piping through each difficult section before comparing scopes.",
+      "source": "src/sites/grandbendplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How should I coordinate additions and rough-ins in Grand Bend?",
+      "a": "For a bunkie, bathroom addition, or new build, provide the fixture layout and construction stage before work is scoped. Supply and drain positions can affect framing, access, and the sequence of other trades. Ask which rough-in details, approvals, or inspections need to be confirmed for the project and what documentation will be provided.",
+      "source": "src/sites/grandbendplumbing.ca/content.ts#SVC.fixtures-toilets.features[2]"
+    },
+    {
+      "q": "How should I set opening and closing checks before work in Grand Bend?",
+      "a": "For a seasonal property, ask what should be inspected when reopening and closing the home. A check may include pump operation, the pit, discharge routing, and backup equipment, depending on the installation. Share the property’s vacancy dates and access arrangements so any proposed schedule reflects the owner’s needs rather than an assumed rental calendar.",
+      "source": "src/sites/grandbendplumbing.ca/content.ts#SVC.sump-pumps.features[2]"
+    },
+    {
+      "q": "What should I know before using results to choose treatment in Grand Bend?",
+      "a": "If well water leaves orange staining, obtain test results and ask which measured condition a proposed treatment addresses. Iron treatment may require staged equipment, while a softener addresses a different set of water characteristics. Confirm the intended treatment, maintenance needs, and operating limits before choosing a system or promising a particular result.",
+      "source": "src/sites/grandbendplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "How do I match work to older pipe for my Grand Bend project?",
+      "a": "If the property has older or mixed pipe materials, identify any known repairs and share photos of accessible sections before choosing a cleaning method. Pipe condition can affect whether snaking or jetting is appropriate. Ask how the method will be selected for that line, rather than assuming all cottage-era piping can tolerate the same equipment.",
+      "source": "src/sites/grandbendplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    }
+  ],
+  "locations": {
+    "port-franks": [
+      {
+        "q": "What should I compare for a cottage water heater in Port Franks?",
+        "a": "Note the busiest expected hot-water use, current heater details, fuel, venting, and vacancy plans. Compare tank and tankless options against those requirements, and ask what freeze precautions apply to the specific installation.",
+        "source": "src/sites/grandbendplumbing.ca/content.ts#LOCATIONS.port-franks.faq[0]"
+      },
+      {
+        "q": "What information helps scope repiping an older cottage?",
+        "a": "Photograph accessible pipe markings, crawlspaces, additions, and pump rooms. If galvanized or polybutylene pipe is present, ask how its condition and access affect a proposed PEX or copper route, testing, and any required inspection steps.",
+        "source": "src/sites/grandbendplumbing.ca/content.ts#LOCATIONS.port-franks.faq[1]"
+      },
+      {
+        "q": "How can an off-site owner plan a leak investigation?",
+        "a": "Provide access instructions, the date the property was last checked, and photos of the damage or meter if available. Ask what findings and repair costs will be documented before authorizing work beyond the investigation.",
+        "source": "src/sites/grandbendplumbing.ca/content.ts#LOCATIONS.port-franks.faq[2]"
+      },
+      {
+        "q": "What should be checked when comparing sump systems?",
+        "a": "Record pit dimensions, the pump label, power arrangements, and the discharge outlet. Ask how observed water flow affects pump selection and whether battery backup or seasonal checks suit the property.",
+        "source": "src/sites/grandbendplumbing.ca/content.ts#LOCATIONS.port-franks.faq[3]"
+      },
+      {
+        "q": "How should I plan a seasonal conversion at my Port Franks property?",
+        "a": "If a cottage is changing to year-round use, list the rooms and fixtures expected to remain in service through winter. Ask whether the existing supply layout and exposed runs suit that use, and how the proposed PEX or copper routes account for them. The intended occupancy can change which areas and lines are included.",
+        "source": "src/sites/grandbendplumbing.ca/content.ts#SVC.repiping.features[1]"
+      }
+    ],
+    "thedford": [
+      {
+        "q": "What should I provide when comparing water heater options?",
+        "a": "Share the current unit’s label, fuel, venting, and household hot-water demand. Ask how tank and tankless options differ for the property and what installation details affect the quote.",
+        "source": "src/sites/grandbendplumbing.ca/content.ts#LOCATIONS.thedford.faq[0]"
+      },
+      {
+        "q": "How should I prepare for a recurring drain assessment?",
+        "a": "List the affected fixtures, how often the clog returns, and any changes in nearby drains. Ask whether the line’s condition permits hydro-jetting and whether camera inspection could help identify the cause.",
+        "source": "src/sites/grandbendplumbing.ca/content.ts#LOCATIONS.thedford.faq[1]"
+      },
+      {
+        "q": "What information is useful before choosing well-water treatment?",
+        "a": "Confirm that the property uses a private well and obtain current test results. Ask which measured conditions a proposed softener, iron filter, or other treatment is intended to address, along with its maintenance needs.",
+        "source": "src/sites/grandbendplumbing.ca/content.ts#LOCATIONS.thedford.faq[2]"
+      },
+      {
+        "q": "What should I do before requesting urgent plumbing help?",
+        "a": "Describe the issue, affected fixtures, water shutoff status, and any visible damage. Provide the property location and access details, then confirm the scope and timing directly rather than assuming availability.",
+        "source": "src/sites/grandbendplumbing.ca/content.ts#LOCATIONS.thedford.faq[3]"
+      },
+      {
+        "q": "For fixture installation in Thedford, how should I select fixtures for heavy use?",
+        "a": "If a rental or larger household will use the fixtures frequently, compare toilet flush requirements and faucet cartridge serviceability before choosing products. Ask whether the selected models suit the existing supply and drain connections, and what parts may need access for future maintenance. Fixture choice can affect both installation details and replacement options.",
+        "source": "src/sites/grandbendplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+      }
+    ]
+  }
+}

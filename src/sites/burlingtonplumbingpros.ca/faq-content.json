@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How can I identify the existing pipe before choosing materials at my Burlington property?",
+      "a": "If exposed piping is grey polybutylene or visibly corroded galvanized steel, photograph its markings, fittings, and route. Ask whether the assessment covers only the visible section or the connected system. PEX or copper may be options, but layout, connection details, and water conditions can affect material selection and the work needed.",
+      "source": "src/sites/burlingtonplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How should I assess under-slab location methods in Burlington?",
+      "a": "If a leak may be below a slab, ask whether warm-water lines make thermal imaging useful and whether acoustic equipment can help locate escaping water. Each method has limits and depends on the pipe and site conditions. Confirm how a suspected location will be marked and what opening size or concrete work may be required before approving access.",
+      "source": "src/sites/burlingtonplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "How should I plan well-water treatment in stages at my Burlington property?",
+      "a": "If a private well tests high for iron, manganese, or sulphur-related concerns, ask which treatment stages address the measured results. A softener, oxidizing filter, and UV unit perform different functions and should not be treated as interchangeable. Confirm the test results each component is intended to address and what follow-up testing or maintenance may be needed.",
+      "source": "src/sites/burlingtonplumbingpros.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "What should I check about equipment fit and connections in Burlington?",
+      "a": "Photograph the existing rating plate, shutoffs, vent, drain pan, and surrounding clearances. Share those details when requesting a replacement plan. Tank size, fuel, venting, and access can change the work required; a tankless conversion may require additional changes that a like-for-like tank replacement does not.",
+      "source": "src/sites/burlingtonplumbingpros.ca/content.ts#SVC.water-heaters.features[1]"
+    },
+    {
+      "q": "What matters when choosing a method for the obstruction for a Burlington property?",
+      "a": "If grease, soap, or scale is restricting a line, ask whether water jetting is suitable for the pipe material and condition. If roots or a solid obstruction are suspected, mechanical cutting may be considered instead. The equipment choice matters because clearing the immediate blockage and cleaning accumulated deposits are different scopes.",
+      "source": "src/sites/burlingtonplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    }
+  ],
+  "locations": {}
+}

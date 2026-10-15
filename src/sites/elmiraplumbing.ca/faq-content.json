@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "What should I check about the well system in sections in Elmira?",
+      "a": "If a well pump cycles unexpectedly or pressure changes, note the timing and whether fixtures are in use. Gather pump and pressure-tank model details if available. Ask how the system could be isolated into sections before excavation is considered. Comparing pressure behaviour across sections can help distinguish a plumbing leak from another issue in the well system.",
+      "source": "src/sites/elmiraplumbing.ca/content.ts#SVC.leak-detection.features[0]"
+    },
+    {
+      "q": "What should I consider about the downstream system before arranging work in Elmira?",
+      "a": "If the property uses a septic system, identify its layout and where the affected drain connects. Ask how the proposed clearing method and debris removal will account for the tank and downstream components. This information can change the appropriate equipment and access plan. Do not assume every blockage can be cleared safely in the same way on a septic-connected property.",
+      "source": "src/sites/elmiraplumbing.ca/content.ts#SVC.drain-cleaning.features[1]"
+    },
+    {
+      "q": "How do I match capacity to water use for my Elmira project?",
+      "a": "Record the heater's model, fuel, capacity, and recovery rating, then note how many fixtures may draw hot water at once. If the property has a well and pressure tank, include their specifications for review. These details help compare tank size and tankless output against actual demand rather than relying on a general household estimate.",
+      "source": "src/sites/elmiraplumbing.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For repiping in Elmira, how should I map different generations of pipe?",
+      "a": "Draw a simple plan of the house and additions, marking visible pipe material, shutoffs, and fixtures with recurring problems. If separate eras use different materials, ask how a proposal would connect or replace each section. A clear map helps determine whether a unified system is practical and where concealed piping needs further inspection before the scope is finalized.",
+      "source": "src/sites/elmiraplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How should I separate iron, sulphur, and bacteria questions when planning work in Elmira?",
+      "a": "Record whether the concern is staining, odour, or a bacteria result, and bring the relevant test information to the equipment discussion. Iron and sulphur treatment and UV disinfection address different conditions. Ask what each stage is intended to treat and what maintenance it needs. That comparison helps avoid treating an observed symptom as proof of a particular water-quality problem.",
+      "source": "src/sites/elmiraplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    }
+  ],
+  "locations": {}
+}

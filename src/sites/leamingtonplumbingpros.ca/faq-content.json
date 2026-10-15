@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "How should I plan seasonal plumbing changes at my Leamington property?",
+      "a": "If a cottage or other property is shut down seasonally, identify the shutoffs, low points, and fixtures that need draining before winter. Ask whether the proposed repipe includes accessible isolation points and drain locations, and how those features suit the building layout. This can affect routing and fixture connections; confirm the intended winterization steps rather than assuming every system drains the same way.",
+      "source": "src/sites/leamingtonplumbingpros.ca/content.ts#SVC.repiping.features[1]"
+    },
+    {
+      "q": "Why should I include septic layout in the plan in my Leamington request?",
+      "a": "If the property uses septic, photograph available access points and note the known direction and route of the building drain. Ask how the proposed cleaning method relates to the pipe leading toward the septic system and which sections will be worked on. This helps clarify the scope and avoids treating a fixture blockage as if the entire system were inspected.",
+      "source": "src/sites/leamingtonplumbingpros.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "For leak detection in Leamington, how should I inspect after seasonal shutdown?",
+      "a": "If a cottage, bunkhouse, or other building has been left unheated or unused, list the shutoffs, drained fixtures, and any areas where water was left in the lines. Photograph visible connections before reopening and note when pressure is restored. Ask for vulnerable sections to be checked systematically; a seasonal history can guide inspection, but it does not establish that a freeze break has occurred.",
+      "source": "src/sites/leamingtonplumbingpros.ca/content.ts#SVC.leak-detection.features[2]"
+    },
+    {
+      "q": "How can I compare fixtures for frequent use for a Leamington property?",
+      "a": "For a rental or other frequently used space, compare replacement parts, valve access, cleaning requirements, and the manufacturer’s service information for each fixture. Ask how the selected toilet, faucet, and shutoffs fit the existing rough-ins. A product’s intended use and access for future maintenance can change both the equipment choice and installation scope; do not rely on a generic durability label alone.",
+      "source": "src/sites/leamingtonplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[1]"
+    },
+    {
+      "q": "What should I consider when sizing the system to peak use in Leamington?",
+      "a": "List the fixtures likely to run together, such as showers, laundry, and kitchen taps, and note how many people use them. A household with overlapping demand may need a different capacity or recovery rate than one with occasional use. Share those details when comparing tanks and tankless models so the selection reflects the property rather than an assumption based on its address.",
+      "source": "src/sites/leamingtonplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    }
+  ],
+  "locations": {
+    "wheatley": [
+      {
+        "q": "What information helps plan a water heater replacement in Wheatley?",
+        "a": "Photograph the rating plate, venting, connections, and available space. Note household hot-water use and whether the building is seasonal. Those details help compare capacity, fuel, installation requirements, and shutdown needs.",
+        "source": "src/sites/leamingtonplumbingpros.ca/content.ts#LOCATIONS.wheatley.faq[0]"
+      },
+      {
+        "q": "How should I compare water treatment options for a Wheatley property?",
+        "a": "First identify whether the supply is municipal or a private well. For a well, gather a recent test report; then compare equipment only against the measured results and its maintenance requirements.",
+        "source": "src/sites/leamingtonplumbingpros.ca/content.ts#LOCATIONS.wheatley.faq[1]"
+      },
+      {
+        "q": "What should I record before investigating a recurring drain blockage?",
+        "a": "Note which fixtures are affected, how often the blockage returns, and whether other drains back up. If the property has septic, share the known layout and ask whether camera inspection is appropriate.",
+        "source": "src/sites/leamingtonplumbingpros.ca/content.ts#LOCATIONS.wheatley.faq[2]"
+      },
+      {
+        "q": "How can I plan plumbing work around an urgent leak or backup?",
+        "a": "Describe where water is appearing, when it started, and what fixtures or equipment are involved. Share photographs and any shutoff or pump information. These facts help clarify the issue and the next steps to discuss.",
+        "source": "src/sites/leamingtonplumbingpros.ca/content.ts#LOCATIONS.wheatley.faq[3]"
+      },
+      {
+        "q": "For leak detection in Wheatley, how should I test long or buried supply runs in sections?",
+        "a": "If the property has a well or a long buried water line, sketch the route and mark accessible shutoffs or known repairs. Ask whether the line can be isolated into sections for pressure testing and how results will distinguish a loss inside the building from one along the yard. The route and available isolation points affect both the investigation and the likely repair access.",
+        "source": "src/sites/leamingtonplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+      }
+    ],
+    "pelee-island": [
+      {
+        "q": "How should I plan a plumbing visit to Pelee Island?",
+        "a": "Confirm the property location, access, ferry timing, and work needed before setting a schedule. Share photographs and equipment details in advance so the proposed scope can be reviewed against the travel plan.",
+        "source": "src/sites/leamingtonplumbingpros.ca/content.ts#LOCATIONS.pelee-island.faq[0]"
+      },
+      {
+        "q": "What should be checked when winterizing an island cottage?",
+        "a": "List the shutoffs, low points, fixtures, traps, and any equipment that must be drained or protected. Ask for the intended winterization steps to be documented, then plan a spring reopening that includes checking connections and pressure.",
+        "source": "src/sites/leamingtonplumbingpros.ca/content.ts#LOCATIONS.pelee-island.faq[1]"
+      },
+      {
+        "q": "What information is needed before considering treatment for island well water?",
+        "a": "Obtain a current water test and identify the water source and household use. Softeners, iron filters, sulphur systems, and UV treatment address different conditions, so compare them only with relevant test results.",
+        "source": "src/sites/leamingtonplumbingpros.ca/content.ts#LOCATIONS.pelee-island.faq[2]"
+      },
+      {
+        "q": "How can an island property prepare for a leak or loss of water?",
+        "a": "Record shutoff locations, take photographs of the affected equipment, and note whether the issue involves a leak, a pump, or the supply. Travel and crossing arrangements may affect timing, so discuss the property details and practical next steps.",
+        "source": "src/sites/leamingtonplumbingpros.ca/content.ts#LOCATIONS.pelee-island.faq[3]"
+      },
+      {
+        "q": "For repiping in Pelee Island, how should I map materials before replacing them?",
+        "a": "Ask for a room-by-room outline of which pipe materials are visible, which sections are proposed for replacement, and how the new work will connect to existing lines. Photograph accessible markings and fittings to support that discussion. Mixed materials and concealed splices can change the access and connection work, so a clear route is more useful than a quote that only names a pipe material.",
+        "source": "src/sites/leamingtonplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+      }
+    ]
+  }
+}

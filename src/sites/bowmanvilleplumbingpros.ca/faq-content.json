@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For a property in Bowmanville, why has the same drain symptom returned?",
+      "a": "Ask the provider to relate any new recording or observation to the same fixture history and access point. Request the evidence behind a repair recommendation before treating recurrence as proof of damaged pipe. The estimate should distinguish another clearing attempt, further inspection and any supported structural work.",
+      "source": "src/sites/bowmanvilleplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "For a property in Bowmanville, does installed treatment match the recorded water concern?",
+      "a": "Ask the provider whether the installed device is matched to a measured concern and whether its service condition has been assessed. Compare correction of the existing configuration with any added treatment, including ongoing consumables and access. A recurring visual symptom alone should not be treated as a water-quality conclusion or proof that another appliance is needed.",
+      "source": "src/sites/bowmanvilleplumbingpros.ca/content.ts#SVC.water-softeners.features[0]"
+    },
+    {
+      "q": "For a property in Bowmanville, what happened after the earlier heater repair?",
+      "a": "Ask the provider what observation or measurement would distinguish an unresolved fault from a change in hot-water use. Compare repair and replacement against that finding. An estimate should identify which prior components would remain, what connection work changes and what the proposed option is intended to address.",
+      "source": "src/sites/bowmanvilleplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For a property in Bowmanville, do documented leaks support a wider replacement?",
+      "a": "Ask the provider to map the verified events and the materials associated with them, noting concealed sections that remain unknown. Compare a sectional repair with wider work by evidence, access and restoration. A replacement boundary should be explained in relation to the connected pipe, not only the count of previous repairs.",
+      "source": "src/sites/bowmanvilleplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For a property in Bowmanville, which fixture parts have already been changed?",
+      "a": "Ask the provider to distinguish a failed fixture component from a connection or system condition that a new product might leave unresolved. Compare the supported repair with a replacement and the connection changes it would need. The scope should explain the purpose of the proposed option rather than assume the latest symptom requires another identical part.",
+      "source": "src/sites/bowmanvilleplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    }
+  ],
+  "locations": {}
+}

@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For a property in Toronto, does the blockage involve a shared stack?",
+      "a": "Ask the provider to name the pipe section reached from the proposed access point and explain what that assessment can establish. A cleared suite branch does not demonstrate the condition of a shared stack. If the apparent problem lies outside your authority, establish the management contact before approving further work on the common route.",
+      "source": "src/sites/torontoplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "For a property in Toronto, could the moisture originate beyond your room?",
+      "a": "Ask how the investigation would use the pattern of moisture and controlled access to distinguish your fixture, another suite and a common pipe. Request the findings before agreeing to repair the presumed source. Any opening should have an authorizing contact and an agreed restoration boundary, especially where finishes or services are shared.",
+      "source": "src/sites/torontoplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+    },
+    {
+      "q": "For a property in Toronto, who controls the heater and its delivery route?",
+      "a": "The respondent should identify whether the estimate concerns your own unit or common equipment, and what authorization is needed for isolation. An elevator reservation or mechanical-room key is a practical dependency, not evidence that a proposed tank or tankless model will fit. Ask for the proposed equipment and building coordination to appear as distinct items.",
+      "source": "src/sites/torontoplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For a property in Toronto, where does a suite branch meet building pipe?",
+      "a": "Request a route sketch that distinguishes retained riser connections from the sections being replaced, and ask how isolation will be authorized. The estimate should also identify which wall faces or ceilings would be opened. A plumbing scope and a building shutdown arrangement can have different approvals, costs and timing.",
+      "source": "src/sites/torontoplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For a property in Toronto, will the selected fixture fit the managed space?",
+      "a": "Ask the provider to compare the fixture specification with the actual mounting, supply and waste positions before treating it as a replacement in place. If management approval applies, establish who will obtain it. Delivery access should not be mistaken for confirmation that the fixture is technically suitable.",
+      "source": "src/sites/torontoplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    }
+  ],
+  "locations": {}
+}

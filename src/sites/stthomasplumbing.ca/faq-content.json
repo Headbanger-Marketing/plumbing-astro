@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "How should I assess slab and underground lines in St. Thomas?",
+      "a": "If a leak may be beneath a slab or underground, note where dampness or other signs appear and whether they change with water use. Ask how the line will be located and whether the proposed solution is a direct repair or rerouting. The pipe route, access, and condition determine the excavation or interior work needed, so request those details before comparing options.",
+      "source": "src/sites/stthomasplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "What should I review about rough-ins before finishing walls in St. Thomas?",
+      "a": "For a new build or basement bathroom, confirm fixture locations and selections before supply and drain lines are roughed in. Ask how the proposed connections relate to the chosen toilet, sink, tub, or shower, and have the layout reviewed before drywall goes up. Changes made after surfaces are closed can require additional access and alter the project scope.",
+      "source": "src/sites/stthomasplumbing.ca/content.ts#SVC.fixtures-toilets.features[2]"
+    },
+    {
+      "q": "How do I match filtration to the water concern for my St. Thomas project?",
+      "a": "Softening and filtration address different water characteristics. If testing or a specific concern points to sediment or taste, ask whether a whole-home sediment or carbon filter is suitable. For a property with a well, ask whether UV treatment is relevant to its test results; for drinking-water treatment, compare an under-sink reverse-osmosis system and its separate connections.",
+      "source": "src/sites/stthomasplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "What should I review about the replacement scope in St. Thomas?",
+      "a": "Photograph the existing heater’s rating plate, piping, vent, and the path into the mechanical room. Ask whether the quote includes removal of the old unit, reconnection, venting changes, and testing. If access is restricted or the existing vent differs from the proposed equipment’s requirements, the work may need additional preparation and a revised scope.",
+      "source": "src/sites/stthomasplumbing.ca/content.ts#SVC.water-heaters.features[2]"
+    },
+    {
+      "q": "What should I review about backwater valve suitability in St. Thomas?",
+      "a": "A backwater valve is intended to reduce the risk of sewer water flowing back through a connected drain. Ask whether the home’s sewer connection and plumbing layout suit one, where access would be needed, and what maintenance access must remain clear. Confirm which approvals or inspections may apply to the proposed work rather than assuming every basement requires the same arrangement.",
+      "source": "src/sites/stthomasplumbing.ca/content.ts#SVC.sump-pumps.features[2]"
+    }
+  ],
+  "locations": {
+    "aylmer": [
+      {
+        "q": "How should I plan water treatment for a property on a well?",
+        "a": "Start with a recent test of the property’s water and identify the specific concern, such as hardness, iron, or another measured characteristic. Ask which treatment addresses that result and whether equipment needs to be staged in a particular order. Household use, drainage, and installation space can affect the proposed system.",
+        "source": "src/sites/stthomasplumbing.ca/content.ts#LOCATIONS.aylmer.faq[0]"
+      },
+      {
+        "q": "What should I check before replacing a rented water heater?",
+        "a": "Review the rental agreement and ask the rental provider about buyout or return requirements before selecting a replacement. Photograph the heater’s label, fuel connection, vent, and surrounding space. The unit type and existing connections help determine whether a similar replacement or a different tank or tankless setup is feasible.",
+        "source": "src/sites/stthomasplumbing.ca/content.ts#LOCATIONS.aylmer.faq[1]"
+      },
+      {
+        "q": "What information helps assess basement water protection?",
+        "a": "Photograph the sump pit, pump label, discharge route, and any visible water-entry points. Note when water has appeared and whether power outages were involved. If a backwater valve is being considered, ask for an assessment of the sewer connection, drain layout, and any applicable approval requirements.",
+        "source": "src/sites/stthomasplumbing.ca/content.ts#LOCATIONS.aylmer.faq[2]"
+      },
+      {
+        "q": "What matters when choosing a suitable clearing method for a Aylmer property?",
+        "a": "Snaking can break through or retrieve an obstruction, while hydro-jetting sends pressurized water through the pipe to remove grease, soap residue, and other buildup. Ask which method suits the pipe material and condition, and whether access is available. If older or damaged piping is suspected, that should be considered before using a high-pressure method.",
+        "source": "src/sites/stthomasplumbing.ca/content.ts#SVC.drain-cleaning.features[0]"
+      },
+      {
+        "q": "How should I plan toilet and faucet replacements at my Aylmer property?",
+        "a": "For a toilet or faucet swap, photograph the existing fixture, shutoff, and visible supply connections. Check the new fixture’s dimensions and connection requirements, then ask whether the scope includes removing the old unit, sealing, and testing for leaks. If the shutoff is difficult to reach or the connections appear worn, mention that before comparing quotes because it may affect the work.",
+        "source": "src/sites/stthomasplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+      }
+    ],
+    "london": [
+      {
+        "q": "How can I assess repiping for an older home?",
+        "a": "Photograph accessible pipe markings and list which fixtures show symptoms. Ask whether the proposed work covers one branch or a whole-home repipe, and compare PEX and copper routes, wall access, and any applicable inspection requirements. The visible pipe may not show the material or condition of every concealed section.",
+        "source": "src/sites/stthomasplumbing.ca/content.ts#LOCATIONS.london.faq[0]"
+      },
+      {
+        "q": "What should I know before considering a backwater valve?",
+        "a": "Ask for an assessment of the home’s sewer connection and drain layout, and confirm what approvals or inspections may apply. If a local flood-protection program may be relevant, check current eligibility and application details with the municipality. A valve’s suitability and installation scope depend on the property, not just its location.",
+        "source": "src/sites/stthomasplumbing.ca/content.ts#LOCATIONS.london.faq[1]"
+      },
+      {
+        "q": "What information helps plan a water heater replacement?",
+        "a": "Share the current unit’s label, fuel source, venting, connections, and available installation space. If the heater is rented, review the agreement and buyout terms first. Compare tank capacity or tankless flow rate with household demand, and ask whether changes to venting or connections are included in the proposed scope.",
+        "source": "src/sites/stthomasplumbing.ca/content.ts#LOCATIONS.london.faq[2]"
+      },
+      {
+        "q": "When is a camera inspection useful for a recurring drain backup?",
+        "a": "If the same line backs up repeatedly, ask whether a camera can identify buildup, root intrusion, or another pipe issue. Snaking or hydro-jetting may be suitable depending on the obstruction and pipe condition, but inspection findings can change the recommended work. Share dates of prior blockages and any previous clearing.",
+        "source": "src/sites/stthomasplumbing.ca/content.ts#LOCATIONS.london.faq[3]"
+      },
+      {
+        "q": "How should I plan detection before opening surfaces at my London property?",
+        "a": "Acoustic listening equipment, thermal imaging, and camera inspection can provide different clues about a leak. Share photos, the suspected area, and any changes in water use, then ask which method is suitable and what it can establish. A clearer location may help focus an opening, although access and the source of the water can still affect the repair footprint.",
+        "source": "src/sites/stthomasplumbing.ca/content.ts#SVC.leak-detection.features[0]"
+      }
+    ]
+  }
+}

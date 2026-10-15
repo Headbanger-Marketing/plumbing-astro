@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "What should I know before using the property’s well test in Lucan?",
+      "a": "If the home has a private well, provide a current laboratory report and ask which findings drive each equipment choice. Well results can vary between properties, so a regional assumption is not a substitute for testing. Confirm whether additional tests are needed before selecting iron, sulphur, softening, or ultraviolet treatment.",
+      "source": "src/sites/lucanplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "How should I trace buried feeds to outbuildings before work in Lucan?",
+      "a": "If a barn, milk house, or other outbuilding has a buried water feed, provide its route, shutoff locations, and any visible wet areas. Ask how the suspected section will be located before excavation. A defined failure point can help limit digging, while uncertain routing or access may change the repair scope.",
+      "source": "src/sites/lucanplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "Why should I include well and pressure equipment in my Lucan request?",
+      "a": "If the property is well-fed, note how quickly the well recovers and whether pressure fluctuates. Ask whether the pressure tank and controls will be checked as part of the water-heater assessment. Low recovery or a waterlogged pressure tank can contribute to frequent cycling, which may change the recommended scope and equipment selection.",
+      "source": "src/sites/lucanplumbing.ca/content.ts#SVC.water-heaters.features[2]"
+    },
+    {
+      "q": "How should I plan routes around existing construction at my Lucan property?",
+      "a": "Photograph basement walls, joists, and finished areas, and ask where new piping would run. If the home has fieldstone foundations or restricted cavities, compare accessible, serviceable routes with concealed alternatives. The route affects access, future maintenance, and any finish work, so it should be clear before estimates are compared.",
+      "source": "src/sites/lucanplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How can I identify septic-system connections at my Lucan property?",
+      "a": "If the drain runs to a septic tank or bed, provide the system layout if available and identify cleanouts and prior service points. Ask how the proposed cleaning accounts for the tank and field. Avoid assuming chemicals are a substitute for mechanical cleaning; the destination and condition of the line can influence appropriate handling.",
+      "source": "src/sites/lucanplumbing.ca/content.ts#SVC.drain-cleaning.features[1]"
+    }
+  ],
+  "locations": {}
+}

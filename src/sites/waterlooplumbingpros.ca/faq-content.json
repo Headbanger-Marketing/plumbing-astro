@@ -1,0 +1,112 @@
+{
+  "home": [
+    {
+      "q": "How should I plan for tile and slab access at my Waterloo property?",
+      "a": "If the suspected line is beneath a basement slab or behind shower tile, identify the affected area and share any available plumbing plans. Ask how the location will be confirmed and whether repair could involve rerouting or excavation. The pipe’s position and the finish above it change the access plan and repair scope.",
+      "source": "src/sites/waterlooplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "How should I plan access before opening walls at my Waterloo property?",
+      "a": "Photograph exposed piping, cabinets, plaster, tile, and millwork near the proposed route. Ask where access openings are expected and what wall or finish restoration is included. In an older home with delicate finishes, a planned route and limited openings can change the scope and the disruption to the room.",
+      "source": "src/sites/waterlooplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How should I plan checks around tenancies at my Waterloo property?",
+      "a": "For a rental turnover, list slow fixtures and prior drain calls before the next occupant moves in. Ask which branches will be inspected or cleaned and whether any recommendation is based on camera evidence. This creates a useful maintenance record and helps distinguish routine cleaning from work on a recurring main-line issue.",
+      "source": "src/sites/waterlooplumbingpros.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "How should I assess the existing pump and pit in Waterloo?",
+      "a": "Photograph the pit, pump label, float, discharge pipe, and any high-water marks. Ask how the pump’s capacity will be compared with the pit and observed inflow, and whether the discharge route is suitable. If a replacement pump is being considered, those details help distinguish a like-for-like change from a system upgrade.",
+      "source": "src/sites/waterlooplumbingpros.ca/content.ts#SVC.sump-pumps.features[0]"
+    },
+    {
+      "q": "What should I check about replacement constraints in Waterloo?",
+      "a": "Photograph the data plate, shutoffs, vent route, and clearances around the existing heater. Ask whether the proposed replacement uses the same fuel and venting arrangement, and whether access through the mechanical room is adequate. A change in equipment type or location can add work beyond exchanging the unit.",
+      "source": "src/sites/waterlooplumbingpros.ca/content.ts#SVC.water-heaters.features[1]"
+    }
+  ],
+  "locations": {
+    "conestogo": [
+      {
+        "q": "What should I compare when replacing a water heater in Conestogo?",
+        "a": "Record the existing model, fuel, venting, connections, and available space. Compare tank and tankless options against household peak demand, and ask whether a change in type would alter the installation scope.",
+        "source": "src/sites/waterlooplumbingpros.ca/content.ts#LOCATIONS.conestogo.faq[0]"
+      },
+      {
+        "q": "How should I assess water treatment for a Conestogo property?",
+        "a": "If the property uses a well, obtain a current water test and identify the concern, such as hardness or iron, before comparing equipment. Treatment selection should follow the results and intended use.",
+        "source": "src/sites/waterlooplumbingpros.ca/content.ts#LOCATIONS.conestogo.faq[1]"
+      },
+      {
+        "q": "What information helps assess sump protection near a basement?",
+        "a": "Photograph the pit, pump label, float, and discharge route, and note any high-water marks or outages. Those details help compare pump capacity and battery backup; a backwater valve addresses a separate sewer pathway.",
+        "source": "src/sites/waterlooplumbingpros.ca/content.ts#LOCATIONS.conestogo.faq[2]"
+      },
+      {
+        "q": "What should I check before repiping an older Conestogo home?",
+        "a": "Photograph accessible pipe markings and any corrosion or leak evidence. Ask whether the concern affects one branch or multiple lines, and compare access, PEX or copper options, testing, and finish restoration.",
+        "source": "src/sites/waterlooplumbingpros.ca/content.ts#LOCATIONS.conestogo.faq[3]"
+      },
+      {
+        "q": "What matters when choosing cleaning for the line for a Conestogo property?",
+        "a": "Describe whether the blockage is in a fixture branch, kitchen line, laundry drain, or main drain. Ask whether snaking is intended to open a path or whether hydro-jetting is appropriate for buildup along the pipe walls. Pipe material, condition, access, and the type of obstruction affect whether jetting is suitable.",
+        "source": "src/sites/waterlooplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+      }
+    ],
+    "st-jacobs": [
+      {
+        "q": "What should a St. Jacobs business include in a drain-work request?",
+        "a": "Identify affected fixtures, operating hours, previous blockages, and available drain access. Ask whether snaking, hydro-jetting, or camera inspection suits the pipe and obstruction; commercial kitchen buildup may call for a different scope than a single fixture clog.",
+        "source": "src/sites/waterlooplumbingpros.ca/content.ts#LOCATIONS.st-jacobs.faq[0]"
+      },
+      {
+        "q": "How should I plan a water heater replacement in an older building?",
+        "a": "Photograph the heater label, fuel, vent route, connections, and access dimensions. Compare the proposed unit and installation requirements with the existing setup, especially if tight space or different venting could change the work.",
+        "source": "src/sites/waterlooplumbingpros.ca/content.ts#LOCATIONS.st-jacobs.faq[1]"
+      },
+      {
+        "q": "What testing should precede treatment at a property with a well?",
+        "a": "Use a current water sample to establish which concerns need treatment, then compare equipment to those results and the intended uses. Do not select softening, filtration, or other treatment solely from the property’s location.",
+        "source": "src/sites/waterlooplumbingpros.ca/content.ts#LOCATIONS.st-jacobs.faq[2]"
+      },
+      {
+        "q": "How can I plan a plumbing visit for a St. Jacobs property?",
+        "a": "Describe the symptom, affected fixtures, access limitations, and any prior repairs when arranging an inquiry. For urgent concerns, explain what is happening so the required assessment can be discussed; arrival timing should be confirmed rather than assumed.",
+        "source": "src/sites/waterlooplumbingpros.ca/content.ts#LOCATIONS.st-jacobs.faq[3]"
+      },
+      {
+        "q": "How can I narrow the source systematically at my St. Jacobs property?",
+        "a": "Note whether the meter changes while all fixtures and water-using appliances are off, and photograph any damp areas or stains. Ask which sections can be isolated before acoustic sensors or thermal imaging are used. The combination of test results helps narrow the source and may reduce unnecessary openings in finished surfaces.",
+        "source": "src/sites/waterlooplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+      }
+    ],
+    "maryhill": [
+      {
+        "q": "What should precede water treatment at a Maryhill property with a well?",
+        "a": "Obtain a current water test and describe the concern, such as hardness, iron, or sulphur. Compare treatment equipment with those results and intended use rather than assuming a particular system is needed.",
+        "source": "src/sites/waterlooplumbingpros.ca/content.ts#LOCATIONS.maryhill.faq[0]"
+      },
+      {
+        "q": "What information helps compare water heaters for a Maryhill home?",
+        "a": "Provide the existing unit’s model, fuel, venting, and connection details, along with household peak demand. If a well supplies the home, include relevant water supply information so the equipment and installation requirements can be assessed.",
+        "source": "src/sites/waterlooplumbingpros.ca/content.ts#LOCATIONS.maryhill.faq[1]"
+      },
+      {
+        "q": "What should I report about a slow drain in Maryhill?",
+        "a": "List affected fixtures, when the problem occurs, and whether previous clearing helped. Ask whether snaking, hydro-jetting, or camera inspection is suitable for the pipe and obstruction; recurring symptoms may call for investigation beyond a basic clearing.",
+        "source": "src/sites/waterlooplumbingpros.ca/content.ts#LOCATIONS.maryhill.faq[2]"
+      },
+      {
+        "q": "How should a possible septic-line issue be assessed?",
+        "a": "Describe where symptoms occur and identify accessible cleanouts or available plans. A camera inspection of the building drain toward the tank may clarify the line’s condition before digging is considered; confirm the proposed inspection and repair limits first.",
+        "source": "src/sites/waterlooplumbingpros.ca/content.ts#LOCATIONS.maryhill.faq[3]"
+      },
+      {
+        "q": "What should I know before using a camera for recurring clogs in Maryhill?",
+        "a": "If the same line blocks repeatedly, ask whether a camera inspection can show the pipe’s condition after or during clearing. Request the recording or still images and note any visible roots, obstruction, or low section. Those findings help compare another temporary clearing with a repair or further assessment.",
+        "source": "src/sites/waterlooplumbingpros.ca/content.ts#SVC.drain-cleaning.features[1]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How should I assess the full polybutylene system in Dorchester?",
+      "a": "If the supply lines are polybutylene, record visible pipe markings, fitting types, and accessible routes. Ask whether the proposal replaces the system end to end or only changes selected connections. A manifold-based PEX layout is one possible approach; compare its routing and serviceable connection locations with the existing layout so the scope is clear beyond the first visible failure.",
+      "source": "src/sites/dorchesterplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "What should I know before using thermal imaging to guide access in Dorchester?",
+      "a": "If a ceiling or wall is finished, ask whether thermal imaging can help trace a temperature pattern before an access point is chosen. Photograph the area and note when the surface feels damp or changes. A thermal image is a search aid, not proof of a leak by itself, so compare it with pipe routes and other observations before cutting into the finish.",
+      "source": "src/sites/dorchesterplumbing.ca/content.ts#SVC.leak-detection.features[0]"
+    },
+    {
+      "q": "What should I check about floor drains and laundry traps in Dorchester?",
+      "a": "If a basement floor drain or laundry standpipe is involved, note whether other fixtures back up at the same time and whether water returns after clearing. Ask that the trap and its seal be considered, since a dry or compromised trap can allow sewer odour into the room. These observations help separate a drainage obstruction from a trap-seal issue and guide the inspection.",
+      "source": "src/sites/dorchesterplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "How can I compare the pump with the pit and discharge for a Dorchester property?",
+      "a": "Record the pump model, pit dimensions, switch type, discharge route, and how often the unit cycles. Ask how a proposed pump’s capacity and switch arrangement suit those observed conditions. If replacing a smaller or older unit, compare the outlet and available pit space too, since those details can affect the equipment choice and whether changes to the existing installation are needed.",
+      "source": "src/sites/dorchesterplumbing.ca/content.ts#SVC.sump-pumps.features[0]"
+    },
+    {
+      "q": "What should I consider when sizing a softener using measured inputs in Dorchester?",
+      "a": "Ask for hardness to be measured and compare that result with the number of occupants, typical water use, and relevant fixtures. Then review the proposed capacity and regeneration settings. These inputs help explain whether a unit is appropriately sized and how often it may regenerate; relying on household size or a general description alone can lead to a poor fit.",
+      "source": "src/sites/dorchesterplumbing.ca/content.ts#SVC.water-softeners.features[0]"
+    }
+  ],
+  "locations": {}
+}

@@ -1,0 +1,112 @@
+{
+  "home": [
+    {
+      "q": "How should I plan for seasonal cottage shutdown at my Norfolk property?",
+      "a": "If the fixture is in a cottage that closes for winter, identify the shut-offs and any low points that may retain water. Ask how the fixture and its supply lines could be drained, and how the arrangement would be restarted in spring. Accessible shut-offs and a clear drain-down plan can affect where fittings are placed and what work is needed.",
+      "source": "src/sites/norfolkplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "What should I consider about the septic connection before arranging work in Norfolk?",
+      "a": "If the property uses septic, identify the tank, cleanout, and direction of the line before work is scoped. Ask how the proposed clearing method suits the pipe and avoids pushing material toward sensitive parts of the system. Those details can affect both the equipment selected and whether further inspection is appropriate.",
+      "source": "src/sites/norfolkplumbing.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "How should I plan water interruptions at my Norfolk property?",
+      "a": "List the household and outbuilding taps that must remain usable, and note work routines that depend on water. Ask for the proposed sequence of pipe replacement and when each part of the property would be shut off. On a working property, staging the work can change the scope and help set realistic expectations for daily water access.",
+      "source": "src/sites/norfolkplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How can I narrow down a buried line at my Norfolk property?",
+      "a": "If you suspect a leak between the wellhead and pressure tank, sketch the pipe route and mark wet ground or other visible changes. Ask whether the line can be isolated by section before any digging. Narrowing the suspected area can affect the locating method and excavation scope, especially when the buried run crosses a large property.",
+      "source": "src/sites/norfolkplumbing.ca/content.ts#SVC.leak-detection.features[0]"
+    },
+    {
+      "q": "How should I set a practical inspection schedule before work in Norfolk?",
+      "a": "Before spring melt or winter, inspect the pump’s operation, float movement, check valve, and discharge outlet. Ask what checks are appropriate for the equipment and whether worn parts should be replaced based on their condition. A clear maintenance list helps distinguish routine inspection from repair and makes seasonal preparation easier to plan.",
+      "source": "src/sites/norfolkplumbing.ca/content.ts#SVC.sump-pumps.features[2]"
+    }
+  ],
+  "locations": {
+    "port-rowan": [
+      {
+        "q": "What should I include when planning a cottage winter shutdown?",
+        "a": "List the water-using fixtures and treatment equipment, photograph shut-offs and drain points, and ask what needs draining or bypassing. Confirm the proposed spring restart checks and whether the equipment manufacturer specifies particular steps.",
+        "source": "src/sites/norfolkplumbing.ca/content.ts#LOCATIONS.port-rowan.faq[0]"
+      },
+      {
+        "q": "How should I investigate a sulphur smell in well water?",
+        "a": "Arrange a water test and share the results before selecting treatment. Ask how the proposed equipment relates to the measured compounds and what pre-treatment or maintenance it requires; odour alone does not identify the cause.",
+        "source": "src/sites/norfolkplumbing.ca/content.ts#LOCATIONS.port-rowan.faq[1]"
+      },
+      {
+        "q": "What information helps assess a discharge line that freezes?",
+        "a": "Photograph the pump, visible pipe, outlet, and any exposed or low sections. Ask how burial, grade, outlet placement, and the check valve affect the proposed route and whether existing piping can be retained.",
+        "source": "src/sites/norfolkplumbing.ca/content.ts#LOCATIONS.port-rowan.faq[2]"
+      },
+      {
+        "q": "How can I plan plumbing work for a Port Rowan property?",
+        "a": "Describe the property’s water source, seasonal occupancy, affected equipment, and access. Request a written scope that separates investigation, equipment, installation, and any approvals that may apply.",
+        "source": "src/sites/norfolkplumbing.ca/content.ts#LOCATIONS.port-rowan.faq[3]"
+      },
+      {
+        "q": "What should I review about routing in cold areas in Port Rowan?",
+        "a": "If pipes pass through an unheated crawl space, exterior wall, or other cold area, photograph the route and identify where insulation or heat protection is present. Ask how replacement lines will be routed and protected from freezing. The available route and exposure affect material placement, access requirements, and the details that should be included in the estimate.",
+        "source": "src/sites/norfolkplumbing.ca/content.ts#SVC.repiping.features[1]"
+      }
+    ],
+    "langton": [
+      {
+        "q": "What should I prepare before requesting work on a farm property?",
+        "a": "Share a site sketch, water source, access details, and a list of buildings or taps affected. Identify any work routines that depend on water so the proposed sequence and interruptions can be discussed.",
+        "source": "src/sites/norfolkplumbing.ca/content.ts#LOCATIONS.langton.faq[0]"
+      },
+      {
+        "q": "How should I choose treatment for a well with iron?",
+        "a": "Obtain a current laboratory analysis and provide the full results. Ask how the proposed treatment stages and capacity relate to the measured iron and other results, and what maintenance each stage requires.",
+        "source": "src/sites/norfolkplumbing.ca/content.ts#LOCATIONS.langton.faq[1]"
+      },
+      {
+        "q": "Can a farmhouse be repiped while outbuildings still need water?",
+        "a": "Ask for a written work sequence showing when each building’s supply would be interrupted and restored. The existing pipe layout, isolation points, and replacement route determine whether portions can remain in service.",
+        "source": "src/sites/norfolkplumbing.ca/content.ts#LOCATIONS.langton.faq[2]"
+      },
+      {
+        "q": "How should I prepare for an urgent water problem?",
+        "a": "Record the symptoms, when they began, and which fixtures or buildings are affected. Photograph visible equipment and shut-offs, and ask what information is needed to assess the issue and set a suitable scope.",
+        "source": "src/sites/norfolkplumbing.ca/content.ts#LOCATIONS.langton.faq[3]"
+      },
+      {
+        "q": "What should I check about utility-room layout in Langton?",
+        "a": "For a mudroom or laundry room, photograph the sink, wall taps, floor drain, and nearby appliances. Ask whether the proposed fixture connections and drainage suit how the room is used, including the location and fall of a floor drain. Existing pipe positions and drainage layout may determine whether installation is straightforward or requires additional work.",
+        "source": "src/sites/norfolkplumbing.ca/content.ts#SVC.fixtures-toilets.features[1]"
+      }
+    ],
+    "st-williams": [
+      {
+        "q": "What details help plan a St. Williams plumbing project?",
+        "a": "Describe the water source, building use, affected fixtures, and any seasonal shutdown. Photos of equipment labels, connections, and access points help establish what should be included in a written scope.",
+        "source": "src/sites/norfolkplumbing.ca/content.ts#LOCATIONS.st-williams.faq[0]"
+      },
+      {
+        "q": "How should a seasonal cottage water heater be planned?",
+        "a": "Compare heater capacity with expected guest use and identify any shared supply. If the building closes for winter, ask how the heater and connected plumbing should be drained and how spring restart should be checked.",
+        "source": "src/sites/norfolkplumbing.ca/content.ts#LOCATIONS.st-williams.faq[1]"
+      },
+      {
+        "q": "What should I do about a damp basement?",
+        "a": "Record where moisture appears, when it occurs, and whether the sump pump runs. Have the source investigated before selecting a pump or drainage change, since plumbing leaks and water entering from outside require different scopes.",
+        "source": "src/sites/norfolkplumbing.ca/content.ts#LOCATIONS.st-williams.faq[2]"
+      },
+      {
+        "q": "How do I select well-water treatment?",
+        "a": "Use a current laboratory test and ask how each proposed treatment stage responds to its results. Compare capacity, pre-filtration, maintenance, and any seasonal drain-down needs before choosing equipment.",
+        "source": "src/sites/norfolkplumbing.ca/content.ts#LOCATIONS.st-williams.faq[3]"
+      },
+      {
+        "q": "How should I plan a seasonal system shutdown at my St. Williams property?",
+        "a": "If the property is vacant during winter, list the treatment equipment and identify its drain and bypass points. Ask for instructions on draining the system and returning it to service in spring, including any limits stated by the equipment manufacturer. The layout and equipment type affect what can be drained and how a restart should be checked.",
+        "source": "src/sites/norfolkplumbing.ca/content.ts#SVC.water-softeners.features[2]"
+      }
+    ]
+  }
+}

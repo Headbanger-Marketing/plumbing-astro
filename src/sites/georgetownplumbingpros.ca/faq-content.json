@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "How can I identify the pipe before planning replacement at my Georgetown property?",
+      "a": "Photograph exposed pipe, fittings, and any printed markings; do not rely on age or appearance alone to identify a material. Galvanized supply lines and polybutylene need different assessment, connection planning, and replacement scopes. Ask which sections are confirmed, which remain concealed, and whether opening a wall or ceiling is needed to verify the route before work is priced.",
+      "source": "src/sites/georgetownplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How should I plan laundry and basement rough-ins early at my Georgetown property?",
+      "a": "For a relocated washer or a new basement bathroom, provide a layout showing fixture locations and the planned floor, ceiling, and wall finishes. Ask how drain routing, venting, and supply lines will fit the design, and what must be inspected before surfaces close. The answer affects both the plumbing scope and the sequence of renovation work.",
+      "source": "src/sites/georgetownplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[1]"
+    },
+    {
+      "q": "For water softeners in Georgetown, how should I build well treatment around identified issues?",
+      "a": "If the property uses a private well, gather available test results and describe any observed staining, odour, or sediment without assuming its cause. Ask whether the findings support a softener, an oxidizing filter, UV equipment, or a staged combination. The right sequence and maintenance needs depend on the measured water characteristics and the treatment goal.",
+      "source": "src/sites/georgetownplumbingpros.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "How should I assess slab and foundation-area symptoms in Georgetown?",
+      "a": "If moisture appears near a foundation or beneath a floor, photograph the location and note whether it changes with plumbing use, rainfall, or other conditions. Ask whether the investigation can distinguish a supply leak from another source and whether tracing can access the suspected run. The findings help compare a localized repair with rerouting or further investigation.",
+      "source": "src/sites/georgetownplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "What needs clarifying about permits, relief piping, and inspection before work in Georgetown?",
+      "a": "Ask whether the proposed replacement requires a permit or inspection, who is responsible for confirming the applicable requirements, and what documentation you will receive. Have the relief-valve discharge route and any changes to water, fuel, electrical, or vent connections described in the scope. These checks help distinguish a straightforward replacement from work that involves additional alterations.",
+      "source": "src/sites/georgetownplumbingpros.ca/content.ts#SVC.water-heaters.features[2]"
+    }
+  ],
+  "locations": {
+    "glen-williams": [
+      {
+        "q": "What should I gather before requesting plumbing work in Glen Williams?",
+        "a": "Photograph the affected fixture or equipment, accessible pipework, and any visible damage. Note when the issue occurs and share available renovation or service records. These details help clarify access and the likely scope without assuming the cause.",
+        "source": "src/sites/georgetownplumbingpros.ca/content.ts#LOCATIONS.glen-williams.faq[0]"
+      },
+      {
+        "q": "What should I check if a basement has taken on water?",
+        "a": "Record where water appeared and inspect the sump pump, pit, discharge, and floor drains if safe. Ask whether the symptoms point to a pump, drainage, or sewer-backup concern; these involve different equipment and assessments.",
+        "source": "src/sites/georgetownplumbingpros.ca/content.ts#LOCATIONS.glen-williams.faq[1]"
+      },
+      {
+        "q": "How can I plan repiping in an older home?",
+        "a": "Photograph accessible pipe and markings, then ask which sections are confirmed and what concealed areas may need checking. Compare proposed materials, water interruptions, testing, permits, and restoration work before deciding on a scope.",
+        "source": "src/sites/georgetownplumbingpros.ca/content.ts#LOCATIONS.glen-williams.faq[2]"
+      },
+      {
+        "q": "What should I do before choosing water treatment?",
+        "a": "Identify whether the property uses a municipal connection or well and obtain a suitable water test. Compare the results with the treatment system’s stated purpose; hardness, iron, sulphur, and drinking-water goals may require different equipment.",
+        "source": "src/sites/georgetownplumbingpros.ca/content.ts#LOCATIONS.glen-williams.faq[3]"
+      },
+      {
+        "q": "What should I check about backup protection separately in Glen Williams?",
+        "a": "If a basement drain has backed up, record which fixtures discharged, where water appeared, and whether the issue followed heavy rain or another event. Cleaning a drain and installing a backwater valve are separate scopes. Ask whether the suspected source is the building drain or another point, and what inspection would establish whether added protection is relevant.",
+        "source": "src/sites/georgetownplumbingpros.ca/content.ts#SVC.drain-cleaning.features[2]"
+      }
+    ],
+    "norval": [
+      {
+        "q": "What information helps scope a small plumbing job in Norval?",
+        "a": "Share photographs of the fixture, its connections, and any nearby damage, along with measurements and the symptoms you have noticed. For rural properties, also clarify the water source and relevant access details; these can affect the equipment and work required.",
+        "source": "src/sites/georgetownplumbingpros.ca/content.ts#LOCATIONS.norval.faq[0]"
+      },
+      {
+        "q": "What should I check before treating well water?",
+        "a": "Obtain a suitable water test and identify the intended use of the treatment, such as reducing hardness or addressing a measured concern. Compare the results with equipment specifications and ask what maintenance or additional testing is required.",
+        "source": "src/sites/georgetownplumbingpros.ca/content.ts#LOCATIONS.norval.faq[1]"
+      },
+      {
+        "q": "Which septic-related plumbing work should be described in a request?",
+        "a": "Specify whether the concern involves an indoor fixture, building drain, or another part of the system. Plumbing inside the home and septic tank work are distinct scopes. If symptoms suggest a tank or disposal issue, ask which qualified service should assess that portion.",
+        "source": "src/sites/georgetownplumbingpros.ca/content.ts#LOCATIONS.norval.faq[2]"
+      },
+      {
+        "q": "How should I plan timing for plumbing work?",
+        "a": "Ask for the expected work sequence, water interruption, access requirements, and any inspection steps before agreeing on a schedule. For a renovation, coordinate plumbing with the planned closure of walls and floors so concealed work can be checked first.",
+        "source": "src/sites/georgetownplumbingpros.ca/content.ts#LOCATIONS.norval.faq[3]"
+      },
+      {
+        "q": "For water softeners in Norval, how should I evaluate drinking-water filtration separately?",
+        "a": "If the goal is improved taste or reduced sediment at a kitchen tap, ask what an under-sink reverse osmosis system is designed to address and what it will not remove. Confirm space, drain, and dedicated-faucet requirements, as well as cartridge replacement intervals. This makes it easier to compare a drinking-water system with whole-home treatment rather than treating them as interchangeable.",
+        "source": "src/sites/georgetownplumbingpros.ca/content.ts#SVC.water-softeners.features[2]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For a property in Caledon, is the suspected loss indoors or toward an outbuilding?",
+      "a": "Ask how the respondent would distinguish indoor branches from any connected outdoor run without assuming the leak location. Request a description of the evidence before excavation or room openings are proposed. Identify who can authorize access to remote equipment, and how the investigation boundary changes if the initially suspected section is not supported.",
+      "source": "src/sites/caledonplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+    },
+    {
+      "q": "For a property in Caledon, how does existing supply equipment connect to the heater?",
+      "a": "Ask the provider to establish fuel, model and observed performance at the equipment before proposing replacement. If maintenance or supply work is also recommended, request its evidence and price separately. The estimate should describe the existing connections and any change needed for the selected equipment, without assuming a particular property arrangement.",
+      "source": "src/sites/caledonplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For a property in Caledon, where does the building drain actually lead?",
+      "a": "Ask the provider to identify the part reached from the proposed access and explain what its findings can establish. If the issue may lie beyond the building drainage, clarify the relevant specialist and assessment before authorizing broader work. A cleaning result inside the house should not be presented as confirmation of the complete wastewater system.",
+      "source": "src/sites/caledonplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "For a property in Caledon, does the proposed run extend beyond the house?",
+      "a": "Ask the provider to identify confirmed and uncertain sections on the route, then compare the access needed for each. A remote connection may require further assessment before it can be priced alongside indoor replacement. Keep ground disturbance and finish restoration explicit, with responsibilities assigned for the areas outside ordinary plumbing access.",
+      "source": "src/sites/caledonplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For a property in Caledon, what serves the remote utility fixture?",
+      "a": "Ask the provider to confirm how the proposed connection would work and which observations remain uncertain. Compare those changes with the fixture specification and service access. The written scope should separate fitting the product from establishing a new branch or other connection that the location requires.",
+      "source": "src/sites/caledonplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    }
+  ],
+  "locations": {}
+}

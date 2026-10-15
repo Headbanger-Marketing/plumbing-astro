@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How should I plan a basement bathroom rough-in at my Oshawa property?",
+      "a": "If a basement apartment needs a bathroom, document the proposed toilet, basin, and shower locations, plus ceiling height and visible drain routes. Ask what rough-in work, building conditions, and inspections need to be checked before installation. Those details can affect feasibility and scope; do not assume a layout will meet applicable requirements without review.",
+      "source": "src/sites/oshawaplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "What should I check about second-suite demand in Oshawa?",
+      "a": "If a basement suite has a separate hot water requirement, confirm which fixtures the unit will serve and compare the proposed capacity with expected use. Ask how the installation relates to applicable registration and inspection requirements; do not assume a particular unit or arrangement will satisfy them without review.",
+      "source": "src/sites/oshawaplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "How can I compare documented scopes for a Oshawa property?",
+      "a": "For a rental or second suite, ask for a written list of the runs and fixtures included, the proposed pipe material, and any access needed. If approvals or records are relevant to the property, confirm who is responsible for arranging them and what documentation will be supplied. A defined scope makes proposals easier to compare.",
+      "source": "src/sites/oshawaplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "Why should I request useful records for work in Oshawa?",
+      "a": "For a rental or recurring blockage, ask whether camera footage and a written condition note can be provided, and clarify what the recording will show. Keep the date, affected fixtures, and any repeat symptoms with the record. This information can help compare future proposals and separate routine maintenance from a condition that may require repair.",
+      "source": "src/sites/oshawaplumbingpros.ca/content.ts#SVC.drain-cleaning.features[1]"
+    },
+    {
+      "q": "How should I assess a pinhole and nearby pipe in Oshawa?",
+      "a": "If a pinhole leak is found in galvanized pipe, photograph the exposed section and ask whether adjacent pipe shows similar corrosion or restriction. Compare the immediate repair with the condition of the remaining run, and request an explanation of any proposed repiping timeline. One repair may stop the leak, but the broader scope depends on inspection.",
+      "source": "src/sites/oshawaplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+    }
+  ],
+  "locations": {}
+}

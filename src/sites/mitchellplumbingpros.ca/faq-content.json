@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "What matters when choosing clearing methods for the pipe for a Mitchell property?",
+      "a": "If inspection identifies roots in clay tile, mechanical cutting may clear the obstruction, while jetting may remove grease and residue that contribute to recurring trouble. Ask what pipe material and condition support the proposed method. Clearing a blockage does not establish that the pipe is structurally sound, so recurring symptoms may call for further inspection.",
+      "source": "src/sites/mitchellplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "For fixture installation in Mitchell, how should I fit new fixtures to existing bathrooms?",
+      "a": "If updating an older bathroom, measure the available space and compare the new fixture’s dimensions, rough-in and connection locations with the existing arrangement. A modern style may still need to suit existing clearances or require changes. Ask which measurements should be confirmed before purchase so the selected pieces work with the room.",
+      "source": "src/sites/mitchellplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "What should I know before using symptoms to guide testing in Mitchell?",
+      "a": "A meter that moves with fixtures off, a warm floor spot or nighttime pump cycling can point toward different parts of a system. Record timing and conditions, then ask which tests are proposed and what they can establish. Starting with observed evidence helps focus the investigation rather than opening walls without a location in mind.",
+      "source": "src/sites/mitchellplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+    },
+    {
+      "q": "For water softeners in Mitchell, how should I test before selecting treatment?",
+      "a": "If scale or other water concerns prompt a treatment project, identify the supply and obtain relevant test results before choosing a system. Hardness measurements can inform softening decisions, while other concerns require different tests. Comparing results with the equipment proposal helps avoid buying treatment that does not match the issue.",
+      "source": "src/sites/mitchellplumbingpros.ca/content.ts#SVC.water-softeners.features[0]"
+    },
+    {
+      "q": "How should I document the existing installation in Mitchell?",
+      "a": "Photograph the rating plate, vent, shutoff, drain pan and nearby piping before requesting an estimate. Note leaks, unusual noises and how long hot water lasts. This information can help distinguish a straightforward tank replacement from work involving drainage, venting or connections, and makes proposed changes easier to compare.",
+      "source": "src/sites/mitchellplumbingpros.ca/content.ts#SVC.water-heaters.features[1]"
+    }
+  ],
+  "locations": {
+    "sebringville": [
+      {
+        "q": "What should I compare when replacing a water heater in Sebringville?",
+        "a": "Record the existing unit’s fuel, capacity, venting and connections, then compare those with household demand and the proposed equipment. A tankless option may require different utility or venting provisions.",
+        "source": "src/sites/mitchellplumbingpros.ca/content.ts#LOCATIONS.sebringville.faq[0]"
+      },
+      {
+        "q": "How can I assess a possible polybutylene repipe?",
+        "a": "Photograph accessible pipe markings and note leaks or pressure changes. Ask for a defined replacement scope, access plan, proposed material and testing details before comparing options.",
+        "source": "src/sites/mitchellplumbingpros.ca/content.ts#LOCATIONS.sebringville.faq[1]"
+      },
+      {
+        "q": "What information helps plan fixture work for a new build?",
+        "a": "Compare the fixture schedule with rough-in locations, product dimensions, finished surfaces and construction sequence. Confirm which items are supplied and when they must be available.",
+        "source": "src/sites/mitchellplumbingpros.ca/content.ts#LOCATIONS.sebringville.faq[2]"
+      },
+      {
+        "q": "What should I check if sump-pump reliability is a concern?",
+        "a": "Record basin dimensions, pump cycles, discharge routing and any outage-related problems. Those observations help compare pump capacity, controls and compatible backup-power options.",
+        "source": "src/sites/mitchellplumbingpros.ca/content.ts#LOCATIONS.sebringville.faq[3]"
+      },
+      {
+        "q": "What should I consider about a camera before renovation before arranging work in Sebringville?",
+        "a": "Before covering a drain line with a finished floor or basement renovation, ask whether a camera run can document the section in question. Request the recording or findings and confirm the inspected route, observed defects and limits of the inspection. Those details help assess whether to proceed with finishes or investigate repairs first.",
+        "source": "src/sites/mitchellplumbingpros.ca/content.ts#SVC.drain-cleaning.features[1]"
+      }
+    ],
+    "monkton": [
+      {
+        "q": "How should I choose treatment for a private well near Monkton?",
+        "a": "Identify the water concern and obtain relevant test results first. Compare equipment against those results, household demand, treatment sequence and maintenance requirements rather than selecting a system by assumption.",
+        "source": "src/sites/mitchellplumbingpros.ca/content.ts#LOCATIONS.monkton.faq[0]"
+      },
+      {
+        "q": "What should I ask about clearing a drain connected to septic?",
+        "a": "Confirm the drain route and ask what method is suitable for the pipe and connection. If the findings suggest a problem beyond the line, clarify whether a septic specialist should assess the system.",
+        "source": "src/sites/mitchellplumbingpros.ca/content.ts#LOCATIONS.monkton.faq[1]"
+      },
+      {
+        "q": "What information helps plan a repipe in an older farmhouse?",
+        "a": "Photograph accessible pipe markings, note pressure changes and identify areas where water access is important. Ask for the proposed replacement scope, work sequence, testing and any applicable inspection requirements.",
+        "source": "src/sites/mitchellplumbingpros.ca/content.ts#LOCATIONS.monkton.faq[2]"
+      },
+      {
+        "q": "What should I document when investigating a plumbing emergency?",
+        "a": "Record where water is appearing, when symptoms began, affected fixtures and any shutoff or pump behavior. Photos and details about the water source or drainage route can help clarify the first checks required.",
+        "source": "src/sites/mitchellplumbingpros.ca/content.ts#LOCATIONS.monkton.faq[3]"
+      },
+      {
+        "q": "How should I coordinate new-build trim-out in Monkton?",
+        "a": "For a new build, compare the fixture schedule with the rough-in locations, finished surfaces and construction sequence. Confirm who supplies each item and when it must be on site. Resolving differences between the plan and the actual openings before trim-out can avoid delays or changes after finishes are installed.",
+        "source": "src/sites/mitchellplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[1]"
+      }
+    ]
+  }
+}

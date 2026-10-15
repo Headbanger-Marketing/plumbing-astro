@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For a property in North York, is the pump system controlled by building management?",
+      "a": "Ask the provider which drainage function and equipment the request concerns and who can approve its assessment. A basement-house inquiry should instead provide the actual pit, discharge and observations. Compare only the supported scope for that system, with groundwater removal and sewer-backflow questions kept distinct.",
+      "source": "src/sites/northyorkplumbingpros.ca/content.ts#SVC.sump-pumps.features[0]"
+    },
+    {
+      "q": "For a property in North York, does the unit have its own hot-water equipment?",
+      "a": "Ask the provider to establish which equipment serves the affected outlets and what the occupant can authorize. If a unit-owned appliance is involved, compare its condition and connection scope separately. Any common-system shutdown or repair should identify the responsible building contact before it is treated as part of an individual request.",
+      "source": "src/sites/northyorkplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For a property in North York, which drain segment is under your authority?",
+      "a": "Ask the provider what can be reached from the proposed unit access and whether observations suggest a common route requires assessment. A suite-level clearing result should not imply that the building stack has been inspected. Establish management involvement before access or work extends into services outside the requesting occupant’s control.",
+      "source": "src/sites/northyorkplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "For a property in North York, will branch work affect a common riser?",
+      "a": "Ask the provider to show the proposed route and explain the isolation and building approval it depends on. Compare access openings and restoration in the unit with any separate common-system work. The scope should make clear which section is priced rather than treat permission to renovate a room as permission to alter building pipe.",
+      "source": "src/sites/northyorkplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For a property in North York, what building requirements apply to the chosen fixture?",
+      "a": "Ask the provider to compare the chosen product with actual supply, waste and mounting positions, then identify any connection changes needed. Keep management requirements and delivery access visible in the plan without assuming they confirm suitability. The written scope should assign supply of parts, installation and finish restoration before the fixture is ordered or the visit is agreed.",
+      "source": "src/sites/northyorkplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    }
+  ],
+  "locations": {}
+}

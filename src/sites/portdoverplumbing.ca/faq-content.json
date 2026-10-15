@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How should I plan for seasonal use at my Port Dover property?",
+      "a": "For a cottage or other intermittently occupied property, note opening and closing dates, winter conditions, and whether the heater is currently drained. Ask how the proposed equipment should be shut down and restarted, and whether seasonal use changes installation or maintenance requirements. Planning around occupancy helps distinguish equipment needs from scheduling preferences.",
+      "source": "src/sites/portdoverplumbing.ca/content.ts#SVC.water-heaters.features[1]"
+    },
+    {
+      "q": "What should I consider when sizing equipment to test results in Port Dover?",
+      "a": "Share a recent water test and explain how many people use the property, including seasonal occupancy. Ask how hardness results and household demand determine softener capacity and regeneration settings. A weekend cottage and a continuously occupied home have different usage patterns, so comparing equipment against actual demand can help avoid an unsuitable configuration.",
+      "source": "src/sites/portdoverplumbing.ca/content.ts#SVC.water-softeners.features[0]"
+    },
+    {
+      "q": "What should I consider about seasonal occupancy before arranging work in Port Dover?",
+      "a": "If the property is empty during winter or other long periods, share the dates it is unoccupied and whether water is shut off or drained. Ask which accessible supply runs, crawl spaces, or fixtures should be checked during an inspection. This information can help prioritize likely exposure points and shape a practical monitoring plan without assuming a leak is present.",
+      "source": "src/sites/portdoverplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "How can I identify existing supply pipe at my Port Dover property?",
+      "a": "Photograph accessible pipes and fittings, and note any labels, corrosion, staining, or previous repairs. If galvanized steel is present, ask how the assessment will determine which sections need replacement. The amount and location of remaining pipe affect whether a targeted repair or a broader PEX or copper repipe is worth comparing.",
+      "source": "src/sites/portdoverplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For fixture installation in Port Dover, how should I prepare for a fixture swap?",
+      "a": "Record the fixture make and model if available, measure clearances, and photograph supply and drain connections. Ask whether the replacement fits the existing layout or needs changes to shutoffs, connections, or seals. If the property is seasonal, explain its occupancy pattern and ask what should be checked before the plumbing is left unused.",
+      "source": "src/sites/portdoverplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    }
+  ],
+  "locations": {}
+}

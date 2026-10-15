@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For repiping in Richmond Hill, how should I map polybutylene and galvanized runs?",
+      "a": "If the home has polybutylene, photograph visible pipe markings and crimp fittings, and note any leak history or locations behind finished walls. If galvanized pipe is present, record where it is exposed and which fixtures show reduced flow. Ask whether the proposed scope follows each affected run from its source to the fixtures, includes new shutoffs, and uses manifolds where appropriate. That map helps compare partial and whole-home options.",
+      "source": "src/sites/richmondhillplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How do I match iron or sulphur treatment to results for my Richmond Hill project?",
+      "a": "If well water leaves orange stains or has a sulphur odour, document where and when the symptoms occur and share test results before comparing filters. Ask whether an oxidizing filter or retention tank is proposed, how it is sized for the well's output, and what maintenance or backwashing it needs. The measured concentration, flow demand, and available drain connection can change the equipment and installation scope.",
+      "source": "src/sites/richmondhillplumbingpros.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "What should I consider about water source and treatment before arranging work in Richmond Hill?",
+      "a": "If a Richmond Hill property uses a private well, arrange water testing and review the results before choosing a tank or tankless system. Ask whether measured hardness, iron, or other results call for treatment, and what maintenance it would involve. For municipal or well water, compare the manufacturer's water-quality requirements with the test information rather than assuming one equipment configuration fits every home.",
+      "source": "src/sites/richmondhillplumbingpros.ca/content.ts#SVC.water-heaters.features[2]"
+    },
+    {
+      "q": "How do I match root cutting to the pipe for my Richmond Hill project?",
+      "a": "If an inspection suggests roots have entered through a pipe joint, ask what cutting head and machine are appropriate for the pipe material and access point. Root cutting may restore flow, but it does not close the joint or establish the pipe's condition. A camera view after clearing can show whether the line needs monitoring or further assessment, rather than treating temporary flow as proof the underlying defect is gone.",
+      "source": "src/sites/richmondhillplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "How should I assess shower valve access in Richmond Hill?",
+      "a": "If a shower valve is behind tile, photograph the trim, surrounding finish, and any access panel on the opposite side of the wall. Ask whether the existing valve body can be reached and whether the replacement is compatible with the current piping and trim. A limited opening may be possible in some layouts, while framing or pipe position can change the access required; clarify any patching responsibility before work starts.",
+      "source": "src/sites/richmondhillplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    }
+  ],
+  "locations": {}
+}

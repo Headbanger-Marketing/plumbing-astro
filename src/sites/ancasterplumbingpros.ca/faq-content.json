@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How can I identify pipe material and route at my Ancaster property?",
+      "a": "Photograph accessible pipe markings, fittings and transitions, and ask how concealed sections will be assessed before the scope is set. A polybutylene system, galvanized branches and later repairs may require different routing decisions. Compare proposals for the replacement material, connection points and fixture coverage, rather than relying on a general description of the home’s age or style.",
+      "source": "src/sites/ancasterplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How can I compare backup options and runtime for a Ancaster property?",
+      "a": "A battery-backed pump and a water-powered backup rely on different supplies and operating conditions. Ask what each proposed option needs to function, how its capacity compares with the expected inflow and what runtime or limits apply. Check the pump and backup labels, power supply and basin dimensions, then compare those details with the recommendation. This prevents treating a generic backup package as proof that the system suits the property.",
+      "source": "src/sites/ancasterplumbingpros.ca/content.ts#SVC.sump-pumps.features[1]"
+    },
+    {
+      "q": "For water softeners in Ancaster, how should I build treatment for the water source?",
+      "a": "Private well water may require assessment for iron, sulphur or other measured concerns, while municipal supply has a different profile. If testing indicates a need, ask how oxidation, filtration or ultraviolet treatment fits the results and what maintenance each stage requires. Confirm the sequence, flow capacity and replacement intervals in writing. Do not assume that a particular treatment stage is needed without supporting test results.",
+      "source": "src/sites/ancasterplumbingpros.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "How do I match the clearing method to the blockage for my Ancaster project?",
+      "a": "Ask what evidence supports snaking, a cutting head or hydro-jetting before work begins. If roots are visible in an older pipe, confirm whether the proposed cutting method is suitable for its material and condition. Clearing may restore flow without correcting a damaged joint or recurring entry point, so the expected result and any limits should be explained before the line is worked on.",
+      "source": "src/sites/ancasterplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "What should I check about the replacement requirements in Ancaster?",
+      "a": "Before comparing proposals, ask whether the existing gas line, electrical supply, vent route, drain and clearances suit the replacement model. A change in equipment type can alter this work and the installation scope. Request a written list of included connections and any inspection steps, and verify the expected scheduling only after the required equipment and site conditions are confirmed.",
+      "source": "src/sites/ancasterplumbingpros.ca/content.ts#SVC.water-heaters.features[1]"
+    }
+  ],
+  "locations": {}
+}

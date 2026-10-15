@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How should I assess old galvanized piping in Dunnville?",
+      "a": "If galvanized steel is present, photograph accessible sections, fittings, and any corrosion, and note the farthest fixtures with weak flow. Scale and rust may affect the usable pipe opening, but visible symptoms alone do not establish the full condition. Compare a localized repair with replacement and ask how new PEX or copper would be sized for the layout.",
+      "source": "src/sites/dunnvilleplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For drain cleaning in Dunnville, how should I take care with septic lines?",
+      "a": "For a property with a septic system, note the line route, approximate length, cleanouts, and any known tank or bed locations. Long runs need an approach suited to the pipe and system; ask how cleaning will avoid unnecessary disturbance. If symptoms suggest a full tank or a damaged line, compare cleaning with pump-out or repair guidance.",
+      "source": "src/sites/dunnvilleplumbingpros.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "What should I consider about well-pump symptoms before arranging work in Dunnville?",
+      "a": "If the property has a well, record how often the pump cycles when taps and appliances are off, along with pressure changes and any visible wet areas. A leak can increase pump operation, but other faults can cause similar symptoms. Share these observations and ask how the leak check will distinguish pipe loss from pump or pressure-system problems.",
+      "source": "src/sites/dunnvilleplumbingpros.ca/content.ts#SVC.leak-detection.features[2]"
+    },
+    {
+      "q": "How can I compare fixtures with maintenance in mind for a Dunnville property?",
+      "a": "If testing shows mineral content, review cartridge replacement, cleaning, and finish-care instructions before selecting a faucet or shower fixture. Compare connection sizes and access to shutoffs as well. Those details influence installation compatibility and upkeep, while a water test is more useful than assuming conditions from the city name.",
+      "source": "src/sites/dunnvilleplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "How can I identify iron or sulphur before choosing media at my Dunnville property?",
+      "a": "If a well produces orange staining or an unusual odour, test the water before selecting an oxidizing filter or media sequence. Different test results may require different treatment steps, and equipment settings affect performance and upkeep. Ask which measured conditions the proposed system is intended to address and what maintenance or replacement intervals apply.",
+      "source": "src/sites/dunnvilleplumbingpros.ca/content.ts#SVC.water-softeners.features[1]"
+    }
+  ],
+  "locations": {}
+}

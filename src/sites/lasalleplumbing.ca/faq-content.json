@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How can I identify polybutylene and its fittings at my LaSalle property?",
+      "a": "If accessible piping appears to be polybutylene, photograph the pipe markings, fittings, and locations before requesting an assessment. Ask whether the proposed work replaces the affected runs with PEX and modern manifolds, and how the replacement connects to remaining lines. Confirming the material and boundaries of the work helps distinguish a specific replacement scope from a whole-house proposal.",
+      "source": "src/sites/lasalleplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How should I plan basement bathroom drainage and venting at my LaSalle property?",
+      "a": "A bathroom below grade may need gravity drainage or pumping, along with suitable venting. Share the proposed fixture locations and basement plans, then ask how the drainage route and rough-in will be assessed. Confirm applicable permit and inspection steps before concrete is patched or finishes go in, since these requirements can affect the layout and project scope.",
+      "source": "src/sites/lasalleplumbing.ca/content.ts#SVC.fixtures-toilets.features[1]"
+    },
+    {
+      "q": "What should I check about the unit and surrounding area in LaSalle?",
+      "a": "Photograph the rating plate, connections, vent route, and floor around the tank. Look for visible corrosion, water staining, or changes to finished basement space. These details help establish access and replacement scope. Ask whether the estimate includes removal, reconnection, and any changes required by the selected equipment; do not rely on a general promise about timing.",
+      "source": "src/sites/lasalleplumbing.ca/content.ts#SVC.water-heaters.features[1]"
+    },
+    {
+      "q": "For drain cleaning in LaSalle, how should I base maintenance on observed conditions?",
+      "a": "A recurring problem may justify a cleaning schedule, but not every drain needs routine service. Ask what evidence supports future maintenance, such as repeated buildup or a documented blockage pattern. Keep notes on dates, affected fixtures, and previous clearing methods. This record can help compare recommendations and avoid treating an isolated clog as proof that regular cleaning is necessary.",
+      "source": "src/sites/lasalleplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "How should I assess pump operation and cycle behavior in LaSalle?",
+      "a": "If the property has a sump pump, photograph its label and basin and note how often it runs, whether it starts reliably, and any unusual sounds. Ask what checks will be made, including the float and cycling behavior. These observations help distinguish a maintenance concern from a pump that may need replacement and clarify which equipment is actually involved.",
+      "source": "src/sites/lasalleplumbing.ca/content.ts#SVC.sump-pumps.features[0]"
+    }
+  ],
+  "locations": {}
+}

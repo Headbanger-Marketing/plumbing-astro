@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "How can I compare symptoms across fixtures for a Paris property?",
+      "a": "Note whether one sink, several fixtures, or a basement drain is affected, and whether flushing or appliance use changes the symptoms. If more than one fixture backs up, the issue may be farther along a shared line. That distinction helps identify which section should be inspected and cleared.",
+      "source": "src/sites/parisplumbingpros.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "How should I plan access before opening finishes at my Paris property?",
+      "a": "Ask for a proposed route and mark plaster, tile, or other finishes that need particular care. If framing voids provide a path, flexible PEX may reduce the number or size of openings; copper may suit a different layout. Material choice and access planning influence both installation and patching scope.",
+      "source": "src/sites/parisplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "What should I check about basement drain elevation in Paris?",
+      "a": "Before budgeting a below-grade bathroom, locate the nearest drain and compare its elevation with the proposed fixtures. If gravity drainage is not possible, ask whether a pumping arrangement is needed and where it could fit. The route and equipment choice can affect floor work, access, and the renovation plan.",
+      "source": "src/sites/parisplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[1]"
+    },
+    {
+      "q": "How can I compare plumbing and water entry for a Paris property?",
+      "a": "Note whether moisture follows rainfall, changes when fixtures run, or appears independently of plumbing use. If the building has a stone foundation, photograph cracks, joints, and damp areas for assessment. These observations are clues, not a diagnosis, and help determine whether plumbing tests or a separate drainage review is warranted.",
+      "source": "src/sites/parisplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "How should I assess iron and odour separately in Paris?",
+      "a": "For a private well, note staining, odour, and any existing test results. Ask whether iron, sulphur-related odour, or other measured conditions require separate treatment stages, such as oxidation followed by filtration. The sequence and equipment depend on the actual levels; one general-purpose filter may not address every result.",
+      "source": "src/sites/parisplumbingpros.ca/content.ts#SVC.water-softeners.features[1]"
+    }
+  ],
+  "locations": {
+    "glen-morris": [
+      {
+        "q": "What should I check before choosing well-water treatment?",
+        "a": "Confirm that the property uses a private well and obtain a suitable water test. Compare proposed equipment with the measured results, since softening, iron treatment, and filtration address different conditions.",
+        "source": "src/sites/parisplumbingpros.ca/content.ts#LOCATIONS.glen-morris.faq[0]"
+      },
+      {
+        "q": "What information helps plan a water heater replacement?",
+        "a": "Photograph the heater label and vent connection, and measure the route through doors, stairs, and the mechanical space. Fuel, venting, capacity, and access all affect the replacement scope.",
+        "source": "src/sites/parisplumbingpros.ca/content.ts#LOCATIONS.glen-morris.faq[1]"
+      },
+      {
+        "q": "What should I document if a basement takes on water?",
+        "a": "Note when water appears and photograph the sump pit, pump label, power supply, and discharge outlet. The observations help assess whether pump capacity, backup power, or discharge routing needs attention.",
+        "source": "src/sites/parisplumbingpros.ca/content.ts#LOCATIONS.glen-morris.faq[2]"
+      },
+      {
+        "q": "What helps assess recurring slow drains?",
+        "a": "List the affected fixtures and note whether the problem returns after clearing. If the line is older or symptoms recur, ask whether a camera inspection could clarify pipe condition.",
+        "source": "src/sites/parisplumbingpros.ca/content.ts#LOCATIONS.glen-morris.faq[3]"
+      },
+      {
+        "q": "What should I review about the existing vent route in Glen Morris?",
+        "a": "Photograph the heater label, vent connection, and the route to the chimney or exterior. If an older appliance shares a chimney, ask how the replacement will be vented and what work is required. The answer can change the equipment choice, wall or chimney work, and installation cost.",
+        "source": "src/sites/parisplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+      }
+    ],
+    "mount-pleasant": [
+      {
+        "q": "What information is useful for a project in a newer subdivision?",
+        "a": "Describe the issue, identify the affected fixtures, and provide photographs of accessible plumbing or equipment labels. The home layout and existing connections help clarify the requested scope.",
+        "source": "src/sites/parisplumbingpros.ca/content.ts#LOCATIONS.mount-pleasant.faq[0]"
+      },
+      {
+        "q": "How should a property owner compare well-water treatment?",
+        "a": "Start with a test of the actual supply. Compare proposed softening or filtration with the measured results, and ask whether any iron or other concern requires a separate treatment stage.",
+        "source": "src/sites/parisplumbingpros.ca/content.ts#LOCATIONS.mount-pleasant.faq[1]"
+      },
+      {
+        "q": "What should I note about recurring slow drains?",
+        "a": "Record which fixtures are slow, when the problem occurs, and whether it returns after cleaning. If several fixtures are affected or the blockage recurs, ask whether the shared line should be inspected.",
+        "source": "src/sites/parisplumbingpros.ca/content.ts#LOCATIONS.mount-pleasant.faq[2]"
+      },
+      {
+        "q": "What details help plan a repipe in an older home?",
+        "a": "Photograph visible pipes and note their material, affected fixtures, and finished surfaces near likely routes. Ask how the proposed access plan may affect walls, floors, and the household’s water use during work.",
+        "source": "src/sites/parisplumbingpros.ca/content.ts#LOCATIONS.mount-pleasant.faq[3]"
+      },
+      {
+        "q": "How should I coordinate style and valve requirements in Mount Pleasant?",
+        "a": "Choose the visible trim and identify the compatible valve behind the wall before construction begins. If a period-styled shower trim is desired, ask how it pairs with a current pressure-balanced valve. Checking compatibility before tile work can prevent changes to the rough-in or finished wall.",
+        "source": "src/sites/parisplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+      }
+    ]
+  }
+}

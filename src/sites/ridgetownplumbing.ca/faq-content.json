@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For leak detection in Ridgetown, how should I test a buried well supply line?",
+      "a": "If the property has a well, note the route from the wellhead to the house and record unusual pump cycling or pressure changes. Ask how the buried line will be isolated and tested, and how the suspected failure length will be identified. The test results can distinguish a well-line problem from an issue elsewhere and help define whether excavation or another access method is needed.",
+      "source": "src/sites/ridgetownplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "What should I check about the well and pressure system in Ridgetown?",
+      "a": "For a well-supplied property, photograph the pump and pressure-tank labels and note any pressure changes during heavy water use. Ask for pump output and pressure-tank behaviour to be considered alongside the heater’s supply requirements. Those checks can affect equipment selection and reveal whether the water system needs attention before a new heater is connected.",
+      "source": "src/sites/ridgetownplumbing.ca/content.ts#SVC.water-heaters.features[2]"
+    },
+    {
+      "q": "What should I consider about the septic system before arranging work in Ridgetown?",
+      "a": "If the property drains to a septic system, identify the cleanout and ask how the proposed mechanical clearing method relates to the line and system. Avoid assuming that a chemical product is suitable for the system. The access point, blockage location, and destination of removed material can affect the work plan and help keep the project focused on the affected drain.",
+      "source": "src/sites/ridgetownplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "How should I assess the existing pipe backbone in Ridgetown?",
+      "a": "Photograph visible pipe markings, corrosion, and any prior repairs, and note which fixtures have low flow or discoloured water. Ask whether the proposed scope replaces only affected sections or the home’s broader galvanized backbone. Comparing the pipe route, material, and access helps establish why a PEX or copper layout is proposed and what walls or ceilings may be opened.",
+      "source": "src/sites/ridgetownplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "What should I know before using water test results when comparing finishes in Ridgetown?",
+      "a": "If a property has well water and there are concerns about iron or hardness, arrange appropriate testing and keep the results for the fixture discussion. Compare manufacturers’ material and maintenance guidance with the measured conditions rather than relying on a general claim about local water. The results can help narrow finish choices and set realistic expectations for cleaning and upkeep.",
+      "source": "src/sites/ridgetownplumbing.ca/content.ts#SVC.fixtures-toilets.features[2]"
+    }
+  ],
+  "locations": {}
+}

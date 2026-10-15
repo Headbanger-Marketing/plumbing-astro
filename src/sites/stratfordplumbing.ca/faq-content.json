@@ -1,0 +1,112 @@
+{
+  "home": [
+    {
+      "q": "How can I compare partial and whole-home scope for a Stratford property?",
+      "a": "Note which bathrooms, additions, and fixtures have symptoms, and ask whether replacing only one branch is practical or whether connected aging lines affect the decision. A second-floor bathroom project and a full galvanized-pipe replacement have different access and sequencing needs. Compare both scopes and how water service to the household may be affected.",
+      "source": "src/sites/stratfordplumbing.ca/content.ts#SVC.repiping.features[1]"
+    },
+    {
+      "q": "For water softeners in Stratford, how should I select treatment for the water source?",
+      "a": "If the property uses a private well, share available results for iron, sulphur, and sediment, and ask whether additional testing is needed. Treatment equipment should respond to measured conditions rather than assumptions about the area. A multi-stage treatment arrangement may have different space, maintenance, and drain requirements than a softener alone.",
+      "source": "src/sites/stratfordplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "What should I check about floors and yard lines in Stratford?",
+      "a": "If symptoms suggest a leak beneath a slab or along a yard service line, ask how the route and failed section would be confirmed. Compare repair options, including rerouting or excavating only where needed, and clarify how access will affect restoration. The location and pipe condition can change both the repair method and scope.",
+      "source": "src/sites/stratfordplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "How should I plan for older pipe carefully at my Stratford property?",
+      "a": "If the property has an older clay lateral or another aging sewer pipe, ask how its material and condition affect cleaning choices. A camera view can help distinguish a blockage from damage that may need repair. Compare the proposed maintenance interval and repair options against the inspection findings and the line’s documented condition.",
+      "source": "src/sites/stratfordplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "For fixture installation in Stratford, how should I keep the look, check the connections?",
+      "a": "If a renovation keeps a clawfoot tub or period tile, photograph the fixture and its supply connections before selecting replacement trim. A reproduction faucet may still need modern supply lines and an accessible shut-off. These details affect compatibility, connection work, and how to preserve the visible finish during installation.",
+      "source": "src/sites/stratfordplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    }
+  ],
+  "locations": {
+    "sebringville": [
+      {
+        "q": "What should I compare for a Sebringville water heater project?",
+        "a": "Record the existing heater’s label, fuel, venting, and connections, then note the fixtures and household it serves. Ask whether a tank or tankless unit suits the demand and what changes to access or connections affect the scope.",
+        "source": "src/sites/stratfordplumbing.ca/content.ts#LOCATIONS.sebringville.faq[0]"
+      },
+      {
+        "q": "What information helps plan repiping in an older home?",
+        "a": "Photograph visible pipe markings and previous repairs, and list the fixtures with pressure or water-colour concerns. Ask whether the proposed work covers a branch or the whole home, what wall access is expected, and what testing or inspections apply.",
+        "source": "src/sites/stratfordplumbing.ca/content.ts#LOCATIONS.sebringville.faq[1]"
+      },
+      {
+        "q": "How should I plan water treatment for a property using a well?",
+        "a": "Share current test results and identify the specific concern, such as hardness, staining, or sediment. Ask which tests are needed and how results affect equipment selection, capacity, drain routing, and ongoing maintenance.",
+        "source": "src/sites/stratfordplumbing.ca/content.ts#LOCATIONS.sebringville.faq[2]"
+      },
+      {
+        "q": "What details help with a recurring drain problem?",
+        "a": "List each affected fixture, when symptoms occur, and how often the blockage returns. Ask whether snaking, hydro-jetting, or camera inspection suits the pipe material and whether findings will help distinguish a blockage from a damaged section.",
+        "source": "src/sites/stratfordplumbing.ca/content.ts#LOCATIONS.sebringville.faq[3]"
+      },
+      {
+        "q": "How should I plan routes before opening walls at my Sebringville property?",
+        "a": "If the home has plaster and lath, ask where proposed pipe routes would pass and which walls or ceilings need openings. Request a marked-up plan showing access points and how the work may be sequenced. This lets you compare routes for PEX or copper and understand likely disruption before deciding on the scope.",
+        "source": "src/sites/stratfordplumbing.ca/content.ts#SVC.repiping.features[0]"
+      }
+    ],
+    "shakespeare": [
+      {
+        "q": "What should I provide when planning routine plumbing work?",
+        "a": "List the fixtures involved, describe the symptoms, and share photos of accessible connections or equipment labels. Ask whether the work needs access behind walls or changes to drains, vents, or shut-offs.",
+        "source": "src/sites/stratfordplumbing.ca/content.ts#LOCATIONS.shakespeare.faq[0]"
+      },
+      {
+        "q": "How can I compare water heater replacement options?",
+        "a": "Note the existing unit’s fuel, capacity, venting, and installation location, along with the household’s hot-water demand. Ask what connections or access changes each proposed tank or tankless option requires.",
+        "source": "src/sites/stratfordplumbing.ca/content.ts#LOCATIONS.shakespeare.faq[1]"
+      },
+      {
+        "q": "What information is useful for well-water treatment planning?",
+        "a": "Provide available water test results and explain the concern, such as hardness, iron, sulphur, or sediment. Ask whether further testing is needed before selecting a softener or filtration system.",
+        "source": "src/sites/stratfordplumbing.ca/content.ts#LOCATIONS.shakespeare.faq[2]"
+      },
+      {
+        "q": "What should I ask about a drain that keeps clogging?",
+        "a": "Explain which fixtures are affected and how frequently the blockage returns. Ask whether the pipe’s material and condition make snaking or hydro-jetting suitable, and whether camera inspection could clarify the cause.",
+        "source": "src/sites/stratfordplumbing.ca/content.ts#LOCATIONS.shakespeare.faq[3]"
+      },
+      {
+        "q": "How do I match pump and basin to conditions for my Shakespeare project?",
+        "a": "If the property has a sump basin, note its dimensions, current pump label, and how often the pump runs during wet weather. Ask how foundation drainage and discharge routing affect pump capacity and basin selection. Comparing those site details can clarify whether a replacement pump alone is suitable or whether other drainage work should be considered.",
+        "source": "src/sites/stratfordplumbing.ca/content.ts#SVC.sump-pumps.features[0]"
+      }
+    ],
+    "tavistock": [
+      {
+        "q": "What should I check before repiping an older home?",
+        "a": "Photograph accessible pipes and finishes, note any recurring leaks or pressure changes, and ask how proposed routes affect wall access. Compare partial and whole-home scopes and confirm what testing and inspections apply.",
+        "source": "src/sites/stratfordplumbing.ca/content.ts#LOCATIONS.tavistock.faq[0]"
+      },
+      {
+        "q": "How do I choose a softener or filter for a Tavistock property?",
+        "a": "Identify the water source and provide recent test results. Ask how hardness or other measured conditions affect equipment capacity, filtration stages, installation space, and maintenance needs.",
+        "source": "src/sites/stratfordplumbing.ca/content.ts#LOCATIONS.tavistock.faq[1]"
+      },
+      {
+        "q": "What information helps when planning plumbing repairs?",
+        "a": "Describe the symptoms, when they occur, and which fixtures are affected. Share photos of visible equipment and connections, then ask what diagnosis and access steps are included in the proposed scope.",
+        "source": "src/sites/stratfordplumbing.ca/content.ts#LOCATIONS.tavistock.faq[2]"
+      },
+      {
+        "q": "How should I compare options for a recurring drain blockage?",
+        "a": "List affected drains and how often they clog. Ask whether snaking, hydro-jetting, or camera inspection is appropriate for the pipe material and whether findings indicate cleaning or a repair may be needed.",
+        "source": "src/sites/stratfordplumbing.ca/content.ts#LOCATIONS.tavistock.faq[3]"
+      },
+      {
+        "q": "For water softeners in Tavistock, how should I test before choosing equipment?",
+        "a": "Ask which water tests are relevant to the concern and provide results before comparing models. Hardness readings can guide softener capacity, while other results may point to a different treatment need. Household size and water use also affect equipment selection and regeneration settings, so a test-based comparison is more useful than choosing by appearance alone.",
+        "source": "src/sites/stratfordplumbing.ca/content.ts#SVC.water-softeners.features[0]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "home": [
+    {
+      "q": "How should I plan for seasonal properties at my Keswick property?",
+      "a": "If a cottage is left unoccupied in cold weather, ask what shutdown and drain-down steps apply to the selected equipment and connected plumbing. Compare the proposed placement and protection measures with the property’s winter routine; a seasonal building may need a different plan from a continuously heated home.",
+      "source": "src/sites/keswickplumbingpros.ca/content.ts#SVC.water-heaters.features[1]"
+    },
+    {
+      "q": "How can I compare old sections and additions for a Keswick property?",
+      "a": "Photograph exposed galvanized pipe, brittle plastic or mixed materials, and mark where additions join the original building. Ask which sections will be replaced and how connections to retained piping will be made. Mapping the different eras of work helps clarify the scope and avoid assuming every part of the system is alike.",
+      "source": "src/sites/keswickplumbingpros.ca/content.ts#SVC.repiping.features[1]"
+    },
+    {
+      "q": "How can I identify the septic boundary at my Keswick property?",
+      "a": "If the property uses septic, ask where the building drain ends and septic service begins before choosing work. A plumbing-line blockage and a tank or disposal-field concern are different scopes. Confirm what inspection covers and which specialist may be needed if the evidence points beyond the house drain.",
+      "source": "src/sites/keswickplumbingpros.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "For leak detection in Keswick, how should I inspect after seasonal closure?",
+      "a": "After reopening a seasonal property, document each wet area and any plumbing that was exposed to cold. If several breaks may relate to one event, ask for a coordinated inspection before individual repairs are finalized. A record of locations and affected lines helps distinguish related damage from separate problems.",
+      "source": "src/sites/keswickplumbingpros.ca/content.ts#SVC.leak-detection.features[2]"
+    },
+    {
+      "q": "How should I assess UV only when appropriate in Keswick?",
+      "a": "If considering UV treatment for a private well, ask what water testing and pretreatment the equipment requires, and how the unit’s operation is verified and maintained. A UV device is not a substitute for testing or for addressing other water-quality findings. The well results and installation conditions determine whether it belongs in the proposed system.",
+      "source": "src/sites/keswickplumbingpros.ca/content.ts#SVC.water-softeners.features[2]"
+    }
+  ],
+  "locations": {
+    "sutton": [
+      {
+        "q": "What should I prepare before discussing a Sutton well or pressure-system issue?",
+        "a": "Note when the pump runs, any pressure changes and whether water use is occurring. Photograph the pressure tank label and accessible controls. Testing and inspection can then be considered against the symptoms rather than assuming a particular well condition.",
+        "source": "src/sites/keswickplumbingpros.ca/content.ts#LOCATIONS.sutton.faq[0]"
+      },
+      {
+        "q": "What affects repiping plans for a seasonal Sutton property?",
+        "a": "The existing pipe materials, building access and winterization routine all matter. Ask whether the proposed layout includes accessible shutoffs and drain points if the property is meant to be drained for winter.",
+        "source": "src/sites/keswickplumbingpros.ca/content.ts#LOCATIONS.sutton.faq[1]"
+      },
+      {
+        "q": "How can I tell whether a Sutton drain concern may involve septic?",
+        "a": "Record which fixtures are affected and whether they slow together. Ask where the building drain and septic system meet; symptoms alone do not establish whether the plumbing line or septic service needs attention.",
+        "source": "src/sites/keswickplumbingpros.ca/content.ts#LOCATIONS.sutton.faq[2]"
+      },
+      {
+        "q": "What information helps compare water heaters for a Sutton property?",
+        "a": "Share the existing unit’s fuel, capacity, venting and location, along with the building’s occupancy pattern. If the installation area is unheated or the property is seasonal, include that in the comparison.",
+        "source": "src/sites/keswickplumbingpros.ca/content.ts#LOCATIONS.sutton.faq[3]"
+      },
+      {
+        "q": "What should I check about placement and cold exposure in Sutton?",
+        "a": "Photograph the tank location, nearby piping and any crawl-space access. If the area is unheated, ask how pipes and the appliance will be protected from freezing, and whether relocation is practical. These details can change the installation scope beyond a straightforward tank exchange.",
+        "source": "src/sites/keswickplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+      }
+    ],
+    "jacksons-point": [
+      {
+        "q": "What details help plan a sump system for a Jackson's Point property?",
+        "a": "Record when water enters, how quickly the basin refills, the pump model and the discharge location. Ask how capacity, backup power and routing would be assessed for that specific installation.",
+        "source": "src/sites/keswickplumbingpros.ca/content.ts#LOCATIONS.jacksons-point.faq[0]"
+      },
+      {
+        "q": "What should seasonal-property owners check before winter?",
+        "a": "Identify exposed pipes, the water heater, shutoff locations and the steps used to drain the building. Ask which equipment instructions and plumbing conditions apply to the property rather than assuming one winterization method suits every home.",
+        "source": "src/sites/keswickplumbingpros.ca/content.ts#LOCATIONS.jacksons-point.faq[1]"
+      },
+      {
+        "q": "How should I prepare for well-water treatment planning?",
+        "a": "Confirm that the property uses a private well and gather available test results. Note staining, odour or scale, then ask which measured conditions each proposed treatment stage is intended to address.",
+        "source": "src/sites/keswickplumbingpros.ca/content.ts#LOCATIONS.jacksons-point.faq[2]"
+      },
+      {
+        "q": "What information is useful for a plumbing inquiry in Jackson's Point?",
+        "a": "Describe the affected fixtures or equipment, when the issue occurs and whether the building is seasonal. Photos of labels, exposed connections and access points can help clarify what inspection or work may be needed.",
+        "source": "src/sites/keswickplumbingpros.ca/content.ts#LOCATIONS.jacksons-point.faq[3]"
+      },
+      {
+        "q": "How should I trace concealed lines methodically before work in Jackson's Point?",
+        "a": "If a leak may be behind a wall, under a floor or in a crawl space, photograph accessible routes and mark where moisture appears. Ask what detection methods are suitable before finishes are opened. The building’s layout and access help determine where to investigate and how much exploratory work may be needed.",
+        "source": "src/sites/keswickplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+      }
+    ],
+    "pefferlaw": [
+      {
+        "q": "What should I record when a Pefferlaw well pump cycles unexpectedly?",
+        "a": "Note how often it runs, whether any fixtures are in use and whether pressure changes. Photograph the pressure tank label and accessible valves. Inspection can then consider the pressure system and possible leaks without assuming a single cause.",
+        "source": "src/sites/keswickplumbingpros.ca/content.ts#LOCATIONS.pefferlaw.faq[0]"
+      },
+      {
+        "q": "What information helps plan repiping for a rural Pefferlaw home?",
+        "a": "Photograph exposed pipe materials, visible patches and connections between additions. Explain how the building is heated and winterized; routing, access and drain-down needs affect the scope.",
+        "source": "src/sites/keswickplumbingpros.ca/content.ts#LOCATIONS.pefferlaw.faq[1]"
+      },
+      {
+        "q": "How can septic ownership affect a drain-cleaning inquiry?",
+        "a": "List affected fixtures and whether the problem recurs or affects several drains. Ask whether the proposed inspection covers the plumbing line only and how concerns beyond the building drain would be identified.",
+        "source": "src/sites/keswickplumbingpros.ca/content.ts#LOCATIONS.pefferlaw.faq[2]"
+      },
+      {
+        "q": "What should I gather before discussing Pefferlaw water treatment?",
+        "a": "Confirm the water source and collect any recent test results. Describe specific concerns such as staining, odour or scale so proposed equipment can be compared with measured findings and household needs.",
+        "source": "src/sites/keswickplumbingpros.ca/content.ts#LOCATIONS.pefferlaw.faq[3]"
+      },
+      {
+        "q": "What should I check about the well pressure system in Pefferlaw?",
+        "a": "If a pump cycles unexpectedly, note its frequency and whether pressure changes when fixtures are off. Ask for the pressure tank, pump controls and relevant valves to be checked before assuming a buried leak. A leak, tank issue or valve fault can produce similar symptoms but lead to different repair scopes.",
+        "source": "src/sites/keswickplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+      }
+    ]
+  }
+}

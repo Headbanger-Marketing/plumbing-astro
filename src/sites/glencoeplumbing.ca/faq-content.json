@@ -1,0 +1,112 @@
+{
+  "home": [
+    {
+      "q": "How should I separate building drains from septic work when planning work in Glencoe?",
+      "a": "Clarify where the building drain ends and the septic system begins before comparing proposals. Clearing or repairing a building drain is different from work on a septic bed, which may require a septic contractor. If the blockage appears beyond the building line, ask what evidence supports that conclusion and who is qualified to assess the next section.",
+      "source": "src/sites/glencoeplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "How should I assess long supply runs separately in Glencoe?",
+      "a": "If a supply line crosses a yard to a barn, outbuilding, or cistern, show its known route and connection points. Ask how that run will be distinguished from the house system and whether acoustic tracing is suitable for the pipe and site. Separate testing can change the search area and help avoid unnecessary excavation.",
+      "source": "src/sites/glencoeplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "What matters when choosing capacity for actual use for a Glencoe property?",
+      "a": "List the fixtures that commonly run together and note heavy laundry or other recurring demand. This gives a more useful basis for comparing tank capacity or tankless output than household size alone. If a well supplies the home, include pressure-system details in the assessment because they can affect the installation plan.",
+      "source": "src/sites/glencoeplumbing.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "How should I plan water shutoffs and access at my Glencoe property?",
+      "a": "List the household’s essential water needs and any workday constraints before scheduling a repipe. Ask which areas must be opened, how the work will be staged, and when water is expected to be unavailable. The answers affect sequencing, access preparation, and whether temporary arrangements or additional restoration belong in the project scope.",
+      "source": "src/sites/glencoeplumbing.ca/content.ts#SVC.repiping.features[1]"
+    },
+    {
+      "q": "How should I plan a functional laundry setup at my Glencoe property?",
+      "a": "For a deep laundry tub or drain-board arrangement, measure the basin, work area, and connection locations. Ask whether the existing drain and supply can serve the proposed setup and whether the flow is suitable for the intended use. Those checks help establish whether the work is a fixture swap or requires changes to plumbing connections.",
+      "source": "src/sites/glencoeplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    }
+  ],
+  "locations": {
+    "wardsville": [
+      {
+        "q": "How can I assess a recurring drain blockage in Wardsville?",
+        "a": "Note which fixtures are affected and how often the blockage returns. If trees are near the route or the line is older, ask whether camera inspection is suitable and what the observed condition indicates before choosing further work.",
+        "source": "src/sites/glencoeplumbing.ca/content.ts#LOCATIONS.wardsville.faq[0]"
+      },
+      {
+        "q": "What should I check before planning basement water protection?",
+        "a": "Photograph the sump basin, pump label, float, and discharge route, and note when water appears. Ask whether the symptoms point to a sump issue, a drainage concern, or a possible backwater question based on the property’s connections.",
+        "source": "src/sites/glencoeplumbing.ca/content.ts#LOCATIONS.wardsville.faq[1]"
+      },
+      {
+        "q": "What details help compare water heater options?",
+        "a": "Record the existing unit’s rating plate, fuel, venting, and clearances, then describe when hot water runs short. Include any well and pressure-system details so capacity and installation requirements can be considered together.",
+        "source": "src/sites/glencoeplumbing.ca/content.ts#LOCATIONS.wardsville.faq[2]"
+      },
+      {
+        "q": "What information should I provide about a plumbing emergency?",
+        "a": "Describe the active problem, affected fixtures, and whether water can be safely shut off. Share photos of the equipment or leak and explain any immediate water damage so the appropriate next steps can be assessed.",
+        "source": "src/sites/glencoeplumbing.ca/content.ts#LOCATIONS.wardsville.faq[3]"
+      },
+      {
+        "q": "How do I match equipment to the line for my Wardsville project?",
+        "a": "A fixture branch, a long main run, and a line connected to a septic tank can call for different clearing equipment. Share the affected fixtures, pipe access points, and any known line length, then ask why the proposed method suits that run. The equipment choice can change both the work scope and what a clearing is likely to show.",
+        "source": "src/sites/glencoeplumbing.ca/content.ts#SVC.drain-cleaning.features[0]"
+      }
+    ],
+    "newbury": [
+      {
+        "q": "How should I compare treatment options for well water in Newbury?",
+        "a": "Start with water test results and a description of the symptoms. Ask which results support each proposed treatment stage and how household demand affects capacity and regeneration; staining alone does not identify the right equipment.",
+        "source": "src/sites/glencoeplumbing.ca/content.ts#LOCATIONS.newbury.faq[0]"
+      },
+      {
+        "q": "What helps trace a leak on a rural supply line?",
+        "a": "Share a sketch or photos of the route, known shutoffs, and any branches to outbuildings. Note pump cycling or pressure changes, then ask whether sectional pressure testing or acoustic tracing is suitable for the accessible pipe.",
+        "source": "src/sites/glencoeplumbing.ca/content.ts#LOCATIONS.newbury.faq[1]"
+      },
+      {
+        "q": "What should I check before selecting a sump pump?",
+        "a": "Record the basin dimensions, pump label, float operation, discharge route, and any outage concerns. Those details help compare pump capacity, backup-power requirements, and whether the issue may instead involve another drainage path.",
+        "source": "src/sites/glencoeplumbing.ca/content.ts#LOCATIONS.newbury.faq[2]"
+      },
+      {
+        "q": "What information is useful for a laundry or bathroom fixture project?",
+        "a": "Measure the available space and photograph existing supply and drain connections. For renovation work, share the finished fixture layout so rough-in locations, wall finishes, and any applicable inspection steps can be considered before surfaces are closed.",
+        "source": "src/sites/glencoeplumbing.ca/content.ts#LOCATIONS.newbury.faq[3]"
+      },
+      {
+        "q": "For repiping in Newbury, how should I define what the replacement includes?",
+        "a": "Older systems may contain sections installed at different times and in different materials. Ask whether the proposal replaces all supply piping or only selected runs, and request a material and routing description. That distinction matters when deciding whether isolated repairs are sufficient or a coherent PEX or copper system better fits the project.",
+        "source": "src/sites/glencoeplumbing.ca/content.ts#SVC.repiping.features[0]"
+      }
+    ],
+    "bothwell": [
+      {
+        "q": "How do I assess repiping options for an older Bothwell home?",
+        "a": "Photograph visible pipe materials, patches, and shutoffs. Ask whether the proposal replaces selected runs or the full supply system, and compare PEX or copper routing, water shutoffs, testing, and restoration.",
+        "source": "src/sites/glencoeplumbing.ca/content.ts#LOCATIONS.bothwell.faq[0]"
+      },
+      {
+        "q": "What should I compare when replacing a water heater?",
+        "a": "Record the existing rating plate, fuel source, venting, and clearances, and describe when hot water runs short. Ask how the proposed tank or tankless equipment fits the household demand and whether connections or venting changes affect the scope.",
+        "source": "src/sites/glencoeplumbing.ca/content.ts#LOCATIONS.bothwell.faq[1]"
+      },
+      {
+        "q": "When is a camera inspection useful for a drain?",
+        "a": "If a blockage returns, note which fixtures are affected and ask whether the line is accessible and suitable for camera inspection. Request a description of any visible roots, settled sections, or other findings before deciding on additional work.",
+        "source": "src/sites/glencoeplumbing.ca/content.ts#LOCATIONS.bothwell.faq[2]"
+      },
+      {
+        "q": "What should I do when plumbing fails unexpectedly?",
+        "a": "If safe, identify the shutoff and limit water use in the affected area. Photograph the equipment or leak, describe what stopped working, and share whether water is actively escaping so the next steps can be assessed.",
+        "source": "src/sites/glencoeplumbing.ca/content.ts#LOCATIONS.bothwell.faq[3]"
+      },
+      {
+        "q": "How can I narrow the search with isolation testing at my Bothwell property?",
+        "a": "Ask whether the plumbing can be divided into testable sections and what valves or access points are available. Sectional pressure testing can help identify which run is losing pressure before a wall or yard is opened. The result helps define whether the next step is a small repair, further tracing, or investigation of another branch.",
+        "source": "src/sites/glencoeplumbing.ca/content.ts#SVC.leak-detection.features[0]"
+      }
+    ]
+  }
+}

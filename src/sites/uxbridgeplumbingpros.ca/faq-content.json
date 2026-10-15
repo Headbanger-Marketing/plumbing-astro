@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For a property in Uxbridge, is the symptom limited to hot-water outlets?",
+      "a": "Ask the provider whether the current evidence supports heater work or a wider supply assessment, and what checks are still needed. The proposed replacement should be compared with that finding, including actual equipment ownership, fuel and connections. A separate upstream issue should not disappear into an undefined heater installation estimate.",
+      "source": "src/sites/uxbridgeplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For a property in Uxbridge, does the concern extend into on-site wastewater?",
+      "a": "Ask the provider which route can be inspected from current access and how the reported fixtures relate to that route. If an on-site wastewater system is present and may be implicated, clarify the specialist and separate assessment before work is agreed. Cleaning a fixture branch should not be presented as confirmation that the complete wastewater arrangement is functioning or suitable for a new project.",
+      "source": "src/sites/uxbridgeplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "For a property in Uxbridge, where does indoor piping become an outdoor route?",
+      "a": "Ask the provider to mark known pipe and any route still requiring investigation, then compare isolation and access for each section. Groundwork and room restoration may need different contractors or agreements. The scope should name those dependencies before treating an uncertain buried section as included in a routine interior repiping project.",
+      "source": "src/sites/uxbridgeplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For a property in Uxbridge, where would the utility fixture discharge?",
+      "a": "Ask the provider to establish where the proposed supply and drainage would connect and whether the chosen product suits that arrangement. Compare required branch changes with fitting the fixture itself. Any route that remains uncertain should be assessed before the project is treated as a direct installation at the nearest pipe.",
+      "source": "src/sites/uxbridgeplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "For a property in Uxbridge, is the suspected source inside the house?",
+      "a": "Ask the provider how the investigation would define and test the suspected sections, with the evidence for any opening or excavation explained first. Clarify who can authorize work on remote equipment. A wider repair boundary should follow the findings rather than the assumption that every symptom shares one buried source.",
+      "source": "src/sites/uxbridgeplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+    }
+  ],
+  "locations": {}
+}

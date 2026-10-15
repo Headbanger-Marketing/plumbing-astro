@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How should I plan access around plaster and trim at my Ingersoll property?",
+      "a": "Point out plaster, finished ceilings, cabinetry, and trim that may be affected. Ask where access openings are expected, how their locations are chosen, and whether patching or finish restoration is included or excluded. Older finishes can influence routing and the sequence of work, so clear scope boundaries help avoid mismatched expectations.",
+      "source": "src/sites/ingersollplumbing.ca/content.ts#SVC.repiping.features[1]"
+    },
+    {
+      "q": "For leak detection in Ingersoll, how should I investigate slabs and service lines carefully?",
+      "a": "If a leak may be under a basement floor or along a buried service line, ask what tests can narrow its location before considering access or excavation. Confirm which section is suspected and how the location was determined. Targeted investigation can help define the repair area, while the actual route and construction affect the work required.",
+      "source": "src/sites/ingersollplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "What matters when choosing well treatment from the sample for a Ingersoll property?",
+      "a": "If the property uses a private well, check whether the sample indicates iron, sulphur, bacteria, or another concern before comparing treatment. A softener does not replace every treatment process, and UV is relevant only where testing and circumstances support it. Ask about pretreatment, maintenance, and sampling requirements for the specific system.",
+      "source": "src/sites/ingersollplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "What should I review about rental terms before changing equipment in Ingersoll?",
+      "a": "If the heater is rented, check the agreement for ownership, cancellation, return, or buyout requirements before arranging a replacement. Ask what documents or confirmations are needed and compare those terms with the proposed equipment and installation scope. This can prevent confusion about who owns the old unit and what happens to the contract.",
+      "source": "src/sites/ingersollplumbing.ca/content.ts#SVC.water-heaters.features[2]"
+    },
+    {
+      "q": "What should I check about tree roots and older connections conditionally in Ingersoll?",
+      "a": "If the property has mature trees near a buried lateral or an older clay connection, ask whether root intrusion is a possible cause and how it would be confirmed. Keep records of where and when backups occur. Location and pipe condition affect whether periodic clearing, camera inspection, or a more lasting repair should be considered.",
+      "source": "src/sites/ingersollplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    }
+  ],
+  "locations": {}
+}

@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "How should I trace service and outbuilding runs before work in Tillsonburg?",
+      "a": "If the suspected leak is on a service line or a long run to a workshop or barn, sketch the route and mark accessible shutoffs, meters, and wet areas. Ask how the route will be checked from the surface and where excavation may be needed. This information helps focus locating work and estimate any digging or repair access.",
+      "source": "src/sites/tillsonburgplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "How do I match treatment to sulphur or iron findings for my Tillsonburg project?",
+      "a": "If a well has an odour or staining, describe where and when it occurs and compare that information with test results. Ask which treatment stages are proposed for the measured conditions and how the system will be sized for the well. Treatment choices should follow the sample, rather than assuming a particular cause from the symptom alone.",
+      "source": "src/sites/tillsonburgplumbingpros.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "What should I check about well and pressure conditions in Tillsonburg?",
+      "a": "If the property uses a well, note pressure fluctuations, the pressure tank arrangement, and any water treatment equipment near the heater. Ask how those conditions affect the proposed connections and equipment choice. Reviewing the supply setup alongside the heater can reveal scope beyond the appliance itself, rather than assuming every property has the same water pressure.",
+      "source": "src/sites/tillsonburgplumbingpros.ca/content.ts#SVC.water-heaters.features[2]"
+    },
+    {
+      "q": "What matters when choosing the method for the line for a Tillsonburg property?",
+      "a": "Ask what the proposed snake, hydro-jetter, or camera inspection is intended to establish. Snaking can clear an obstruction, jetting can clean a line, and a camera can show its interior condition. The right method depends on access, blockage, and pipe condition, so a tool should be selected for the specific finding needed.",
+      "source": "src/sites/tillsonburgplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "How can I compare fixtures for intended use for a Tillsonburg property?",
+      "a": "Record the fixture type, dimensions, and connection locations, and note how often it is used. Compare toilet, faucet, sink, tub, or shower specifications with the existing setup. If heavy use or water treatment needs influence the selection, ask about durable body materials and replaceable cartridges; those choices can affect compatibility and future servicing.",
+      "source": "src/sites/tillsonburgplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    }
+  ],
+  "locations": {
+    "otterville": [
+      {
+        "q": "What should I check before choosing well-water treatment in Otterville?",
+        "a": "If the property uses a well, arrange a water test and keep the results. Compare proposed softening, iron, or sulphur treatment with the measured conditions rather than choosing equipment based on a symptom alone.",
+        "source": "src/sites/tillsonburgplumbingpros.ca/content.ts#LOCATIONS.otterville.faq[0]"
+      },
+      {
+        "q": "What information helps plan a water heater replacement?",
+        "a": "Photograph the unit data plate, fuel connection, venting, and nearby piping. Note household demand and, if the property uses a well, any pressure fluctuations; these details can affect equipment selection and installation scope.",
+        "source": "src/sites/tillsonburgplumbingpros.ca/content.ts#LOCATIONS.otterville.faq[1]"
+      },
+      {
+        "q": "How can I compare sump pump options?",
+        "a": "Record the basin, pump model, discharge route, and when water enters. If outages have affected operation, include that information when asking about battery backup. Site drainage and equipment details affect sizing.",
+        "source": "src/sites/tillsonburgplumbingpros.ca/content.ts#LOCATIONS.otterville.faq[2]"
+      },
+      {
+        "q": "What should I document for repeated drain blockages?",
+        "a": "Note the affected fixtures, dates, and whether more than one drain backs up. Ask whether a camera inspection could identify roots, a sag, or another visible condition that changes the work from clearing to further investigation.",
+        "source": "src/sites/tillsonburgplumbingpros.ca/content.ts#LOCATIONS.otterville.faq[3]"
+      },
+      {
+        "q": "How should I document findings and repair access in Otterville?",
+        "a": "Ask for the suspected leak location, the test or instrument findings, and the proposed repair opening to be explained before work proceeds. Photograph the area and keep the repair details with property records. A clear account helps compare the detection and repair scope, including whether additional access or work may be needed after the pipe is exposed.",
+        "source": "src/sites/tillsonburgplumbingpros.ca/content.ts#SVC.leak-detection.features[2]"
+      }
+    ],
+    "courtland": [
+      {
+        "q": "How should I investigate a sulphur odour from a well?",
+        "a": "If the property uses a well, obtain a water test and note which taps have the odour and when it occurs. Compare proposed treatment with the results; the appropriate equipment depends on the measured conditions.",
+        "source": "src/sites/tillsonburgplumbingpros.ca/content.ts#LOCATIONS.courtland.faq[0]"
+      },
+      {
+        "q": "What details matter when replacing a water heater?",
+        "a": "Record the existing unit’s fuel, capacity or model, venting, and connections. Note household demand and, if there is a well, any pressure concerns so the proposed equipment and installation scope can be compared.",
+        "source": "src/sites/tillsonburgplumbingpros.ca/content.ts#LOCATIONS.courtland.faq[1]"
+      },
+      {
+        "q": "What should I share about a slow drain?",
+        "a": "Identify the affected fixtures and whether the blockage recurs. Ask whether snaking, hydro-jetting, or camera inspection suits the line condition and what finding would justify further work.",
+        "source": "src/sites/tillsonburgplumbingpros.ca/content.ts#LOCATIONS.courtland.faq[2]"
+      },
+      {
+        "q": "How do I prepare for plumbing work on a farm property?",
+        "a": "Sketch the route of any long buried line, barn supply, or building drain and mark visible shutoffs and access points. This helps clarify where locating or excavation may be required; confirm the specific repair scope after the route and condition are assessed.",
+        "source": "src/sites/tillsonburgplumbingpros.ca/content.ts#LOCATIONS.courtland.faq[3]"
+      },
+      {
+        "q": "What should I consider when sizing the pump to site conditions in Courtland?",
+        "a": "Photograph the pit and existing pump, and note when it runs, how water enters, and where the discharge goes. Ask how basin size, pump capacity, and the property’s drainage behaviour inform the proposal. These conditions affect equipment selection; a pump chosen without reviewing the site may not suit the volume or discharge arrangement.",
+        "source": "src/sites/tillsonburgplumbingpros.ca/content.ts#SVC.sump-pumps.features[0]"
+      }
+    ]
+  }
+}

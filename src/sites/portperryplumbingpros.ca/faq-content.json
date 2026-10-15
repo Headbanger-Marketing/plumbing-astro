@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For a property in Port Perry, what checks follow the heater’s unused period?",
+      "a": "Ask the provider which observations and records are needed before ordinary use or replacement is considered. Compare the actual purpose of any recommended heater work with separate supply or connection issues. Access arrangements should identify someone able to discuss the system and approve work if the property cannot be occupied throughout the assessment.",
+      "source": "src/sites/portperryplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For a property in Port Perry, did the drain issue appear when use resumed?",
+      "a": "Ask the provider to compare the affected fixtures, known route and any documented shutdown or altered connection. The proposed method should identify the section it can reach and what remains uncertain. Keep checks on a little-used fixture separate from a wider wastewater concern, especially where the system arrangement has not yet been established.",
+      "source": "src/sites/portperryplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "For a property in Port Perry, is replacement supported by a defect or a project goal?",
+      "a": "Ask the provider to identify the actual defect or project objective behind replacement and distinguish it from unknown concealed condition. Compare a sectional option with a wider route by its stated purpose, isolation and restoration needs. Any recommendation should identify what evidence is available now and which sections still require assessment.",
+      "source": "src/sites/portperryplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For a property in Port Perry, what changed in the little-used bathroom?",
+      "a": "Ask the provider to establish the present symptom and product identity before choosing repair or replacement. Compare any supported option with the available working space and connection changes it requires. If the property is occupied intermittently, access and authorization should be arranged around the assessment rather than assume the owner can approve unexpected work remotely.",
+      "source": "src/sites/portperryplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "For a property in Port Perry, what was observed when the property was reopened?",
+      "a": "Ask the provider how accessible evidence, known fixture use and any previous records will guide the investigation. Request the finding that supports opening a particular area before authorizing a repair. The proposal should distinguish investigation, plumbing correction and restoration, especially when the condition could extend beyond the room where the moisture was first seen.",
+      "source": "src/sites/portperryplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+    }
+  ],
+  "locations": {}
+}

@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For a property in Mississauga, do you have the new fixture installation sheet?",
+      "a": "Give the respondent the full model specification and ask which supplied and additional components are required. Distinguish connection changes from removing the old fixture and installing the new one. If a product has already been purchased, discuss any identified mismatch before finishes or mounting positions make another choice harder.",
+      "source": "src/sites/mississaugaplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "For a property in Mississauga, can a replacement pump use the present pit?",
+      "a": "Ask the provider what measurements support a direct replacement and whether a backup proposal changes the space or discharge arrangement. An additional alarm is another item to define, including how it will be reached and checked. Compare those options by their complete scope rather than selecting a pump from horsepower or cabinet dimensions alone.",
+      "source": "src/sites/mississaugaplumbingpros.ca/content.ts#SVC.sump-pumps.features[0]"
+    },
+    {
+      "q": "For a property in Mississauga, will the chosen heater fit existing connections?",
+      "a": "Ask the provider to describe the fit at your actual equipment space before a product is ordered. If moving from a tank to tankless, compare that proposal as a conversion with its own supply and ventilation work, rather than only comparing purchase prices. Identify who handles the old equipment and which connection changes are included.",
+      "source": "src/sites/mississaugaplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For a property in Mississauga, did drainage change after another installation?",
+      "a": "Ask how the respondent would assess the altered connection before treating the issue as a deposit farther down the pipe. The proposed cleaning access should be identified, along with what remains outside its reach. A result at one fixture needs to be interpreted alongside the behaviour of the other connected drains.",
+      "source": "src/sites/mississaugaplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "For a property in Mississauga, which earlier alterations need tracing?",
+      "a": "Ask how the respondent will confirm the sections being priced and distinguish old retained runs from previous replacement work. Compare the access openings required by each proposed route, including any affected cabinetry or tile. The estimate should make clear whether restoration is included or will be arranged separately.",
+      "source": "src/sites/mississaugaplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    }
+  ],
+  "locations": {}
+}

@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "For fixture installation in Aylmer, how should I inspect rental fixtures between occupants?",
+      "a": "For a rental turnover, make a list of faucets, toilets and laundry fittings that need attention, and photograph visible leaks or loose connections. Ask for the scope to include relevant leak checks as well as replacements. This helps distinguish a simple fixture swap from a repair to surrounding piping or finishes.",
+      "source": "src/sites/aylmerplumbing.ca/content.ts#SVC.fixtures-toilets.features[2]"
+    },
+    {
+      "q": "How should I plan access through older walls at my Aylmer property?",
+      "a": "If a home has lath and plaster, ask how proposed pipe routes and access openings will be mapped. Photograph valuable plaster, trim and woodwork before planning. Limiting openings may reduce disruption, but the available route and condition of existing piping determine where access is necessary.",
+      "source": "src/sites/aylmerplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "What should I check about roots and clay tile in Aylmer?",
+      "a": "If a buried line may be clay tile, ask whether a camera inspection can identify root intrusion, crushed sections or sagging. Root cutting may restore flow, but footage can show whether the problem is likely to return or whether a damaged section needs separate attention. Keep the recording or findings for comparison.",
+      "source": "src/sites/aylmerplumbing.ca/content.ts#SVC.drain-cleaning.features[1]"
+    },
+    {
+      "q": "How should I trace buried yard and barn lines before work in Aylmer?",
+      "a": "If a buried line supplies a barn or field hydrant, sketch its route and mark accessible valves or wet areas. Ask how the line will be traced and what burial-rated fittings would be used for a repair. Knowing the route and service points helps define excavation and repair scope.",
+      "source": "src/sites/aylmerplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "How do I match basin and pump to drainage for my Aylmer project?",
+      "a": "If water reaches the basement, document where it enters and how quickly the basin fills. Ask how foundation drainage and site conditions inform the basin and pump selection. A pump that is too small for the observed load may not keep up, so capacity should be discussed alongside the drainage pattern.",
+      "source": "src/sites/aylmerplumbing.ca/content.ts#SVC.sump-pumps.features[0]"
+    }
+  ],
+  "locations": {
+    "springfield": [
+      {
+        "q": "What should I check before replacing a water heater in Springfield?",
+        "a": "Note the existing heater’s fuel, capacity, model and vent route, then photograph the surrounding space and access. Ask how those details affect the replacement options and scope; equipment and site requirements vary.",
+        "source": "src/sites/aylmerplumbing.ca/content.ts#LOCATIONS.springfield.faq[0]"
+      },
+      {
+        "q": "What information helps assess a Springfield well system?",
+        "a": "Record when the pump runs, whether pressure changes and whether symptoms persist with all taps closed. Photos of the pressure tank, switch and accessible yard-line components can help distinguish equipment concerns from possible leaks.",
+        "source": "src/sites/aylmerplumbing.ca/content.ts#LOCATIONS.springfield.faq[1]"
+      },
+      {
+        "q": "How should I compare main-drain cleaning options?",
+        "a": "Describe which fixtures are affected and whether the blockage returns. Ask whether cabling, jetting or camera inspection is suitable for the line; possible roots, clay tile and pipe condition can change the scope.",
+        "source": "src/sites/aylmerplumbing.ca/content.ts#LOCATIONS.springfield.faq[2]"
+      },
+      {
+        "q": "Should I choose a softener based on symptoms alone?",
+        "a": "Use a water test to compare hardness and other reported concerns before selecting equipment. Ask which treatment addresses each result and how capacity relates to household use.",
+        "source": "src/sites/aylmerplumbing.ca/content.ts#LOCATIONS.springfield.faq[3]"
+      },
+      {
+        "q": "How should I separate leaks from well-system faults when planning work in Springfield?",
+        "a": "A short-cycling pump may point to a pressure tank or switch issue rather than a leaking pipe. Record the pump’s cycling pattern and note whether all fixtures are closed when it runs. Ask for the well system to be tested before any pipe is cut, so the diagnosis distinguishes equipment faults from water loss.",
+        "source": "src/sites/aylmerplumbing.ca/content.ts#SVC.leak-detection.features[2]"
+      }
+    ],
+    "port-burwell": [
+      {
+        "q": "What should a seasonal cottage plumbing check include?",
+        "a": "Make a list of water systems, fixtures and equipment that were shut down or may need attention. Ask which opening or closing steps suit the property’s layout, supply and existing plumbing; do not assume every system has the same requirements.",
+        "source": "src/sites/aylmerplumbing.ca/content.ts#LOCATIONS.port-burwell.faq[0]"
+      },
+      {
+        "q": "How can I plan to protect plumbing near the lake from freezing?",
+        "a": "Identify exposed or vulnerable pipe runs and photograph their locations, including any supply or discharge routes. Ask what draining or protection is appropriate for the specific system and when it should be done.",
+        "source": "src/sites/aylmerplumbing.ca/content.ts#LOCATIONS.port-burwell.faq[1]"
+      },
+      {
+        "q": "What details help scope a water heater replacement?",
+        "a": "Share the existing heater’s fuel, capacity, venting, dimensions and access route. If the unit is in a tight utility space, photographs can help compare tank and tankless options and clarify installation requirements.",
+        "source": "src/sites/aylmerplumbing.ca/content.ts#LOCATIONS.port-burwell.faq[2]"
+      },
+      {
+        "q": "What should I do if a burst pipe or drain backup occurs?",
+        "a": "Record where water is appearing, when it began and which fixtures are affected. If safe, limit further water flow and document the area; the location and extent of the problem help determine what needs inspection.",
+        "source": "src/sites/aylmerplumbing.ca/content.ts#LOCATIONS.port-burwell.faq[3]"
+      },
+      {
+        "q": "How should I assess iron, sulphur and UV needs in Port Burwell?",
+        "a": "If test results report iron or hydrogen sulphide, ask which removal stages are proposed and what each is expected to treat. For well water, discuss whether ultraviolet disinfection is appropriate in light of the test and system requirements. Do not assume one device addresses every water concern.",
+        "source": "src/sites/aylmerplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+      }
+    ]
+  }
+}

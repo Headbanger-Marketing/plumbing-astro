@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "For leak detection in Sarnia, how should I isolate slab and in-floor plumbing?",
+      "a": "If a home has a slab or an addition with in-floor plumbing, ask whether pressure isolation can identify the affected run before concrete is disturbed. Provide any available plans or notes on pipe routes. Confirm which line is being tested and what the results show, since different findings can lead to different repair scopes.",
+      "source": "src/sites/sarniaplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "How should I assess iron in well water in Sarnia?",
+      "a": "If a well test shows iron, ask whether a softener alone is suitable or whether staged filtration is needed first. Confirm which form and level of iron the proposed equipment is intended to treat and how maintenance will work. This information matters because unsuitable pretreatment can affect the treatment system’s operation.",
+      "source": "src/sites/sarniaplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "How should I trace shared stacks in multi-unit buildings before work in Sarnia?",
+      "a": "For a duplex or building with upstairs flats, list which units and fixtures show symptoms and whether the issue changes with use. Ask how the shared stack and individual branches will be distinguished before opening anything. Mapping the affected connections can clarify which part of the system is within the proposed scope.",
+      "source": "src/sites/sarniaplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "How should I assess the existing pipe system in Sarnia?",
+      "a": "If galvanized pipe is present, ask how its condition and sizing will be assessed and which branches are proposed for replacement. Compare PEX and copper options against access and layout. The distinction matters because replacing only a local section differs substantially from renewing supply lines throughout the home.",
+      "source": "src/sites/sarniaplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How can I compare ownership and equipment options for a Sarnia property?",
+      "a": "If replacing a rented tank with an owned unit, confirm who owns the existing equipment and what removal or contract steps may apply. Compare proposed tank capacity, fuel and connection requirements with the current setup. For tankless equipment, ask whether gas, venting or electrical changes are included, because these can change the project scope.",
+      "source": "src/sites/sarniaplumbing.ca/content.ts#SVC.water-heaters.features[0]"
+    }
+  ],
+  "locations": {
+    "corunna": [
+      {
+        "q": "What information helps plan a water heater replacement in Corunna?",
+        "a": "Share the current unit’s fuel, model, capacity, venting and connections. Note whether it is rented or owned and whether the proposed equipment is a tank or tankless model. This helps identify changes that may affect the project scope.",
+        "source": "src/sites/sarniaplumbing.ca/content.ts#LOCATIONS.corunna.faq[0]"
+      },
+      {
+        "q": "How can I assess a possible repipe in an older home?",
+        "a": "If galvanized supply lines are present, photograph visible pipe and note which fixtures have low flow or discoloration. Ask whether the concern appears local or system-wide and what testing or access may be needed to compare a partial repair with a broader repipe.",
+        "source": "src/sites/sarniaplumbing.ca/content.ts#LOCATIONS.corunna.faq[1]"
+      },
+      {
+        "q": "What should I document for a plumbing emergency inquiry?",
+        "a": "Describe the active leak or blockage, its location and whether water can be shut off safely. Provide photographs if possible and note affected rooms or fixtures. Do not assume response times; clear information helps explain the situation and its likely scope.",
+        "source": "src/sites/sarniaplumbing.ca/content.ts#LOCATIONS.corunna.faq[2]"
+      },
+      {
+        "q": "How do I evaluate sump protection?",
+        "a": "If the property has a sump basin, record its dimensions, pump label, discharge route and any water marks. Ask whether capacity, battery backup or an alarm suits the observed setup. If sewer backup has occurred, provide its location and ask whether a backwater valve is appropriate.",
+        "source": "src/sites/sarniaplumbing.ca/content.ts#LOCATIONS.corunna.faq[3]"
+      },
+      {
+        "q": "For water softeners in Corunna, how should I select equipment from test results?",
+        "a": "If the property uses municipal water or a private well, identify the source and review current test results before selecting treatment. Ask how hardness, iron and household demand affect sizing. Different results can call for different equipment, so a generic recommendation may not match the water at your tap.",
+        "source": "src/sites/sarniaplumbing.ca/content.ts#SVC.water-softeners.features[0]"
+      }
+    ],
+    "brights-grove": [
+      {
+        "q": "What should I consider for a seasonal home?",
+        "a": "If the property is left unoccupied in cold weather, document how water supply, drains and exposed lines are managed. Ask what drain-down or start-up work the specific plumbing system requires; the steps depend on the equipment and layout.",
+        "source": "src/sites/sarniaplumbing.ca/content.ts#LOCATIONS.brights-grove.faq[0]"
+      },
+      {
+        "q": "What details help plan a water heater replacement?",
+        "a": "Photograph the unit label and connections, and note its fuel, capacity, venting and ownership. If equipment is unavailable or the home is not occupied year-round, mention that when describing access and project timing.",
+        "source": "src/sites/sarniaplumbing.ca/content.ts#LOCATIONS.brights-grove.faq[1]"
+      },
+      {
+        "q": "How should I investigate basement water during storms?",
+        "a": "Record where water appears, when it occurs, and whether the sump pump runs or power is interrupted. Photograph the basin, pump and discharge. These details help assess whether pump capacity, battery backup, an alarm or further drainage investigation should be considered.",
+        "source": "src/sites/sarniaplumbing.ca/content.ts#LOCATIONS.brights-grove.faq[2]"
+      },
+      {
+        "q": "What information is useful before repiping an older cottage-era home?",
+        "a": "If mixed or aging pipes are present, photograph visible materials and list symptoms by fixture. Ask how the pipe routes can be mapped and whether work could be phased. The building’s layout and access determine whether staged replacement is practical.",
+        "source": "src/sites/sarniaplumbing.ca/content.ts#LOCATIONS.brights-grove.faq[3]"
+      },
+      {
+        "q": "How do I match clearing equipment to the blockage for my Bright's Grove project?",
+        "a": "Ask whether cable clearing or hydro-jetting suits the pipe material, access and suspected obstruction. A cable can open a passage; jetting may scour suitable lines more thoroughly. The method matters because pipe condition and blockage type affect both the work and the likelihood that further investigation is needed.",
+        "source": "src/sites/sarniaplumbing.ca/content.ts#SVC.drain-cleaning.features[0]"
+      }
+    ]
+  }
+}

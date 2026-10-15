@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "For drain cleaning in Simcoe, how should I account for septic connections?",
+      "a": "For a property on septic, identify the cleanout and the line section involved before selecting a cleaning method. Ask how the equipment will be used and whether the work is confined to the building drain or extends toward the tank. Knowing the system layout helps keep the scope focused and informs whether a separate septic-system assessment is needed.",
+      "source": "src/sites/simcoeplumbingpros.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "How should I plan for seasonal vacancy and restart at my Simcoe property?",
+      "a": "If a property will be vacant for part of the year, document the treatment system’s bypass, drain-down and restart instructions before leaving. Ask which components must remain protected from freezing and how settings should be checked when water use resumes. A seasonal plan can affect equipment placement, drain connections and maintenance needs, particularly for a property that is not occupied continuously.",
+      "source": "src/sites/simcoeplumbingpros.ca/content.ts#SVC.water-softeners.features[2]"
+    },
+    {
+      "q": "How should I plan routes through finished walls at my Simcoe property?",
+      "a": "In an older home, note plaster, lath, decorative finishes and existing chases before discussing pipe routes. Ask where access openings may be needed and whether PEX or copper is proposed for each run. A route through framing can reduce disruption, but the building layout and finish details determine what is practical and what patching may be required.",
+      "source": "src/sites/simcoeplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How should I plan basement drainage before finishes at my Simcoe property?",
+      "a": "Before adding a below-grade three-piece bathroom, locate the existing drain and establish its elevation relative to the proposed fixtures. Ask whether gravity drainage is feasible or whether a sewage ejector or other pumping arrangement needs consideration. This decision affects floor cutting, equipment, venting and maintenance access, so settle the drain approach before choosing finishes or fixing fixture locations.",
+      "source": "src/sites/simcoeplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "For leak detection in Simcoe, how should I investigate pump cycling methodically?",
+      "a": "If a well pump starts with taps closed, possible causes include a leak or a failed check valve. Ask for sections of the system to be isolated and tested so the cause is established before parts are replaced. Record the pump’s cycling pattern and pressure readings; they can help compare the system’s behaviour before and after the repair.",
+      "source": "src/sites/simcoeplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+    }
+  ],
+  "locations": {
+    "delhi": [
+      {
+        "q": "What information helps plan a water heater replacement in Delhi?",
+        "a": "Photograph the heater label, fuel connection and vent route, and note the current capacity and any hot-water shortage. This helps compare a like-for-like replacement with a change in capacity or venting.",
+        "source": "src/sites/simcoeplumbingpros.ca/content.ts#LOCATIONS.delhi.faq[0]"
+      },
+      {
+        "q": "What should I check before choosing well-water treatment?",
+        "a": "Arrange a water test and keep the results. Hardness, iron and other measured conditions affect whether a softener, filtration stage or another treatment approach is suitable.",
+        "source": "src/sites/simcoeplumbingpros.ca/content.ts#LOCATIONS.delhi.faq[1]"
+      },
+      {
+        "q": "What should I know before clearing roots from a drain line?",
+        "a": "Identify the cleanout and the affected line, and share any earlier camera findings if available. Ask whether camera inspection after cleaning would help distinguish remaining roots from pipe damage.",
+        "source": "src/sites/simcoeplumbingpros.ca/content.ts#LOCATIONS.delhi.faq[2]"
+      },
+      {
+        "q": "What details matter for an urgent leak or loss of water?",
+        "a": "Describe which fixtures or areas are affected, when the problem began and whether the property uses a meter or well pump. Photos of visible water and equipment can help clarify what needs assessment.",
+        "source": "src/sites/simcoeplumbingpros.ca/content.ts#LOCATIONS.delhi.faq[3]"
+      },
+      {
+        "q": "How do I match capacity to observed inflow for my Delhi project?",
+        "a": "Record how quickly water enters the pit and how often the pump cycles, especially during wet periods. Compare those observations with the pump’s capacity and discharge arrangement rather than choosing a unit by horsepower alone. Pit size, lift height and pipe routing all affect performance, while short cycling may point to a control or basin issue as well as pump sizing.",
+        "source": "src/sites/simcoeplumbingpros.ca/content.ts#SVC.sump-pumps.features[0]"
+      }
+    ],
+    "waterford": [
+      {
+        "q": "How can I plan plumbing work in an older Waterford home?",
+        "a": "Photograph original finishes, visible pipe routes and areas where access may be difficult. Discuss possible opening locations and patching expectations before work begins, since the house layout affects the practical route.",
+        "source": "src/sites/simcoeplumbingpros.ca/content.ts#LOCATIONS.waterford.faq[0]"
+      },
+      {
+        "q": "What should I check before installing or replacing a sump pump?",
+        "a": "Record the pit dimensions, pump label, cycling pattern and discharge route. Those details help assess capacity, float controls and whether backup power or discharge changes should be included.",
+        "source": "src/sites/simcoeplumbingpros.ca/content.ts#LOCATIONS.waterford.faq[1]"
+      },
+      {
+        "q": "What information is useful for a fixture renovation?",
+        "a": "Share a room plan with proposed fixture locations, current drain positions and any finish changes. For a basement bathroom, confirm the drainage approach before concrete cutting or finalizing the layout.",
+        "source": "src/sites/simcoeplumbingpros.ca/content.ts#LOCATIONS.waterford.faq[2]"
+      },
+      {
+        "q": "How should I prepare for a plumbing visit in Waterford?",
+        "a": "Provide the job address, a description of the symptoms or planned work, and clear photos of relevant equipment and access routes. This helps clarify the likely scope and what further assessment may be needed.",
+        "source": "src/sites/simcoeplumbingpros.ca/content.ts#LOCATIONS.waterford.faq[3]"
+      },
+      {
+        "q": "How can I confirm access and rural-site details before work in Waterford?",
+        "a": "Measure doorways and the route from the entrance to the heater, and photograph tight turns or stairs. For a property outside the built-up area, provide the job address and note any access limits, existing fuel connections and water-heater location. These details help clarify delivery logistics and whether the replacement can use existing connections or needs additional work.",
+        "source": "src/sites/simcoeplumbingpros.ca/content.ts#SVC.water-heaters.features[2]"
+      }
+    ]
+  }
+}

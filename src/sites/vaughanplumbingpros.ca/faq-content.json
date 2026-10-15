@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For a property in Vaughan, which supply runs conflict with the new layout?",
+      "a": "Ask the provider to explain whether a run is being moved for access or replaced because its condition supports that recommendation. Compare the retained and new routes on a marked plan, including which rooms need openings and isolation. A wider repiping proposal should identify the additional evidence and restoration involved rather than expand automatically with the renovation.",
+      "source": "src/sites/vaughanplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For a property in Vaughan, are rough-in locations fixed before tile and cabinets?",
+      "a": "Ask the provider to review the selected product details and proposed rough-in locations while those choices remain adjustable. Identify who coordinates wall depth, waterproofing interfaces and service access. A written installation scope should distinguish plumbing connections from finishing responsibilities, particularly for concealed valves and fixtures that require later maintenance access.",
+      "source": "src/sites/vaughanplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "For a property in Vaughan, will the new room obstruct drainage maintenance?",
+      "a": "Ask the provider to identify the access needed for inspection, equipment removal and ordinary maintenance. Compare a pump or valve proposal with the final room layout. Keep groundwater pumping, sewer-backflow work and exterior waterproofing as separate functions so the estimate makes clear what the proposed work actually addresses.",
+      "source": "src/sites/vaughanplumbingpros.ca/content.ts#SVC.sump-pumps.features[0]"
+    },
+    {
+      "q": "For a property in Vaughan, what will the new fixtures require from the heater?",
+      "a": "Ask the provider how the fixture use is evaluated against the present heater and supplies, with any measured or design assumptions stated. Compare a functioning heater capacity question with a repair question separately. The installation scope should identify any supply, space or vent change needed for the actual equipment selected.",
+      "source": "src/sites/vaughanplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For a property in Vaughan, are you clearing a drain or relocating it?",
+      "a": "Ask the provider to name the existing section being assessed and show how the new branch would connect. The cleaning result should not be treated as approval of the proposed island or room layout. Keep access for future maintenance in the route discussion and identify the work needed before cabinetry or a floor finish conceals it.",
+      "source": "src/sites/vaughanplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    }
+  ],
+  "locations": {}
+}

@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For a property in King City, do separate buildings share the blocked route?",
+      "a": "Ask the provider to identify the segment assessed from each available access point and explain how the evidence relates to the reported fixtures. A wider cleaning or camera proposal should name the additional route, not merely the property boundary. Keep access limitations and any separate wastewater assessment explicit when the options are compared.",
+      "source": "src/sites/kingcityplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "For a property in King City, can the additional fixture use the existing route?",
+      "a": "Ask the provider to identify the supply and waste connections it would use, then show any branch changes or assessment still required. Compare that work with the way the room or building will be occupied. Service access and future isolation should be considered in the written scope rather than treating the entire project as simply mounting the fixture.",
+      "source": "src/sites/kingcityplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "For a property in King City, which buildings or branches receive treated water?",
+      "a": "Ask the provider which outlets would be affected and which would remain on the existing supply. Compare relevant evidence, maintenance and access for the proposed configuration. A device located in the main house should not be described as treating an outbuilding unless the connection arrangement has actually been established.",
+      "source": "src/sites/kingcityplumbingpros.ca/content.ts#SVC.water-softeners.features[0]"
+    },
+    {
+      "q": "For a property in King City, do affected rooms share the same water heater?",
+      "a": "Ask the provider to map the known equipment and the affected outlets, with uncertain connections identified. The assessment can then explain whether it concerns equipment performance or a distribution branch. Compare any proposed heater change with the related connection and access work required in that particular service space.",
+      "source": "src/sites/kingcityplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For a property in King City, how would replacement cross separate service spaces?",
+      "a": "Ask the provider to show the section being changed and the connections that remain, including any route to another service space. Compare the openings and restoration needed for each option. A broader material recommendation should have supporting observations rather than rely on the size of the property or the distance between fixtures.",
+      "source": "src/sites/kingcityplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    }
+  ],
+  "locations": {}
+}

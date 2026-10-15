@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "How should I trace the line to sewer or septic before work in Seaforth?",
+      "a": "Identify where the building drain runs and whether it connects to a sewer or septic tank. For a long septic run, provide any available layout or access information and ask how far the cleaning will extend. A building drain blockage differs from a problem at a septic bed, which may require assessment by a septic contractor.",
+      "source": "src/sites/seaforthplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "For leak detection in Seaforth, how should I test buried well lines and older foundations?",
+      "a": "If the line from a well to the house may be leaking, ask how the run will be isolated into testable sections and how the suspected location will be confirmed. Provide any available route information and note changes in pump cycling. Pipe material, depth, and access affect the repair approach and whether replacement pipe is suitable for burial.",
+      "source": "src/sites/seaforthplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "How can I compare the heater with the water supply for a Seaforth property?",
+      "a": "If the property uses a well, note pressure and flow at fixtures, including when multiple taps are open. Compare those observations with the proposed heater’s flow or recovery requirements. This helps distinguish a heater-sizing issue from a supply limitation and gives the installer useful information before equipment is selected.",
+      "source": "src/sites/seaforthplumbing.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "How can I identify the pipe and replacement extent at my Seaforth property?",
+      "a": "Photograph exposed piping and fittings, and ask how the existing material will be confirmed where it is concealed. If galvanized pipe is present, compare a targeted repair with replacing connected sections or the full supply system. PEX and copper have different routing and connection considerations, so the proposed material and fixture sizing should be stated clearly.",
+      "source": "src/sites/seaforthplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How do I match fixtures to the existing room for my Seaforth project?",
+      "a": "Measure the toilet rough-in, clearances, and supply location, or photograph the existing faucet and sink connections before selecting replacements. In an older home, compare the fixture’s dimensions with the available space and existing drainage. These checks help distinguish a compatible swap from work that needs altered plumbing or additional access.",
+      "source": "src/sites/seaforthplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    }
+  ],
+  "locations": {
+    "zurich": [
+      {
+        "q": "What should I check before comparing water softeners for a Zurich property?",
+        "a": "Identify the water source and gather current test results for the specific property. Compare proposed equipment with measured hardness, iron, or other relevant results, household demand, and maintenance requirements rather than assuming nearby supplies are alike.",
+        "source": "src/sites/seaforthplumbing.ca/content.ts#LOCATIONS.zurich.faq[0]"
+      },
+      {
+        "q": "What information helps scope a water heater replacement?",
+        "a": "Photograph the existing rating plate, fuel connection, vent route, and surrounding installation. If the home uses a well, note pressure and flow changes when several fixtures run. Those details help clarify capacity and installation requirements, but do not establish equipment availability or timing.",
+        "source": "src/sites/seaforthplumbing.ca/content.ts#LOCATIONS.zurich.faq[1]"
+      },
+      {
+        "q": "How can I assess a sump pump or basement water issue?",
+        "a": "Record where water appears, when it occurs, and how often the pump cycles. Photograph the basin, pump label, and discharge route. Ask whether the symptoms point to pump equipment, drainage, or another water-entry path before comparing proposed work.",
+        "source": "src/sites/seaforthplumbing.ca/content.ts#LOCATIONS.zurich.faq[2]"
+      },
+      {
+        "q": "When should a recurring drain problem be inspected?",
+        "a": "If a line backs up again after clearing, ask whether camera inspection could identify a root intrusion, offset joint, sag, or buildup. Confirm whether the property connects to sewer or septic and what part of the line the proposed cleaning includes.",
+        "source": "src/sites/seaforthplumbing.ca/content.ts#LOCATIONS.zurich.faq[3]"
+      },
+      {
+        "q": "What should I review about finishes and water information in Zurich?",
+        "a": "If the property uses untreated well water, check available water-test results and ask how they may affect fixture finish selection and maintenance. Also compare aerator and cartridge requirements and the manufacturer’s cleaning guidance. Water conditions vary between properties, so evidence from the specific supply is more useful than a general assumption about the area.",
+        "source": "src/sites/seaforthplumbing.ca/content.ts#SVC.fixtures-toilets.features[1]"
+      }
+    ],
+    "dashwood": [
+      {
+        "q": "What should I gather before planning a farmhouse repipe?",
+        "a": "Photograph accessible piping, fittings, shutoffs, and previous repairs, and note which fixtures have weak flow or discoloured water. Ask the provider to identify the replacement extent, proposed material, access, water interruptions, testing, and applicable approvals.",
+        "source": "src/sites/seaforthplumbing.ca/content.ts#LOCATIONS.dashwood.faq[0]"
+      },
+      {
+        "q": "How can a hidden leak be investigated?",
+        "a": "Record when the symptom occurs and photograph stains or wet areas. If the property uses a well, note pump cycling and any available pressure readings. Ask whether pressure testing or acoustic investigation suits the suspected location before deciding where access may be needed.",
+        "source": "src/sites/seaforthplumbing.ca/content.ts#LOCATIONS.dashwood.faq[1]"
+      },
+      {
+        "q": "What details matter when replacing a toilet or adding fixtures?",
+        "a": "Measure the available space and toilet rough-in, and photograph existing supply and drainage connections. For a bathroom or laundry renovation, provide the fixture schedule and room layout so rough-in locations can be coordinated before walls or floors are finished.",
+        "source": "src/sites/seaforthplumbing.ca/content.ts#LOCATIONS.dashwood.faq[2]"
+      },
+      {
+        "q": "How do I distinguish a plumbing emergency from a planned repair?",
+        "a": "If water is actively escaping, locate an accessible shutoff if it is safe to do so and document the affected area. For recurring drain backups or slow leaks, record the pattern and system involved. Scope and response arrangements need to be confirmed directly; availability should not be assumed.",
+        "source": "src/sites/seaforthplumbing.ca/content.ts#LOCATIONS.dashwood.faq[3]"
+      },
+      {
+        "q": "What matters when choosing a clearing method that fits the pipe for a Dashwood property?",
+        "a": "Ask whether the proposed work uses a cable, root-cutting head, or hydro-jetting, and why that method suits the blockage and pipe condition. A cable may open a passage through an obstruction; jetting can wash material from the pipe wall. If roots are suspected, ask how the line’s condition will be checked before cutting or flushing.",
+        "source": "src/sites/seaforthplumbing.ca/content.ts#SVC.drain-cleaning.features[0]"
+      }
+    ]
+  }
+}

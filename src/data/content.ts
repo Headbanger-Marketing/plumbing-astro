@@ -63,7 +63,7 @@ export interface LocationDetail {
   intro: string;        // ~60 word intro paragraph (HTML, brand auto-linked)
   meta: string;         // ~20 word meta description (plain text)
   nearby: string[];     // Nearby communities for context
-  faq: [q: string, a: string][]; // 2-4 location-specific Q/A pairs
+  faq: [q: string, a: string][]; // at least five local Q/A pairs after FAQ editorial loading
 }
 
 export interface HomeContent {
@@ -82,7 +82,7 @@ export interface SiteContent {
   BLOG: BlogPost[];
   REVIEW_POOL: [text: string, name: string, place: string][];
   HOME_SERVICES: [icon: string, title: string, text: string, url: string][];
-  HOME_FAQ?: [q: string, a: string][]; // may be partial (f-string entries skipped)
+  HOME_FAQ?: [q: string, a: string][]; // at least five reviewed entries loaded from faq-content.json
   SVC_PHOTO?: Record<string, [src: string, alt: string, w: number, h: number]>;
   LOCATIONS?: Record<string, LocationDetail>; // location sub-pages for hub sites
 }

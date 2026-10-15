@@ -21,15 +21,25 @@ export async function loadSite(): Promise<LoadedSite> {
   const siteName = process.env.HVAC_SITE!;
   const site: SiteConfig = phoneVisibility((await import(`../sites/${siteName}.ts`)).site);
   const c = await import(`../sites/${siteName}/content.ts`);
+  // Explicit local FAQs are shared by visible accordions and FAQPage schema.
+  const faq = (await import(`../sites/${siteName}/faq-content.json`)).default;
+  const pairs = (entries: { q: string; a: string }[]): [string, string][] =>
+    entries.map(({ q, a }) => [q, a]);
+  if (faq.home.length < 5) throw new Error(`${siteName}: at least five home FAQs are required`);
+  const locations = Object.fromEntries(Object.entries(c.LOCATIONS || {}).map(([slug, location]) => {
+    const entries = faq.locations[slug];
+    if (!entries || entries.length < 5) throw new Error(`${siteName}/${slug}: missing local FAQs`);
+    return [slug, { ...(location as object), faq: pairs(entries) }];
+  })) as SiteContent['LOCATIONS'];
   const content: SiteContent = {
     HOME: c.HOME,
     SVC: c.SVC,
     BLOG: c.BLOG,
     REVIEW_POOL: [],
     HOME_SERVICES: c.HOME_SERVICES,
-    HOME_FAQ: c.HOME_FAQ,
+    HOME_FAQ: pairs(faq.home),
     SVC_PHOTO: c.SVC_PHOTO,
-    LOCATIONS: c.LOCATIONS,
+    LOCATIONS: locations,
   };
   _cache = { site, content };
   return _cache;

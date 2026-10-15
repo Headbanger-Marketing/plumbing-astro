@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How can I check whether polybutylene is system-wide in Clinton?",
+      "a": "If polybutylene is present, ask how the assessment will check concealed branches and fittings, not only visible runs. Chlorinated water and plastic fittings are relevant considerations, but the scope depends on the actual piping layout and condition. Compare proposals for full-system removal against partial replacement, and request a clear list of what remains in place.",
+      "source": "src/sites/clintonplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For leak detection in Clinton, how should I investigate a possible slab leak?",
+      "a": "If plumbing runs beneath a concrete slab and a floor area feels warm or moisture appears, record its position and check the meter with water use stopped. Ask whether acoustic listening and pressure isolation can narrow the affected branch. The findings help determine where an opening may be needed, rather than relying on symptoms alone to choose a location.",
+      "source": "src/sites/clintonplumbing.ca/content.ts#SVC.leak-detection.features[0]"
+    },
+    {
+      "q": "For water softeners in Clinton, how should I distinguish municipal supply from a private well?",
+      "a": "Identify the water source and, for a private well, ask whether iron or sediment testing indicates a need for pre-filtration. Hardness control and iron treatment serve different purposes, so compare the proposed treatment stages against the test results. Ask what each stage removes and how changes in test results would affect maintenance or equipment selection.",
+      "source": "src/sites/clintonplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "How should I plan fixtures around the room layout at my Clinton property?",
+      "a": "For a laundry move, basement bathroom or tub-to-shower change, draw the proposed fixture locations and note walls, floors and access points. The route to existing drains and supplies can determine how much rough-in work is needed. Ask for a review of clearances, connections and access before ordering fixtures that may not suit the planned layout.",
+      "source": "src/sites/clintonplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "What should I consider when sizing the pump to the pit and discharge in Clinton?",
+      "a": "Photograph the pit, pump label, float arrangement and discharge outlet. Ask how the proposed pump capacity relates to pit size, discharge height and the water load the property may face during thaw or heavy rain. Those conditions vary by site, so a proposal should explain its sizing assumptions rather than use a seasonal label alone.",
+      "source": "src/sites/clintonplumbing.ca/content.ts#SVC.sump-pumps.features[0]"
+    }
+  ],
+  "locations": {}
+}

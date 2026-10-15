@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "For leak detection in Amherstburg, how should I divide a long well line into sections?",
+      "a": "If the property has a long supply line from a private well, record its approximate route and identify available shutoffs. Ask whether sections can be isolated to locate a loss between the well and house. The length and access points affect how the search is organized and where excavation might be considered.",
+      "source": "src/sites/amherstburgplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "What should I review about private-well water considerations in Amherstburg?",
+      "a": "If the property has a private well, share recent water test results and ask whether hardness, sediment, or other measured conditions affect the heater choice. Confirm whether an anode or upstream treatment is being proposed and why. These checks help distinguish a routine replacement from a project that includes water-treatment work.",
+      "source": "src/sites/amherstburgplumbingpros.ca/content.ts#SVC.water-heaters.features[2]"
+    },
+    {
+      "q": "Why should I include septic connections in the plan in my Amherstburg request?",
+      "a": "If the property drains to a septic tank and field, identify that connection before choosing a cleaning method. Ask where the blockage lies and how the method accounts for the downstream system. The location and condition of the line can change whether cleaning alone is appropriate or further inspection is needed.",
+      "source": "src/sites/amherstburgplumbingpros.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "How should I plan access in older walls at my Amherstburg property?",
+      "a": "If supply lines run behind plaster worth preserving, ask for proposed access locations before work begins. Photograph existing finishes and discuss how openings will be arranged for later patching. The pipe route and condition determine whether limited access is practical or broader opening is needed.",
+      "source": "src/sites/amherstburgplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "What should I check about the treatment sequence in Amherstburg?",
+      "a": "If a well test shows sediment and iron, ask how filtration stages are arranged before softening and why. Request a simple flow diagram showing each stage and the contaminant it is intended to address. Correct sequencing affects equipment performance and helps you compare proposals on more than the number of components.",
+      "source": "src/sites/amherstburgplumbingpros.ca/content.ts#SVC.water-softeners.features[0]"
+    }
+  ],
+  "locations": {
+    "mcgregor": [
+      {
+        "q": "What information helps plan work on a private well?",
+        "a": "Record pump and pressure-tank labels, control details, symptoms, and available water test results. Those details help clarify whether the project concerns supply, pressure, or treatment.",
+        "source": "src/sites/amherstburgplumbingpros.ca/content.ts#LOCATIONS.mcgregor.faq[0]"
+      },
+      {
+        "q": "What should I compare when replacing a water heater?",
+        "a": "Compare household demand, the existing fuel and connections, venting, and access to the installation space. If the property has a private well, consider whether test results affect equipment or treatment choices.",
+        "source": "src/sites/amherstburgplumbingpros.ca/content.ts#LOCATIONS.mcgregor.faq[1]"
+      },
+      {
+        "q": "How should a water-treatment system be selected?",
+        "a": "Start with a current test for the property’s water source and compare each proposed treatment stage with a reported result. Ask about system sizing, sequence, and maintenance requirements.",
+        "source": "src/sites/amherstburgplumbingpros.ca/content.ts#LOCATIONS.mcgregor.faq[2]"
+      },
+      {
+        "q": "What should I document for a recurring drain problem?",
+        "a": "Note which fixtures are affected, how often the problem returns, and whether the property drains to a septic system. Pipe material and a camera inspection may help clarify the appropriate scope.",
+        "source": "src/sites/amherstburgplumbingpros.ca/content.ts#LOCATIONS.mcgregor.faq[3]"
+      },
+      {
+        "q": "How do I match cleaning to pipe condition for my McGregor project?",
+        "a": "If the drain is an older tile or clay line, identify the material where possible and ask how its condition will guide cable size, nozzle choice, or pressure. A modern PVC run may allow different methods. Comparing the proposed equipment with the pipe’s condition helps avoid treating every blockage as though the line were identical.",
+        "source": "src/sites/amherstburgplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+      }
+    ],
+    "river-canard": [
+      {
+        "q": "How can I plan basement water protection?",
+        "a": "Keep a record of when water enters, how long the pump runs, and whether power outages or sewer backups coincide with the problem. The source and duration affect equipment choices.",
+        "source": "src/sites/amherstburgplumbingpros.ca/content.ts#LOCATIONS.river-canard.faq[0]"
+      },
+      {
+        "q": "When should a backwater valve be considered?",
+        "a": "If wastewater has entered from a surcharged sewer, ask whether a valve suits the plumbing layout and verify applicable permit, code, and inspection requirements. It addresses a different risk from sump-pump groundwater.",
+        "source": "src/sites/amherstburgplumbingpros.ca/content.ts#LOCATIONS.river-canard.faq[1]"
+      },
+      {
+        "q": "What details help assess recurring drain trouble?",
+        "a": "List affected fixtures, timing, and whether the line connects to a septic system. If the problem returns, ask whether a camera inspection can identify roots, breaks, or standing water.",
+        "source": "src/sites/amherstburgplumbingpros.ca/content.ts#LOCATIONS.river-canard.faq[2]"
+      },
+      {
+        "q": "What should I check before replacing a water heater?",
+        "a": "Record the existing model, fuel, capacity, connections, venting, and route into the installation space. Household demand and any private-well test results can also affect equipment planning.",
+        "source": "src/sites/amherstburgplumbingpros.ca/content.ts#LOCATIONS.river-canard.faq[3]"
+      },
+      {
+        "q": "How can I compare evidence before opening finishes for a River Canard property?",
+        "a": "Dampness can have multiple causes, so ask what acoustic listening, pressure testing, or moisture readings indicate before plaster is removed. Photograph the readings or marked location where possible. A clear explanation of how the evidence identifies a supply leak can help limit unnecessary openings and focus the repair.",
+        "source": "src/sites/amherstburgplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+      }
+    ]
+  }
+}

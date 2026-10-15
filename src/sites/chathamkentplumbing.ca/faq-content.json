@@ -1,0 +1,112 @@
+{
+  "home": [
+    {
+      "q": "For leak detection in Chatham-Kent, how should I test the well-to-house line?",
+      "a": "For a private well, note pump cycling when taps are closed and identify the known route from the well to the building. A leak along a long yard run can affect pump operation, but other system issues may produce similar symptoms. Ask how the line will be isolated and tested, and request the findings before deciding whether excavation or another repair approach is appropriate.",
+      "source": "src/sites/chathamkentplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "What should I check about sewer protection and seasonal drain-down in Chatham-Kent?",
+      "a": "If sewer water has backed up through a floor drain, ask whether a backwater valve is relevant and what installation access and inspection requirements apply. For a cottage or other seasonal property, list fixtures and lines that may need draining before freezing weather. Ask what the drain-down includes and how the system is left. The two measures address different risks and should be scoped separately.",
+      "source": "src/sites/chathamkentplumbing.ca/content.ts#SVC.sump-pumps.features[2]"
+    },
+    {
+      "q": "How can I compare ownership and rental terms for a Chatham-Kent property?",
+      "a": "If replacing a rented tank with an owned unit is under consideration, review the rental agreement, buyout or return requirements, and installation costs separately. Photograph the existing unit’s label and connections so proposed equipment can be compared on capacity, fuel, dimensions, and venting, rather than price alone. Ask what happens to the old unit and which parts of the installation are included.",
+      "source": "src/sites/chathamkentplumbing.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "What should I review about treatment stages for a private well in Chatham-Kent?",
+      "a": "For a private well, ask whether test results or visible sediment call for staged treatment, such as sediment filtration followed by iron or sulphur treatment and softening. Ultraviolet treatment is relevant only when the appropriate test findings and system conditions support it. Confirm the order of equipment, required space, and maintenance needs. Each stage should have a stated purpose rather than being added by default.",
+      "source": "src/sites/chathamkentplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "For repiping in Chatham-Kent, how should I map the materials and proposed system?",
+      "a": "Different pipe materials and their connections can affect what needs replacement and how the work is planned. Photograph accessible galvanized, copper, and poly-B sections, including joints, and mark their locations. Ask whether the scope covers only those runs or creates a coordinated PEX or copper system. This distinction affects access, material quantities, and how future repairs can be understood.",
+      "source": "src/sites/chathamkentplumbing.ca/content.ts#SVC.repiping.features[0]"
+    }
+  ],
+  "locations": {
+    "blenheim": [
+      {
+        "q": "What should I compare when planning a water heater replacement in Blenheim?",
+        "a": "Record the current unit’s fuel, capacity, venting, and connections, along with household hot-water demand. If the property uses a well, include pump and pressure-tank details. Compare proposed equipment and installation scope, including any venting or connection changes.",
+        "source": "src/sites/chathamkentplumbing.ca/content.ts#LOCATIONS.blenheim.faq[0]"
+      },
+      {
+        "q": "How should I plan water treatment for a property in Blenheim?",
+        "a": "Identify the water source and gather current test results. Hardness, iron, sulphur, and other findings may call for different equipment. Ask what each proposed stage treats and what maintenance it requires rather than choosing from location alone.",
+        "source": "src/sites/chathamkentplumbing.ca/content.ts#LOCATIONS.blenheim.faq[1]"
+      },
+      {
+        "q": "What information helps plan recurring drain work in Blenheim?",
+        "a": "List the affected fixtures, how often the blockage returns, and whether the property uses septic or municipal sewer. Ask whether snaking, hydro-jetting, or camera inspection suits the pipe and symptoms; recurring problems may need investigation beyond clearing.",
+        "source": "src/sites/chathamkentplumbing.ca/content.ts#LOCATIONS.blenheim.faq[2]"
+      },
+      {
+        "q": "Why should I include well equipment in the sizing review in my Blenheim request?",
+        "a": "For a home on a well, record the pressure-tank size, pump information, and any noticeable pressure changes while hot water is being used. These details can affect flow and how a heater performs at peak demand. Ask how the proposed capacity and recovery rate fit the pump and pressure system, instead of choosing a unit from household size alone.",
+        "source": "src/sites/chathamkentplumbing.ca/content.ts#SVC.water-heaters.features[1]"
+      },
+      {
+        "q": "What should I consider about effects on fixtures and drinking water before arranging work in Blenheim?",
+        "a": "Scale, staining, or taste concerns may lead to different equipment choices, including softening or reverse osmosis at a drinking-water tap. Ask what the selected system treats and whether it serves the whole home or one outlet. Compare filter changes, salt use, and maintenance requirements as well as purchase and installation scope. Avoid treating a symptom as proof of a particular water-quality problem.",
+        "source": "src/sites/chathamkentplumbing.ca/content.ts#SVC.water-softeners.features[2]"
+      }
+    ],
+    "tilbury": [
+      {
+        "q": "How can I plan a water heater replacement in Tilbury?",
+        "a": "Compare the existing unit’s fuel, capacity, venting, and connections with household demand. If changing from a rental to an owned unit, review the rental agreement and return or buyout requirements separately from installation costs.",
+        "source": "src/sites/chathamkentplumbing.ca/content.ts#LOCATIONS.tilbury.faq[0]"
+      },
+      {
+        "q": "What should I check if a Tilbury basement takes water during storms?",
+        "a": "Record where water enters, pump and pit details, discharge routing, and whether power outages are involved. A sump pump, backup power, alarm, or backwater valve address different situations, so compare them against the observed symptoms and sewer history.",
+        "source": "src/sites/chathamkentplumbing.ca/content.ts#LOCATIONS.tilbury.faq[1]"
+      },
+      {
+        "q": "When is a camera inspection worth considering for a Tilbury drain?",
+        "a": "If clearing a blockage has not prevented it from returning, ask whether camera footage could identify roots, a sag, scale, or pipe damage. Share prior clearing dates and request the findings before comparing repair options.",
+        "source": "src/sites/chathamkentplumbing.ca/content.ts#LOCATIONS.tilbury.faq[2]"
+      },
+      {
+        "q": "For fixture installation in Tilbury, how should I mark rough-ins before changing locations?",
+        "a": "Moving a basement bathroom or shifting a kitchen sink changes more than the fixture position. Mark the proposed location, identify accessible supply and drain routes, and note walls or floors that may need opening. Ask how new drain and supply runs will reach the fixture and what will be covered before it is closed up. Early layout review can reveal scope differences between options.",
+        "source": "src/sites/chathamkentplumbing.ca/content.ts#SVC.fixtures-toilets.features[1]"
+      },
+      {
+        "q": "How can I compare snaking with hydro-jetting for a Tilbury property?",
+        "a": "Snaking can open a passage through a blockage, while hydro-jetting uses water to clear buildup from pipe walls. The appropriate approach depends on the obstruction and pipe condition. Describe what has gone down the drain, how long the problem has been present, and whether it has recurred. Ask what method is proposed and why it suits the line.",
+        "source": "src/sites/chathamkentplumbing.ca/content.ts#SVC.drain-cleaning.features[0]"
+      }
+    ],
+    "bothwell": [
+      {
+        "q": "How should I compare water treatment options for a Bothwell property?",
+        "a": "Confirm whether the water comes from a private well and obtain current test results. If results indicate sediment, iron, sulphur, hardness, or bacteria concerns, ask how each proposed stage addresses them and what maintenance is required.",
+        "source": "src/sites/chathamkentplumbing.ca/content.ts#LOCATIONS.bothwell.faq[0]"
+      },
+      {
+        "q": "What details matter when replacing a water heater on a Bothwell-area well?",
+        "a": "Record the heater’s fuel, capacity, venting, and connections, plus the well pump and pressure-tank information. Ask how the proposed heater’s capacity and recovery rate fit the household’s demand and the water system.",
+        "source": "src/sites/chathamkentplumbing.ca/content.ts#LOCATIONS.bothwell.faq[1]"
+      },
+      {
+        "q": "Can a mixed-pipe farmhouse be repiped in stages?",
+        "a": "A phased plan may be compared with a larger coordinated replacement after mapping visible galvanized, copper, and poly-B runs. Ask which sections will be replaced, how water interruptions will be sequenced, and what testing and inspection steps apply.",
+        "source": "src/sites/chathamkentplumbing.ca/content.ts#LOCATIONS.bothwell.faq[2]"
+      },
+      {
+        "q": "What should I consider when assessing a sump pump?",
+        "a": "Document the pit, pump, discharge, water entry, and how often the system runs. Ask how capacity is selected for the observed load and whether battery backup or an alarm is relevant. Do not assume site conditions without checking the property.",
+        "source": "src/sites/chathamkentplumbing.ca/content.ts#LOCATIONS.bothwell.faq[3]"
+      },
+      {
+        "q": "What should I check about the existing fixture setting in Bothwell?",
+        "a": "For a toilet, faucet, shower, or sink replacement, photograph the connections and note whether shut-off valves turn and whether the old fixture leaks at its base. Compare the new fixture’s dimensions and connection requirements with the existing setup. A mismatch in drain alignment, supply connection, or available clearance can change the installation scope, so confirm those points before selecting a model.",
+        "source": "src/sites/chathamkentplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+      }
+    ]
+  }
+}

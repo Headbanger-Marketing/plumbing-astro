@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For repiping in Newmarket, how should I map galvanized piping before work?",
+      "a": "If visible supply lines are galvanized, ask how the assessment will account for concealed sections and branches to individual fixtures. Photograph accessible runs and note where water pressure changes. The scope may differ if the issue is limited to one section or if corrosion and restricted flow appear across multiple lines.",
+      "source": "src/sites/newmarketplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How should I plan basement bathroom drainage at my Newmarket property?",
+      "a": "If a basement bathroom or secondary suite is planned, ask how the proposed fixtures connect to drainage and venting. Depending on the layout and elevations, a lifting system may need consideration. Share a floor plan and fixture locations so the drainage approach and any applicable inspection requirements can be discussed before walls are closed.",
+      "source": "src/sites/newmarketplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "Why should I include yard lines and crawlspaces in the check in my Newmarket request?",
+      "a": "If a property has a crawlspace, long buried water line, or dampness near the foundation, point out the suspected route and any accessible shutoffs. Ask whether the investigation includes the section between the street shutoff and the home. Access, pipe location, and the distinction between a supply line and drainage issue affect the testing and repair scope.",
+      "source": "src/sites/newmarketplumbingpros.ca/content.ts#SVC.leak-detection.features[2]"
+    },
+    {
+      "q": "What should I check about access before choosing a tank in Newmarket?",
+      "a": "Measure doorways, stair turns, ceiling height, and the clear space around the existing heater. Photograph obstacles and the tank label. In a coal room, crawlspace, or other restricted area, these details can change the removal plan, the replacement dimensions, and the work needed to connect and vent the new unit.",
+      "source": "src/sites/newmarketplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For water softeners in Newmarket, how should I start with the water source and test?",
+      "a": "Confirm whether the property uses municipal water or a private well, and gather any recent test results before choosing equipment. If the source or results are unknown, ask what testing is appropriate. Water characteristics can differ from one property to another, so the source and measured values determine which treatment options merit comparison.",
+      "source": "src/sites/newmarketplumbingpros.ca/content.ts#SVC.water-softeners.features[0]"
+    }
+  ],
+  "locations": {}
+}

@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "How should I separate slab and yard-line questions when planning work in Chatham?",
+      "a": "A leak beneath a basement floor and one along an exterior service line involve different access and repair considerations. Identify where the suspected route runs and ask how pressure isolation can distinguish sections. If the line extends toward the property boundary, confirm what portion is being assessed and how the suspected failure point will be verified.",
+      "source": "src/sites/chathamplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "How can I identify pipe material and replacement scope at my Chatham property?",
+      "a": "Photograph accessible piping and note any labels, corrosion or previous repairs. If galvanized steel is present, ask which runs would be replaced and whether the proposal uses PEX or copper. Pipe sizing, route and fixture locations affect flow and access, so a clear scope should explain how the new lines connect to existing plumbing.",
+      "source": "src/sites/chathamplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For water softeners in Chatham, how should I test before selecting capacity?",
+      "a": "Ask how hardness and flow will be measured, then compare the results with household demand and the proposed softener’s grain capacity. The number of users and water use affect sizing and regeneration frequency. A test-based selection is more useful than choosing a unit by appearance or relying on a general claim about water in the area.",
+      "source": "src/sites/chathamplumbingpros.ca/content.ts#SVC.water-softeners.features[0]"
+    },
+    {
+      "q": "What should I know before using a camera when problems return in Chatham?",
+      "a": "If backups recur, request camera findings that identify the viewed route, distance and any visible obstruction or pipe defect. Roots, a sagged section or a damaged joint call for different next steps than a single removable clog. Ask for footage or a written description so you can compare the evidence with the proposed cleaning or repair scope.",
+      "source": "src/sites/chathamplumbingpros.ca/content.ts#SVC.drain-cleaning.features[1]"
+    },
+    {
+      "q": "How can I confirm rough-in locations before finishing before work in Chatham?",
+      "a": "For a new bathroom or kitchen layout, mark the proposed fixture positions and compare them with existing drain and supply routes. Ask for locations to be verified before concrete, tile or cabinetry hides the work. Moving a toilet, shower or kitchen sink can require different drainage and vent arrangements than replacing a fixture in its existing position.",
+      "source": "src/sites/chathamplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[1]"
+    }
+  ],
+  "locations": {
+    "thamesville": [
+      {
+        "q": "What should I compare when replacing a water heater in Thamesville?",
+        "a": "Record the existing fuel, tank capacity, vent arrangement and connections. Compare tank and tankless options against household demand, installation requirements and available space. Ask which safety checks and documentation are included in the proposed scope.",
+        "source": "src/sites/chathamplumbingpros.ca/content.ts#LOCATIONS.thamesville.faq[0]"
+      },
+      {
+        "q": "How can I assess repiping in an older Thamesville home?",
+        "a": "Photograph accessible piping and note corrosion, leaks and which fixtures lose pressure. If galvanized supply lines are present, ask what runs would be replaced, whether PEX or copper is proposed, how the work could be staged and how new piping will be tested.",
+        "source": "src/sites/chathamplumbingpros.ca/content.ts#LOCATIONS.thamesville.faq[1]"
+      },
+      {
+        "q": "What information is useful for an urgent plumbing problem?",
+        "a": "Describe the affected fixtures, when the problem began and whether water is actively leaking or backing up. Photographs of the equipment, shut-offs or affected area can help clarify the issue. For an active leak, note whether the water supply can be safely shut off.",
+        "source": "src/sites/chathamplumbingpros.ca/content.ts#LOCATIONS.thamesville.faq[2]"
+      },
+      {
+        "q": "Should I consider a water softener in Thamesville?",
+        "a": "Do not rely on location alone to choose treatment. Request a hardness measurement at the tap and compare it with household use and the proposed softener’s capacity. If the goal is drinking-water treatment, discuss point-of-use filtration separately and review maintenance requirements.",
+        "source": "src/sites/chathamplumbingpros.ca/content.ts#LOCATIONS.thamesville.faq[3]"
+      },
+      {
+        "q": "What should I check about backup power and discharge in Thamesville?",
+        "a": "If continued pumping during an outage matters, photograph existing backup equipment and its battery information, if available. Ask how a secondary pump or battery backup would operate, how it is tested and where it discharges. The backup arrangement depends on the basin, electrical setup and discharge route, so those details should be reviewed together.",
+        "source": "src/sites/chathamplumbingpros.ca/content.ts#SVC.sump-pumps.features[1]"
+      }
+    ],
+    "pain-court": [
+      {
+        "q": "What should I provide when planning plumbing work on a rural property near Pain Court?",
+        "a": "List the affected fixtures and equipment, note whether the property uses a well or other supply if known, and photograph system labels and connections. For water treatment, ask what measurements are needed before selecting equipment. Access and the existing layout can change the work scope.",
+        "source": "src/sites/chathamplumbingpros.ca/content.ts#LOCATIONS.pain-court.faq[0]"
+      },
+      {
+        "q": "How should I compare water heater replacement options in Pain Court?",
+        "a": "Photograph the rating plate, fuel connection, vent and surrounding space. Compare tank capacity or tankless flow requirements with household demand, and ask whether the existing connections and venting suit the proposed equipment.",
+        "source": "src/sites/chathamplumbingpros.ca/content.ts#LOCATIONS.pain-court.faq[1]"
+      },
+      {
+        "q": "What can I document if a basement takes water in spring?",
+        "a": "Record where water appears, how quickly the sump basin fills, how often the pump runs and where its discharge goes. Photograph the pump label and any backup equipment. Those observations help assess the basin, pump capacity, discharge and backup requirements without assuming a cause.",
+        "source": "src/sites/chathamplumbingpros.ca/content.ts#LOCATIONS.pain-court.faq[2]"
+      },
+      {
+        "q": "What should be confirmed before fixture work during a Pain Court renovation?",
+        "a": "Mark the proposed fixture locations and compare them with existing drains and supply lines. Confirm positions before concrete, tile or cabinetry conceals the route. Moving fixtures may change drainage, venting, access and finish work compared with a direct replacement.",
+        "source": "src/sites/chathamplumbingpros.ca/content.ts#LOCATIONS.pain-court.faq[3]"
+      },
+      {
+        "q": "How should I separate whole-house softening from drinking filtration when planning work in Pain Court?",
+        "a": "A softener treats water through the home, while an under-sink reverse osmosis system is a point-of-use option for drinking water. Explain which fixtures or uses matter and ask what each proposed system is designed to reduce. Check installation space, drain connections, filter replacement needs and the system’s documentation before comparing options.",
+        "source": "src/sites/chathamplumbingpros.ca/content.ts#SVC.water-softeners.features[1]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "For water softeners in Guelph, how should I treat well water according to results?",
+      "a": "If a property uses a private well, obtain a current sample and identify the specific concerns being tested. Iron, sulphur, and microbial concerns call for different treatment decisions; ultraviolet equipment, for example, should not be assumed necessary without relevant results and suitable system design. Ask how each proposed filter or treatment stage relates to the sample and what ongoing checks it requires.",
+      "source": "src/sites/guelphplumbingpros.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "How can I identify what needs replacement at my Guelph property?",
+      "a": "If exposed piping includes galvanized steel, brass, or older patched sections, document where each material appears and which fixtures it serves. Ask whether the proposed work replaces a single run or a larger portion of the system, and how the change affects flow to connected fixtures. That distinction helps compare a targeted repair with a more comprehensive repipe.",
+      "source": "src/sites/guelphplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For fixture installation in Guelph, how should I inspect the toilet connection before setting?",
+      "a": "For a toilet replacement, check the flange’s condition and position, the floor around it, and the location of the shutoff. Ask whether damaged or poorly positioned parts need repair before the toilet is set. A new seal and supply line may be part of the scope, but the condition of the flange and drain connection determines whether additional work is needed.",
+      "source": "src/sites/guelphplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[1]"
+    },
+    {
+      "q": "How do I match the unit to the water and household for my Guelph project?",
+      "a": "If a water test shows elevated hardness, ask how that result affects equipment selection and maintenance intervals. Compare tank capacity or tankless flow with the number of occupants and simultaneous uses. Also check the existing fuel, electrical supply, and vent route, since changing any of these can add work beyond a like-for-like replacement.",
+      "source": "src/sites/guelphplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "How can I narrow the search before cutting at my Guelph property?",
+      "a": "Ask what isolation steps and detection methods may suit the suspected pipe and surrounding materials. Acoustic readings or thermal imaging can help locate a pipe run, but results depend on access and conditions. Photographing the wet area and noting recent plumbing use can help compare the visible symptom with test findings and reduce unnecessary opening.",
+      "source": "src/sites/guelphplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+    }
+  ],
+  "locations": {
+    "rockwood": [
+      {
+        "q": "What should I check before replacing a water heater in Rockwood?",
+        "a": "Record the existing unit’s fuel, capacity, venting, and connection details, then compare them with the household’s hot-water demand. If water hardness is a concern, arrange a test and ask how the result affects equipment selection and maintenance.",
+        "source": "src/sites/guelphplumbingpros.ca/content.ts#LOCATIONS.rockwood.faq[0]"
+      },
+      {
+        "q": "How do I choose treatment for a Rockwood well?",
+        "a": "Use a current water sample to identify the specific concerns before comparing softeners, filters, or ultraviolet equipment. Hardness, iron, sulphur, and microbial results call for different decisions; ask what each proposed treatment is intended to address.",
+        "source": "src/sites/guelphplumbingpros.ca/content.ts#LOCATIONS.rockwood.faq[1]"
+      },
+      {
+        "q": "When might an older Rockwood home need repiping?",
+        "a": "Document visible pipe materials, corrosion, discoloured water, and which fixtures have low flow. If galvanized or brass piping is present, compare a targeted repair with broader replacement and ask how access through finished areas will be planned.",
+        "source": "src/sites/guelphplumbingpros.ca/content.ts#LOCATIONS.rockwood.faq[2]"
+      },
+      {
+        "q": "What information helps plan a plumbing visit in Rockwood?",
+        "a": "Share the affected fixtures, when the problem occurs, and photographs of equipment labels or accessible connections. For a leak or backup, note where water appears and whether more than one fixture is affected; this helps clarify what needs investigating.",
+        "source": "src/sites/guelphplumbingpros.ca/content.ts#LOCATIONS.rockwood.faq[3]"
+      },
+      {
+        "q": "How should I plan access before opening finished areas at my Rockwood property?",
+        "a": "Ask for proposed pipe routes and access points to be discussed before work starts, especially around plaster, staircases, millwork, or other finishes. Photograph the rooms and note areas that need protection. PEX and copper can require different routing and connection decisions; the layout, existing structure, and repair of opened surfaces all affect the project scope.",
+        "source": "src/sites/guelphplumbingpros.ca/content.ts#SVC.repiping.features[1]"
+      }
+    ],
+    "aberfoyle": [
+      {
+        "q": "How should I choose treatment for hard well water in Aberfoyle?",
+        "a": "Start with a current water test that measures hardness and any other concerns. Compare softener capacity with the measured result and household use; consider iron or other treatment only when the sample and system requirements support it.",
+        "source": "src/sites/guelphplumbingpros.ca/content.ts#LOCATIONS.aberfoyle.faq[0]"
+      },
+      {
+        "q": "What information helps assess a drain to a septic tank?",
+        "a": "Note where the line runs, identify accessible cleanouts, and record when backups or slow drainage occur. Ask whether clearing or camera inspection is suitable, and request that findings be reviewed before excavation or repair is considered.",
+        "source": "src/sites/guelphplumbingpros.ca/content.ts#LOCATIONS.aberfoyle.faq[1]"
+      },
+      {
+        "q": "What should I compare when replacing a water heater on a rural property?",
+        "a": "Record fuel, tank capacity or tankless model, venting, and available electrical service. If the system depends on a well, note any pressure issues, and compare equipment sizing with household demand and the site’s connections.",
+        "source": "src/sites/guelphplumbingpros.ca/content.ts#LOCATIONS.aberfoyle.faq[2]"
+      },
+      {
+        "q": "How can I plan a plumbing repair in Aberfoyle?",
+        "a": "Describe the symptoms and when they began, and provide photographs of accessible equipment or affected areas. For work involving a well, septic line, or buried service, note the known system layout and any past test or repair records.",
+        "source": "src/sites/guelphplumbingpros.ca/content.ts#LOCATIONS.aberfoyle.faq[3]"
+      },
+      {
+        "q": "For fixture installation in Aberfoyle, how should I map drains, vents, and fixture spacing?",
+        "a": "For a new bathroom or suite, ask how the proposed toilet, basin, and shower locations connect to drains and venting. Compare fixture dimensions with door swings, clearances, and framing before finishes are selected. A layout drawing can reveal whether changes to concealed piping are needed, which affects both the rough-in work and coordination with other renovation trades.",
+        "source": "src/sites/guelphplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "For drain cleaning in Cambridge, how should I locate the line before repair?",
+      "a": "If the lateral may be shared or its route is unclear, identify accessible cleanouts and establish which section serves the property before discussing excavation or repair. Photograph property-side access points and ask how the proposed work avoids crossing a boundary. Route information can change both the scope and responsible party.",
+      "source": "src/sites/cambridgeplumbingpros.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "For water heaters in Cambridge, how should I measure the equipment and access?",
+      "a": "Photograph the rating label, nearby connections, vent, and full route from the entrance to the mechanical room. Record doorway and ceiling clearances. These details help determine whether a similar tank can fit or whether a different size or tankless layout needs consideration.",
+      "source": "src/sites/cambridgeplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For fixture installation in Cambridge, how should I inspect the toilet flange?",
+      "a": "Before selecting a replacement toilet, photograph the base and note any rocking, visible damage, or signs of leakage. If an older flange is uneven or broken, ask whether it needs repair before setting the new fixture. A stable, sealed connection affects both the work scope and the finished floor.",
+      "source": "src/sites/cambridgeplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "How should I trace before opening a wall before work in Cambridge?",
+      "a": "Ask what acoustic listening, thermal imaging, or isolation testing could establish for the suspected leak. These methods help narrow the search but do not provide identical evidence. Review the findings and proposed opening location before work begins, so access is based on the likely source rather than the stain alone.",
+      "source": "src/sites/cambridgeplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+    },
+    {
+      "q": "For water softeners in Cambridge, how should I base equipment on a tap test?",
+      "a": "Ask what the test measures, where the sample was taken, and how its results relate to the proposed softener or filter. If supply differs by property or source, a test at the home is more useful than assuming a single result applies everywhere. Confirm bypass and service access in the proposed layout.",
+      "source": "src/sites/cambridgeplumbingpros.ca/content.ts#SVC.water-softeners.features[0]"
+    }
+  ],
+  "locations": {
+    "hespeler": [
+      {
+        "q": "What should I check before replacing a water heater in Hespeler?",
+        "a": "Photograph the rating label, fuel and vent connections, clearances, and route to the mechanical room. Compare tank and tankless requirements with household demand, and review any rental agreement before planning removal or conversion.",
+        "source": "src/sites/cambridgeplumbingpros.ca/content.ts#LOCATIONS.hespeler.faq[0]"
+      },
+      {
+        "q": "How should I approach a recurring drain blockage?",
+        "a": "Note which fixtures are affected and whether water backs up at a low point. If the line’s material or condition is uncertain, ask whether camera inspection is appropriate before comparing snaking, hydro-jetting, or repair.",
+        "source": "src/sites/cambridgeplumbingpros.ca/content.ts#LOCATIONS.hespeler.faq[1]"
+      },
+      {
+        "q": "How do I decide whether a softener is appropriate?",
+        "a": "Arrange a test at a representative tap and review what it measures. Compare the result with the proposed equipment, bypass access, and maintenance needs rather than assuming the same water conditions apply to every property.",
+        "source": "src/sites/cambridgeplumbingpros.ca/content.ts#LOCATIONS.hespeler.faq[2]"
+      },
+      {
+        "q": "What information helps scope repiping in an older home?",
+        "a": "Record pressure symptoms, visible pipe materials, and areas with plaster, stone, or trim. Ask which sections have been assessed and compare a targeted branch repair with a broader replacement plan.",
+        "source": "src/sites/cambridgeplumbingpros.ca/content.ts#LOCATIONS.hespeler.faq[3]"
+      },
+      {
+        "q": "What matters when choosing a method for the pipe for a Hespeler property?",
+        "a": "Snaking can clear an obstruction, while hydro-jetting directs water along the pipe wall to remove suitable buildup. Ask whether the pipe material and condition have been assessed before jetting. If roots or a fragile section are suspected, the method should reflect the line’s condition rather than assume force is appropriate.",
+        "source": "src/sites/cambridgeplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+      }
+    ],
+    "preston": [
+      {
+        "q": "What information helps plan a sump pump project in Preston?",
+        "a": "Photograph the basin, pump label, discharge route, and any battery backup. Describe previous water entry and ask how pump and basin sizing relate to the property’s drainage; do not assume a particular lot needs the same setup as another.",
+        "source": "src/sites/cambridgeplumbingpros.ca/content.ts#LOCATIONS.preston.faq[0]"
+      },
+      {
+        "q": "What should I confirm before an older bathroom renovation?",
+        "a": "Compare the fixture plan with drain, vent, and valve locations, and check whether existing shutoffs and connections are suitable. Ask which work must happen before tile and which applicable permit or inspection requirements should be confirmed.",
+        "source": "src/sites/cambridgeplumbingpros.ca/content.ts#LOCATIONS.preston.faq[1]"
+      },
+      {
+        "q": "What can explain drains that slow repeatedly?",
+        "a": "Several causes are possible, including buildup or a pipe defect. Record affected fixtures and timing, then ask whether a camera run is useful before choosing snaking, hydro-jetting, or repair.",
+        "source": "src/sites/cambridgeplumbingpros.ca/content.ts#LOCATIONS.preston.faq[2]"
+      },
+      {
+        "q": "How should an urgent plumbing problem be scoped?",
+        "a": "Document the active leak, backup, or loss of water and identify affected fixtures. Ask what immediate steps are appropriate and what inspection is needed to determine the repair; timing and availability should be confirmed directly.",
+        "source": "src/sites/cambridgeplumbingpros.ca/content.ts#LOCATIONS.preston.faq[3]"
+      },
+      {
+        "q": "What should I know before using a camera to clarify the cause in Preston?",
+        "a": "For a recurring blockage, ask whether a camera inspection would help distinguish roots, an offset joint, buildup, or a sag. Request images or a recording and a description of the location. That evidence helps compare clearing with repair and makes the quoted scope easier to understand.",
+        "source": "src/sites/cambridgeplumbingpros.ca/content.ts#SVC.drain-cleaning.features[1]"
+      }
+    ]
+  }
+}

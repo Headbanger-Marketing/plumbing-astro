@@ -1,0 +1,112 @@
+{
+  "home": [
+    {
+      "q": "For water softeners in Brantford, how should I stage private-well treatment to results?",
+      "a": "If the property uses a private well and testing identifies iron, sulphur-related odour, or another concern, ask which treatment stage targets each result and how the stages work together. Do not assume every well needs the same setup. A bypass, drain access, and any proposed UV equipment should be discussed in relation to the test findings and system design.",
+      "source": "src/sites/brantfordplumbingpros.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "How should I plan routes around slabs and finishes at my Brantford property?",
+      "a": "If the home is built over a slab or has finished ceilings, ask where new PEX or copper lines could run and what surfaces may need access. Photograph visible pipe and areas affected by earlier repairs. The proposed route and pressure-testing plan help estimate disruption and reduce uncertainty before finished areas are closed.",
+      "source": "src/sites/brantfordplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How should I assess drainage for a basement bathroom in Brantford?",
+      "a": "Before planning a below-grade three-piece bathroom, record the proposed fixture locations and whether the floor is over a slab. Ask whether gravity drainage is practical or a pump is required, and how the drain route will be established. Those details affect equipment, access, and the amount of concrete or other work involved.",
+      "source": "src/sites/brantfordplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[1]"
+    },
+    {
+      "q": "For leak detection in Brantford, how should I isolate sections before opening concrete?",
+      "a": "If a leak may be under a slab, ask how sections of the supply system will be shut off and tested to narrow the suspected run. Share meter readings and mark visible floor symptoms. Isolation can help define an access point and avoid assuming a broad excavation is necessary, but findings should guide the opening.",
+      "source": "src/sites/brantfordplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+    },
+    {
+      "q": "What should I check about the basin, inlet, and discharge in Brantford?",
+      "a": "If considering a sump system, document any existing pit, pump, inlet, and discharge route. Ask how the basin size, inlet elevation, and pump capacity will be selected for the property. A basin cut into a slab and an improvised corner pit are not equivalent; access and the source of water affect the design.",
+      "source": "src/sites/brantfordplumbingpros.ca/content.ts#SVC.sump-pumps.features[0]"
+    }
+  ],
+  "locations": {
+    "st-george": [
+      {
+        "q": "How should I plan well-water treatment in St. George?",
+        "a": "Confirm that the property uses a private well and obtain appropriate test results. Compare treatment equipment against those results, including any measured hardness or iron, rather than selecting a system based on location alone.",
+        "source": "src/sites/brantfordplumbingpros.ca/content.ts#LOCATIONS.st-george.faq[0]"
+      },
+      {
+        "q": "What information helps scope a water heater replacement?",
+        "a": "Photograph the data plate, connections, and vent route, and note the fuel type and capacity. Those details help compare replacement equipment and identify questions about venting or access.",
+        "source": "src/sites/brantfordplumbingpros.ca/content.ts#LOCATIONS.st-george.faq[1]"
+      },
+      {
+        "q": "How can I investigate a damp basement?",
+        "a": "Record where and when water appears, and photograph the affected area. The pattern may help distinguish water entering through the foundation from a plumbing leak or drain backup; the source affects which investigation is useful.",
+        "source": "src/sites/brantfordplumbingpros.ca/content.ts#LOCATIONS.st-george.faq[2]"
+      },
+      {
+        "q": "What should I check before arranging drain work?",
+        "a": "Note which fixtures are slow, whether several are affected, and how often the issue returns. A recurring main-line backup may call for camera inspection after clearing, depending on access and the pipe condition.",
+        "source": "src/sites/brantfordplumbingpros.ca/content.ts#LOCATIONS.st-george.faq[3]"
+      },
+      {
+        "q": "How can I compare spot repairs with replacement for a St. George property?",
+        "a": "When leaks recur, list their dates, locations, and any known pipe material, such as galvanized steel or polybutylene. Ask which sections a repair would leave in service and what evidence supports a broader replacement. The extent and pattern of failures can change the scope, so avoid assuming one leak proves the condition of every line.",
+        "source": "src/sites/brantfordplumbingpros.ca/content.ts#SVC.repiping.features[1]"
+      }
+    ],
+    "burford": [
+      {
+        "q": "What should I document for plumbing work on a farm property?",
+        "a": "Photograph the well pressure system, yard hydrants, and visible supply routes, and note any pressure or leak symptoms. The layout and distance between equipment and fixtures can affect access and the proposed scope.",
+        "source": "src/sites/brantfordplumbingpros.ca/content.ts#LOCATIONS.burford.faq[0]"
+      },
+      {
+        "q": "How do I choose a softener or iron filter?",
+        "a": "Identify the water source and use appropriate test results to compare treatment options. Hardness, iron, and other findings can call for different equipment, so do not assume village supply and private wells need the same system.",
+        "source": "src/sites/brantfordplumbingpros.ca/content.ts#LOCATIONS.burford.faq[1]"
+      },
+      {
+        "q": "When is repiping worth comparing with another repair?",
+        "a": "If leaks recur, record their dates and locations and note any visible galvanized or polybutylene piping. Compare the proposed repair with the amount of pipe that would remain in service under a wider replacement.",
+        "source": "src/sites/brantfordplumbingpros.ca/content.ts#LOCATIONS.burford.faq[2]"
+      },
+      {
+        "q": "What should I check before a water heater replacement?",
+        "a": "Gather the unit’s age, capacity, fuel type, data plate, and photographs of its connections and vent route. These details help compare equipment and identify potential changes to the installation scope.",
+        "source": "src/sites/brantfordplumbingpros.ca/content.ts#LOCATIONS.burford.faq[3]"
+      },
+      {
+        "q": "How should I document the existing setup in Burford?",
+        "a": "Photograph the data plate, connections, surrounding clearance, and the full vent route. Note any leak, interruption, or change in hot-water supply. This information helps assess whether a replacement can use the existing arrangement or needs additional work, and supports a clearer comparison of proposed equipment and scope.",
+        "source": "src/sites/brantfordplumbingpros.ca/content.ts#SVC.water-heaters.features[1]"
+      }
+    ],
+    "scotland": [
+      {
+        "q": "What details help plan a water heater replacement?",
+        "a": "Share the unit’s capacity, fuel type, data plate, and photographs of the connections and vent route. That information helps compare replacement options and identify questions about access or venting.",
+        "source": "src/sites/brantfordplumbingpros.ca/content.ts#LOCATIONS.scotland.faq[0]"
+      },
+      {
+        "q": "How should I choose treatment for a Scotland well?",
+        "a": "Confirm the property uses a well and obtain appropriate water test results. Compare softening or filtration equipment with the measured findings and ask about capacity, maintenance, and bypass arrangements.",
+        "source": "src/sites/brantfordplumbingpros.ca/content.ts#LOCATIONS.scotland.faq[1]"
+      },
+      {
+        "q": "What should I do about recurring main-line roots or blockages?",
+        "a": "Record the symptoms and how often they return. If a main line has backed up repeatedly, ask whether clearing followed by camera inspection could help locate an obstruction or identify pipe damage.",
+        "source": "src/sites/brantfordplumbingpros.ca/content.ts#LOCATIONS.scotland.faq[2]"
+      },
+      {
+        "q": "What should I prepare before fixture installation?",
+        "a": "Photograph the current fixture and connections, measure the available space, and note the model of any supplied replacement. Fit and connection details can change the installation scope.",
+        "source": "src/sites/brantfordplumbingpros.ca/content.ts#LOCATIONS.scotland.faq[3]"
+      },
+      {
+        "q": "How can I compare repair with rerouting for a Scotland property?",
+        "a": "Once a failing line is located, ask whether an accessible repair or rerouting the run overhead in PEX is feasible. Compare the affected pipe length, access, finish work, and implications for the existing line. The condition and route of the pipe determine whether opening the slab or abandoning a run is the more suitable option.",
+        "source": "src/sites/brantfordplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+      }
+    ]
+  }
+}

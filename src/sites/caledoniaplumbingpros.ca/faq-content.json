@@ -1,0 +1,112 @@
+{
+  "home": [
+    {
+      "q": "How should I plan basement and laundry rough-ins at my Caledonia property?",
+      "a": "Before adding a basement bathroom or laundry, identify fixture locations, existing drains, and the floor level, and ask how drainage will reach the system. Gravity drainage may be possible, while another layout may require pumping equipment. That choice affects the rough-in, space, and project scope, so clarify it before finishes or flooring are planned.",
+      "source": "src/sites/caledoniaplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[1]"
+    },
+    {
+      "q": "What matters when choosing treatment stages from well results for a Caledonia property?",
+      "a": "If a well test shows iron or a sulphur-related issue, ask which treatment stages are proposed and why that order suits the results. Photograph staining and note any odour, but do not use appearance alone to select equipment. Test findings and plumbing constraints guide whether oxidation, filtration, or another combination belongs in the project.",
+      "source": "src/sites/caledoniaplumbingpros.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "Why should I include well pressure in the assessment in my Caledonia request?",
+      "a": "If the home uses a well, note whether pressure fluctuates and photograph the pressure tank, gauge, and switch. Ask whether those components should be assessed as part of heater planning. Pressure-system concerns can affect the scope of the visit, but should be diagnosed separately rather than assumed to be a heater fault.",
+      "source": "src/sites/caledoniaplumbingpros.ca/content.ts#SVC.water-heaters.features[2]"
+    },
+    {
+      "q": "What should I consider when sizing the basin and pump to observed inflow in Caledonia?",
+      "a": "Note how often the pump runs, how long it runs, and whether the basin appears to fill rapidly. Photograph the pump label and basin dimensions if accessible. Ask how observed inflow informs pump capacity and basin planning; sizing from the actual site conditions helps compare equipment without assuming every basement needs the same arrangement.",
+      "source": "src/sites/caledoniaplumbingpros.ca/content.ts#SVC.sump-pumps.features[0]"
+    },
+    {
+      "q": "What should I check about pump cycling with fixtures closed in Caledonia?",
+      "a": "If the property uses a well, note when the pump starts and stops and whether taps, toilets, or appliances are drawing water. Ask how the pressure system, line, and relevant valves will be tested. A pump that cycles without an obvious draw needs diagnosis; documenting the pattern helps distinguish a leak from another pressure-system issue.",
+      "source": "src/sites/caledoniaplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+    }
+  ],
+  "locations": {
+    "hagersville": [
+      {
+        "q": "What information helps plan a water heater replacement in Hagersville?",
+        "a": "Photograph the rating plate, vent route, fuel connection, and surrounding space. Capacity and vent details help compare a straightforward tank change with work that may involve a different venting arrangement.",
+        "source": "src/sites/caledoniaplumbingpros.ca/content.ts#LOCATIONS.hagersville.faq[0]"
+      },
+      {
+        "q": "How should I compare treatment for a Hagersville-area well?",
+        "a": "Use test results from the property’s water and identify the symptoms, such as hardness, staining, or odour. The results help determine which treatment stages are relevant.",
+        "source": "src/sites/caledoniaplumbingpros.ca/content.ts#LOCATIONS.hagersville.faq[1]"
+      },
+      {
+        "q": "What should I ask about roots in a sewer line?",
+        "a": "Describe recurring symptoms and ask whether the proposed clearing method suits the blockage. A camera inspection can help show whether roots remain or a damaged joint needs separate attention.",
+        "source": "src/sites/caledoniaplumbingpros.ca/content.ts#LOCATIONS.hagersville.faq[2]"
+      },
+      {
+        "q": "How should I plan a time-sensitive plumbing inquiry?",
+        "a": "Describe the current condition, any active water flow, and affected fixtures, and provide photographs if safe. Timing and next steps depend on the circumstances and must be confirmed for the specific inquiry.",
+        "source": "src/sites/caledoniaplumbingpros.ca/content.ts#LOCATIONS.hagersville.faq[3]"
+      },
+      {
+        "q": "How do I match capacity to test results for my Hagersville project?",
+        "a": "Ask for the hardness result, the proposed equipment capacity, and the assumptions used to size it, including household water use. If comparing a municipal supply with a well, use results for the specific property rather than assuming they match. Appropriate capacity affects regeneration frequency and helps compare systems on the same evidence.",
+        "source": "src/sites/caledoniaplumbingpros.ca/content.ts#SVC.water-softeners.features[0]"
+      }
+    ],
+    "cayuga": [
+      {
+        "q": "How can I assess whether a sump system suits my Cayuga property?",
+        "a": "Record where water appears, when it occurs, and how the existing pump performs. The basin, observed inflow, and discharge destination help inform equipment planning.",
+        "source": "src/sites/caledoniaplumbingpros.ca/content.ts#LOCATIONS.cayuga.faq[0]"
+      },
+      {
+        "q": "What should I document before repiping an older home?",
+        "a": "Photograph accessible pipe markings, leak locations, and previous repairs. Ask how the system will be mapped and what material, routing, testing, and approvals the written scope includes.",
+        "source": "src/sites/caledoniaplumbingpros.ca/content.ts#LOCATIONS.cayuga.faq[1]"
+      },
+      {
+        "q": "What information is useful for a well treatment inquiry?",
+        "a": "Provide a current test of the property’s water and describe any hardness, staining, or odour. Results help distinguish softening from additional filtration needs.",
+        "source": "src/sites/caledoniaplumbingpros.ca/content.ts#LOCATIONS.cayuga.faq[2]"
+      },
+      {
+        "q": "What should I provide when asking about a plumbing visit?",
+        "a": "Explain the symptoms, affected areas, and whether water is actively entering or leaking. Photographs and details about access help clarify the inquiry; timing must be confirmed for the specific circumstances.",
+        "source": "src/sites/caledoniaplumbingpros.ca/content.ts#LOCATIONS.cayuga.faq[3]"
+      },
+      {
+        "q": "What should I check about the tank and venting details in Cayuga?",
+        "a": "Record the tank’s capacity, fuel, vent material, and route, and photograph clearances and nearby connections. A replacement may fit the existing arrangement, while a different appliance or an unsuitable vent route can change the work. Ask what venting is included and what conditions could require additional changes.",
+        "source": "src/sites/caledoniaplumbingpros.ca/content.ts#SVC.water-heaters.features[1]"
+      }
+    ],
+    "fisherville": [
+      {
+        "q": "What details should I provide about a farm property plumbing project?",
+        "a": "Describe the buildings and equipment involved, identify the water supply, and photograph accessible lines or pressure-system components. Layout and access help clarify the scope.",
+        "source": "src/sites/caledoniaplumbingpros.ca/content.ts#LOCATIONS.fisherville.faq[0]"
+      },
+      {
+        "q": "What if a sump pump runs frequently in spring?",
+        "a": "Record how often it cycles, how long it runs, and where its discharge goes. Those observations help assess pump capacity and whether the discharge route needs attention.",
+        "source": "src/sites/caledoniaplumbingpros.ca/content.ts#LOCATIONS.fisherville.faq[1]"
+      },
+      {
+        "q": "How should I investigate iron staining from a well?",
+        "a": "Use a water test from the property and photograph affected fixtures. Test results help determine whether iron treatment is relevant and which treatment stages to compare.",
+        "source": "src/sites/caledoniaplumbingpros.ca/content.ts#LOCATIONS.fisherville.faq[2]"
+      },
+      {
+        "q": "What should I include in an urgent plumbing inquiry?",
+        "a": "Describe whether water is entering or supply is interrupted, identify affected equipment, and share photographs if safe. The next steps and timing depend on the specific conditions.",
+        "source": "src/sites/caledoniaplumbingpros.ca/content.ts#LOCATIONS.fisherville.faq[3]"
+      },
+      {
+        "q": "How should I plan routes for the home layout at my Fisherville property?",
+        "a": "A compact home and a spread-out farmhouse may call for different pipe routes and access points. Photograph visible plumbing, finished walls, and areas that must remain accessible, then ask how the proposed route affects openings and water interruptions. Reviewing the layout early helps compare practical options without assuming every home can use the same routing plan.",
+        "source": "src/sites/caledoniaplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+      }
+    ]
+  }
+}

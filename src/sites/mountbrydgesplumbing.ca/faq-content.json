@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For water softeners in Mount Brydges, how should I sequence well filtration for the water?",
+      "a": "If the property uses a private well, test for the specific concerns being considered, such as iron, sulphur or sediment, rather than choosing stages by assumption. Ask how each proposed filter or treatment step works with the test results and in what order equipment should be installed. The water profile changes both the equipment selection and maintenance plan.",
+      "source": "src/sites/mountbrydgesplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "For drain cleaning in Mount Brydges, how should I account for a septic system?",
+      "a": "If the drain line serves a septic system, identify the tank, cleanouts and route toward the field before selecting a cleaning approach. Ask how the method will be kept appropriate for the system and where removed material will go. Knowing the downstream arrangement changes the scope and helps avoid treating the building drain as an isolated pipe.",
+      "source": "src/sites/mountbrydgesplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "How should I trace buried feeds before digging before work in Mount Brydges?",
+      "a": "If a buried line runs toward a barn, greenhouse or other outbuilding, sketch its route and mark known entry and exit points. Ask how the line will be traced and how a suspected leak location will be verified before excavation. Mapping the full run can reduce uncertainty about where access is needed and help define the repair area.",
+      "source": "src/sites/mountbrydgesplumbing.ca/content.ts#SVC.leak-detection.features[2]"
+    },
+    {
+      "q": "For repiping in Mount Brydges, how should I map the materials before cutting?",
+      "a": "Photograph accessible supply piping and mark where galvanized, poly-B or copper is visible. Ask how concealed sections and past repairs will be traced before openings are made. A material map helps define which runs need replacement, where access may be required and how the work can proceed in a logical sequence.",
+      "source": "src/sites/mountbrydgesplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How do I match rough-ins to the finish plan for my Mount Brydges project?",
+      "a": "Compare drain and shower-valve locations with the actual cabinet, tile and fixture drawings before waterproofing or covering walls. Measure from finished surfaces, not just framing, and confirm product specifications. A mismatch discovered after tile is installed can require rework, so documenting dimensions early helps coordinate plumbing with the renovation sequence.",
+      "source": "src/sites/mountbrydgesplumbing.ca/content.ts#SVC.fixtures-toilets.features[1]"
+    }
+  ],
+  "locations": {}
+}

@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How should I trace galvanized and mixed piping before work in Milton?",
+      "a": "If galvanized pipe is present, photograph accessible sections and note which fixtures have low pressure or discoloured water. Ask how much piping the proposal replaces and how new PEX or copper will connect to existing sections. The material, condition and route of concealed lines determine whether a focused replacement or a broader repipe is appropriate.",
+      "source": "src/sites/miltonplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How can I compare rental exit costs for a Milton property?",
+      "a": "Before treating ownership as a simple monthly savings, read the rental agreement for buyout, return and removal terms. Photograph the tank label and connections, and ask what equipment and installation work an owned replacement would require. These details help compare the full costs rather than only the recurring payment.",
+      "source": "src/sites/miltonplumbingpros.ca/content.ts#SVC.water-heaters.features[1]"
+    },
+    {
+      "q": "For water softeners in Milton, how should I build well treatment around test results?",
+      "a": "If the property has a private well, obtain a current laboratory test and share the results before discussing treatment. Ask which result each proposed stage addresses; iron, hardness and sulphur may require different approaches, and UV treatment has a specific role. The water analysis, flow and maintenance needs determine whether a softener, oxidizer or other equipment is relevant.",
+      "source": "src/sites/miltonplumbingpros.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "What should I check about older sewer sections for roots in Milton?",
+      "a": "If a property has older clay or cast-iron sewer pipe and recurring blockages, ask whether roots, offsets or deterioration are visible. Request the camera footage and the location of any obstruction. Root cutting may restore flow, but evidence of pipe damage changes the scope; compare maintenance and repair options against the actual findings.",
+      "source": "src/sites/miltonplumbingpros.ca/content.ts#SVC.drain-cleaning.features[1]"
+    },
+    {
+      "q": "How should I assess thermal tracing under floors in Milton?",
+      "a": "If a suspected leak involves a warm-water line beneath tile or a slab, ask whether thermal imaging is suitable and what other evidence will confirm the location. Photograph the marked area and request an explanation of the camera findings before cutting. Pipe temperature, floor materials and access can affect what the image reveals and the repair opening required.",
+      "source": "src/sites/miltonplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+    }
+  ],
+  "locations": {}
+}

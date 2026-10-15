@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How can I compare slab access and rerouting for a Oakville property?",
+      "a": "If a water line appears to leak beneath a slab, ask for the location and evidence supporting that finding. Compare the proposed access through the slab with a possible overhead reroute, where the layout and system make that practical. Request an explanation of how each option affects pipe routing, finished surfaces, and future access; the least disruptive approach depends on the actual line and site.",
+      "source": "src/sites/oakvilleplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "How can I identify old pipe materials and scope at my Oakville property?",
+      "a": "Photograph accessible pipe and any markings, then ask whether the system includes galvanized steel or polybutylene. Request a map of the lines proposed for replacement and a comparison of partial versus whole-home work. The chosen PEX or copper material should be explained in relation to the home’s layout and water conditions, rather than selected without reviewing the existing system.",
+      "source": "src/sites/oakvilleplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "What should I consider about root intrusion conditionally before arranging work in Oakville?",
+      "a": "If a property has a clay lateral and nearby tree roots are suspected, ask whether inspection shows roots entering at joints or another obstruction. Clearing roots may restore flow temporarily, but it does not repair a damaged joint. Compare cleaning with the findings on camera and ask whether periodic maintenance is appropriate for the observed condition rather than assuming every older line needs the same schedule.",
+      "source": "src/sites/oakvilleplumbingpros.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "What should I consider about water conditions and fixture parts before arranging work in Oakville?",
+      "a": "If you have concerns about scale or mineral deposits, first establish whether the property uses municipal or well water and consider testing it. Ask the fixture manufacturer about compatible finishes, cartridges, and maintenance for those conditions. Water characteristics can influence product selection, but they should be checked for the specific property rather than assumed from its city or neighbourhood.",
+      "source": "src/sites/oakvilleplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[2]"
+    },
+    {
+      "q": "How do I match pump capacity to the drainage for my Oakville project?",
+      "a": "Ask how the proposed pump capacity relates to the basin, drainage area, and observed inflow. If the pump cycles frequently or struggles during heavy inflow, share those observations and any service history. An oversized pump can short-cycle, while an undersized one may not keep up; sizing should follow the site conditions rather than a general assumption about the city.",
+      "source": "src/sites/oakvilleplumbingpros.ca/content.ts#SVC.sump-pumps.features[0]"
+    }
+  ],
+  "locations": {}
+}

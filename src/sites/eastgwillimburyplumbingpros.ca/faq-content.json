@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For a property in East Gwillimbury, how will added fixtures change existing heater demand?",
+      "a": "Ask the provider to distinguish those issues and explain what information supports the equipment option. Compare the proposed household use, current unit and actual supply arrangement together. Any installation change should identify access and connections at the property, rather than selecting a new model solely from the number of rooms in the addition.",
+      "source": "src/sites/eastgwillimburyplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For a property in East Gwillimbury, which pipes will the new room cross or conceal?",
+      "a": "Ask the provider to distinguish a layout conflict from a verified material or condition concern, with each proposed run marked. Compare retained and changed routes by their stated purpose and restoration needs. A wider proposal should explain the additional evidence behind it rather than treat the room project as approval to replace unrelated branches.",
+      "source": "src/sites/eastgwillimburyplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For a property in East Gwillimbury, does the changed layout leave drainage access open?",
+      "a": "Ask the provider to identify the openings and working space needed for the proposed pump or valve work, and compare them with the room plan. If a drainage change is recommended, request its specific purpose and supporting observations. The addition should not conceal equipment that will still need inspection and service.",
+      "source": "src/sites/eastgwillimburyplumbingpros.ca/content.ts#SVC.sump-pumps.features[0]"
+    },
+    {
+      "q": "For a property in East Gwillimbury, is the added branch separate from the blockage?",
+      "a": "Ask the provider to explain which section the cleaning or inspection result covers and what still needs verification for the proposed layout. Compare the new route and maintenance access before finishes are fixed. Keep the cost of resolving the existing symptom separate from constructing a connection for the added fixture.",
+      "source": "src/sites/eastgwillimburyplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "For a property in East Gwillimbury, is the proposed rough-in ready for the new appliance?",
+      "a": "Ask the provider to compare product requirements with the actual positions and route available. If cabinetry or flooring is already fixed, identify the restrictions it creates before ordering. The scope should say which connections are confirmed, which need assessment and who coordinates any necessary changes with the other trades.",
+      "source": "src/sites/eastgwillimburyplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    }
+  ],
+  "locations": {}
+}

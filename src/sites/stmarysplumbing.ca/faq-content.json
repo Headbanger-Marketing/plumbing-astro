@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How should I plan openings and pipe routes at my St. Marys property?",
+      "a": "If walls include plaster over stone, identify existing chases, joists, and accessible service areas before deciding where new PEX or copper may run. Ask for the proposed opening locations and route. Comparing that plan with the restoration finish can reduce avoidable disturbance and clarify patching responsibilities.",
+      "source": "src/sites/stmarysplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "What should I know before using acoustic listening where access is limited in St. Marys?",
+      "a": "If a leak may be behind stone or plaster, ask whether acoustic listening is suitable and which areas can be checked. Provide a floor plan and mark dampness or pipe routes if known. Combining those clues can help narrow the likely fault location before deciding where to open a finished surface.",
+      "source": "src/sites/stmarysplumbing.ca/content.ts#SVC.leak-detection.features[0]"
+    },
+    {
+      "q": "How should I assess iron treatment for a private well in St. Marys?",
+      "a": "If a well test indicates iron, ask whether the proposed design stages filtration to suit the measured level and other relevant results. Provide the complete test report rather than relying on staining as the only measure. Test findings can change the equipment sequence and help avoid selecting a system without adequate information.",
+      "source": "src/sites/stmarysplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "How should I assess the basin and pumping demand in St. Marys?",
+      "a": "Record basin dimensions, pump model, discharge details, and any available history of water entry. If the property has a low-lying basement or substantial inflow, ask how those site conditions affect pump capacity and basin sizing. The answer can change the equipment scope compared with a like-for-like replacement.",
+      "source": "src/sites/stmarysplumbing.ca/content.ts#SVC.sump-pumps.features[0]"
+    },
+    {
+      "q": "What should I check about access and installation space in St. Marys?",
+      "a": "Measure doorways, stair turns, ceiling height, and clearance around the existing unit. Photograph nearby storage, pipes, and electrical or fuel connections. These details can affect which tank or tankless models can be brought in and installed without additional access or rearrangement work.",
+      "source": "src/sites/stmarysplumbing.ca/content.ts#SVC.water-heaters.features[1]"
+    }
+  ],
+  "locations": {}
+}

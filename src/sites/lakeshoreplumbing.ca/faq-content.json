@@ -1,0 +1,112 @@
+{
+  "home": [
+    {
+      "q": "For leak detection in Lakeshore, how should I isolate buried well-supply runs?",
+      "a": "If a property has a well and a long buried line to the building, note where the wellhead, shutoffs, and indoor entry point are located. Ask whether the run can be isolated in sections to help identify the affected stretch. The availability of valves and access points changes how the line can be tested and whether investigation may require excavation.",
+      "source": "src/sites/lakeshoreplumbing.ca/content.ts#SVC.leak-detection.features[2]"
+    },
+    {
+      "q": "For drain cleaning in Lakeshore, how should I describe what happens at seasonal opening?",
+      "a": "If drains have sat unused through winter, note which fixtures drain slowly, gurgle, or back up when the property reopens. Photograph accessible cleanouts and describe whether the problem affects one fixture or several. That pattern helps distinguish a local blockage from a concern farther along the line and informs whether cabling or additional inspection is worth comparing.",
+      "source": "src/sites/lakeshoreplumbing.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "How should I separate well-water treatment stages when planning work in Lakeshore?",
+      "a": "If a private well has staining or odour, arrange testing and ask which results indicate iron, sulphur, or another concern. Compare the proposed filtration stages and their sequence, including how they work with a softener. Identifying the measured issue first matters because different results may call for different equipment rather than a single all-purpose filter.",
+      "source": "src/sites/lakeshoreplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "What matters when choosing fixtures for the expected use for a Lakeshore property?",
+      "a": "Consider how often a bathroom is used and who will use it, then compare fixture specifications and maintenance access. Photograph the existing connections and shutoffs, and ask whether they can remain accessible after installation. For a busy seasonal property, these details help identify whether the selected fixture and connection layout suit the expected use and future servicing.",
+      "source": "src/sites/lakeshoreplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "What should I review about routing for cold-weather closure in Lakeshore?",
+      "a": "If the building is seasonal or parts of it may be unheated, ask how the proposed routes account for winter shutdown. Check whether pipes pass through heated areas and whether low points can be drained through accessible valves. Routing and drain access can change the scope, especially where concealed runs may retain water while the property is closed.",
+      "source": "src/sites/lakeshoreplumbing.ca/content.ts#SVC.repiping.features[1]"
+    }
+  ],
+  "locations": {
+    "comber": [
+      {
+        "q": "What should I prepare for a well-system estimate in Comber?",
+        "a": "If the property has a well, note the pressure tank location, accessible shutoffs, and any changes in pressure or supply. Gather available water test results before discussing treatment. These details can help distinguish a supply or pressure concern from a filtration need.",
+        "source": "src/sites/lakeshoreplumbing.ca/content.ts#LOCATIONS.comber.faq[0]"
+      },
+      {
+        "q": "What should I document before repiping an older farmhouse?",
+        "a": "Photograph accessible pipes and fittings, note known materials and recurring leaks, and identify areas where plumbing is concealed. Ask which sections a proposal includes and what testing will occur before walls are covered. This helps make the scope easier to compare.",
+        "source": "src/sites/lakeshoreplumbing.ca/content.ts#LOCATIONS.comber.faq[1]"
+      },
+      {
+        "q": "How can I assess sump protection for my property?",
+        "a": "If water enters a sump, record how often the pump runs, photograph its label and the basin, and trace where discharge goes. Ask how a proposed system accounts for the observed inflow and whether backup power is relevant at the property.",
+        "source": "src/sites/lakeshoreplumbing.ca/content.ts#LOCATIONS.comber.faq[2]"
+      },
+      {
+        "q": "How can I identify septic or holding equipment at my Comber property?",
+        "a": "Before clearing a line, confirm whether it connects to a septic bed or holding tank and show where relevant access points are located. Ask how the proposed method will account for that downstream equipment. This information can affect the suitable approach and scope; do not assume that every line can be treated the same way as a connection to a municipal system.",
+        "source": "src/sites/lakeshoreplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+      },
+      {
+        "q": "Why should I include seasonal shutdown and reopening in my Comber request?",
+        "a": "If a treatment system will sit unused during part of the year, ask how the softener, filters, and any related equipment should be isolated, drained, or restarted. Confirm that service access remains clear and that the proposed arrangement suits the property’s shutdown routine. Seasonal requirements can affect equipment selection and the installation layout, so include them in the scope before comparing estimates.",
+        "source": "src/sites/lakeshoreplumbing.ca/content.ts#SVC.water-softeners.features[2]"
+      }
+    ],
+    "stoney-point": [
+      {
+        "q": "What should I check before closing a seasonal cottage?",
+        "a": "If the property will be unheated, identify the main shutoff, heater drain, plumbing low points, and traps that may retain water. Ask what equipment needs isolation or protection and whether the layout has accessible drain points. The property’s actual plumbing arrangement determines the appropriate shutdown steps.",
+        "source": "src/sites/lakeshoreplumbing.ca/content.ts#LOCATIONS.stoney-point.faq[0]"
+      },
+      {
+        "q": "What information helps plan a water-heater replacement at a seasonal property?",
+        "a": "Photograph the heater label, connections, venting, and nearby shutoffs. Explain how long the property is closed and ask how the proposed installation can be drained and reopened. Access to drain points and the heater’s specifications can affect the work.",
+        "source": "src/sites/lakeshoreplumbing.ca/content.ts#LOCATIONS.stoney-point.faq[1]"
+      },
+      {
+        "q": "How should I investigate drains that clog after winter?",
+        "a": "Record which fixtures are affected and whether the problem happens each spring. Identify accessible cleanouts and any septic or holding equipment downstream. For repeat problems, ask whether camera inspection after clearing could help distinguish a recurring obstruction from another line condition.",
+        "source": "src/sites/lakeshoreplumbing.ca/content.ts#LOCATIONS.stoney-point.faq[2]"
+      },
+      {
+        "q": "What should I document when reopening the plumbing?",
+        "a": "Note pressure changes, visible moisture, and which fixtures are affected as the system is brought back into use. Photograph accessible valves and any water marks. These observations can help determine whether pressure testing, leak location, or drain work is relevant.",
+        "source": "src/sites/lakeshoreplumbing.ca/content.ts#LOCATIONS.stoney-point.faq[3]"
+      },
+      {
+        "q": "What should I check about pressure during seasonal reopening in Stoney Point?",
+        "a": "If a property has been closed for winter, ask about testing the plumbing under controlled pressure before fully reopening the system. Record gauge readings or any pressure loss and note when the change occurs. A test can help identify a problem before normal use begins, while the system’s layout and accessible isolation valves affect how sections can be checked.",
+        "source": "src/sites/lakeshoreplumbing.ca/content.ts#SVC.leak-detection.features[0]"
+      }
+    ],
+    "ruscomb": [
+      {
+        "q": "What details help assess a well system in Ruscomb?",
+        "a": "If the property uses a well, note where the wellhead, pressure tank, and accessible shutoffs are located. Gather any recent water test results and describe pressure or supply changes. For a suspected buried-line problem, identify the route as far as you can.",
+        "source": "src/sites/lakeshoreplumbing.ca/content.ts#LOCATIONS.ruscomb.faq[0]"
+      },
+      {
+        "q": "What can I do before asking about a recurring drain problem?",
+        "a": "List the affected fixtures, note how often the blockage returns, and photograph accessible cleanouts. Identify any septic or holding equipment connected to the line. This helps clarify whether a clearing method or additional inspection should be considered.",
+        "source": "src/sites/lakeshoreplumbing.ca/content.ts#LOCATIONS.ruscomb.faq[1]"
+      },
+      {
+        "q": "What should I compare in a repiping proposal?",
+        "a": "Ask which materials and sections will be replaced, where new piping will run, and what testing is planned before the work is concealed. If the property may be closed in winter, ask how drain access and vulnerable runs are handled.",
+        "source": "src/sites/lakeshoreplumbing.ca/content.ts#LOCATIONS.ruscomb.faq[2]"
+      },
+      {
+        "q": "What information is useful when planning work at a rural property?",
+        "a": "Describe the water source, distance to the well or other equipment, access to the work area, and any known shutoffs or cleanouts. Photos and test results can help clarify the scope before discussing a site-specific proposal.",
+        "source": "src/sites/lakeshoreplumbing.ca/content.ts#LOCATIONS.ruscomb.faq[3]"
+      },
+      {
+        "q": "For repiping in Ruscomb, how should I map the materials and proposed scope?",
+        "a": "Photograph accessible pipe and fittings, and note any known repairs or recurring leaks. Ask which materials will be replaced, which will remain, and where the transition points are planned. Consolidating mixed-era piping into a PEX or copper system may require different access and routing than a localized repair, so a clear scope makes proposals easier to compare.",
+        "source": "src/sites/lakeshoreplumbing.ca/content.ts#SVC.repiping.features[0]"
+      }
+    ]
+  }
+}

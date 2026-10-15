@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For repiping in Bayfield, how should I map crawlspace and joist routes?",
+      "a": "If pipes run through a crawlspace or tight joist bays, record access points, clearances, and any obstructions with photographs. Ask how new runs will be supported and insulated, and whether access panels or finish work affect the estimate. Route length and working space can change both the project scope and the practical sequence of work.",
+      "source": "src/sites/bayfieldplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How should I plan around seasonal use at my Bayfield property?",
+      "a": "Before arranging a seasonal installation, confirm when the property is accessible, how the existing heater will be handled, and whether the water system will be shut down afterward. Ask what work must be completed before the building is left vacant. This makes the timing and scope clearer without assuming that a particular installation window or appointment is available.",
+      "source": "src/sites/bayfieldplumbing.ca/content.ts#SVC.water-heaters.features[1]"
+    },
+    {
+      "q": "For water softeners in Bayfield, how should I base well treatment on test results?",
+      "a": "If the property uses a private well, obtain a current water test and share the results before selecting a treatment sequence. Ask which measured conditions each stage is intended to address and how stages fit together. Do not assume that hardness, iron, or sulphur is present; testing and the reported symptoms should guide the proposed equipment.",
+      "source": "src/sites/bayfieldplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "How should I set a seasonal inspection routine before work in Bayfield?",
+      "a": "If the property is used seasonally, identify when the pump should be tested, primed, or cleared, and what should happen before winter. Photograph the discharge outlet and note any recurring blockage. A written routine tied to the actual equipment and drainage route makes it easier to spot changes and plan maintenance.",
+      "source": "src/sites/bayfieldplumbing.ca/content.ts#SVC.sump-pumps.features[2]"
+    },
+    {
+      "q": "What should I check about pipe condition before clearing in Bayfield?",
+      "a": "Older lines may include clay, while newer sections may use plastic; the actual material and condition should be checked rather than assumed. Photograph visible cleanouts and share any known pipe history. Ask how the clearing method will be matched to the line, since fragile or damaged pipe may change the safe scope.",
+      "source": "src/sites/bayfieldplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    }
+  ],
+  "locations": {}
+}

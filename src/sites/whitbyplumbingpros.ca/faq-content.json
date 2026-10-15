@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How do I match regeneration to household use for my Whitby project?",
+      "a": "If comparing metered softeners, ask how the unit measures use, what settings are based on, and what maintenance it requires. Household demand can vary from week to week, so a system should be assessed against actual use and water results rather than a generic household size. Compare operating requirements as well as equipment capacity before choosing.",
+      "source": "src/sites/whitbyplumbingpros.ca/content.ts#SVC.water-softeners.features[0]"
+    },
+    {
+      "q": "How can I compare capacity with peak use for a Whitby property?",
+      "a": "List the fixtures and appliances that may use hot water at the same time, then note household routines such as consecutive showers or laundry. Tank capacity alone does not explain recovery between uses. Comparing those details with the existing rating label helps frame whether a similar tank or a different capacity should be considered.",
+      "source": "src/sites/whitbyplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "How should I assess kitchen-line buildup in Whitby?",
+      "a": "If a kitchen drain slows repeatedly, note how often it happens and whether the line serves a busy cooking area. Ask what cleaning method is proposed and whether the work is limited to removing buildup or includes a follow-up check. The line’s layout and access can change the appropriate scope, so photographs of cleanouts or past service points are useful.",
+      "source": "src/sites/whitbyplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "What matters when choosing practical fixtures for daily use for a Whitby property?",
+      "a": "Compare handle styles, mounting requirements, and cleaning needs before selecting fixtures for a frequently used bathroom. If children will use the room, consider whether the controls and fittings suit the household, rather than relying on appearance alone. Provide the product specifications in advance, since dimensions and connection positions can affect compatibility with the existing plumbing.",
+      "source": "src/sites/whitbyplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "What should I know before using instruments to guide the search in Whitby?",
+      "a": "Ask whether thermal imaging or acoustic listening is suitable for the suspected leak and what each result can show. These tools may help narrow an investigation, but the location and source still need to be assessed. Share photographs and timing notes, then ask what evidence supports any proposed opening so the repair scope is not based on an unexplained guess.",
+      "source": "src/sites/whitbyplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+    }
+  ],
+  "locations": {}
+}

@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "How should I document leaks in shared buildings in London?",
+      "a": "For a condominium or multi-unit property, note which units show symptoms and whether a shared riser or branch serves them. Ask what documentation can be provided for the corporation and how access to affected units will be coordinated. Identifying whether the pipe is shared or unit-specific changes approvals, repair limits, and who needs to be involved.",
+      "source": "src/sites/londonplumbingpros.ca/content.ts#SVC.leak-detection.features[2]"
+    },
+    {
+      "q": "What should I consider when sizing a softener using test results in London?",
+      "a": "Ask for the measured hardness and estimate the household's daily water use before comparing softener capacity and regeneration settings. Occupancy and peak demand can affect the suitable grain capacity and control style. If a private well is involved, test for additional concerns before selecting equipment, since hardness alone may not describe the treatment required.",
+      "source": "src/sites/londonplumbingpros.ca/content.ts#SVC.water-softeners.features[0]"
+    },
+    {
+      "q": "How can I compare the rental and ownership terms for a London property?",
+      "a": "If the heater is rented, check the agreement for its buyout amount, ongoing fees, removal conditions, and responsibility for repairs. Compare those terms with the purchase and installation cost of a replacement. Photograph the rating plate and keep the contract available so quotes can specify whether the existing unit stays, is bought out, or is removed.",
+      "source": "src/sites/londonplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "How should I plan access in older construction at my London property?",
+      "a": "If a home has plaster walls, fragile tile, or tight wall cavities, photograph the affected rooms and point out wiring or finishes that need care. Ask where access openings may be required and what repair or patching is included. These details help set realistic expectations for a repipe without assuming every wall can be opened or restored the same way.",
+      "source": "src/sites/londonplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "What matters when choosing fixtures for expected use for a London property?",
+      "a": "For a rental or high-use bathroom, compare replacement parts, flush-valve design, faucet construction, and maintenance access before selecting a fixture. Ask which products can be serviced without replacing the full assembly. If work must fit between occupants, confirm the sequence and access needed rather than assuming the installation can be completed within a particular window.",
+      "source": "src/sites/londonplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    }
+  ],
+  "locations": {
+    "byron": [
+      {
+        "q": "What should I check before considering a backwater valve in Byron?",
+        "a": "Ask for an assessment of the building drain, sewer connection, and available access. The layout and applicable inspection requirements determine whether a valve is suitable and what work it involves.",
+        "source": "src/sites/londonplumbingpros.ca/content.ts#LOCATIONS.byron.faq[0]"
+      },
+      {
+        "q": "How can I tell whether older supply piping needs replacement?",
+        "a": "Photograph visible pipe and note its material, location, symptoms, and any past repairs. An assessment can establish whether the concern is limited to one branch or involves more of the home's supply system.",
+        "source": "src/sites/londonplumbingpros.ca/content.ts#LOCATIONS.byron.faq[1]"
+      },
+      {
+        "q": "What information helps compare water heater replacement options?",
+        "a": "Record the current model, fuel, venting, and any rental agreement. Household hot-water use and installation connections affect equipment sizing and the work required.",
+        "source": "src/sites/londonplumbingpros.ca/content.ts#LOCATIONS.byron.faq[2]"
+      },
+      {
+        "q": "What can recurring tree-root-related drain backups mean?",
+        "a": "Ask whether a camera inspection can show the root entry point and pipe condition after clearing. Findings may support comparison of another cleaning with a targeted repair or lateral replacement.",
+        "source": "src/sites/londonplumbingpros.ca/content.ts#LOCATIONS.byron.faq[3]"
+      },
+      {
+        "q": "For leak detection in Byron, how should I distinguish slab leaks from yard-line leaks?",
+        "a": "If a leak may be under a basement slab or in a buried service line, note where warm flooring, wet ground, or unusual plant growth appears and photograph the area. Ask how the line will be isolated and where the suspected point lies. Location and pipe access affect whether repair requires floor opening, excavation, or another method.",
+        "source": "src/sites/londonplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+      }
+    ],
+    "lambeth": [
+      {
+        "q": "What should I record before assessing a private well system?",
+        "a": "Note pressure-switch settings if visible, the pressure-tank model, symptoms, and any recent service. Water-test results can help distinguish a pressure-system concern from a treatment need.",
+        "source": "src/sites/londonplumbingpros.ca/content.ts#LOCATIONS.lambeth.faq[0]"
+      },
+      {
+        "q": "How should I choose a softener for a Lambeth property?",
+        "a": "Confirm whether the water is municipal or from a well, then obtain relevant test results. Hardness and household demand help compare capacity, while other findings may call for different treatment.",
+        "source": "src/sites/londonplumbingpros.ca/content.ts#LOCATIONS.lambeth.faq[1]"
+      },
+      {
+        "q": "What details help compare water heater replacement options?",
+        "a": "Photograph the rating plate and connections, identify the fuel, and review any rental agreement. Household use and the existing venting or electrical setup can affect the replacement scope.",
+        "source": "src/sites/londonplumbingpros.ca/content.ts#LOCATIONS.lambeth.faq[2]"
+      },
+      {
+        "q": "What information is useful when requesting urgent plumbing assessment?",
+        "a": "Describe the symptom, when it began, and whether water can be safely isolated. Photos of the affected area and equipment can help clarify what needs to be assessed.",
+        "source": "src/sites/londonplumbingpros.ca/content.ts#LOCATIONS.lambeth.faq[3]"
+      },
+      {
+        "q": "What should I check about what a replacement requires in Lambeth?",
+        "a": "A leaking or failed tank may need prompt assessment, but replacement timing depends on equipment, site conditions, and parts. Photograph the connections, vent, surrounding space, and any water damage. Ask whether the proposed tank size, fuel, venting, drainage, and electrical requirements match the home, and whether additional work is included in the quoted scope.",
+        "source": "src/sites/londonplumbingpros.ca/content.ts#SVC.water-heaters.features[1]"
+      }
+    ]
+  }
+}

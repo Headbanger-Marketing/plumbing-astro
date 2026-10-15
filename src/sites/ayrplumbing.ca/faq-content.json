@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "How should I plan water heating for a second suite at my Ayr property?",
+      "a": "If a basement suite or addition is planned, confirm which fixtures it will serve and whether the existing system is shared. Ask how demand, equipment location, venting, and access affect the design. Do not assume a separate unit is required without comparing the layout and expected use.",
+      "source": "src/sites/ayrplumbing.ca/content.ts#SVC.water-heaters.features[2]"
+    },
+    {
+      "q": "For repiping in Ayr, how should I map polybutylene before comparing quotes?",
+      "a": "If visible pipe or fittings may be polybutylene, photograph markings and accessible connections. Ask how the proposed survey will establish the full extent, including concealed runs. Comparing quotes against the same mapped scope helps distinguish a partial repair from a whole-system replacement.",
+      "source": "src/sites/ayrplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "What should I check about older clay or cast-iron pipe in Ayr?",
+      "a": "If a property has clay or cast-iron drains, note recurring root intrusion, offsets, or slow drainage and share any prior inspection findings. Ask whether cleaning alone is suitable or whether a camera should follow. Pipe condition affects whether root cutting is a temporary clearing step or part of a larger repair plan.",
+      "source": "src/sites/ayrplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "How should I set basement bathroom rough-in scope before work in Ayr?",
+      "a": "Mark the proposed toilet, basin, and bath or shower locations on a layout. Ask where drains and supply lines can connect and what access is required. Confirm the rough-in scope before finishing the room, since fixture positions and concealed piping affect later installation.",
+      "source": "src/sites/ayrplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "How should I trace longer runs systematically before work in Ayr?",
+      "a": "If fixtures are far apart or pipes run beneath a slab, provide a floor plan and identify known pipe routes and access points. Ask how acoustic or thermal investigation will narrow the search. A planned sequence can reduce guesswork about where an opening may be needed.",
+      "source": "src/sites/ayrplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+    }
+  ],
+  "locations": {
+    "st-george": [
+      {
+        "q": "What should I check before replacing a water heater in St. George?",
+        "a": "Photograph the unit label, fuel, vent, connections, and clearances. Compare proposed capacity and installation requirements with the household’s demand and existing setup.",
+        "source": "src/sites/ayrplumbing.ca/content.ts#LOCATIONS.st-george.faq[0]"
+      },
+      {
+        "q": "How should I plan repiping in an older home?",
+        "a": "Document visible pipe material and accessible routes, then ask how concealed sections will be assessed. Confirm which approvals or inspections apply and request a written scope.",
+        "source": "src/sites/ayrplumbing.ca/content.ts#LOCATIONS.st-george.faq[1]"
+      },
+      {
+        "q": "What information helps plan well-water treatment?",
+        "a": "Identify the water source and gather recent test results, including any measured hardness or iron. Use the findings to compare treatment options rather than assuming what the water needs.",
+        "source": "src/sites/ayrplumbing.ca/content.ts#LOCATIONS.st-george.faq[2]"
+      },
+      {
+        "q": "What should I do if a plumbing problem is urgent?",
+        "a": "If water is escaping, use the accessible shutoff if safe and document the affected area. Contact an appropriate plumbing professional and describe the leak, location, and any immediate risks.",
+        "source": "src/sites/ayrplumbing.ca/content.ts#LOCATIONS.st-george.faq[3]"
+      },
+      {
+        "q": "For drain cleaning in St. George, how should I inspect the line before finishing a basement?",
+        "a": "If new flooring will cover a drain, photograph the cleanout and ask whether a camera can inspect the relevant section first. Video can help show the pipe’s condition and the location of defects, giving the renovation plan better information than an assumption based on a clear drain.",
+        "source": "src/sites/ayrplumbing.ca/content.ts#SVC.drain-cleaning.features[1]"
+      }
+    ],
+    "branchton": [
+      {
+        "q": "What information helps investigate a rural water-line leak?",
+        "a": "Note when pressure changes, which fixtures are affected, and where the line enters the building. Share any available route plans and ask whether sectional pressure testing is suitable for narrowing the search.",
+        "source": "src/sites/ayrplumbing.ca/content.ts#LOCATIONS.branchton.faq[0]"
+      },
+      {
+        "q": "How should I plan sump pump replacement or backup?",
+        "a": "Photograph the basin, existing pump label, discharge route, and power source. Share any prior water events and ask how capacity and battery backup should be matched to the setup.",
+        "source": "src/sites/ayrplumbing.ca/content.ts#LOCATIONS.branchton.faq[1]"
+      },
+      {
+        "q": "What should a bathroom or laundry rough-in plan include?",
+        "a": "Provide the proposed fixture layout and identify existing drains, supplies, and access points. Ask what the plumbing scope includes and verify which approvals or inspections apply.",
+        "source": "src/sites/ayrplumbing.ca/content.ts#LOCATIONS.branchton.faq[2]"
+      },
+      {
+        "q": "How do I choose treatment for well water?",
+        "a": "Start with current test results and identify the concern, such as hardness or iron. Ask how proposed equipment treats the measured result and what ongoing supplies or maintenance it requires.",
+        "source": "src/sites/ayrplumbing.ca/content.ts#LOCATIONS.branchton.faq[3]"
+      },
+      {
+        "q": "How should I plan routes through masonry carefully at my Branchton property?",
+        "a": "If pipes pass through stone or other masonry, identify accessible runs and finished areas before work is scoped. Ask where new PEX or copper could be routed and what openings and restoration may be needed. Routing and access can change the project more than the choice of pipe alone.",
+        "source": "src/sites/ayrplumbing.ca/content.ts#SVC.repiping.features[1]"
+      }
+    ]
+  }
+}

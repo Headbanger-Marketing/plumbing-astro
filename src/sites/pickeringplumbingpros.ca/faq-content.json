@@ -1,0 +1,112 @@
+{
+  "home": [
+    {
+      "q": "What should I check about the well system in Pickering?",
+      "a": "If the home uses a well, photograph the pressure tank label, pump controls, and existing heater connections. Ask how pressure settings and well recovery affect the proposed heater and household demand. Considering the whole system can reveal whether the installation is a simple appliance replacement or needs additional coordination.",
+      "source": "src/sites/pickeringplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For water softeners in Pickering, how should I stage well treatment from results?",
+      "a": "For a private well, obtain a current laboratory water test and share the results before selecting equipment. Ask which treatment stage addresses each measured issue, such as sediment, iron, or hardness, and whether additional treatment is indicated. A test-driven design helps avoid adding stages without evidence or overlooking a relevant result.",
+      "source": "src/sites/pickeringplumbingpros.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "What needs clarifying about the septic boundary before work in Pickering?",
+      "a": "If the property uses septic, record whether sinks, toilets, or multiple drains are affected and ask which section of the system a proposed service covers. Plumbing-line symptoms and tank-side issues may need different providers. Confirming the boundary before work helps avoid treating a plumbing blockage as a septic diagnosis, or the reverse.",
+      "source": "src/sites/pickeringplumbingpros.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "How should I separate well-system causes when planning work in Pickering?",
+      "a": "If a well pump cycles unexpectedly, record the cycle frequency and whether fixtures are running, then photograph the pressure tank label and controls. Ask how the pump, pressure tank, valves, and plumbing line will be tested. A cycling pump can have several explanations, so checking the well equipment helps define whether a leak repair is actually required.",
+      "source": "src/sites/pickeringplumbingpros.ca/content.ts#SVC.leak-detection.features[2]"
+    },
+    {
+      "q": "How should I plan rural shutoffs and drainage at my Pickering property?",
+      "a": "If a country property has long service runs or seasonal freeze concerns, ask where accessible isolation valves and drain points could be placed. Request an explanation of how sections can be shut off and drained for maintenance or winter preparation. These layout decisions affect usability after installation, not just the pipe route.",
+      "source": "src/sites/pickeringplumbingpros.ca/content.ts#SVC.repiping.features[1]"
+    }
+  ],
+  "locations": {
+    "claremont": [
+      {
+        "q": "What should I gather before planning well-water treatment?",
+        "a": "Collect a recent test of the property’s water, the well and pressure-tank details if available, and any records for existing treatment equipment. Ask a qualified provider to explain which test results each proposed treatment stage is intended to address.",
+        "source": "src/sites/pickeringplumbingpros.ca/content.ts#LOCATIONS.claremont.faq[0]"
+      },
+      {
+        "q": "How can I distinguish a plumbing drain issue from a septic concern?",
+        "a": "Note which fixtures are slow, whether the problem affects the whole property, and whether it recurs after clearing. Ask where the proposed drain service ends and what evidence would indicate a tank-side assessment is needed.",
+        "source": "src/sites/pickeringplumbingpros.ca/content.ts#LOCATIONS.claremont.faq[1]"
+      },
+      {
+        "q": "What information helps scope a farmhouse repipe?",
+        "a": "Photograph accessible pipes, shutoffs, and any mixed materials, and collect records from earlier renovations. Ask which sections are included, where access is required, and how shutoff and drain points could support seasonal maintenance.",
+        "source": "src/sites/pickeringplumbingpros.ca/content.ts#LOCATIONS.claremont.faq[2]"
+      },
+      {
+        "q": "What should seasonal properties check before winter?",
+        "a": "Review exposed plumbing, vulnerable sections, shutoffs, and available drain points. Ask a qualified contractor which lines can be drained and what freeze protection is appropriate for the property’s layout.",
+        "source": "src/sites/pickeringplumbingpros.ca/content.ts#LOCATIONS.claremont.faq[3]"
+      },
+      {
+        "q": "How should I assess roots and older lines in Claremont?",
+        "a": "If a camera or prior repair record identifies clay or cast-iron pipe with root intrusion, keep the footage and note the location and recurrence. Ask what clearing method is proposed and whether the line will be inspected afterward. This evidence helps compare temporary clearing with further investigation of the pipe condition.",
+        "source": "src/sites/pickeringplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+      }
+    ],
+    "brougham": [
+      {
+        "q": "How should I compare well-water treatment options?",
+        "a": "Start with a current test from the property’s well. Ask which results support each proposed treatment stage, how equipment will be arranged, and what routine maintenance it needs.",
+        "source": "src/sites/pickeringplumbingpros.ca/content.ts#LOCATIONS.brougham.faq[0]"
+      },
+      {
+        "q": "What should be checked when replacing a water heater on a well?",
+        "a": "Gather the heater specifications and pressure-tank and pump details. Ask how household demand, water pressure, and the proposed heater’s requirements will be considered together.",
+        "source": "src/sites/pickeringplumbingpros.ca/content.ts#LOCATIONS.brougham.faq[1]"
+      },
+      {
+        "q": "What should I record when drains are slow on a septic property?",
+        "a": "List the affected fixtures, note whether symptoms happen together, and record whether clearing has helped before. Ask whether the plumbing line should be cleared or inspected and how its scope differs from tank-side septic work.",
+        "source": "src/sites/pickeringplumbingpros.ca/content.ts#LOCATIONS.brougham.faq[2]"
+      },
+      {
+        "q": "How can seasonal plumbing be prepared for cold weather?",
+        "a": "Identify exposed or vulnerable lines, shutoffs, and drain points, then ask which sections can be drained and what protection suits the property. Keep a record of the system layout for future maintenance.",
+        "source": "src/sites/pickeringplumbingpros.ca/content.ts#LOCATIONS.brougham.faq[3]"
+      },
+      {
+        "q": "How should I coordinate a country bathroom in Brougham?",
+        "a": "For a bathroom on a private supply or septic system, share the planned fixture list and layout before rough-in work. Ask how supply pressure, drainage, and fixture demand will be considered. That information can affect pipe sizing and fixture selection, especially when several fixtures may operate at the same time.",
+        "source": "src/sites/pickeringplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[1]"
+      }
+    ],
+    "whitevale": [
+      {
+        "q": "What helps plan plumbing work in an older home?",
+        "a": "Photograph accessible pipes and fixtures, note visible materials, and gather renovation records. Ask how the proposed work will account for existing connections and which areas require access.",
+        "source": "src/sites/pickeringplumbingpros.ca/content.ts#LOCATIONS.whitevale.faq[0]"
+      },
+      {
+        "q": "What information is useful for tracing a private-line leak?",
+        "a": "Record changes in water use or pressure, photograph visible wet areas, and map the suspected line if plans are available. Ask what detection methods are suitable and what findings would be needed before excavation.",
+        "source": "src/sites/pickeringplumbingpros.ca/content.ts#LOCATIONS.whitevale.faq[1]"
+      },
+      {
+        "q": "How should well-water treatment be selected?",
+        "a": "Arrange a test of the property’s water and share the results when comparing treatment proposals. Ask which measured results each stage addresses, how the system will be maintained, and whether the equipment matches household use.",
+        "source": "src/sites/pickeringplumbingpros.ca/content.ts#LOCATIONS.whitevale.faq[2]"
+      },
+      {
+        "q": "What should be clarified before booking work at a rural property?",
+        "a": "Describe the issue, identify the water source and septic arrangement, and provide access details and any relevant system records. Confirm the proposed work area and scope before arranging a visit.",
+        "source": "src/sites/pickeringplumbingpros.ca/content.ts#LOCATIONS.whitevale.faq[3]"
+      },
+      {
+        "q": "For repiping in Whitevale, how should I inventory before scoping?",
+        "a": "Photograph accessible pipe, fittings, and shutoffs, and collect renovation records if available. Ask a contractor to identify the materials and map which areas are included in the proposed replacement. This matters because a partial repair, a section replacement, and a whole-home repipe require different access, materials, and disruption.",
+        "source": "src/sites/pickeringplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+      }
+    ]
+  }
+}

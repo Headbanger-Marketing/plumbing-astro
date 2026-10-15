@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "What should I consider when sizing for the household you have in Komoka?",
+      "a": "Count bathrooms and fixtures, and consider whether a basement suite or other addition is in regular use. Ask how the proposed tank capacity or tankless recovery rate matches peak demand. Comparing those details helps avoid selecting equipment based only on the home’s original layout or an assumed household size.",
+      "source": "src/sites/komokaplumbing.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For fixture installation in Komoka, how should I investigate capped basement rough-ins?",
+      "a": "If the basement has capped laundry or bathroom plumbing, photograph the caps and surrounding area and ask what remains to make the connections usable. Confirm whether drainage, venting and water-supply work are required for the intended layout. A rough-in is not necessarily a complete installation, and its location can affect the scope.",
+      "source": "src/sites/komokaplumbing.ca/content.ts#SVC.fixtures-toilets.features[1]"
+    },
+    {
+      "q": "How should I plan routes around existing work at my Komoka property?",
+      "a": "If a home has tight joist spaces, finished ceilings or past renovations, photograph accessible routes and note areas that cannot be opened easily. Ask how the new piping would be routed and where access may be needed. These conditions can affect labour, finish restoration and the practical layout of a replacement system.",
+      "source": "src/sites/komokaplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For leak detection in Komoka, how should I investigate before opening surfaces?",
+      "a": "Ask whether thermal imaging and acoustic checks suit the suspected leak and the construction of the affected area. These methods can help narrow the search through finished surfaces, but findings should guide a careful access plan rather than promise a precise result. Share photos and the stain’s timing to help compare likely investigation steps.",
+      "source": "src/sites/komokaplumbing.ca/content.ts#SVC.leak-detection.features[0]"
+    },
+    {
+      "q": "How do I match pump to observed demand for my Komoka project?",
+      "a": "If the pump cycles frequently or the pit receives steady inflow, record the pattern and ask how the proposed pump’s duty rating and capacity will be matched to the load. A cast-iron pump may be one option to compare with existing equipment. Pit dimensions and inflow observations can change equipment selection, so avoid relying on a label alone.",
+      "source": "src/sites/komokaplumbing.ca/content.ts#SVC.sump-pumps.features[0]"
+    }
+  ],
+  "locations": {}
+}

@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How can I compare capacity with well recovery for a Ilderton property?",
+      "a": "If the property uses a private well, ask how its recovery rate was considered alongside household demand. A larger storage tank may help manage periods of limited recovery, while tankless equipment has different flow and supply requirements. Sharing the well’s observed performance and household usage helps explain the sizing recommendation and avoid choosing equipment based on household size alone.",
+      "source": "src/sites/ildertonplumbing.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "How should I assess existing pipe and routes in Ilderton?",
+      "a": "If galvanized pipe is visible in a basement with stone walls or thick joists, photograph its route and any accessible joints. Ask how proposed new lines will reach fixtures while limiting disruption to the structure. The amount of concealed piping and the available pathways can change the scope substantially. Confirm which areas may need opening and how the route will be documented before work begins.",
+      "source": "src/sites/ildertonplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "What should I consider about the full route to a septic system before arranging work in Ilderton?",
+      "a": "If the building drain connects to a septic tank, clarify which part of the route is included in the proposed work. Ask how cleaning will be managed so material is not pushed in an unintended direction, and share any known access points or past trouble spots. A sketch or photograph of the route can help define scope. Work on a building drain and work at a tank are not interchangeable.",
+      "source": "src/sites/ildertonplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "What matters when choosing fixtures with water conditions in mind for a Ilderton property?",
+      "a": "If the property uses a private well, consider obtaining water test results before selecting faucets, cartridges or other components. Ask how the results affect material and maintenance recommendations rather than assuming all fixtures suit every supply. Sharing the test information helps explain why one component may be preferred over another and makes comparisons more specific to the home’s water conditions.",
+      "source": "src/sites/ildertonplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "For leak detection in Ilderton, how should I isolate pressure by zone?",
+      "a": "If the property has several branches or buildings, ask whether pressure isolation can test them as separate zones. Record which shutoffs control the house, outbuildings and yard supply, and share a simple map if available. Comparing which sections hold pressure can narrow a broad search to a particular run. This changes the investigation from checking every location to focusing on the zone indicated by the test.",
+      "source": "src/sites/ildertonplumbing.ca/content.ts#SVC.leak-detection.features[0]"
+    }
+  ],
+  "locations": {}
+}

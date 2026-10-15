@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "How should I verify polybutylene and fitting condition before work in Listowel?",
+      "a": "If visible pipe appears to be polybutylene, photograph its markings and fittings and ask for the material to be confirmed. Scope should consider connected plastic fittings as well as the pipe itself. Compare a targeted replacement with broader removal, and ask how proposed PEX or copper connections will be pressure-tested. The verified material and access conditions affect the work.",
+      "source": "src/sites/listowelplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "What should I consider when sizing for actual and planned demand in Listowel?",
+      "a": "List regular occupants, bathrooms, water-using appliances and any separate barn or outdoor taps before comparing capacity. If a basement finish or additional bathroom is planned, include that future demand in the discussion. Ask how measured hardness and expected gallons per day affect the proposed softener size; insufficient capacity can change regeneration needs and system performance.",
+      "source": "src/sites/listowelplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "How should I plan work on septic-connected lines at my Listowel property?",
+      "a": "If a long drain run connects to a septic tank or field, identify the route and any known access points before work is scoped. Ask how the clearing method will account for the line and septic system, and whether a camera can help locate the issue. This information can affect equipment choice and the extent of work needed.",
+      "source": "src/sites/listowelplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "What should I consider when sizing for household demand in Listowel?",
+      "a": "List the number of regular occupants and note when showers, laundry and other hot-water uses overlap. Compare the proposed unit’s capacity and recovery rate against that pattern, rather than choosing by the old tank’s size alone. A planned bathroom addition or other new use may also change the equipment required.",
+      "source": "src/sites/listowelplumbing.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "How should I plan below-grade bathroom plumbing at my Listowel property?",
+      "a": "If a bathroom is below the building’s drainage level, ask how wastewater will reach the sewer or septic connection. A sewage pit or pump, discharge route and venting may be required depending on the layout. Share a floor plan and note existing access points; these details affect equipment, rough-in locations and the amount of work.",
+      "source": "src/sites/listowelplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    }
+  ],
+  "locations": {
+    "atwood": [
+      {
+        "q": "What information helps compare water heater options in Atwood?",
+        "a": "Photograph the unit label, fuel connection and venting, and note household hot-water demand. If a replacement is planned, ask how capacity and existing installation requirements affect the proposed scope.",
+        "source": "src/sites/listowelplumbing.ca/content.ts#LOCATIONS.atwood.faq[0]"
+      },
+      {
+        "q": "What should I check before repiping an older home?",
+        "a": "Photograph accessible pipe markings and fittings, and note leaks or past repairs. Confirm the pipe material and condition before comparing a partial replacement with a broader plan using PEX or copper.",
+        "source": "src/sites/listowelplumbing.ca/content.ts#LOCATIONS.atwood.faq[1]"
+      },
+      {
+        "q": "How should I plan treatment for a well-water system?",
+        "a": "Use a current water-test report to identify measured conditions, then compare treatment stages and capacity against household use. Avoid selecting a softener or filter based on location alone.",
+        "source": "src/sites/listowelplumbing.ca/content.ts#LOCATIONS.atwood.faq[2]"
+      },
+      {
+        "q": "What helps investigate a recurring drain problem?",
+        "a": "Record which fixtures are affected, where the line runs and what clearing has been tried. If the issue returns, ask whether a camera inspection can help identify the cause before repairs are considered.",
+        "source": "src/sites/listowelplumbing.ca/content.ts#LOCATIONS.atwood.faq[3]"
+      },
+      {
+        "q": "How do I match scope to the home for my Atwood project?",
+        "a": "If a home has older galvanized piping, newer branches or additions, ask how each section will be assessed rather than assuming all pipes are alike. Share photographs and note inaccessible areas or past repairs. A partial replacement may suit an isolated problem, while the wider condition and layout can support considering a whole-home plan.",
+        "source": "src/sites/listowelplumbing.ca/content.ts#SVC.repiping.features[1]"
+      }
+    ],
+    "palmerston": [
+      {
+        "q": "What should I check before repiping an older home?",
+        "a": "Photograph visible pipe markings and fittings, then ask for the material and condition to be confirmed. Compare a targeted replacement with a wider plan, including access and testing requirements.",
+        "source": "src/sites/listowelplumbing.ca/content.ts#LOCATIONS.palmerston.faq[0]"
+      },
+      {
+        "q": "What details affect a water heater replacement?",
+        "a": "Check the existing unit’s label, fuel, capacity and venting, and note household demand. Ask whether connections can be reused or changes are needed for the proposed tank or tankless equipment.",
+        "source": "src/sites/listowelplumbing.ca/content.ts#LOCATIONS.palmerston.faq[1]"
+      },
+      {
+        "q": "What should I do about a drain that keeps returning to a blockage?",
+        "a": "Note which fixtures are affected and how often the problem recurs. Ask whether snaking, hydro-jetting or camera inspection is suitable for the pipe and its condition before selecting a method.",
+        "source": "src/sites/listowelplumbing.ca/content.ts#LOCATIONS.palmerston.faq[2]"
+      },
+      {
+        "q": "What should a sump pump check include?",
+        "a": "Inspect the pump label, float, check valve, discharge and power connection. If battery backup is being considered, ask about equipment compatibility, battery maintenance and the expected operating limits.",
+        "source": "src/sites/listowelplumbing.ca/content.ts#LOCATIONS.palmerston.faq[3]"
+      },
+      {
+        "q": "How do I match pump to drainage and lift for my Palmerston project?",
+        "a": "Ask how the drainage area, expected inflow and vertical lift affect the proposed pump capacity. Photograph the basin and note where the discharge exits. This information helps compare equipment that suits the actual installation with an oversized option that may not address the system’s needs. Check that the proposed pump and discharge arrangement are compatible.",
+        "source": "src/sites/listowelplumbing.ca/content.ts#SVC.sump-pumps.features[0]"
+      }
+    ]
+  }
+}

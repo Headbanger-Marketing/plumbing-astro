@@ -1,0 +1,112 @@
+{
+  "home": [
+    {
+      "q": "How can I compare rental and ownership options for a Hamilton property?",
+      "a": "Before ending a rental, review the agreement for buyout terms, removal requirements and any outstanding charges. Ask for separate estimates for an owned storage tank and a tankless system, including equipment, installation and disposal where applicable. The comparison can change the project scope and clarify whether an existing rental provider must be involved.",
+      "source": "src/sites/hamiltonplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "How can I identify polybutylene and other existing pipes at my Hamilton property?",
+      "a": "If a home has polybutylene, galvanized steel or another older pipe material, photograph accessible markings and fittings rather than relying on the home’s age alone. Ask whether the assessment maps all affected runs, including connections, and whether replacement is proposed throughout or in stages. A complete map makes quotes easier to compare and helps identify the limits of partial work.",
+      "source": "src/sites/hamiltonplumbingpros.ca/content.ts#SVC.repiping.features[1]"
+    },
+    {
+      "q": "How should I assess slab and service-line symptoms in Hamilton?",
+      "a": "If a floor feels warm or a foundation edge remains damp, record the location and whether the condition changes over time. Ask whether the suspected section can be isolated and whether repair or rerouting is being considered. A leak beneath a slab or outside the building may require a different scope from a fixture or interior-pipe repair.",
+      "source": "src/sites/hamiltonplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "How can I compare durability and fit for a Hamilton property?",
+      "a": "When choosing fixtures for a family bathroom or rental, compare dimensions, materials, replacement-part availability and the manufacturer’s care instructions. Ask how the selected hardware fits the existing supply and drain connections. Considering maintenance as well as appearance can change the product choice and reduce the chance that a fixture is unsuitable for frequent use.",
+      "source": "src/sites/hamiltonplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[2]"
+    },
+    {
+      "q": "What should I review about backwater valve access and scope in Hamilton?",
+      "a": "If sewer backup is a concern, ask whether a backwater valve is present, where it can be accessed and what work its installation would require on the main drain line. Confirm which approvals or inspections may apply. A valve and a sump pump serve different purposes, so the property’s drainage arrangement affects whether either measure is suitable.",
+      "source": "src/sites/hamiltonplumbingpros.ca/content.ts#SVC.sump-pumps.features[0]"
+    }
+  ],
+  "locations": {
+    "dundas": [
+      {
+        "q": "How should I plan repiping for an older stone home in Dundas?",
+        "a": "Photograph accessible pipe materials and identify symptoms by fixture. Ask how proposed PEX or copper routes would be accessed and what finish restoration, testing and approvals may apply.",
+        "source": "src/sites/hamiltonplumbingpros.ca/content.ts#LOCATIONS.dundas.faq[0]"
+      },
+      {
+        "q": "What information helps scope a water-heater replacement in Dundas?",
+        "a": "Share the unit’s rating plate, fuel, capacity, vent route and installation-area photos. Ask about replacement options, removal and any venting or inspection requirements.",
+        "source": "src/sites/hamiltonplumbingpros.ca/content.ts#LOCATIONS.dundas.faq[1]"
+      },
+      {
+        "q": "What should I check if a Dundas basement takes on water in spring?",
+        "a": "Record where water entered and when, then photograph the sump pit, pump and discharge point. A review can distinguish drainage concerns from pump or sewer-backup protection needs.",
+        "source": "src/sites/hamiltonplumbingpros.ca/content.ts#LOCATIONS.dundas.faq[2]"
+      },
+      {
+        "q": "Can a small fixture problem require more than a simple replacement?",
+        "a": "It can if shutoffs, supply lines or connections are worn or incompatible. Photograph the existing fittings and selected fixture so the proposed scope can account for access and parts.",
+        "source": "src/sites/hamiltonplumbingpros.ca/content.ts#LOCATIONS.dundas.faq[3]"
+      },
+      {
+        "q": "What should I consider about acoustic location and isolation before arranging work in Dundas?",
+        "a": "If a leak may be concealed behind plaster or masonry, ask whether acoustic listening and pressure isolation can narrow the search before a wall is opened. Share any pipe plans and mark the areas where symptoms appear. The investigation method and access plan affect how much of the finish may need to be removed to reach the failure.",
+        "source": "src/sites/hamiltonplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+      }
+    ],
+    "stoney-creek": [
+      {
+        "q": "What should I do before considering well-water treatment in Stoney Creek?",
+        "a": "Confirm that the property uses a private well and obtain water-test results. Ask how any proposed filter stages relate to the measured concerns, such as iron or sulphur odour.",
+        "source": "src/sites/hamiltonplumbingpros.ca/content.ts#LOCATIONS.stoney-creek.faq[0]"
+      },
+      {
+        "q": "How can I describe a fixture issue in a newer home?",
+        "a": "Photograph the fixture, connections and product label, and note when the problem occurs. This helps clarify whether the work involves adjustment, replacement or changes to connections.",
+        "source": "src/sites/hamiltonplumbingpros.ca/content.ts#LOCATIONS.stoney-creek.faq[1]"
+      },
+      {
+        "q": "What should I document after a backup or loss of water?",
+        "a": "Note which fixtures are affected and when the issue began. Photos and details about the property’s drains or water supply can help determine what investigation is appropriate.",
+        "source": "src/sites/hamiltonplumbingpros.ca/content.ts#LOCATIONS.stoney-creek.faq[2]"
+      },
+      {
+        "q": "How can I assess galvanized piping in an older home?",
+        "a": "Photograph accessible pipe markings and note any leaks, discolouration or pressure changes. Ask whether the assessment should cover selected sections or the full system, and what testing or approvals apply.",
+        "source": "src/sites/hamiltonplumbingpros.ca/content.ts#LOCATIONS.stoney-creek.faq[3]"
+      },
+      {
+        "q": "For fixture installation in Stoney Creek, how should I prepare for a faucet or fixture swap?",
+        "a": "For a dripping faucet, cracked basin or toilet replacement, photograph the supply lines, shutoffs and space below or behind the fixture. Compare the new fixture’s connection requirements with the existing setup and ask whether additional parts or changes are needed. This can distinguish a direct replacement from work involving worn shutoffs, seals or incompatible fittings.",
+        "source": "src/sites/hamiltonplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[1]"
+      }
+    ],
+    "binbrook": [
+      {
+        "q": "How do I assess a sump pump in a Binbrook home?",
+        "a": "Photograph the pump label, pit, float switch and discharge route. Ask how capacity and operation will be checked and whether a battery backup suits the property’s power needs.",
+        "source": "src/sites/hamiltonplumbingpros.ca/content.ts#LOCATIONS.binbrook.faq[0]"
+      },
+      {
+        "q": "What should I plan before finishing a Binbrook basement?",
+        "a": "List planned fixtures and locations, then confirm available drains, vents and water lines. Ask what rough-in work, permits or inspections may be required before closing walls or floors.",
+        "source": "src/sites/hamiltonplumbingpros.ca/content.ts#LOCATIONS.binbrook.faq[1]"
+      },
+      {
+        "q": "How should a rural property investigate sulphur odour in its water?",
+        "a": "Confirm the water source and obtain well-water test results. Ask how the results determine treatment stages; an odour alone does not identify the cause or suitable equipment.",
+        "source": "src/sites/hamiltonplumbingpros.ca/content.ts#LOCATIONS.binbrook.faq[2]"
+      },
+      {
+        "q": "What information helps with an urgent plumbing inquiry?",
+        "a": "Describe the affected area, when the problem began and whether water can be shut off safely. Photographs of the equipment or visible damage can help explain the issue and its possible scope.",
+        "source": "src/sites/hamiltonplumbingpros.ca/content.ts#LOCATIONS.binbrook.faq[3]"
+      },
+      {
+        "q": "For water softeners in Binbrook, how should I test water before choosing a system?",
+        "a": "If scale is appearing on fixtures, request a water test and ask which results determine softener capacity and regeneration settings. Household size and water use also affect sizing. Comparing the test results with the proposed equipment helps explain whether a softener is appropriate rather than relying on a general claim about local water.",
+        "source": "src/sites/hamiltonplumbingpros.ca/content.ts#SVC.water-softeners.features[0]"
+      }
+    ]
+  }
+}

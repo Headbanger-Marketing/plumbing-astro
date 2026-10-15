@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "What should I review about basement bathroom rough-ins in Owen Sound?",
+      "a": "For a proposed basement suite, ask how the fixture locations relate to drains, supply lines, shut-offs and any required backflow protection. Request clarification about inspection or permit requirements for the specific work. The existing layout and planned use affect what must be included, so confirm the rough-in scope before finishes conceal the plumbing.",
+      "source": "src/sites/owensoundplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[1]"
+    },
+    {
+      "q": "For water softeners in Owen Sound, how should I sequence well treatment from results?",
+      "a": "If a well test indicates iron or bacterial concerns, ask what equipment is proposed and why its order matters. Iron removal may need to precede softening, while UV treatment is relevant only when test results and the water system support it. Request the findings and proposed treatment sequence so each stage has a clear purpose.",
+      "source": "src/sites/owensoundplumbingpros.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "How should I plan access around existing walls at my Owen Sound property?",
+      "a": "Photograph plaster, wood lath, trim and visible joist or pipe routes before work is scoped. Ask where openings may be needed and how their positions were selected. The available stud bays and joist direction can affect access, repair size and the finish work required, so a specific access plan is more useful than a general promise to protect walls.",
+      "source": "src/sites/owensoundplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "What should I consider about acoustic and thermal tracing before arranging work in Owen Sound?",
+      "a": "Ask whether acoustic listening, thermal imaging or both are appropriate for the suspected leak. If a slab or ledge rock is present, explain that water may travel away from its source before appearing at the surface. The tracing method and site conditions affect how confidently the source can be narrowed before opening a floor or wall.",
+      "source": "src/sites/owensoundplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+    },
+    {
+      "q": "How can I confirm replacement work and testing before work in Owen Sound?",
+      "a": "Ask what the quote includes for disconnecting the old heater, removing it from the property, connecting the replacement and handling venting or other required changes. Request details of the checks planned after installation and any inspection requirements that apply to the project. Clear inclusions help distinguish a straightforward swap from additional work.",
+      "source": "src/sites/owensoundplumbingpros.ca/content.ts#SVC.water-heaters.features[2]"
+    }
+  ],
+  "locations": {
+    "shallow-lake": [
+      {
+        "q": "How should I assess hard well water in Shallow Lake?",
+        "a": "Start with a water test and confirm the property’s supply source. Compare results for hardness, iron and other relevant findings before considering a softener or filter; test results determine which equipment, if any, suits the water.",
+        "source": "src/sites/owensoundplumbingpros.ca/content.ts#LOCATIONS.shallow-lake.faq[0]"
+      },
+      {
+        "q": "How can I plan a plumbing project in Shallow Lake?",
+        "a": "Share the project details, property access, available records and any relevant photographs when requesting information. Scheduling and response times depend on the project and should be confirmed directly rather than assumed from location.",
+        "source": "src/sites/owensoundplumbingpros.ca/content.ts#LOCATIONS.shallow-lake.faq[1]"
+      },
+      {
+        "q": "What should I check before considering a sump pump?",
+        "a": "Record where water enters, when it occurs and how quickly the basin fills. Photograph the basin and discharge route. If the property’s slope or runoff pattern may affect inflow, describe what you observe so pump and basin sizing can be assessed for the site.",
+        "source": "src/sites/owensoundplumbingpros.ca/content.ts#LOCATIONS.shallow-lake.faq[2]"
+      },
+      {
+        "q": "What information helps scope a water heater replacement?",
+        "a": "Photograph the existing unit label, venting and connections, and measure the route into the installation area. Note the number of people and bathrooms using hot water. Those details help compare capacity and installation requirements without assuming a particular unit is available.",
+        "source": "src/sites/owensoundplumbingpros.ca/content.ts#LOCATIONS.shallow-lake.faq[3]"
+      },
+      {
+        "q": "For fixture installation in Shallow Lake, how should I keep period details in the fixture choice?",
+        "a": "If a clawfoot tub or period appearance is important, photograph the existing fittings and note what must remain. Compare fixture dimensions, mounting style and replacement internals before choosing a product. Those details help establish whether modern components can work with the existing arrangement or whether additional changes are needed.",
+        "source": "src/sites/owensoundplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+      }
+    ],
+    "annan": [
+      {
+        "q": "How can a leak on an Annan service line be investigated?",
+        "a": "Record pressure changes, visible wet areas and when symptoms occur. Ask how the line could be isolated and tested in sections, and what evidence would locate a failure. The length and accessibility of the run affect the investigation and repair scope.",
+        "source": "src/sites/owensoundplumbingpros.ca/content.ts#LOCATIONS.annan.faq[0]"
+      },
+      {
+        "q": "What should I prepare for a bathroom renovation?",
+        "a": "Photograph existing fixtures, supply connections and drain locations, and share any available plans. Ask how the proposed layout affects rough-in work, shut-offs and inspection requirements. The existing arrangement helps clarify which plumbing changes belong in the project.",
+        "source": "src/sites/owensoundplumbingpros.ca/content.ts#LOCATIONS.annan.faq[1]"
+      },
+      {
+        "q": "How should I distinguish a drain problem from a septic concern?",
+        "a": "Note which fixtures are affected and whether the issue is limited to one branch or occurs throughout the building. Share available septic records and ask what evidence points to building drainage versus the septic system. A septic contractor may be needed if investigation indicates the concern lies beyond the building plumbing.",
+        "source": "src/sites/owensoundplumbingpros.ca/content.ts#LOCATIONS.annan.faq[2]"
+      },
+      {
+        "q": "How do I confirm service timing for Annan?",
+        "a": "Describe the problem, its urgency, the property location and any access constraints when making an inquiry. Confirm scheduling and response arrangements directly; availability should not be inferred from the route or the nature of the call.",
+        "source": "src/sites/owensoundplumbingpros.ca/content.ts#LOCATIONS.annan.faq[3]"
+      },
+      {
+        "q": "For leak detection in Annan, how should I inspect wall construction before opening?",
+        "a": "Photograph the affected area and note any known plaster, wood lath or balloon framing. Older wall construction may conceal pipe routes that are not shown on plans. Ask how the likely route will be assessed and where a small exploratory opening would provide useful evidence; this can reduce unnecessary disturbance and help target repair access.",
+        "source": "src/sites/owensoundplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+      }
+    ]
+  }
+}

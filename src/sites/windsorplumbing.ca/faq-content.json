@@ -1,0 +1,112 @@
+{
+  "home": [
+    {
+      "q": "How should I trace slab and buried service lines before work in Windsor?",
+      "a": "If a leak may be beneath a slab or along a buried service line, gather available drawings and identify the meter, entry point and affected fixtures. Ask how the suspected route will be traced and whether repair or rerouting is being considered. Location and pipe access determine whether the work needs a small opening, excavation or a different repair approach.",
+      "source": "src/sites/windsorplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "How should I plan a basement or suite rough-in at my Windsor property?",
+      "a": "For a new bathroom, kitchen or secondary-suite layout, mark proposed fixture locations and share any available floor plans. Ask how supply, drainage, venting and separate shutoffs will be arranged, and which permit or inspection requirements apply. The route and the existing plumbing affect both access and project scope, so confirm these details before finishes are installed.",
+      "source": "src/sites/windsorplumbing.ca/content.ts#SVC.fixtures-toilets.features[1]"
+    },
+    {
+      "q": "How should I assess venting before changing equipment in Windsor?",
+      "a": "A chimney-vented tank, power-vent tank and tankless unit have different venting needs. If the existing chimney is damaged, unsuitable or shared, ask for an assessment before choosing a replacement. Compare the proposed route, clearances and fuel or electrical requirements, and verify which permits or inspections apply to the specific work.",
+      "source": "src/sites/windsorplumbing.ca/content.ts#SVC.water-heaters.features[2]"
+    },
+    {
+      "q": "What matters when choosing a method suited to the pipe for a Windsor property?",
+      "a": "Cabling can break through many blockages, while hydro-jetting uses water pressure to clean suitable pipe walls of grease and scale. Ask what the initial inspection indicates and whether the pipe material and condition are appropriate for jetting. Compare what each method is expected to clear, and whether a follow-up camera check is recommended if symptoms persist.",
+      "source": "src/sites/windsorplumbing.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "What should I consider when sizing a softener from usage and testing in Windsor?",
+      "a": "If testing indicates hardness is a concern, compare softener capacity with household water use and the manufacturer’s sizing guidance. Ask how regeneration settings, salt use, drain access and maintenance are handled. A system sized to actual demand can differ from one selected by household size alone, so request the assumptions behind the proposed capacity.",
+      "source": "src/sites/windsorplumbing.ca/content.ts#SVC.water-softeners.features[0]"
+    }
+  ],
+  "locations": {
+    "riverside": [
+      {
+        "q": "What information helps compare water heater options in Riverside?",
+        "a": "Record the current heater’s type, fuel, capacity and vent route, and photograph its rating plate if accessible. Ask how the proposed replacement fits household demand and whether venting or connection changes are included.",
+        "source": "src/sites/windsorplumbing.ca/content.ts#LOCATIONS.riverside.faq[0]"
+      },
+      {
+        "q": "How can I assess a possible repipe in Riverside?",
+        "a": "If accessible piping appears galvanized, photograph it and note which fixtures have low pressure or discoloured water. Ask whether inspection supports replacing a branch or a larger portion of the system, and compare PEX and copper proposals.",
+        "source": "src/sites/windsorplumbing.ca/content.ts#LOCATIONS.riverside.faq[1]"
+      },
+      {
+        "q": "How do I compare sump and backwater options?",
+        "a": "Note where water has entered, what the sump pump does during rain and whether sewer backup is a separate concern. Ask how pump capacity, battery backup and any proposed backwater valve address those different pathways.",
+        "source": "src/sites/windsorplumbing.ca/content.ts#LOCATIONS.riverside.faq[2]"
+      },
+      {
+        "q": "What should I provide when requesting an urgent plumbing assessment?",
+        "a": "Describe what is happening, when it began and which fixtures are affected. Share clear photos of accessible equipment and shutoffs, and mention active water entry or a sewer backup so the requested assessment can be scoped appropriately.",
+        "source": "src/sites/windsorplumbing.ca/content.ts#LOCATIONS.riverside.faq[3]"
+      },
+      {
+        "q": "What should I check about the existing tank and connections in Riverside?",
+        "a": "Photograph the rating plate, fuel connection, vent and nearby shutoffs. Note any active leak and where water is collecting, but do not disturb unsafe connections. These details help establish whether a replacement can use the existing arrangement or needs changes to venting, piping or access. Confirm the proposed scope includes testing connections and removing the old equipment if required.",
+        "source": "src/sites/windsorplumbing.ca/content.ts#SVC.water-heaters.features[1]"
+      }
+    ],
+    "walkerville": [
+      {
+        "q": "How should I plan access for a repipe in a Walkerville home?",
+        "a": "Photograph plaster, tile and built-ins along the likely pipe route. Ask for proposed access locations, room-by-room sequencing and clarification about who handles patching, so you can plan finish work.",
+        "source": "src/sites/windsorplumbing.ca/content.ts#LOCATIONS.walkerville.faq[0]"
+      },
+      {
+        "q": "When is camera inspection useful for a drain in Walkerville?",
+        "a": "If a blockage returns, ask whether a camera can inspect the relevant line. Roots, a sag or a break may change the scope from clearing to further assessment or repair; request an explanation of what the images show.",
+        "source": "src/sites/windsorplumbing.ca/content.ts#LOCATIONS.walkerville.faq[1]"
+      },
+      {
+        "q": "What should I check before considering tankless equipment?",
+        "a": "Identify the current heater, fuel and chimney vent route. Ask whether the existing venting and available fuel or electrical connections suit a tankless system, and compare the proposed installation requirements with a replacement tank.",
+        "source": "src/sites/windsorplumbing.ca/content.ts#LOCATIONS.walkerville.faq[2]"
+      },
+      {
+        "q": "What should a fixture renovation proposal specify?",
+        "a": "List the selected fixtures and share the room layout and visible connections. Ask whether the work is a direct replacement or includes new supply, drainage and venting, and confirm which project requirements apply.",
+        "source": "src/sites/windsorplumbing.ca/content.ts#LOCATIONS.walkerville.faq[3]"
+      },
+      {
+        "q": "What should I know before using a camera for repeat problems in Walkerville?",
+        "a": "If the same drain backs up repeatedly, ask whether a camera can inspect the relevant line after access is established. A recording or live view may help identify roots, a sag or a break, changing the scope from routine clearing to further assessment. Request an explanation of what the images show and which parts of the line were actually inspected.",
+        "source": "src/sites/windsorplumbing.ca/content.ts#SVC.drain-cleaning.features[1]"
+      }
+    ],
+    "sandwich": [
+      {
+        "q": "How can I determine whether galvanized piping needs replacement?",
+        "a": "Photograph accessible pipes and note pressure or water-colour symptoms at specific fixtures. Ask what inspection supports a branch or whole-home repipe, and compare pipe material, access planning and pressure testing.",
+        "source": "src/sites/windsorplumbing.ca/content.ts#LOCATIONS.sandwich.faq[0]"
+      },
+      {
+        "q": "What should a sewer camera inspection explain?",
+        "a": "Ask which section of the line was inspected and request an explanation of any roots, sags or breaks visible. Findings can affect whether cleaning is sufficient or a separate repair assessment is needed.",
+        "source": "src/sites/windsorplumbing.ca/content.ts#LOCATIONS.sandwich.faq[1]"
+      },
+      {
+        "q": "How do I compare sump and backwater protection?",
+        "a": "First record where water entered and whether the concern involves the sump basin or a drain. Ask how pump capacity and backup power address basin water, and whether a backwater valve is suitable for the sewer layout.",
+        "source": "src/sites/windsorplumbing.ca/content.ts#LOCATIONS.sandwich.faq[2]"
+      },
+      {
+        "q": "What details help request an assessment in Sandwich?",
+        "a": "Describe the symptom, when it occurs and which fixtures are involved. Share photos of accessible piping, the sump basin or drain cleanout, and list previous repairs that may affect the proposed scope.",
+        "source": "src/sites/windsorplumbing.ca/content.ts#LOCATIONS.sandwich.faq[3]"
+      },
+      {
+        "q": "What should I check about backup power arrangements in Sandwich?",
+        "a": "If outages are part of your concern, inspect the existing pump’s power connection and ask what a proposed battery backup operates. Compare battery capacity, charging needs, alarm features and the expected runtime under the stated conditions. Backup equipment must suit the primary pump and basin arrangement, so ask how operation will be tested and what ongoing battery checks are required.",
+        "source": "src/sites/windsorplumbing.ca/content.ts#SVC.sump-pumps.features[1]"
+      }
+    ]
+  }
+}

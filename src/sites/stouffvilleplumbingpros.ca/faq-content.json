@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For a property in Stouffville, who owns the heater after the property handover?",
+      "a": "Ask the provider to distinguish equipment supplied by an owner from equipment still subject to rental or other terms, using the papers available. The technical assessment should then address the current symptom rather than only the handover date. Keep removal, replacement connections and any separate warranty inquiry explicit when the options are compared.",
+      "source": "src/sites/stouffvilleplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For a property in Stouffville, can the unfamiliar fixture be repaired in place?",
+      "a": "Ask the provider what product information supports the options and which connection changes each would require. Compare future access as well as fitting the product now. If past installation work is undocumented, identify what remains uncertain rather than treating the existing arrangement as a confirmed direct-swap specification.",
+      "source": "src/sites/stouffvilleplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "For a property in Stouffville, what protection equipment came with the house?",
+      "a": "Ask the provider to explain what can be checked at the existing equipment and what access its maintenance requires. Compare documented observations with any proposed upgrade, including alarm or backup additions. A property transfer does not by itself justify replacing the system, and a previous service note does not verify its present operation.",
+      "source": "src/sites/stouffvilleplumbingpros.ca/content.ts#SVC.sump-pumps.features[0]"
+    },
+    {
+      "q": "For a property in Stouffville, what did the previous owner document about the drain?",
+      "a": "Ask the provider to relate any earlier cleaning or inspection finding to the present fixtures and access points. Request the current evidence before choosing another method or repair. The estimate should identify what can be assessed now and what remains uncertain if the earlier route or recording cannot be matched.",
+      "source": "src/sites/stouffvilleplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "For a property in Stouffville, do renovation records identify all pipe materials?",
+      "a": "Ask the provider to use visible markings and available records to identify the runs being considered, with concealed sections still marked for assessment. Compare any selective or wider replacement by its purpose and access. Keep the material, route and finish-restoration boundaries in the written proposal so the handover record can be improved afterward.",
+      "source": "src/sites/stouffvilleplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    }
+  ],
+  "locations": {}
+}

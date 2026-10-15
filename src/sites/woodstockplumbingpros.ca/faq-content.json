@@ -1,0 +1,112 @@
+{
+  "home": [
+    {
+      "q": "Why should I include every connected building in my Woodstock request?",
+      "a": "For a town home, clarify whether the proposed work is partial or whole-home. On a rural property, identify any lines serving barns or other outbuildings and note their route and exposure. If a pressure tank is part of the system, ask whether its connections or pressure settings are within the proposed scope.",
+      "source": "src/sites/woodstockplumbingpros.ca/content.ts#SVC.repiping.features[1]"
+    },
+    {
+      "q": "For water softeners in Woodstock, how should I start with a suitable water test?",
+      "a": "Tell the assessor whether the supply is municipal or from a private well, and provide recent results if available. Ask which sample and tests are needed before comparing equipment. Hardness, iron and other findings lead to different treatment choices, so measured results help define both system size and scope.",
+      "source": "src/sites/woodstockplumbingpros.ca/content.ts#SVC.water-softeners.features[0]"
+    },
+    {
+      "q": "For leak detection in Woodstock, how should I locate the source before opening surfaces?",
+      "a": "Ask which detection methods suit the suspected pipe and building materials. Acoustic listening, thermal imaging and meter-based isolation can help narrow a search, but each has limits. Agree on how findings will be checked and where an opening may be needed before finished walls or floors are disturbed.",
+      "source": "src/sites/woodstockplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+    },
+    {
+      "q": "How do I match pump and pit to water flow for my Woodstock project?",
+      "a": "Photograph the pit, pump label, float and discharge outlet, and note how often the pump runs during wet weather. Ask how the pit size, incoming water and discharge route affect pump selection. Conditions at the property, rather than a general soil assumption, determine what capacity and installation details need review.",
+      "source": "src/sites/woodstockplumbingpros.ca/content.ts#SVC.sump-pumps.features[0]"
+    },
+    {
+      "q": "What should I check about the installation space and connections in Woodstock?",
+      "a": "Take clear photos of the unit, nearby piping, venting and clearance around it. Note the route to the installation area and any access limits. Comparing these details helps identify whether a replacement can use existing connections or whether venting, fuel supply or surrounding piping may need review.",
+      "source": "src/sites/woodstockplumbingpros.ca/content.ts#SVC.water-heaters.features[1]"
+    }
+  ],
+  "locations": {
+    "embro": [
+      {
+        "q": "What information helps assess well-water treatment in Embro?",
+        "a": "Identify the water source and gather a suitable sample or recent test results. Ask which measured concerns, such as hardness, iron or bacteria, the proposed equipment is intended to address before comparing a softener, filter or UV system.",
+        "source": "src/sites/woodstockplumbingpros.ca/content.ts#LOCATIONS.embro.faq[0]"
+      },
+      {
+        "q": "What should I check before replacing a water heater in Embro?",
+        "a": "Photograph the rating plate, fuel supply, venting and nearby piping. Include household demand and, if the property has a well, pressure-tank details. Those facts help compare tank or tankless equipment and identify possible connection changes.",
+        "source": "src/sites/woodstockplumbingpros.ca/content.ts#LOCATIONS.embro.faq[1]"
+      },
+      {
+        "q": "What details help investigate basement water in spring?",
+        "a": "Note where water appears, when it occurs, whether a sump pump runs and where its discharge leads. If sewer backup is also suspected, mention it separately; a sump system and a backwater valve address different water pathways.",
+        "source": "src/sites/woodstockplumbingpros.ca/content.ts#LOCATIONS.embro.faq[2]"
+      },
+      {
+        "q": "When might repiping be considered in an older Embro home?",
+        "a": "Photograph visible pipe material and note leaks, restricted flow or prior repairs. If galvanized steel or older plastic piping is present, ask whether a proposed scope is partial or whole-home and whether connected outbuildings should be included.",
+        "source": "src/sites/woodstockplumbingpros.ca/content.ts#LOCATIONS.embro.faq[3]"
+      },
+      {
+        "q": "For repiping in Embro, how should I map access before walls are opened?",
+        "a": "Photograph visible pipes, finished walls and areas where symptoms occur. Ask where access openings may be needed and how the plan accounts for plaster, brick or other finishes. A defined access plan helps compare proposals and understand which repairs to surfaces are included or require separate arrangements.",
+        "source": "src/sites/woodstockplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+      }
+    ],
+    "thamesford": [
+      {
+        "q": "What should I provide when comparing water heater options in Thamesford?",
+        "a": "Share the unit label, fuel type, venting and available space, along with household hot-water demand. Ask how tank capacity or tankless output and any connection changes fit the property.",
+        "source": "src/sites/woodstockplumbingpros.ca/content.ts#LOCATIONS.thamesford.faq[0]"
+      },
+      {
+        "q": "How can I find out whether water treatment is needed?",
+        "a": "Identify whether the supply is municipal or from a well, then obtain an appropriate test. Ask which measured result a proposed softener or filter addresses rather than relying on a general claim about local water.",
+        "source": "src/sites/woodstockplumbingpros.ca/content.ts#LOCATIONS.thamesford.faq[1]"
+      },
+      {
+        "q": "What is useful to know before requesting drain cleaning?",
+        "a": "List affected fixtures, the timing of the symptoms and whether the problem has returned after previous clearing. For recurring trouble, ask whether camera inspection could help establish the pipe condition and the appropriate clearing method.",
+        "source": "src/sites/woodstockplumbingpros.ca/content.ts#LOCATIONS.thamesford.faq[2]"
+      },
+      {
+        "q": "What should a basement bathroom rough-in plan include?",
+        "a": "Prepare a sketch showing proposed fixtures and locations. Ask how drains and venting would be routed, which walls or floors may need access, and what permit or inspection requirements apply to the proposed work.",
+        "source": "src/sites/woodstockplumbingpros.ca/content.ts#LOCATIONS.thamesford.faq[3]"
+      },
+      {
+        "q": "What needs clarifying about rough-in work for renovations before work in Thamesford?",
+        "a": "If the layout changes, provide a sketch with proposed fixture locations and ask how drain and vent routes will be handled. Confirm which work requires a permit or inspection and when those checks happen. The layout can change the rough-in scope before walls and finishes are installed.",
+        "source": "src/sites/woodstockplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[1]"
+      }
+    ],
+    "innerkip": [
+      {
+        "q": "What is needed to assess water treatment or a pressure tank?",
+        "a": "Identify the water source and provide recent test results if available. Note pressure symptoms and photograph the tank label. Ask which results call for treatment and whether the pressure system is part of the proposed scope.",
+        "source": "src/sites/woodstockplumbingpros.ca/content.ts#LOCATIONS.innerkip.faq[0]"
+      },
+      {
+        "q": "How should I prepare for a sump pump assessment in Innerkip?",
+        "a": "Photograph the pit, pump label and discharge route, and note when the pump runs or whether water appears during outages. Ask how incoming water, pit size and backup power affect the proposed system.",
+        "source": "src/sites/woodstockplumbingpros.ca/content.ts#LOCATIONS.innerkip.faq[1]"
+      },
+      {
+        "q": "What can recurring fall drain problems indicate?",
+        "a": "Seasonal timing alone does not establish the cause. List affected fixtures and previous clearing attempts, then ask whether a camera inspection could identify roots, buildup, an offset or another pipe condition before choosing a method.",
+        "source": "src/sites/woodstockplumbingpros.ca/content.ts#LOCATIONS.innerkip.faq[2]"
+      },
+      {
+        "q": "What details help with an urgent plumbing inquiry?",
+        "a": "Describe the active problem, its location and any steps already taken to limit water flow. Share clear photos if safe to do so. The information helps determine what kind of assessment is appropriate, without assuming a response time or outcome.",
+        "source": "src/sites/woodstockplumbingpros.ca/content.ts#LOCATIONS.innerkip.faq[3]"
+      },
+      {
+        "q": "How should I assess a possible buried service leak in Innerkip?",
+        "a": "If a yard becomes wet or pressure drops, photograph the location and note whether symptoms change when water is off. Ask how the supply line between the building and street will be isolated and located. That information helps compare a targeted repair, rerouting or the need for excavation.",
+        "source": "src/sites/woodstockplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+      }
+    ]
+  }
+}

@@ -93,13 +93,17 @@ export function schemaService(
 }
 
 export function schemaFaq(faqs: [q: string, a: string][]): string {
-  const items = faqs
-    .map(
-      ([qst, a]) =>
-        `{"@type":"Question","name":${q(qst)},"acceptedAnswer":{"@type":"Answer","text":${q(a)}}}`
-    )
-    .join(',');
-  return `<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[${items}]}</script>`;
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map(([question, answer]) => ({
+      '@type': 'Question',
+      name: plain(question),
+      acceptedAnswer: { '@type': 'Answer', text: plain(answer) },
+    })),
+  };
+  // Keep punctuation intact and prevent a copy string from closing its script.
+  return `<script type="application/ld+json">${JSON.stringify(data).replaceAll('<', '\\u003c')}</script>`;
 }
 
 export function schemaBlogpost(

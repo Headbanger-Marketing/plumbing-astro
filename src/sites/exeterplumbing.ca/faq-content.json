@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For repiping in Exeter, how should I map older homes and additions?",
+      "a": "For a farmhouse or a home with additions, sketch visible pipe routes and identify bathrooms, kitchens, and laundry areas added over time. Photograph accessible joints and previous repairs. Unmapped branches can change labor, access, and materials, so ask whether the proposal covers the full intended system or only the easiest sections to reach.",
+      "source": "src/sites/exeterplumbing.ca/content.ts#SVC.repiping.features[1]"
+    },
+    {
+      "q": "How should I plan around a septic system at my Exeter property?",
+      "a": "If a property has a septic system and a long private drain, provide the available pipe route, cleanout locations, and tank access information. Ask how the clearing method will be used and what precautions apply to the system. The pipe length and layout can change equipment needs and access, so include those details when comparing the scope.",
+      "source": "src/sites/exeterplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "What should I consider about buried supply lines before arranging work in Exeter?",
+      "a": "If the suspected leak may be on a line from a well or street, provide the route, material, and any known repair history. Ask how the location will be narrowed and what excavation or access may be needed. A buried service line has different access and replacement considerations from piping inside the home, including how the pipe will be supported or bedded.",
+      "source": "src/sites/exeterplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "For sump pumps in Exeter, how should I inspect components before seasonal use?",
+      "a": "Before periods when the pump may be needed, check whether the float moves freely, the check valve operates, and the discharge route is clear. Photograph any unusual cycling or noise and note the last known service. These observations help focus a maintenance review on the relevant parts and identify questions about discharge or backup operation.",
+      "source": "src/sites/exeterplumbing.ca/content.ts#SVC.sump-pumps.features[2]"
+    },
+    {
+      "q": "What should I check about seals and connections in Exeter?",
+      "a": "For a toilet replacement, inspect the visible flange area and note any rocking, staining, or prior leaks. For faucets and sinks, photograph supply connections and the drain arrangement. Ask how the proposed work will check the seals and connections after installation, since existing damage or mismatched fittings can change the scope.",
+      "source": "src/sites/exeterplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    }
+  ],
+  "locations": {}
+}

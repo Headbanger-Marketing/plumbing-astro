@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For repiping in Nanticoke, how should I map existing materials and repairs?",
+      "a": "If accessible piping is galvanized or includes multiple patched sections, photograph the runs and record repeated repair locations. Ask how the proposed scope accounts for concealed piping, connections and fixture branches. The condition and layout determine whether a section-by-section repair is reasonable or whether a broader replacement should be compared, as well as which materials suit the project.",
+      "source": "src/sites/nanticokeplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How should I plan seasonal fixture work carefully at my Nanticoke property?",
+      "a": "If the property is opened and closed seasonally, list which fixtures need installation, draining or preparation for winter. Ask how shutoffs and traps will be handled, and verify which steps are part of the proposed scope. Timing and winterization requirements can differ by fixture and plumbing layout, so share opening or closing dates when comparing plans.",
+      "source": "src/sites/nanticokeplumbing.ca/content.ts#SVC.fixtures-toilets.features[1]"
+    },
+    {
+      "q": "What should I consider about the septic system when choosing a method before arranging work in Nanticoke?",
+      "a": "If a drain connects to a septic tank or bed, ask how the cleaning method and discharge are managed to avoid unnecessary impacts to the system. Mechanical clearing and jetting may suit different pipe conditions, so discuss the line material and blockage first. If evidence points to a tank or system issue rather than a pipe obstruction, ask what inspection should follow.",
+      "source": "src/sites/nanticokeplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "What should I consider about the effect on a well pump before arranging work in Nanticoke?",
+      "a": "If a well pump is cycling unusually, explain how often it runs and whether pressure changes when the suspected leak is isolated. A leak can increase pump operation, but other system faults may produce similar symptoms. Ask what evidence supports the proposed repair and whether pump or pressure-system checks are also needed, so the scope reflects the cause rather than the symptom alone.",
+      "source": "src/sites/nanticokeplumbing.ca/content.ts#SVC.leak-detection.features[2]"
+    },
+    {
+      "q": "What should I check about water conditions and maintenance access in Nanticoke?",
+      "a": "If the property has mineral-rich well water, ask what maintenance the selected model requires and how anode inspection or flushing would be performed. Check that the proposed setup leaves practical access to service points. Water testing and equipment requirements can affect the model choice, connection layout and expected maintenance, so avoid assuming nearby properties have the same water.",
+      "source": "src/sites/nanticokeplumbing.ca/content.ts#SVC.water-heaters.features[0]"
+    }
+  ],
+  "locations": {}
+}

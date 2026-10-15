@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For a property in Beaverton, can the heater be reached for repair or removal?",
+      "a": "Ask the provider to establish the actual access route and space before comparing repair and replacement. The supported technical option and practical installation scope should be described together. Identify delivery, old-equipment removal and any altered connection as explicit items rather than assume they are included in the product price.",
+      "source": "src/sites/beavertonplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For a property in Beaverton, what can be reached from the current drain access?",
+      "a": "Ask the provider to identify that reach and explain what a result there can establish about the reported blockage. Compare a local clearing task with further investigation only where findings support it. If cabinetry or finishes must be disturbed for another access point, discuss authorization and restoration before the small request expands.",
+      "source": "src/sites/beavertonplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "For a property in Beaverton, are both ends of the pipe section accessible?",
+      "a": "Ask the provider to compare the supported repair with any wider replacement and explain the access each needs. The route may affect which finishes are opened even when the pipe length is small. Keep investigation and restoration explicit so a proposal for one visible section does not imply access to every concealed branch.",
+      "source": "src/sites/beavertonplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For a property in Beaverton, does the repair space allow fixture removal?",
+      "a": "Ask the provider to review the model and actual connection positions before selecting a repair component or new product. Compare any connection alterations and working-space requirements with the installation itself. The estimate should identify which parts are supplied and which finish changes remain separate, rather than treat the fixture box as a complete scope.",
+      "source": "src/sites/beavertonplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "For a property in Beaverton, what evidence justifies opening the concealed section?",
+      "a": "Ask the provider what accessible observations can narrow the investigation and what finding would justify an opening. Compare the proposed access with other plausible sources at the room, without opening finishes on an unsupported assumption. Agree how investigation and restoration are handled if the first suspected section does not contain the defect.",
+      "source": "src/sites/beavertonplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+    }
+  ],
+  "locations": {}
+}

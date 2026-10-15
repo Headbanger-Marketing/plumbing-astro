@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How should I assess private-well treatment needs in Tecumseh?",
+      "a": "If the property uses a private well, test for the specific concerns being considered before selecting filters or ultraviolet equipment. Iron, sulphur and bacteria require different treatment approaches, and a softener alone may not address them. Ask what each stage is intended to remove, how it will be maintained and how performance will be checked.",
+      "source": "src/sites/tecumsehplumbingpros.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "What should I check about older or septic-connected lines in Tecumseh?",
+      "a": "If the property has older drainage, a septic system or a drainfield connection, identify the pipe material and route before aggressive cleaning is considered. Some equipment and pressure settings may be unsuitable for fragile or damaged sections. Ask how the method will be matched to the line and whether the scope stops before sensitive components.",
+      "source": "src/sites/tecumsehplumbingpros.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "What matters when choosing a system for household demand for a Tecumseh property?",
+      "a": "Compare the existing heater’s capacity with the number of occupants, bathrooms and simultaneous hot-water uses. A seasonal home converted to year-round use may have different demand and freeze-protection needs. Tank and tankless systems also have different space, venting and utility requirements, so confirm those details before settling on a model.",
+      "source": "src/sites/tecumsehplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "How should I plan for year-round use at my Tecumseh property?",
+      "a": "If a property has changed from seasonal to full-time use, check whether piping passes through unheated spaces and whether drain points and shutoffs are accessible. Photograph those routes and discuss options for routing through heated areas. These conditions can change the amount of pipe, access work and winter-protection planning in a conversion repipe.",
+      "source": "src/sites/tecumsehplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "What should I check about for freeze-related pipe damage in Tecumseh?",
+      "a": "If a home was vacant or unheated during cold weather, inspect accessible pipes in exterior walls, basements and other cold areas for signs of a split or previous repair. Note when water was shut off and when the leak became visible. That history can guide pressure testing and help identify connected sections that may need inspection.",
+      "source": "src/sites/tecumsehplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+    }
+  ],
+  "locations": {}
+}

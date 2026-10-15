@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How should I coordinate fixture work with turnover in Wallaceburg?",
+      "a": "For a rental between tenants, identify the access window and list which fixtures need replacement before scheduling the work. Confirm who selects and supplies the fixtures, and whether testing or documentation is expected before occupancy. A written list helps separate essential repairs from optional upgrades and reduces the risk of overlooking a fixture during a short turnover.",
+      "source": "src/sites/wallaceburgplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "What should I check about capacity and connections in Wallaceburg?",
+      "a": "Photograph the rating plate, shut-off, vent, and surrounding area, then note how often hot water runs short. Tank size, fuel type, venting, and access can change the replacement scope. If considering tankless equipment, ask how its installation requirements differ from the existing tank and what additional work may be needed.",
+      "source": "src/sites/wallaceburgplumbing.ca/content.ts#SVC.water-heaters.features[1]"
+    },
+    {
+      "q": "What should I consider about root cutting and follow-up before arranging work in Wallaceburg?",
+      "a": "If inspection shows roots entering a line, ask where they enter, how much of the line is affected, and whether cutting alone is suitable. Older clay laterals, where present, may need a follow-up plan because clearing intrusion does not repair a damaged joint or prevent future growth. Compare maintenance recommendations with the camera findings and line condition.",
+      "source": "src/sites/wallaceburgplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "How should I plan work by zone at my Wallaceburg property?",
+      "a": "Ask which sections would be isolated and how water service to the rest of the home would be managed during each phase. A zone-by-zone plan can limit disruption, but the layout and condition of connected runs affect what remains usable. Request a marked scope showing proposed access points, affected fixtures, and the order of work.",
+      "source": "src/sites/wallaceburgplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How should I separate plumbing leaks from other moisture when planning work in Wallaceburg?",
+      "a": "Record whether dampness changes after rain, fixture use, or a period when water is turned off. If accessible, photograph stains, wet areas, and nearby plumbing, and note meter movement when fixtures are unused. These observations help decide whether plumbing checks are appropriate or whether another investigation, such as drainage or exterior-water review, should be considered.",
+      "source": "src/sites/wallaceburgplumbing.ca/content.ts#SVC.leak-detection.features[0]"
+    }
+  ],
+  "locations": {}
+}

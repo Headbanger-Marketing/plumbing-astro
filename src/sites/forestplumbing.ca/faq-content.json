@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For water softeners in Forest, how should I start with a current well test?",
+      "a": "Gather a recent water analysis and note household size, seasonal occupancy and any observed staining. Ask how each proposed treatment stage relates to the measured results. Wells can differ, so test-based choices help avoid selecting equipment for a problem the water does not show.",
+      "source": "src/sites/forestplumbing.ca/content.ts#SVC.water-softeners.features[0]"
+    },
+    {
+      "q": "For drain cleaning in Forest, how should I prepare seasonal lines before use?",
+      "a": "For a cottage reopening after months without use, list drains that were slow or unused before winter and check accessible traps and cleanouts. Ask what clearing is appropriate before a busy period of occupancy. Seasonal timing can make it easier to inspect the plumbing while the property is accessible and before several fixtures are needed at once.",
+      "source": "src/sites/forestplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "How should I plan seasonal drain-down at my Forest property?",
+      "a": "If the building is left unheated in winter, ask how the tank, supply lines and associated equipment can be drained and isolated. Check that the proposed arrangement gives water a clear route out and identify any low points that may retain water. A documented seasonal procedure helps clarify what must be done before the property is closed.",
+      "source": "src/sites/forestplumbing.ca/content.ts#SVC.water-heaters.features[2]"
+    },
+    {
+      "q": "How can I identify the existing pipe at my Forest property?",
+      "a": "Check accessible areas for pipe markings, colour and fitting type, and photograph any suspected poly-B or galvanized sections. Ask how much of the system the proposed work would replace and whether concealed sections need further inspection. Confirming the material and extent helps compare a targeted repair with a more complete repipe.",
+      "source": "src/sites/forestplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For fixture installation in Forest, how should I map cottage fixture changes?",
+      "a": "List each planned change, such as a second bathroom, a full shower or an outdoor rinse station. Photograph nearby supply and drain connections, and ask what new rough-in work each location needs. The distance from existing plumbing and the fixtures selected can change the amount of pipework and finishing involved.",
+      "source": "src/sites/forestplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    }
+  ],
+  "locations": {}
+}

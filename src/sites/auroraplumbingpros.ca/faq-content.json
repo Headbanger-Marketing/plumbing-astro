@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For water softeners in Aurora, how should I build well treatment around test findings?",
+      "a": "If the home uses a private well, obtain test results before selecting equipment for hardness, iron, or microbial concerns. Ask how each proposed stage works with the others, including any filtration or UV disinfection, and what maintenance it requires. Testing identifies which concerns need treatment and helps avoid adding equipment that is not supported by the results.",
+      "source": "src/sites/auroraplumbingpros.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "What should I consider when sizing the system for actual use in Aurora?",
+      "a": "List the number of occupants and note when showers, laundry, and dishwashing happen together. If one heater serves both a main home and basement suite, compare that peak demand with the tank's recovery rate or a tankless unit's output. This information helps determine whether one larger unit or separate capacity should be considered.",
+      "source": "src/sites/auroraplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "How should I plan access around finishes at my Aurora property?",
+      "a": "Mark the rooms and surfaces that need protection, including original plaster, hardwood, and millwork. Ask where new pipe routes and access openings are proposed, and whether closets or other less visible locations are feasible. The chosen route affects the amount of finish disturbance and the repair work needed after piping is installed.",
+      "source": "src/sites/auroraplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How should I trace private supply lines in sections before work in Aurora?",
+      "a": "If a property has a long private service from a street connection or well, gather any available route drawings and note visible entry and shutoff points. Ask how the full run will be isolated and tested, and how a suspected failure location will be confirmed. The route, material, and access conditions affect whether a limited section or a longer length needs investigation.",
+      "source": "src/sites/auroraplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "How can I compare backup pumping and alarms for a Aurora property?",
+      "a": "If a basement depends on a sump pump, check what happens during a power failure and whether a high-water alarm is present. Compare a battery-backed secondary pump, its expected operating limits, and how it will be tested. Outage duration, pit inflow, and battery condition affect how much backup protection the proposed arrangement can provide.",
+      "source": "src/sites/auroraplumbingpros.ca/content.ts#SVC.sump-pumps.features[1]"
+    }
+  ],
+  "locations": {}
+}

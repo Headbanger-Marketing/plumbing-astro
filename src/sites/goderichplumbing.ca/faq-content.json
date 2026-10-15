@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For leak detection in Goderich, how should I investigate difficult-to-access sections?",
+      "a": "If a leak may be behind stone, plaster, a finished basement, or beneath a slab, ask whether pressure testing can isolate sections of the plumbing. Record which shutoffs or lines are accessible and whether pressure changes have been observed. Those details can help narrow the search and determine whether further investigation is needed before cutting into finished surfaces.",
+      "source": "src/sites/goderichplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "What matters when choosing filtration from test results for a Goderich property?",
+      "a": "If a well test identifies iron or a sulphur-related odour, ask which treatment stages are proposed and how each relates to the test results. Municipal and private well supplies should not be treated as interchangeable assumptions. Request the test basis, expected maintenance, and any pre-treatment requirements; this helps explain the equipment sequence and avoids selecting a filter for an unconfirmed issue.",
+      "source": "src/sites/goderichplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "What matters when choosing capacity for household demand for a Goderich property?",
+      "a": "Record the tank size or model and note when hot water runs short, such as during overlapping showers. Compare those details with the household’s usual demand before selecting a replacement. Capacity and recovery needs affect which equipment may suit the home, particularly when several fixtures are used close together.",
+      "source": "src/sites/goderichplumbing.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "How do I match cleaning equipment to the blockage for my Goderich project?",
+      "a": "Ask whether snaking or hydro-jetting is being considered and why. A snake can reach and break through a blockage, while jetting uses water to clean deposits from pipe walls when the pipe and conditions are suitable. The pipe material, access, and suspected material matter, so confirm the proposed method fits the line before work begins.",
+      "source": "src/sites/goderichplumbing.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "For repiping in Goderich, how should I map routes and access before work?",
+      "a": "If the home has older construction, identify accessible chases, joist bays, and finished areas before discussing pipe routes. Photograph existing access points and note rooms that are difficult to open. Routing affects how much wall or ceiling access may be needed, and helps compare a targeted replacement with a larger project.",
+      "source": "src/sites/goderichplumbing.ca/content.ts#SVC.repiping.features[0]"
+    }
+  ],
+  "locations": {}
+}

@@ -1,0 +1,112 @@
+{
+  "home": [
+    {
+      "q": "What should I consider about additional fixture demand before arranging work in Kitchener?",
+      "a": "If a basement second suite or other added fixtures are involved, note what drains share the same line and when backups occur. Added use may reveal a capacity or condition issue, but it does not establish the cause by itself. Ask for the observed pipe condition and any recommended follow-up in writing before comparing repair options.",
+      "source": "src/sites/kitchenerplumbingpros.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "How can I compare tank, tankless, and ownership options for a Kitchener property?",
+      "a": "Photograph the rating plate and connections, and check whether the heater is rented or owned. Ask for tank and tankless options to be compared against household demand, available space, fuel, venting, and service access. If you are considering a rental buyout, review the agreement and request a written account of any buyout terms before deciding.",
+      "source": "src/sites/kitchenerplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "How can I identify the pipe and compare materials at my Kitchener property?",
+      "a": "Photograph accessible pipe, fittings, and any printed markings; do not rely on the home’s age alone to identify the material. Ask whether the proposal replaces galvanized steel, poly-B, or only a section, and compare PEX and copper options. Pipe size, fixture demand, routing, and connection details influence the scope and design.",
+      "source": "src/sites/kitchenerplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How should I plan rough-ins around the renovation layout at my Kitchener property?",
+      "a": "If a bathroom renovation moves a shower drain or adds a basement bathroom, provide the proposed fixture locations and any available drawings. Ask how drain routing and venting will be assessed, and whether permits or inspections apply. Tile and fixture positions depend on the rough-in, so confirm measurements and responsibilities before walls or floors are closed.",
+      "source": "src/sites/kitchenerplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[1]"
+    },
+    {
+      "q": "For leak detection in Kitchener, how should I distinguish slab and service-line concerns?",
+      "a": "A warm patch on a floor or a persistently wet area outside may warrant investigation of different pipe routes; neither sign proves a particular leak. Photograph the area, note changes over time, and ask what tests can distinguish a hot line beneath concrete from a service-line issue. Repair or rerouting options depend on the confirmed location and access.",
+      "source": "src/sites/kitchenerplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+    }
+  ],
+  "locations": {
+    "bridgeport": [
+      {
+        "q": "What information helps compare water heater options in Bridgeport?",
+        "a": "Photograph the rating plate and connections, and note fuel, capacity, age, and whether the unit is rented. These details help compare tank or tankless options and identify installation questions.",
+        "source": "src/sites/kitchenerplumbingpros.ca/content.ts#LOCATIONS.bridgeport.faq[0]"
+      },
+      {
+        "q": "How can I assess sump protection for a Bridgeport property?",
+        "a": "If there has been basement water, record where it appeared and photograph the pit, pump, and discharge route. Ask how pump capacity and backup options would be assessed for that setup.",
+        "source": "src/sites/kitchenerplumbingpros.ca/content.ts#LOCATIONS.bridgeport.faq[1]"
+      },
+      {
+        "q": "What should I check before repiping an older home?",
+        "a": "Photograph accessible pipe and fittings, noting any markings, leaks, or pressure changes. A pipe inspection helps determine whether galvanized steel or poly-B is present and whether a partial or broader replacement needs consideration.",
+        "source": "src/sites/kitchenerplumbingpros.ca/content.ts#LOCATIONS.bridgeport.faq[2]"
+      },
+      {
+        "q": "What should I share about an urgent plumbing issue?",
+        "a": "Describe the affected fixture or area, when the problem started, and any active leak or backup. Photographs and details about shutoffs or earlier repairs help clarify the situation for an inquiry.",
+        "source": "src/sites/kitchenerplumbingpros.ca/content.ts#LOCATIONS.bridgeport.faq[3]"
+      },
+      {
+        "q": "What should I check about the toilet base and fixture connections in Bridgeport?",
+        "a": "Before replacing a toilet, photograph the base, shutoff, and surrounding floor, and mention any movement, staining, or previous leaks. Ask whether the flange will be inspected and whether the wax seal and supply line will be replaced. For faucets, identify the connection type and access below the sink; these details affect parts and installation scope.",
+        "source": "src/sites/kitchenerplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+      }
+    ],
+    "breslau": [
+      {
+        "q": "What should I provide when planning new-build plumbing?",
+        "a": "Share available plans and fixture locations, and identify the water and drainage connections. Ask which rough-in and trim stages are included and what permit or inspection requirements apply to the project.",
+        "source": "src/sites/kitchenerplumbingpros.ca/content.ts#LOCATIONS.breslau.faq[0]"
+      },
+      {
+        "q": "What tests help plan treatment for a private well?",
+        "a": "Use a current water test that identifies the properties you want addressed. Ask how the results relate to softening, iron or sulphur treatment, or UV equipment before comparing options.",
+        "source": "src/sites/kitchenerplumbingpros.ca/content.ts#LOCATIONS.breslau.faq[1]"
+      },
+      {
+        "q": "How do I know whether a softener is appropriate?",
+        "a": "Do not assume water hardness from the property’s location. Obtain a current test at the relevant tap, then compare measured results and household use with equipment capacity and installation requirements.",
+        "source": "src/sites/kitchenerplumbingpros.ca/content.ts#LOCATIONS.breslau.faq[2]"
+      },
+      {
+        "q": "What details help assess a recurring drain backup?",
+        "a": "List the affected fixtures, how often backups occur, and any previous cleaning. If the line is accessible, ask whether snaking, hydro-jetting, or camera inspection suits its material and condition.",
+        "source": "src/sites/kitchenerplumbingpros.ca/content.ts#LOCATIONS.breslau.faq[3]"
+      },
+      {
+        "q": "What should I consider when sizing a softener using measured results in Breslau?",
+        "a": "Ask for a current hardness result and provide an estimate of daily household use. Capacity and regeneration settings should reflect those inputs; an unsuitable size or setting can regenerate unnecessarily or fail to meet demand. Confirm where the unit will sit, how its bypass works, and what drain connection and ongoing salt requirements the installation involves.",
+        "source": "src/sites/kitchenerplumbingpros.ca/content.ts#SVC.water-softeners.features[0]"
+      }
+    ],
+    "roseville": [
+      {
+        "q": "What should guide well-water treatment choices?",
+        "a": "Start with a current water test and identify the concern it measures. Ask how results relate to softening, iron or sulphur treatment, or UV disinfection, and compare maintenance needs before choosing equipment.",
+        "source": "src/sites/kitchenerplumbingpros.ca/content.ts#LOCATIONS.roseville.faq[0]"
+      },
+      {
+        "q": "How can I investigate a drain to a septic tank?",
+        "a": "Describe where backups occur and provide any available line information. Ask whether camera inspection is suitable; seeing the line can help distinguish a blockage from a damaged section before discussing repair options.",
+        "source": "src/sites/kitchenerplumbingpros.ca/content.ts#LOCATIONS.roseville.faq[1]"
+      },
+      {
+        "q": "What details matter when replacing a heater on a well system?",
+        "a": "Share the heater’s rating plate, fuel, capacity, and the well system’s known pressure or flow details. Those details help assess the replacement requirements without assuming that every property has the same supply conditions.",
+        "source": "src/sites/kitchenerplumbingpros.ca/content.ts#LOCATIONS.roseville.faq[2]"
+      },
+      {
+        "q": "What information helps plan a visit to a rural property?",
+        "a": "Explain the plumbing issue, the property’s water and drainage arrangement, and any access considerations. Photos of equipment and connections can help clarify what assessment may be needed.",
+        "source": "src/sites/kitchenerplumbingpros.ca/content.ts#LOCATIONS.roseville.faq[3]"
+      },
+      {
+        "q": "What should I check about the replacement scope and timing in Roseville?",
+        "a": "If a tank is leaking, note where water is collecting and whether nearby belongings or finishes are affected. Share the unit size, access route, and photographs when making an inquiry. Ask what equipment would be required, how timing is determined, and whether removal and disposal of the old unit are included; these details can change the scope.",
+        "source": "src/sites/kitchenerplumbingpros.ca/content.ts#SVC.water-heaters.features[1]"
+      }
+    ]
+  }
+}

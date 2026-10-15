@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "For a property in Brampton, will the planned bathroom change hot-water use?",
+      "a": "Give the respondent the selected fixtures and expected simultaneous use, then ask how those facts relate to the present equipment. Compare capacity planning with any separate fault that prompted the request. A basement installation proposal should account for access, connections and ventilation at the actual location rather than assume the larger project requires a larger tank.",
+      "source": "src/sites/bramptonplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "For a property in Brampton, does the basement layout match available drainage?",
+      "a": "Ask the provider to identify what must be measured or inspected before confirming the route. If another drainage approach is proposed, request its equipment and maintenance requirements as a separate option. Coordinate that decision before fixed flooring or framing conceals the areas that still need assessment.",
+      "source": "src/sites/bramptonplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[0]"
+    },
+    {
+      "q": "For a property in Brampton, will finished rooms preserve pump and valve access?",
+      "a": "Ask the provider to show the access needed for the proposed equipment, including any cover or alarm that the layout could obstruct. Compare those requirements with the room drawings before finishes are fixed. The proposal should identify the drainage function being addressed and should not assume basement finishing by itself establishes a flood-protection design.",
+      "source": "src/sites/bramptonplumbingpros.ca/content.ts#SVC.sump-pumps.features[0]"
+    },
+    {
+      "q": "For a property in Brampton, is the rough-in verified or the line blocked?",
+      "a": "Ask what the respondent can establish about its route, connection and condition before a cleaning task or new bathroom scope is chosen. A camera or cleaning result should name the section reached. Keep verification of the proposed layout separate from clearing a blockage in an already-used fixture branch.",
+      "source": "src/sites/bramptonplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "For a property in Brampton, which runs will the finished ceiling conceal?",
+      "a": "Ask the provider to distinguish runs that conflict with the layout from runs showing a verified defect. Compare retention, selective rerouting and any wider proposal by their stated purpose. Identify shutoff positions and maintenance access that must remain reachable after the finishing work is complete.",
+      "source": "src/sites/bramptonplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    }
+  ],
+  "locations": {}
+}

@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How should I assess well water for iron and sediment in Petrolia?",
+      "a": "If the property uses a well, ask whether testing should include iron and sediment as well as hardness. Results may support staged pretreatment before a softener, but the needed equipment depends on measured conditions. Compare the proposed treatment sequence and maintenance requirements so you understand how each stage protects downstream equipment and addresses the specific test findings.",
+      "source": "src/sites/petroliaplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "How should I plan basin placement for water entry at my Petrolia property?",
+      "a": "Map damp areas and note where water gathers during or after wet weather. If a basement has a stone foundation, ask how the basin location and size will relate to the observed collection pattern. These site details can affect where a pump can be placed and what capacity is appropriate; a generic pump selection may not reflect the actual water entry.",
+      "source": "src/sites/petroliaplumbing.ca/content.ts#SVC.sump-pumps.features[0]"
+    },
+    {
+      "q": "How should I trace kitchen-line blockages before work in Petrolia?",
+      "a": "If a kitchen sink or stack drains slowly, note whether other fixtures are affected and whether the problem follows heavy use. Grease and accumulated debris may call for mechanical clearing rather than chemical products. Ask which section of the line will be cleaned and whether a shared drain or septic connection changes the work or follow-up guidance.",
+      "source": "src/sites/petroliaplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "For repiping in Petrolia, how should I map access before opening walls?",
+      "a": "Ask for proposed access locations to be marked or described before work begins. Plaster and lath, trim, and concealed obstacles may affect how a route can be reached and repaired. A planned opening strategy helps you compare the expected disruption and identify which wall finishes or original details need particular care.",
+      "source": "src/sites/petroliaplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "What should I check about placement and venting in Petrolia?",
+      "a": "Photograph the current heater, its connections, nearby walls, ceiling, and vent termination. Compare the proposed unit’s clearances and venting requirements with the room and existing route. Low ceilings, a chimney connection, or limited access may affect placement and installation steps, so confirm these details before choosing a replacement.",
+      "source": "src/sites/petroliaplumbing.ca/content.ts#SVC.water-heaters.features[0]"
+    }
+  ],
+  "locations": {}
+}

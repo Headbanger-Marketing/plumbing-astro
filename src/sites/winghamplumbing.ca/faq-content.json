@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "For drain cleaning in Wingham, how should I account for septic system layout?",
+      "a": "If the building connects to a septic system, identify the cleanout and where the building drain meets the system before work is planned. Aggressive chemicals or inappropriate jetting can create risks for piping or downstream components. Ask which part of the system the proposed work covers and whether a separate septic professional should assess any issue beyond the building drain.",
+      "source": "src/sites/winghamplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "What should I know before using water results to guide equipment in Wingham?",
+      "a": "If the property has a well, arrange suitable water testing and share the results when comparing water heater options. Iron, sulphur, hardness, or other measured characteristics may affect maintenance considerations and equipment selection. Ask which test results support a recommendation, what routine upkeep is expected, and whether treatment equipment is a separate part of the proposed work.",
+      "source": "src/sites/winghamplumbing.ca/content.ts#SVC.water-heaters.features[1]"
+    },
+    {
+      "q": "What matters when choosing a method for the site for a Wingham property?",
+      "a": "If a leak may be under concrete, behind plaster, or along a buried service line, describe the site and provide a simple sketch or photographs. Acoustic equipment and pressure testing suit different investigation conditions, and neither should be treated as a guarantee of an exact location. Ask what evidence supports the proposed opening or excavation and what uncertainty remains.",
+      "source": "src/sites/winghamplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "How can I compare materials and layouts for a Wingham property?",
+      "a": "Ask for the proposed pipe material, route, and scope in writing. PEX and copper have different installation requirements, fittings, and access needs; existing pipe material and the building layout also matter. A clear drawing or marked-up plan can show which branches are replaced, where connections remain, and how future maintenance access will be preserved.",
+      "source": "src/sites/winghamplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "What should I consider when sizing the pump and basin to site conditions in Wingham?",
+      "a": "Ask how pump capacity is being matched to the basin, water inflow, lift, and discharge route. If the property has a history of substantial inflow, share dates and observations rather than relying on a general description of the area. Basin dimensions and the existing discharge arrangement affect equipment choice and whether changes to the installation are needed.",
+      "source": "src/sites/winghamplumbing.ca/content.ts#SVC.sump-pumps.features[0]"
+    }
+  ],
+  "locations": {
+    "blyth": [
+      {
+        "q": "What information helps scope a water heater replacement in Blyth?",
+        "a": "Share the equipment rating plate, fuel type, tank capacity, connection photos, and household hot-water needs. If the property has a well, water test results may also inform equipment and maintenance considerations.",
+        "source": "src/sites/winghamplumbing.ca/content.ts#LOCATIONS.blyth.faq[0]"
+      },
+      {
+        "q": "How should I assess repiping in an older Blyth home?",
+        "a": "Photograph visible pipe materials and repair locations, then compare a targeted repair with partial or whole-home replacement. Ask for the proposed route, water shutoff plan, testing details, and any applicable inspection requirements.",
+        "source": "src/sites/winghamplumbing.ca/content.ts#LOCATIONS.blyth.faq[1]"
+      },
+      {
+        "q": "What should I check before choosing well water treatment?",
+        "a": "Identify the water source and obtain relevant test results, including measurements related to the reported concern. Compare equipment against those results and ask about maintenance, capacity, and what each treatment stage is intended to address.",
+        "source": "src/sites/winghamplumbing.ca/content.ts#LOCATIONS.blyth.faq[2]"
+      },
+      {
+        "q": "What details matter for a recurring drain backup?",
+        "a": "List the affected fixtures, when backups occur, and any previous clearing work. If the property uses septic, share the system layout and ask whether camera inspection or a separate septic assessment may be appropriate.",
+        "source": "src/sites/winghamplumbing.ca/content.ts#LOCATIONS.blyth.faq[3]"
+      },
+      {
+        "q": "How do I match the clearing method to the drain for my Blyth project?",
+        "a": "Ask which equipment is proposed for the affected line and why. A hand tool may suit an accessible fixture drain, while a sectional machine may be appropriate for a main run. Jetting uses high-pressure water and should be considered in light of pipe condition and system layout. Access, pipe material, and blockage location all affect the safe scope.",
+        "source": "src/sites/winghamplumbing.ca/content.ts#SVC.drain-cleaning.features[0]"
+      }
+    ],
+    "lucknow": [
+      {
+        "q": "What should I confirm when requesting work at a Lucknow property?",
+        "a": "Describe the job location, access, relevant equipment, and symptoms, and ask how travel and work scope are shown in any estimate. For a rural site, note gates, long service routes, or other access considerations.",
+        "source": "src/sites/winghamplumbing.ca/content.ts#LOCATIONS.lucknow.faq[0]"
+      },
+      {
+        "q": "How can I compare sump pump and battery options?",
+        "a": "Record pump and battery models, basin dimensions, discharge route, and outage history. Ask how pump capacity and battery runtime are estimated for the specific setup, and how the system will be tested and maintained.",
+        "source": "src/sites/winghamplumbing.ca/content.ts#LOCATIONS.lucknow.faq[1]"
+      },
+      {
+        "q": "Can a leak investigation include a rural service line?",
+        "a": "Share a sketch of the line, available shutoffs, symptoms, and any previous repairs. Ask whether sectional pressure testing or acoustic locating is appropriate and which repair or excavation work is included in the proposed scope.",
+        "source": "src/sites/winghamplumbing.ca/content.ts#LOCATIONS.lucknow.faq[2]"
+      },
+      {
+        "q": "What should renovation rough-in planning include?",
+        "a": "Provide drawings, fixture specifications, and target locations for bathroom or laundry work. Confirm drain and supply routing, shutoff needs, access, and coordination points so later trades can work from the agreed plan.",
+        "source": "src/sites/winghamplumbing.ca/content.ts#LOCATIONS.lucknow.faq[3]"
+      },
+      {
+        "q": "How can I narrow the search by testing sections at my Lucknow property?",
+        "a": "Ask how the water system can be divided into testable sections and what each result would establish. Sectional pressure testing can help identify which run needs further attention before a wall, floor, or yard is opened. Share the location of shutoffs and previous repairs; the piping layout determines whether sections can be isolated and how much access may be needed.",
+        "source": "src/sites/winghamplumbing.ca/content.ts#SVC.leak-detection.features[0]"
+      }
+    ]
+  }
+}

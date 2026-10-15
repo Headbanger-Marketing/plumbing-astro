@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "What matters when choosing cleaning for the pipe for a Ajax property?",
+      "a": "If inspection or known pipe history indicates scale inside older cast-iron or clay drains, ask whether mechanical descaling is suitable before or alongside jetting. The pipe’s material and condition affect the cleaning method and the risk of damaging a weakened section. Compare the proposed equipment and scope rather than assuming every line should receive the same treatment.",
+      "source": "src/sites/ajaxplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    },
+    {
+      "q": "How should I trace existing pipe materials before work in Ajax?",
+      "a": "If an older home has galvanized piping, ask the scope to identify visible materials, mixed-material patches and any runs that cannot be seen without access openings. Check whether symptoms occur throughout the home or only in one branch. This information helps compare a localized repair with full replacement and reduces the chance of overlooking a buried or concealed section.",
+      "source": "src/sites/ajaxplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "How can I confirm rough-in requirements before work in Ajax?",
+      "a": "For a basement bathroom or suite, ask how the proposed fixture positions connect to drainage and venting, and what inspection or approval requirements apply. Compare the plan with the existing rough-in locations and note any changes to walls or floors. These details affect both the plumbing scope and whether the intended layout is feasible.",
+      "source": "src/sites/ajaxplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[1]"
+    },
+    {
+      "q": "For water heaters in Ajax, how should I inspect the room and connections?",
+      "a": "Look for corrosion, moisture, restricted access and the condition of visible piping around the heater. If the room is damp or the unit is near exterior walls, ask how the proposed equipment and connections suit those conditions. A photograph of the room and vent termination can help clarify whether relocation or additional work should be considered.",
+      "source": "src/sites/ajaxplumbingpros.ca/content.ts#SVC.water-heaters.features[2]"
+    },
+    {
+      "q": "How should I separate plumbing from other moisture when planning work in Ajax?",
+      "a": "If dampness appears near pipes, walls or a floor, record its location and whether it changes with rain, water use or ventilation. Thermal imaging, acoustic listening and pressure isolation can help test different explanations. Ask what each test can establish and how the findings will be used, so any opening or repair targets a supported source.",
+      "source": "src/sites/ajaxplumbingpros.ca/content.ts#SVC.leak-detection.features[0]"
+    }
+  ],
+  "locations": {}
+}

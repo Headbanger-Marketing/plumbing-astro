@@ -1,0 +1,30 @@
+{
+  "home": [
+    {
+      "q": "How should I verify basement drainage before finishing before work in Markham?",
+      "a": "Photograph the existing rough-in and note the proposed toilet, shower and sink locations. Ask whether gravity drainage is possible by comparing fixture elevations with the available drain connection. If it is not, a lift station may need consideration. Confirm the proposed route, access and equipment requirements before finishing the basement, since those choices change the scope.",
+      "source": "src/sites/markhamplumbingpros.ca/content.ts#SVC.fixtures-toilets.features[1]"
+    },
+    {
+      "q": "How can I identify existing pipe material at my Markham property?",
+      "a": "Photograph accessible pipe and fittings, including any printed markings, and note where each material is visible. Galvanized pipe and poly-B have different characteristics and replacement considerations. Ask how the proposed inspection will confirm what is inside finished walls, and request the evidence behind any recommendation to replace a branch or the whole system.",
+      "source": "src/sites/markhamplumbingpros.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "For leak detection in Markham, how should I test suspected slab or underfloor leaks?",
+      "a": "If a floor feels unusually warm or a foundation area stays damp, record the location and any pattern in the symptoms. Ask whether isolating the relevant line and pressure-testing it can confirm a leak. Discuss how a repair or reroute would be accessed and compare the likely excavation or opening required before authorizing work.",
+      "source": "src/sites/markhamplumbingpros.ca/content.ts#SVC.leak-detection.features[1]"
+    },
+    {
+      "q": "How can I compare tankless capacity and supply for a Markham property?",
+      "a": "For a tankless system, list how many fixtures may run at once and note the existing gas line or electrical service. Ask how the proposed unit’s flow rate and input capacity match that demand. Check the planned vent route and available wall space too, since supply upgrades or a longer vent run can change installation scope.",
+      "source": "src/sites/markhamplumbingpros.ca/content.ts#SVC.water-heaters.features[0]"
+    },
+    {
+      "q": "What matters when choosing between snaking and jetting for a Markham property?",
+      "a": "Describe the blockage and ask whether a cable or hydro-jetting is suitable for the affected line. Snaking can open a passage through an obstruction; jetting uses water to clean deposits from pipe walls. Pipe material, condition and access matter, so ask how the line will be assessed before a higher-pressure method is used.",
+      "source": "src/sites/markhamplumbingpros.ca/content.ts#SVC.drain-cleaning.features[0]"
+    }
+  ],
+  "locations": {}
+}

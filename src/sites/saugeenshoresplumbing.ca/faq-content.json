@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "How should I plan winter isolation for well equipment at my Saugeen Shores property?",
+      "a": "If a cottage treatment system is shut down or drained in winter, photograph its valves, drain points, and equipment location. Ask how the specific softener or filter should be isolated and restarted, since procedures vary by equipment. The answer affects placement, access, and whether additional drain-down provisions are needed.",
+      "source": "src/sites/saugeenshoresplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "How should I plan installation around seasonal access at my Saugeen Shores property?",
+      "a": "For a cottage, identify when the building is occupied, how the installer can reach the equipment, and whether the water system is drained during the off-season. Confirm the proposed work dates and what must be ready beforehand. These details help set a realistic installation scope without assuming a particular opening-week schedule.",
+      "source": "src/sites/saugeenshoresplumbing.ca/content.ts#SVC.water-heaters.features[1]"
+    },
+    {
+      "q": "How should I plan for year-round or seasonal use at my Saugeen Shores property?",
+      "a": "If a cottage is becoming a year-round home, explain how it is heated and which areas may be left vacant. Ask how the proposed supply routes account for cold conditions and how drains are protected when the building is empty. The intended occupancy pattern affects routing, isolation points, and the project scope.",
+      "source": "src/sites/saugeenshoresplumbing.ca/content.ts#SVC.repiping.features[1]"
+    },
+    {
+      "q": "How should I coordinate access before work in Saugeen Shores?",
+      "a": "For a rental or seasonal property, confirm who can provide entry, where cleanouts are located, and whether water use must pause during the work. Share booking or occupancy constraints when requesting a visit, but do not assume a particular turnaround. Clear access and scheduling information can prevent avoidable delays.",
+      "source": "src/sites/saugeenshoresplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "What should I check about shut-offs for seasonal fixtures in Saugeen Shores?",
+      "a": "Outdoor showers and fixtures in unheated areas may need isolation and drainage when the property is closed. Identify the shut-off locations, photograph the piping, and ask how the fixture is emptied before winter. A suitable plan depends on the actual layout and helps clarify whether additional valves or drainage provisions are needed.",
+      "source": "src/sites/saugeenshoresplumbing.ca/content.ts#SVC.fixtures-toilets.features[2]"
+    }
+  ],
+  "locations": {
+    "inverhuron": [
+      {
+        "q": "What should I check before opening a seasonal cottage?",
+        "a": "Record which systems were drained, identify the shut-offs, and inspect accessible piping and the water heater for visible damage. If a leak or pressure concern appears, note its location and ask what testing is appropriate before using the system normally.",
+        "source": "src/sites/saugeenshoresplumbing.ca/content.ts#LOCATIONS.inverhuron.faq[0]"
+      },
+      {
+        "q": "How should winter drain-down be planned?",
+        "a": "Confirm which fixtures, pipes, heater, and treatment equipment are included in the drain-down procedure. Photograph valve positions and label shut-offs where practical. Restart procedures depend on the installed equipment, so keep its instructions available and clarify any uncertain steps.",
+        "source": "src/sites/saugeenshoresplumbing.ca/content.ts#LOCATIONS.inverhuron.faq[1]"
+      },
+      {
+        "q": "What information helps assess a sump pump?",
+        "a": "Share the basin dimensions, pump model, discharge route, cycling observations, and any backup equipment. Those details help inform a site-specific discussion of capacity and outage planning.",
+        "source": "src/sites/saugeenshoresplumbing.ca/content.ts#LOCATIONS.inverhuron.faq[2]"
+      },
+      {
+        "q": "What should I provide when considering well-water treatment?",
+        "a": "Provide recent water test results, identify the well system and existing equipment, and describe any observed staining, scale, or odour. Recommendations should relate to measured results and the property’s seasonal shut-down arrangements.",
+        "source": "src/sites/saugeenshoresplumbing.ca/content.ts#LOCATIONS.inverhuron.faq[3]"
+      },
+      {
+        "q": "For fixture installation in Inverhuron, how should I select fixtures for the use pattern?",
+        "a": "For a rental or frequently used bathroom, compare fixture construction, replacement-part availability, and the demands of repeated use. Photograph the existing fittings and note any loose handles or movement. These details help set expectations for compatibility and installation, without assuming that any particular product will suit every property.",
+        "source": "src/sites/saugeenshoresplumbing.ca/content.ts#SVC.fixtures-toilets.features[0]"
+      }
+    ],
+    "northport": [
+      {
+        "q": "What should I document before considering repiping?",
+        "a": "Photograph accessible pipe runs and previous repairs, note recurring leaks or pressure concerns, and gather any available plans. Ask for a proposed material and route, including which branches are covered and what testing or inspections may apply.",
+        "source": "src/sites/saugeenshoresplumbing.ca/content.ts#LOCATIONS.northport.faq[0]"
+      },
+      {
+        "q": "What information helps investigate a possible leak?",
+        "a": "Record when moisture appeared, photograph affected surfaces, and note nearby fixtures, shut-offs, and previous repairs. Ask what testing method may suit the piping and how a repair would be verified.",
+        "source": "src/sites/saugeenshoresplumbing.ca/content.ts#LOCATIONS.northport.faq[1]"
+      },
+      {
+        "q": "What should I prepare for fixture or renovation work?",
+        "a": "Provide measurements, fixture specifications, and photographs of existing connections and shut-offs. For rough-in work, confirm the renovation stage and what other trades need to complete before fixtures can be installed.",
+        "source": "src/sites/saugeenshoresplumbing.ca/content.ts#LOCATIONS.northport.faq[2]"
+      },
+      {
+        "q": "How should I compare treatment options for a private well?",
+        "a": "Gather recent water test results and identify existing treatment equipment and maintenance. Ask which measured results each proposed treatment targets and how the equipment will be isolated if the property is shut down seasonally.",
+        "source": "src/sites/saugeenshoresplumbing.ca/content.ts#LOCATIONS.northport.faq[3]"
+      },
+      {
+        "q": "What should I review about drain-down and restart details in Northport?",
+        "a": "Before selecting a unit for a seasonal property, photograph its connections and shut-offs and ask how the tank and nearby piping are drained, isolated, and restarted. Check that relief piping and drain access are included in the proposed setup. A clear winter procedure helps avoid confusion when the property returns to use.",
+        "source": "src/sites/saugeenshoresplumbing.ca/content.ts#SVC.water-heaters.features[2]"
+      }
+    ]
+  }
+}

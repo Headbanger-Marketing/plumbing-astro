@@ -1,0 +1,85 @@
+{
+  "home": [
+    {
+      "q": "How can I identify the existing pipe system at my Strathroy property?",
+      "a": "Photograph markings, fittings, and any exposed pipe, then ask whether the material is galvanized, poly-B, or something else. Galvanized lines may corrode internally, while poly-B concerns can involve fittings. Confirm whether a quote covers a branch repair or replacement of the broader supply system.",
+      "source": "src/sites/strathroyplumbing.ca/content.ts#SVC.repiping.features[0]"
+    },
+    {
+      "q": "What should I consider about septic-system limits before arranging work in Strathroy?",
+      "a": "For a long rural run connected to a septic system, identify the cleanouts, tank location, and any known system restrictions. Ask how the proposed method will avoid pushing material toward the tank or field inappropriately. This information can affect equipment setup, cleaning direction, and the work included.",
+      "source": "src/sites/strathroyplumbing.ca/content.ts#SVC.drain-cleaning.features[2]"
+    },
+    {
+      "q": "How should I trace buried lines before digging before work in Strathroy?",
+      "a": "For a yard line to a barn, cistern, or other outbuilding, mark known endpoints and photograph visible shutoffs or access points. Ask whether locating equipment can narrow the suspected section before excavation. A defined route and fault location can affect how much digging and repair are included.",
+      "source": "src/sites/strathroyplumbing.ca/content.ts#SVC.leak-detection.features[2]"
+    },
+    {
+      "q": "For water softeners in Strathroy, how should I base the design on a property sample?",
+      "a": "Keep a copy of the sample results and note whether the source is a municipal connection or private well. If the source or results change, the design may need review. A property-specific test is more useful for selecting treatment than assuming nearby homes have identical water.",
+      "source": "src/sites/strathroyplumbing.ca/content.ts#SVC.water-softeners.features[1]"
+    },
+    {
+      "q": "What should I check about access before choosing in Strathroy?",
+      "a": "Measure the full path to the heater, including stair turns, ceiling height, and door openings. Photograph obstacles and the current unit in place. A tank that fits the utility area may not fit through the route, which can change the equipment choice and installation scope.",
+      "source": "src/sites/strathroyplumbing.ca/content.ts#SVC.water-heaters.features[0]"
+    }
+  ],
+  "locations": {
+    "mount-brydges": [
+      {
+        "q": "What information helps assess a basement sump system?",
+        "a": "Note how often the pump runs, photograph the pit and pump label, and trace the discharge outlet. If outages are a concern, record the backup equipment and battery condition. This information helps compare pump capacity, backup options, and discharge routing.",
+        "source": "src/sites/strathroyplumbing.ca/content.ts#LOCATIONS.mount-brydges.faq[0]"
+      },
+      {
+        "q": "How can I tell whether older pipes need replacement?",
+        "a": "Photograph visible pipe markings and fittings, and note which fixtures have reduced flow or discoloured water. An assessment can identify the material and whether symptoms affect a branch or a wider part of the supply system.",
+        "source": "src/sites/strathroyplumbing.ca/content.ts#LOCATIONS.mount-brydges.faq[1]"
+      },
+      {
+        "q": "What should be included in a new-home rough-in plan?",
+        "a": "Provide the latest floor plan and fixture locations before construction reaches the drywall stage. Ask how drains, vents, and supply lines will align with the finished layout and which approvals or inspections apply.",
+        "source": "src/sites/strathroyplumbing.ca/content.ts#LOCATIONS.mount-brydges.faq[2]"
+      },
+      {
+        "q": "What information is useful before choosing a water softener?",
+        "a": "Start with a current sample from the property’s water source and describe any scale or staining you have observed. Test results help determine whether softening alone is suitable or other treatment needs consideration.",
+        "source": "src/sites/strathroyplumbing.ca/content.ts#LOCATIONS.mount-brydges.faq[3]"
+      },
+      {
+        "q": "How can I compare plumbing and groundwater clues for a Mount Brydges property?",
+        "a": "Record whether moisture changes after rain, thaw, or plumbing use, and photograph stains, joints, and nearby fixtures. These observations are clues, not proof of a cause. Ask how the inspection will distinguish a foundation-water issue from a pipe leak before deciding whether plumbing repair is appropriate.",
+        "source": "src/sites/strathroyplumbing.ca/content.ts#SVC.leak-detection.features[1]"
+      }
+    ],
+    "komoka": [
+      {
+        "q": "What should I prepare before a new-home rough-in?",
+        "a": "Share the current plans and fixture schedule, including any changes to bathrooms, laundry, or kitchen locations. Ask how drains, vents, and supply lines will be placed and what approvals or inspections may apply before drywall.",
+        "source": "src/sites/strathroyplumbing.ca/content.ts#LOCATIONS.komoka.faq[0]"
+      },
+      {
+        "q": "How can I decide whether water treatment is needed?",
+        "a": "Describe the scale, staining, or odour you have noticed and obtain a water sample suited to the property’s source. Test results help compare softening with iron treatment or other filtration, rather than choosing equipment by assumption.",
+        "source": "src/sites/strathroyplumbing.ca/content.ts#LOCATIONS.komoka.faq[1]"
+      },
+      {
+        "q": "What can cause one shower to have weak flow?",
+        "a": "Note whether other fixtures are affected and whether the flow changes when they run. A check may consider the showerhead, pressure-balance cartridge, and branch-line size; symptoms across multiple fixtures can point to a different scope.",
+        "source": "src/sites/strathroyplumbing.ca/content.ts#LOCATIONS.komoka.faq[2]"
+      },
+      {
+        "q": "What needs checking before adding a basement bathroom?",
+        "a": "Identify the proposed fixture locations and ask how the drain can connect to the existing system. Below-grade elevation can affect whether gravity drainage is practical or pumping needs consideration, so plan the route before budgeting for finishes.",
+        "source": "src/sites/strathroyplumbing.ca/content.ts#LOCATIONS.komoka.faq[3]"
+      },
+      {
+        "q": "Why should I request testing and approval details for work in Komoka?",
+        "a": "Before walls are closed, ask how the new system will be pressure-tested and what results will be documented. Confirm whether permits or inspections apply and who will arrange them. Testing while pipe is accessible can reveal problems before repairs to plaster, millwork, or other finishes begin.",
+        "source": "src/sites/strathroyplumbing.ca/content.ts#SVC.repiping.features[2]"
+      }
+    ]
+  }
+}
