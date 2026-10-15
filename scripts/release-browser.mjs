@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import http from 'node:http';
 import { pathToFileURL } from 'node:url';
+import { formContractErrors } from './form-contract.mjs';
 
 export function regressions(before, after, policy = {}) {
   const errors = [];
@@ -30,8 +31,8 @@ export function regressions(before, after, policy = {}) {
     }
     if (before.images && !after.images) errors.push('All main photographs removed');
   }
-  if (before && !policy.allowFormChanges && JSON.stringify(before.forms) !== JSON.stringify(after.forms)) {
-    errors.push('Form fields, consent, action or routing attributes changed');
+  if (before && !policy.allowFormChanges) {
+    errors.push(...formContractErrors(before.forms, after.forms, policy.formContract));
   }
   if (before?.imageSources && !policy.allowImageChanges && JSON.stringify(before.imageSources) !== JSON.stringify(after.imageSources)) {
     errors.push('Existing main photographs or hero background changed');
@@ -70,11 +71,35 @@ function metrics(domain) {
     const el = main?.querySelector(role); if (el) fonts[role] = getComputedStyle(el).fontFamily;
   }
   const routing = el => Object.fromEntries([...el.attributes].filter(a => a.name.startsWith('data-') &&
-    /site|route|endpoint|webhook|tracker|recipient/.test(a.name)).map(a => [a.name, a.value]));
+    /site|domain|route|endpoint|webhook|tracker|recipient/.test(a.name)).map(a => [a.name, a.value]));
+  const labelText = el => [...(el.labels || [])].map(label => {
+    const copy = label.cloneNode(true);
+    copy.querySelectorAll('input,select,textarea,button,.error-text').forEach(node => node.remove());
+    return copy.textContent.replace(/\s+/g, ' ').trim();
+  }).join(' ');
+  const accessibleText = el => {
+    if (!el) return '';
+    const copy = el.cloneNode(true);
+    copy.querySelectorAll('svg,[aria-hidden="true"]').forEach(node => node.remove());
+    return copy.textContent.replace(/\s+/g, ' ').trim();
+  };
   const forms = [...document.querySelectorAll('form')].map(form => ({
     id: form.id, action: form.getAttribute('action') || '', method: form.getAttribute('method') || '',
+    contract: form.dataset.quoteContract || null,
+    heading: accessibleText(form.querySelector('[data-quote-heading]')),
+    support: accessibleText(form.querySelector('[data-quote-support]')),
+    submitLabels: [...form.querySelectorAll('button[type="submit"],input[type="submit"]')].map(el => el.tagName === 'INPUT' ? el.value : accessibleText(el)),
+    collapsedDetails: !!form.querySelector('details:not([open])'),
+    redirect: form.getAttribute('data-redirect-on-success'), submitGuard: form.getAttribute('onsubmit'), noValidate: form.noValidate,
+    privacyLinks: [...form.querySelectorAll('a[href*="privacy"]')].map(el => ({href:el.getAttribute('href'),text:el.textContent.trim()})),
+    securityCopy: [...form.querySelectorAll('.form-readiness,.form-fallback,.form-note,noscript')].map(el => el.textContent.trim()),
     routing: routing(form), fields: [...form.querySelectorAll('input,select,textarea')].map(el => ({
-      name: el.name, type: el.type, required: el.required, routing: routing(el),
+      name: el.name, type: el.type, required: el.required, routing: routing(el), disabled: el.matches(':disabled'),
+      role: el.dataset.quoteField || el.name, label: labelText(el), requiredMarker: labelText(el).includes('*'),
+      placeholder: el.tagName === 'SELECT' ? el.querySelector('option[value=""]')?.textContent.trim() || '' : el.getAttribute('placeholder') || '',
+      visible: visible(el) && el.checkVisibility({checkOpacity:true,checkVisibilityCSS:true}), collapsed: !!el.closest('details:not([open])'),
+      prefilled: (el.dataset.quoteField || el.name) === 'city' ? !!el.value.trim() : undefined,
+      emptyOption: el.tagName === 'SELECT' && el.querySelector('option[value=""]') ? {text:el.querySelector('option[value=""]').textContent.trim()} : undefined,
       hiddenValue: el.type === 'hidden' && !/url|page|source|timestamp|session|token/i.test(el.name) ? el.value : undefined,
     })), consent: [...form.querySelectorAll('[class*="consent"], [class*="privacy"]')].map(el => el.textContent.trim()),
   }));

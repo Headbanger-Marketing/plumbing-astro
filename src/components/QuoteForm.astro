@@ -3,6 +3,7 @@
 // Lead-gen form. Posts to n8n webhook (handled by assets/js/main.js).
 import { icon } from '../lib/icons';
 import { loadSite } from '../lib/load-site';
+import { SERVICES } from '../data/content';
 import type { SiteConfig } from '../lib/types';
 
 interface Props {
@@ -15,22 +16,23 @@ interface Props {
 
 const {
   site,
-  heading = 'Get A Free Quote',
-  sub = 'The team will contact you about your request. Coverage and appointments require confirmation.',
+  heading = 'Get a Free Quote',
+  sub = 'No obligation. Fast response. Honest pricing.',
   placeholder = "e.g. Water heater leaking or drain backed up.",
   idSuffix = 'hero',
 } = Astro.props;
 const { content } = await loadSite();
 const currentService = Astro.url.pathname.split('/')[2] || '';
-const interests = Object.entries(content.SVC).map(([slug, item]) => [slug, item.kicker.replace(/&amp;/g, '&')]);
+const labels = new Map(SERVICES.map(service => [service.slug, service.nav.replace(/&amp;/g, '&')]));
+const interests = Object.entries(content.SVC).map(([slug, item]) => [slug, labels.get(slug) || item.kicker.replace(/&amp;/g, '&')]);
 ---
 
-<form method="post" onsubmit="if(this.dataset.leadSubmitBound!=='true')return false" id="quote" class:list={['quote-card', { 'quote-card--enquiry': site.enquirySite }]} data-quote-form data-domain={site.domain} data-enquiry-site={site.enquirySite ? 'true' : undefined} {...(site.thankYouRedirect ? { 'data-redirect-on-success': site.thankYouRedirect } : {})} novalidate aria-label="Get A Free Quote">
+<form method="post" onsubmit="if(this.dataset.leadSubmitBound!=='true')return false" id="quote" class:list={['quote-card', { 'quote-card--enquiry': site.enquirySite }]} data-quote-form data-quote-contract="2026-10-15" data-domain={site.domain} data-enquiry-site={site.enquirySite ? 'true' : undefined} {...(site.thankYouRedirect ? { 'data-redirect-on-success': site.thankYouRedirect } : {})} novalidate aria-label={heading}>
   <div class="quote-card__head">
     <span class="badge"><Fragment set:html={icon('headset', '', 24)} /></span>
-    <div><p class="quote-card__title" style="font-size:1.15rem;font-weight:700;margin:0;line-height:1.2;color:var(--ink)">{heading}</p></div>
+    <div><p data-quote-heading class="quote-card__title" style="font-size:1.15rem;font-weight:700;margin:0;line-height:1.2;color:var(--ink)">{heading}</p></div>
   </div>
-  <p class="sub">{sub}</p>
+  <p class="sub" data-quote-support>{sub}</p>
   <p class="form-fallback" data-form-fallback>If the form is unavailable, email <a href={`mailto:${site.email}`}>{site.email}</a> with your request.</p>
   <div class="form-status" role="status" aria-live="polite" tabindex="-1"></div>
   <div class="form-grid">
@@ -39,34 +41,47 @@ const interests = Object.entries(content.SVC).map(([slug, item]) => [slug, item.
       <input class="input" id={`name-${idSuffix}`} name="name" type="text" autocomplete="name" placeholder="Jane Doe" required maxlength="100" aria-describedby={`name-error-${idSuffix}`}>
       <span class="error-text" id={`name-error-${idSuffix}`}>Please enter your name.</span>
     </div>
-    <div class="field" data-field data-contact-field="email">
-      <label for={`email-${idSuffix}`}>Email <span class="req">*</span></label>
-      <input class="input" id={`email-${idSuffix}`} name="email" type="email" autocomplete="email" placeholder="you@email.com" required maxlength="254" aria-describedby={`email-error-${idSuffix}`}>
-      <span class="error-text" id={`email-error-${idSuffix}`}>Enter a valid email address.</span>
-    </div>
-    <div class="field" data-field data-contact-field="phone">
-      <label for={`phone-${idSuffix}`}>Phone (optional)</label>
-      <input class="input" id={`phone-${idSuffix}`} name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(905) 000-0000" maxlength="40" aria-describedby={`phone-error-${idSuffix}`}>
-      <span class="error-text" id={`phone-error-${idSuffix}`}>Enter a valid phone number with at least 10 digits.</span>
-    </div>
-    <div class="field" data-field>
-      <label for={`city-${idSuffix}`}>City <span class="req">*</span></label>
-      <input class="input" id={`city-${idSuffix}`} name="city" type="text" autocomplete="address-level2" value={site.city} required maxlength="100" aria-describedby={`city-error-${idSuffix}`}>
-      <span class="error-text" id={`city-error-${idSuffix}`}>Enter the property city.</span>
+    <div class="field row">
+      <div class="field" data-field data-contact-field="phone">
+        <label for={`phone-${idSuffix}`}>Phone <span class="req">*</span></label>
+        <input class="input" id={`phone-${idSuffix}`} name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(905) 000-0000" required maxlength="40" aria-describedby={`phone-error-${idSuffix}`}>
+        <span class="error-text" id={`phone-error-${idSuffix}`}>Enter a valid phone number with at least 10 digits.</span>
+      </div>
+      <div class="field" data-field data-contact-field="email">
+        <label for={`email-${idSuffix}`}>Email <span class="req">*</span></label>
+        <input class="input" id={`email-${idSuffix}`} name="email" type="email" autocomplete="email" placeholder="you@email.com" required maxlength="254" aria-describedby={`email-error-${idSuffix}`}>
+        <span class="error-text" id={`email-error-${idSuffix}`}>Enter a valid email address.</span>
+      </div>
     </div>
     <div class="field" data-field>
-      <label for={`msg-${idSuffix}`}>Briefly describe your request <span class="req">*</span></label>
+      <label for={`addr-${idSuffix}`}>Street Address</label>
+      <input class="input" id={`addr-${idSuffix}`} name="address" type="text" autocomplete="address-line1" placeholder="123 Main St" maxlength="254">
+    </div>
+    <div class="field row">
+      <div class="field" data-field>
+        <label for={`city-${idSuffix}`}>City <span class="req">*</span></label>
+        <input class="input" id={`city-${idSuffix}`} name="city" type="text" autocomplete="address-level2" placeholder={site.city} required maxlength="100" aria-describedby={`city-error-${idSuffix}`}>
+        <span class="error-text" id={`city-error-${idSuffix}`}>Enter the property city.</span>
+      </div>
+      <div class="field" data-field>
+        <label for={`postal-${idSuffix}`}>Postal Code <span class="req">*</span></label>
+        <input class="input" id={`postal-${idSuffix}`} name="postal" type="text" autocomplete="postal-code" placeholder="N1A 1A1" required maxlength="7" aria-describedby={`postal-error-${idSuffix}`}>
+        <span class="error-text" id={`postal-error-${idSuffix}`}>Enter a valid Canadian postal code.</span>
+      </div>
+    </div>
+    <div class="field" data-field>
+      <label for={`service-${idSuffix}`}>Work to discuss</label>
+      <select class="input" name="service" id={`service-${idSuffix}`}><option value="">Choose the work</option>{interests.map(([slug, label]) => <option value={slug} selected={currentService === slug}>{label}</option>)}</select>
+    </div>
+    <div class="field" data-field>
+      <label for={`msg-${idSuffix}`}>Briefly describe your issue <span class="req">*</span></label>
       <textarea class="input" id={`msg-${idSuffix}`} name="message" placeholder={placeholder} required maxlength="6000" aria-describedby={`msg-error-${idSuffix}`}></textarea>
       <span class="error-text" id={`msg-error-${idSuffix}`}>Tell us briefly what you need.</span>
     </div>
-    <details class="optional-details"><summary>Add project or address details (optional)</summary><div class="field"><label for={`service-${idSuffix}`}>Project interest (optional)</label><select class="input" name="service" id={`service-${idSuffix}`}><option value="">Not sure yet</option>{interests.map(([slug, label]) => <option value={slug} selected={currentService === slug}>{label}</option>)}</select></div><div class="field row">
-      <div data-field><label for={`addr-${idSuffix}`}>Street Address</label><input class="input" id={`addr-${idSuffix}`} name="address" type="text" autocomplete="address-line1" placeholder="123 Main St" maxlength="254"></div>
-      <div data-field><label for={`postal-${idSuffix}`}>Postal Code</label><input class="input" id={`postal-${idSuffix}`} name="postal" type="text" autocomplete="postal-code" placeholder="N1A 1A1" maxlength="7" aria-describedby={`postal-error-${idSuffix}`}><span class="error-text" id={`postal-error-${idSuffix}`}>Enter a valid Canadian postal code, or leave this blank.</span></div>
-    </div></details>
     {site.enquirySite && <div class="field" data-field>
       <label for={`consent-${idSuffix}`} class="quote-consent"><input id={`consent-${idSuffix}`} name="consent" type="checkbox" value="agreed" required aria-describedby={`consent-error-${idSuffix}`} /><span>I agree to be contacted about my request. <a href="/privacy-policy/">Privacy notice</a>.</span></label>
       <span class="error-text" id={`consent-error-${idSuffix}`}>Please agree before sending your enquiry.</span>
     </div>}
-    <button class="btn btn-primary btn-lg btn-block" type="submit" disabled><Fragment set:html={icon('send', '', 18)} /> Get A Free Quote</button>
+    <button class="btn btn-primary btn-lg btn-block" type="submit" disabled><Fragment set:html={icon('send', '', 18)} /> Request My Free Quote</button>
   </div>
 </form>

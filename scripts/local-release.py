@@ -180,6 +180,8 @@ def run_release(release, base, allowed, *, publish=False, domains=None, require_
             for domain in selected:
                 folder=release/domain;folder.mkdir(exist_ok=True)
                 dist,fingerprint,count=DEPLOY.build(domain)
+                if policy.get('visual',{}).get('formContract'):
+                    command([sys.executable,'scripts/validate-form-contract.py',str(dist),str(ROOT/'release-policy.json'),domain])
                 assert_source_current(api,sha)
                 plan=DEPLOY.plan_build(api,dist,domain,fingerprint,count,folder/'plan.json')
                 if require_no_changes and (plan['deletions'] or any(r['changed'] for r in plan['files'])):

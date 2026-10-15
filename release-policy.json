@@ -9,6 +9,74 @@
     "allowComponentRemoval": false,
     "allowFormChanges": false,
     "allowImageChanges": false,
-    "allowLayoutChanges": false
+    "allowLayoutChanges": false,
+    "formContract": {
+      "id": "2026-10-15",
+      "owner_authorization": "Restore August17 website quote-form presentation across approved live sites; current transport, consent and anti-spam remain protected.",
+      "heading": "Get a Free Quote",
+      "submit": "Request My Free Quote",
+      "support": [
+        "No obligation. Fast response. Honest pricing.",
+        "Tell us about your plumbing issue."
+      ],
+      "fields": [
+        {
+          "name": "name",
+          "type": "text",
+          "required": true,
+          "label": "Full Name",
+          "placeholder": "Jane Doe"
+        },
+        {
+          "name": "phone",
+          "type": "tel",
+          "required": true,
+          "label": "Phone",
+          "placeholder": "(905) 000-0000"
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "required": true,
+          "label": "Email",
+          "placeholder": "you@email.com"
+        },
+        {
+          "name": "address",
+          "type": "text",
+          "required": false,
+          "label": "Street Address",
+          "placeholder": "123 Main St"
+        },
+        {
+          "name": "city",
+          "type": "text",
+          "required": true,
+          "label": "City",
+          "placeholder": "$siteCity"
+        },
+        {
+          "name": "postal",
+          "type": "text",
+          "required": true,
+          "label": "Postal Code",
+          "placeholder": "N1A 1A1"
+        },
+        {
+          "name": "service",
+          "type": "select-one",
+          "required": false,
+          "label": "Work to discuss",
+          "placeholder": "Choose the work"
+        },
+        {
+          "name": "message",
+          "type": "textarea",
+          "required": true,
+          "label": "Briefly describe your issue",
+          "placeholder": "$serviceExample"
+        }
+      ]
+    }
   }
 }

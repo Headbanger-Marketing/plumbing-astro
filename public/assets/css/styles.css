@@ -988,23 +988,14 @@ img.responsive { width: 100%; height: auto; }
 .svc-photo{width:100%;height:auto;display:block;border-radius:16px;margin:0 0 22px;object-fit:cover;max-height:420px}
 .badge-img{height:88px;width:auto;display:block}
 
-/* Compact new enquiry forms keep the request action visible beside the short hero. */
-.quote-card--enquiry { padding: 26px; }
-.quote-card--enquiry .form-grid { gap: 12px; }
-.quote-card--enquiry .input { padding: 11px 13px; }
-.quote-card--enquiry textarea { min-height: 88px; }
-.quote-card--enquiry .sub { margin-bottom: 16px; }
-
 /* Text-only per-domain wordmarks for the new enquiry sites. */
 .site-header .site-wordmark { display:block; width:auto; height:48px; max-width:min(260px,65vw); object-fit:contain; object-position:left center; }
 .site-footer .site-wordmark { display:block; width:auto; height:54px; max-width:100%; object-fit:contain; object-position:left center; }
 @media(max-width:600px){ .site-header .site-wordmark { height:42px; max-width:65vw; } }
 
-/* Keep the quote destination stable and optional contact controls out of the tab order. */
+/* Keep the quote destination stable and inactive contact controls out of the tab order. */
 #quote { scroll-margin-top: 150px; }
 [data-contact-field][hidden] { display: none !important; }
-.optional-details summary { cursor: pointer; font-size: .84rem; font-weight: 600; }
-.optional-details[open] > .field { margin-top: 12px; }
 .recipient-note { font-size: .78rem; line-height: 1.5; color: var(--muted); margin: 0; }
 .quote-consent { display: flex; gap: 10px; align-items: flex-start; font-size: .78rem; line-height: 1.5; font-weight: 400; }
 .quote-consent input { width: 18px; height: 18px; flex: none; margin-top: 3px; }

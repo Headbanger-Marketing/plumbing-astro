@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import { check, regressions } from './release-browser.mjs';
+import './test-form-contract.mjs';
 
 const good = () => ({header:true, main:true, footer:true, quoteCtas:1, overflow:false, images:1,
   fonts:{body:'Arial'}, forms:[{action:'/lead',fields:['email']}],
@@ -23,11 +24,19 @@ test('preserves the desktop hero/form layout',()=>{const a=good(),b=good();a.flo
 test('headless fixtures reject zero gaps and block POST requests',async()=>{
   const root=await fs.mkdtemp(path.join(os.tmpdir(),'release-browser-test-'));
   try {
-    const fixture=`<!doctype html><html><head><style>body{font-family:Arial}h2,p{margin:0}.btn{display:inline-block;padding:12px;line-height:24px}</style></head><body><header>Header</header><main><h2>Heading</h2><p>Body</p><a class="btn" href="#quote">Get A Free Quote</a><form><input name="email"></form></main><footer>Footer</footer><script>fetch('/lead',{method:'POST'}).catch(()=>{});</script></body></html>`;
+    const fixture=`<!doctype html><html><head><style>body{font-family:Arial}h2,p{margin:0}.btn{display:inline-block;padding:12px;line-height:24px}</style></head><body><header>Header</header><main><h2>Heading</h2><p>Body</p><a class="btn" href="#quote">Get A Free Quote</a><form data-domain="fixture.invalid"><input name="email" data-recipient="original"><input name="invisible" style="visibility:hidden"><input name="transparent" style="opacity:0"><fieldset disabled><input name="disabled-control"></fieldset></form></main><footer>Footer</footer><script>fetch('/lead',{method:'POST'}).catch(()=>{});</script></body></html>`;
     await fs.writeFile(path.join(root,'index.html'),fixture);
     const result=await check({release:'offline-fixture',output:path.join(root,'result'),jobs:[{domain:'fixture.invalid',route:'/',root}]});
     assert.equal(result.passed,false);
     assert.equal(result.blockedWriteRequests,2);
     assert.ok(result.results.every(r=>r.errors.some(e=>e.includes('gap'))));
+    for (const {metrics} of result.results) {
+      const form=metrics.forms[0];
+      assert.equal(form.routing['data-domain'],'fixture.invalid');
+      assert.equal(form.fields[0].routing['data-recipient'],'original');
+      assert.equal(form.fields.find(field=>field.name==='invisible').visible,false);
+      assert.equal(form.fields.find(field=>field.name==='transparent').visible,false);
+      assert.equal(form.fields.find(field=>field.name==='disabled-control').disabled,true);
+    }
   } finally {await fs.rm(root,{recursive:true,force:true});}
 });
