@@ -18,7 +18,10 @@
     "deploy:all": "python3 scripts/local-deploy.py --all-live",
     "assets:prepare": "python3 scripts/prepare-local-assets.py",
     "assets:check": "python3 scripts/prepare-local-assets.py --check",
-    "test:local-deploy": "python3 scripts/test-local-deploy.py"
+    "test:local-deploy": "python3 scripts/test-local-deploy.py",
+    "test:release": "python3 scripts/test-release.py && node --test scripts/test-release-browser.mjs",
+    "release:worker": "python3 scripts/release-worker.py",
+    "release:site": "python3 scripts/local-release.py"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
@@ -27,5 +30,8 @@
   },
   "engines": {
     "node": ">=22.12.0"
+  },
+  "devDependencies": {
+    "playwright-core": "1.64.1"
   }
 }

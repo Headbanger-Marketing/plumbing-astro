@@ -128,7 +128,18 @@ class API:
 
     def snapshot(self, domain):
         prefix = f'/repos/{OWNER}/{domain}/git'
-        head = self.request(prefix + '/ref/heads/main')['object']['sha']
+        try:
+            head = self.request(prefix + '/ref/heads/main')['object']['sha']
+        except RuntimeError:
+            # GitHub occasionally misreports a populated branch through this REST endpoint.
+            # Independent commit and GraphQL reads must agree; writes keep their head guard.
+            commit = self.request(f'/repos/{OWNER}/{domain}/commits/main')
+            query = 'query($owner:String!,$name:String!){repository(owner:$owner,name:$name){ref(qualifiedName:"refs/heads/main"){target{oid}}}}'
+            alternate = self.request('/graphql', {'query': query, 'variables': {'owner': OWNER, 'name': domain}})
+            target = alternate['data']['repository']['ref']
+            if not target or target['target']['oid'] != commit['sha']:
+                raise ValueError('Independent branch reads disagree; publication refused')
+            head = commit['sha']
         tree = self.request(prefix + '/trees/' + head + '?recursive=1')
         if tree.get('truncated'):
             raise ValueError('GitHub returned an incomplete tree')

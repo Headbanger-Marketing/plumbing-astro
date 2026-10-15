@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "canaries": [
+    "londonplumbingpros.ca",
+    "torontoplumbingpros.ca"
+  ],
+  "visual": {
+    "allowFontChanges": false,
+    "allowComponentRemoval": false,
+    "allowFormChanges": false
+  }
+}

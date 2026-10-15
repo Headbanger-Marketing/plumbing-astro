@@ -1,0 +1,6 @@
+#!/bin/sh
+# Shared, versioned hint only. The durable worker verifies pushed origin/main.
+branch=$(git symbolic-ref --short -q HEAD) || exit 0
+[ "$branch" = main ] || exit 0
+python3 scripts/release-worker.py hint || printf '%s\n' 'Release hint failed; the worker will still poll origin/main.' >&2
+exit 0
