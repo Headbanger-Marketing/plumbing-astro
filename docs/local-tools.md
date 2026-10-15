@@ -25,6 +25,6 @@ python3 scripts/local-deploy.py --publish-plan <plan.json>
 
 The default builds locally and saves a publication plan. `--all-live` selects the existing `APPROVED_SITES` in `scripts/rollout-chat.py`, excluding staged configs. One local build runs per builder; a concurrent invocation fails until the running process finishes. The local helper restores required image assets omitted by sparse checkout and performs the build's normalization, redirects and sharing-image generation. Use Python with BeautifulSoup and the locked npm dependencies.
 
-A source push does not publish the site. The cloud workflow is retained only for an explicit rollback, with no automatic source-push trigger. See the portfolio `CLAUDE.md` runbook for scope and the other site families.
+Pushed main is observed by the version-controlled [local release worker](local-release.md), which performs gated local builds and publication. The cloud workflow is retained only for an explicit rollback, with no automatic source-push trigger. See the portfolio `CLAUDE.md` runbook for scope and the other site families.
 
 For plan/receipt handling, live Pages verification, concurrent edits and recovery, use the [shared local deployment SOP](https://github.com/Headbanger-Marketing/hvac-astro/blob/main/docs/local-deployment.md). The four builder cloud workflows are disabled; individual city Pages publishing remains enabled.

@@ -17,7 +17,13 @@ Source changes appear on GitHub with the `local-release/netleads` commit status.
 
 State, logs, source mirrors and artifacts are on the internal disk at `~/.local/state/headbanger-releases`. The Mac must be awake, logged in and connected to the network. After sleep/offline time, the next poll detects pending main changes. Fetch failures before publication are retried on later polls; uncertain writes are never retried automatically. Internal-disk state and the worker's copied `gh` executable avoid removable-SSD background restrictions. Credentials remain in the existing gh login; no secrets are copied into release records.
 
-From a builder source repository:
+Use the installed controller for operations even while a source checkout contains unfinished work:
+
+```bash
+python3 ~/.local/state/headbanger-releases/runtime/release-worker.py status
+```
+
+The same commands are available from a current builder source repository:
 
 ```bash
 npm run release:worker -- status
