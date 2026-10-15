@@ -8,8 +8,23 @@ import { formContractErrors } from './form-contract.mjs';
 
 export function regressions(before, after, policy = {}) {
   const errors = [];
+  const typographyDifferences = (first, second) => ['fontFamily', 'fontSize', 'lineHeight'].filter(property => {
+    const a = first[property], b = second[property];
+    return typeof a === 'number' && typeof b === 'number' ? Math.abs(a - b) > 0.100001 : a !== b;
+  });
   if (after.overflow) errors.push('Horizontal overflow');
   if (after.fontErrors?.length) errors.push('Webfont load failure: ' + after.fontErrors.join(', '));
+  // A defective live baseline must not authorize mismatched body prose again.
+  // Heading, CTA, hero and helper-text roles are deliberately outside these pairs.
+  for (const pair of after.prosePairs || []) {
+    const differences = typographyDifferences(pair.first, pair.second);
+    if (differences.length) errors.push(`Inconsistent adjacent body typography (${differences.join(', ')}): ${pair.key}`);
+  }
+  // These ordinary prose selectors share the body contract even when standalone.
+  for (const paragraph of after.standardProse || []) {
+    const differences = typographyDifferences(paragraph.style, after.bodyTypography);
+    if (differences.length) errors.push(`Inconsistent standard body typography (${differences.join(', ')}): ${paragraph.key}`);
+  }
   for (const key of ['header', 'main', 'footer']) {
     if (!after[key]) errors.push(`Missing ${key}`);
   }
@@ -70,6 +85,39 @@ function metrics(domain) {
   for (const role of ['h1', 'h2', '.btn']) {
     const el = main?.querySelector(role); if (el) fonts[role] = getComputedStyle(el).fontFamily;
   }
+  const proseExclusions = '.hero,.page-hero,form,figure,figcaption,[role="note"],.article__meta,.form-note,.form-fallback,.form-readiness,.recipient-note,.quote-consent,.review__by';
+  const normalProse = el => {
+    if (!el || !visible(el) || !el.checkVisibility({checkOpacity:true,checkVisibilityCSS:true}) || el.closest(proseExclusions)) return false;
+    if (el.querySelector('small,.btn,button,input,select,textarea,h1,h2,h3,h4,h5,h6,p,ul,ol')) return false;
+    const copy = el.cloneNode(true);
+    copy.querySelectorAll('a,svg,[aria-hidden="true"]').forEach(node => node.remove());
+    return !!copy.textContent.trim(); // Link-only sources and footnotes are separate text roles.
+  };
+  const proseStyle = el => {
+    const style = getComputedStyle(el);
+    return {fontFamily: style.fontFamily, fontSize: Number.parseFloat(style.fontSize),
+      lineHeight: style.lineHeight === 'normal' ? 'normal' : Number.parseFloat(style.lineHeight)};
+  };
+  const bodyTypography = proseStyle(document.body);
+  const standardProse = [...(main?.querySelectorAll('p.lead,.section-head p,.article p') || [])]
+    .filter(normalProse).map((p, ordinal) => ({
+      key: `P.${p.className}/${p.parentElement.tagName}.${p.parentElement.className}:${ordinal}`, style: proseStyle(p),
+    }));
+  const prosePairs = [];
+  for (const [ordinal, p] of [...(main?.querySelectorAll('p') || [])].entries()) {
+    if (!normalProse(p)) continue;
+    const key = `P.${p.className}/${p.parentElement.tagName}.${p.parentElement.className}:${ordinal}`;
+    const next = p.nextElementSibling;
+    if (next?.tagName === 'P' && normalProse(next)) prosePairs.push({key, first: proseStyle(p), second: proseStyle(next)});
+    if (!p.closest('.article')) continue;
+    for (const list of [p.previousElementSibling, next]) {
+      if (!list || !['UL','OL'].includes(list.tagName) || list.closest(proseExclusions)) continue;
+      for (const [index, item] of [...list.children].entries()) {
+        if (item.tagName === 'LI' && normalProse(item)) prosePairs.push({key: `${key}/${list.tagName}>LI:${index}`,
+          first: proseStyle(p), second: proseStyle(item)});
+      }
+    }
+  }
   const routing = el => Object.fromEntries([...el.attributes].filter(a => a.name.startsWith('data-') &&
     /site|domain|route|endpoint|webhook|tracker|recipient/.test(a.name)).map(a => [a.name, a.value]));
   const labelText = el => [...(el.labels || [])].map(label => {
@@ -120,7 +168,7 @@ function metrics(domain) {
   return {overflow: document.documentElement.scrollWidth > innerWidth + 2,
     header: !!document.querySelector('header'), main: !!main, footer: !!document.querySelector('footer'),
     quoteCtas: [...document.querySelectorAll('a,button')].filter(el => visible(el) && /get a free quote/i.test(el.textContent)).length,
-    images: main?.querySelectorAll('img').length || 0, imageSources, flow, heroFormSideBySide, fonts, forms, headingPairs, buttons,
+    images: main?.querySelectorAll('img').length || 0, imageSources, flow, heroFormSideBySide, fonts, bodyTypography, standardProse, prosePairs, forms, headingPairs, buttons,
     fontErrors: [...document.fonts].filter(face => face.status === 'error').map(face => face.family)
       .concat(document.fonts.status === 'loading' ? ['fonts still loading'] : []),
     components: Object.fromEntries(['.hero', '.page-hero', '.quote-card', '.svc-grid', '.process-grid', 'form']
