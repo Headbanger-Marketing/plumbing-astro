@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Offline safety tests: targeting, immutable artifacts, guarded rollback and worker recovery."""
-import copy,importlib.util,json
+import copy,fcntl,importlib.util,json
 from pathlib import Path
 import tempfile,types,unittest
 from unittest.mock import patch
@@ -183,6 +183,42 @@ class WorkerTests(unittest.TestCase):
         with patch.object(W,'mirror_head',return_value=(self.state/'mirror',C)),patch.object(W,'git',return_value=''):
             self.assertEqual(W.tick(self.state)[0]['status'],'superseded')
         self.assertNotIn('pending',W.read(self.path))
+    def test_baseline_adoption_cannot_skip_pending_production_release(self):
+        record=W.read(self.path);record['pending']={'source_commit':B,'base':A,'release':str(self.state/'old')};W.save(self.path,record)
+        with patch.object(W,'mirror_head') as mirror,patch.object(W,'github_status'):
+            result=W.tick(self.state,rehearsal=self.name,rehearsal_all=True)[0]
+            self.assertEqual(result['status'],'blocked');mirror.assert_not_called()
+        self.assertEqual(W.read(self.path)['last_verified_source'],A)
+    def test_operator_rollback_hold_blocks_even_a_new_main(self):
+        record=W.read(self.path);record.update(operator_hold=True,blocked=True);W.save(self.path,record)
+        with patch.object(W,'mirror_head') as mirror:
+            self.assertEqual(W.tick(self.state)[0]['status'],'operator-hold');mirror.assert_not_called()
+    def test_resume_requires_source_reconciliation_after_rollback(self):
+        record=W.read(self.path);record.update(operator_hold=True,blocked=True);W.save(self.path,record)
+        with patch.object(W,'mirror_head',return_value=(self.state/'mirror',A)):
+            self.assertEqual(W.tick(self.state,retry=self.name)[0]['status'],'operator-hold')
+        self.assertTrue(W.read(self.path)['operator_hold'])
+
+class RollbackLockTests(unittest.TestCase):
+    def setUp(self):
+        self.temp=tempfile.TemporaryDirectory();self.addCleanup(self.temp.cleanup);self.state=Path(self.temp.name)
+        self.release=self.state/'releases/plumbing-astro/id';self.release.mkdir(parents=True)
+        W.save(self.state/'config.json',{'enabled':True})
+    def test_publish_refuses_an_active_worker(self):
+        with (self.state/'worker.lock').open('a') as held:
+            fcntl.flock(held,fcntl.LOCK_EX|fcntl.LOCK_NB)
+            with self.assertRaisesRegex(ValueError,'worker is active'):
+                with R.rollback_guard(self.release,True):self.fail('Rollback acquired an occupied lock')
+    def test_preview_does_not_block_or_mutate_worker(self):
+        with (self.state/'worker.lock').open('a') as held:
+            fcntl.flock(held,fcntl.LOCK_EX|fcntl.LOCK_NB)
+            with R.rollback_guard(self.release,False) as state:self.assertIsNone(state)
+    def test_publish_holds_and_releases_global_lock(self):
+        with R.rollback_guard(self.release,True) as state:
+            self.assertEqual(state,self.state.resolve())
+            with (self.state/'worker.lock').open('a') as other:
+                with self.assertRaises(BlockingIOError):fcntl.flock(other,fcntl.LOCK_EX|fcntl.LOCK_NB)
+        with (self.state/'worker.lock').open('a') as other:fcntl.flock(other,fcntl.LOCK_EX|fcntl.LOCK_NB)
 
 class PipelineTests(unittest.TestCase):
     def setUp(self):

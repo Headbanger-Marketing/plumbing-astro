@@ -63,8 +63,14 @@ def supersede(state,mirror,record,path,new_sha):
     record.setdefault('superseded_releases',[]).append(old)
     record.pop('pending',None);record.pop('error',None);record['blocked']=False
     save(path,record)
+    source_root=Path(old['release'])/'source'
+    if source_root.exists():
+        for source in source_root.iterdir():
+            if source.name in BUILDERS and source.is_dir():
+                try:clean_source(state,mirror,source)
+                except Exception as error:print('Superseded source cleanup deferred: '+str(error),flush=True)
 
-def tick(state, *, retry=None, rehearsal=None, publish=True):
+def tick(state, *, retry=None, rehearsal=None, rehearsal_all=False, publish=True):
     config=read(state/'config.json');results=[]
     if not config:raise ValueError('Worker is not installed')
     if not config['enabled'] and not rehearsal and not retry:return [{'status':'paused'}]
@@ -74,9 +80,15 @@ def tick(state, *, retry=None, rehearsal=None, publish=True):
         record_path=state/'builders'/name/'state.json'
         record=read(record_path,{'last_verified_source':settings['baseline'],'last_processed_source':settings['baseline']})
         try:
+            if record.get('operator_hold') and retry!=name:
+                results.append({'builder':name,'status':'operator-hold','error':record.get('error')});continue
+            if rehearsal_all and record.get('pending'):raise ValueError('Reconcile the pending production release before adopting a baseline')
             if record.get('blocked') and not record.get('pending') and retry!=name and not rehearsal:
                 results.append({'builder':name,'status':'blocked','error':record.get('error')});continue
             mirror,sha=mirror_head(state,name)
+            if record.get('operator_hold') and retry==name:
+                if sha==record['last_processed_source']:raise ValueError('Source main is unchanged since rollback; commit the revert/fix before resuming')
+                record.pop('operator_hold',None);record['blocked']=False;save(record_path,record)
             if record.get('blocked') and record.get('pending') and retry!=name and not rehearsal:
                 if sha!=record['pending']['source_commit']:
                     supersede(state,mirror,record,record_path,sha)
@@ -118,7 +130,9 @@ def tick(state, *, retry=None, rehearsal=None, publish=True):
             args=[sys.executable,str(source/'scripts/local-release.py'),'run','--base',base,
                   '--release-dir',str(release),'--allowed',str(allowed)]
             if publish:args.append('--publish')
-            if rehearsal:args.extend(['--require-no-changes','--domains',*settings['canaries']])
+            if rehearsal:
+                rehearsal_domains=read(allowed) if rehearsal_all else settings['canaries']
+                args.extend(['--require-no-changes','--domains',*rehearsal_domains])
             github_status(state,name,sha,'pending','Local build, regression gates and pilot verification running')
             with (release/'worker.log').open('a') as log:
                 process=subprocess.run(args,cwd=source,stdout=log,stderr=subprocess.STDOUT)
@@ -130,7 +144,9 @@ def tick(state, *, retry=None, rehearsal=None, publish=True):
                 record.update(last_processed_source=sha,last_verified_source=sha,last_release=str(release),blocked=False)
                 record.pop('pending',None);record.pop('error',None);save(record_path,record)
             elif rehearsal:
-                record['rehearsal']={'release':str(release),'status':result['status'],'source_commit':sha}
+                record['rehearsal']={'release':str(release),'status':result['status'],'source_commit':sha,'full_scope':rehearsal_all,'domains':len(result['domains'])}
+                if rehearsal_all and result['status']=='verified':
+                    record.update(last_processed_source=sha,last_verified_source=sha,last_release=str(release))
                 if not record.get('pending'):record.pop('error',None);record['blocked']=False
                 save(record_path,record)
             github_status(state,name,sha,'success','Local release verified: '+str(len(result['domains']))+' sites' if publish else 'Local regression preview passed; no publication')
@@ -139,6 +155,9 @@ def tick(state, *, retry=None, rehearsal=None, publish=True):
                 try:clean_source(state,mirror,source)
                 except Exception as cleanup_error:print('Release verified; source cleanup deferred: '+str(cleanup_error),flush=True)
         except Exception as error:
+            if record.get('operator_hold'):
+                record.update(blocked=True,error=str(error));save(record_path,record)
+                results.append({'builder':name,'status':'operator-hold','error':str(error)});continue
             if not record.get('pending') and not rehearsal:
                 record.update(blocked=False,last_read_error=str(error));save(record_path,record)
                 results.append({'builder':name,'status':'read-retry-pending','error':str(error)})
@@ -193,9 +212,9 @@ def install(state,builders_root):
     (state/'bin').mkdir(exist_ok=True);(state/'runtime').mkdir(exist_ok=True);(state/'logs').mkdir(exist_ok=True)
     gh=Path(shutil.which('gh')).resolve()
     if gh!=(state/'bin/gh'):
-        raw=gh.read_bytes();dest=state/'bin/gh';dest.write_bytes(raw);dest.chmod(0o755)
+        raw=gh.read_bytes();dest=state/'bin/gh';temporary=dest.with_suffix('.new');temporary.write_bytes(raw);temporary.chmod(0o755);temporary.replace(dest)
         config['gh_executable_sha256']=hashlib.sha256(raw).hexdigest()
-    shutil.copyfile(Path(__file__),state/'runtime/release-worker.py')
+    temporary=state/'runtime/release-worker.new.py';shutil.copyfile(Path(__file__),temporary);temporary.replace(state/'runtime/release-worker.py')
     for name in BUILDERS:
         root=(builders_root/name).resolve()
         if subprocess.check_output(['git','status','--porcelain','--untracked-files=no'],cwd=root,text=True).strip():
@@ -239,6 +258,7 @@ def main():
     retry=sub.add_parser('resume');retry.add_argument('builder',choices=BUILDERS)
     discard=sub.add_parser('abandon');discard.add_argument('builder',choices=BUILDERS)
     rehearsal=sub.add_parser('rehearse');rehearsal.add_argument('builder',choices=BUILDERS);rehearsal.add_argument('--publish',action='store_true')
+    rehearsal.add_argument('--all-registered',action='store_true')
     args=parser.parse_args();state=args.state.expanduser().resolve()
     if args.action=='install':install(state,args.builders_root.resolve());return
     if args.action=='status':print(json.dumps({'config':read(state/'config.json'), 'status':read(state/'status.json'),
@@ -249,18 +269,21 @@ def main():
         return
     config=read(state/'config.json')
     if not config:raise ValueError('Install the worker first')
-    if args.action=='abandon':abandon(state,args.builder);return
     if args.action in ('enable','pause'):
         if args.action=='enable':
             for name in BUILDERS:
                 record=read(state/'builders'/name/'state.json',{})
-                if record.get('rehearsal',{}).get('status')!='verified':raise ValueError('Verify a published rehearsal for '+name+' before enabling')
+                rehearsal=record.get('rehearsal',{})
+                if rehearsal.get('status')!='verified' or not rehearsal.get('full_scope'):
+                    raise ValueError('Verify a no-change full-scope rehearsal for '+name+' before enabling')
         config['enabled']=args.action=='enable';save(state/'config.json',config);print(args.action);return
     with (state/'worker.lock').open('a') as lock:
         try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
         except BlockingIOError:print('Another release worker is active');return
+        if args.action=='abandon':abandon(state,args.builder);return
         result=tick(state,retry=args.builder if args.action=='resume' else None,
-            rehearsal=args.builder if args.action=='rehearse' else None,publish=args.publish if args.action=='rehearse' else True)
+            rehearsal=args.builder if args.action=='rehearse' else None,rehearsal_all=args.all_registered if args.action=='rehearse' else False,
+            publish=args.publish if args.action=='rehearse' else True)
         print(json.dumps(result,indent=2))
 
 if __name__=='__main__':

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Versioned local release gates, immutable artifacts, pilot rollout and guarded rollback."""
 from __future__ import annotations
-import argparse, concurrent.futures, contextlib, hashlib, importlib.util, json, os
+import argparse, concurrent.futures, contextlib, fcntl, hashlib, importlib.util, json, os
 from pathlib import Path
 import re, shutil, subprocess, sys, time, urllib.request
 
@@ -116,6 +116,7 @@ def verify_live(api, plan, receipt, dist, *, timeout=600):
 
 def rollback_changes(plan):
     previous=plan['remote_tree'];paths={r['path'] for r in plan['files'] if r['changed']}|set(plan['deletions'])
+    if any(not DEPLOY.safe_path(p) or p.startswith('.github/') for p in paths):raise ValueError('Unsafe rollback path')
     return [{'path':p,**previous[p]} if p in previous else {'path':p,'sha':None,'mode':'100644','type':'blob'} for p in sorted(paths)]
 
 def rollback_one(api, plan, published, receipt_path, *, publish=False):
@@ -229,10 +230,61 @@ def run_release(release, base, allowed, *, publish=False, domains=None, require_
                 browser(release,'live-'+domain,jobs,baseline=release/'candidate/report.json',policy=policy.get('visual',{}))
             shutil.rmtree(dist)
             print('Verified live',domain,flush=True)
+        assert_source_current(api,sha)
         manifest['status']='verified';save(manifest_path,manifest);return manifest
     except Exception as error:
         manifest['status']='failed';manifest['error']=str(error);save(manifest_path,manifest)
         raise
+
+@contextlib.contextmanager
+def rollback_guard(release,publish):
+    state=release.resolve().parents[2]
+    if not (state/'config.json').exists():state=Path.home()/'.local/state/headbanger-releases'
+    if not publish or not (state/'config.json').exists():
+        yield None;return
+    with (state/'worker.lock').open('a') as lock:
+        try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+        except BlockingIOError:raise ValueError('Release worker is active; pause and let its atomic operation finish before rollback') from None
+        yield state
+
+def rollback_release(release,publish,state=None):
+    builder=json.loads((release/'release.json').read_text())['builder']
+    if builder not in DEPLOY.ENGINES:raise ValueError('Unrecognized rollback builder')
+    if state:
+        allowed=set(json.loads((state/'builders'/builder/'allowed.json').read_text()))
+    else:
+        if builder!=DEPLOY.engine():raise ValueError('Run rollback from the matching builder')
+        allowed=DEPLOY.approved_sites()
+    api=DEPLOY.API();results=[];targets=[]
+    for folder in sorted(release.iterdir()):
+        if not folder.is_dir() or not (folder/'receipt.json').exists():continue
+        published=json.loads((folder/'receipt.json').read_text())
+        if published['status']=='already-current':continue
+        if published['status']!='published':raise ValueError('Uncertain publication must be reconciled before rollback')
+        plan=json.loads((folder/'plan.json').read_text())
+        if plan['builder']!=builder or plan['domain'] not in allowed or plan['domain']!=folder.name:
+            raise ValueError('Rollback target is outside this registered release scope')
+        existing=json.loads((folder/'rollback-receipt.json').read_text()) if (folder/'rollback-receipt.json').exists() else None
+        expected=existing['commit'] if existing and existing['status']=='published' else published['commit']
+        if api.snapshot(plan['domain'])[0]!=expected:raise ValueError('Rollback preflight refused newer work: '+plan['domain'])
+        targets.append((folder,plan,published))
+    if publish and targets and state:
+        record_path=state/'builders'/json.loads((release/'release.json').read_text())['builder']/'state.json'
+        record=json.loads(record_path.read_text());record.update(blocked=True,operator_hold=True,error='Rollback in progress; source reconciliation and explicit resume required.')
+        save(record_path,record)
+    for folder,plan,published in targets:
+        result=rollback_one(api,plan,published,folder/'rollback-receipt.json',publish=publish)
+        if publish:
+            previous=plan['remote_tree'];names={r['path'] for r in rollback_changes(plan) if r['sha']}|{'index.html'}
+            inverse={'domain':plan['domain'],'files':[{'path':p,'changed':True,**previous[p]} for p in names if p in previous]}
+            result['live_verification']=verify_live(api,inverse,result,None)
+        results.append(result)
+    save(release/'rollback-summary.json',results);print(json.dumps(results))
+    if publish and state and targets:
+        record_path=state/'builders'/json.loads((release/'release.json').read_text())['builder']/'state.json'
+        if record_path.exists():
+            record=json.loads(record_path.read_text());record.update(blocked=True,operator_hold=True,error='Deployment rolled back. Revert/reconcile source main, then resume explicitly.')
+            save(record_path,record)
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__);sub=parser.add_subparsers(dest='action',required=True)
@@ -245,31 +297,7 @@ def main():
         allowed=json.loads(args.allowed.read_text())
         result=run_release(args.release_dir,args.base,allowed,publish=args.publish,domains=args.domains,require_no_changes=args.require_no_changes)
         print(json.dumps({'status':result['status'],'domains':result['domains']}));return
-    api=DEPLOY.API();results=[];targets=[]
-    for folder in sorted(args.release.iterdir()):
-        if not folder.is_dir() or not (folder/'receipt.json').exists():continue
-        published=json.loads((folder/'receipt.json').read_text())
-        if published['status']=='already-current':continue
-        if published['status']!='published':raise ValueError('Uncertain publication must be reconciled before rollback')
-        plan=json.loads((folder/'plan.json').read_text())
-        existing=json.loads((folder/'rollback-receipt.json').read_text()) if (folder/'rollback-receipt.json').exists() else None
-        expected=existing['commit'] if existing and existing['status']=='published' else published['commit']
-        if api.snapshot(plan['domain'])[0]!=expected:raise ValueError('Rollback preflight refused newer work: '+plan['domain'])
-        targets.append((folder,plan,published))
-    for folder,plan,published in targets:
-        result=rollback_one(api,plan,published,folder/'rollback-receipt.json',publish=args.publish)
-        if args.publish:
-            previous=plan['remote_tree'];names={r['path'] for r in rollback_changes(plan) if r['sha']}|{'index.html'}
-            inverse={'domain':plan['domain'],'files':[{'path':p,'changed':True,**previous[p]} for p in names if p in previous]}
-            result['live_verification']=verify_live(api,inverse,result,None)
-        results.append(result)
-    save(args.release/'rollback-summary.json',results);print(json.dumps(results))
-    if args.publish:
-        state=args.release.resolve().parents[2]
-        record_path=state/'builders'/json.loads((args.release/'release.json').read_text())['builder']/'state.json'
-        if record_path.exists():
-            record=json.loads(record_path.read_text());record.update(blocked=True,error='Deployment rolled back. Revert/reconcile source main, then resume explicitly.')
-            save(record_path,record)
+    with rollback_guard(args.release,args.publish) as state:rollback_release(args.release,args.publish,state)
 
 if __name__=='__main__':
     try:main()

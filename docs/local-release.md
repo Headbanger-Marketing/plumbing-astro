@@ -26,13 +26,13 @@ npm run release:worker -- enable
 npm run release:worker -- resume hvac-astro
 ```
 
-`enable` requires a successful published pilot rehearsal for all four builders. `resume` explicitly retries only the named builder and preserves its existing plans/receipts. It can resume verification of a known published commit. If a newer descendant main arrives, the worker retains the old receipts and creates fresh plans from the last successful source; it never reuses stale plans. Any uncertain publication still blocks automatic progress. Source main is rechecked before each plan and publication, so an older build stops when newer main arrives.
+`enable` requires a successful no-change full-scope rehearsal for all four builders. This adopts the exact public baseline without changing site files; only registered live sites are included. `resume` explicitly retries only the named builder and preserves its existing plans/receipts. It can resume verification of a known published commit. If a newer descendant main arrives, the worker retains the old receipts and creates fresh plans from the last successful source; it never reuses stale plans. Any uncertain publication still blocks automatic progress. Source main is rechecked before each plan and publication, so an older build stops when newer main arrives.
 
 If a failed release published nothing, `abandon <builder>` archives its pending state so a newer main can be processed. If it published changes, roll those changes back first. Abandon refuses unknown outcomes or published sites without a reconciled rollback. Do not edit state files or remove receipts to bypass these guards.
 
 ## Rollback
 
-Every release records the source/base commits, selected domains, compiled artifact checksums, exact previous remote trees, expected heads, publication receipts and verification evidence. Rollback restores the affected compiled paths as **new commits**, preserving unrelated files. It preflights every target and refuses newer remote work. It never force-pushes.
+Every release records the source/base commits, selected domains, compiled artifact checksums, exact previous remote trees, expected heads, publication receipts and verification evidence. Rollback restores the affected compiled paths as **new commits**, preserving unrelated files. It preflights every target and refuses newer remote work. It takes the same global lock as the worker, then places that builder on an operator hold before any restoration. It never force-pushes.
 
 ```bash
 # Preview restoration of a release; no remote changes.
@@ -52,7 +52,7 @@ The controller source is `scripts/release-worker.py` in HVAC; identical release/
 # Install from clean source whose HEAD equals remote main for all four builders.
 python3 scripts/release-worker.py install --builders-root /absolute/path/to/builders
 # Rehearse each builder before enabling (use its own builder name). Initial rehearsals refuse any changed/deleted output, so setup cannot overwrite parallel live work.
-python3 scripts/release-worker.py rehearse hvac-astro --publish
+python3 scripts/release-worker.py rehearse hvac-astro --all-registered --publish
 # Load the installed LaunchAgent and enable only after all rehearsals pass.
 launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.headbanger.local-releases.plist
 python3 scripts/release-worker.py enable
@@ -60,6 +60,6 @@ python3 scripts/release-worker.py enable
 
 The installer preserves existing custom Git hooks. Polling is authoritative even when the optional merge hook cannot be installed. It freezes the current live-domain allowlists in worker state so adding a staged config or changing the source allowlist does not silently launch another domain. A new site's launch and worker enrollment require the portfolio's normal explicit launch review.
 
-Run `npm run test:local-deploy` and `npm run test:release` after deployment-tool changes. Use Node >=22.12, Python with BeautifulSoup and installed Google Chrome. Playwright Core is pinned in package-lock.json; production application dependencies are unchanged. The controller refreshes its versioned worker code from HVAC main for the next launch. Keep source mirrors and content-addressed artifacts: they are the recovery record, not disposable caches. Successful runs automatically remove their clean temporary source/dependency worktree while retaining plans, receipts, compiled artifacts and browser evidence. Failed or unexpectedly modified worktrees remain for recovery.
+Run `npm run test:local-deploy` and `npm run test:release` after deployment-tool changes. Use Node >=22.12, Python with BeautifulSoup and installed Google Chrome. Playwright Core is pinned in package-lock.json; production application dependencies are unchanged. The controller refreshes its versioned worker code from HVAC main for the next launch. Keep source mirrors and content-addressed artifacts: they are the recovery record, not disposable caches. Successful and safely superseded runs automatically remove their clean temporary source/dependency worktree while retaining plans, receipts, compiled artifacts and browser evidence. Failed or unexpectedly modified worktrees remain for recovery.
 
 The low-level `local-deploy.py` remains available for build previews and deliberate recovery. Routine releases use this gated worker flow. Refer to the local deployment SOP for its atomic publication and unknown-outcome recovery rules.

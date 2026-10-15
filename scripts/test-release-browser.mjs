@@ -16,6 +16,7 @@ test('catches routing or consent changes',()=>{const a=good();a.forms[0].action=
 test('explicit policy permits reviewed form changes',()=>{const a=good();a.forms=[];assert.deepEqual(regressions(good(),a,{allowFormChanges:true}),[]);});
 test('preserves existing conversion CTAs',()=>{const a=good();a.quoteCtas=0;assert.match(regressions(good(),a).join(),/CTAs/);});
 test('preserves intentional legal pages without a mobile CTA',()=>{const a=good();a.quoteCtas=0;assert.deepEqual(regressions(a,a),[]);});
+test('catches webfont loading failures',()=>{const a=good();a.fontErrors=['Inter'];assert.match(regressions(good(),a).join(),/Webfont/);});
 test('headless fixtures reject zero gaps and block POST requests',async()=>{
   const root=await fs.mkdtemp(path.join(os.tmpdir(),'release-browser-test-'));
   try {

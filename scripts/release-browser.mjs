@@ -8,6 +8,7 @@ import { pathToFileURL } from 'node:url';
 export function regressions(before, after, policy = {}) {
   const errors = [];
   if (after.overflow) errors.push('Horizontal overflow');
+  if (after.fontErrors?.length) errors.push('Webfont load failure: ' + after.fontErrors.join(', '));
   for (const key of ['header', 'main', 'footer']) {
     if (!after[key]) errors.push(`Missing ${key}`);
   }
@@ -72,6 +73,8 @@ function metrics() {
     header: !!document.querySelector('header'), main: !!main, footer: !!document.querySelector('footer'),
     quoteCtas: [...document.querySelectorAll('a,button')].filter(el => visible(el) && /get a free quote/i.test(el.textContent)).length,
     images: main?.querySelectorAll('img').length || 0, fonts, forms, headingPairs, buttons,
+    fontErrors: [...document.fonts].filter(face => face.status === 'error').map(face => face.family)
+      .concat(document.fonts.status === 'loading' ? ['fonts still loading'] : []),
     components: Object.fromEntries(['.hero', '.page-hero', '.quote-card', '.svc-grid', '.process-grid', 'form']
       .map(s => [s, document.querySelectorAll(s).length]))};
 }
@@ -119,6 +122,13 @@ export async function check(spec) {
             ? route.continue() : route.abort();
         });
         const page = await context.newPage();
+        const fontFailures = [];
+        page.on('requestfailed', request => {
+          if (['fonts.googleapis.com','fonts.gstatic.com'].includes(new URL(request.url()).hostname)) fontFailures.push('font request failed');
+        });
+        page.on('response', response => {
+          if (response.status() >= 400 && ['fonts.googleapis.com','fonts.gstatic.com'].includes(new URL(response.url()).hostname)) fontFailures.push(`font HTTP ${response.status()}`);
+        });
         const id = `${job.domain}:${job.route}:${width}`;
         const url = new URL(job.route, origin);
         if (!job.root) url.searchParams.set('release-check', spec.release);
@@ -128,6 +138,7 @@ export async function check(spec) {
           if (!response || response.status() !== 200) throw Error(`HTTP ${response?.status()}`);
           await page.evaluate(() => Promise.race([document.fonts.ready, new Promise(resolve => setTimeout(resolve, 8000))]));
           data = await page.evaluate(metrics);
+          data.fontErrors.push(...fontFailures);
           const before = prior.results.find(r => r.id === id)?.metrics;
           errors = spec.capture ? [] : regressions(before, data, spec.policy);
           if (spec.baseline && !before) errors.push('Missing baseline for this page and viewport');
@@ -142,7 +153,7 @@ export async function check(spec) {
     await browser.close();
     for (const {server} of servers.values()) await new Promise(resolve => server.close(resolve));
   }
-  const report = {release: spec.release, results, blockedWriteRequests, passed: results.every(r => !r.errors.length)};
+  const report = {release: spec.release, browserVersion: browser.version(), results, blockedWriteRequests, passed: results.every(r => !r.errors.length)};
   await fs.writeFile(path.join(spec.output, 'report.json'), JSON.stringify(report, null, 2) + '\n');
   return report;
 }
