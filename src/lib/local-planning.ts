@@ -18,7 +18,7 @@ export function localPlanning(site: SiteConfig, content: SiteContent) {
   ].filter(([,body]) => Boolean(body)) as [string,string][];
   const faqs: [string,string][] = [
     [`What details help with a ${site.city} quote?`, details[0]?.features.map(f=>f[2]).slice(0,2).join(' ') || cards[0]?.[2] || 'Describe the equipment and the symptom in your request.'],
-    [`Which job guide should I read first?`, cards.slice(0,4).map(s=>s[2]).join(' ')],
+    [`Which service should I review first?`, cards.slice(0,4).map(s=>s[2]).join(' ')],
     [`Can I request service near ${site.city}?`, `The listed service area includes ${areaText}. Include your postal code and access details in the form so the responding provider can confirm travel and scheduling for your property.`],
   ];
   return {

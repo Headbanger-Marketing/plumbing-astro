@@ -336,7 +336,7 @@ export const HOME_FAQ = [
     "Explain what will remain and what will move. A marked sketch can be more useful than a room name alone. Provide fixture model numbers and installation sheets for items that are already chosen."
   ],
   [
-    "How does this guide fit my property?",
+    "How does this service apply to my property?",
     "A new island sink, shower valve or relocated laundry connection can change supply and drainage routes. If your Vaughan request is part of a renovation, show both the existing layout and the proposed layout. Identify decisions already made by the designer or other trades. A provider can then explain the difference between replacing a fixture in place and relocating the plumbing that serves it."
   ],
   [

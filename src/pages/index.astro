@@ -19,14 +19,14 @@ const faqs = plan.faqs;
 <section class="hero has-bg" style={`--hero-bg-url: url('/assets/img/${site.media?.heroImage || 'hero.webp'}')`}>
   <div class="container hero__grid">
     <div class="hero__copy"><span class="eyebrow on-dark">{site.city}, Ontario</span><h1>{content.HOME?.h1 || `Plumbing for ${site.city} Homes`}</h1>
-      <p class="hero__sub" set:html={content.HOME?.intro || `Describe the plumbing work you need and choose a relevant guide. Share the symptoms, property and access details for review.`}></p>
+      <p class="hero__sub" set:html={content.HOME?.intro || `Describe the plumbing work you need and choose the relevant service. Share the symptoms, property and access details for review.`}></p>
       <a class="btn btn-primary btn-lg" href="/contact/#quote">Get A Free Quote <Fragment set:html={icon('arrow-right', '', 18)} /></a>
     </div>
     <div class="hero__form"><QuoteForm site={site} /></div>
   </div>
 </section>
 <section class="section"><div class="container">
-  <div class="section-head"><span class="eyebrow">Choose the job</span><h2>Plumbing {site.enquirySite ? 'Guides' : 'Services'} in {site.city}</h2></div>
+  <div class="section-head"><span class="eyebrow">Choose the job</span><h2>Plumbing Services in {site.city}</h2></div>
   <div class="svc-grid">{content.HOME_SERVICES.map(([ic, name, text, url]) => <a class="svc-card" href={url}><span class="svc-card__ic"><Fragment set:html={icon(ic, '', 28)} /></span><h3 set:html={name}></h3><p>{text}</p><span class="svc-card__link">View scope <Fragment set:html={icon('arrow-right', '', 16)} /></span></a>)}</div>
 </div></section>
 <section class="section bg-soft"><div class="container"><div class="split">

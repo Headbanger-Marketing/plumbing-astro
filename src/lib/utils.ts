@@ -106,7 +106,7 @@ export function verticalCopy(site: SiteConfig): VerticalCopy {
         quoteHeading: 'Request a Plumbing Quote',
         ctaText: (loc) => `Describe the plumbing issue or planned upgrade at your ${loc} property. Include equipment, symptoms and access details so the responding provider can confirm the scope and availability.`,
         businessType: 'Plumber',
-        tagline: (city, county) => `Plumbing project guides and online inquiries for ${city === county ? `${county}, Ontario` : `${city}, Ontario and ${county}`}. Confirm provider qualifications, coverage, scope and scheduling before booking.`,
+        tagline: (city, county) => `Plumbing service information and online inquiries for ${city === county ? `${county}, Ontario` : `${city}, Ontario and ${county}`}. Confirm provider qualifications, coverage, scope and scheduling before booking.`,
         emergency: 'Online Plumbing Inquiries',
         hasServicesNav: true,
         hasBlog: true,
@@ -194,18 +194,18 @@ export function ctaBand(
 
 // build.py::areas_section
 // Now accepts optional location slugs so chips link to location pages when they exist.
-// A listed location is a guide or inquiry route; provider coverage must be confirmed.
+// A listed location is a service area page or inquiry route; provider coverage must be confirmed.
 const AREA_H2S = [
   "Locations Listed Around {city}",
   "Planning Work in {county}",
   "Confirm Your Property Location",
-  "Location Guides Near {city}",
+  "Service Areas Near {city}",
   "Address Details for a {city} Request"
 ];
 const AREA_PS = [
-  "Use the listed places to find a guide or start an inquiry. Include your property address or postal code so the provider can confirm coverage and scheduling.",
+  "Use the listed places to find service information or start an inquiry. Include your property address or postal code so the provider can confirm coverage and scheduling.",
   "For a property in {scope}, describe the work and access details in the form. The listed locations do not confirm a provider's travel range or availability.",
-  "A location guide explains project questions. Before booking {svc}, ask the responding provider to confirm service at your exact address and the proposed visit window.",
+  "A service area page explains project questions. Before booking {svc}, ask the responding provider to confirm service at your exact address and the proposed visit window.",
   "If your location is not listed, include its postal code with the requested work. Coverage, travel arrangements and scheduling must be confirmed directly with the provider.",
   "Select a listed location for guidance or use the inquiry form. Provide the property location, equipment and access details so the provider can review the request."
 ];

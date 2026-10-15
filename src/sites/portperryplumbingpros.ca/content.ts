@@ -336,7 +336,7 @@ export const HOME_FAQ = [
     "State when the property or affected fixture was last in regular use and what was noticed afterward. Mention documented isolation or maintenance, and mark anything you do not know."
   ],
   [
-    "How does this guide fit my property?",
+    "How does this service apply to my property?",
     "An extended absence or occasional-use room can leave gaps in the symptom history. For a Port Perry request, state when the property or fixture was last used normally and what was observed on return. Identify known shutdown or maintenance work without assuming the system is ready to recommission. The assessment should distinguish current defects from checks needed because the equipment history is uncertain."
   ],
   [

@@ -336,7 +336,7 @@ export const HOME_FAQ = [
     "State whether equipment is already purchased. Include its model and the old model rather than only the advertised capacity. Describe the accessible supplies, waste connection, vent or drain arrangement relevant to the job."
   ],
   [
-    "How does this guide fit my property?",
+    "How does this service apply to my property?",
     "An equipment purchase can create extra work when its size or connections differ from the existing installation. For your Mississauga request, identify the product you already own and whether it is installed, ordered or still under consideration. Separate the desired outcome from assumptions about what fits. A responding provider needs to review the actual property before a replacement scope is agreed."
   ],
   [

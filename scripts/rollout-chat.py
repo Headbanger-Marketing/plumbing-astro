@@ -104,10 +104,10 @@ APPROVED_SITES = frozenset([
 
 CHAT_TAG = '<script src="https://hvac-agent.headbangermarketing.com/assets/chat-widget.js?v=20261013-1" data-api="https://hvac-agent.headbangermarketing.com" data-privacy="/privacy-policy/" defer></script>'
 PRIVACY_TEXT = (
-    'Your chat messages are processed by Headbanger Marketing and Anthropic to provide automated answers. '
-    'If you choose to submit an enquiry and agree to the consent notice, Headbanger Marketing records your '
-    'contact details, property location and request, and forwards them to the service company identified '
-    'in the assistant. Coverage, quotes and appointments require separate confirmation. Do not send payment '
+    'Your chat messages are processed by the enquiry team and Anthropic to provide automated answers. '
+    'If you choose to submit an enquiry and agree to the consent notice, the enquiry team records your '
+    'contact details, property location and request, and forwards them to a relevant service provider. '
+    'Coverage, quotes and appointments require separate confirmation. Do not send payment '
     'details or other sensitive information through chat.'
 )
 PRIVACY_BLOCK = '<h2>Automated Assistant</h2><p>' + PRIVACY_TEXT + '</p>'

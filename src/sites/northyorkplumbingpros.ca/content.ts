@@ -336,7 +336,7 @@ export const HOME_FAQ = [
     "Identify the person who can approve work on the fixture and any connected common system. Describe one unit, one branch or several fixtures, with uncertainty about shared routes stated plainly."
   ],
   [
-    "How does this guide fit my property?",
+    "How does this service apply to my property?",
     "Responsibility for a plumbing connection may differ between a suite, a common riser and a house renovation. For your North York request, identify what you own or can authorize and the part that needs assessment. A fixture visible inside a room can still connect to a shared system. State any management requirements and keep that coordination separate from the technical symptom."
   ],
   [

@@ -10,14 +10,14 @@ const subjects = Object.entries(content.SVC).slice(2, 5);
 const locations = Object.entries(content.LOCATIONS || {});
 ---
 <SiteLayout title={`About ${site.brand} | ${site.city} Plumbing Requests`} desc={`How ${site.brand} handles plumbing inquiries in ${site.city} and what to establish before agreeing to work.`} path="/about/" active="about" schemaBlocks={[schemaLocalbusiness(site), schemaBreadcrumb([['Home','/'],['About','/about/']],site)]}>
-<section class="page-hero"><div class="container"><Fragment set:html={crumbs([['Home','/'],['About','']])} /><span class="eyebrow on-dark">About this site</span><h1>{site.brand}: Planning a Plumbing Job</h1><p>Requests from this site are received by the enquiry team and shared with Jayden's Mechanical for assessment. Provider identity, coverage and any visit require confirmation.</p></div></section>
+<section class="page-hero"><div class="container"><Fragment set:html={crumbs([['Home','/'],['About','']])} /><span class="eyebrow on-dark">About this site</span><h1>{site.brand}: Planning a Plumbing Job</h1><p>Requests from this site are received by the enquiry team and shared with a relevant service provider for assessment. Provider identity, coverage and any visit require confirmation.</p></div></section>
 <section class="section"><div class="container"><div class="section-head"><h2>Who Receives Your Request</h2></div>
   <p>{site.enquirySite ? `${site.brand} is an inquiry website for the named market. It is not a local contractor or a staffed storefront. Requests are reviewed before any provider is proposed. ` : ''}{site.brand} is a local service inquiry website. The request form collects your contact details and job description so a provider can follow up. A form submission starts an inquiry; the provider must confirm availability, credentials, scope and pricing with you before work is agreed.</p>
-  <div class="svc-grid">{subjects.map(([slug,s])=><article class="svc-card"><h3>{s.problem_h}</h3><p set:html={s.intro}></p><a href={`/services/${slug}/`}>Read the {s.kicker.replace(/&amp;/g,'&').toLowerCase()} guide</a></article>)}</div>
+  <div class="svc-grid">{subjects.map(([slug,s])=><article class="svc-card"><h3>{s.problem_h}</h3><p set:html={s.intro}></p><a href={`/services/${slug}/`}>View {s.kicker.replace(/&amp;/g,'&').toLowerCase()} service details</a></article>)}</div>
 </div></section>
 <section class="section bg-soft"><div class="container"><h2>Information for Your {site.city} Quote</h2><ul class="feature-list">{plan.checklist.map(([label,body])=><li><strong>{label}</strong><p>{body}</p></li>)}</ul>
-  <p>Ask the responding provider for a written scope, any exclusions, applicable qualifications and insurance, the expected visit window, and the terms of any warranty. Keep the estimate and invoice together. Published service guides explain common work; they do not replace an inspection of your property.</p>
-  {locations.length > 0 && <><h3>Nearby service guides</h3><ul>{locations.map(([slug,l])=><li><a href={`/locations/${slug}/`}>{l.name}</a></li>)}</ul></>}
+  <p>Ask the responding provider for a written scope, any exclusions, applicable qualifications and insurance, the expected visit window, and the terms of any warranty. Keep the estimate and invoice together. These service pages explain common work; they do not replace an inspection of your property.</p>
+  {locations.length > 0 && <><h3>Nearby service areas</h3><ul>{locations.map(([slug,l])=><li><a href={`/locations/${slug}/`}>{l.name}</a></li>)}</ul></>}
 </div></section>
 <Fragment set:html={ctaBand(site, `Send Your ${site.city} Request`, plan.cta)} />
 <Fragment set:html={areasSection(site)} />

@@ -336,7 +336,7 @@ export const HOME_FAQ = [
     "List fixtures already connected and fixtures proposed for the new layout. Photos should identify which is which. Mention the tile, drywall or flooring schedule and any accessible pipe or rough-in that will soon be concealed."
   ],
   [
-    "How does this guide fit my property?",
+    "How does this service apply to my property?",
     "Before a basement renovation advances, plumbing routes, fixture locations and access need to be understood together. If your Brampton project adds living space, describe the proposed layout without assuming that an existing rough-in is ready to use. For a repair, give the symptom history rather than renovation specifications. This distinction helps keep the request focused on work that can be assessed at the property."
   ],
   [

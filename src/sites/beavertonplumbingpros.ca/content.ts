@@ -1,6 +1,6 @@
 // Authored conditional project guidance. See editorial-brief.json for this site’s distinct scope.
 export const HOME = {
-  "h1": "Beaverton Plumbing Inquiry Guides",
+  "h1": "Beaverton Plumbing Services",
   "intro": "A small repair still needs a clear symptom and an accessible work area. Describe the affected fixture, equipment or pipe and any limits on access. Our enquiry team reviews Beaverton requests before coverage, provider identity and scheduling are agreed.",
   "meta": "A small repair still needs a clear symptom and an accessible work area. Send your Beaverton inquiry for review.",
   "heading": "Making the investigation and equipment access explicit in a small project",
@@ -336,7 +336,7 @@ export const HOME_FAQ = [
     "Identify the part you can see and note which connection or route is concealed. Mention low clearance, a tight cupboard or an obstructed equipment path if applicable."
   ],
   [
-    "How does this guide fit my property?",
+    "How does this service apply to my property?",
     "A request described as a quick fix can expand when the connection or pipe is concealed. For a Beaverton property, explain what can actually be reached and what finishes would need to be disturbed. Keep the desired repair separate from unverified assumptions about the cause. An initial assessment can then establish whether the work is a small component change or a broader access and repair project."
   ],
   [

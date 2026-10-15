@@ -13,10 +13,10 @@ if (site.vertical && site.vertical !== 'hvac') {
 }
 
 const cards = blogCards(content.BLOG, content.BLOG.length);
-const title = `${site.city} Service Planning Guides | ${site.brand}`;
+const title = content.BLOG.length ? `Project Planning Articles | ${site.brand}` : `Services in ${site.city} | ${site.brand}`;
 const desc = `Read the service scopes for ${site.city} projects and prepare questions for an itemized quote.`;
-const heroH1 = content.BLOG.length ? 'Project Planning Articles' : 'Service Planning Guides';
-const heroP = content.BLOG.length ? 'Browse the articles below, then confirm the details for your own property.' : 'No articles are published here yet. The service guides below explain the work to discuss with a provider.';
+const heroH1 = content.BLOG.length ? 'Project Planning Articles' : 'Services';
+const heroP = content.BLOG.length ? 'Browse the articles below, then confirm the details for your own property.' : 'No articles are published here yet. The service pages below explain the work to discuss with a provider.';
 
 ---
 

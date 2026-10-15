@@ -336,7 +336,7 @@ export const HOME_FAQ = [
     "List the first occurrence, repeat events and intervening work without assuming each event has the same cause. Describe which symptoms improved after earlier work and which remained."
   ],
   [
-    "How does this guide fit my property?",
+    "How does this service apply to my property?",
     "Repeated cleaning or part replacement may leave the underlying cause unresolved, but recurrence alone does not identify that cause. For a Bowmanville property, create a short sequence of symptoms and past work, including what improved and for how long. Keep invoices or inspection findings if available. That history helps a provider decide what evidence is needed before proposing a larger repair or replacement."
   ],
   [

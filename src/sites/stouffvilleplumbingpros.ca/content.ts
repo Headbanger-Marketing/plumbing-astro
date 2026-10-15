@@ -336,7 +336,7 @@ export const HOME_FAQ = [
     "Mention useful manuals, invoices or warranty information, with uncertain items clearly identified. Record the first date a problem was noticed and whether it followed move-in or other work."
   ],
   [
-    "How does this guide fit my property?",
+    "How does this service apply to my property?",
     "Handover papers can help establish what is installed, but they do not replace an assessment of a new symptom. For a Stouffville property, gather equipment labels and any previous plumbing notes that relate to the request. If the installation date or material is unknown, say so. A clear distinction between documentation, observations and assumptions lets a responding provider decide what needs verification."
   ],
   [

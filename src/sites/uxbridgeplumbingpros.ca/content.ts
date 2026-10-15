@@ -336,7 +336,7 @@ export const HOME_FAQ = [
     "Describe the room, fixture or outdoor equipment involved, rather than only saying the whole house has a problem. Identify any private supply, treatment or on-site wastewater only when confirmed."
   ],
   [
-    "How does this guide fit my property?",
+    "How does this service apply to my property?",
     "The source of a water or drainage problem may sit outside the room where the symptom appears. For an Uxbridge inquiry, distinguish an indoor fixture request from a concern involving a private supply, on-site wastewater or an outdoor connection, if those systems are present. Include what is known and what is uncertain. The relevant work and specialist must be identified before a visit can be agreed."
   ],
   [

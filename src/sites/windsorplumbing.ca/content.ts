@@ -276,7 +276,7 @@ export const HOME_FAQ = [
     "Before deciding to buy out or replace a rented tank, check the agreement for buyout terms, age and removal responsibilities. Compare those costs with the proposed owned unit, installation and disposal. Ask for the equipment capacity and expected household demand used in sizing, so the comparison covers the complete project rather than the tank price alone. Photograph the rating plate, fuel connection, vent and nearby shutoffs. Note any active leak and where water is collecting, but do not disturb unsafe connections. These details help establish whether a replacement can use the existing arrangement or needs changes to venting, piping or access. Confirm the proposed scope includes testing connections and removing the old equipment if required."
   ],
   [
-    "Which job guide should I read first?",
+    "Which service should I review first?",
     "Compare tank and tankless replacements by capacity, fuel, vent route and household demand. Check rental terms and include removal or connection changes when reviewing the proposed scope. Cabling may open a blockage, while hydro-jetting cleans suitable pipe walls. For recurring backups, ask whether camera inspection can identify roots, a sag or a break. If galvanized supply pipe is present, compare a branch replacement with a whole-home repipe in PEX or copper. Review access, pressure testing and applicable permit requirements. A fixture swap differs from a new basement bathroom or suite rough-in. Share fixture specifications and plans, then confirm drainage, venting, shutoffs and applicable inspections."
   ],
   [
@@ -423,9 +423,9 @@ export const LOCATIONS = {
 // Exact-site homepage copy; existing planning checklist, FAQs and CTA are preserved.
 export const HOME = {
   "h1": "Plumbing for Windsor Homes",
-  "intro": "Looking for a Windsor plumber for a blocked drain, hidden leak, fixture replacement or water heater project? Describe the symptoms and access, then use the guides below to compare the work. The responding provider must confirm scope, coverage and appointment availability before booking.",
+  "intro": "Looking for a Windsor plumber for a blocked drain, hidden leak, fixture replacement or water heater project? Describe the symptoms and access, then use the service details below to compare the work. The responding provider must confirm scope, coverage and appointment availability before booking.",
   "meta": "Looking for a Windsor plumber? Describe drain, leak, fixture or water heater work. Provider scope, coverage and scheduling require confirmation.",
-  "planningIntro": "Choose the guide for <a href=\"/services/drain-cleaning/\">drain cleaning</a>, <a href=\"/services/leak-detection/\">leak investigation</a> or <a href=\"/services/water-heaters/\">water heater replacement</a> according to the problem. Note which fixtures are affected, whether it recurs and what equipment or cleanouts can be accessed. A blockage, damaged pipe and supply leak need different assessments; confirm the proposed investigation and written scope before work is arranged.",
+  "planningIntro": "Review service details for <a href=\"/services/drain-cleaning/\">drain cleaning</a>, <a href=\"/services/leak-detection/\">leak investigation</a> or <a href=\"/services/water-heaters/\">water heater replacement</a> according to the problem. Note which fixtures are affected, whether it recurs and what equipment or cleanouts can be accessed. A blockage, damaged pipe and supply leak need different assessments; confirm the proposed investigation and written scope before work is arranged.",
   "heading": "Scope the Work Before Booking in Windsor",
   "checklist": [
     [

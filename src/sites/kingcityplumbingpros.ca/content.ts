@@ -336,7 +336,7 @@ export const HOME_FAQ = [
     "Identify the main house, basement, utility room or other building involved without assuming all share the same problem. Describe known common supplies or drains, with unknown routes marked for assessment."
   ],
   [
-    "How does this guide fit my property?",
+    "How does this service apply to my property?",
     "A request can span more than one room or building without requiring the whole system to be replaced. For a King City property, identify each affected space and whether it shares water, drainage or treatment equipment with another part of the property. Explain access constraints separately from the symptom. The assessment should establish the connection between those spaces before a broad repair scope is proposed."
   ],
   [

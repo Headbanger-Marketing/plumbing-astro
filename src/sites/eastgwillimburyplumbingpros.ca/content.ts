@@ -336,7 +336,7 @@ export const HOME_FAQ = [
     "State the proposed fixture, appliance or room and how its use will differ from the present layout. Identify current equipment and accessible connection points, noting anything that still needs inspection."
   ],
   [
-    "How does this guide fit my property?",
+    "How does this service apply to my property?",
     "A project that extends an existing system needs a clear boundary between old equipment and new work. For your East Gwillimbury inquiry, identify the new fixture or appliance and the existing connections it would depend on. Include any accessible labels and the proposed layout. A new room does not establish a need for wholesale replacement, and an existing rough-in does not confirm suitability."
   ],
   [

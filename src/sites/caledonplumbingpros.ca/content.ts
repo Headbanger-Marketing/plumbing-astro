@@ -336,7 +336,7 @@ export const HOME_FAQ = [
     "Identify municipal connections, private supply and on-site wastewater equipment only where confirmed. Describe any pump, treatment system or exposed connection in an outbuilding if it forms part of the request."
   ],
   [
-    "How does this guide fit my property?",
+    "How does this service apply to my property?",
     "Property systems must be identified at the address, not inferred from the town name. For a Caledon inquiry, state the known water source and wastewater arrangement, and say when either is uncertain. Access to equipment in an outbuilding, crawl space or lower level can also change the assessment. A private supply or septic concern may require a different specialist from a fixture repair."
   ],
   [

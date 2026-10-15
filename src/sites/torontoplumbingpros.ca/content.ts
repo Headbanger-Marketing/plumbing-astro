@@ -336,7 +336,7 @@ export const HOME_FAQ = [
     "Identify the homeowner, tenant, manager or condominium contact, and state who can approve work on the affected system. Mention concierge arrangements, a service elevator, shared shutoffs or a restricted mechanical space if any apply."
   ],
   [
-    "How does this guide fit my property?",
+    "How does this service apply to my property?",
     "A leak inside a suite and a blockage in a shared building drain can involve different responsibilities. If your Toronto property is managed or shares plumbing, identify the part you control and the person who can authorize isolation or access. A detached-home request should instead describe the affected branch and equipment. Neither a building type nor an address establishes the cause of a problem."
   ],
   [

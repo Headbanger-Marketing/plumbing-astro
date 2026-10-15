@@ -276,7 +276,7 @@ export const HOME_FAQ = [
     "Record the current fuel, tank capacity, household size, and hot-water demand at busy times. A tankless installation may require changes to gas or electrical supply, venting, or water connections, so compare the full scope rather than equipment price alone. Confirm where a new unit could be installed and whether it would remain accessible for maintenance. If the property has a well, arrange suitable water testing and share the results when comparing water heater options. Iron, sulphur, hardness, or other measured characteristics may affect maintenance considerations and equipment selection. Ask which test results support a recommendation, what routine upkeep is expected, and whether treatment equipment is a separate part of the proposed work."
   ],
   [
-    "Which job guide should I read first?",
+    "Which service should I review first?",
     "Compare tank and tankless options using fuel, household demand, space, venting, and water test results where a well supplies the property. Scope fixture or main-line clearing by affected drains, cleanout access, pipe condition, and whether recurring symptoms warrant camera inspection. Consider septic layout before choosing a method. Compare localized repairs with partial or whole-home PEX or copper replacement. Pipe material, access, water interruptions, testing, and required approvals shape the project plan. Check fixture dimensions, connections, and rough-in locations before replacing toilets, faucets, tubs, or laundry fixtures. Moving a fixture may change drain and supply work."
   ],
   [
