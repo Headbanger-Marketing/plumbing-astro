@@ -1,7 +1,6 @@
 # Plumbing Build Status — 2026-08-19
 
-> ### Fully remote 2026-08-25
-> Same model as HVAC. Source: `github.com/Headbanger-Marketing/plumbing-astro`. Live HTML: `github.com/Headbanger-Marketing/<domain>` GitHub Pages. Prefer `gh workflow run "Deploy site" -R Headbanger-Marketing/plumbing-astro -f site=<domain>` (build on GitHub). Local fallback: `scripts/deploy-site.sh <domain>`. Do not keep `dist/` or city clones on disk.
+> Historical August launch record. The inventory, placeholder NAP, indexing flags and next steps below describe that period, not current state. Current deployment uses local Mac builds and GitHub API publication; see [local tools](docs/local-tools.md) and the portfolio `CLAUDE.md`. Do not use this record as a launch checklist.
 
 **68 / 68 sites built + verified** in this repo (`plumbing-astro`, forked from `hvac-astro` as a single-trade plumbing lead-gen template). 2 pilots (`strathroyplumbing.ca`, `stthomasplumbing.ca`, committed 2026-08-07) + 66 new sites authored and built 2026-08-19.
 
@@ -132,16 +131,17 @@ All 68 sites, one line each. "Pilot" = the two original builds (fulfiller noted:
 
 Count check: 8+6+6+5+5+4+4+4+4+4+2+3+3+3+2+2+1+1+1 = **68**.
 
-## Rebuilding a site
+## Current rebuild entry point
 
 ```bash
-HVAC_SITE=<domain> ./scripts/build-site.sh --no-sync
-# e.g. HVAC_SITE=londonplumbingpros.ca ./scripts/build-site.sh --no-sync
+python3 scripts/local-deploy.py londonplumbingpros.ca             # build + plan
+python3 scripts/local-deploy.py londonplumbingpros.ca --build-only
+npm run deploy:site -- londonplumbingpros.ca --publish
 ```
 
-Runs astro build + HTML normalize + service-slug redirects, output to `dist/<domain>/`, skipping the deploy-repo sync. (Without `--no-sync` it also pushes into the deploy repo — not wanted until domains exist.) QA: `python3 scripts/qa-sweep.py`.
+These commands build on this Mac. Publication is explicit; source pushes and omitting the legacy `--no-sync` flag do not publish. See [local tools](docs/local-tools.md) for the current interface and the [shared deployment SOP](https://github.com/Headbanger-Marketing/hvac-astro/blob/main/docs/local-deployment.md) for verification and recovery.
 
-## Next steps
+## Historical next steps (August 2026; not a current task list)
 
 1. **Buy the 68 plumbing domains at Porkbun (Headbanger account)** — the plumbing half of `plumbing-duct-cleaning/bulk-batch-1.txt` (94 names) + `bulk-batch-2.txt` (42 names), which also hold the 68 duct-cleaning names. `.ca` is not API-registerable at Porkbun (CIRA `requiresValidatedAddress`) → manual dashboard registration; fund the HB account first ($0 balance); re-verify availability immediately before buying.
 2. **Replace placeholder NAP when fulfiller numbers are assigned** — real phone/street/postal per site (only ~12 towns have confirmed fulfillment via Jayden's acquired companies: Hoffmeyer — Goderich/Huron, Premier — Strathroy/St Thomas, Hayter — Sarnia/Lambton; the rest assign as rolls out).
