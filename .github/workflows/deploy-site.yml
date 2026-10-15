@@ -1,3 +1,5 @@
+# Archival cloud-build fallback. Routine builds run on the Mac via scripts/local-deploy.py.
+# Keep manual dispatch for an explicit rollback; source pushes do not run this workflow.
 name: Deploy site
 
 on:
@@ -11,10 +13,6 @@ on:
         description: Connect chat to an exact reviewed domain list without rebuilding pages
         type: boolean
         default: false
-  push:
-    branches: [main]
-    paths:
-      - "src/sites/**"
 
 concurrency:
   group: deploy-site-${{ github.workflow }}-${{ github.ref }}

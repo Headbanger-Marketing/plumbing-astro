@@ -8,13 +8,17 @@
     "dev": "astro dev",
     "build": "astro build",
     "build:site": "bash scripts/build-site.sh",
-    "build:all": "bash scripts/build-all.sh",
-    "deploy:site": "bash scripts/deploy-site.sh",
+    "build:all": "python3 scripts/local-deploy.py --all-live --build-only",
+    "deploy:site": "python3 scripts/local-deploy.py",
     "preview": "astro preview",
     "extract-configs": "python3 scripts/extract-config.py",
     "verify-parity": "python3 scripts/verify-site.py",
     "gen:chat-context": "node scripts/gen-chat-context.mjs",
-    "test:chat-context": "python3 scripts/test-chat-context.py"
+    "test:chat-context": "python3 scripts/test-chat-context.py",
+    "deploy:all": "python3 scripts/local-deploy.py --all-live",
+    "assets:prepare": "python3 scripts/prepare-local-assets.py",
+    "assets:check": "python3 scripts/prepare-local-assets.py --check",
+    "test:local-deploy": "python3 scripts/test-local-deploy.py"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

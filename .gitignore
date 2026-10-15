@@ -24,3 +24,8 @@ Icon
 # imagery pipeline internal state (manifest/credits/search cache)
 scripts/.unsplash-cache/
 scripts/__pycache__/
+
+# Local build plans, receipts and Python caches
+.local-deploy/
+__pycache__/
+*.pyc

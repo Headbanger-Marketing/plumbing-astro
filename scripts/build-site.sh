@@ -1,66 +1,8 @@
 #!/usr/bin/env bash
-# Build one site end-to-end: astro build + normalize + sync into deploy repo.
-# Clones the Pages repo on demand (depth 1) if it isn't already on disk.
-#
-# Usage:
-#   HVAC_SITE=londonplumbingpros.ca ./scripts/build-site.sh
-#   HVAC_SITE=londonplumbingpros.ca ./scripts/build-site.sh --dry-run
-#   HVAC_SITE=londonplumbingpros.ca ./scripts/build-site.sh --no-sync   # build+normalize only
+# Build on this machine with complete assets; never clone a city repository.
 set -euo pipefail
-
-ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-cd "$ROOT"
-
-SITE="${HVAC_SITE:-}"
-if [ -z "$SITE" ]; then
-  echo "ERROR: HVAC_SITE env var required." >&2
-  echo "Usage: HVAC_SITE=londonplumbingpros.ca $0 [--dry-run] [--no-sync]" >&2
-  exit 1
-fi
-
-NO_SYNC=0
-DRY_RUN=0
-for arg in "$@"; do
-  case "$arg" in
-    --no-sync) NO_SYNC=1 ;;
-    --dry-run) DRY_RUN=1 ;;
-  esac
-done
-
-# Ensure Node 22 (Astro 7 requires >=22.12).
-if [ -f "$HOME/.nvm/nvm.sh" ]; then
-  unset npm_config_prefix  # nvm refuses to load under npm_config_prefix (set by `npm run`)
-  source "$HOME/.nvm/nvm.sh"
-  nvm use 22 >/dev/null
-fi
-
-echo "[build-site] === $SITE ==="
-
-# 1. astro build
-echo "[build-site] astro build..."
-HVAC_SITE="$SITE" npm run build
-
-# 2. normalize HTML (BS4 post-process to match deployed format)
-echo "[build-site] normalize..."
-HVAC_SITE="$SITE" python3 scripts/normalize.py
-
-# 3. generate redirect pages for old WP service slugs -> Astro slugs
-echo "[build-site] redirects..."
-HVAC_SITE="$SITE" python3 scripts/gen-service-redirects.py
-
-# 4. sync into deploy repo
-if [ $NO_SYNC -eq 1 ]; then
-  echo "[build-site] --no-sync: skipping deploy sync"
-  echo "[build-site] Done. Output at dist/$SITE/"
-else
-  echo "[build-site] clone-if-missing..."
-  ./scripts/clone-deploy-repo.sh "$SITE"
-  echo "[build-site] sync..."
-  if [ $DRY_RUN -eq 1 ]; then
-    ./scripts/sync-deploy-repo.sh "$SITE" --dry-run
-  else
-    ./scripts/sync-deploy-repo.sh "$SITE"
-  fi
-fi
-
-echo "[build-site] OK"
+script_dir="$(cd "$(dirname "$0")" && pwd)"
+site="${HVAC_SITE:-${ELECTRICAL_SITE:-}}"
+if [ "$#" -gt 0 ] && [[ "$1" != --* ]]; then site="$1"; shift; fi
+if [ -z "$site" ]; then echo "Set HVAC_SITE/ELECTRICAL_SITE or pass a domain" >&2; exit 1; fi
+exec python3 "$script_dir/local-deploy.py" "$site" --build-only "$@"

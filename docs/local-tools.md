@@ -8,4 +8,21 @@ Run with Node 22.12+ from the builder checkout. In a copied checkout or worktree
 - `npm run extract-configs -- <domain>` calls the existing Python extractor. `--all` is explicit and rewrites configs; use it only for an intended extraction. Do not run extraction just to validate a command alias.
 - `npm run verify-parity -- <domain> [--new] [--strict]` calls the existing Python verifier. Existing parity mode needs the corresponding local comparison files.
 
-These commands do not publish chat context or rebuild live sites. Production site updates use the builder's GitHub Actions workflow described in the portfolio runbook.
+These maintenance commands do not publish chat context or rebuild live sites.
+
+## Local build and publication
+
+Build on this Mac, then publish compiled output to the existing city GitHub Pages repository through the GitHub API. Use the existing authenticated `gh` CLI; do not clone city repositories.
+
+```sh
+python3 scripts/local-deploy.py <domain>               # build + publication plan
+python3 scripts/local-deploy.py <domain> --build-only  # build only
+npm run deploy:site -- <domain> --publish              # build + publish
+npm run deploy:all                                    # build + plan for approved live sites
+npm run deploy:all -- --publish                       # build + publish approved live sites
+python3 scripts/local-deploy.py --publish-plan <plan.json>
+```
+
+The default builds locally and saves a publication plan. `--all-live` selects the existing `APPROVED_SITES` in `scripts/rollout-chat.py`, excluding staged configs. A blocking lock serializes builds within this builder. The local helper restores required image assets omitted by sparse checkout and performs the build's normalization, redirects and sharing-image generation. Use Python with BeautifulSoup and the locked npm dependencies.
+
+A source push does not publish the site. The cloud workflow is retained only for an explicit rollback, with no automatic source-push trigger. See the portfolio `CLAUDE.md` runbook for scope and the other site families.
