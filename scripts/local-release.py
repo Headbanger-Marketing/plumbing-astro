@@ -36,6 +36,16 @@ def scope(paths, allowed, canaries):
 def choose_pilots(domains, preferred):
     return (list(dict.fromkeys([d for d in preferred if d in domains] + sorted(domains))))[:2]
 
+def operational_only(paths):
+    relevant=[p for p in paths if not p.startswith(('docs/','.github/','.githooks/'))
+              and p not in ('README.md','CLAUDE.md','AGENTS.md','.gitignore')]
+    return bool(relevant) and all(p.startswith(('scripts/local-release','scripts/release-','scripts/test-release'))
+                                 or p=='release-policy.json' for p in relevant)
+
+def assert_source_current(api,sha):
+    current=api.request(f'/repos/{DEPLOY.OWNER}/{DEPLOY.engine()}/git/ref/heads/main')['object']['sha']
+    if current!=sha:raise ValueError('Source main advanced; stop this artifact and build the newer commit')
+
 def archive(dist, folder, blobs):
     entries = []
     for p in sorted(dist.rglob('*')):
@@ -144,6 +154,7 @@ def run_release(release, base, allowed, *, publish=False, domains=None, require_
     if sha!=command(['git','rev-parse','origin/main'],True):raise ValueError('Release source must equal pushed origin/main')
     live=set(allowed)&set(DEPLOY.approved_sites())
     changes=command(['git','diff','--name-only',base,sha],True).splitlines()
+    require_no_changes = require_no_changes or operational_only(changes)
     selected=sorted(set(domains)) if domains else scope(changes,live,policy['canaries'])
     if any(d not in live for d in selected):raise ValueError('Unregistered or staged publication target')
     if not selected:return {'status':'no-site-changes','source_commit':sha,'domains':[]}
@@ -166,6 +177,7 @@ def run_release(release, base, allowed, *, publish=False, domains=None, require_
             for domain in selected:
                 folder=release/domain;folder.mkdir(exist_ok=True)
                 dist,fingerprint,count=DEPLOY.build(domain)
+                assert_source_current(api,sha)
                 plan=DEPLOY.plan_build(api,dist,domain,fingerprint,count,folder/'plan.json')
                 if require_no_changes and (plan['deletions'] or any(r['changed'] for r in plan['files'])):
                     raise ValueError('Rehearsal would change deployed files; reconcile current source/public work first: '+domain)
@@ -174,6 +186,11 @@ def run_release(release, base, allowed, *, publish=False, domains=None, require_
                 print('Prepared',domain,flush=True)
             manifest['steps']['prepared']=True;save(manifest_path,manifest)
         local_jobs=[];public_jobs=[]
+        if require_no_changes:
+            for domain in selected:
+                plan=json.loads((release/domain/'plan.json').read_text())
+                if plan['deletions'] or any(r['changed'] for r in plan['files']):
+                    raise ValueError('Controller-only validation cannot change deployed output: '+domain)
         for domain in manifest['pilots']:
             dist=ROOT/'dist'/domain;restore(release/domain,dist,blobs)
             for route in routes(dist):
@@ -198,6 +215,7 @@ def run_release(release, base, allowed, *, publish=False, domains=None, require_
         for domain in ordered:
             folder=release/domain;dist=ROOT/'dist'/domain
             restore(folder,dist,blobs)
+            assert_source_current(api,sha)
             plan=json.loads((folder/'plan.json').read_text());receipt_path=folder/'receipt.json'
             if receipt_path.exists():
                 receipt=json.loads(receipt_path.read_text())

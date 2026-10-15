@@ -8,9 +8,10 @@ import { pathToFileURL } from 'node:url';
 export function regressions(before, after, policy = {}) {
   const errors = [];
   if (after.overflow) errors.push('Horizontal overflow');
-  for (const key of ['header', 'main', 'footer', 'quoteCtas']) {
+  for (const key of ['header', 'main', 'footer']) {
     if (!after[key]) errors.push(`Missing ${key}`);
   }
+  if (before?.quoteCtas && !after.quoteCtas) errors.push('Existing quote CTAs removed');
   for (const pair of after.headingPairs) {
     const old = before?.headingPairs.find(p => p.key === pair.key);
     if (!pair.sideBySide && pair.gap < 2 && (!old || old.gap >= 2)) {

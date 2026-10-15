@@ -26,8 +26,13 @@ def mirror_head(state,name):
     if not mirror.exists():
         mirror.parent.mkdir(parents=True,exist_ok=True)
         helper='!'+shlex.quote(str(state/'bin/gh'))+' auth git-credential'
-        subprocess.run(['git','-c','credential.helper=','-c','credential.helper='+helper,'clone','--bare',
-            'https://github.com/Headbanger-Marketing/'+name+'.git',str(mirror)],check=True)
+        stage=mirror.with_name(name+'.fetching.git')
+        if stage.exists():shutil.rmtree(stage)
+        subprocess.run(['git','-c','credential.helper=','-c','credential.helper='+helper,'clone','--bare','--filter=blob:none',
+            'https://github.com/Headbanger-Marketing/'+name+'.git',str(stage)],check=True)
+        git(state,stage,'config','--local','credential.helper','')
+        git(state,stage,'config','--local','--add','credential.helper',helper)
+        stage.rename(mirror)
     git(state,mirror,'fetch','origin','+refs/heads/main:refs/remotes/origin/main')
     return mirror,git(state,mirror,'rev-parse','refs/remotes/origin/main')
 
@@ -39,6 +44,26 @@ def github_status(state,name,sha,status,description):
     except subprocess.CalledProcessError:
         print(name+': could not update GitHub commit status; local release record retained',flush=True)
 
+def clean_source(state,mirror,source):
+    """Drop reproducible source/dependencies only; plans, receipts and artifacts remain."""
+    status=subprocess.check_output(['git','-C',str(source),'status','--porcelain'],text=True).strip()
+    if status:
+        print('Retaining unexpectedly modified release source: '+str(source),flush=True)
+        return
+    git(state,mirror,'worktree','remove','--force',str(source))
+    pool=source.parent/'hvac-assets'
+    if pool.is_symlink():pool.unlink()
+    if source.parent.exists() and not any(source.parent.iterdir()):source.parent.rmdir()
+
+def supersede(state,mirror,record,path,new_sha):
+    old=record['pending'];git(state,mirror,'merge-base','--is-ancestor',old['source_commit'],new_sha)
+    for receipt_path in Path(old['release']).glob('*/receipt.json'):
+        if read(receipt_path)['status'] not in ('published','already-current'):
+            raise ValueError('Uncertain publication must be reconciled before superseding')
+    record.setdefault('superseded_releases',[]).append(old)
+    record.pop('pending',None);record.pop('error',None);record['blocked']=False
+    save(path,record)
+
 def tick(state, *, retry=None, rehearsal=None, publish=True):
     config=read(state/'config.json');results=[]
     if not config:raise ValueError('Worker is not installed')
@@ -49,9 +74,15 @@ def tick(state, *, retry=None, rehearsal=None, publish=True):
         record_path=state/'builders'/name/'state.json'
         record=read(record_path,{'last_verified_source':settings['baseline'],'last_processed_source':settings['baseline']})
         try:
-            if record.get('blocked') and retry!=name and not rehearsal:
+            if record.get('blocked') and not record.get('pending') and retry!=name and not rehearsal:
                 results.append({'builder':name,'status':'blocked','error':record.get('error')});continue
             mirror,sha=mirror_head(state,name)
+            if record.get('blocked') and record.get('pending') and retry!=name and not rehearsal:
+                if sha!=record['pending']['source_commit']:
+                    supersede(state,mirror,record,record_path,sha)
+                    results.append({'builder':name,'status':'superseded','next_source':sha})
+                else:results.append({'builder':name,'status':'blocked','error':record.get('error')})
+                continue
             # Worker updates are versioned in the canonical HVAC source; activate on next launch.
             if name=='hvac-astro':
                 updated=git(state,mirror,'show',sha+':scripts/release-worker.py')+'\n'
@@ -64,8 +95,11 @@ def tick(state, *, retry=None, rehearsal=None, publish=True):
                 results.append({'builder':name,'status':'current','source_commit':sha});continue
             if record.get('pending') and not rehearsal:
                 pending=record['pending'];release=Path(pending['release']);sha=pending['source_commit'];base=pending['base']
-                if git(state,mirror,'rev-parse','origin/main')!=sha:
-                    raise ValueError('Main advanced during a stopped release; reconcile or roll back before replacing its plans')
+                newest=git(state,mirror,'rev-parse','origin/main')
+                if newest!=sha:
+                    supersede(state,mirror,record,record_path,newest)
+                    results.append({'builder':name,'status':'superseded','source_commit':sha,'next_source':newest})
+                    continue
             else:
                 base=sha if rehearsal else record['last_verified_source']
                 subprocess.run(['git','--git-dir',str(mirror),'merge-base','--is-ancestor',base,sha],check=True)
@@ -101,7 +135,25 @@ def tick(state, *, retry=None, rehearsal=None, publish=True):
                 save(record_path,record)
             github_status(state,name,sha,'success','Local release verified: '+str(len(result['domains']))+' sites' if publish else 'Local regression preview passed; no publication')
             results.append({'builder':name,'source_commit':sha,'status':result['status'],'release':str(release)})
+            if publish:
+                try:clean_source(state,mirror,source)
+                except Exception as cleanup_error:print('Release verified; source cleanup deferred: '+str(cleanup_error),flush=True)
         except Exception as error:
+            if not record.get('pending') and not rehearsal:
+                record.update(blocked=False,last_read_error=str(error));save(record_path,record)
+                results.append({'builder':name,'status':'read-retry-pending','error':str(error)})
+                continue
+            if record.get('pending') and not rehearsal:
+                try:
+                    mirror,newest=mirror_head(state,name)
+                    if newest!=record['pending']['source_commit']:
+                        old_sha=record['pending']['source_commit']
+                        supersede(state,mirror,record,record_path,newest)
+                        github_status(state,name,old_sha,'failure','Superseded by newer main; known publication receipts retained')
+                        results.append({'builder':name,'status':'superseded','next_source':newest})
+                        continue
+                except Exception:
+                    pass  # An uncertain receipt or rewritten main must remain blocked.
             record.update(blocked=True,error=str(error));save(record_path,record)
             if record.get('pending'):github_status(state,name,record['pending']['source_commit'],'failure','Release stopped; inspect the Mac release log')
             results.append({'builder':name,'status':'blocked','error':str(error)})

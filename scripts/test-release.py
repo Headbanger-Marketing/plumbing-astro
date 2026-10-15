@@ -29,6 +29,10 @@ class ScopeTests(unittest.TestCase):
         policy=json.loads((R.ROOT/'release-policy.json').read_text())
         self.assertEqual(len(policy['canaries']),2)
         self.assertTrue(set(policy['canaries'])<=R.DEPLOY.approved_sites())
+    def test_controller_only_changes_are_read_only_validations(self):
+        self.assertTrue(R.operational_only(['scripts/release-worker.py','docs/local-release.md']))
+        self.assertFalse(R.operational_only(['scripts/release-worker.py','src/pages/index.astro']))
+        self.assertFalse(R.operational_only(['docs/local-release.md']))
 
 class ArtifactTests(unittest.TestCase):
     def setUp(self):
@@ -146,11 +150,18 @@ class WorkerTests(unittest.TestCase):
             self.assertEqual(W.tick(self.state)[0]['status'],'blocked')
         record=W.read(self.path);self.assertTrue(record['blocked']);self.assertEqual(record['pending']['source_commit'],B)
         self.assertEqual(record['last_processed_source'],A)
-    def test_new_main_cannot_replace_pending_plans(self):
+    def test_new_main_uses_fresh_plans_without_repeating_old_writes(self):
         r=W.read(self.path);r['pending']={'source_commit':B,'base':A,'release':str(self.state/'old')};W.save(self.path,r)
         with patch.object(W,'mirror_head',return_value=(self.state/'mirror',C)),patch.object(W,'git',return_value=C),patch.object(W,'github_status'),patch.object(W.subprocess,'run') as run:
-            result=W.tick(self.state,retry=self.name)[0];self.assertEqual(result['status'],'blocked');run.assert_not_called()
-        self.assertIn('Main advanced',W.read(self.path)['error'])
+            result=W.tick(self.state,retry=self.name)[0];self.assertEqual(result['status'],'superseded');run.assert_not_called()
+        record=W.read(self.path);self.assertNotIn('pending',record);self.assertEqual(record['last_verified_source'],A)
+        self.assertEqual(record['superseded_releases'][0]['source_commit'],B)
+    def test_new_main_cannot_bypass_an_uncertain_write(self):
+        release=self.state/'old';W.save(release/'one.ca/receipt.json',{'status':'publication-outcome-unknown'})
+        record=W.read(self.path);record['pending']={'source_commit':B,'base':A,'release':str(release)};W.save(self.path,record)
+        with patch.object(W,'mirror_head',return_value=(self.state/'mirror',C)),patch.object(W,'git',return_value=C),patch.object(W,'github_status'):
+            self.assertEqual(W.tick(self.state,retry=self.name)[0]['status'],'blocked')
+        self.assertIn('pending',W.read(self.path))
     def test_abandon_refuses_uncertain_publication(self):
         release=self.state/'old';W.save(release/'one.ca/receipt.json',{'status':'publication-outcome-unknown'})
         r=W.read(self.path);r['pending']={'release':str(release)};W.save(self.path,r)
@@ -160,6 +171,18 @@ class WorkerTests(unittest.TestCase):
         release=self.state/'old';release.mkdir();r=W.read(self.path);r['pending']={'release':str(release)};r['blocked']=True;W.save(self.path,r)
         W.abandon(self.state,self.name);r=W.read(self.path)
         self.assertNotIn('pending',r);self.assertFalse(r['blocked']);self.assertEqual(len(r['abandoned_releases']),1)
+    def test_modified_release_source_is_not_removed(self):
+        with patch.object(W.subprocess,'check_output',return_value=' M source.txt'),patch.object(W,'git') as git:
+            W.clean_source(self.state,self.state/'mirror',self.state/'release/source');git.assert_not_called()
+    def test_offline_fetch_retries_without_creating_a_deployment(self):
+        with patch.object(W,'mirror_head',side_effect=OSError('offline')):
+            self.assertEqual(W.tick(self.state)[0]['status'],'read-retry-pending')
+        self.assertFalse(W.read(self.path)['blocked']);self.assertNotIn('pending',W.read(self.path))
+    def test_new_pushed_fix_supersedes_known_stopped_release(self):
+        record=W.read(self.path);record.update(blocked=True,pending={'source_commit':B,'base':A,'release':str(self.state/'old')});W.save(self.path,record)
+        with patch.object(W,'mirror_head',return_value=(self.state/'mirror',C)),patch.object(W,'git',return_value=''):
+            self.assertEqual(W.tick(self.state)[0]['status'],'superseded')
+        self.assertNotIn('pending',W.read(self.path))
 
 class PipelineTests(unittest.TestCase):
     def setUp(self):
@@ -191,6 +214,7 @@ class PipelineTests(unittest.TestCase):
         def browser(release,name,jobs,**kwargs):self.events.append(name);return release/name/'report.json'
         patcher(R.DEPLOY,'build',build);patcher(R.DEPLOY,'plan_build',plan);patcher(R.DEPLOY,'publish',publish)
         patcher(R,'verify_live',verify);patcher(R,'browser',browser)
+        patcher(R,'assert_source_current',lambda api,sha:None)
     def run_pipeline(self):return R.run_release(self.release,B,{'one.ca','two.ca','three.ca'},publish=True)
     def test_both_pilots_verify_before_remainder(self):
         result=self.run_pipeline();self.assertEqual(result['status'],'verified')
@@ -227,5 +251,16 @@ class PipelineTests(unittest.TestCase):
         with patch.object(R.DEPLOY,'plan_build',side_effect=changed),self.assertRaisesRegex(ValueError,'Rehearsal would change'):
             R.run_release(self.release,B,{'one.ca','two.ca','three.ca'},publish=True,require_no_changes=True)
         self.assertFalse(any(e.startswith('publish:') for e in self.events))
+    def test_new_source_main_stops_publication_of_old_artifact(self):
+        with patch.object(R,'assert_source_current',side_effect=ValueError('Source main advanced')):
+            with self.assertRaisesRegex(ValueError,'advanced'):self.run_pipeline()
+        self.assertFalse(any(e.startswith('publish:') for e in self.events))
+    def test_source_is_rechecked_before_each_site_publication(self):
+        calls=[]
+        def advance(api,sha):
+            calls.append(True)
+            if len(calls)==6:raise ValueError('Source main advanced')
+        with patch.object(R,'assert_source_current',side_effect=advance),self.assertRaisesRegex(ValueError,'advanced'):self.run_pipeline()
+        self.assertEqual([e for e in self.events if e.startswith('publish:')],['publish:one.ca','publish:two.ca'])
 
 if __name__=='__main__':unittest.main()
