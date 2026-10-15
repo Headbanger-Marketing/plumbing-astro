@@ -1,6 +1,6 @@
 ---
 // build.py::header() + brand() + nav_links()
-// The shared topbar + site header. Active nav item gets aria-current="page".
+// The shared site header. Active nav item gets aria-current="page".
 import { icon } from '../lib/icons';
 import { SERVICES } from '../data/content';
 import { verticalCopy } from '../lib/utils';
@@ -51,15 +51,6 @@ const navHtml = `
 ---
 
 <a class="skip-link" href="#main">Skip to content</a>
-<div class="topbar">
-  <div class="container">
-    <div class="topbar__left">
-      <span class="topbar__item"><Fragment set:html={icon('clock', '', 15)} /> Online Service Requests</span>
-      <span class="topbar__item topbar__item--areas"><Fragment set:html={icon('pin', '', 15)} /> {site.enquirySite ? `Requests for ${site.city}` : `Serving ${site.city} & ${site.county}`}</span>
-    </div>
-    <a class="topbar__right" href="/contact/#quote"><Fragment set:html={icon('check-sm', '', 15)} /> Get A Free Quote</a>
-  </div>
-</div>
 <header class="site-header">
   <div class="container navbar">
     <a class="brand" href="/">
