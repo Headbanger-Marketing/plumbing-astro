@@ -7,6 +7,8 @@
   "visual": {
     "allowFontChanges": false,
     "allowComponentRemoval": false,
-    "allowFormChanges": false
+    "allowFormChanges": false,
+    "allowImageChanges": false,
+    "allowLayoutChanges": false
   }
 }

@@ -22,6 +22,7 @@ def git(state,mirror,*args):
         '--git-dir',str(mirror),*args],text=True).strip()
 
 def mirror_head(state,name):
+    if name not in BUILDERS:raise ValueError('Only registered source builders may be mirrored; city repositories are not cloned')
     mirror=state/'mirrors'/(name+'.git')
     if not mirror.exists():
         mirror.parent.mkdir(parents=True,exist_ok=True)

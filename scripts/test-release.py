@@ -178,6 +178,10 @@ class WorkerTests(unittest.TestCase):
         with patch.object(W,'mirror_head',side_effect=OSError('offline')):
             self.assertEqual(W.tick(self.state)[0]['status'],'read-retry-pending')
         self.assertFalse(W.read(self.path)['blocked']);self.assertNotIn('pending',W.read(self.path))
+    def test_city_repository_cannot_be_cloned_as_a_builder(self):
+        with patch.object(W.subprocess,'run') as run,self.assertRaisesRegex(ValueError,'city repositories'):
+            W.mirror_head(self.state,'one.ca')
+        run.assert_not_called()
     def test_new_pushed_fix_supersedes_known_stopped_release(self):
         record=W.read(self.path);record.update(blocked=True,pending={'source_commit':B,'base':A,'release':str(self.state/'old')});W.save(self.path,record)
         with patch.object(W,'mirror_head',return_value=(self.state/'mirror',C)),patch.object(W,'git',return_value=''):

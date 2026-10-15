@@ -17,6 +17,9 @@ test('explicit policy permits reviewed form changes',()=>{const a=good();a.forms
 test('preserves existing conversion CTAs',()=>{const a=good();a.quoteCtas=0;assert.match(regressions(good(),a).join(),/CTAs/);});
 test('preserves intentional legal pages without a mobile CTA',()=>{const a=good();a.quoteCtas=0;assert.deepEqual(regressions(a,a),[]);});
 test('catches webfont loading failures',()=>{const a=good();a.fontErrors=['Inter'];assert.match(regressions(good(),a).join(),/Webfont/);});
+test('preserves photographs',()=>{const a=good(),b=good();a.imageSources=['hero.jpg'];b.imageSources=['blank.svg'];assert.match(regressions(a,b).join(),/photographs/);});
+test('preserves service and quote-form order',()=>{const a=good(),b=good();a.flow=['hero','form','services'];b.flow=['hero','services','form'];assert.match(regressions(a,b).join(),/order/);});
+test('preserves the desktop hero/form layout',()=>{const a=good(),b=good();a.flow=b.flow=['hero','form'];a.heroFormSideBySide=true;b.heroFormSideBySide=false;assert.match(regressions(a,b).join(),/placement/);});
 test('headless fixtures reject zero gaps and block POST requests',async()=>{
   const root=await fs.mkdtemp(path.join(os.tmpdir(),'release-browser-test-'));
   try {

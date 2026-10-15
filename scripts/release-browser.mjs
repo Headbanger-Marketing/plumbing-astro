@@ -33,13 +33,22 @@ export function regressions(before, after, policy = {}) {
   if (before && !policy.allowFormChanges && JSON.stringify(before.forms) !== JSON.stringify(after.forms)) {
     errors.push('Form fields, consent, action or routing attributes changed');
   }
+  if (before?.imageSources && !policy.allowImageChanges && JSON.stringify(before.imageSources) !== JSON.stringify(after.imageSources)) {
+    errors.push('Existing main photographs or hero background changed');
+  }
+  if (before?.flow && !policy.allowLayoutChanges) {
+    let position = 0;
+    for (const item of after.flow || []) if (item === before.flow[position]) position++;
+    if (position !== before.flow.length) errors.push('Landing-page component order changed');
+    if (before.heroFormSideBySide != null && before.heroFormSideBySide !== after.heroFormSideBySide) errors.push('Hero/form placement changed');
+  }
   for (const button of after.buttons) {
     if (button.height < 38 || !Number.isFinite(button.lineHeight)) errors.push('Invalid CTA dimensions');
   }
   return errors;
 }
 
-function metrics() {
+function metrics(domain) {
   const main = document.querySelector('main');
   const visible = el => el.getBoundingClientRect().width > 0 && el.getBoundingClientRect().height > 0;
   const headings = [...(main?.querySelectorAll('h1,h2,h3,h4') || [])].filter(visible);
@@ -69,10 +78,24 @@ function metrics() {
       hiddenValue: el.type === 'hidden' && !/url|page|source|timestamp|session|token/i.test(el.name) ? el.value : undefined,
     })), consent: [...form.querySelectorAll('[class*="consent"], [class*="privacy"]')].map(el => el.textContent.trim()),
   }));
+  const normalizeImage = value => {
+    try {const u = new URL(value, location.href);return [domain,location.hostname].includes(u.hostname) ? '<site>'+u.pathname+u.search : u.href;}
+    catch {return value;}
+  };
+  const hero=main?.querySelector('.hero,.page-hero'), heroHeading=hero?.querySelector('h1'), heroForm=hero?.querySelector('form');
+  let heroFormSideBySide=null;
+  if (heroHeading && heroForm && visible(heroHeading) && visible(heroForm)) {
+    const a=heroHeading.getBoundingClientRect(), b=heroForm.getBoundingClientRect();
+    heroFormSideBySide=a.right<=b.left+2 || b.right<=a.left+2;
+  }
+  const imageSources=[...(main?.querySelectorAll('img') || [])].map(el=>normalizeImage(el.getAttribute('src') || ''));
+  if (hero) imageSources.push(getComputedStyle(hero).backgroundImage.replace(/url\(["']?([^"')]+)["']?\)/g,(_,url)=>`url(${normalizeImage(url)})`));
+  const flow=[...(main?.querySelectorAll('.hero,.page-hero,.svc-grid,.svc-card,.process-grid,form,[id="quote"],[id="services"],[id="process"],[id="faq"]') || [])]
+    .filter(visible).map(el=>el.tagName==='FORM'?'form':el.id || ['hero','page-hero','svc-grid','svc-card','process-grid'].find(c=>el.classList.contains(c)));
   return {overflow: document.documentElement.scrollWidth > innerWidth + 2,
     header: !!document.querySelector('header'), main: !!main, footer: !!document.querySelector('footer'),
     quoteCtas: [...document.querySelectorAll('a,button')].filter(el => visible(el) && /get a free quote/i.test(el.textContent)).length,
-    images: main?.querySelectorAll('img').length || 0, fonts, forms, headingPairs, buttons,
+    images: main?.querySelectorAll('img').length || 0, imageSources, flow, heroFormSideBySide, fonts, forms, headingPairs, buttons,
     fontErrors: [...document.fonts].filter(face => face.status === 'error').map(face => face.family)
       .concat(document.fonts.status === 'loading' ? ['fonts still loading'] : []),
     components: Object.fromEntries(['.hero', '.page-hero', '.quote-card', '.svc-grid', '.process-grid', 'form']
@@ -137,7 +160,7 @@ export async function check(spec) {
           const response = await page.goto(url.href, {waitUntil: 'load', timeout: 45000});
           if (!response || response.status() !== 200) throw Error(`HTTP ${response?.status()}`);
           await page.evaluate(() => Promise.race([document.fonts.ready, new Promise(resolve => setTimeout(resolve, 8000))]));
-          data = await page.evaluate(metrics);
+          data = await page.evaluate(metrics, job.domain);
           data.fontErrors.push(...fontFailures);
           const before = prior.results.find(r => r.id === id)?.metrics;
           errors = spec.capture ? [] : regressions(before, data, spec.policy);
