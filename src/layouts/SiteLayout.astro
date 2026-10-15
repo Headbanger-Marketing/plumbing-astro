@@ -6,6 +6,9 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { loadSite } from '../lib/load-site';
 import { siteLogoSrc, siteOgImage } from '../lib/logo-asset';
+import { createHash } from 'node:crypto';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 
 export interface Props {
   title: string;
@@ -48,6 +51,10 @@ const FAVICON = site.enquirySite
   ? `<link rel="icon" type="${logoHref.endsWith('.svg') ? 'image/svg+xml' : 'image/png'}" href="${logoHref}"><link rel="apple-touch-icon" href="${logoHref}">`
   : `<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">`;
 const GOOGLE_FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap">`;
+// Version CSS from its bytes so future fixes cannot reuse stale browser/CDN assets.
+const stylesheetVersion = createHash('sha256')
+  .update(readFileSync(resolve(process.cwd(), 'public/assets/css/styles.css')))
+  .digest('hex').slice(0, 12);
 ---
 
 <!DOCTYPE html>
@@ -80,7 +87,7 @@ const GOOGLE_FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"
 <meta name="twitter:image" content={img}>
 <Fragment set:html={FAVICON} />
 <Fragment set:html={GOOGLE_FONTS} />
-<link rel="stylesheet" href="/assets/css/styles.css?v=20261013-audit4">
+<link rel="stylesheet" href={`/assets/css/styles.css?v=${stylesheetVersion}`}>
 {site.enquirySite && <style is:inline set:html={`:root { --navy: ${site.palette.navy}; --accent: ${site.palette.accent}; --accent2: ${site.palette.accent2}; }`} />}
 {/* Opt-in per-site hero background (config media.heroImage): same-specificity
     rule AFTER the stylesheet, so it wins the cascade over the shared hero.webp
