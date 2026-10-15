@@ -7,7 +7,7 @@
 // wrong OG card. This script regenerates a correctly-branded og-default.png
 // per site so the shared default is no longer load-bearing.
 //
-// Writes to dist/<domain>/assets/img/og-default.png so deploy-all.sh
+// Writes to dist/<domain>/assets/img/og-transparent-20261014.png so deploy-all.sh
 // (which `cp -R dist/<site>/assets/img/. -> deploy_repo/`)
 // carries the right card on every deploy.
 //
@@ -73,11 +73,11 @@ async function buildOG(cfg, outPath, barWidth) {
   const base = `${outPath}.base.png`;
   await sharp(Buffer.from(svg)).png().toFile(base);
 
-  // Prefer the transparent footer twin (logos-trans/) — the white-background
-  // original composited on navy showed as a white box (same bug as the footer).
+  // Use the same approved transparent artwork as the header and footer.
   const logoSrc = cfg.logo.endsWith('.svg')
     ? `${LOGO_DIR}/${cfg.logo}`
-    : existsSync(`${LOGO_DIR}-trans/${cfg.logo}`) ? `${LOGO_DIR}-trans/${cfg.logo}` : `${LOGO_DIR}/${cfg.logo}`;
+    : `${ROOT}public/assets/brand-media/${cfg.domain}-transparent-v1.png`;
+  if (!existsSync(logoSrc)) throw new Error(`Missing approved logo asset: ${logoSrc}`);
   const logoPre = `${outPath}.logo.png`;
   await sharp(logoSrc)
     .resize(cfg.enquirySite ? 280 : 380, cfg.enquirySite ? 280 : 380, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
@@ -133,9 +133,11 @@ for (const cfg of configs) {
   if (!cfg.enquirySite && !existsSync(logoPath)) { console.error(`[${cfg.domain}] MISSING logo ${cfg.logo}`); fail++; continue; }
   const outDir = `${DIST}/${cfg.domain}/assets/img`;
   if (!existsSync(outDir)) mkdirSync(outDir, { recursive: true });
-  const outPath = `${outDir}/og-default.png`;
+  const outPath = `${outDir}/${cfg.enquirySite ? 'og-default.png' : 'og-transparent-20261014.png'}`;
   try {
     await buildOG(cfg, outPath, widthOf.get(cfg.domain));
+    // Retain the site's own card at its legacy URL as well as the fresh sharing URL.
+    if (!cfg.enquirySite) copyFileSync(outPath, `${outDir}/og-default.png`);
     ok++;
   } catch (e) {
     console.error(`[${cfg.domain}] FAIL: ${e.message}`); fail++;
@@ -143,3 +145,4 @@ for (const cfg of configs) {
 }
 try { await import('node:fs').then(fs => fs.unlinkSync(tmpExtract)); } catch {}
 console.log(`OG images: ${ok} generated, ${fail} failed.`);
+if (fail) process.exitCode = 1;

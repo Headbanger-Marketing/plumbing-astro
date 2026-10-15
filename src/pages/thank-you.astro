@@ -152,14 +152,13 @@ const partnerLogo = partnerSlug ? `/assets/img/partners/${partnerSlug}.png` : ''
     gap: 8px;
     flex-wrap: wrap;
   }
-  /* Partner badge: white card so black-text logos (Jayden's) read; sits
-     right under the H1 so the brand is high-visibility. */
+  /* Transparent logo wrapper retains the existing artwork and spacing. */
   .ty__partner-badge {
-    background: var(--surface);
-    border: 1px solid var(--line, #e2e8f0);
+    background: transparent;
+    border: 1px solid transparent;
     border-radius: 14px;
     padding: 14px 22px;
-    box-shadow: 0 4px 14px rgba(15, 37, 68, .06);
+    box-shadow: none;
     display: inline-flex;
     align-items: center;
     justify-content: center;

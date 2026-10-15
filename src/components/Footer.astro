@@ -1,6 +1,6 @@
 ---
 // build.py::footer() + the mobile-bar + the main.js script tag.
-import { existsSync } from 'node:fs';
+import { siteLogoSrc } from '../lib/logo-asset';
 import { icon } from '../lib/icons';
 import { SERVICES } from '../data/content';
 import { verticalCopy } from '../lib/utils';
@@ -13,18 +13,8 @@ interface Props {
 }
 const { site, svcKeys, showQuoteBar = true } = Astro.props;
 
-// The footer sits on navy: prefer the transparent twin (logos-trans/, made by
-// scripts/make-logos-transparent.py) over the white-background original.
-// Header, favicon, and schema.org keep the white original. SVG logos and
-// already-transparent PNGs have no twin and keep their original path.
-const footerLogo = (() => {
-  const name = site.media?.logo;
-  if (!name) return '/assets/img/logo.png';
-  if (name.endsWith('.svg')) return `/assets/img/logos/${name}`;
-  return existsSync(`public/assets/img/logos-trans/${name}`)
-    ? `/assets/img/logos-trans/${name}`
-    : `/assets/img/logos/${name}`;
-})();
+// Header and footer use the same approved transparent artwork.
+const footerLogo = siteLogoSrc(site);
 
 const vc = verticalCopy(site);
 const svc = vc.hasServicesNav

@@ -7,6 +7,7 @@
 
 import type { SiteConfig } from '../lib/types';
 import { verticalCopy } from './utils';
+import { siteLogoSrc, siteOgImage } from './logo-asset';
 
 
 // Decode HTML entities used in display strings before placing inside JSON-LD.
@@ -38,7 +39,7 @@ export function schemaLocalbusiness(s: SiteConfig): string {
   // twin (replace on a .png name is a no-op), which rich-results parsers
   // handle more reliably; sites without media.logo keep the shared favicon.
   const logoUrl = s.media?.logo
-    ? `${s.url}/assets/img/logos/${s.media.logo.replace(/\.svg$/, '.png')}`
+    ? `${s.url}${siteLogoSrc(s).replace(/\.svg$/, '.png')}`
     : `${s.url}/assets/img/favicon.svg`;
   // A service area is not proof of business-premises coordinates.
   const geoLine = '';
@@ -54,7 +55,7 @@ export function schemaLocalbusiness(s: SiteConfig): string {
   ].filter(Boolean).join(',');
   return `<script type="application/ld+json">
 {"@context":"https://schema.org","@type":${q(bizType)},"@id":${q(s.url + '/#business')},
-"name":${q(plain(s.brand))},"url":${q(s.url)},${telephone}"email":${q(s.email)},"image":${q(s.url + '/assets/img/og-default.png')},"logo":${q(logoUrl)},
+"name":${q(plain(s.brand))},"url":${q(s.url)},${telephone}"email":${q(s.email)},"image":${q(siteOgImage(s))},"logo":${q(logoUrl)},
 "priceRange":"$$","areaServed":[${areaServed}],
 "address":{"@type":"PostalAddress",${addr}}${geoLine}}
 </script>`;
@@ -117,9 +118,9 @@ export function schemaBlogpost(
   const d = plain(desc);
   return `<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":${q(t)},"description":${q(d)},
-"image":${q(s.url + '/assets/img/og-default.png')},"datePublished":${q(date)},"dateModified":${q(date)},"url":${q(s.url + url)},
+"image":${q(siteOgImage(s))},"datePublished":${q(date)},"dateModified":${q(date)},"url":${q(s.url + url)},
 "mainEntityOfPage":{"@type":"WebPage","@id":${q(s.url + url)}},
 "author":{"@type":"Organization","name":${q(plain(s.brand))}},
-"publisher":{"@type":"Organization","name":${q(plain(s.brand))},"url":${q(s.url)},"logo":{"@type":"ImageObject","url":${q(s.media?.logo ? `${s.url}/assets/img/logos/${s.media.logo.replace(/\.svg$/, '.png')}` : `${s.url}/assets/img/favicon.svg`)}}}}
+"publisher":{"@type":"Organization","name":${q(plain(s.brand))},"url":${q(s.url)},"logo":{"@type":"ImageObject","url":${q(s.media?.logo ? `${s.url}${siteLogoSrc(s).replace(/\.svg$/, '.png')}` : `${s.url}/assets/img/favicon.svg`)}}}}
 </script>`;
 }

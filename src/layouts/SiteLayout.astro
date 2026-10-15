@@ -5,6 +5,7 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { loadSite } from '../lib/load-site';
+import { siteLogoSrc, siteOgImage } from '../lib/logo-asset';
 
 export interface Props {
   title: string;
@@ -35,12 +36,12 @@ const robotsVal = robots ?? (site.noindex ? 'noindex, nofollow' : 'index, follow
 
 const canonical = site.url + path;
 const sb = schemaBlocks.join('\n');
-const img = ogImage || site.ogImage;
+const img = ogImage || siteOgImage(site);
 // Per-site favicon: if the site has its own logo badge (the 29 new + 2 migrated
 // sites with media.logo set), serve that as the PNG favicon + apple-touch-icon
 // so the browser tab matches the in-page brand. Sites without media.logo (the
 // original 74) fall back to the shared favicon.ico / favicon.svg / apple-touch.
-const logoHref = site.media?.logo ? `/assets/img/logos/${site.media.logo}` : null;
+const logoHref = site.media?.logo ? siteLogoSrc(site) : null;
 const FAVICON = site.enquirySite
   ? `<link rel="icon" href="/assets/wordmarks/${site.domain}-favicon.svg" type="image/svg+xml">`
   : logoHref
